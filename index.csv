@@ -1,0 +1,1105 @@
+id,chapter,chapter_title,subtopic,source_test,paper,section,qno,type,answer,answer_src,has_figure,passage,duplicate_of,also_in,difficulty,difficulty_band,diff_parts
+SI12-P2-PHY-S1-Q07,P01,Kinematics,Projectile motion,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,7,single,A,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+SI12-P2-PHY-S1-Q08,P01,Kinematics,Projectile motion,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,8,single,B,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+SI12-P2-PHY-S2-Q05,P01,Kinematics,Projectile motion,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),5,numerical,200.00,key,1,,,,6,Hard,K1 S3 I1 C1 F1
+SI12-P2-PHY-S3-Q07,P01,Kinematics,River-boat problems,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),7,matching,"P 1, Q 3, R 2",key,1,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS02-P1-PHY-S1-Q01,P01,Kinematics,1D and 2D motion,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),1,single,B,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS02-P1-PHY-S1-Q06,P01,Kinematics,Projectile motion,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),6,single,B,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS02-P1-PHY-S2-Q10,P01,Kinematics,Relative motion,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),10,multi,"A,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS02-P1-PHY-S2-Q11,P01,Kinematics,Projectile motion,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),11,multi,"A,C,D",key,1,,,,6,Hard,K1 S4 I0 C1 F1
+TOAS02-P1-PHY-S3-Q02,P01,Kinematics,1D and 2D motion,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,2,numerical,162,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS03-P1-PHY-S1-Q06,P01,Kinematics,1D and 2D motion,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),6,single,D,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS03-P1-PHY-S2-Q12,P01,Kinematics,1D and 2D motion,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),12,multi,"C,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P1-PHY-S3-Q06,P01,Kinematics,Relative motion,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,6,numerical,1.50,key,0,,,,4,Medium,K1 S2 I0 C1 F1
+TOAS03-P2-PHY-S2-Q01,P01,Kinematics,Projectile motion,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,1,numerical,2.40,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P2-PHY-S2-Q04,P01,Kinematics,Projectile motion,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,4,numerical,25.00,key,1,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS07-P1-PHY-S3-Q01,P01,Kinematics,Projectile motion,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),1,numerical,1.20,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-PHY-S3-Q02,P01,Kinematics,Projectile motion,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),2,numerical,48.00,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+SI12-P2-PHY-S1-Q03,P02,NLM,Pulley systems,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,3,single,B,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+SI12-P2-PHY-S1-Q04,P02,NLM,Pulley systems,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,4,single,D,key,0,yes,,,7,Hard,K2 S4 I1 C1 F0
+TOAS03-P1-PHY-S1-Q05,P02,NLM,Newton's laws,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),5,single,B,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS03-P1-PHY-S2-Q11,P02,NLM,Friction,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),11,multi,"A,B,D",key,1,,,,7,Hard,K2 S4 I0 C1 F1
+TOAS03-P1-PHY-S3-Q05,P02,NLM,Pulley systems,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,5,numerical,3.33,solved,1,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS03-P2-PHY-S1-Q03,P02,NLM,Friction,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,3,multi,"B,C,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS03-P2-PHY-S2-Q06,P02,NLM,Friction,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,6,numerical,7.50,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-PHY-S3-Q02,P02,NLM,Friction,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,2,numerical,9,key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS04-P1-PHY-S2-Q05,P02,NLM,Circular dynamics,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),5,multi,"A,B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P2-PHY-S1-Q02,P02,NLM,Circular dynamics,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),2,multi,"B,C,D",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P2-PHY-S2-Q07,P02,NLM,Constraints,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),7,single,D,key,0,yes,,,7,Hard,K3 S3 I2 C0 F0
+TOAS04-P2-PHY-S2-Q08,P02,NLM,Constraints,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),8,single,D,key,0,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS04-P2-PHY-S2-Q09,P02,NLM,Circular dynamics,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),9,single,A,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS04-P2-PHY-S2-Q10,P02,NLM,Circular dynamics,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),10,single,B,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS04-P2-PHY-S3-Q01,P02,NLM,Circular dynamics,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),1,numerical,1.50,key,0,yes,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS04-P2-PHY-S3-Q02,P02,NLM,Circular dynamics,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),2,numerical,0.66 to 0.67,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P2-PHY-S4-Q07,P02,NLM,Circular dynamics,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),7,numerical,3,key,1,,,,9,Very hard,K3 S3 I2 C1 F1
+TOAS05-P1-PHY-S1-Q01,P02,NLM,Circular dynamics,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),1,multi,"A,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P1-PHY-S1-Q02,P02,NLM,Circular dynamics,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),2,multi,"A,C,D",key,1,,,,7,Hard,K2 S4 I0 C1 F1
+TOAS05-P1-PHY-S1-Q03,P02,NLM,Circular dynamics,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),3,multi,"B,C",key,1,,,,6,Hard,K2 S4 I0 C0 F1
+TOAS05-P2-PHY-S1-Q11,P02,NLM,Circular dynamics,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,11,single,B,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS06-P1-PHY-S2-Q07,P02,NLM,Circular dynamics,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),7,multi,"A,D",key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS06-P1-PHY-S2-Q08,P02,NLM,Circular dynamics,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),8,multi,"B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS06-P1-PHY-S3-Q04,P02,NLM,Circular dynamics,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,4,numerical,7.00,key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+SI12-P1-PHY-S2-Q05,P03,WPE,Work,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),5,numerical,2.00,key,0,,,,2,Easy,K1 S1 I0 C0 F1
+SI12-P2-PHY-S1-Q01,P03,WPE,Potential energy curves,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,1,single,C,key,0,yes,,,6,Hard,K2 S4 I0 C1 F0
+SI12-P2-PHY-S1-Q02,P03,WPE,Potential energy curves,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,2,single,A,key,0,yes,,,6,Hard,K2 S4 I0 C1 F0
+TOAS04-P1-PHY-S1-Q03,P03,WPE,Energy,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),3,single,C,key,1,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS04-P1-PHY-S1-Q04,P03,WPE,Power,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),4,single,B,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS04-P1-PHY-S2-Q06,P03,WPE,Energy,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),6,multi,D,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-PHY-S1-Q03,P03,WPE,Work,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),3,multi,"A,C",key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS05-P1-PHY-S1-Q04,P03,WPE,Energy,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),4,multi,"B,D",key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P1-PHY-S3-Q01,P03,WPE,Work,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,1,numerical,18.00,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P2-PHY-S1-Q07,P03,WPE,Power,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,7,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-PHY-S1-Q08,P03,WPE,Energy,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,8,single,B,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-PHY-S1-Q10,P03,WPE,Work,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,10,single,A,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-PHY-S1-Q12,P03,WPE,Work,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,12,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-PHY-S1-Q14,P03,WPE,Conservative forces,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,14,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-PHY-S2-Q09,P03,WPE,Work,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,9,numerical,10,key,1,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS06-P1-PHY-S3-Q03,P03,WPE,Work,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,3,numerical,15.00,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-PHY-S3-Q08,P04,COM,Collisions,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),8,numerical,4,key,1,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS02-P1-PHY-S2-Q09,P04,COM,Collisions,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),9,multi,"B,C",key,1,,,,6,Hard,K3 S3 I0 C0 F1
+TOAS04-P1-PHY-S1-Q02,P04,COM,Momentum,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),2,single,C,key,1,,,,4,Medium,K2 S3 I0 C0 F0
+TOAS07-P1-PHY-S1-Q01,P04,COM,Variable mass,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),1,single,A,key,1,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS07-P1-PHY-S2-Q05,P04,COM,Centre of mass,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),5,multi,"B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P1-PHY-S2-Q10,P04,COM,Centre of mass,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),10,multi,"B,C,D",key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS07-P2-PHY-S3-Q03,P04,COM,Centre of mass,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),3,numerical,-46.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-PHY-S3-Q04,P04,COM,Centre of mass,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),4,numerical,19.67,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-PHY-S3-Q05,P04,COM,Collisions,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),5,numerical,2.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-PHY-S3-Q06,P04,COM,Collisions,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),6,numerical,4.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-PHY-S4-Q09,P04,COM,Centre of mass,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),9,numerical,3,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P1-PHY-S1-Q02,P04,COM,Collisions,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),2,multi,"A,B,C",key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P1-PHY-S3-Q07,P04,COM,Collisions,TOAS - Test 08 (15 May 2022),1,SECTION-II,7,numerical,1.50,key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S2-Q08,P04,COM,Collisions,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),8,single,B,key,1,,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P2-PHY-S2-Q09,P04,COM,Variable mass,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),9,single,B,key,1,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS08-P2-PHY-S3-Q05,P04,COM,Collisions,TOAS - Test 08 (15 May 2022),2,SECTION-II,5,numerical,0.60,key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S3-Q06,P04,COM,Momentum,TOAS - Test 08 (15 May 2022),2,SECTION-II,6,numerical,0.67,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-PHY-S1-Q06,P05,RBD,Torque,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,6,multi,"A,B",key,1,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS03-P2-PHY-S2-Q02,P05,RBD,Rotational kinematics,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,2,numerical,15.00,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P2-PHY-S3-Q03,P05,RBD,Torque,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),3,numerical,1.00,key,0,yes,,,5,Medium,K2 S2 I1 C0 F1
+TOAS04-P2-PHY-S3-Q04,P05,RBD,Torque,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),4,numerical,1.24,key,0,yes,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS06-P1-PHY-S2-Q10,P05,RBD,Torque,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),10,multi,"A,C,D",key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS09-P1-PHY-S1-Q01,P05,RBD,Moment of inertia,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),1,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P1-PHY-S3-Q01,P05,RBD,Angular momentum,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),1,numerical,8.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-PHY-S3-Q02,P05,RBD,Angular momentum,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),2,numerical,38.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-PHY-S1-Q14,P05,RBD,Rotational kinematics,TOAS - Test 09 (30 May 2022),2,SECTION-I,14,single,C,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S1-Q15,P05,RBD,Torque,TOAS - Test 09 (30 May 2022),2,SECTION-I,15,single,A,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S1-Q16,P05,RBD,Rolling,TOAS - Test 09 (30 May 2022),2,SECTION-I,16,single,D,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S2-Q07,P05,RBD,Moment of inertia,TOAS - Test 09 (30 May 2022),2,SECTION-II,7,numerical,2,solved,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-PHY-S2-Q08,P05,RBD,Torque,TOAS - Test 09 (30 May 2022),2,SECTION-II,8,numerical,1500,solved,1,,,,8,Very hard,K3 S3 I1 C1 F1
+SI12-P1-PHY-S3-Q06,P06,Gravitation,Field and potential,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),6,numerical,4,key,0,,,,2,Easy,K1 S1 I0 C0 F1
+TOAS08-P1-PHY-S1-Q05,P06,Gravitation,Field and potential,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),5,multi,"C,D",key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS08-P1-PHY-S3-Q02,P06,Gravitation,Escape velocity,TOAS - Test 08 (15 May 2022),1,SECTION-II,2,numerical,20.00,key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S3-Q04,P06,Gravitation,Field and potential,TOAS - Test 08 (15 May 2022),2,SECTION-II,4,numerical,29.53 to 29.55,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P2-PHY-S3-Q07,P06,Gravitation,Satellites,TOAS - Test 08 (15 May 2022),2,SECTION-II,7,numerical,58.00,key,0,,,,10,Very hard,K3 S4 I2 C1 F1
+TOAS08-P2-PHY-S3-Q08,P06,Gravitation,Kepler's laws,TOAS - Test 08 (15 May 2022),2,SECTION-II,8,numerical,2.25,key,1,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS09-P1-PHY-S2-Q08,P06,Gravitation,Satellites,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),8,multi,"A,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-PHY-S2-Q09,P06,Gravitation,Field and potential,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),9,multi,"B,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-PHY-S4-Q07,P06,Gravitation,Escape velocity,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),7,numerical,7,key,1,,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-PHY-S1-Q07,P06,Gravitation,Field and potential,TOAS - Test 09 (30 May 2022),2,SECTION-I,7,single,D,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-PHY-S1-Q08,P06,Gravitation,Field and potential,TOAS - Test 09 (30 May 2022),2,SECTION-I,8,single,A,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-PHY-S1-Q19,P06,Gravitation,Escape velocity,TOAS - Test 09 (30 May 2022),2,SECTION-I,19,single,A,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S2-Q01,P06,Gravitation,Field and potential,TOAS - Test 09 (30 May 2022),2,SECTION-II,1,numerical,11,solved,0,,,,10,Very hard,K3 S4 I2 C1 F1
+TOAS09-P2-PHY-S2-Q02,P06,Gravitation,Field and potential,TOAS - Test 09 (30 May 2022),2,SECTION-II,2,numerical,2,solved,1,,,,8,Very hard,K3 S3 I1 C1 F1
+SI12-P1-PHY-S1-Q04,P07,Fluids,Viscosity,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,4,multi,"B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P2-PHY-S2-Q01,P07,Fluids,Surface tension,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),1,numerical,1.50,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P2-PHY-S2-Q02,P07,Fluids,Viscosity,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),2,numerical,2.00,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-PHY-S1-Q03,P07,Fluids,Pressure,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),3,single,A,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P1-PHY-S1-Q04,P07,Fluids,Buoyancy,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),4,single,A,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P1-PHY-S2-Q08,P07,Fluids,Viscosity,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),8,multi,"A,B,C",key,1,,,,6,Hard,K2 S3 I0 C1 F1
+TOAS01-P1-PHY-S2-Q09,P07,Fluids,Viscosity,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),9,multi,"B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS01-P1-PHY-S2-Q10,P07,Fluids,Buoyancy,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),10,multi,"B,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS01-P1-PHY-S3-Q01,P07,Fluids,Bernoulli,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),1,numerical,10,solved,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-PHY-S3-Q02,P07,Fluids,Bernoulli,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),2,numerical,205 to 210,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS01-P2-PHY-S1-Q01,P07,Fluids,Pressure,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,1,single,B,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-PHY-S1-Q04,P07,Fluids,Pressure,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,4,single,B,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-PHY-S1-Q07,P07,Fluids,Pressure,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,7,single,A,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P2-PHY-S1-Q16,P07,Fluids,Buoyancy,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,16,single,B,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P2-PHY-S1-Q18,P07,Fluids,Buoyancy,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,18,single,B,key,0,,,,3,Easy,K2 S2 I0 C0 F0
+TOAS01-P2-PHY-S1-Q20,P07,Fluids,Buoyancy,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,20,single,C,key,1,,,,3,Easy,K2 S1 I1 C0 F0
+TOAS01-P2-PHY-S2-Q01,P07,Fluids,Buoyancy,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,1,numerical,45,key,1,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS01-P2-PHY-S2-Q02,P07,Fluids,Bernoulli,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,2,numerical,1,key,1,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS01-P2-PHY-S2-Q05,P07,Fluids,Surface tension,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,5,numerical,0.50,key,1,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P2-PHY-S2-Q06,P07,Fluids,Surface tension,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,6,numerical,1130,key,0,,,,4,Medium,K2 S2 I0 C0 F1
+TOAS01-P2-PHY-S2-Q07,P07,Fluids,Surface tension,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,7,numerical,1.50,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS01-P2-PHY-S2-Q09,P07,Fluids,Viscosity,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,9,numerical,0.03 to 0.04,key,1,,,,4,Medium,K2 S2 I0 C0 F1
+TOAS04-P1-PHY-S4-Q08,P08,Electrostatics,Coulomb's law,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),8,numerical,225,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P2-PHY-S1-Q04,P08,Electrostatics,Electric field,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),4,multi,"A,C,D",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P2-PHY-S1-Q05,P08,Electrostatics,Gauss's law,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),5,multi,"A,C",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P1-PHY-S1-Q05,P08,Electrostatics,Electric field,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),5,multi,"B,D",key,1,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS05-P1-PHY-S1-Q06,P08,Electrostatics,Electric field,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),6,multi,"A,C",key,1,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS05-P1-PHY-S3-Q05,P08,Electrostatics,Electric field,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,5,numerical,3.50,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-PHY-S1-Q01,P08,Electrostatics,Gauss's law,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,1,single,A,key,0,,,,4,Medium,K1 S3 I0 C1 F0
+TOAS05-P2-PHY-S1-Q02,P08,Electrostatics,Coulomb's law,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,2,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-PHY-S1-Q03,P08,Electrostatics,Gauss's law,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,3,single,A,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-PHY-S1-Q05,P08,Electrostatics,Electric field,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,5,single,C,key,1,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS05-P2-PHY-S1-Q16,P08,Electrostatics,Electric field,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,16,single,B,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-PHY-S2-Q01,P08,Electrostatics,Gauss's law,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,1,numerical,16,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS06-P1-PHY-S1-Q01,P08,Electrostatics,Electric potential,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),1,single,A,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS06-P1-PHY-S1-Q02,P08,Electrostatics,Electric potential,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),2,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS06-P1-PHY-S1-Q03,P08,Electrostatics,Conductors,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),3,single,C,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS06-P1-PHY-S2-Q06,P08,Electrostatics,Conductors,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),6,multi,"A,C,D",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS06-P1-PHY-S2-Q11,P08,Electrostatics,Dipoles,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),11,multi,"A,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS06-P1-PHY-S2-Q12,P08,Electrostatics,Electric field,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),12,multi,"A,D",key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS06-P1-PHY-S3-Q02,P08,Electrostatics,Electric field,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,2,numerical,9.00,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS06-P1-PHY-S3-Q06,P08,Electrostatics,Gauss's law,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,6,numerical,0.00,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-PHY-S1-Q02,P08,Electrostatics,Electric potential,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),2,single,C,key,1,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS07-P1-PHY-S2-Q06,P08,Electrostatics,Electric potential,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),6,multi,"A,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P1-PHY-S2-Q07,P08,Electrostatics,Dipoles,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),7,multi,"A,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P1-PHY-S2-Q08,P08,Electrostatics,Electric potential,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),8,multi,"A,C",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS07-P1-PHY-S3-Q03,P08,Electrostatics,Electric field,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),3,numerical,4.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P1-PHY-S3-Q04,P08,Electrostatics,Electric field,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),4,numerical,1.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P1-PHY-S4-Q09,P08,Electrostatics,Electric field,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),9,numerical,2,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P2-PHY-S1-Q01,P08,Electrostatics,Dipoles,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),1,multi,"A,B",key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS07-P2-PHY-S1-Q03,P08,Electrostatics,Dipoles,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),3,multi,"A,B,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-PHY-S3-Q01,P08,Electrostatics,Electric field,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),1,numerical,2.00,key,0,yes,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS07-P2-PHY-S3-Q02,P08,Electrostatics,Electric field,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),2,numerical,4.00,key,1,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P2-PHY-S4-Q07,P08,Electrostatics,Electric potential,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),7,numerical,6,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P2-PHY-S4-Q08,P08,Electrostatics,Coulomb's law,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),8,numerical,4,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS08-P1-PHY-S1-Q01,P08,Electrostatics,Coulomb's law,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),1,multi,"A,B",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P1-PHY-S1-Q06,P08,Electrostatics,Conductors,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),6,multi,"A,B,C,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P1-PHY-S2-Q07,P08,Electrostatics,Electric field,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),7,single,B,key,0,yes,,,5,Medium,K1 S3 I1 C1 F0
+TOAS08-P1-PHY-S2-Q08,P08,Electrostatics,Electric field,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),8,single,C,key,0,yes,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P1-PHY-S3-Q04,P08,Electrostatics,Electric field,TOAS - Test 08 (15 May 2022),1,SECTION-II,4,numerical,24.00,key,0,,,,8,Very hard,K1 S4 I2 C1 F1
+TOAS08-P1-PHY-S3-Q06,P08,Electrostatics,Dipoles,TOAS - Test 08 (15 May 2022),1,SECTION-II,6,numerical,1.01,key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S1-Q01,P08,Electrostatics,Conductors,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),1,multi,"A,B,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-PHY-S1-Q04,P08,Electrostatics,Electric field,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),4,multi,"A,C,D",key,1,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS08-P2-PHY-S1-Q06,P08,Electrostatics,Electric field,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),6,multi,"A,D",key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S2-Q07,P08,Electrostatics,Conductors,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),7,single,A,key,1,,,,8,Very hard,K2 S4 I2 C1 F0
+TOAS08-P2-PHY-S3-Q02,P08,Electrostatics,Gauss's law,TOAS - Test 08 (15 May 2022),2,SECTION-II,2,numerical,3.73 to 3.75,key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS09-P1-PHY-S2-Q05,P08,Electrostatics,Gauss's law,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),5,multi,"A,B,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-PHY-S2-Q07,P08,Electrostatics,Dipoles,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),7,multi,"A,B",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-PHY-S4-Q08,P08,Electrostatics,Gauss's law,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),8,numerical,3,key,0,,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-PHY-S1-Q09,P08,Electrostatics,Gauss's law,TOAS - Test 09 (30 May 2022),2,SECTION-I,9,single,B,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-PHY-S1-Q10,P08,Electrostatics,Gauss's law,TOAS - Test 09 (30 May 2022),2,SECTION-I,10,single,B,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-PHY-S1-Q11,P08,Electrostatics,Electric potential,TOAS - Test 09 (30 May 2022),2,SECTION-I,11,single,A,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-PHY-S1-Q12,P08,Electrostatics,Electric potential,TOAS - Test 09 (30 May 2022),2,SECTION-I,12,single,B,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S1-Q13,P08,Electrostatics,Electric potential,TOAS - Test 09 (30 May 2022),2,SECTION-I,13,single,A,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S1-Q18,P08,Electrostatics,Conductors,TOAS - Test 09 (30 May 2022),2,SECTION-I,18,single,C,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S2-Q03,P08,Electrostatics,Electric potential,TOAS - Test 09 (30 May 2022),2,SECTION-II,3,numerical,0,solved,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-PHY-S2-Q04,P08,Electrostatics,Electric potential,TOAS - Test 09 (30 May 2022),2,SECTION-II,4,numerical,100,solved,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-PHY-S2-Q10,P08,Electrostatics,Conductors,TOAS - Test 09 (30 May 2022),2,SECTION-II,10,numerical,2,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-PHY-S3-Q07,P09,Capacitance,Combinations,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),7,numerical,2,key,1,,,,6,Hard,K2 S3 I0 C1 F1
+SI12-P1-PHY-S1-Q01,P10,Current Electricity,Meters,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,1,multi,"B,C,D",key,1,,,,5,Medium,K2 S2 I1 C0 F1
+SI12-P1-PHY-S3-Q09,P10,Current Electricity,Kirchhoff's laws,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),9,numerical,2,key,1,,,,5,Medium,K1 S3 I0 C1 F1
+SI12-P2-PHY-S1-Q05,P10,Current Electricity,Meters,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,5,single,C,key,0,yes,,,6,Hard,K2 S4 I0 C1 F0
+SI12-P2-PHY-S1-Q06,P10,Current Electricity,Meters,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,6,single,C,key,0,yes,,,6,Hard,K2 S4 I0 C1 F0
+TOAS08-P1-PHY-S1-Q04,P10,Current Electricity,Kirchhoff's laws,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),4,multi,"A,B",key,1,,,,7,Hard,K2 S4 I0 C1 F1
+TOAS08-P1-PHY-S3-Q01,P10,Current Electricity,Meters,TOAS - Test 08 (15 May 2022),1,SECTION-II,1,numerical,15.00,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS08-P1-PHY-S3-Q05,P10,Current Electricity,Ohm's law,TOAS - Test 08 (15 May 2022),1,SECTION-II,5,numerical,70.00,key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S1-Q02,P10,Current Electricity,Kirchhoff's laws,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),2,multi,"A,C,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS09-P1-PHY-S1-Q02,P10,Current Electricity,Ohm's law,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),2,single,B,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P1-PHY-S1-Q04,P10,Current Electricity,Potentiometer,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),4,single,D,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P1-PHY-S2-Q06,P10,Current Electricity,Meters,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),6,multi,"A,B,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-PHY-S3-Q05,P10,Current Electricity,Kirchhoff's laws,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),5,numerical,1.33,key,0,yes,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P1-PHY-S3-Q06,P10,Current Electricity,Kirchhoff's laws,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),6,numerical,4.00,key,0,yes,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-PHY-S1-Q01,P10,Current Electricity,Kirchhoff's laws,TOAS - Test 09 (30 May 2022),2,SECTION-I,1,single,B,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-PHY-S1-Q02,P10,Current Electricity,Wheatstone bridge,TOAS - Test 09 (30 May 2022),2,SECTION-I,2,single,B,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-PHY-S1-Q03,P10,Current Electricity,Ohm's law,TOAS - Test 09 (30 May 2022),2,SECTION-I,3,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-PHY-S1-Q04,P10,Current Electricity,Kirchhoff's laws,TOAS - Test 09 (30 May 2022),2,SECTION-I,4,single,B,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-PHY-S1-Q05,P10,Current Electricity,Potentiometer,TOAS - Test 09 (30 May 2022),2,SECTION-I,5,single,D,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-PHY-S1-Q06,P10,Current Electricity,Kirchhoff's laws,TOAS - Test 09 (30 May 2022),2,SECTION-I,6,single,C,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-PHY-S2-Q09,P10,Current Electricity,Ohm's law,TOAS - Test 09 (30 May 2022),2,SECTION-II,9,numerical,5,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-PHY-S1-Q03,P11,Magnetism,Force on charges,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,3,multi,"A,C,D",key,1,,,,4,Medium,K2 S2 I0 C0 F1
+SI12-P1-PHY-S2-Q01,P11,Magnetism,Force on wires,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),1,numerical,1.00,key,1,,,,4,Medium,K2 S2 I0 C0 F1
+SI12-P2-PHY-S2-Q03,P11,Magnetism,Force on charges,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),3,numerical,2.50,key,1,,,,5,Medium,K2 S2 I1 C0 F1
+SI12-P2-PHY-S2-Q04,P11,Magnetism,Force on charges,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),4,numerical,6.02 to 6.03,key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+SI12-P1-PHY-S1-Q02,P12,EMI + AC,LC oscillations,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,2,multi,"A,B,C",key,1,,,,2,Easy,K1 S1 I0 C0 F1
+SI12-P1-PHY-S3-Q10,P12,EMI + AC,LC oscillations,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),10,numerical,6,key,1,,,,3,Easy,K1 S2 I0 C0 F1
+SI12-P2-PHY-S2-Q06,P12,EMI + AC,LCR circuits,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),6,numerical,20.00,key,1,,,,3,Easy,K1 S2 I0 C0 F1
+SI12-P2-PHY-S3-Q08,P12,EMI + AC,LCR circuits,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),8,matching,"P 3, Q 2, R 1",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P2-PHY-S3-Q09,P12,EMI + AC,LCR circuits,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),9,matching,"P 1, Q 1, R 3",key,1,,,,7,Hard,K3 S3 I1 C0 F1
+SI12-P1-PHY-S1-Q10,P15,Thermodynamics,Processes,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,10,multi,"A,B",key,1,,,,7,Hard,K2 S4 I0 C1 F1
+SI12-P1-PHY-S1-Q07,P17,SHM,Spring-mass,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,7,multi,"A,C,D",key,1,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-PHY-S1-Q01,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),1,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P1-PHY-S1-Q02,P17,SHM,Energy,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),2,single,D,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS01-P1-PHY-S2-Q05,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),5,multi,"C,D",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-PHY-S2-Q06,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),6,multi,A,key,1,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS01-P1-PHY-S2-Q07,P17,SHM,Energy,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),7,multi,"B,C,D",key,0,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS01-P1-PHY-S3-Q03,P17,SHM,Energy,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),3,numerical,4,solved,0,yes,,,2,Easy,K1 S1 I0 C0 F1
+TOAS01-P1-PHY-S3-Q04,P17,SHM,Energy,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),4,numerical,16,key,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-PHY-S3-Q05,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),5,numerical,15,solved,0,yes,,,4,Medium,K2 S2 I0 C0 F1
+TOAS01-P1-PHY-S3-Q06,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),6,numerical,2.11 to 2.13,key,0,yes,,,5,Medium,K2 S3 I0 C0 F1
+TOAS01-P1-PHY-S4-Q07,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),7,numerical,25,key,0,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS01-P1-PHY-S4-Q08,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),8,numerical,2,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-PHY-S4-Q09,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),9,numerical,2,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS01-P2-PHY-S1-Q02,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,2,single,A,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P2-PHY-S1-Q03,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,3,single,C,key,0,,,,2,Easy,K1 S1 I1 C0 F0
+TOAS01-P2-PHY-S1-Q05,P17,SHM,Energy,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,5,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-PHY-S1-Q06,P17,SHM,Energy,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,6,single,D,key,0,,,,2,Easy,K1 S1 I1 C0 F0
+TOAS01-P2-PHY-S1-Q08,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,8,single,D,key,1,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS01-P2-PHY-S1-Q09,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,9,single,B,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS01-P2-PHY-S1-Q10,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,10,single,A,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P2-PHY-S1-Q11,P17,SHM,Pendulums,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,11,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P2-PHY-S1-Q12,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,12,single,B,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-PHY-S1-Q13,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,13,single,D,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS01-P2-PHY-S1-Q14,P17,SHM,Energy,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,14,single,C,key,1,,,,4,Medium,K2 S3 I0 C0 F0
+TOAS01-P2-PHY-S1-Q15,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,15,single,C,key,1,,,,6,Hard,K3 S3 I1 C0 F0
+TOAS01-P2-PHY-S1-Q17,P17,SHM,Pendulums,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,17,single,C,key,1,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS01-P2-PHY-S1-Q19,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,19,single,D,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P2-PHY-S2-Q03,P17,SHM,Spring-mass,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,3,numerical,0.20,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P2-PHY-S2-Q04,P17,SHM,Pendulums,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,4,numerical,0.25,key,1,,,,4,Medium,K2 S2 I0 C0 F1
+TOAS01-P2-PHY-S2-Q08,P17,SHM,Pendulums,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,8,numerical,15,key,0,,,,4,Medium,K2 S2 I0 C0 F1
+TOAS01-P2-PHY-S2-Q10,P17,SHM,Pendulums,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,10,numerical,3,key,1,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS02-P1-PHY-S1-Q02,P17,SHM,Spring-mass,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),2,single,C,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS02-P1-PHY-S1-Q03,P17,SHM,Spring-mass,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),3,single,A,key,0,,,,5,Medium,K2 S2 I1 C1 F0
+TOAS02-P1-PHY-S2-Q12,P17,SHM,Spring-mass,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),12,multi,"B,C",key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS02-P1-PHY-S3-Q05,P17,SHM,Spring-mass,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,5,numerical,500,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P1-PHY-S1-Q02,P17,SHM,Energy,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),2,single,C,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS03-P1-PHY-S1-Q04,P17,SHM,Spring-mass,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),4,single,A,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS03-P1-PHY-S2-Q08,P17,SHM,Energy,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),8,multi,"A,D",key,1,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P1-PHY-S2-Q10,P17,SHM,Energy,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),10,multi,"A,B,C,D",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS03-P1-PHY-S3-Q02,P17,SHM,Pendulums,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,2,numerical,4.00,key,1,,,,4,Medium,K2 S2 I0 C0 F1
+TOAS03-P1-PHY-S3-Q04,P17,SHM,Spring-mass,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,4,numerical,2,solved,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-PHY-S1-Q01,P17,SHM,Spring-mass,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,1,multi,"A,B,D",key,1,,,,7,Hard,K2 S4 I0 C1 F1
+TOAS03-P2-PHY-S2-Q05,P17,SHM,Spring-mass,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,5,numerical,2.50,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-PHY-S3-Q05,P17,SHM,Energy,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,5,numerical,3,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS04-P1-PHY-S2-Q07,P17,SHM,Spring-mass,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),7,multi,"A,B,C",key,1,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS04-P1-PHY-S3-Q03,P17,SHM,Spring-mass,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),3,numerical,4.00,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P1-PHY-S3-Q04,P17,SHM,Spring-mass,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),4,numerical,5.50,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P1-PHY-S2-Q09,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),9,single,A,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P1-PHY-S2-Q10,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),10,single,B,key,0,,,,5,Medium,K1 S4 I1 C0 F0
+TOAS05-P1-PHY-S3-Q02,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,2,numerical,2.66 to 2.67,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P1-PHY-S3-Q06,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,6,numerical,9.00,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS05-P2-PHY-S1-Q04,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,4,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-PHY-S1-Q09,P17,SHM,Pendulums,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,9,single,B,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-PHY-S2-Q03,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,3,numerical,6,key,1,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS05-P2-PHY-S2-Q04,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,4,numerical,5,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-PHY-S2-Q07,P17,SHM,Spring-mass,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,7,numerical,3,solved,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-PHY-S2-Q10,P17,SHM,Pendulums,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,10,numerical,4,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS06-P1-PHY-S1-Q04,P17,SHM,Pendulums,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),4,single,C,key,1,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS07-P1-PHY-S1-Q03,P17,SHM,Spring-mass,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),3,single,D,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS07-P1-PHY-S2-Q09,P17,SHM,Spring-mass,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),9,multi,"A,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-PHY-S1-Q02,P17,SHM,Spring-mass,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),2,multi,"A,B",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P2-PHY-S1-Q04,P17,SHM,Spring-mass,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),4,multi,"B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-PHY-S1-Q03,P17,SHM,Spring-mass,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),3,single,C,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-PHY-S1-Q17,P17,SHM,Pendulums,TOAS - Test 09 (30 May 2022),2,SECTION-I,17,single,C,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+SI12-P1-PHY-S1-Q09,P18,Waves,Doppler effect,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,9,multi,"A,B",key,0,,,,3,Easy,K1 S1 I1 C0 F1
+SI12-P1-PHY-S2-Q04,P18,Waves,Standing waves,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),4,numerical,2.00,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+SI12-P1-PHY-S1-Q05,P19,Ray Optics,Lenses,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,5,multi,"A,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P2-PHY-S3-Q10,P19,Ray Optics,Reflection,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),10,matching,"P 3, Q 2, R 1",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-PHY-S1-Q04,P19,Ray Optics,Refraction,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),4,single,B,key,1,,,,4,Medium,K2 S3 I0 C0 F0
+TOAS02-P1-PHY-S1-Q05,P19,Ray Optics,Lenses,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),5,single,D,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS02-P1-PHY-S2-Q07,P19,Ray Optics,Refraction,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),7,multi,A,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-PHY-S2-Q08,P19,Ray Optics,Reflection,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),8,multi,A,key,1,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS02-P1-PHY-S3-Q01,P19,Ray Optics,Lenses,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,1,numerical,3,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-PHY-S3-Q03,P19,Ray Optics,Prisms,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,3,numerical,4,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS02-P1-PHY-S3-Q04,P19,Ray Optics,Reflection,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,4,numerical,3.46,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS02-P1-PHY-S3-Q06,P19,Ray Optics,Lenses,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,6,numerical,2.50,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P1-PHY-S1-Q01,P19,Ray Optics,Lenses,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),1,single,A,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS03-P1-PHY-S1-Q03,P19,Ray Optics,Refraction,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),3,single,C,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS03-P1-PHY-S2-Q07,P19,Ray Optics,Lenses,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),7,multi,"A,B,C",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P1-PHY-S2-Q09,P19,Ray Optics,Reflection,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),9,multi,"A,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P1-PHY-S3-Q01,P19,Ray Optics,Reflection,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,1,numerical,0.50,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P1-PHY-S3-Q03,P19,Ray Optics,Refraction,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,3,numerical,1.72 to 1.73,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS03-P2-PHY-S1-Q02,P19,Ray Optics,Lenses,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,2,multi,"A,B,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-PHY-S1-Q04,P19,Ray Optics,Lenses,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,4,multi,"A,B,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-PHY-S1-Q05,P19,Ray Optics,Prisms,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,5,multi,"A,B",key,1,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P2-PHY-S1-Q06,P19,Ray Optics,Lenses,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,6,multi,"A,C",key,1,,,,7,Hard,K2 S4 I0 C1 F1
+TOAS03-P2-PHY-S2-Q03,P19,Ray Optics,Refraction,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,3,numerical,0.37 to 0.40,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS03-P2-PHY-S3-Q01,P19,Ray Optics,Lenses,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,1,numerical,6,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-PHY-S3-Q03,P19,Ray Optics,Prisms,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,3,numerical,3,key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS03-P2-PHY-S3-Q04,P19,Ray Optics,Reflection,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,4,numerical,7,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS03-P2-PHY-S3-Q06,P19,Ray Optics,Reflection,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,6,numerical,9,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P1-PHY-S1-Q01,P19,Ray Optics,Refraction,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),1,single,A,key,1,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS04-P1-PHY-S2-Q08,P19,Ray Optics,Lenses,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),8,multi,"B,C,D",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-PHY-S2-Q09,P19,Ray Optics,Reflection,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),9,multi,"A,B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-PHY-S2-Q10,P19,Ray Optics,Reflection,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),10,multi,"A,C",key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P1-PHY-S3-Q01,P19,Ray Optics,Lenses,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),1,numerical,20.00,key,0,yes,,,2,Easy,K1 S1 I0 C0 F1
+TOAS04-P1-PHY-S3-Q02,P19,Ray Optics,Lenses,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),2,numerical,10.00,key,0,yes,,,5,Medium,K2 S2 I1 C0 F1
+TOAS04-P1-PHY-S3-Q05,P19,Ray Optics,Prisms,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),5,numerical,10.00,key,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS04-P1-PHY-S3-Q06,P19,Ray Optics,Prisms,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),6,numerical,2.50,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P1-PHY-S4-Q07,P19,Ray Optics,Lenses,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),7,numerical,35,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P1-PHY-S4-Q09,P19,Ray Optics,Reflection,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),9,numerical,60,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P2-PHY-S1-Q01,P19,Ray Optics,Refraction,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),1,multi,"A,B,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-PHY-S1-Q06,P19,Ray Optics,Lenses,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),6,multi,"A,C,D",key,1,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P2-PHY-S3-Q05,P19,Ray Optics,Prisms,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),5,numerical,1.73,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-PHY-S3-Q06,P19,Ray Optics,Prisms,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),6,numerical,41.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P2-PHY-S4-Q08,P19,Ray Optics,Reflection,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),8,numerical,12,key,1,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS04-P2-PHY-S4-Q09,P19,Ray Optics,Reflection,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),9,numerical,9,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P1-PHY-S1-Q07,P19,Ray Optics,Lenses,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),7,multi,"B,C",key,1,,,,6,Hard,K2 S3 I0 C1 F1
+TOAS05-P1-PHY-S1-Q08,P19,Ray Optics,Prisms,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),8,multi,"A,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P1-PHY-S2-Q11,P19,Ray Optics,Prisms,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),11,single,D,key,1,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS05-P1-PHY-S2-Q12,P19,Ray Optics,Prisms,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),12,single,B,key,1,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS05-P1-PHY-S3-Q03,P19,Ray Optics,Lenses,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,3,numerical,48.00,key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS05-P1-PHY-S3-Q04,P19,Ray Optics,Lenses,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,4,numerical,20.00,key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS05-P2-PHY-S1-Q06,P19,Ray Optics,Reflection,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,6,single,B,key,1,,,,4,Medium,K1 S3 I0 C1 F0
+TOAS05-P2-PHY-S1-Q13,P19,Ray Optics,Microscope and telescope,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,13,single,B,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS05-P2-PHY-S1-Q15,P19,Ray Optics,Lenses,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,15,single,B,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS05-P2-PHY-S1-Q17,P19,Ray Optics,Prisms,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,17,single,A,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-PHY-S1-Q18,P19,Ray Optics,Prisms,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,18,single,B,key,1,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS05-P2-PHY-S1-Q19,P19,Ray Optics,Refraction,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,19,single,B,key,1,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS05-P2-PHY-S1-Q20,P19,Ray Optics,Microscope and telescope,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,20,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-PHY-S2-Q02,P19,Ray Optics,Lenses,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,2,numerical,48,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P2-PHY-S2-Q05,P19,Ray Optics,Refraction,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,5,numerical,4,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P2-PHY-S2-Q06,P19,Ray Optics,Lenses,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,6,numerical,15,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P2-PHY-S2-Q08,P19,Ray Optics,Lenses,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,8,numerical,40,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS06-P1-PHY-S2-Q05,P19,Ray Optics,Lenses,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),5,multi,"A,B,C",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS06-P1-PHY-S2-Q09,P19,Ray Optics,Lenses,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),9,multi,"C,D",key,1,,,,8,Very hard,K2 S4 I2 C0 F1
+TOAS06-P1-PHY-S3-Q01,P19,Ray Optics,Lenses,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,1,numerical,24.00,key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS06-P1-PHY-S3-Q05,P19,Ray Optics,Lenses,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,5,numerical,8.00,key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS07-P1-PHY-S1-Q04,P19,Ray Optics,Lenses,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),4,single,C,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS07-P1-PHY-S3-Q05,P19,Ray Optics,Lenses,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),5,numerical,5.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P1-PHY-S3-Q06,P19,Ray Optics,Lenses,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),6,numerical,2.50,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P1-PHY-S4-Q07,P19,Ray Optics,Microscope and telescope,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),7,numerical,94,key,0,,,,6,Hard,K2 S3 I0 C1 F1
+TOAS07-P1-PHY-S4-Q08,P19,Ray Optics,Refraction,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),8,numerical,5,key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS07-P2-PHY-S1-Q05,P19,Ray Optics,Refraction,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),5,multi,"A,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P2-PHY-S1-Q06,P19,Ray Optics,Reflection,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),6,multi,A,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS07-P2-PHY-S2-Q07,P19,Ray Optics,Reflection,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),7,single,B,key,0,yes,,,4,Medium,K1 S3 I1 C0 F0
+TOAS07-P2-PHY-S2-Q08,P19,Ray Optics,Reflection,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),8,single,B,key,0,yes,,,5,Medium,K1 S3 I2 C0 F0
+TOAS07-P2-PHY-S2-Q09,P19,Ray Optics,Reflection,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),9,single,A,key,1,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS07-P2-PHY-S2-Q10,P19,Ray Optics,Reflection,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),10,single,D,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS08-P1-PHY-S1-Q03,P19,Ray Optics,Refraction,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),3,multi,"A,B,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P1-PHY-S2-Q09,P19,Ray Optics,Lenses,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),9,single,D,key,0,yes,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P1-PHY-S2-Q10,P19,Ray Optics,Lenses,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),10,single,C,key,0,yes,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P1-PHY-S3-Q03,P19,Ray Optics,Reflection,TOAS - Test 08 (15 May 2022),1,SECTION-II,3,numerical,21.00,key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P1-PHY-S3-Q08,P19,Ray Optics,Refraction,TOAS - Test 08 (15 May 2022),1,SECTION-II,8,numerical,40.00,key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-PHY-S1-Q03,P19,Ray Optics,Prisms,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),3,multi,"A,B,C",key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S1-Q05,P19,Ray Optics,Reflection,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),5,multi,"A,C",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P2-PHY-S2-Q10,P19,Ray Optics,Refraction,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),10,single,D,key,0,,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P2-PHY-S3-Q01,P19,Ray Optics,Refraction,TOAS - Test 08 (15 May 2022),2,SECTION-II,1,numerical,5.60,key,1,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-PHY-S3-Q03,P19,Ray Optics,Lenses,TOAS - Test 08 (15 May 2022),2,SECTION-II,3,numerical,13.50,key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS09-P1-PHY-S2-Q10,P19,Ray Optics,Refraction,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),10,multi,"B,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-PHY-S3-Q03,P19,Ray Optics,Lenses,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),3,numerical,26.67,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-PHY-S3-Q04,P19,Ray Optics,Lenses,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),4,numerical,12.50,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-PHY-S4-Q09,P19,Ray Optics,Refraction,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),9,numerical,6,key,1,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS09-P2-PHY-S1-Q20,P19,Ray Optics,Refraction,TOAS - Test 09 (30 May 2022),2,SECTION-I,20,single,D,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-PHY-S2-Q05,P19,Ray Optics,Refraction,TOAS - Test 09 (30 May 2022),2,SECTION-II,5,numerical,2,solved,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-PHY-S2-Q06,P19,Ray Optics,Prisms,TOAS - Test 09 (30 May 2022),2,SECTION-II,6,numerical,3,solved,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-PHY-S1-Q08,P20,Wave Optics,Interference,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,8,multi,"C,D",key,1,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-PHY-S2-Q02,P21,Modern Physics,Bohr model,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),2,numerical,5.00,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+SI12-P1-PHY-S2-Q03,P21,Modern Physics,Nuclear physics,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),3,numerical,4.00,key,1,,,,3,Easy,K1 S2 I0 C0 F1
+SI12-P2-MATH-S3-Q09,M01,Theory of Equations,Higher-degree equations,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),9,matching,"P 3, Q 2, R 1",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS01-P1-MATH-S1-Q02,M01,Theory of Equations,Location of roots,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),2,single,B,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS01-P1-MATH-S2-Q06,M01,Theory of Equations,Quadratics,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),6,multi,"A,C",key,0,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS01-P1-MATH-S4-Q08,M01,Theory of Equations,Higher-degree equations,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),8,numerical,729,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS01-P2-MATH-S1-Q03,M01,Theory of Equations,Quadratics,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,3,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-MATH-S1-Q14,M01,Theory of Equations,Quadratics,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,14,single,A,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS01-P2-MATH-S1-Q15,M01,Theory of Equations,Quadratics,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,15,single,C,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS01-P2-MATH-S2-Q09,M01,Theory of Equations,Higher-degree equations,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,9,numerical,5,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS02-P1-MATH-S2-Q11,M01,Theory of Equations,Higher-degree equations,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),11,multi,"A,C,D",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS05-P1-MATH-S1-Q08,M01,Theory of Equations,Higher-degree equations,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),8,multi,"A,B,C,D",key,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS05-P1-MATH-S2-Q09,M01,Theory of Equations,Higher-degree equations,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),9,single,D,key,0,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS05-P1-MATH-S2-Q10,M01,Theory of Equations,Higher-degree equations,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),10,single,A,key,0,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS06-P1-MATH-S3-Q02,M01,Theory of Equations,Location of roots,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,2,numerical,6.00,key,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS08-P2-MATH-S3-Q02,M01,Theory of Equations,Higher-degree equations,TOAS - Test 08 (15 May 2022),2,SECTION-II,2,numerical,3.20,key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS09-P1-MATH-S2-Q07,M01,Theory of Equations,Higher-degree equations,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),7,multi,D,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-MATH-S4-Q08,M01,Theory of Equations,Quadratics,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),8,numerical,2,key,0,,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-MATH-S1-Q18,M01,Theory of Equations,Higher-degree equations,TOAS - Test 09 (30 May 2022),2,SECTION-I,18,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+SI12-P1-MATH-S1-Q01,M02,Complex Numbers,De Moivre,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,1,multi,"A,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+SI12-P2-MATH-S2-Q04,M02,Complex Numbers,Geometry,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),4,single,12.00,key,0,,,,7,Hard,K2 S4 I1 C1 F0
+SI12-P2-MATH-S3-Q07,M03,Sequences & Series + Means,GP,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),7,matching,"P 3, Q 2, R 2",key,0,,,,7,Hard,K3 S2 I1 C1 F1
+TOAS01-P2-MATH-S1-Q04,M03,Sequences & Series + Means,AM-GM-HM,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,4,single,C,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS02-P1-MATH-S3-Q02,M03,Sequences & Series + Means,Special series,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,2,numerical,1.5,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS03-P1-MATH-S1-Q05,M03,Sequences & Series + Means,Special series,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),5,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS03-P1-MATH-S1-Q06,M03,Sequences & Series + Means,AP,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),6,single,D,key,0,,,,2,Easy,K1 S1 I0 C1 F0
+TOAS03-P1-MATH-S2-Q07,M03,Sequences & Series + Means,Special series,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),7,multi,"A,C,D",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS03-P1-MATH-S2-Q08,M03,Sequences & Series + Means,AM-GM-HM,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),8,multi,"C,D",key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P1-MATH-S3-Q05,M03,Sequences & Series + Means,HP,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,5,numerical,2.00,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P1-MATH-S3-Q06,M03,Sequences & Series + Means,GP,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,6,numerical,2.25,solved,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS03-P2-MATH-S1-Q04,M03,Sequences & Series + Means,AM-GM-HM,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,4,multi,"A,B,C",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-MATH-S1-Q06,M03,Sequences & Series + Means,AP,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,6,multi,"A,B,C",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P2-MATH-S2-Q05,M03,Sequences & Series + Means,GP,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,5,numerical,6.00,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-MATH-S2-Q06,M03,Sequences & Series + Means,AM-GM-HM,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,6,numerical,7.00,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS03-P2-MATH-S3-Q05,M03,Sequences & Series + Means,Special series,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,5,numerical,7,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS03-P2-MATH-S3-Q06,M03,Sequences & Series + Means,Special series,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,6,numerical,1,key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS04-P2-MATH-S2-Q09,M03,Sequences & Series + Means,Special series,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),9,single,D,key,0,yes,,,3,Easy,K1 S3 I0 C0 F0
+TOAS04-P2-MATH-S2-Q10,M03,Sequences & Series + Means,Special series,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),10,single,B,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS01-P1-MATH-S1-Q03,M04,PnC,Distributions,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),3,single,C,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS01-P1-MATH-S2-Q10,M04,PnC,Counting principles,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),10,multi,"A,B,C,D",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-MATH-S3-Q01,M04,PnC,Permutations,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),1,numerical,720,key,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-MATH-S3-Q02,M04,PnC,Permutations,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),2,numerical,360,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS01-P1-MATH-S4-Q07,M04,PnC,Counting principles,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),7,numerical,5,key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS01-P1-MATH-S4-Q09,M04,PnC,Counting principles,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),9,numerical,7,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS01-P2-MATH-S1-Q12,M04,PnC,Permutations,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,12,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-MATH-S1-Q13,M04,PnC,Counting principles,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,13,single,C,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS01-P2-MATH-S2-Q04,M04,PnC,Counting principles,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,4,numerical,8,solved,0,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS01-P2-MATH-S2-Q05,M04,PnC,Permutations,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,5,numerical,0,solved,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS01-P2-MATH-S2-Q06,M04,PnC,Counting principles,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,6,numerical,4,solved,0,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS01-P2-MATH-S2-Q07,M04,PnC,Combinations,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,7,numerical,309,solved,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS01-P2-MATH-S2-Q08,M04,PnC,Distributions,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,8,numerical,4,solved,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS02-P1-MATH-S3-Q01,M04,PnC,Counting principles,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,1,numerical,48,solved,0,,,,7,Hard,K1 S4 I1 C1 F1
+TOAS01-P1-MATH-S1-Q04,M05,BT,Multinomial,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),4,single,D,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS01-P1-MATH-S2-Q05,M05,BT,General term,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),5,multi,"B,C",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS01-P1-MATH-S2-Q07,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),7,multi,"A,C,D",key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS01-P1-MATH-S3-Q05,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),5,numerical,1,key,0,yes,,,7,Hard,K2 S3 I2 C0 F1
+TOAS01-P1-MATH-S3-Q06,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),6,numerical,2,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS01-P2-MATH-S1-Q06,M05,BT,General term,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,6,single,C,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS01-P2-MATH-S1-Q07,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,7,single,A,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS01-P2-MATH-S1-Q08,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,8,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-MATH-S1-Q09,M05,BT,General term,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,9,single,C,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-MATH-S1-Q10,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,10,single,D,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS01-P2-MATH-S1-Q11,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,11,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-MATH-S2-Q01,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,1,numerical,7,solved,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS01-P2-MATH-S2-Q02,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,2,numerical,5,solved,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS01-P2-MATH-S2-Q03,M05,BT,Coefficient problems,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,3,numerical,4,solved,0,,,,4,Medium,K2 S2 I0 C0 F1
+SI12-P1-MATH-S2-Q04,M06,Probability I + II,Classical probability,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),4,numerical,20.00,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+SI12-P1-MATH-S2-Q05,M06,Probability I + II,Bayes,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),5,numerical,48.78,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+SI12-P2-MATH-S1-Q03,M06,Probability I + II,Classical probability,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,3,single,B,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+SI12-P2-MATH-S1-Q04,M06,Probability I + II,Classical probability,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,4,single,C,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+SI12-P1-MATH-S1-Q08,M07,Matrices,Operations,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,8,multi,"A,B,D",key,0,,,,5,Medium,K1 S3 I0 C1 F1
+SI12-P1-MATH-S1-Q09,M07,Matrices,Linear systems,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,9,multi,"B,C,D",key,0,,,,4,Medium,K1 S2 I1 C0 F1
+SI12-P2-MATH-S2-Q06,M07,Matrices,Operations,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),6,single,1.00,key,0,,,,6,Hard,K2 S3 I2 C0 F0
+SI12-P1-MATH-S2-Q02,M08,Determinants,Properties,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),2,numerical,1.50,key,0,,,,5,Medium,K1 S2 I1 C1 F1
+TOAS07-P1-MATH-S1-Q02,M08,Determinants,Properties,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),2,single,B,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS07-P2-MATH-S4-Q08,M08,Determinants,Properties,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),8,numerical,64,key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS01-P1-MATH-S2-Q09,M10,Logarithms,Properties,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),9,multi,"A,B",key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS01-P2-MATH-S2-Q10,M10,Logarithms,Equations and inequalities,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,10,numerical,7,solved,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-MATH-S1-Q06,M10,Logarithms,Equations and inequalities,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),6,single,C,key,0,,,,6,Hard,K2 S3 I2 C0 F0
+TOAS02-P1-MATH-S2-Q10,M10,Logarithms,Equations and inequalities,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),10,multi,"A,C,D",key,0,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS02-P1-MATH-S3-Q03,M10,Logarithms,Properties,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,3,numerical,1,solved,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS03-P1-MATH-S2-Q12,M10,Logarithms,Properties,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),12,multi,"A,B,C,D",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-MATH-S3-Q03,M11,Trig Ratios & Transformation,Identities,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),3,numerical,4,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS01-P1-MATH-S3-Q04,M11,Trig Ratios & Transformation,Identities,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),4,numerical,0,key,0,yes,,,9,Very hard,K3 S4 I1 C1 F1
+TOAS03-P1-MATH-S1-Q04,M11,Trig Ratios & Transformation,Compound and multiple angles,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),4,single,A,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS04-P2-MATH-S2-Q07,M11,Trig Ratios & Transformation,Identities,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),7,single,D,key,0,yes,,,6,Hard,K1 S3 I2 C1 F0
+TOAS04-P2-MATH-S2-Q08,M11,Trig Ratios & Transformation,Identities,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),8,single,C,key,0,yes,,,6,Hard,K2 S3 I2 C0 F0
+TOAS04-P2-MATH-S3-Q03,M11,Trig Ratios & Transformation,Transformations,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),3,numerical,0.75,key,0,yes,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS04-P2-MATH-S3-Q04,M11,Trig Ratios & Transformation,Transformations,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),4,numerical,2.00,key,0,yes,,,6,Hard,K1 S3 I2 C0 F1
+TOAS05-P2-MATH-S1-Q14,M11,Trig Ratios & Transformation,Compound and multiple angles,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,14,single,C,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-MATH-S1-Q15,M11,Trig Ratios & Transformation,Identities,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,15,single,C,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS05-P2-MATH-S1-Q16,M11,Trig Ratios & Transformation,Compound and multiple angles,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,16,single,D,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS04-P1-MATH-S1-Q04,M12,Trig Functions & Equations,Trig inequalities,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),4,single,C,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS05-P1-MATH-S2-Q11,M12,Trig Functions & Equations,General solutions,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),11,single,B,key,0,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS05-P1-MATH-S2-Q12,M12,Trig Functions & Equations,General solutions,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),12,single,D,key,0,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS05-P1-MATH-S3-Q06,M12,Trig Functions & Equations,General solutions,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,6,numerical,0.00,key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS05-P2-MATH-S1-Q17,M12,Trig Functions & Equations,General solutions,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,17,single,C,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-MATH-S1-Q18,M12,Trig Functions & Equations,General solutions,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,18,single,C,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS05-P2-MATH-S1-Q19,M12,Trig Functions & Equations,General solutions,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,19,single,A,key,0,,,,6,Hard,K2 S3 I2 C0 F0
+SI12-P2-MATH-S3-Q08,M13,SOT,Sine and cosine rules,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),8,matching,"P 3, Q 2, R 1",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS01-P2-MATH-S1-Q01,M13,SOT,Area,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,1,single,C,key,1,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS05-P1-MATH-S1-Q02,M13,SOT,Sine and cosine rules,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),2,multi,"A,B,C",key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS05-P1-MATH-S1-Q03,M13,SOT,Sine and cosine rules,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),3,multi,"A,C",key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS05-P1-MATH-S1-Q07,M13,SOT,Sine and cosine rules,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),7,multi,A,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P1-MATH-S3-Q02,M13,SOT,Sine and cosine rules,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,2,numerical,8.33,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P2-MATH-S1-Q20,M13,SOT,Area,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,20,single,B,key,1,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS05-P2-MATH-S2-Q08,M13,SOT,Sine and cosine rules,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,8,numerical,786,solved,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P2-MATH-S2-Q09,M13,SOT,Circles of a triangle,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,9,numerical,2,solved,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS05-P2-MATH-S2-Q10,M13,SOT,Circles of a triangle,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,10,numerical,7,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P1-MATH-S1-Q01,M14,ITF,Principal values,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),1,single,A,key,0,,,,2,Easy,K1 S1 I1 C0 F0
+TOAS03-P1-MATH-S1-Q02,M14,ITF,Principal values,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),2,single,D,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS03-P1-MATH-S2-Q10,M14,ITF,Equations,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),10,multi,"A,C",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS03-P1-MATH-S2-Q11,M14,ITF,Identities,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),11,multi,"C,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P1-MATH-S3-Q03,M14,ITF,Identities,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,3,numerical,6.00,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P1-MATH-S3-Q04,M14,ITF,Identities,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,4,numerical,1.50,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-MATH-S1-Q02,M14,ITF,Equations,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,2,multi,"A,B",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS03-P2-MATH-S1-Q03,M14,ITF,Equations,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,3,multi,A,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-MATH-S2-Q03,M14,ITF,Identities,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,3,numerical,7.00,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P2-MATH-S2-Q04,M14,ITF,Identities,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,4,numerical,2.50,key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS03-P2-MATH-S3-Q03,M14,ITF,Equations,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,3,numerical,2,key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS03-P2-MATH-S3-Q04,M14,ITF,Principal values,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,4,numerical,2,key,0,,,,5,Medium,K2 S2 I1 C0 F1
+TOAS04-P1-MATH-S2-Q06,M14,ITF,Equations,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),6,multi,"A,B",key,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS04-P1-MATH-S2-Q10,M14,ITF,Identities,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),10,multi,"B,D",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS04-P1-MATH-S3-Q03,M14,ITF,Principal values,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),3,numerical,0.00,key,0,yes,,,5,Medium,K2 S2 I1 C0 F1
+TOAS04-P1-MATH-S3-Q04,M14,ITF,Principal values,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),4,numerical,1.00,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P1-MATH-S4-Q08,M14,ITF,Equations,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),8,numerical,4,key,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS04-P2-MATH-S1-Q04,M14,ITF,Principal values,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),4,multi,"A,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-MATH-S1-Q05,M14,ITF,Principal values,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),5,multi,"A,B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-MATH-S3-Q01,M14,ITF,Principal values,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),1,numerical,3.00,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-MATH-S3-Q02,M14,ITF,Principal values,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),2,numerical,0.00,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS05-P1-MATH-S1-Q06,M14,ITF,Equations,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),6,multi,"B,C",key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS05-P1-MATH-S3-Q01,M14,ITF,Identities,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,1,numerical,0.14,key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS05-P2-MATH-S1-Q02,M14,ITF,Principal values,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,2,single,A,key,0,,,,6,Hard,K2 S3 I2 C0 F0
+TOAS05-P2-MATH-S1-Q05,M14,ITF,Identities,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,5,single,B,key,0,,,,7,Hard,K2 S3 I2 C1 F0
+TOAS05-P2-MATH-S1-Q06,M14,ITF,Equations,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,6,single,A,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS05-P2-MATH-S1-Q07,M14,ITF,Equations,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,7,single,A,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-MATH-S2-Q01,M14,ITF,Identities,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,1,numerical,7,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P2-MATH-S2-Q02,M14,ITF,Principal values,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,2,numerical,2,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P2-MATH-S2-Q03,M14,ITF,Identities,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,3,numerical,1,solved,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS05-P2-MATH-S2-Q04,M14,ITF,Identities,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,4,numerical,3,solved,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS06-P1-MATH-S2-Q05,M14,ITF,Equations,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),5,multi,"A,C,D",key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS06-P1-MATH-S3-Q03,M14,ITF,Identities,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,3,numerical,0.25,key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS07-P1-MATH-S2-Q08,M14,ITF,Identities,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),8,multi,"A,B",key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS07-P1-MATH-S2-Q10,M14,ITF,Identities,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),10,multi,"A,B,D",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS07-P2-MATH-S1-Q02,M14,ITF,Principal values,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),2,multi,"A,B,D",key,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS07-P2-MATH-S1-Q04,M14,ITF,Principal values,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),4,multi,"B,C,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-MATH-S3-Q01,M14,ITF,Principal values,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),1,numerical,2.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P2-MATH-S3-Q02,M14,ITF,Principal values,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),2,numerical,0.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS08-P2-MATH-S3-Q03,M14,ITF,Identities,TOAS - Test 08 (15 May 2022),2,SECTION-II,3,numerical,2.00,key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS09-P1-MATH-S4-Q09,M14,ITF,Principal values,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),9,numerical,4,key,0,,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-MATH-S1-Q01,M14,ITF,Identities,TOAS - Test 09 (30 May 2022),2,SECTION-I,1,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-MATH-S1-Q17,M14,ITF,Principal values,TOAS - Test 09 (30 May 2022),2,SECTION-I,17,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+SI12-P2-MATH-S1-Q05,M15,Straight Line & Pair,Forms of lines,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,5,single,B,key,0,yes,,,7,Hard,K2 S3 I2 C1 F0
+SI12-P2-MATH-S1-Q06,M15,Straight Line & Pair,Forms of lines,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,6,single,D,key,0,yes,,,7,Hard,K2 S3 I2 C1 F0
+TOAS01-P2-MATH-S1-Q02,M15,Straight Line & Pair,Angle between lines,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,2,single,C,key,0,,,,7,Hard,K2 S3 I2 C1 F0
+TOAS01-P2-MATH-S1-Q05,M15,Straight Line & Pair,Locus,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,5,single,A,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS06-P1-MATH-S1-Q04,M15,Straight Line & Pair,Forms of lines,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),4,single,B,key,0,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS06-P1-MATH-S2-Q07,M15,Straight Line & Pair,Pair of lines,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),7,multi,"C,D",key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS06-P1-MATH-S2-Q09,M15,Straight Line & Pair,Forms of lines,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),9,multi,"A,C",key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS07-P2-MATH-S2-Q07,M15,Straight Line & Pair,Pair of lines,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),7,single,D,key,0,yes,,,7,Hard,K2 S4 I1 C1 F0
+TOAS07-P2-MATH-S2-Q08,M15,Straight Line & Pair,Pair of lines,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),8,single,C,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS09-P1-MATH-S3-Q01,M15,Straight Line & Pair,Locus,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),1,numerical,10.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-MATH-S3-Q02,M15,Straight Line & Pair,Locus,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),2,numerical,15.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-MATH-S1-Q02,M15,Straight Line & Pair,Forms of lines,TOAS - Test 09 (30 May 2022),2,SECTION-I,2,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-MATH-S1-Q12,M15,Straight Line & Pair,Pair of lines,TOAS - Test 09 (30 May 2022),2,SECTION-I,12,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+SI12-P1-MATH-S3-Q06,M16,Circles,Tangents,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),6,numerical,1,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-MATH-S3-Q07,M16,Circles,Family of circles,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),7,numerical,1,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+SI12-P2-MATH-S1-Q07,M16,Circles,Family of circles,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,7,single,C,key,0,yes,,,5,Medium,K2 S3 I1 C0 F0
+SI12-P2-MATH-S1-Q08,M16,Circles,Family of circles,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,8,single,A,key,0,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS06-P1-MATH-S1-Q03,M16,Circles,Tangents,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),3,single,C,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS06-P1-MATH-S2-Q06,M16,Circles,Family of circles,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),6,multi,"A,B",key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS06-P1-MATH-S3-Q05,M16,Circles,Tangents,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,5,numerical,1.87 or 1.88,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-MATH-S1-Q02,M17,Parabola,Tangents,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,2,multi,"A,B,C,D",key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS02-P1-MATH-S2-Q07,M17,Parabola,Tangents,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),7,multi,"B,C,D",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS02-P1-MATH-S2-Q08,M17,Parabola,Chords,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),8,multi,"B,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-MATH-S2-Q09,M18,Ellipse,Tangents,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),9,multi,"A,C",key,0,,,,6,Hard,K2 S2 I2 C0 F1
+TOAS02-P1-MATH-S3-Q05,M18,Ellipse,Normals,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,5,numerical,3.24,solved,0,,,,8,Very hard,K2 S4 I1 C1 F1
+SI12-P1-MATH-S1-Q03,M19,Hyperbola,Standard form,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,3,multi,"A,B,D",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS02-P1-MATH-S1-Q01,M19,Hyperbola,Asymptotes,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),1,single,C,key,0,,,,7,Hard,K2 S4 I1 C1 F0
+TOAS01-P1-MATH-S1-Q01,M20,Functions,Range,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),1,single,C,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS01-P1-MATH-S2-Q08,M20,Functions,Composition,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),8,multi,"A,B,C",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P2-MATH-S1-Q16,M20,Functions,Range,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,16,single,A,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS01-P2-MATH-S1-Q17,M20,Functions,Composition,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,17,single,C,key,0,,,,5,Medium,K1 S4 I1 C0 F0
+TOAS01-P2-MATH-S1-Q18,M20,Functions,Domain,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,18,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-MATH-S1-Q19,M20,Functions,Domain,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,19,single,C,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS01-P2-MATH-S1-Q20,M20,Functions,Modulus and greatest integer,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,20,single,A,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS02-P1-MATH-S1-Q02,M20,Functions,Range,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),2,single,B,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS02-P1-MATH-S1-Q03,M20,Functions,Composition,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),3,single,C,key,0,,,,5,Medium,K1 S3 I2 C0 F0
+TOAS02-P1-MATH-S1-Q04,M20,Functions,Range,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),4,single,C,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS02-P1-MATH-S1-Q05,M20,Functions,Modulus and greatest integer,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),5,single,C,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS02-P1-MATH-S2-Q12,M20,Functions,Modulus and greatest integer,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),12,multi,"A,B",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS02-P1-MATH-S3-Q04,M20,Functions,Periodicity,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,4,numerical,256,solved,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P1-MATH-S1-Q03,M20,Functions,Range,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),3,single,A,key,0,,,,6,Hard,K2 S3 I2 C0 F0
+TOAS03-P1-MATH-S2-Q09,M20,Functions,Domain,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),9,multi,"A,C,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P1-MATH-S3-Q01,M20,Functions,Composition,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,1,numerical,2.50,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P1-MATH-S3-Q02,M20,Functions,Domain,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,2,numerical,4.00,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-MATH-S1-Q01,M20,Functions,Composition,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,1,multi,"C,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-MATH-S1-Q05,M20,Functions,Range,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,5,multi,"A,B,C,D",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P2-MATH-S2-Q01,M20,Functions,Inverse,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,1,numerical,0.50,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-MATH-S2-Q02,M20,Functions,Domain,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,2,numerical,0.00,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS03-P2-MATH-S3-Q01,M20,Functions,Periodicity,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,1,numerical,8,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-MATH-S3-Q02,M20,Functions,Inverse,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,2,numerical,1,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P1-MATH-S2-Q07,M20,Functions,Composition,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),7,multi,"A,B,D",key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS04-P1-MATH-S2-Q09,M20,Functions,Periodicity,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),9,multi,"A,B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-MATH-S1-Q06,M20,Functions,Range,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),6,multi,"A,B,C",key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS04-P2-MATH-S3-Q05,M20,Functions,Domain,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),5,numerical,7.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P2-MATH-S3-Q06,M20,Functions,Domain,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),6,numerical,2.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P2-MATH-S4-Q07,M20,Functions,Composition,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),7,numerical,561,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS04-P2-MATH-S4-Q09,M20,Functions,Composition,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),9,numerical,429,key,0,,,TOAS - Test 09 (30 May 2022) P1 Q7,7,Hard,K1 S3 I2 C1 F1
+TOAS05-P1-MATH-S1-Q01,M20,Functions,Composition,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),1,multi,"A,B,C,D",key,0,,,,5,Medium,K1 S2 I2 C0 F1
+TOAS05-P1-MATH-S1-Q05,M20,Functions,Composition,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),5,multi,"B,C,D",key,0,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS05-P2-MATH-S1-Q01,M20,Functions,Composition,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,1,single,C,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS05-P2-MATH-S1-Q03,M20,Functions,Inverse,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,3,single,B,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS05-P2-MATH-S1-Q04,M20,Functions,Composition,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,4,single,D,key,0,,,,4,Medium,K1 S2 I2 C0 F0
+TOAS05-P2-MATH-S2-Q05,M20,Functions,Domain,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,5,numerical,0,solved,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS06-P1-MATH-S1-Q01,M20,Functions,Modulus and greatest integer,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),1,single,A,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS06-P1-MATH-S3-Q06,M20,Functions,Composition,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,6,numerical,3.00,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-MATH-S1-Q03,M20,Functions,Composition,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),3,single,B,key,0,,,,8,Very hard,K2 S4 I2 C1 F0
+TOAS07-P1-MATH-S1-Q04,M20,Functions,Inverse,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),4,single,C,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS07-P1-MATH-S2-Q06,M20,Functions,Inverse,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),6,multi,"B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P1-MATH-S2-Q07,M20,Functions,Inverse,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),7,multi,"A,D",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS07-P1-MATH-S3-Q03,M20,Functions,Composition,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),3,numerical,25.00,key,0,yes,,,6,Hard,K1 S3 I2 C0 F1
+TOAS07-P1-MATH-S3-Q04,M20,Functions,Composition,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),4,numerical,4.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-MATH-S4-Q07,M20,Functions,Modulus and greatest integer,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),7,numerical,4,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P2-MATH-S1-Q03,M20,Functions,Composition,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),3,multi,"A,C,D",key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS07-P2-MATH-S1-Q06,M20,Functions,Range,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),6,multi,"B,C",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P2-MATH-S2-Q09,M20,Functions,Inverse,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),9,single,B,key,0,yes,,,3,Easy,K1 S2 I1 C0 F0
+TOAS07-P2-MATH-S2-Q10,M20,Functions,Inverse,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),10,single,A,key,0,yes,,,4,Medium,K1 S3 I1 C0 F0
+TOAS08-P1-MATH-S3-Q03,M20,Functions,Composition,TOAS - Test 08 (15 May 2022),1,SECTION-II,3,numerical,1.50,solved,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS08-P1-MATH-S3-Q08,M20,Functions,Composition,TOAS - Test 08 (15 May 2022),1,SECTION-II,8,numerical,0.75,key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS08-P2-MATH-S3-Q08,M20,Functions,Inverse,TOAS - Test 08 (15 May 2022),2,SECTION-II,8,numerical,3.75,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-MATH-S3-Q03,M20,Functions,Range,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),3,numerical,8.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-MATH-S3-Q04,M20,Functions,Range,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),4,numerical,2.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-MATH-S4-Q07,M20,Functions,Composition,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),7,numerical,429,key,0,,TOAS04-P2-MATH-S4-Q09,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-MATH-S1-Q03,M20,Functions,Composition,TOAS - Test 09 (30 May 2022),2,SECTION-I,3,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-MATH-S1-Q11,M20,Functions,Domain,TOAS - Test 09 (30 May 2022),2,SECTION-I,11,single,D,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-MATH-S1-Q13,M20,Functions,Modulus and greatest integer,TOAS - Test 09 (30 May 2022),2,SECTION-I,13,single,A,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-MATH-S2-Q09,M20,Functions,Range,TOAS - Test 09 (30 May 2022),2,SECTION-II,9,numerical,33,solved,0,,,,8,Very hard,K3 S3 I1 C1 F1
+SI12-P1-MATH-S3-Q08,M21,Limits,Standard limits,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),8,numerical,3,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P1-MATH-S1-Q01,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),1,single,B,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS04-P1-MATH-S1-Q02,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),2,single,B,key,0,,,,7,Hard,K2 S3 I2 C1 F0
+TOAS04-P1-MATH-S1-Q03,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),3,single,C,key,0,,,,7,Hard,K2 S3 I2 C1 F0
+TOAS04-P1-MATH-S2-Q05,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),5,multi,"A,B",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-MATH-S2-Q08,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),8,multi,"A,B,C,D",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-MATH-S3-Q05,M21,Limits,Expansions,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),5,numerical,6.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-MATH-S3-Q06,M21,Limits,Expansions,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),6,numerical,4.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-MATH-S4-Q07,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),7,numerical,1,key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS04-P1-MATH-S4-Q09,M21,Limits,Expansions,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),9,numerical,3,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P2-MATH-S1-Q01,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),1,multi,C,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-MATH-S1-Q02,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),2,multi,C,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P2-MATH-S1-Q03,M21,Limits,Standard limits,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),3,multi,"A,B",key,0,,,TOAS - Test 07 (01 May 2022) P1 Q5,7,Hard,K2 S4 I1 C0 F1
+TOAS04-P2-MATH-S4-Q08,M21,Limits,Expansions,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),8,numerical,8,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P1-MATH-S1-Q04,M21,Limits,Standard limits,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),4,multi,A,key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS05-P1-MATH-S3-Q03,M21,Limits,Expansions,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,3,numerical,2.00,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P1-MATH-S3-Q04,M21,Limits,Standard limits,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,4,numerical,0.25,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P1-MATH-S3-Q05,M21,Limits,Standard limits,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,5,numerical,2100.00,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS05-P2-MATH-S1-Q08,M21,Limits,Standard limits,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,8,single,D,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS05-P2-MATH-S1-Q09,M21,Limits,Expansions,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,9,single,D,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS05-P2-MATH-S1-Q10,M21,Limits,Expansions,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,10,single,A,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS05-P2-MATH-S1-Q11,M21,Limits,Expansions,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,11,single,B,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS05-P2-MATH-S1-Q12,M21,Limits,Standard limits,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,12,single,A,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS05-P2-MATH-S1-Q13,M21,Limits,Standard limits,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,13,single,C,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS05-P2-MATH-S2-Q06,M21,Limits,Expansions,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,6,numerical,6,solved,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS05-P2-MATH-S2-Q07,M21,Limits,Standard limits,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,7,numerical,8,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS06-P1-MATH-S1-Q02,M21,Limits,Standard limits,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),2,single,B,key,0,,,,6,Hard,K1 S3 I2 C1 F0
+TOAS06-P1-MATH-S2-Q10,M21,Limits,Standard limits,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),10,multi,"B,C,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-MATH-S2-Q05,M21,Limits,Standard limits,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),5,multi,"A,B",key,0,,TOAS04-P2-MATH-S1-Q03,,7,Hard,K2 S4 I1 C0 F1
+TOAS07-P1-MATH-S3-Q01,M21,Limits,Standard limits,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),1,numerical,5.00,key,0,yes,,,6,Hard,K1 S3 I1 C1 F1
+TOAS07-P1-MATH-S3-Q02,M21,Limits,Standard limits,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),2,numerical,1.00,key,0,yes,,,6,Hard,K1 S3 I1 C1 F1
+TOAS07-P2-MATH-S1-Q05,M21,Limits,Standard limits,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),5,multi,"A,B,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-MATH-S3-Q05,M21,Limits,Standard limits,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),5,numerical,5.00,key,0,yes,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS07-P2-MATH-S3-Q06,M21,Limits,Standard limits,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),6,numerical,1.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P1-MATH-S1-Q03,M21,Limits,Expansions,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),3,multi,"A,D",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS08-P1-MATH-S3-Q04,M21,Limits,Expansions,TOAS - Test 08 (15 May 2022),1,SECTION-II,4,numerical,8,solved,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS08-P1-MATH-S3-Q05,M21,Limits,Standard limits,TOAS - Test 08 (15 May 2022),1,SECTION-II,5,numerical,0.40,solved,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS08-P2-MATH-S2-Q08,M21,Limits,Standard limits,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),8,single,C,key,0,,,,8,Very hard,K2 S4 I2 C1 F0
+TOAS08-P2-MATH-S3-Q04,M21,Limits,Standard limits,TOAS - Test 08 (15 May 2022),2,SECTION-II,4,numerical,0.50,key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS09-P2-MATH-S1-Q08,M21,Limits,Standard limits,TOAS - Test 09 (30 May 2022),2,SECTION-I,8,single,B,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-MATH-S1-Q15,M21,Limits,Standard limits,TOAS - Test 09 (30 May 2022),2,SECTION-I,15,single,A,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-MATH-S2-Q03,M21,Limits,Standard limits,TOAS - Test 09 (30 May 2022),2,SECTION-II,3,numerical,4,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-MATH-S2-Q04,M21,Limits,Expansions,TOAS - Test 09 (30 May 2022),2,SECTION-II,4,numerical,512,solved,0,,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS06-P1-MATH-S2-Q12,M22,Differentiation,Rules,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),12,multi,"A,B,C,D",key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS06-P1-MATH-S3-Q04,M22,Differentiation,Rules,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,4,numerical,1,solved,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS07-P1-MATH-S1-Q01,M22,Differentiation,Higher derivatives,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),1,single,B,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS07-P1-MATH-S4-Q09,M22,Differentiation,Higher derivatives,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),9,numerical,4,key,0,,,TOAS - Test 09 (30 May 2022) P2 Q5,9,Very hard,K2 S4 I2 C1 F1
+TOAS07-P2-MATH-S1-Q01,M22,Differentiation,Implicit and parametric,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),1,multi,"A,B,D",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P2-MATH-S4-Q07,M22,Differentiation,Higher derivatives,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),7,numerical,3,key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS08-P1-MATH-S1-Q04,M22,Differentiation,Implicit and parametric,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),4,multi,"A,D",key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS08-P1-MATH-S1-Q06,M22,Differentiation,Rules,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),6,multi,C,key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS08-P1-MATH-S3-Q06,M22,Differentiation,Rules,TOAS - Test 08 (15 May 2022),1,SECTION-II,6,numerical,1.01,solved,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS08-P2-MATH-S1-Q02,M22,Differentiation,Rules,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),2,multi,D,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P2-MATH-S1-Q04,M22,Differentiation,Higher derivatives,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),4,multi,"A,B,C",key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS08-P2-MATH-S2-Q09,M22,Differentiation,Rules,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),9,single,A,key,0,,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P2-MATH-S2-Q10,M22,Differentiation,Implicit and parametric,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),10,single,B,key,0,,,,8,Very hard,K2 S4 I2 C1 F0
+TOAS08-P2-MATH-S3-Q06,M22,Differentiation,Higher derivatives,TOAS - Test 08 (15 May 2022),2,SECTION-II,6,numerical,0.20,key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS09-P1-MATH-S3-Q05,M22,Differentiation,Rules,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),5,numerical,0.50,key,0,yes,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P1-MATH-S3-Q06,M22,Differentiation,Rules,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),6,numerical,96.00,key,0,yes,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-MATH-S1-Q19,M22,Differentiation,Higher derivatives,TOAS - Test 09 (30 May 2022),2,SECTION-I,19,single,B,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-MATH-S2-Q05,M22,Differentiation,Higher derivatives,TOAS - Test 09 (30 May 2022),2,SECTION-II,5,numerical,4,solved,0,,TOAS07-P1-MATH-S4-Q09,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-MATH-S2-Q07,M22,Differentiation,Rules,TOAS - Test 09 (30 May 2022),2,SECTION-II,7,numerical,189,solved,0,,,,8,Very hard,K3 S3 I1 C1 F1
+SI12-P1-MATH-S3-Q09,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),9,numerical,180,key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+SI12-P2-MATH-S3-Q10,M23,Continuity & Differentiability,Types of discontinuity,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),10,matching,"P 1, Q 1, R 3",key,0,,,,7,Hard,K3 S3 I1 C0 F1
+TOAS06-P1-MATH-S3-Q01,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,1,numerical,1.00,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-MATH-S2-Q09,M23,Continuity & Differentiability,Types of discontinuity,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),9,multi,"A,B,C,D",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P1-MATH-S3-Q05,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),5,numerical,2.00,key,0,yes,,,8,Very hard,K2 S4 I2 C0 F1
+TOAS07-P1-MATH-S3-Q06,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),6,numerical,6.00,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P2-MATH-S4-Q09,M23,Continuity & Differentiability,Types of discontinuity,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),9,numerical,2,key,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS08-P1-MATH-S1-Q05,M23,Continuity & Differentiability,Types of discontinuity,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),5,multi,"A,B,C",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS08-P1-MATH-S2-Q09,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),9,single,D,key,0,yes,,,6,Hard,K1 S3 I2 C1 F0
+TOAS08-P1-MATH-S2-Q10,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),10,single,B,key,0,yes,,,6,Hard,K1 S3 I2 C1 F0
+TOAS08-P2-MATH-S1-Q01,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),1,multi,"A,B,D",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-MATH-S1-Q05,M23,Continuity & Differentiability,Types of discontinuity,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),5,multi,"B,C",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS08-P2-MATH-S3-Q01,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 08 (15 May 2022),2,SECTION-II,1,numerical,3.00,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS08-P2-MATH-S3-Q05,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 08 (15 May 2022),2,SECTION-II,5,numerical,9.00,key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS09-P1-MATH-S2-Q09,M23,Continuity & Differentiability,Types of discontinuity,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),9,multi,"A,C",key,0,,,,2,Easy,K1 S1 I0 C0 F1
+TOAS09-P1-MATH-S2-Q10,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),10,multi,"A,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-MATH-S1-Q05,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 09 (30 May 2022),2,SECTION-I,5,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-MATH-S1-Q20,M23,Continuity & Differentiability,Differentiability of modulus and greatest-integer functions,TOAS - Test 09 (30 May 2022),2,SECTION-I,20,single,C,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+SI12-P2-MATH-S2-Q05,M24,AOD,Mean value theorems,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),5,single,0.00,key,0,,,,5,Medium,K1 S3 I2 C0 F0
+TOAS06-P1-MATH-S2-Q11,M24,AOD,Mean value theorems,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),11,multi,"A,C",key,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS07-P1-MATH-S4-Q08,M24,AOD,Rate of change,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),8,numerical,12,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS07-P2-MATH-S3-Q03,M24,AOD,Rate of change,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),3,numerical,19.00,key,0,yes,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS07-P2-MATH-S3-Q04,M24,AOD,Rate of change,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),4,numerical,1.00,key,0,yes,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS08-P1-MATH-S1-Q01,M24,AOD,Mean value theorems,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),1,multi,"A,B,C",key,0,,,,7,Hard,K1 S3 I2 C1 F1
+TOAS08-P1-MATH-S2-Q07,M24,AOD,Tangents and normals,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),7,single,B,key,0,yes,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P1-MATH-S2-Q08,M24,AOD,Tangents and normals,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),8,single,D,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS08-P1-MATH-S3-Q01,M24,AOD,Tangents and normals,TOAS - Test 08 (15 May 2022),1,SECTION-II,1,numerical,2.00,key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P1-MATH-S3-Q02,M24,AOD,Mean value theorems,TOAS - Test 08 (15 May 2022),1,SECTION-II,2,numerical,3.67,solved,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P1-MATH-S3-Q07,M24,AOD,Rate of change,TOAS - Test 08 (15 May 2022),1,SECTION-II,7,numerical,0.53,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P2-MATH-S3-Q07,M24,AOD,Tangents and normals,TOAS - Test 08 (15 May 2022),2,SECTION-II,7,numerical,8.00,key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS09-P1-MATH-S1-Q03,M24,AOD,Tangents and normals,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),3,single,C,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P1-MATH-S1-Q04,M24,AOD,Mean value theorems,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),4,single,C,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-MATH-S1-Q07,M24,AOD,Tangents and normals,TOAS - Test 09 (30 May 2022),2,SECTION-I,7,single,C,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-MATH-S2-Q08,M24,AOD,Tangents and normals,TOAS - Test 09 (30 May 2022),2,SECTION-II,8,numerical,17,solved,0,,,,8,Very hard,K3 S3 I1 C1 F1
+SI12-P1-MATH-S1-Q07,M25,Monotonicity – Max/Min,Extrema,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,7,multi,"A,C,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+SI12-P1-MATH-S2-Q01,M25,Monotonicity – Max/Min,Increasing and decreasing functions,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),1,numerical,33.33,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-MATH-S3-Q01,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),1,numerical,0.50,key,0,yes,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P1-MATH-S3-Q02,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),2,numerical,0.25,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS08-P1-MATH-S1-Q02,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),2,multi,C,key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-MATH-S1-Q03,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),3,multi,"A,B,C,D",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-MATH-S1-Q06,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),6,multi,"A,B,C",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-MATH-S2-Q07,M25,Monotonicity – Max/Min,Increasing and decreasing functions,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),7,single,A,key,0,,,,8,Very hard,K2 S4 I2 C1 F0
+TOAS09-P1-MATH-S1-Q02,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),2,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P1-MATH-S2-Q05,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),5,multi,"A,C",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-MATH-S2-Q06,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),6,multi,"A,B",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-MATH-S2-Q08,M25,Monotonicity – Max/Min,Increasing and decreasing functions,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),8,multi,"B,C",key,0,,,,2,Easy,K1 S1 I0 C0 F1
+TOAS09-P2-MATH-S1-Q06,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),2,SECTION-I,6,single,D,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-MATH-S1-Q10,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),2,SECTION-I,10,single,C,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-MATH-S1-Q16,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),2,SECTION-I,16,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-MATH-S2-Q01,M25,Monotonicity – Max/Min,Optimisation,TOAS - Test 09 (30 May 2022),2,SECTION-II,1,numerical,6,key,0,,,,8,Very hard,K3 S3 I1 C1 F1
+TOAS09-P2-MATH-S2-Q02,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),2,SECTION-II,2,numerical,5,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-MATH-S2-Q06,M25,Monotonicity – Max/Min,Extrema,TOAS - Test 09 (30 May 2022),2,SECTION-II,6,numerical,5,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-MATH-S1-Q01,M26,Indefinite Integration,By parts,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),1,single,D,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-MATH-S1-Q04,M26,Indefinite Integration,Partial fractions,TOAS - Test 09 (30 May 2022),2,SECTION-I,4,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-MATH-S1-Q09,M26,Indefinite Integration,By parts,TOAS - Test 09 (30 May 2022),2,SECTION-I,9,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-MATH-S1-Q14,M26,Indefinite Integration,Substitution,TOAS - Test 09 (30 May 2022),2,SECTION-I,14,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-MATH-S2-Q10,M26,Indefinite Integration,Substitution,TOAS - Test 09 (30 May 2022),2,SECTION-II,10,numerical,2,solved,0,,,,10,Very hard,K3 S4 I2 C1 F1
+SI12-P1-MATH-S1-Q04,M27,Definite Integration,Properties,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,4,multi,"A,B",key,0,,,,7,Hard,K1 S4 I1 C1 F1
+SI12-P1-MATH-S1-Q05,M27,Definite Integration,Leibniz rule,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,5,multi,"A,D",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P2-MATH-S2-Q01,M27,Definite Integration,Properties,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),1,single,3.00,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+SI12-P2-MATH-S2-Q02,M27,Definite Integration,Properties,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),2,single,2022.00,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+SI12-P1-MATH-S3-Q10,M28,Area Under the Curve,Area between curves,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),10,numerical,4,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS02-P1-MATH-S3-Q06,M28,Area Under the Curve,Area between curves,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,6,numerical,9,solved,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS06-P1-MATH-S2-Q08,M28,Area Under the Curve,Area between curves,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),8,multi,B,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+SI12-P1-MATH-S1-Q06,M29,Differential Equations,Linear,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,6,multi,"A,D",key,0,,,,6,Hard,K1 S3 I1 C1 F1
+SI12-P2-MATH-S1-Q01,M29,Differential Equations,Linear,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,1,single,C,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+SI12-P2-MATH-S1-Q02,M29,Differential Equations,Linear,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,2,single,D,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+SI12-P2-MATH-S2-Q03,M31,Products of Vectors,Dot product,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),3,single,2000.00,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+SI12-P1-MATH-S1-Q10,M32,3D Geometry,Planes,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,10,multi,"A,B",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+SI12-P1-MATH-S2-Q03,M32,3D Geometry,Angles,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),3,numerical,3.33,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+SI12-P1-CHEM-S2-Q04,C01,Mole Concept,Concentration terms,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),4,numerical,0.2,solved,0,,,,5,Medium,K2 S3 I0 C0 F1
+SI12-P1-CHEM-S2-Q05,C01,Mole Concept,Stoichiometry,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),5,numerical,5,solved,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS01-P2-CHEM-S1-Q05,C01,Mole Concept,Concentration terms,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,5,single,D,key,0,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS01-P2-CHEM-S2-Q01,C01,Mole Concept,Concentration terms,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,1,numerical,1.00,solved,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS01-P2-CHEM-S2-Q03,C01,Mole Concept,Concentration terms,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,3,numerical,13.89,solved,0,,,,6,Hard,K2 S3 I0 C1 F1
+TOAS02-P1-CHEM-S1-Q01,C01,Mole Concept,Concentration terms,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),1,single,C,key,0,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS02-P1-CHEM-S3-Q02,C01,Mole Concept,Stoichiometry,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,2,numerical,53.25,key,1,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS05-P1-CHEM-S1-Q05,C01,Mole Concept,Stoichiometry,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),5,multi,"B,D",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS05-P2-CHEM-S1-Q11,C01,Mole Concept,Stoichiometry,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,11,single,A,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS05-P2-CHEM-S1-Q12,C01,Mole Concept,Stoichiometry,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,12,single,B,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-CHEM-S2-Q06,C01,Mole Concept,Stoichiometry,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,6,numerical,30,key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+SI12-P1-CHEM-S1-Q05,C02,Atomic Structure,Orbitals,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,5,multi,"A,B,C,D",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS04-P2-CHEM-S4-Q08,C02,Atomic Structure,Orbitals,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),8,numerical,13,key,0,,,,6,Hard,K2 S3 I0 C1 F1
+TOAS04-P1-CHEM-S2-Q07,C03,Gaseous State,Gas laws,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),7,multi,"A,B,C",key,1,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS06-P1-CHEM-S1-Q02,C03,Gaseous State,Real gases,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),2,single,A,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS09-P1-CHEM-S2-Q09,C03,Gaseous State,Gas laws,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),9,multi,A,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-CHEM-S1-Q18,C03,Gaseous State,Kinetic theory,TOAS - Test 09 (30 May 2022),2,SECTION-I,18,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-CHEM-S1-Q19,C03,Gaseous State,Real gases,TOAS - Test 09 (30 May 2022),2,SECTION-I,19,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+SI12-P1-CHEM-S2-Q02,C04,Thermodynamics,Laws,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),2,numerical,137.76,solved,1,,,,6,Hard,K2 S3 I0 C1 F1
+SI12-P2-CHEM-S2-Q05,C04,Thermodynamics,Gibbs energy,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),5,numerical,7.75,solved,0,,,,5,Medium,K1 S3 I1 C0 F1
+SI12-P1-CHEM-S2-Q03,C05,Thermochemistry,Enthalpies,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),3,numerical,-242,solved,0,,,,6,Hard,K2 S3 I0 C1 F1
+TOAS06-P1-CHEM-S3-Q01,C06,Chemical Equilibrium,Kc and Kp,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,1,numerical,3.20,key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+SI12-P1-CHEM-S1-Q06,C07,Ionic Equilibrium,Solubility product,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,6,multi,"C,D",key,0,,,,7,Hard,K2 S4 I0 C1 F1
+TOAS03-P1-CHEM-S3-Q03,C08,Redox Reactions,Equivalents,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,3,numerical,135,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P1-CHEM-S3-Q05,C08,Redox Reactions,Equivalents,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,5,numerical,240.00,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P2-CHEM-S1-Q13,C08,Redox Reactions,Balancing,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,13,single,C,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS06-P1-CHEM-S2-Q05,C08,Redox Reactions,Equivalents,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),5,multi,"B,D",key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P1-CHEM-S1-Q03,C08,Redox Reactions,Equivalents,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),3,multi,"A,B,D",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+SI12-P1-CHEM-S1-Q07,C09,Chemical Kinetics,Nuclear chemistry,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,7,multi,"A,B,C",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS04-P1-CHEM-S1-Q02,C09,Chemical Kinetics,Rate laws,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),2,single,B,key,0,,,,4,Medium,K1 S3 I0 C1 F0
+TOAS04-P1-CHEM-S2-Q08,C09,Chemical Kinetics,Order,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),8,multi,"B,C,D",key,0,,,,7,Hard,K1 S4 I1 C1 F1
+TOAS04-P1-CHEM-S3-Q03,C09,Chemical Kinetics,Order,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),3,numerical,8.00,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P1-CHEM-S3-Q04,C09,Chemical Kinetics,Order,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),4,numerical,30.00,key,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS04-P1-CHEM-S4-Q08,C09,Chemical Kinetics,Arrhenius equation,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),8,numerical,4,key,1,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS04-P1-CHEM-S4-Q09,C09,Chemical Kinetics,Order,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),9,numerical,64,key,0,,,TOAS - Test 09 (30 May 2022) P2 Q8,6,Hard,K1 S3 I1 C1 F1
+TOAS04-P2-CHEM-S1-Q03,C09,Chemical Kinetics,Rate laws,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),3,multi,"A,C,D",key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS05-P1-CHEM-S2-Q09,C09,Chemical Kinetics,Order,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),9,single,D,key,0,,,,6,Hard,K1 S4 I1 C1 F0
+TOAS05-P1-CHEM-S2-Q10,C09,Chemical Kinetics,Order,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),10,single,C,key,0,,,,6,Hard,K1 S4 I1 C1 F0
+TOAS05-P2-CHEM-S1-Q10,C09,Chemical Kinetics,Order,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,10,single,B,key,0,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS06-P1-CHEM-S1-Q01,C09,Chemical Kinetics,Order,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),1,single,B,key,0,,,,5,Medium,K1 S3 I1 C1 F0
+TOAS07-P1-CHEM-S2-Q08,C09,Chemical Kinetics,Rate laws,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),8,multi,"A,B",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS07-P1-CHEM-S3-Q03,C09,Chemical Kinetics,Order,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),3,numerical,5000.00,key,0,yes,,,6,Hard,K1 S3 I1 C1 F1
+TOAS07-P1-CHEM-S3-Q04,C09,Chemical Kinetics,Order,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),4,numerical,1500.00,key,0,yes,,,4,Medium,K1 S3 I0 C0 F1
+TOAS07-P1-CHEM-S4-Q08,C09,Chemical Kinetics,Order,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),8,numerical,3,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-CHEM-S3-Q03,C09,Chemical Kinetics,Order,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),3,numerical,0.56,key,0,yes,,,6,Hard,K1 S3 I1 C1 F1
+TOAS07-P2-CHEM-S3-Q04,C09,Chemical Kinetics,Order,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),4,numerical,1.25,key,0,yes,,,5,Medium,K1 S3 I0 C1 F1
+TOAS07-P2-CHEM-S4-Q07,C09,Chemical Kinetics,Arrhenius equation,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),7,numerical,3,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS08-P1-CHEM-S3-Q03,C09,Chemical Kinetics,Order,TOAS - Test 08 (15 May 2022),1,SECTION-II,3,numerical,1.33,key,1,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS08-P1-CHEM-S3-Q04,C09,Chemical Kinetics,Order,TOAS - Test 08 (15 May 2022),1,SECTION-II,4,numerical,382.00 to 384.00,key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-CHEM-S2-Q09,C09,Chemical Kinetics,Order,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),9,single,A,key,0,,,,6,Hard,K2 S4 I1 C0 F0
+TOAS09-P1-CHEM-S3-Q03,C09,Chemical Kinetics,Order,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),3,numerical,91.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-CHEM-S3-Q04,C09,Chemical Kinetics,Order,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),4,numerical,140.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-CHEM-S1-Q17,C09,Chemical Kinetics,Order,TOAS - Test 09 (30 May 2022),2,SECTION-I,17,single,B,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-CHEM-S2-Q08,C09,Chemical Kinetics,Order,TOAS - Test 09 (30 May 2022),2,SECTION-II,8,numerical,64,key,0,,TOAS04-P1-CHEM-S4-Q09,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-CHEM-S2-Q09,C09,Chemical Kinetics,Rate laws,TOAS - Test 09 (30 May 2022),2,SECTION-II,9,numerical,0.50,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P2-CHEM-S1-Q07,C10,Electrochemistry,Nernst equation,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,7,single,D,key,0,yes,,,6,Hard,K2 S4 I0 C1 F0
+SI12-P2-CHEM-S1-Q08,C10,Electrochemistry,Nernst equation,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,8,single,A,key,0,yes,,,6,Hard,K2 S4 I0 C1 F0
+SI12-P2-CHEM-S3-Q09,C11,Solutions,Raoult's law,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),9,matching,"P 2, Q 1, R 3",key,0,,,,2,Easy,K1 S1 I0 C0 F1
+TOAS03-P1-CHEM-S1-Q03,C11,Solutions,Colligative properties,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),3,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS03-P1-CHEM-S2-Q09,C11,Solutions,Colligative properties,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),9,multi,"B,D",key,1,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P2-CHEM-S1-Q04,C11,Solutions,Raoult's law,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,4,multi,"A,B,C",key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P2-CHEM-S2-Q03,C11,Solutions,Colligative properties,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,3,numerical,374.15,key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS03-P2-CHEM-S2-Q04,C11,Solutions,Raoult's law,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,4,numerical,2.45,solved,0,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS04-P2-CHEM-S1-Q04,C11,Solutions,Van't Hoff factor,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),4,multi,"A,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-CHEM-S2-Q07,C11,Solutions,Raoult's law,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),7,single,A,key,0,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS04-P2-CHEM-S2-Q08,C11,Solutions,Raoult's law,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),8,single,A,key,0,yes,,,3,Easy,K1 S3 I0 C0 F0
+TOAS05-P1-CHEM-S3-Q04,C11,Solutions,Colligative properties,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,4,numerical,9.60,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-CHEM-S1-Q09,C11,Solutions,Raoult's law,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,9,single,A,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-CHEM-S2-Q05,C11,Solutions,Colligative properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,5,numerical,384,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS06-P1-CHEM-S3-Q02,C11,Solutions,Raoult's law,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,2,numerical,5.00,key,0,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS07-P1-CHEM-S1-Q03,C11,Solutions,Raoult's law,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),3,single,B,key,0,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS07-P2-CHEM-S2-Q09,C11,Solutions,Raoult's law,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),9,single,A,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS07-P2-CHEM-S2-Q10,C11,Solutions,Raoult's law,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),10,single,D,key,0,yes,,,6,Hard,K2 S3 I1 C1 F0
+TOAS08-P1-CHEM-S1-Q04,C11,Solutions,Raoult's law,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),4,multi,"A,B",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P1-CHEM-S3-Q05,C11,Solutions,Colligative properties,TOAS - Test 08 (15 May 2022),1,SECTION-II,5,numerical,3.00,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P2-CHEM-S1-Q03,C11,Solutions,Raoult's law,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),3,multi,"B,D",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS08-P2-CHEM-S1-Q04,C11,Solutions,Raoult's law,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),4,multi,"A,B,C",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS09-P1-CHEM-S2-Q10,C11,Solutions,Raoult's law,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),10,multi,"A,B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-CHEM-S1-Q14,C11,Solutions,Raoult's law,TOAS - Test 09 (30 May 2022),2,SECTION-I,14,single,C,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-CHEM-S1-Q15,C11,Solutions,Van't Hoff factor,TOAS - Test 09 (30 May 2022),2,SECTION-I,15,single,D,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-CHEM-S1-Q16,C11,Solutions,Raoult's law,TOAS - Test 09 (30 May 2022),2,SECTION-I,16,single,C,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+SI12-P2-CHEM-S2-Q04,C12,Solid State,Unit cells,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),4,numerical,6.91,solved,0,,,,7,Hard,K3 S3 I0 C1 F1
+TOAS01-P1-CHEM-S1-Q01,C12,Solid State,Defects,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),1,single,B,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS01-P1-CHEM-S2-Q05,C12,Solid State,Unit cells,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),5,multi,"A,C,D",key,0,,,,8,Very hard,K2 S4 I1 C1 F1
+TOAS01-P1-CHEM-S2-Q06,C12,Solid State,Unit cells,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),6,multi,"A,B,C",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-CHEM-S3-Q01,C12,Solid State,Unit cells,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),1,numerical,1.50,key,0,yes,,,4,Medium,K2 S2 I0 C0 F1
+TOAS01-P1-CHEM-S3-Q02,C12,Solid State,Unit cells,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),2,numerical,45.60,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS01-P1-CHEM-S4-Q07,C12,Solid State,Unit cells,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),7,numerical,2,key,0,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS01-P1-CHEM-S4-Q08,C12,Solid State,Packing,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),8,numerical,8,key,0,,,,2,Easy,K1 S1 I0 C0 F1
+TOAS01-P2-CHEM-S1-Q01,C12,Solid State,Packing,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,1,single,C,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS01-P2-CHEM-S1-Q02,C12,Solid State,Packing,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,2,single,B,key,1,,,,2,Easy,K1 S1 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q03,C12,Solid State,Unit cells,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,3,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-CHEM-S1-Q04,C12,Solid State,Packing,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,4,single,C,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q06,C12,Solid State,Packing,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,6,single,B,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS01-P2-CHEM-S2-Q02,C12,Solid State,Packing,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,2,numerical,4,key,0,,,TOAS - Test 03 (27 Feb 2022) P2 Q3,4,Medium,K2 S2 I0 C0 F1
+TOAS01-P2-CHEM-S2-Q04,C12,Solid State,Unit cells,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,4,numerical,81,solved,0,,,,4,Medium,K1 S2 I0 C1 F1
+TOAS02-P1-CHEM-S1-Q02,C12,Solid State,Defects,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),2,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS02-P1-CHEM-S2-Q07,C12,Solid State,Packing,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),7,multi,"B,C,D",solved,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-CHEM-S2-Q08,C12,Solid State,Unit cells,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),8,multi,"A,C,D",solved,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS02-P1-CHEM-S3-Q01,C12,Solid State,Unit cells,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,1,numerical,40,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS03-P1-CHEM-S1-Q04,C12,Solid State,Unit cells,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),4,single,C,key,1,,,,6,Hard,K2 S3 I1 C1 F0
+TOAS03-P1-CHEM-S2-Q10,C12,Solid State,Defects,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),10,multi,"A,B,D",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS03-P1-CHEM-S3-Q04,C12,Solid State,Unit cells,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,4,numerical,6,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS03-P2-CHEM-S1-Q03,C12,Solid State,Packing,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,3,multi,"A,D",key,0,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS03-P2-CHEM-S3-Q03,C12,Solid State,Packing,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,3,numerical,4,key,0,,TOAS01-P2-CHEM-S2-Q02,,4,Medium,K2 S2 I0 C0 F1
+TOAS04-P2-CHEM-S3-Q03,C12,Solid State,Unit cells,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),3,numerical,1.50,key,0,yes,,,4,Medium,K2 S2 I0 C0 F1
+TOAS04-P2-CHEM-S3-Q04,C12,Solid State,Unit cells,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),4,numerical,45.50 to 45.70,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS05-P1-CHEM-S1-Q04,C12,Solid State,Packing,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),4,multi,"B,C",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-CHEM-S1-Q08,C12,Solid State,Defects,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,8,single,C,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-CHEM-S1-Q20,C12,Solid State,Unit cells,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,20,single,C,key,1,,,,7,Hard,K2 S4 I2 C0 F0
+TOAS05-P2-CHEM-S2-Q04,C12,Solid State,Defects,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,4,numerical,4,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS06-P1-CHEM-S2-Q06,C12,Solid State,Packing,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),6,multi,"A,B",key,0,,,,6,Hard,K1 S3 I2 C0 F1
+TOAS07-P1-CHEM-S2-Q07,C12,Solid State,Unit cells,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),7,multi,"A,B,D",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS07-P2-CHEM-S1-Q03,C12,Solid State,Packing,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),3,multi,D,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS08-P1-CHEM-S3-Q08,C12,Solid State,Defects,TOAS - Test 08 (15 May 2022),1,SECTION-II,8,numerical,58.00 to 61.00,key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-CHEM-S2-Q08,C12,Solid State,Unit cells,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),8,single,A,key,0,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS08-P2-CHEM-S3-Q04,C12,Solid State,Packing,TOAS - Test 08 (15 May 2022),2,SECTION-II,4,numerical,1.00,key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS08-P2-CHEM-S3-Q05,C12,Solid State,Unit cells,TOAS - Test 08 (15 May 2022),2,SECTION-II,5,numerical,3.00,key,0,,,,6,Hard,K1 S3 I1 C1 F1
+TOAS09-P1-CHEM-S1-Q03,C12,Solid State,Defects,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),3,single,C,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P1-CHEM-S1-Q04,C12,Solid State,Defects,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),4,single,B,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-CHEM-S1-Q20,C12,Solid State,Unit cells,TOAS - Test 09 (30 May 2022),2,SECTION-I,20,single,B,key,0,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P2-CHEM-S2-Q10,C12,Solid State,Unit cells,TOAS - Test 09 (30 May 2022),2,SECTION-II,10,numerical,2,key,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P2-CHEM-S3-Q08,C13,Surface Chemistry,Colloids,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),8,matching,"P 2, Q 3, R 2",key,0,,,,2,Easy,K1 S1 I0 C0 F1
+SI12-P2-CHEM-S3-Q10,C13,Surface Chemistry,Catalysis,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),10,matching,"P 3, Q 2, R 1",key,0,,,,2,Easy,K1 S1 I0 C0 F1
+SI12-P2-CHEM-S1-Q01,C14,GOC,Reactive intermediates,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,1,single,B,key,0,yes,,,5,Medium,K2 S4 I0 C0 F0
+SI12-P2-CHEM-S1-Q02,C14,GOC,Reactive intermediates,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,2,single,C,key,0,yes,,,5,Medium,K2 S4 I0 C0 F0
+TOAS01-P1-CHEM-S2-Q08,C14,GOC,Reactive intermediates,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),8,multi,"B,C,D",key,1,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-CHEM-S2-Q09,C14,GOC,Reactive intermediates,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),9,multi,"A,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS01-P2-CHEM-S1-Q15,C14,GOC,Reactive intermediates,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,15,single,A,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q20,C14,GOC,Reactive intermediates,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,20,single,D,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS01-P2-CHEM-S2-Q10,C14,GOC,Reactive intermediates,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,10,numerical,5,solved,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS03-P1-CHEM-S2-Q07,C14,GOC,Reactive intermediates,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),7,multi,"A,C,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS03-P2-CHEM-S2-Q01,C14,GOC,Reactive intermediates,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,1,numerical,6,solved,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS03-P2-CHEM-S3-Q02,C14,GOC,Reactive intermediates,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,2,numerical,4,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-CHEM-S1-Q03,C14,GOC,Reactive intermediates,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,3,single,B,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-CHEM-S1-Q04,C14,GOC,Reactive intermediates,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,4,single,D,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS06-P1-CHEM-S1-Q03,C14,GOC,Reactive intermediates,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),3,single,A,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS06-P1-CHEM-S2-Q07,C14,GOC,Electronic effects,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),7,multi,"B,D",key,1,,,,6,Hard,K2 S4 I0 C0 F1
+TOAS06-P1-CHEM-S3-Q04,C14,GOC,Reactive intermediates,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,4,numerical,4,solved,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS01-P1-CHEM-S1-Q03,C15,Isomerism,Optical,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),3,single,D,key,1,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS01-P1-CHEM-S1-Q04,C15,Isomerism,Optical,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),4,single,B,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q14,C15,Isomerism,Optical,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,14,single,A,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q16,C15,Isomerism,Optical,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,16,single,D,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-CHEM-S1-Q17,C15,Isomerism,Optical,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,17,single,B,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS01-P2-CHEM-S2-Q08,C15,Isomerism,Optical,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,8,numerical,2,solved,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS01-P2-CHEM-S2-Q09,C15,Isomerism,Geometrical,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,9,numerical,3,solved,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS02-P1-CHEM-S1-Q03,C15,Isomerism,Optical,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),3,single,B,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS02-P1-CHEM-S3-Q04,C15,Isomerism,Optical,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,4,numerical,5,solved,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS03-P1-CHEM-S1-Q01,C15,Isomerism,Optical,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),1,single,C,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS03-P1-CHEM-S3-Q01,C15,Isomerism,Optical,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,1,numerical,7,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-CHEM-S2-Q02,C15,Isomerism,Geometrical,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,2,numerical,6,solved,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS05-P1-CHEM-S1-Q01,C15,Isomerism,Geometrical,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),1,multi,"B,C,D",key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P1-CHEM-S1-Q03,C15,Isomerism,Optical,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),3,multi,"A,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P2-CHEM-S1-Q07,C15,Isomerism,Optical,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,7,single,B,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-CHEM-S2-Q03,C15,Isomerism,Geometrical,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,3,numerical,3,solved,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS06-P1-CHEM-S2-Q08,C15,Isomerism,Optical,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),8,multi,"A,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-CHEM-S1-Q06,C16,Grignard,Grignard and organometallic reagents,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),6,multi,"C,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS04-P2-CHEM-S3-Q05,C16,Grignard,Grignard and organometallic reagents,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),5,numerical,1,solved,0,yes,,,4,Medium,K1 S3 I0 C0 F1
+TOAS04-P2-CHEM-S3-Q06,C16,Grignard,Grignard and organometallic reagents,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),6,numerical,2,solved,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P1-CHEM-S4-Q07,C16,Grignard,Grignard and organometallic reagents,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),7,numerical,7,key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS07-P2-CHEM-S1-Q02,C16,Grignard,Grignard and organometallic reagents,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),2,multi,"A,B,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-CHEM-S2-Q05,C16,Grignard,Grignard and organometallic reagents,TOAS - Test 09 (30 May 2022),2,SECTION-II,5,numerical,7,solved,1,,,,2,Easy,K1 S1 I0 C0 F1
+SI12-P1-CHEM-S1-Q03,C17,Hydrocarbons,Alkenes,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,3,multi,"B,C",key,1,,,,5,Medium,K2 S3 I0 C0 F1
+SI12-P1-CHEM-S3-Q06,C17,Hydrocarbons,Mechanisms,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),6,numerical,3,key,1,,,,7,Hard,K3 S3 I1 C0 F1
+SI12-P2-CHEM-S2-Q03,C17,Hydrocarbons,Alkenes,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),3,numerical,2,solved,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS02-P1-CHEM-S2-Q10,C17,Hydrocarbons,Alkenes,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),10,multi,"B,C",solved,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P1-CHEM-S1-Q02,C17,Hydrocarbons,Alkenes,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),2,single,C,key,1,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS03-P1-CHEM-S2-Q08,C17,Hydrocarbons,Mechanisms,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),8,multi,"B,C,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P1-CHEM-S3-Q02,C17,Hydrocarbons,Alkenes,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,2,numerical,2,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P2-CHEM-S1-Q01,C17,Hydrocarbons,Alkenes,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,1,multi,"A,B,D",key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-CHEM-S1-Q02,C17,Hydrocarbons,Alkynes,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,2,multi,"A,C,D",key,1,,,,6,Hard,K2 S4 I0 C0 F1
+TOAS03-P2-CHEM-S3-Q01,C17,Hydrocarbons,Alkenes,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,1,numerical,1,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS04-P1-CHEM-S1-Q04,C17,Hydrocarbons,Alkynes,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),4,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS04-P2-CHEM-S1-Q05,C17,Hydrocarbons,Alkynes,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),5,multi,"A,C,D",key,1,,,,6,Hard,K2 S4 I0 C0 F1
+TOAS05-P2-CHEM-S1-Q01,C17,Hydrocarbons,Alkynes,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,1,single,B,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-CHEM-S1-Q05,C17,Hydrocarbons,Alkenes,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,5,single,A,key,1,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P2-CHEM-S2-Q02,C17,Hydrocarbons,Alkenes,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,2,numerical,4,solved,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS06-P1-CHEM-S2-Q09,C17,Hydrocarbons,Alkanes,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),9,multi,"A,C",key,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS06-P1-CHEM-S3-Q03,C17,Hydrocarbons,Alkenes,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,3,numerical,5,solved,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P1-CHEM-S1-Q02,C17,Hydrocarbons,Alkenes,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),2,single,D,key,1,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS07-P1-CHEM-S2-Q05,C17,Hydrocarbons,Alkenes,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),5,multi,"A,B,C,D",key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-CHEM-S3-Q01,C17,Hydrocarbons,Alkanes,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),1,numerical,8.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-CHEM-S3-Q02,C17,Hydrocarbons,Alkanes,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),2,numerical,7.00,key,0,yes,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P1-CHEM-S1-Q06,C17,Hydrocarbons,Alkenes,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),6,multi,"A,B,C,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-CHEM-S1-Q06,C17,Hydrocarbons,Alkenes,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),6,multi,"B,C",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS09-P1-CHEM-S1-Q01,C17,Hydrocarbons,Alkenes,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),1,single,C,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P1-CHEM-S1-Q02,C17,Hydrocarbons,Alkynes,TOAS - Test 09 (30 May 2022),1,SECTION-I(i),2,single,D,key,1,,,,4,Medium,K2 S2 I1 C0 F0
+TOAS09-P1-CHEM-S2-Q08,C17,Hydrocarbons,Alkenes,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),8,multi,"A,B",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P1-CHEM-S3-Q05,C17,Hydrocarbons,Alkenes,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),5,numerical,3.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-CHEM-S3-Q06,C17,Hydrocarbons,Alkenes,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),6,numerical,5.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-CHEM-S1-Q09,C17,Hydrocarbons,Alkynes,TOAS - Test 09 (30 May 2022),2,SECTION-I,9,single,C,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS01-P2-CHEM-S1-Q18,C18,Alkyl Halides,SN2,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,18,single,B,key,1,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q19,C18,Alkyl Halides,SN2,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,19,single,D,key,1,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS02-P1-CHEM-S1-Q04,C18,Alkyl Halides,SN2,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),4,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS04-P1-CHEM-S1-Q03,C18,Alkyl Halides,SN2,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),3,single,C,key,1,,,,3,Easy,K1 S2 I1 C0 F0
+TOAS04-P2-CHEM-S2-Q09,C18,Alkyl Halides,E2,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),9,single,C,key,1,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS04-P2-CHEM-S2-Q10,C18,Alkyl Halides,E2,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(ii),10,single,D,key,1,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P1-CHEM-S1-Q02,C18,Alkyl Halides,SN1,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),2,multi,"A,B,D",key,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS05-P1-CHEM-S3-Q02,C18,Alkyl Halides,SN2,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,2,numerical,5.00,key,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS05-P1-CHEM-S3-Q03,C18,Alkyl Halides,E2,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,3,numerical,3.00,key,1,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS07-P2-CHEM-S2-Q07,C18,Alkyl Halides,E2,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),7,single,C,key,1,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS07-P2-CHEM-S2-Q08,C18,Alkyl Halides,E2,TOAS - Test 07 (01 May 2022),2,SECTION-I(ii),8,single,D,key,1,yes,,,4,Medium,K1 S3 I1 C0 F0
+TOAS08-P1-CHEM-S2-Q09,C18,Alkyl Halides,E2,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),9,single,D,key,0,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS08-P1-CHEM-S2-Q10,C18,Alkyl Halides,E2,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),10,single,C,key,1,yes,,,5,Medium,K2 S3 I1 C0 F0
+TOAS08-P2-CHEM-S1-Q05,C18,Alkyl Halides,SN2,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),5,multi,"A,B,D",key,1,,,,6,Hard,K1 S4 I1 C0 F1
+SI12-P1-CHEM-S1-Q04,C19,"Alcohol, Ether, Phenol",Properties,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,4,multi,"A,B,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS01-P1-CHEM-S3-Q05,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),5,numerical,7,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS01-P1-CHEM-S3-Q06,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),6,numerical,5,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-CHEM-S2-Q09,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),9,multi,"A,B,D",solved,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-CHEM-S3-Q03,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,3,numerical,3,solved,1,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS04-P1-CHEM-S2-Q09,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),9,multi,"A,B,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P1-CHEM-S3-Q01,C19,"Alcohol, Ether, Phenol",Preparation,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,1,numerical,4.00,key,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-CHEM-S1-Q02,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,2,single,C,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-CHEM-S1-Q06,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,6,single,B,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS05-P2-CHEM-S2-Q01,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,1,numerical,5,solved,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS08-P1-CHEM-S3-Q07,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 08 (15 May 2022),1,SECTION-II,7,numerical,7,solved,1,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS09-P2-CHEM-S1-Q11,C19,"Alcohol, Ether, Phenol",Properties,TOAS - Test 09 (30 May 2022),2,SECTION-I,11,single,A,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-CHEM-S1-Q13,C19,"Alcohol, Ether, Phenol",Preparation,TOAS - Test 09 (30 May 2022),2,SECTION-I,13,single,B,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+SI12-P1-CHEM-S1-Q01,C20,Aldehydes & Ketones,Nucleophilic addition,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,1,multi,"A,C,D",key,1,,,,4,Medium,K1 S3 I0 C0 F1
+SI12-P1-CHEM-S2-Q01,C20,Aldehydes & Ketones,Nucleophilic addition,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(i),1,numerical,4.00,key,1,,,,4,Medium,K1 S3 I0 C0 F1
+SI12-P2-CHEM-S2-Q02,C20,Aldehydes & Ketones,Nucleophilic addition,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),2,numerical,4.00,key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS04-P1-CHEM-S3-Q05,C20,Aldehydes & Ketones,Nucleophilic addition,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),5,numerical,3.00,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P1-CHEM-S3-Q06,C20,Aldehydes & Ketones,Nucleophilic addition,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),6,numerical,2.00,key,0,yes,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P1-CHEM-S2-Q06,C20,Aldehydes & Ketones,Nucleophilic addition,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),6,multi,"A,B,C",key,0,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS08-P1-CHEM-S3-Q06,C20,Aldehydes & Ketones,Nucleophilic addition,TOAS - Test 08 (15 May 2022),1,SECTION-II,6,numerical,3,solved,0,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS08-P2-CHEM-S3-Q08,C20,Aldehydes & Ketones,Nucleophilic addition,TOAS - Test 08 (15 May 2022),2,SECTION-II,8,numerical,3.00,key,1,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS09-P2-CHEM-S1-Q12,C20,Aldehydes & Ketones,Nucleophilic addition,TOAS - Test 09 (30 May 2022),2,SECTION-I,12,single,A,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+SI12-P1-CHEM-S1-Q02,C21,Carboxylic Acids,Derivatives,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,2,multi,"A,B,C,D",key,1,,,,7,Hard,K3 S4 I0 C0 F1
+TOAS04-P1-CHEM-S2-Q10,C21,Carboxylic Acids,Derivatives,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),10,multi,"A,B,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P1-CHEM-S1-Q01,C21,Carboxylic Acids,Derivatives,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),1,single,D,key,1,,,,4,Medium,K1 S3 I1 C0 F0
+TOAS07-P2-CHEM-S1-Q01,C21,Carboxylic Acids,Derivatives,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),1,multi,"A,B,C,D",key,1,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS07-P2-CHEM-S3-Q01,C21,Carboxylic Acids,Derivatives,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),1,numerical,3.00,key,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS07-P2-CHEM-S3-Q02,C21,Carboxylic Acids,Derivatives,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),2,numerical,2.00,key,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS08-P1-CHEM-S1-Q05,C21,Carboxylic Acids,Derivatives,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),5,multi,"A,B,C",key,1,,,,6,Hard,K2 S4 I0 C0 F1
+TOAS08-P2-CHEM-S3-Q07,C21,Carboxylic Acids,Derivatives,TOAS - Test 08 (15 May 2022),2,SECTION-II,7,numerical,4.00,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-CHEM-S1-Q07,C21,Carboxylic Acids,Derivatives,TOAS - Test 09 (30 May 2022),2,SECTION-I,7,single,C,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-CHEM-S1-Q08,C21,Carboxylic Acids,Derivatives,TOAS - Test 09 (30 May 2022),2,SECTION-I,8,single,C,key,1,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-CHEM-S1-Q10,C21,Carboxylic Acids,Derivatives,TOAS - Test 09 (30 May 2022),2,SECTION-I,10,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+SI12-P1-CHEM-S3-Q07,C23,Aromatic,Electrophilic substitution,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),7,numerical,6,key,1,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS08-P2-CHEM-S2-Q10,C24,POC,Qualitative tests,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),10,single,A,key,1,,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P2-CHEM-S3-Q06,C24,POC,Qualitative tests,TOAS - Test 08 (15 May 2022),2,SECTION-II,6,numerical,4.00,key,1,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS09-P1-CHEM-S4-Q09,C24,POC,Qualitative tests,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),9,numerical,6,key,1,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS09-P2-CHEM-S2-Q06,C24,POC,Qualitative tests,TOAS - Test 09 (30 May 2022),2,SECTION-II,6,numerical,3,solved,1,,,,2,Easy,K1 S1 I0 C0 F1
+TOAS09-P2-CHEM-S2-Q07,C24,POC,Qualitative tests,TOAS - Test 09 (30 May 2022),2,SECTION-II,7,numerical,6,solved,1,,,,2,Easy,K1 S1 I0 C0 F1
+SI12-P2-CHEM-S2-Q01,C25,Biomolecules,Amino acids,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),1,numerical,4,solved,0,,,,3,Easy,K1 S2 I0 C0 F1
+SI12-P2-CHEM-S3-Q07,C27,Polymers,Examples,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(ii),7,matching,"P 2, Q 1, R 3",key,0,,,,2,Easy,K1 S1 I0 C0 F1
+TOAS01-P2-CHEM-S2-Q05,C29,Periodic Table,Periodic properties,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,5,numerical,2,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS01-P2-CHEM-S2-Q06,C29,Periodic Table,Periodic properties,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,6,numerical,5,solved,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P2-CHEM-S2-Q07,C29,Periodic Table,Periodic properties,TOAS - Test 01 (30 Jan 2022),2,SECTION-II,7,numerical,3,solved,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS05-P1-CHEM-S1-Q08,C29,Periodic Table,Periodic properties,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),8,multi,"A,C",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS09-P1-CHEM-S2-Q05,C29,Periodic Table,Periodic properties,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),5,multi,"A,B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-CHEM-S1-Q01,C29,Periodic Table,Periodic properties,TOAS - Test 09 (30 May 2022),2,SECTION-I,1,single,D,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+SI12-P2-CHEM-S1-Q05,C30,Chemical Bonding,MOT,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,5,single,C,key,0,yes,,,5,Medium,K2 S4 I0 C0 F0
+SI12-P2-CHEM-S1-Q06,C30,Chemical Bonding,MOT,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,6,single,D,key,0,yes,,,5,Medium,K2 S4 I0 C0 F0
+TOAS01-P1-CHEM-S1-Q02,C30,Chemical Bonding,VSEPR,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(i),2,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P1-CHEM-S2-Q07,C30,Chemical Bonding,MOT,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),7,multi,"B,D",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS01-P1-CHEM-S2-Q10,C30,Chemical Bonding,MOT,TOAS - Test 01 (30 Jan 2022),1,SECTION-I(ii),10,multi,"A,B,D",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS01-P1-CHEM-S3-Q03,C30,Chemical Bonding,Bond properties,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),3,numerical,30,key,0,yes,,,2,Easy,K1 S1 I0 C0 F1
+TOAS01-P1-CHEM-S3-Q04,C30,Chemical Bonding,Bond properties,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(i),4,numerical,4,key,0,yes,,,3,Easy,K1 S2 I0 C0 F1
+TOAS01-P1-CHEM-S4-Q09,C30,Chemical Bonding,Bond properties,TOAS - Test 01 (30 Jan 2022),1,SECTION-II(ii),9,numerical,5,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS01-P2-CHEM-S1-Q07,C30,Chemical Bonding,Bond properties,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,7,single,B,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-CHEM-S1-Q08,C30,Chemical Bonding,Hybridisation,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,8,single,B,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q09,C30,Chemical Bonding,MOT,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,9,single,D,key,0,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS01-P2-CHEM-S1-Q10,C30,Chemical Bonding,Hybridisation,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,10,single,B,key,0,,,TOAS - Test 05 (03 Apr 2022) P2 Q17,4,Medium,K2 S2 I1 C0 F0
+TOAS01-P2-CHEM-S1-Q12,C30,Chemical Bonding,Bond properties,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,12,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS01-P2-CHEM-S1-Q13,C30,Chemical Bonding,Bond properties,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,13,single,D,key,0,,,TOAS - Test 09 (30 May 2022) P2 Q6,4,Medium,K2 S3 I0 C0 F0
+TOAS03-P1-CHEM-S1-Q05,C30,Chemical Bonding,MOT,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),5,single,C,key,0,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS03-P1-CHEM-S1-Q06,C30,Chemical Bonding,Hybridisation,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(i),6,single,B,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS03-P1-CHEM-S2-Q12,C30,Chemical Bonding,Bond properties,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),12,multi,"A,B,D",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P1-CHEM-S3-Q05,C30,Chemical Bonding,MOT,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,5,numerical,4,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P2-CHEM-S1-Q05,C30,Chemical Bonding,Bond properties,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,5,multi,"B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-CHEM-S2-Q05,C30,Chemical Bonding,Bond properties,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,5,numerical,3,solved,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS03-P2-CHEM-S3-Q05,C30,Chemical Bonding,VSEPR,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,5,numerical,1,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-CHEM-S3-Q06,C30,Chemical Bonding,MOT,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,6,numerical,4,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS04-P1-CHEM-S2-Q05,C30,Chemical Bonding,Bond properties,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),5,multi,"B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P1-CHEM-S4-Q07,C30,Chemical Bonding,MOT,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(ii),7,numerical,18,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS05-P1-CHEM-S1-Q06,C30,Chemical Bonding,VSEPR,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),6,multi,"B,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P1-CHEM-S1-Q07,C30,Chemical Bonding,VSEPR,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(i),7,multi,"A,B,D",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS05-P1-CHEM-S3-Q06,C30,Chemical Bonding,MOT,TOAS - Test 05 (03 Apr 2022),1,SECTION-II,6,numerical,2.00,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS05-P2-CHEM-S1-Q14,C30,Chemical Bonding,Bond properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,14,single,C,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-CHEM-S1-Q15,C30,Chemical Bonding,Bond properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,15,single,C,key,0,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS05-P2-CHEM-S1-Q16,C30,Chemical Bonding,Bond properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,16,single,A,key,0,,,,4,Medium,K2 S3 I0 C0 F0
+TOAS05-P2-CHEM-S1-Q17,C30,Chemical Bonding,Hybridisation,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,17,single,B,key,0,,TOAS01-P2-CHEM-S1-Q10,,4,Medium,K2 S2 I1 C0 F0
+TOAS05-P2-CHEM-S1-Q18,C30,Chemical Bonding,MOT,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,18,single,A,key,0,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS05-P2-CHEM-S2-Q07,C30,Chemical Bonding,Bond properties,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,7,numerical,8,key,0,,,,5,Medium,K1 S3 I0 C1 F1
+TOAS05-P2-CHEM-S2-Q10,C30,Chemical Bonding,MOT,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,10,numerical,4,solved,0,,,TOAS - Test 09 (30 May 2022) P1 Q8,6,Hard,K1 S4 I1 C0 F1
+TOAS08-P1-CHEM-S1-Q02,C30,Chemical Bonding,MOT,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),2,multi,"B,C,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS08-P2-CHEM-S3-Q03,C30,Chemical Bonding,Hybridisation,TOAS - Test 08 (15 May 2022),2,SECTION-II,3,numerical,3.00,key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS09-P1-CHEM-S4-Q08,C30,Chemical Bonding,MOT,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),8,numerical,4,key,0,,TOAS05-P2-CHEM-S2-Q10,,8,Very hard,K2 S3 I2 C1 F1
+TOAS09-P2-CHEM-S1-Q06,C30,Chemical Bonding,Bond properties,TOAS - Test 09 (30 May 2022),2,SECTION-I,6,single,D,key,0,,TOAS01-P2-CHEM-S1-Q13,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-CHEM-S2-Q01,C30,Chemical Bonding,Bond properties,TOAS - Test 09 (30 May 2022),2,SECTION-II,1,numerical,6,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-CHEM-S3-Q09,C31,Coordination Compounds,Nomenclature,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),9,numerical,2,key,0,,,,5,Medium,K2 S3 I0 C0 F1
+SI12-P2-CHEM-S1-Q03,C31,Coordination Compounds,Isomerism,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,3,single,A,key,0,yes,,,5,Medium,K2 S4 I0 C0 F0
+SI12-P2-CHEM-S1-Q04,C31,Coordination Compounds,Isomerism,Score-I - Test 12 (09 Mar 2022),2,SECTION-I,4,single,C,key,0,yes,,,5,Medium,K2 S4 I0 C0 F0
+TOAS02-P1-CHEM-S1-Q06,C31,Coordination Compounds,Isomerism,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),6,single,D,key,0,,,,6,Hard,K2 S4 I1 C0 F0
+TOAS02-P1-CHEM-S2-Q11,C31,Coordination Compounds,Isomerism,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),11,multi,"A,D",solved,1,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS02-P1-CHEM-S3-Q05,C31,Coordination Compounds,Nomenclature,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,5,numerical,4,solved,0,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS02-P1-CHEM-S3-Q06,C31,Coordination Compounds,Nomenclature,TOAS - Test 02 (13 Feb 2022),1,SECTION-II,6,numerical,20,solved,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS04-P1-CHEM-S2-Q06,C31,Coordination Compounds,CFT,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(ii),6,multi,"B,C",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P1-CHEM-S3-Q01,C31,Coordination Compounds,Isomerism,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),1,numerical,10.00,key,0,yes,,,7,Hard,K2 S4 I1 C0 F1
+TOAS04-P1-CHEM-S3-Q02,C31,Coordination Compounds,Isomerism,TOAS - Test 04 (15 Mar 2022),1,SECTION-II(i),2,numerical,2.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P2-CHEM-S1-Q01,C31,Coordination Compounds,CFT,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),1,multi,"A,B",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS04-P2-CHEM-S1-Q02,C31,Coordination Compounds,Isomerism,TOAS - Test 04 (15 Mar 2022),2,SECTION-I(i),2,multi,"B,D",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS04-P2-CHEM-S3-Q01,C31,Coordination Compounds,VBT,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),1,numerical,3,solved,0,yes,,,7,Hard,K2 S4 I1 C0 F1
+TOAS04-P2-CHEM-S3-Q02,C31,Coordination Compounds,VBT,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(i),2,numerical,8,solved,0,yes,,,7,Hard,K2 S4 I1 C0 F1
+TOAS04-P2-CHEM-S4-Q07,C31,Coordination Compounds,CFT,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),7,numerical,36,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS04-P2-CHEM-S4-Q09,C31,Coordination Compounds,Isomerism,TOAS - Test 04 (15 Mar 2022),2,SECTION-II(ii),9,numerical,7,key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS06-P1-CHEM-S1-Q04,C31,Coordination Compounds,Isomerism,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(i),4,single,C,key,0,,,,6,Hard,K2 S4 I1 C0 F0
+TOAS06-P1-CHEM-S2-Q10,C31,Coordination Compounds,VBT,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),10,multi,"B,C",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS06-P1-CHEM-S2-Q12,C31,Coordination Compounds,Isomerism,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),12,multi,"A,B,C,D",key,0,,,,9,Very hard,K2 S4 I2 C1 F1
+TOAS06-P1-CHEM-S3-Q05,C31,Coordination Compounds,CFT,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,5,numerical,0.17,solved,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-CHEM-S1-Q04,C31,Coordination Compounds,VBT,TOAS - Test 07 (01 May 2022),1,SECTION-I(i),4,single,D,key,0,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS07-P1-CHEM-S2-Q09,C31,Coordination Compounds,CFT,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),9,multi,A,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-CHEM-S2-Q10,C31,Coordination Compounds,Isomerism,TOAS - Test 07 (01 May 2022),1,SECTION-I(ii),10,multi,"A,D",key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-CHEM-S4-Q09,C31,Coordination Compounds,Nomenclature,TOAS - Test 07 (01 May 2022),1,SECTION-II(ii),9,numerical,2,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS07-P2-CHEM-S1-Q04,C31,Coordination Compounds,VBT,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),4,multi,"A,B",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS07-P2-CHEM-S1-Q05,C31,Coordination Compounds,Nomenclature,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),5,multi,"B,C,D",key,0,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS07-P2-CHEM-S1-Q06,C31,Coordination Compounds,Isomerism,TOAS - Test 07 (01 May 2022),2,SECTION-I(i),6,multi,"B,C",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS07-P2-CHEM-S3-Q05,C31,Coordination Compounds,Nomenclature,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),5,numerical,0.33,key,0,yes,,,4,Medium,K1 S3 I0 C0 F1
+TOAS07-P2-CHEM-S3-Q06,C31,Coordination Compounds,Nomenclature,TOAS - Test 07 (01 May 2022),2,SECTION-II(i),6,numerical,2.00,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-CHEM-S4-Q08,C31,Coordination Compounds,CFT,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),8,numerical,3,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P2-CHEM-S4-Q09,C31,Coordination Compounds,VBT,TOAS - Test 07 (01 May 2022),2,SECTION-II(ii),9,numerical,0,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS08-P1-CHEM-S1-Q01,C31,Coordination Compounds,Isomerism,TOAS - Test 08 (15 May 2022),1,SECTION-I(i),1,multi,D,key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P1-CHEM-S2-Q07,C31,Coordination Compounds,Isomerism,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),7,single,C,key,0,yes,,,6,Hard,K2 S4 I1 C0 F0
+TOAS08-P1-CHEM-S2-Q08,C31,Coordination Compounds,Isomerism,TOAS - Test 08 (15 May 2022),1,SECTION-I(ii),8,single,C,key,0,yes,,,6,Hard,K2 S3 I2 C0 F0
+TOAS08-P2-CHEM-S1-Q01,C31,Coordination Compounds,Isomerism,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),1,multi,"B,C,D",key,0,,,,7,Hard,K2 S4 I1 C0 F1
+TOAS08-P2-CHEM-S2-Q07,C31,Coordination Compounds,Isomerism,TOAS - Test 08 (15 May 2022),2,SECTION-I(ii),7,single,A,key,0,,,,8,Very hard,K2 S4 I2 C1 F0
+TOAS09-P1-CHEM-S3-Q01,C31,Coordination Compounds,Isomerism,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),1,numerical,3.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-CHEM-S3-Q02,C31,Coordination Compounds,Isomerism,TOAS - Test 09 (30 May 2022),1,SECTION-II(i),2,numerical,3.00,key,0,yes,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P1-CHEM-S4-Q07,C31,Coordination Compounds,CFT,TOAS - Test 09 (30 May 2022),1,SECTION-II(ii),7,numerical,5,key,0,,,,8,Very hard,K2 S3 I2 C1 F1
+TOAS09-P2-CHEM-S1-Q03,C31,Coordination Compounds,Nomenclature,TOAS - Test 09 (30 May 2022),2,SECTION-I,3,single,A,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-CHEM-S1-Q04,C31,Coordination Compounds,VBT,TOAS - Test 09 (30 May 2022),2,SECTION-I,4,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS09-P2-CHEM-S1-Q05,C31,Coordination Compounds,Isomerism,TOAS - Test 09 (30 May 2022),2,SECTION-I,5,single,C,key,0,,,,1,Easy,K1 S1 I0 C0 F0
+TOAS09-P2-CHEM-S2-Q03,C31,Coordination Compounds,Isomerism,TOAS - Test 09 (30 May 2022),2,SECTION-II,3,numerical,3,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+TOAS09-P2-CHEM-S2-Q04,C31,Coordination Compounds,Isomerism,TOAS - Test 09 (30 May 2022),2,SECTION-II,4,numerical,3,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-CHEM-S1-Q08,C32,Metallurgy,Refining,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,8,multi,"B,C",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS06-P1-CHEM-S2-Q11,C32,Metallurgy,Ores,TOAS - Test 06 (17 Apr 2022),1,SECTION-I(ii),11,multi,"A,C,D",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+TOAS06-P1-CHEM-S3-Q06,C32,Metallurgy,Extraction,TOAS - Test 06 (17 Apr 2022),1,SECTION-II,6,numerical,3,solved,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS08-P1-CHEM-S3-Q01,C32,Metallurgy,Extraction,TOAS - Test 08 (15 May 2022),1,SECTION-II,1,numerical,6.00,key,0,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS08-P1-CHEM-S3-Q02,C32,Metallurgy,Extraction,TOAS - Test 08 (15 May 2022),1,SECTION-II,2,numerical,2.00,key,0,,,,6,Hard,K1 S4 I1 C0 F1
+TOAS08-P2-CHEM-S1-Q02,C32,Metallurgy,Extraction,TOAS - Test 08 (15 May 2022),2,SECTION-I(i),2,multi,"B,C,D",key,0,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS08-P2-CHEM-S3-Q01,C32,Metallurgy,Extraction,TOAS - Test 08 (15 May 2022),2,SECTION-II,1,numerical,5.00,key,0,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS09-P1-CHEM-S2-Q07,C32,Metallurgy,Ores,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),7,multi,"B,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-CHEM-S1-Q02,C32,Metallurgy,Ores,TOAS - Test 09 (30 May 2022),2,SECTION-I,2,single,C,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+SI12-P1-CHEM-S1-Q09,C33,Salt Analysis,Cation tests,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,9,multi,"A,D",key,0,,,,3,Easy,K1 S2 I0 C0 F1
+SI12-P2-CHEM-S2-Q06,C33,Salt Analysis,Cation tests,Score-I - Test 12 (09 Mar 2022),2,SECTION-II(i),6,numerical,3,solved,0,,,,5,Medium,K1 S4 I0 C0 F1
+TOAS01-P2-CHEM-S1-Q11,C35,s-block,Alkali metals,TOAS - Test 01 (30 Jan 2022),2,SECTION-I,11,single,C,key,0,,,,4,Medium,K2 S3 I0 C0 F0
+TOAS02-P1-CHEM-S1-Q05,C35,s-block,Alkali metals,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(i),5,single,C,key,1,,,,3,Easy,K1 S3 I0 C0 F0
+TOAS05-P2-CHEM-S1-Q19,C35,s-block,Alkali metals,TOAS - Test 05 (03 Apr 2022),2,SECTION-I,19,single,C,key,0,,,,4,Medium,K2 S3 I0 C0 F0
+TOAS08-P2-CHEM-S3-Q02,C35,s-block,Alkaline earth metals,TOAS - Test 08 (15 May 2022),2,SECTION-II,2,numerical,6.00,key,0,,,,2,Easy,K1 S1 I0 C0 F1
+SI12-P1-CHEM-S3-Q08,C36,p-block,Group 14,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),8,numerical,6,key,0,,,,6,Hard,K2 S4 I0 C0 F1
+SI12-P1-CHEM-S3-Q10,C36,p-block,Group 18,Score-I - Test 12 (09 Mar 2022),1,SECTION-II(ii),10,numerical,3,key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS02-P1-CHEM-S2-Q12,C36,p-block,Group 15,TOAS - Test 02 (13 Feb 2022),1,SECTION-I(ii),12,multi,"A,B,D",solved,0,,,,7,Hard,K2 S3 I2 C0 F1
+TOAS03-P1-CHEM-S2-Q11,C36,p-block,Group 17,TOAS - Test 03 (27 Feb 2022),1,SECTION-I(ii),11,multi,"A,C,D",key,0,,,,5,Medium,K2 S3 I0 C0 F1
+TOAS03-P1-CHEM-S3-Q06,C36,p-block,Group 17,TOAS - Test 03 (27 Feb 2022),1,SECTION-II,6,numerical,8,key,0,,,,4,Medium,K1 S2 I1 C0 F1
+TOAS03-P2-CHEM-S1-Q06,C36,p-block,Group 13,TOAS - Test 03 (27 Feb 2022),2,SECTION-I,6,multi,"A,C",key,1,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS03-P2-CHEM-S2-Q06,C36,p-block,Group 15,TOAS - Test 03 (27 Feb 2022),2,SECTION-II,6,numerical,5,solved,1,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS04-P1-CHEM-S1-Q01,C36,p-block,Group 13,TOAS - Test 04 (15 Mar 2022),1,SECTION-I(i),1,single,D,key,0,,,,2,Easy,K1 S2 I0 C0 F0
+TOAS05-P1-CHEM-S2-Q11,C36,p-block,Group 13,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),11,single,D,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P1-CHEM-S2-Q12,C36,p-block,Group 13,TOAS - Test 05 (03 Apr 2022),1,SECTION-I(ii),12,single,C,key,0,,,,5,Medium,K2 S3 I1 C0 F0
+TOAS05-P2-CHEM-S2-Q08,C36,p-block,Group 13,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,8,numerical,0,key,0,,,,5,Medium,K1 S3 I1 C0 F1
+TOAS05-P2-CHEM-S2-Q09,C36,p-block,Group 18,TOAS - Test 05 (03 Apr 2022),2,SECTION-II,9,numerical,3,key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS07-P1-CHEM-S3-Q05,C36,p-block,Group 15,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),5,numerical,1.50,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS07-P1-CHEM-S3-Q06,C36,p-block,Group 15,TOAS - Test 07 (01 May 2022),1,SECTION-II(i),6,numerical,0.25,key,0,yes,,,5,Medium,K1 S3 I1 C0 F1
+TOAS09-P1-CHEM-S2-Q06,C36,p-block,Group 15,TOAS - Test 09 (30 May 2022),1,SECTION-I(ii),6,multi,"A,B,D",key,0,,,,6,Hard,K2 S3 I1 C0 F1
+TOAS09-P2-CHEM-S2-Q02,C36,p-block,Group 13,TOAS - Test 09 (30 May 2022),2,SECTION-II,2,numerical,4,solved,0,,,,7,Hard,K2 S3 I1 C1 F1
+SI12-P1-CHEM-S1-Q10,C37,d & f block,Transition elements,Score-I - Test 12 (09 Mar 2022),1,SECTION-I,10,multi,"A,C,D",key,0,,,,4,Medium,K1 S3 I0 C0 F1
+TOAS03-P2-CHEM-S3-Q04,C38,Hydrogen and its Compounds,Water,TOAS - Test 03 (27 Feb 2022),2,SECTION-III,4,numerical,2,key,0,,,,5,Medium,K2 S3 I0 C0 F1

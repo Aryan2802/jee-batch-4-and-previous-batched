@@ -1,5 +1,5 @@
-last build: none in this repository yet (the PC holds a 19 Oct 2026 sample build of Score-I 12)
-tests in build: 0
-questions: 0
-duplicates merged: 0
+last build: 2026-10-23
+tests in build: 10
+questions: 1104
+duplicates merged: 8
 done-since-build: 0
