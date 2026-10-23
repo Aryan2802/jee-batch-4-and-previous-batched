@@ -107,11 +107,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 09 (30 May 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "16pp, 2 papers (P1 3x19 Qs, P2 3x30 Qs = 147 Qs), 82 figs, lint PASS, visual QA all 16 pages",
-   "started_at": "2026-10-23T17:35:46Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "147 questions; 117 from key, 30 solved (incl. 1 key mismatch); bands Easy 49/Medium 28/Hard 47/Very hard 23; chapters P05 P06 P08 P10 P17 P19 C03 C09 C11 C12 C16 C17 C19 C20 C21 C24 C29 C30 C31 C32 C36 M01 M14 M15 M20-M26"
   },
   {
    "name": "TOAS - Test 10 (12 Jun 2022)",
