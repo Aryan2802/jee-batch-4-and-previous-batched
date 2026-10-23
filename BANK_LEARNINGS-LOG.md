@@ -172,3 +172,5 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## TMAS - Test 02 (06 Aug 2023)
 - The key page covered Paper 1 only (plus one Paper 2 maths item); all 57 Paper 2 questions were solved by hand with working. Matching/passage answers were derived by solving each row of the table.
 - p2_chem_s3_q04 (figure sequence) is a best-effort reading (3) and should be treated as lower confidence.
+## Build note (30 tests)
+- LaTeX build failure: a stem with `\begin{aligned}&\sqrt{...}` or `&\underbrace{...}` (an `&` directly after `\begin{aligned}`) fails with "Missing control sequence inserted". Fixed in data/TOPS - Test 01 by removing that leading `&`. If a chapter fails, extract its zip from the build output, compile it, and look at the line named in the error.
