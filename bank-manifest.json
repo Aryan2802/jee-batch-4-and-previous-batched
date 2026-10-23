@@ -1196,11 +1196,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 02 (28 Mar 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "",
-   "started_at": "2026-10-23T23:42:18Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 26/Hard 0/Very hard 82; chapters C02 C03 C04 C05 C06 C07 C09 C10 C12 C15 C16 C18 C19 C20 C21 C22 C23 C25 C29 C30 C31 C33 C35 C37 C38 M01 M02 M03 M04 M06 M07 M12 M13 M16 M18 M19 M20 M21 M22 M23 M24 M25 M26 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P12 P16 P18 P19 P20 P21"
   },
   {
    "name": "Score-II - Test 04 (07 May 2021)",
