@@ -987,8 +987,11 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 37 (19 May 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-20, 12pp, 55 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-20, 12pp, 55 figs",
+   "started_at": "2026-10-23T23:24:31Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score Advanced - Test 38 (13 Apr 2025)",
