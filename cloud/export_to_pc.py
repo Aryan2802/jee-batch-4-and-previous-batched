@@ -53,22 +53,32 @@ def main():
     else:
         git("fetch", "-q", "origin", f"+refs/heads/{SHARED}:refs/remotes/origin/{SHARED}")
         ref = f"origin/{SHARED}"
+
+    # A session that could not push to the shared branch worked on its own claude/* branch (repo_sync fallback).
+    # If exactly one such branch is ahead of the shared branch and contains it, it is the newest state: export it.
+    ahead = []
+    for line in git("ls-remote", "--heads", "origin").stdout.decode().splitlines():
+        sha, r = line.split("\t"); b = r[len("refs/heads/"):]
+        if b in (SHARED, "main") or not b.startswith("claude/") or a.ref:
+            continue
+        git("fetch", "-q", "origin", f"+{r}:refs/remotes/origin/{b}", check=False)
+        n = git("rev-list", "--count", f"{ref}..origin/{b}", check=False).stdout.decode().strip()
+        if n and n != "0":
+            contains = git("merge-base", "--is-ancestor", ref, f"origin/{b}", check=False).returncode == 0
+            ahead.append((b, n, contains))
+            print(f"NOTE: branch {b} has {n} commit(s) not on {SHARED}" + ("" if contains else " and has diverged from it"))
+    if len(ahead) == 1 and ahead[0][2]:
+        ref = f"origin/{ahead[0][0]}"
+        print(f"  -> exporting {ref} instead (it contains everything on {SHARED} plus its own work)")
+    elif ahead:
+        print(f"WARNING: several branches hold unshared work - exporting {SHARED} only; merge the others by hand "
+              f"(or re-run with --ref) before trusting this export")
     tip = git("rev-parse", "--short", ref).stdout.decode().strip()
     snap = os.path.join(a.out, "_snapshot")
     shutil.rmtree(snap, ignore_errors=True); os.makedirs(snap)
     paths = [p for p in ("bank-manifest.json", "BANK_LEARNINGS-LOG.md", "BUILD_STATUS.txt", "data", "WIP")
              if git("cat-file", "-e", f"{ref}:{p}", check=False).returncode == 0]
     tarfile.open(fileobj=io.BytesIO(git("archive", "--format=tar", ref, *paths).stdout)).extractall(snap, filter="data")
-
-    # other claude/* branches with work that never reached the shared branch
-    for line in git("ls-remote", "--heads", "origin").stdout.decode().splitlines():
-        sha, r = line.split("\t"); b = r[len("refs/heads/"):]
-        if b in (SHARED, "main") or not b.startswith("claude/"):
-            continue
-        git("fetch", "-q", "origin", f"+{r}:refs/remotes/origin/{b}", check=False)
-        n = git("rev-list", "--count", f"{ref}..origin/{b}", check=False).stdout.decode().strip()
-        if n and n != "0":
-            print(f"WARNING: branch {b} has {n} commit(s) not on {SHARED} - check it (git log {ref}..origin/{b})")
 
     repo = json.load(open(os.path.join(snap, "bank-manifest.json"), encoding="utf-8"))
     bs = lambda p: p.replace("/", "\\")
@@ -85,7 +95,8 @@ def main():
                  conv_note=t.get("conv_note", e.get("conv_note", "")))
         for f in ("started_at", "claimed_by", "progress_note", "fix_note", "note"):
             e.pop(f, None)
-        if t["status"] == "done":
+        if t["status"] == "done" or t.get("fix_note"):
+            # a fix_note test (e.g. "add difficulty") claimed in the cloud stays done + fix_note: the PC only re-fixes it
             e["status"] = "done"
             for f in ("note", "fix_note"):
                 if t.get(f): e[f] = t[f]
@@ -95,8 +106,6 @@ def main():
             note = t.get("progress_note") or t.get("note") or ""
             if w in wips:
                 e["note"] = f"cloud WIP: resume from QB\\WIP\\{w}" + (f" ({note})" if note else "")
-            elif note:
-                e["note"] = note
         count[(k, e["status"])] += 1
 
     qb = os.path.join(a.out, "Question Bank")
@@ -128,7 +137,7 @@ def main():
     files.append(p)
     open(os.path.join(a.out, "commit-list.txt"), "w").write("\n".join(os.path.relpath(f, a.out) for f in files) + "\n")
     shutil.rmtree(snap)
-    print(f"exported {SHARED} @ {tip}: {len(files)} files")
+    print(f"exported {ref} @ {tip}: {len(files)} files")
     print("  half A:", {s: n for (k, s), n in count.items() if k == "A"}, " half B:", {s: n for (k, s), n in count.items() if k == "B"})
     print("  data zips:", sum(1 for f in files if os.sep + "data" + os.sep in f), " WIP zips:", sum(1 for f in files if os.sep + "WIP" + os.sep in f))
 

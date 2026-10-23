@@ -53,9 +53,9 @@ after every step, manifest note after every step). Do not create or modify sched
 ## PIPELINE FOR ONE TEST
 1. CLAIM (above). If the entry already has `data/<Test Name>.zip` complete in the repo and no fix_note, the file is
    the truth: mark it done and claim the next. Fix_note "add difficulty" (e.g. Score-I 12, packed before 20 Oct
-   2026): unzip its data zip as the work dir, do step 5b only, then `apply --difficulty`, `pack`, save the zip and
+   2026): unzip its data zip into an empty `/tmp/qb/work` (it holds questions.json + img/), do step 5b only, then `apply --difficulty`, `pack`, save the zip and
    mark done with `-fix_note` - chapters, subtopics and answers stay as they are.
-2. RESUME: if `WIP/<Test Name>-work.zip` exists, unzip it to `/tmp/qb/work` and continue from where it stopped.
+2. RESUME: if `WIP/<Test Name>-work.zip` exists, unzip it into `/tmp/qb` (`python3 -m zipfile -e "WIP/<Test Name>-work.zip" /tmp/qb`; it holds a `work/` folder) and continue from where it stopped. Otherwise start from an empty `/tmp/qb/work` (`rm -rf /tmp/qb/work /tmp/qb/key`).
 3. PARSE: `python3 tools/bank_tools.py parse "<tex_rel>" -o /tmp/qb/work --img "<img_rel>"`. Check the printed
    question counts per paper/subject against the converted test (read the .tex section headers and the conversion
    note in `<Batch>/progress-manifest.json`; the note may count paragraph questions differently - the .tex is the
@@ -107,14 +107,15 @@ after every step, manifest note after every step). Do not create or modify sched
 8. BUILD: BUILT = "tests in build" in BUILD_STATUS.txt (0 if missing); DONE = done tests in bank-manifest.json
    (after `repo_sync.py pull`). Build when DONE - BUILT >= 10, or when claim-next returns NONE and DONE > BUILT:
    - `repo_sync.py claim-build`; on BUSY skip the build (another session is building) and go on;
-   - `python3 tools/bank_tools.py build data -o /tmp/qb/out` - it must report all chapters ok (it compile-checks
+   - `repo_sync.py pull`, `rm -rf /tmp/qb/out`, `python3 tools/bank_tools.py build data -o /tmp/qb/out` - it must report all chapters ok (it compile-checks
      each one); if a chapter fails, fix the offending test's data zip (re-parse, apply, pack) and re-run;
-   - replace the published chapters: `rm -rf Chapters && mkdir Chapters`, then for every
-     /tmp/qb/out/<Subject>/<code title>.zip unzip it into `Chapters/<Subject>/<code title>/`; copy
+   - replace the published chapters: `rm -rf Chapters && mkdir Chapters`, then unzip every
+     /tmp/qb/out/<Subject>/<code title>.zip into `Chapters/<Subject>/` (each zip already holds a `<code title>/`
+     folder with the .tex and img/, e.g. `python3 -m zipfile -e "<zip>" "Chapters/<Subject>"`); copy
      /tmp/qb/out/index.csv to `index.csv`; write `BUILD_STATUS.txt` (date, tests in build, questions, duplicates
      merged, done-since-build 0);
-   - `repo_sync.py save -m "build: N tests" Chapters index.csv BUILD_STATUS.txt` (git notices deleted files under
-     Chapters/ too; if save says nothing to commit, run `git add -A Chapters` first), then
+   - `repo_sync.py save -m "build: N tests" Chapters index.csv BUILD_STATUS.txt` (it also records chapter files
+     that disappeared), then
      `repo_sync.py release-build "built N tests"`.
 9. Claim the next test (step 1).
 

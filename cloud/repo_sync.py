@@ -55,15 +55,21 @@ def git(*args, check=True, quiet=False):
 # therefore share ONE claude/* branch: every pull rebases onto it and every push goes to it, whatever branch the
 # session itself is on. (env REPO_SYNC_BRANCH overrides it, e.g. for tests.)
 SHARED = os.environ.get("REPO_SYNC_BRANCH", "claude/qbank-shared")
-_FALLBACK = []
-
-
-def branch():
-    return SHARED
+# If this session may not push to the shared branch (HTTP 403 from the git proxy), it switches - for good, recorded in
+# a marker file - to its own branch for both pulls and pushes, so it keeps working alone (others cannot see it).
+FALLBACK_MARK = "/tmp/.repo_sync_fallback_" + os.path.basename(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 def own_branch():
     return git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
+
+
+def fallback():
+    return os.path.exists(FALLBACK_MARK)
+
+
+def branch():
+    return own_branch() if fallback() else SHARED
 
 
 def ensure_identity():
@@ -84,14 +90,12 @@ def pull():
 
 
 def push():
-    if _FALLBACK:
-        return git("push", "origin", f"HEAD:refs/heads/{own_branch()}", check=False).returncode == 0
-    r = git("push", "origin", f"HEAD:refs/heads/{SHARED}", check=False)
-    if r.returncode != 0 and ("403" in r.stderr or "forbidden" in r.stderr.lower() or "not allowed" in r.stderr.lower()):
-        sys.stderr.write(f"WARNING: pushing to the shared branch {SHARED} is not allowed in this session; saving to "
-                         f"this session's own branch instead. Other sessions cannot see these claims: run ONLY ONE "
-                         f"session at a time until this is fixed.\n")
-        _FALLBACK.append(1)
+    r = git("push", "origin", f"HEAD:refs/heads/{branch()}", check=False)
+    if r.returncode != 0 and not fallback() and ("403" in r.stderr or "forbidden" in r.stderr.lower()):
+        sys.stderr.write(f"WARNING: this session may not push to the shared branch {SHARED} ({r.stderr.strip()[-200:]}).\n"
+                         f"Switching to this session's own branch {own_branch()} for good. Other sessions cannot see "
+                         f"its claims: run ONLY ONE session at a time on this repository.\n")
+        open(FALLBACK_MARK, "w").write(own_branch())
         return push()
     return r.returncode == 0
 
