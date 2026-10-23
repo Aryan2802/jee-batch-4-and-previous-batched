@@ -503,8 +503,11 @@
    "src_rel": [
     "Batch 4/Source/Nurture SRG/Advanced/Challenging/Nurture SRG - Test 02 (06 Dec 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 6pp, 21 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 6pp, 21 figs",
+   "started_at": "2026-10-23T20:43:23Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Nurture SRG - Test 03 (04 Feb 2024)",
