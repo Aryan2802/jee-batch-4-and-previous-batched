@@ -349,11 +349,9 @@
    "src_rel": [
     "Batch 4/Source/TMAS/Advanced/Very Challenging/TMAS - Test 04 (19 Nov 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 10pp, 26 figs",
-   "started_at": "2026-10-23T20:00:51Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 99 from key, 9 solved; bands Easy 15/Medium 50/Hard 42/Very hard 1; chapters C04 C06 C07 C09 C11 C12 C21 C22 C23 C25 C27 C28 C30 C35 C36 C37 M01 M02 M03 M04 M06 M07 M08 M14 M16 M18 M19 M22 M24 M26 M27 M28 M29 M30 M31 M32 P18 P20 P21 P25"
   },
   {
    "name": "TNAS - Test 01 (05 Feb 2023)",
