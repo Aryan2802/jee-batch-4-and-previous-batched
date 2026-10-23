@@ -305,11 +305,9 @@
    "src_rel": [
     "Batch 4/Source/TEAS/Advanced/Challenging/TEAS - Test 01 (16 Apr 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 31 figs",
-   "started_at": "2026-10-23T19:42:11Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 50 from key, 4 solved; bands Easy 0/Medium 16/Hard 29/Very hard 9; chapters C01 C04 C05 C09 C12 C15 C18 C30 C31 C32 C36 M01 M03 M10 M14 M20 M21 P09 P10 P11 P12 P13 P15 P16"
   },
   {
    "name": "TMAS - Test 01 (09 Jul 2023)",
