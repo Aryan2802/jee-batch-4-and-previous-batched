@@ -151,8 +151,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 13 (24 Jul 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 15pp, 76 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 15pp, 76 figs",
+   "started_at": "2026-10-23T18:33:11Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TOAS - Test 14 (07 Aug 2022)",
