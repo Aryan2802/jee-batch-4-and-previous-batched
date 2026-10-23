@@ -283,8 +283,11 @@
    "src_rel": [
     "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 04 (18 Dec 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 16pp, 70 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 16pp, 70 figs",
+   "started_at": "2026-10-23T19:36:02Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TOPS - Test 05 (14 Jan 2023)",
