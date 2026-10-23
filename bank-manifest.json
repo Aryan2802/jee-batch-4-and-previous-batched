@@ -58,7 +58,8 @@
    ],
    "status": "done",
    "conv_note": "TOAS 04 done: Very Challenging, 2 papers, 13 pages, 57 figs, lint PASS",
-   "note": "114 questions; 110 from key, 4 solved; difficulty Easy 8/Medium 27/Hard 71/Very hard 8; chapters P02 P03 P04 P05 P08 P17 P19 C02 C03 C09 C11 C12 C16 C17 C18 C19 C20 C21 C30 C31 C36 M03 M11 M12 M14 M20 M21 M25"
+   "note": "114 questions; 110 from key, 4 solved; difficulty Easy 8/Medium 27/Hard 71/Very hard 8; chapters P02 P03 P04 P05 P08 P17 P19 C02 C03 C09 C11 C12 C16 C17 C18 C19 C20 C21 C30 C31 C36 M03 M11 M12 M14 M20 M21 M25",
+   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
   },
   {
    "name": "TOAS - Test 05 (03 Apr 2022)",
