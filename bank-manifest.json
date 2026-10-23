@@ -338,8 +338,11 @@
    "src_rel": [
     "Batch 4/Source/TMAS/Advanced/Moderate/TMAS - Test 03 (10 Sep 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 5pp, 24 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 5pp, 24 figs",
+   "started_at": "2026-10-23T19:51:56Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TMAS - Test 04 (19 Nov 2023)",
