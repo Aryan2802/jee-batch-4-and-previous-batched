@@ -146,7 +146,7 @@ If $\dfrac{{}^nC_r}{{}^nC_{(r+1)}}=\dfrac12$ and $\dfrac{{}^nC_{(r+1)}}{{}^nC_{(
 \begin{bankq}[id=TOAS01-P2-MATH-S2-Q01, source={TOAS - Test 01 (30 Jan 2022)}, paper=2, qno=1, type=numerical, subtopic={Coefficient problems}, answer={7}, answer_src=solved, working={$S(n)=\sum_k(k+2)\binom nk\binom n{k+2}$; by symmetry $k\leftrightarrow n-k-2$ average of $(k+2)$ is $(n+2)/2$ and $\sum\binom nk\binom n{k+2}=\binom{2n}{n-2}$; $S(8)=5\binom{16}6=40040$; $40040/5720=7$}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: binomial sums using symmetry | steps: rewrite as sum (k + 2) C(n,k) C(n,k+2); symmetry averaging gives (n + 2)/2; Vandermonde gives C(2n, n-2); S(8); ratio | I: symmetry average}]
 If $2C_0C_2+3C_1C_3+4C_2C_4+\dots+nC_{n-2}C_n=S(n)$ (where $C_r={}^nC_r$), then the value of $\dfrac{S(8)}{(220)(26)}$ is
 \end{bankq}
-\begin{bankq}[id=TOAS01-P2-MATH-S2-Q02, source={TOAS - Test 01 (30 Jan 2022)}, paper=2, qno=2, type=numerical, subtopic={Coefficient problems}, answer={5}, answer_src=solved, working={Sum $=\sum_{r\ \text{even}}(r/2+1)\binom{20}r^2=6\cdot\frac12\left[\binom{40}{20}+\binom{20}{10}\right]=3\left[\binom{40}{20}+\binom{20}{10}\right]$, so $8a=40$, $a=5$}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: binomial sums over even indices | steps: express the sum with (r/2 + 1); use sum of squares and alternating sum; compare with the given form | I: isolate even terms}]
+\begin{bankq}[id=TOAS01-P2-MATH-S2-Q02, source={TOAS - Test 01 (30 Jan 2022)}, paper=2, qno=2, type=numerical, subtopic={Coefficient problems}, answer={5}, answer_src=solved, working={Sum $=\sum_{r\ \text{even}}(r/2+1)\binom{20}r^2=6\cdot\frac12\left[\binom{40}{20}+\binom{20}{10}\right]=3\left[\binom{40}{20}+\binom{20}{10}\right]$, so $8a=40$, $a=5$}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: binomial sums over even indices | steps: express the sum with (r/2 + 1); use sum of squares and alternating sum; compare with the given form | I: isolate even terms}, also_in={TNAS - Test 01 (05 Feb 2023) P1 Q8}]
 If $1.\left({}^{20}C_0\right)^2+2.\left({}^{20}C_2\right)^2+3.\left({}^{20}C_4\right)^2+\dots+11.\left({}^{20}C_{20}\right)^2$ is equal to $3\left[{}^{8a}C_{4a}+{}^{4a}C_{2a}\right]$, then $a$ is equal to
 \end{bankq}
 \begin{bankq}[id=TOAS01-P2-MATH-S2-Q03, source={TOAS - Test 01 (30 Jan 2022)}, paper=2, qno=3, type=numerical, subtopic={Coefficient problems}, answer={4}, answer_src=solved, working={$\sum r\binom nr=n2^{n-1}$, so $S=\sum n/2^{n-1}=1/(1-\tfrac12)^2=4$}, difficulty=3, diff_parts={K2 S1 I0 C0 F1}, diff_note={concepts: binomial identity, series sum | steps: sum r C(n,r) = n 2\^{}(n-1); sum n/2\^{}(n-1) = 4}]
@@ -209,5 +209,22 @@ If $(1-y)^{35}(1+y)^{45}=A_0+A_1y+A_2y^2+A_3y^3+\ldots..+A_{80}y^{80}$, then
 \opt{C}{$\dfrac{A_2}{A_1}<1$}
 \opt{D}{$1<\dfrac{A_2}{A_1}<2$}
 \end{qoptions}
+\end{bankq}
+
+\section*{TNAS papers}
+\begin{bankq}[id=TNAS01-P1-MATH-S1-Q02, source={TNAS - Test 01 (05 Feb 2023)}, paper=1, qno=2, type=single, subtopic={Coefficient problems}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: binomial sums | steps: split the sum; identities; combine}]
+The value of $\displaystyle\sum_{r=0}^{n}(a+rd)\,{}^nC_r$ (where $a$ and $d$ are constants) is equal to -
+\begin{qoptions}
+\opt{A}{$a.2^n$}
+\opt{B}{$(a+(2n-1)d)2^{n-1}$}
+\opt{C}{$(2a+nd)2^{n-1}$}
+\opt{D}{$(a+nd)2^n$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TNAS01-P1-MATH-S2-Q06, source={TNAS - Test 01 (05 Feb 2023)}, paper=1, qno=6, type=numerical, subtopic={Coefficient problems}, answer={9}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: product of binomial coefficients | steps: ratio of consecutive products; formula; solve n}]
+If $P_n$ denotes the product of all the coefficient of $(1+x)^n$ and $9!\,P_{n+1}=10^9\,P_n$, then $n$ is equal to
+\end{bankq}
+\begin{bankq}[id=TNAS05-P1-MATH-S2-Q09, source={TNAS - Test 05 (09 Jul 2023)}, paper=1, qno=9, type=numerical, subtopic={Coefficient problems}, answer={8}, answer_src=solved, working={$a_0=1,a_1=4a,a_2=4b+6a^2$; the circulant determinant vanishes with $a_0+a_1+a_2\neq0$ only if $a_0=a_1=a_2$, so $a=\tfrac14$, $b=\tfrac5{32}$ and $5\dfrac ab=8$}, difficulty=8, diff_parts={K1 S3 I2 C2 F1}, diff_note={concepts: binomial expansion with circulant determinant | steps: first three coefficients; factor the determinant; equal coefficients; solve a; solve b}]
+If $(1+ax+bx^2)^4=a_0+a_1x+a_2x^2+\dots+a_8x^8$ where $a,b,a_0,a_1,\dots,a_8\in R$ and $a_0+a_1+a_2\neq0$ and $\begin{vmatrix}a_0&a_1&a_2\\a_1&a_2&a_0\\a_2&a_0&a_1\end{vmatrix}=0$, then value of $5\left(\dfrac ab\right)$.
 \end{bankq}
 \end{document}

@@ -125,4 +125,86 @@ The radiation coming from a black body at a temperature of 3000 K are analyzed. 
 \opt{D}{$E_3>E_1$}
 \end{qoptions}
 \end{bankq}
+
+\section*{TMAS papers}
+\begin{bankpassage}[id=TMAS03-P1-PHY-S2-G9-10, source={TMAS - Test 03 (10 Sep 2023)}, questions={9-10}]
+A hollow cylinder has length $L$, inner radius $a$ and outer radius $b$. Thermal conductivity is $k$. Inner and outer surfaces of the cylinder are maintained at temperatures $100^\circ$C and $0^\circ$C respectively. If $kL=11$ J/s, $a=0.1$ m, $b=0.3$ m, and $\ell n3=1.1$.
+\end{bankpassage}
+\begin{bankq}[id=TMAS03-P1-PHY-S2-Q09, source={TMAS - Test 03 (10 Sep 2023)}, paper=1, qno=9, type=single, subtopic={Conduction}, answer={B}, answer_src=solved, working={$H=\dfrac{2\pi kL\,\Delta T}{\ln(b/a)}=\dfrac{2\pi\times11\times100}{1.1}=6.28$ kJ/s}, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: radial heat conduction | steps: formula for the cylinder; substitute}, group=TMAS03-P1-PHY-S2-G9-10]
+The rate of radial heat (use $\pi=3.14$) flow (in kJ/s) is :-
+\begin{qoptions}
+\opt{A}{$8.26$}
+\opt{B}{$6.28$}
+\opt{C}{$5.75$}
+\opt{D}{$7.65$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TMAS03-P1-PHY-S2-Q10, source={TMAS - Test 03 (10 Sep 2023)}, paper=1, qno=10, type=single, subtopic={Conduction}, answer={A}, answer_src=solved, working={Gradient $=\dfrac{H}{2\pi kL\,a}=\dfrac{6280}{2\pi\times11\times0.1}=\dfrac{10000}{11}$, so $n=10$}, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: temperature gradient in a cylinder | steps: radial conduction law; gradient at the inner surface}, group=TMAS03-P1-PHY-S2-G9-10]
+If the temperature gradient near the inner surface of cylinder is $\dfrac{1000n}{11}\ {}^\circ$C, then value of $n$ is :-
+\begin{qoptions}
+\opt{A}{$10$}
+\opt{B}{$15$}
+\opt{C}{$20$}
+\opt{D}{$25$}
+\end{qoptions}
+\end{bankq}
+
+\section*{TNAS papers}
+\begin{bankq}[id=TNAS01-P1-PHY-S1-Q07, source={TNAS - Test 01 (05 Feb 2023)}, paper=1, qno=7, type=single, subtopic={Conduction}, answer={A}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: heat conduction in a varying cross section | steps: conduction law; integrate; temperature profile}]
+A frustum shaped rod has cross sectional area that varies from its one end with distance $x$ as $A=A_0(1+\alpha x)$, where $A_0$ and $\alpha$ are constants. The rod has length $\ell$ and is maintained between the temperatures $T_1$ and $T_2$ ($T_1<T_2$) with $T_1$ being the temperature at cross section with smaller radius. Which of the following represents the temperature at a cross section at distance $x$ from the end at temperature $T_1$ ?
+\begin{qoptions}
+\opt{A}{$T_1+(T_2-T_1)\dfrac{\ell n\,(1+\alpha x)}{\ell n\,(1+\alpha\ell)}$}
+\opt{B}{$T_1-T_2\dfrac{\ell n\,(1+\alpha x)}{\ell n\,(1+\alpha\ell)}$}
+\opt{C}{$T_1-T_2\dfrac{\ell n\,(\alpha x)}{\ell n\,(\alpha\ell)}$}
+\opt{D}{$T_2-T_1\dfrac{\ell n\,(1+\alpha x)}{\ell n\,(1+\alpha\ell)}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TNAS01-P2-PHY-S1-Q08, source={TNAS - Test 01 (05 Feb 2023)}, paper=2, qno=8, type=multi, subtopic={Radiation}, answer={A,B,C}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: radiation and conduction in a shell | steps: absorbed radiation; conduction formula; temperature relations}]
+Imagine a point source $s$ which is a black body at a constant temperature $T$ at the centre of a thick spherical shell of inner radius $a$ and external radius $b$. The coefficient of thermal conductivity of the material of the shell is $K$. The inner surface of the shell is coated with lamp black. $A$ is the surface area of sources.
+\bfig{82.0}{TNAS01_p2_phy_s1_q08_1.png}
+\begin{qoptions}
+\opt{A}{The amount of thermal radiation received by the inner surface from $s$ is ($\sigma\to$ Stefan's constant) $A\sigma T^4$.}
+\opt{B}{The temperature difference across the inner and outer surface is $\dfrac{A\sigma T^4}{4\pi K}\left[\dfrac1a-\dfrac1b\right]$.}
+\opt{C}{If the external surface of the shell is in vacuum at $0$ K (say) the temperature of inner surface, is $\dfrac{A\sigma T^4}{4\pi K}\left[\dfrac1a-\dfrac1b\right]$.}
+\opt{D}{None of these}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TNAS04-P1-PHY-S1-Q02, source={TNAS - Test 04 (18 Jun 2023)}, paper=1, qno=2, type=single, subtopic={Conduction}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: heat conduction with variable conductivity | steps: constant heat current; separate variables; integrate to get temperature profile}]
+The ends of a rod of length $\ell$ are maintained at $\theta_1$ and $\theta_2$ ($<\theta_1$). The thermal conductivity of rod at a point is given as $k=\dfrac{\alpha}{\theta}$ where $\theta$ = temperature at that point of the rod $\theta$ as a function of $x$ is.
+\bfig{147.5}{TNAS04_p1_phy_s1_q02_1.png}
+\begin{qoptions}
+\opt{A}{$\dfrac{x}{\ell}\dfrac{\theta_1^2}{\theta_2}$}
+\opt{B}{$\dfrac{\theta_1 x}{\ell}e^{\theta_1/\theta_2}$}
+\opt{C}{$\left(\dfrac{x}{\ell}\right)^2\dfrac{\theta_1^2}{\theta_2^2}$}
+\opt{D}{$\theta_1\left(\dfrac{\theta_2}{\theta_1}\right)^{x/\ell}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TNAS04-P1-PHY-S2-Q11, source={TNAS - Test 04 (18 Jun 2023)}, paper=1, qno=11, type=multi, subtopic={Conduction}, answer={A,B,C,D}, answer_src=key, difficulty=9, diff_parts={K2 S3 I2 C2 F1}, diff_note={concepts: heat exchanger with counterflow, heat conduction through a wall | steps: heat flow across wall; fluid temperature change; same difference everywhere; energy balance; final difference}]
+A heat exchanger is a device which transfers heat between a hot fluid and a cold fluid. The heat exchanger shown below consists of two rectangular tubes of length $\ell$, width $w$ and height $h$. The tubes are separated by a metal wall of thickness $d$ and thermal conductivity $k$. Originally hot fluid flows through the lower tube at a speed $v$ from right to left, and originally cold fluid flows through the upper tube in the opposite direction (left to right) at the same speed. The heat capacity per unit volume of both fluids is $c$.\par
+The hot fluid enters the heat exchanger at a higher temperature than the cold fluid; the difference between the temperatures of the entering fluids is $\Delta T_i$. When the fluids exit the heat exchanger the difference has been reduced to $\Delta T_f$.
+\bfig{209.7}{TNAS04_p1_phy_s2_q11_1.png}
+Assume that the temperature in each pipe changes linearly with the length of the tube, and consider transfer of heat only due to conduction in the metal and due to the bulk movement of fluid. Under the assumptions in this problem, while the temperature of each fluid varies along the length of the exchanger, the temperature difference across the wall is the same everywhere.
+\begin{qoptions}
+\opt{A}{The amount of energy transferred from one liquid to another per unit time is $\dfrac{chwv\Delta T_i}{\left(1+\frac{chvd}{\ell k}\right)}$.}
+\opt{B}{The change in temperature of a liquid as it crosses the length $\ell$ is $\dfrac{\Delta T_i}{\left(1+\frac{chvd}{\ell k}\right)}$.}
+\opt{C}{The increase in temperature of one liquid is equal to decrease in temperature of other liquid.}
+\opt{D}{The value of $\Delta T_f$ is $\left[1-\dfrac{2}{1+\frac{chvd}{\ell k}}\right]\Delta T_i$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TNAS04-P1-PHY-S3-Q01, source={TNAS - Test 04 (18 Jun 2023)}, paper=1, qno=1, type=single, subtopic={Conduction}, answer={3}, answer_src=solved, working={Resistance of the shell $R=\int\dfrac{r\,dr}{4\pi C}=\dfrac{3a^2}{8\pi C}$; $mS\,\dfrac{d\theta}{dt}=-\dfrac{\theta-30}{R}$ gives $t=RmS\ln\dfrac{30}{10}=3\,\dfrac{mSa^2\ln3}{8\pi C}$, so $n=3$ (the printed $a^3$ is a dimensional misprint for $a^2$)}, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: conduction through a spherical shell, cooling of water | steps: thermal resistance by integration; rate equation for water; integrate from sixty to forty; read off n}]
+Water of mass $m$ and specific heat capacity $S$ is kept at $60^\circ$ C inside a thick spherical shell of inner and outer radii $a$ and $2a$ as shown. Thermal conductivity of the shell varies as $k=\dfrac{C}{r^3}$, where $C$ is a constant and $r$ is the distance from the centre. The surrounding temperature is $\theta_0=30^\circ$C. If the time required to decrease the temperature of water from $60^\circ$C to $40^\circ$C is $t=n\left(\dfrac{mSa^3\ell n3}{8\pi C}\right)$. Find the value of $n$.
+\bfig{71.5}{TNAS04_p1_phy_s3_q01_1.png}
+\end{bankq}
+\begin{bankq}[id=TNAS04-P2-PHY-S1-Q05, source={TNAS - Test 04 (18 Jun 2023)}, paper=2, qno=5, type=multi, subtopic={Conduction}, answer={A,D}, answer_src=key, difficulty=9, diff_parts={K2 S3 I2 C2 F1}, diff_note={concepts: conduction through a freezing layer, spherical geometry | steps: thermal resistance of the ice shell; rate of freezing; total time by integration; time to freeze seven eighths; compare with the last eighth}]
+A thin hollow spherical shell of radius $R$ is filled with water. The temperature of atmosphere is $T_s$ which is below $0^\circ$C. Firstly all water comes down to $0^\circ$C and then starts freezing from the outer surface towards the centre. Assume that the thermal conductivity of shell is very high. Neglect change in density due to freezing. $\rho$ = density of ice, $k$ = thermal conductivity of ice, $L$ = latent heat of fusion.
+\begin{qoptions}
+\opt{A}{Time taken to whole water to freeze is $\dfrac{\rho LR^2}{6kT_S}$}
+\opt{B}{Time taken to whole water to freeze is $\dfrac{2\rho LR^2}{kT_S}$.}
+\opt{C}{Time taken to freeze first $\dfrac78$th of total mass is more than time taken for last $\dfrac M8$ mass to freeze.}
+\opt{D}{Time taken to freeze first $\dfrac78$th of total mass is same as time taken for last $\dfrac M8$ mass to freeze.}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TNAS04-P2-PHY-S3-Q04, source={TNAS - Test 04 (18 Jun 2023)}, paper=2, qno=4, type=numerical, subtopic={Newton's law of cooling}, answer={910.00}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: Newton's law of cooling, water equivalent | steps: cooling rate gives the loss; equal to the power input; evaluate}]
+A heating element is used to raise the temperature of water of mass 10 kg inside the boiler. The heater is kept on for a very long time and it is observed that no steam is formed. Now the heating element is switched off and temperature of water is observed to decrease at a rate of $1^\circ$C/min. The water equivalent of boiler is 3 kg. The power (in W) rating of heating element is (Take specific heat capacity of water 4200 J/kg-K)
+\end{bankq}
 \end{document}
