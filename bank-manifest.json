@@ -492,8 +492,11 @@
    "src_rel": [
     "Batch 4/Source/Internal Test/Advanced/Challenging/Internal Test - Test 03 (08 Sep 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 7pp, 59 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 7pp, 59 figs",
+   "started_at": "2026-10-23T20:42:08Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Nurture SRG - Test 02 (06 Dec 2023)",
