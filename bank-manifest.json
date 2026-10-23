@@ -1295,8 +1295,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 46 (26 Mar 2025).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each plain Section-I 10Q one-or-more-correct + Section-II 8Q numerical value = 18Q/part,"
+   "status": "in_progress",
+   "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each plain Section-I 10Q one-or-more-correct + Section-II 8Q numerical value = 18Q/part,",
+   "started_at": "2026-10-23T23:49:22Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 13 (06 Feb 2024)",
