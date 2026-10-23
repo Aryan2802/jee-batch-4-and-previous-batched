@@ -932,8 +932,11 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 32 (08 May 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-20, 14pp, 65 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-20, 14pp, 65 figs",
+   "started_at": "2026-10-23T23:17:59Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score Advanced - Test 33 (12 May 2024)",
