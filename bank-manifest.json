@@ -426,11 +426,9 @@
    "src_rel": [
     "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 07 (20 Aug 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 17pp, 63 figs",
-   "started_at": "2026-10-23T20:23:37Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "144 questions; 130 from key, 14 solved; bands Easy 24/Medium 39/Hard 60/Very hard 21; chapters C04 C05 C06 C07 C08 C09 C11 C12 C14 C16 C17 C19 C20 C21 C22 C24 C31 C32 C33 C36 C37 C38 M01 M07 M08 M10 M14 M17 M18 M19 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 P09 P11 P12 P17 P18 P19 P20 P21 P22"
   },
   {
    "name": "Star Review (Other) - Test 01 (12 Sep 2022)",
