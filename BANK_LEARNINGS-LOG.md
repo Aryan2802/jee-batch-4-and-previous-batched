@@ -62,3 +62,10 @@ ANCHOR Chemistry D8: TOAS - Test 04 p1_chem_s2_q07: 2 4 1 1 F1: three gases with
 - 144 questions (P1: 8 multi + 4 single/matching + 6 numeric per subject; P2: 20 single MCQ + 10 numeric per subject). 133 from key, 11 solved. Difficulty: Easy 26, Medium 60, Hard 51, Very hard 7.
 - Key page: complete for all MCQs; numerics missing for Physics P2 Q7 and Chemistry P2 Q1-3, Q10 (solved), and the whole Mathematics P2 numeric block prints letters (Q3 A, Q4 D, Q5 C, ...) except Q1=7, Q2=2, Q7=8, Q10=7: kept those four, solved the other six; the extra letter row for Q12-Q20 in that block was ignored. Mathematics P1 has stray "Q7 B,C / Q8 A,D" after the numeric row (the MCQ row already gives Q7 A, Q8 A,B,C,D; Q7 re-derived as A).
 - Solved answers where a judgement was needed: chemistry P2 s2 q02 counts enantiomers (4), q01 treats benzylic and cyclopropyl-carbinyl alcohols as immediate Lucas positives (5).
+
+## 2026-10-23 TOAS - Test 06 (17 Apr 2022)
+- 54 questions (one paper: 4 single, 8 multiple, 6 numeric per subject). 49 from key, 5 solved. Difficulty bands as stored in the data zip.
+- Key: complete for Physics and all MCQs; Chemistry numerics only Q1, Q2 keyed (Q3-Q6 solved: 5, 4, 0.17, 3); Mathematics numeric Q4 prints a letter (solved: 1); Mathematics Q5 key "1.87 or 1.88" kept as printed.
+- Physics s3 q01 only makes sense with the two sources on opposite sides of the lens (real image of one = virtual image of the other): 18 + 6 = 24 cm.
+ANCHOR Chemistry D9: TOAS - Test 06 p1_chem_s2_q12: 2 4 2 1 F1: stereoisomer and geometrical-isomer count of [Co(gly)2(CN)Br]+ including linkage of CN
+ANCHOR Mathematics D9: TOAS - Test 06 p1_math_s2_q07: 2 4 2 1 F1: two pairs of lines with common bisectors form a kite/rhombus; range of its area over K
