@@ -130,3 +130,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## 23 Oct 2026 TOAS - Test 17 (18 Sep 2022)
 - Key page fully usable for MCQ (matching-type questions are keyed as letters). Maths P2 section II numerics Q5-Q8 and Q10 print letters (junk): solved 15, 9 (P1 not affected), 12, 120, 1; P2 chemistry section II key skips Q2, Q7, Q9, Q10 (CO2 count 4 and the three abc matches 321, 213, 321 solved). The stray row "Q11 D Q12 C ..." after the maths numerics is junk.
 - P1 maths numerics: key prints a sixth entry "Q6 A,C,D" for a five-question section: ignored.
+## 23 Oct 2026 TOAS - Test 18 (30 Oct 2022)
+- The answer-key page is headed PAPER-2 and holds only Paper 2 (4 single + 6 multi MCQ, 8 numerics per subject); Paper 1 has no key at all: all 54 Paper 1 answers were solved (marked solved with working). Paper 2 answers were taken from the key after spot checks in all three subjects (chem Q2 0.5 K, phys Q3 B, maths numerics Q1 1, Q4 4, Q7 2 all agree). A stray "Q7 B,C Q8 A,B,C,D Q9 A,B,C Q10 A,C" row after the P2 maths numerics duplicates MCQ labels and was ignored.
+- Judgement calls in the solved Paper 1: phys Q3 (errors) comes to about 11 percent so C and D are false (banked A only); chem s3 Q1 uses the 4 Cr=O, 2 Cr-O- structure of dichromate (44); chem s3 Q2 borax counted with the 8 water molecules (9.5).
