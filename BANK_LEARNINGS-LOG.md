@@ -183,3 +183,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## TNAS - Test 01 (05 Feb 2023)
 - 144 questions (JEE Main style Paper 1: 20 single-correct + 10 numeric per subject; Paper 2: advanced style with matching tables). Several numeric keys missing (chem Paper 1: 7); solved with working. A few stray letter entries after the numeric rows of the maths key (Q14, Q15, Q17, Q20) do not match the MCQ answers and were ignored after verifying Q14 by direct count.
 - p1_chem_s2_q05 key 72 means the maximum pressure (vdW with a=2, V free); p2_math_s3_q05 key row had two stray letter groups; solved.
+## TNAS - Test 02 (07 May 2023)
+- Key page is complete for MCQ and most numerics; solved the missing physics ones (mirror speed factors, tunnel time 800 pi s, capacitor work, grounding heat). Stray letter groups after numeric rows again ignored.
+- Group chapter lines can be generated from the first question of each group (script mk33.py pattern) to save effort.
