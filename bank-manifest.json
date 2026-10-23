@@ -844,11 +844,9 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 24 (17 Apr 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 10pp, 39 figs",
-   "started_at": "2026-10-23T22:59:57Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 5/Hard 23/Very hard 80; chapters C01 C02 C03 C06 C08 C09 C10 C12 C14 C15 C16 C17 C18 C19 C21 C29 C30 C31 C37 M01 M03 M04 M05 M06 M07 M08 M13 M14 M15 M16 M17 M20 M22 M25 M26 M27 M28 M30 M31 M32 P01 P02 P03 P05 P07 P08 P09 P10 P12 P14 P15 P16 P17 P18 P19 P20 P21 P23 P25"
   },
   {
    "name": "Score Advanced - Test 25 (21 Apr 2024)",
