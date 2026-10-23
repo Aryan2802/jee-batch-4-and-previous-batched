@@ -1339,8 +1339,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 06 (05 Jul 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "PAPER-1+PAPER-2, each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 single-correct + Sec-I(ii) 6 one-or-more + Sec-II 6 numerical = 18Q/part. Paper2: Sec-I 6 one-or-more + Sec"
+   "status": "in_progress",
+   "conv_note": "PAPER-1+PAPER-2, each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 single-correct + Sec-I(ii) 6 one-or-more + Sec-II 6 numerical = 18Q/part. Paper2: Sec-I 6 one-or-more + Sec",
+   "started_at": "2026-10-23T23:57:18Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 08 (05 Feb 2023)",
