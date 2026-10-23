@@ -47,6 +47,9 @@ def main():
     ap.add_argument("--pc-a", required=True); ap.add_argument("--pc-b", required=True)
     ap.add_argument("--pc-log-a", required=True); ap.add_argument("-o", "--out", required=True)
     ap.add_argument("--ref", default=None, help="git ref to export (default: origin/" + SHARED + ")")
+    ap.add_argument("--chapters", action="store_true",
+                    help="also export the repo's built chapters as PC-style zips (Question Bank/Chapters/<Subject>/"
+                         "<code title>.zip, byte-stable), index.csv and the repo's BUILD_STATUS.txt")
     a = ap.parse_args()
 
     if a.ref:
@@ -78,7 +81,7 @@ def main():
     snap = os.path.join(a.out, "_snapshot")
     shutil.rmtree(snap, ignore_errors=True); os.makedirs(snap)
     paths = [p for p in ("bank-manifest.json", "BANK_LEARNINGS-LOG.md", "BUILD_STATUS.txt", "data", "WIP",
-                       "tools", "BANK_LEARNINGS.md")
+                       "tools", "BANK_LEARNINGS.md", "Chapters", "index.csv")
              if git("cat-file", "-e", f"{ref}:{p}", check=False).returncode == 0]
     tarfile.open(fileobj=io.BytesIO(git("archive", "--format=tar", ref, *paths).stdout)).extractall(snap, filter="data")
 
@@ -140,8 +143,32 @@ def main():
     shutil.copy(os.path.join(snap, "BANK_LEARNINGS.md"), os.path.join(qb, "BANK_LEARNINGS.md"))
     files.append(os.path.join(qb, "BANK_LEARNINGS.md"))
     p = os.path.join(qb, "BUILD_STATUS.txt")
-    open(p, "w").write("last build: none on the PC since the cloud import (the half-A task rebuilds)\n"
-                       "tests in build: 0\nquestions: 0\nduplicates merged: 0\ndone-since-build: 0\n")
+    chap = os.path.join(snap, "Chapters")
+    if a.chapters and os.path.isdir(chap) and os.path.exists(os.path.join(snap, "BUILD_STATUS.txt")):
+        # the chapters as the PC build writes them: one zip per chapter holding "<code title>/" (.tex + img/);
+        # fixed timestamps and order, so an unchanged chapter gives a byte-identical zip
+        import zipfile
+        for subj in sorted(os.listdir(chap)):
+            for name in sorted(os.listdir(os.path.join(chap, subj))):
+                src = os.path.join(chap, subj, name)
+                if not os.path.isdir(src):
+                    continue
+                zp = os.path.join(qb, "Chapters", subj, name + ".zip"); os.makedirs(os.path.dirname(zp), exist_ok=True)
+                with zipfile.ZipFile(zp, "w", zipfile.ZIP_DEFLATED) as z:
+                    for d, ds, fs in sorted(os.walk(src)):
+                        ds.sort()
+                        for f in sorted(fs):
+                            full = os.path.join(d, f)
+                            zi = zipfile.ZipInfo(os.path.join(name, os.path.relpath(full, src)), (2026, 1, 1, 0, 0, 0))
+                            zi.compress_type = zipfile.ZIP_DEFLATED
+                            z.writestr(zi, open(full, "rb").read())
+                files.append(zp)
+        if os.path.exists(os.path.join(snap, "index.csv")):
+            shutil.copy(os.path.join(snap, "index.csv"), os.path.join(qb, "index.csv")); files.append(os.path.join(qb, "index.csv"))
+        shutil.copy(os.path.join(snap, "BUILD_STATUS.txt"), p)
+    else:
+        open(p, "w").write("last build: none on the PC since the cloud import (the half-A task rebuilds)\n"
+                           "tests in build: 0\nquestions: 0\nduplicates merged: 0\ndone-since-build: 0\n")
     files.append(p)
     open(os.path.join(a.out, "commit-list.txt"), "w").write("\n".join(os.path.relpath(f, a.out) for f in files) + "\n")
     shutil.rmtree(snap)
