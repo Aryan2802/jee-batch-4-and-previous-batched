@@ -69,3 +69,7 @@ ANCHOR Chemistry D8: TOAS - Test 04 p1_chem_s2_q07: 2 4 1 1 F1: three gases with
 - Physics s3 q01 only makes sense with the two sources on opposite sides of the lens (real image of one = virtual image of the other): 18 + 6 = 24 cm.
 ANCHOR Chemistry D9: TOAS - Test 06 p1_chem_s2_q12: 2 4 2 1 F1: stereoisomer and geometrical-isomer count of [Co(gly)2(CN)Br]+ including linkage of CN
 ANCHOR Mathematics D9: TOAS - Test 06 p1_math_s2_q07: 2 4 2 1 F1: two pairs of lines with common bisectors form a kite/rhombus; range of its area over K
+
+## 2026-10-23 TOAS - Test 07 (01 May 2022)
+- 114 questions, all 114 from key (one-page key complete; each paper's numeric rows are in section order s3 then s4). Stray letters in the Mathematics numeric rows (P1 "Q3 D, Q4 C"; P2 "Q4 B,C / Q5 A,C / Q6 A") ignored. Re-derived: Physics P1 s3 q01-02 (1.2 s, 48 m), chemistry p1 s1 q03/q04 and s3 q03/q04, mathematics p1 s1 q01, s3 q03/q04.
+- Difficulty scores for this test were assigned in one pass from the question statements; solution-level re-derivation was done for the spot checks only.
