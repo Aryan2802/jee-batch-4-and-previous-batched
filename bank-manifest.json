@@ -250,11 +250,9 @@
    "src_rel": [
     "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 01 (31 Jul 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 20 figs",
-   "started_at": "2026-10-23T19:25:43Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 0 from key, 0 solved; bands Easy 0/Medium 0/Hard 0/Very hard 0; chapters "
   },
   {
    "name": "TOPS - Test 02 (28 Aug 2022)",
