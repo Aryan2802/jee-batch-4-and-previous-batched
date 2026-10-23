@@ -177,3 +177,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## TMAS - Test 03 (10 Sep 2023)
 - Physics-only test with 35 questions and no answer key at all: every answer solved with working. Subtopics must come from the chapter list (`new:<label>` only when none fits); P18 uses 'Waves on a string', 'Standing waves' etc.
 - p1_phy_s3_q06 depends on the figure (block directions assumed as drawn, same direction); p2_phy_s2_q10 and p2_phy_s4 answers rely on reading the figures.
+## TMAS - Test 04 (19 Nov 2023)
+- Two-paper layout (Paper 2: 6 MCQ + 6 + 6 numerics per subject) with key rows listing only some numerics; missing numerics solved (phys 4, chem 2, p2 phys 5).
+- Process fix: `apply` prints "ERROR ... subtopic not in list" for labels outside tools/subtopics.json yet still writes them; always read ALL output lines of apply before packing. 39 earlier questions with off-list labels were remapped (e.g. C20 Aldehydes to Nucleophilic addition, M24 Tangents to Tangents and normals, M23 Rolle's theorem moved to M24 Mean value theorems).
