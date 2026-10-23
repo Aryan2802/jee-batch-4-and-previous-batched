@@ -88,3 +88,6 @@ ANCHOR Mathematics D9: TOAS - Test 06 p1_math_s2_q07: 2 4 2 1 F1: two pairs of l
 - All ten banked tests were rescored under the CALIBRATION rules (concepts | steps format). Bands now run roughly Easy 55-75 / Medium 20-30 / Hard 2-8 / Very hard 0 per paper; do not inflate to hide this.
 - Write reasons without % or | characters; build breaks on unescaped % in the note (use the word percent).
 - Anchor-style identical questions recur across tests (e.g. cyclic functional equations, silvered lenses, HOMO symmetry, EAN counting): keep their factors equal.
+## 2026-10-23 TOAS - Test 10 (12 Jun 2022)
+- One paper only (60 q: per subject 8 multi + 4 paragraph + 8 numeric). Key is one page; math numeric rows print junk letters (Q3, Q5-Q8): solved those. Phys numeric Q7 missing from the key: solved from the figure.
+- Key mismatches found: chem numeric Q8 (key 4, solved 3), math paragraph Q10 (key A,B,C, solved A,B,C,D), Q11 (key B,C,D, solved B).
