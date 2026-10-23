@@ -536,11 +536,9 @@
    "src_rel": [
     "Batch 4/Source/Nurture (General)/Mains/Foundational/Nurture (General) - Test 03 (27 Sep 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 8pp, 22 figs",
-   "started_at": "2026-10-23T21:09:39Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "90 questions; 30 from key, 60 solved; bands Easy 42/Medium 17/Hard 26/Very hard 5; chapters C09 C10 M26 M27 P09 P12 P22"
   },
   {
    "name": "Nurture (General) - Test 04 (11 Feb 2024)",
