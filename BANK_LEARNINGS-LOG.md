@@ -142,3 +142,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Key page again carries both papers; the converted test (12 MCQ + 6 numerics per subject, single-correct section first) is the PAPER-1 block (phys Q1 B = 7.43 s checked). Phys numerics Q5 and Q6 are missing from the key (solved 3 and 0.2). Maths PAPER-2 numeric row carries junk letters.
 ## 23 Oct 2026 TAAS - Test 02 (30 Jul 2023)
 - Both papers of the test are converted (102 questions); key page carries both blocks and every section maps cleanly (P1: 4 single, 3 multi, 4 matching, 6 numerics per subject; P2: 4 single, 3 multi, 10 numerics). The P2 maths numeric row has three stray letters (D, A, B) inside it; the ten numerics were read around them (1, 2, 0.5, 2, 17, 3, 0, 1, 11, 6). Spot checks (phys P1 Q numerics, chem P1 occupancy 96, maths P1 lambda 8, P2 maths Q3 0.5, P2 phys 9) agreed with the key.
+## TOPS - Test 01 (31 Jul 2022)
+- Key page did not auto-match; answers entered by hand from the key (52 key, 2 solved: maths S3 q5 answer 1 by AM-GM equality, q6 = 44/9 = 4.89).
+- Mostly constraint and friction mechanics, bonding and sequence/log maths. Passage groups need one chapter each (P02, P01, C30, M01, M03).
+- Pitfall: finish.sh ran after a failed `apply` (wrong tools path) and marked the test done without a zip. Always run apply from the repo root with tools/bank_tools.py and check "difficulty missing 0" before finish.sh.
