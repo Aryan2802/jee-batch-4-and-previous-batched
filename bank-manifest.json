@@ -382,11 +382,9 @@
    "src_rel": [
     "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 03 (28 May 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 17pp, 79 figs",
-   "started_at": "2026-10-23T20:09:14Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "144 questions; 137 from key, 7 solved; bands Easy 18/Medium 71/Hard 53/Very hard 2; chapters C03 C09 C11 C12 C14 C15 C17 C18 C19 C20 C29 C30 C31 C32 M11 M12 M13 M14 M20 M21 M22 M23 M24 M25 P02 P03 P05 P06 P08 P09 P10 P11 P12 P17"
   },
   {
    "name": "TNAS - Test 04 (18 Jun 2023)",
