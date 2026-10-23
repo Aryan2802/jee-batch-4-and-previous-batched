@@ -745,8 +745,11 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Challenging/Score Advanced - Test 15 (18 May 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-20, 8pp, 35 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-20, 8pp, 35 figs",
+   "started_at": "2026-10-23T22:37:02Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score Advanced - Test 16 (20 May 2023)",
