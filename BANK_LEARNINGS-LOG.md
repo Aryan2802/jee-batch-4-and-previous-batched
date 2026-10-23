@@ -186,3 +186,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## TNAS - Test 02 (07 May 2023)
 - Key page is complete for MCQ and most numerics; solved the missing physics ones (mirror speed factors, tunnel time 800 pi s, capacitor work, grounding heat). Stray letter groups after numeric rows again ignored.
 - Group chapter lines can be generated from the first question of each group (script mk33.py pattern) to save effort.
+## TNAS - Test 03 (28 May 2023)
+- Efficiency tool (reusable): match each new question against banked questions (bank_tools.fingerprint + similar, same numbers and figure count, similarity >= 0.93) and reuse the stored chapter, subtopic, answer, working and difficulty. 42 of 144 questions here (almost all maths) were inherited this way; the rest were keyed from the printed key or solved. Cross-check inherited answers against the printed key.
+- Key quirks: stray capital letters in numeric rows (D, C, D for maths) are ignored when the question is inherited or solvable.
