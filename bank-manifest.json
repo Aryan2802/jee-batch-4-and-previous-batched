@@ -426,8 +426,11 @@
    "src_rel": [
     "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 07 (20 Aug 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 17pp, 63 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 17pp, 63 figs",
+   "started_at": "2026-10-23T20:23:37Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Star Review (Other) - Test 01 (12 Sep 2022)",
