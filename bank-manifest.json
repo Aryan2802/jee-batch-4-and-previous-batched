@@ -635,8 +635,11 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Moderate/Score Advanced - Test 05 (15 Jul 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 8pp, 38 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 8pp, 38 figs",
+   "started_at": "2026-10-23T22:09:49Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score Advanced - Test 06 (04 Sep 2021)",
