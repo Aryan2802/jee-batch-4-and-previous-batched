@@ -184,8 +184,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 16 (04 Sep 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 12pp, 45 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 12pp, 45 figs",
+   "started_at": "2026-10-23T18:56:30Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TOAS - Test 17 (18 Sep 2022)",
