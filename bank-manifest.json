@@ -8,10 +8,13 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 12 (09 Mar 2022).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
    "fix_note": "add difficulty",
-   "note": "reference sample 19 Oct 2026: 114 questions, 105 key, 9 solved; packed before difficulty scoring"
+   "note": "reference sample 19 Oct 2026: 114 questions, 105 key, 9 solved; packed before difficulty scoring",
+   "started_at": "2026-10-23T16:53:53Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: add difficulty"
   },
   {
    "name": "TOAS - Test 01 (30 Jan 2022)",
