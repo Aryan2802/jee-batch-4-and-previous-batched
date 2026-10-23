@@ -96,8 +96,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 08 (15 May 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "14 pp, 57 figs, QA ok"
+   "status": "in_progress",
+   "conv_note": "14 pp, 57 figs, QA ok",
+   "started_at": "2026-10-23T17:33:13Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TOAS - Test 09 (30 May 2022)",
