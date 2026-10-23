@@ -93,3 +93,6 @@ ANCHOR Mathematics D9: TOAS - Test 06 p1_math_s2_q07: 2 4 2 1 F1: two pairs of l
 - Key mismatches found: chem numeric Q8 (key 4, solved 3), math paragraph Q10 (key A,B,C, solved A,B,C,D), Q11 (key B,C,D, solved B).
 ## 2026-10-23 TOAS - Test 11 (27 Jun 2022)
 - Two papers; key one page with Paper-1 and Paper-2 sections per subject; P2 math key row has a stray "Q8 B,C" after the numerics (ignored). Phys P1 numeric Q3 was missing from the key: solved from the figure (8 V). All other keys spot-checked against solutions (a slip of mine on math P1 numeric Q2 turned out to be the key being right: minimum of (x-3)e^x is -e^2).
+## 2026-10-23 TOAS - Test 12 (10 Jul 2022)
+- Two papers, key one page. Paper 1 phys numeric Q8 missing from the key (solved: 0.48). Paper 2 math numeric Q2-Q6 print junk letters (B A D C D plus repeated MCQ rows): solved 5, 6, 0.41, 2, 2.11; numeric Q1 1.00 is printed.
+- p1_phy_s2_q05 (rotating charged disc, 5 m on the axis, R = sqrt39 m): printed key 17.66 pT, but the standard on-axis formula gives 10.6 pT (stored as solved).
