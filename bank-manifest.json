@@ -140,11 +140,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 12 (10 Jul 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 63 figs",
-   "started_at": "2026-10-23T18:29:40Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 99 from key, 9 solved (1 key replaced); bands Easy 66/Medium 41/Hard 1/Very hard 0; chapters P05-P19 C02-C36 M01-M29"
   },
   {
    "name": "TOAS - Test 13 (24 Jul 2022)",
