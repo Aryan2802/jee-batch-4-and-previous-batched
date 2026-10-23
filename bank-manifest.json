@@ -712,11 +712,9 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 12 (11 May 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 18 figs",
-   "started_at": "2026-10-23T22:32:08Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 9/Hard 11/Very hard 34; chapters C02 C03 C07 C08 C12 C13 C14 C15 C17 C20 C22 C23 C30 C33 C36 C37 M01 M02 M03 M06 M17 M19 M20 M22 M24 M25 M27 M29 M30 M31 M32 P01 P02 P04 P08 P12 P14 P16 P18 P19 P21 P23 P25"
   },
   {
    "name": "Score Advanced - Test 13 (13 May 2023)",
