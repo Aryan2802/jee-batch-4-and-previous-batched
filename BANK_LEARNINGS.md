@@ -70,3 +70,40 @@ each test is marked done; consolidate into STANDING LESSONS when the file passes
   and the PARALLEL HALVES section above describe the old PC setup.
 - Source PDFs in the repo are trimmed to their answer-key pages (or solutions part) where a key was detected;
   scanned papers are kept whole.
+
+## CALIBRATION (audit of 23 Oct 2026, 23:15 IST) - READ BEFORE SCORING
+- An independent audit of TOAS 04, 07 and 08 found the CHAPTERS, SUBTOPICS and ANSWERS good (printed keys mapped
+  correctly, stray letter entries in the maths numerical blocks rightly ignored, solved answers with real working),
+  but the DIFFICULTY inflated by about 2 points and drifting: S3/S4 and I1 had become the default (TOAS 07: 92 of 114
+  questions S3; TOAS 08: 63 of 108 S4), e.g. a two-equation Raoult's-law question scored D6 and an elevation-of-
+  boiling-point one-liner D7. Cause: factors were assigned without working the solutions out.
+- Therefore: every ANCHOR line written before this audit (Score-I 12, TOAS 01-08) is VOID. Calibrate only against the
+  examples below and against ANCHOR lines tagged [v2]. Every test banked before the audit carries fix_note
+  "rescore difficulty": redo ONLY difficulty.tsv in the new format (chapters, subtopics, answers stay).
+- The reason column must now list the concepts and the steps (see `bank_tools.py difficulty`); `apply` checks that K and
+  S match the counts and rejects anything else. A step is real work (an equation set up and solved, a case, an option
+  needing its own working) - reading data, substituting into a formula and one-line arithmetic are not steps.
+- Calibrated examples (factors K S I C, F from the type, D):
+  Chemistry  TOAS 08 p1_chem_s3_q05  1 1 0 0 F1 -> D2  concepts: elevation of boiling point | steps: dTb = i Kb m; solve i
+  Chemistry  TOAS 07 p1_chem_s1_q03  1 2 0 0 F0 -> D2  concepts: Raoult's law | steps: equation for first mixture;
+             equation after adding B; solve the linear pair
+  Chemistry  TOAS 07 p2_chem_s4_q09  1 1 0 0 F1 -> D2  concepts: EAN counting (NO as 3e donor) | steps: EAN of
+             Fe(CO)5; EAN of Fe(CO)2(NO)2
+  Physics    TOAS 07 p1_phy_s4_q07   1 2 0 1 F1 -> D4  concepts: compound microscope | steps: eyepiece object distance
+             for image at 25 cm; objective image distance = L - ue; objective object distance; product of magnifications
+  Physics    TOAS 07 p1_phy_s1_q02   2 2 1 0 F0 -> D4  concepts: angular momentum conservation, energy with shell
+             potential | steps: L about centre gives v = u/2 when grazing; energy equation at the surface; solve for u
+             | I: grazing means velocity tangential at the surface
+  Maths      TOAS 07 p1_math_s4_q08  2 2 0 1 F1 -> D5  concepts: tangent intercepts, related rates | steps: position at
+             t = 2; intercepts of the tangent in terms of x; area A = x^(3/2)/4; differentiate and substitute
+  Maths      TOAS 07 p2_math_s4_q07  1 2 1 1 F1 -> D5  concepts: derivatives of the inverse function | steps: d2x/dy2 =
+             -y''/y'^3; differentiate w.r.t. x and divide by y'; compare coefficients -> k = 3
+  Maths      TOAS 04 p2_math_s4_q07  1 2 1 1 F1 -> D5  concepts: telescoping alternating sum | steps: write f(94) as an
+             alternating sum of squares plus f(19); pair the squares into an arithmetic series; sum; remainder 561
+  Maths      TOAS 07 p1_math_s4_q07  2 3 1 0 F1 -> D6  concepts: a^3+b^3+c^3-3abc factorisation, integer case analysis
+             | steps: factorise; split 4 = sum x half-sum-of-squares; cases sum 1, 2, 4; list the triples; maximise
+  Maths      TOAS 07 p1_math_s4_q09  2 3 1 1 F1 -> D7  concepts: derivative of arsinh, differentiating an identity |
+             steps: y'; (1+x^2) y'^2 = 4y; differentiate -> (1+x^2) y'' + x y' = 2; differentiate again; read p, q, r, s
+- Very hard (8-10) needs a genuinely non-standard idea (I2) on top of a long solution (S3-S4) or three concepts; it
+  should be a handful of questions per paper at most, not a tenth of it.
+- New ANCHOR lines: write them as `ANCHOR [v2] <Subject> D<n>: <test> <qid>: <K S I C F>: concepts: ... | steps: ...`.

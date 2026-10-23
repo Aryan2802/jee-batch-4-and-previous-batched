@@ -52,7 +52,8 @@ after every step, manifest note after every step). Do not create or modify sched
 
 ## PIPELINE FOR ONE TEST
 1. CLAIM (above). If the entry already has `data/<Test Name>.zip` complete in the repo and no fix_note, the file is
-   the truth: mark it done and claim the next. Fix_note "add difficulty" (e.g. Score-I 12, packed before 20 Oct
+   the truth: mark it done and claim the next. Fix_note "rescore difficulty" (tests banked before the 23 Oct audit,
+   see BANK_LEARNINGS.md CALIBRATION) and fix_note "add difficulty" (e.g. Score-I 12, packed before 20 Oct
    2026): unzip its data zip into an empty `/tmp/qb/work` (it holds questions.json + img/), do step 5b only, then `apply --difficulty`, `pack`, save the zip and
    mark done with `-fix_note` - chapters, subtopics and answers stay as they are.
 2. RESUME: if `WIP/<Test Name>-work.zip` exists, unzip it into `/tmp/qb` (`python3 -m zipfile -e "WIP/<Test Name>-work.zip" /tmp/qb`; it holds a `work/` folder) and continue from where it stopped. Otherwise start from an empty `/tmp/qb/work` (`rm -rf /tmp/qb/work /tmp/qb/key`).
@@ -80,15 +81,18 @@ after every step, manifest note after every step). Do not create or modify sched
      from) and give answer_src=solved plus one or two lines of working (LaTeX allowed). Matching codes like 132
      become `P$\to$1, Q$\to$3, R$\to$2`.
    Save WIP again.
-5b. DIFFICULTY - rigorous and uniform, from the rubric only (`python3 tools/bank_tools.py difficulty`). Score EVERY
+5b. DIFFICULTY - rigorous and uniform, from the rubric only (`python3 tools/bank_tools.py difficulty`). Read the
+   CALIBRATION section of BANK_LEARNINGS.md first: an audit found scores assigned without working the solutions out.
+   The reason column must list `concepts: ... | steps: ...` and `apply` checks K and S against those lists. Speed is
+   not a goal: a 100-question paper honestly worked takes far longer than a few minutes. Score EVERY
    question, keyed ones too: for a keyed question work out the shortest correct solution route yourself (enough to
    be sure of every factor) - never score from the key, the source series, the question's position, its marks or
-   the topic's reputation. Write work/difficulty.tsv `<qid>\t<K S I C>\t<one-line reason naming the concepts and the
-   key step>` (one line per question, passage questions scored one by one; F, D and the band are computed by the
+   the topic's reputation. Write work/difficulty.tsv `<qid>\t<K S I C>\t<one-line reason naming concepts: a, b | steps:
+   s1; s2; s3 ...>` (one line per question, passage questions scored one by one; F, D and the band are computed by the
    tool from the question type - never type D yourself). Factors: K concepts 1-3, S non-trivial steps 1 (1-2) /
    2 (3-4) / 3 (5-7) / 4 (8+), I insight 0 direct / 1 known technique / 2 non-standard idea, C computation 0 light /
-   1 moderate / 2 heavy. CALIBRATE: compare every score with the ANCHOR lines of the same subject in
-   BANK_LEARNINGS-LOG.md - a question clearly harder than an anchor must not get a lower D, and an equally hard one
+   1 moderate / 2 heavy. CALIBRATE: compare every score with the CALIBRATION examples in BANK_LEARNINGS.md and
+   the ANCHOR [v2] lines of the same subject in BANK_LEARNINGS-LOG.md (older anchors are void) - a question clearly harder than an anchor must not get a lower D, and an equally hard one
    gets the same factors; when two readings are possible, count the step or concept the shortest solution really
    cannot skip. Never shift scores towards a target distribution. CONSISTENCY CHECK: after the file is written,
    re-derive the four factors for three questions (one per subject) from their solution without looking at the
@@ -101,8 +105,8 @@ after every step, manifest note after every step). Do not create or modify sched
    Easy/Medium/Hard/Very hard counts; chapters touched>" -started_at -claimed_by -progress_note -fix_note`.
    Then append a short dated entry with `repo_sync.py learn`: `## <date> <Test Name>` + key quirks of this series,
    subtopic labels you added, anything the next test should know, plus ANCHOR lines: for every subject and every D
-   level that has no anchor yet in the log, add one `ANCHOR <Physics|Chemistry|Mathematics> D<n>: <test> <qid>:
-   <K S I C F>: <reason>` (at most 6 per test, from questions whose factors you are most sure of). Anchors are
+   level that has no [v2] anchor yet in the log, add one `ANCHOR [v2] <Physics|Chemistry|Mathematics> D<n>: <test>
+   <qid>: <K S I C F>: concepts: ... | steps: ...` (at most 6 per test, from questions whose factors you are most sure of). Anchors are
    permanent: never edit or delete one. Finally `repo_sync.py remove -m "WIP done <Test>" "WIP/<Test Name>-work.zip"`.
 8. BUILD: BUILT = "tests in build" in BUILD_STATUS.txt (0 if missing); DONE = done tests in bank-manifest.json
    (after `repo_sync.py pull`). Build when DONE - BUILT >= 10, or when claim-next returns NONE and DONE > BUILT:

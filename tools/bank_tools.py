@@ -537,8 +537,18 @@ passage itself is not counted).
   F  format    - set by the tool from the question type: 0 = single correct; 1 = multiple correct, matching, or
                  numerical with no options
   D = min(10, K + S + I + C + F - 1), from 1 to 10.  Bands: 1-3 Easy, 4-5 Medium, 6-7 Hard, 8-10 Very hard.
-difficulty.tsv: one line per question id (never per passage group): <qid> TAB <K S I C> TAB <one-line reason naming
-the concepts and the key step>, e.g.  p1_phy_s1_q03<TAB>2 3 1 1<TAB>Gauss's law + superposition; cavity as negative charge"""
+  A STEP is one equation set up and solved, one case, one option that needs its own working, or one intermediate
+  quantity that takes real work. Reading data, substituting into a formula, unit conversion and one-line arithmetic
+  are NOT steps. Most single-concept JEE questions are S1-S2; S3 needs 5-7 genuine steps and S4 is rare.
+  Typical tests spread over all bands; a test where most questions get the same S or I was not really worked out.
+difficulty.tsv: one line per question id (never per passage group): <qid> TAB <K S I C> TAB <reason>, where the reason
+LISTS what was counted and the tool checks the counts:
+    concepts: <concept 1>, <concept 2> | steps: <step 1>; <step 2>; <step 3> | <optional note on I or C>
+K must equal the number of concepts listed (3 = three or more) and S must match the number of steps listed
+(1-2 -> 1, 3-4 -> 2, 5-7 -> 3, 8+ -> 4). Example:
+    p1_phy_s1_q02<TAB>2 2 1 0<TAB>concepts: angular momentum conservation, energy with shell potential | steps: L
+    about centre gives v=u/2 at grazing; energy equation at surface; solve for u | I: grazing => velocity tangential
+Calibrated examples: BANK_LEARNINGS.md, section CALIBRATION."""
 DIFF_RANGES = dict(K=(1, 3), S=(1, 4), I=(0, 2), C=(0, 2))
 
 
@@ -607,6 +617,11 @@ def apply(work, chapters=None, answers=None, difficulty=None):
             if q["answer_src"] == "solved" and not q["working"]:
                 errs.append(f"{qid}: solved answers need a short working (4th column)")
     if difficulty:
+        # a new difficulty file replaces every earlier score: a question whose line is rejected has NO difficulty
+        # afterwards, so `pack` refuses until it is fixed
+        for q in data["questions"]:
+            for k in ("diff_kSIC", "diff_note", "difficulty", "diff_parts", "diff_band"):
+                q.pop(k, None)
         for r in read_tsv(difficulty):
             qid = r[0]
             if qid not in byid:
@@ -621,6 +636,18 @@ def apply(work, chapters=None, answers=None, difficulty=None):
                 errs.append(f"{qid}: difficulty out of range: " + ", ".join(bad)); continue
             if len(r) < 3 or len(r[2]) < 8:
                 errs.append(f"{qid}: difficulty needs a one-line reason (3rd column)"); continue
+            m_c = re.search(r"concepts?\s*:\s*([^|]*)", r[2], re.I)
+            m_s = re.search(r"steps?\s*:\s*([^|]*)", r[2], re.I)
+            if not (m_c and m_s):
+                errs.append(f"{qid}: reason must list 'concepts: a, b | steps: s1; s2; ...' (see `bank_tools.py "
+                            "difficulty` and BANK_LEARNINGS.md CALIBRATION)"); continue
+            nc = len([c for c in re.split(r"[,;]", m_c.group(1)) if c.strip()])
+            ns = len([c for c in m_s.group(1).split(";") if c.strip()])
+            want_s = 1 if ns <= 2 else 2 if ns <= 4 else 3 if ns <= 7 else 4
+            if min(nc, 3) != parts["K"] and not (parts["K"] == 3 and nc == 2):   # K3 also = two different chapters
+                errs.append(f"{qid}: K={parts['K']} but {nc} concept(s) listed"); continue
+            if want_s != parts["S"]:
+                errs.append(f"{qid}: S={parts['S']} but {ns} step(s) listed (1-2 -> 1, 3-4 -> 2, 5-7 -> 3, 8+ -> 4)"); continue
             byid[qid]["diff_kSIC"] = parts
             byid[qid]["diff_note"] = r[2]
     finish_difficulty(data)
@@ -647,6 +674,12 @@ def report(data, errs):
         print("  difficulty:", " ".join(f"D{k}:{dd[k]}" for k in sorted(dd)),
               "| bands:", ", ".join(f"{b} {sum(v for k, v in dd.items() if diff_band(k) == b)}"
                                    for b in ("Easy", "Medium", "Hard", "Very hard")))
+    sc = collections.Counter(q["diff_parts"].split()[1] for q in qs if q.get("diff_parts"))
+    ic = collections.Counter(q["diff_parts"].split()[2] for q in qs if q.get("diff_parts"))
+    n = sum(sc.values())
+    if n >= 20 and (max(sc.values()) > 0.6 * n or max(ic.values()) > 0.75 * n):
+        print(f"  WARNING difficulty looks uniform (S {dict(sorted(sc.items()))}, I {dict(sorted(ic.items()))}): "
+              "re-check that every question was really worked out - most papers spread over S1-S3")
     if noch: print("  no chapter:", " ".join(noch[:30]), "..." if len(noch) > 30 else "")
     if noans: print("  no answer:", " ".join(noans[:30]), "..." if len(noans) > 30 else "")
     for e in errs: print("  ERROR", e)
