@@ -36,8 +36,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Challenging/TOAS - Test 02 (13 Feb 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Done: single paper, 54 Qs, 31 figs, lint PASS, visual QA all 7 pages"
+   "status": "in_progress",
+   "conv_note": "Done: single paper, 54 Qs, 31 figs, lint PASS, visual QA all 7 pages",
+   "started_at": "2026-10-23T16:43:38Z",
+   "claimed_by": "s2",
+   "progress_note": "starting"
   },
   {
    "name": "TOAS - Test 03 (27 Feb 2022)",
