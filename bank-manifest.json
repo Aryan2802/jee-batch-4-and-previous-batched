@@ -217,11 +217,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 19 (05 Feb 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 7pp, 27 figs",
-   "started_at": "2026-10-23T19:11:48Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 51 from key, 3 solved; bands Easy 21/Medium 22/Hard 10/Very hard 1; chapters C01 C03 C06 C08 C12 C14 C15 C24 C29 C30 C36 M01 M03 M04 M10 M12 M15 M16 M17 M18 M19 M20 P01 P02 P03 P04 P05 P07 P13 P15 P16"
   },
   {
    "name": "TAAS - Test 01 (18 Jun 2023)",
