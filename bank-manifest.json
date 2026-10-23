@@ -94,7 +94,8 @@
    ],
    "status": "done",
    "conv_note": "12 pp, 56 figs, QA ok",
-   "note": "114 questions, all from key; difficulty Easy 6/Medium 39/Hard 55/Very hard 14"
+   "note": "114 questions, all from key; difficulty Easy 6/Medium 39/Hard 55/Very hard 14",
+   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
   },
   {
    "name": "TOAS - Test 08 (15 May 2022)",
