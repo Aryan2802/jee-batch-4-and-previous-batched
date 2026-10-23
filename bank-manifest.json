@@ -470,8 +470,11 @@
    "src_rel": [
     "Batch 4/Source/Internal Test/Advanced/Challenging/Internal Test - Test 01 (05 Aug 2020).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 8pp, 66 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 8pp, 66 figs",
+   "started_at": "2026-10-23T20:38:49Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Internal Test - Test 02 (07 Jul 2021)",
