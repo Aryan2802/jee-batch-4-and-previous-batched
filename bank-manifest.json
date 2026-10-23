@@ -371,11 +371,9 @@
    "src_rel": [
     "Batch 4/Source/TNAS/Advanced/Very Challenging/TNAS - Test 02 (07 May 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 52 figs",
-   "started_at": "2026-10-23T20:06:42Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "114 questions; 104 from key, 10 solved; bands Easy 4/Medium 54/Hard 55/Very hard 1; chapters C01 C08 C11 C12 C17 C18 C19 C29 C30 C31 C36 M01 M03 M04 M14 M20 M21 M22 M23 P04 P06 P08 P09 P10 P11 P19"
   },
   {
    "name": "TNAS - Test 03 (28 May 2023)",
