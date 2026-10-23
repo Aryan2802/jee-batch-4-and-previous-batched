@@ -82,7 +82,8 @@
    ],
    "status": "done",
    "conv_note": "6pp, 25 figs, QA ok",
-   "note": "54 questions; 49 from key, 5 solved; chapters P02 P03 P05 P08 P17 P19 C03 C06 C08 C09 C11 C12 C14 C15 C17 C31 C32 M01 M14 M15 M16 M20 M21 M22 M23 M24 M28"
+   "note": "54 questions; 49 from key, 5 solved; chapters P02 P03 P05 P08 P17 P19 C03 C06 C08 C09 C11 C12 C14 C15 C17 C31 C32 M01 M14 M15 M16 M20 M21 M22 M23 M24 M28",
+   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
   },
   {
    "name": "TOAS - Test 07 (01 May 2022)",
