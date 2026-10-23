@@ -57,3 +57,8 @@ ANCHOR Mathematics D3: TOAS - Test 03 p1_math_s1_q02: 1 2 1 0 F0: |tan^-1 x|+|co
 - Judgement calls: p2_chem_s3_q06 treats benzyl alcohol as reacting immediately with Lucas reagent (statement (i) false), so answer 2.
 ANCHOR Physics D9: TOAS - Test 04 p2_phy_s4_q07: 3 3 2 1 F1: particle leaves the circle at B, projectile returns to string-taut point C diametrically opposite; speed condition at A
 ANCHOR Chemistry D8: TOAS - Test 04 p1_chem_s2_q07: 2 4 1 1 F1: three gases with equal masses and movable pistons: mole ratios, final pressures and piston positions, four statements
+
+## 2026-10-23 TOAS - Test 05 (03 Apr 2022)
+- 144 questions (P1: 8 multi + 4 single/matching + 6 numeric per subject; P2: 20 single MCQ + 10 numeric per subject). 133 from key, 11 solved. Difficulty: Easy 26, Medium 60, Hard 51, Very hard 7.
+- Key page: complete for all MCQs; numerics missing for Physics P2 Q7 and Chemistry P2 Q1-3, Q10 (solved), and the whole Mathematics P2 numeric block prints letters (Q3 A, Q4 D, Q5 C, ...) except Q1=7, Q2=2, Q7=8, Q10=7: kept those four, solved the other six; the extra letter row for Q12-Q20 in that block was ignored. Mathematics P1 has stray "Q7 B,C / Q8 A,D" after the numeric row (the MCQ row already gives Q7 A, Q8 A,B,C,D; Q7 re-derived as A).
+- Solved answers where a judgement was needed: chemistry P2 s2 q02 counts enantiomers (4), q01 treats benzylic and cyclopropyl-carbinyl alcohols as immediate Lucas positives (5).
