@@ -1,0 +1,101 @@
+{
+  "root_source": "D:\\Aryan DOWNLOADS\\Final Output\\Batch 3\\Source",
+  "root_output": "D:\\Aryan DOWNLOADS\\Final Output\\Batch 3 Converted",
+  "tests": [
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 01 (16 Jun 2021).pdf",
+      "status": "done",
+      "note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (P1: I(i) 5 + I(ii) 8 + IV 5 per subject; P2: I(i) 6 + I(ii) 8 + I(iii) 4 per subject) = 108 questions; 58 figures; lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 02 (31 Dec 2021).pdf",
+      "status": "done",
+      "note": "14 pages, 52 figs, lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 03 (07 Jan 2022).pdf",
+      "status": "done",
+      "note": "18 pages, 79 figs, lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Challenging\\Score-I - Test 04 (14 Jan 2022).pdf",
+      "status": "done",
+      "note": "Score-I 04: 15 pages, 72 figs; lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 05 (22 Jan 2022).pdf",
+      "status": "done",
+      "note": "Paper-1 only; 8 pages; 33 figs; lint PASS, all pages QA'd"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 06 (28 Jan 2022).pdf",
+      "status": "done",
+      "note": "Paper-1 only; 8 pages; 26 figs; lint PASS, all pages QA'd"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 07 (04 Feb 2022).pdf",
+      "status": "done",
+      "note": "Paper-1 only; 6 pages; 34 figs; lint PASS, all pages QA'd"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 08 (09 Feb 2022).pdf",
+      "status": "done",
+      "note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (I(i) 4+I(ii) 6+II(i) 6+II(ii) 3 for P1; 6+4+6+3 for P2) = 114 questions; 49 figures; 13 pages; lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 09 (16 Feb 2022).pdf",
+      "status": "done",
+      "note": "2 papers; P1 and P2 each 19 q x3 subjects (114 q); 51 figures; pdf 13 pp; lint PASS"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 10 (24 Feb 2022).pdf",
+      "status": "done",
+      "note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 11 (27 Feb 2022).pdf",
+      "status": "done",
+      "note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 12 (09 Mar 2022).pdf",
+      "status": "done",
+      "note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 17 (17 Apr 2022).pdf",
+      "status": "done",
+      "note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 18 (24 Apr 2022).pdf",
+      "status": "done",
+      "note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Moderate\\Score-I - Test 19 (20 Nov 2022).pdf",
+      "status": "done",
+      "note": "54 q, 6 pages, 24 images, lint PASS"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Moderate\\Score-I - Test 22 (04 Dec 2022).pdf",
+      "status": "done",
+      "note": "54 q, 8 pages, 53 images, lint PASS"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 24 (11 Dec 2022).pdf",
+      "status": "done",
+      "note": "54 q, 6 pages, 18 images, lint PASS"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Moderate\\Score-I - Test 26 (18 Dec 2022).pdf",
+      "status": "done",
+      "note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS"
+    },
+    {
+      "source_rel": "Score-I\\Advanced\\Very Challenging\\Score-I - Test 31 (29 Dec 2022).pdf",
+      "status": "done",
+      "note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS"
+    }
+  ]
+}

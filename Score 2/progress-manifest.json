@@ -1,0 +1,256 @@
+{
+  "root_source": "D:\\Aryan DOWNLOADS\\Final Output\\Score 2\\Source",
+  "root_output": "D:\\Aryan DOWNLOADS\\Final Output\\Score 2 Converted",
+  "tests": [
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 02 (28 Mar 2021).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 02 (28 Mar 2021)"
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 04 (07 May 2021).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 04 (07 May 2021)"
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 10 (26 Mar 2023).pdf",
+      "status": "skipped",
+      "note": "Source PDF only contains an answer key placeholder ('NOT AVAILABLE' - question paper missing from original source). Nothing to convert."
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 11 (04 Feb 2024).pdf",
+      "status": "skipped",
+      "note": "Source PDF only contains an answer key placeholder ('NOT AVAILABLE' - question paper missing from original source). Nothing to convert."
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 18 (13 Feb 2024).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 18 (13 Feb 2024)"
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 29 (26 Mar 2024).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 29 (26 Mar 2024)"
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 32 (29 Mar 2024).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 32 (29 Mar 2024)"
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 36 (07 Feb 2025).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 36 (07 Feb 2025)",
+      "note": "Completed 2026-09-23: single paper, no Paper-1/Paper-2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 3 stems x2 = 6 paragraph-numerical + Sec-II(ii) 3 non-neg-integer = 19Q/part, 57Q grand total, verified against source checklist. Compiled cleanly (7 pages), visually QA'd."
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 37 (10 Feb 2025).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 37 (10 Feb 2025)",
+      "note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct(2 paragraphs) + Sec-II(i) 3 stems x2=6 paragraph-numerical + Sec-II(ii) 3 non-neg-integer = 19Q/part, 57Q grand total, verified against source checklist (19/19/19 counted programmatically from .tex). Reclaimed from a stale in_progress whose WIP used forbidden figure*[t] floats + twocolumn class option - rebuilt with multicol + inline full-width placement per STANDING LESSONS before continuing. Compiled cleanly (11 pages, 0 overfull hboxes, 0 begin{figure occurrences), all 21 images tightly cropped and visually QA'd page-by-page, all placed inline under their own question/section. CLEANUP TODO: could not delete the stale WIP files for Test 37 (WIP\\\\Score-II - Test 37 (10 Feb 2025).tex and WIP\\\\Score-II - Test 37 (10 Feb 2025)-img\\\\) this session - device_bash reported 'Workspace unavailable' for the whole session so no shell was available to rm them; a future session with working device_bash should delete them."
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 42 (19 Mar 2025).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 42 (19 Mar 2025)",
+      "note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 6Q one-or-more + Section-II 6Q numerical value + Section-III 6Q single-digit-integer(0-9) = 18Q/part, 54Q grand total, verified against source checklist (18/18/18 counted programmatically from .tex). Different section-label pattern from other tests done this run (plain Section-I/II/III, no (i)/(ii) sub-labels). Built with multicol+inline placement from the start (no float mistakes this time). Compiled cleanly (7 pages, only one negligible <1pt Overfull hbox from ordinary text justification, 0 begin{figure occurrences), all 21 images tightly cropped and visually QA'd page-by-page, all placed inline under their own question/section, 1:1 includegraphics<->image-folder correspondence confirmed programmatically. Math part was 100% text/math, 0 images needed. CLEANUP TODO: could not delete the stale WIP files (WIP\\\\Score-II - Test 42 (19 Mar 2025).tex and its -img\\\\ folder) - device_bash reported 'Workspace unavailable' for this entire session; a future session with working device_bash should delete them."
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 44 (23 Mar 2025).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 44 (23 Mar 2025)",
+      "note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I(i) 4Q single-correct + Section-I(ii) 3Q one-or-more + Section-I(iii) 4 Matching List Sets (List-I P/Q/R/S vs List-II 1-5, MCQ A-D) + Section-II 6Q non-negative integer = 17Q/part, 51Q grand total, verified against source checklist (17/17/17 counted programmatically from .tex). NEW section-label pattern for this batch (never seen before): Section-I(i)/(ii)/(iii)/II rather than the Sec-I(i)/(ii)+Sec-II(i)/(ii) or plain Section-I/II/III patterns of earlier tests - matching-list sets are a new question format for this run, built as full-width tabular (closing multicols around each) with small cropped images inside List-I cells only where the source actually had diagrams (Physics Q8/Q11), pure text elsewhere (Chemistry/Math all matching-list sets were text-only). Compiled cleanly (10 pages, 0 overfull hboxes after fixing 2 wide-formula options + 1 long unbreakable IUPAC name, 0 begin{figure occurrences), all 23 images tightly cropped and visually QA'd page-by-page, all placed inline under their own question/section, 1:1 includegraphics<->image-folder correspondence confirmed programmatically. Math part was 100% text/math, 0 images needed. One layout fix worth noting: a raisebox'd image inside a tabular cell needs a `\\\\[Npt]` row-height won't reliably grow to fit it in this LaTeX setup - the fix that actually worked was adding real white-space padding to the image file itself (ImageOps.expand) rather than trusting the array row-spacing bump."
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 46 (26 Mar 2025).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 46 (26 Mar 2025)",
+      "note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each plain Section-I 10Q one-or-more-correct + Section-II 8Q numerical value = 18Q/part, 54Q grand total, verified against source checklist (18/18/18 counted programmatically from .tex). Built via score2_tools.py pipeline (extract->figure review->transcribe->finalize); lint PASS on first clean run, 0 begin{figure}/twocolumn occurrences, 30 figures kept + 2 rejected (a plain-text equilibrium equation and an empty data table, both typeset as text/tabular instead), 1:1 includegraphics<->image-folder correspondence confirmed programmatically. Chemistry Q1 had two 'wide' figures that are themselves full option content (options A and C) - handled by closing/reopening qoptions around each \\\\qfig call per the tool's rule that wide figures must use \\\\qfig at top level, not \\\\qfigi inside qoptions. Compiled cleanly (8 pages), visually QA'd all pages page-by-page against source."
+    },
+    {
+      "source_rel": "Advanced\\Foundational\\Score-II - Test 13 (06 Feb 2024).pdf",
+      "status": "done",
+      "note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-any-5, boilerplate instructions dropped) = 30Q/part, 90Q total, verified 20+10 per part programmatically. Fixed a checklist gap the extractor's OCR missed (Math Section-II Q2, domain-of-sec-inverse question) by reading the source page directly and adding it. Fixed one EDGE-INK figure (chem s1 q20 reaction scheme) via exact bbox from pymupdf drawings/text geometry - the truncated ink was itself vector-drawn text (outline glyphs), consistent with this test's known OCR-unreliable-skeleton issue. Figure review: 50 candidate figures, 43 kept + 7 correctly rejected (small mis-extracted text/math fragments - a stray formula snippet misattributed to the prior question because Q2 math was originally missing, a stacked integral notation, a sqrt-symbol ink fragment, an electrode-notation line, and 3 piecewise-function definitions already typeset as text/math). Hit and fixed 3 same-row figure-order tie-breaks (2x2 option grids where two options only ~5-8pt apart in y0 sorted in the wrong reading-order column; swapped their figs.json order fields per STANDING LESSONS) and a fresh instance of the backslash-backslash-followed-by-bracket fatal-error pitfall. Caught and removed a duplicate reaction-arrow retyped in LaTeX when the source figure crop already had the arrow/reagents baked into the image. Compiled cleanly (8 pages), 1:1 figure<->image correspondence confirmed programmatically, all 8 pages visually QA'd against source."
+    },
+    {
+      "source_rel": "Advanced\\Foundational\\Score-II - Test 22 (14 Mar 2024).pdf",
+      "status": "done",
+      "note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-any-5) = 30Q/part, 90Q total, verified 20+10 per part programmatically. Fixed a checklist gap the extractor missed (Math Section-II Q4) by reading the source page directly and adding it. Figure review: 34 candidate figures, 24 kept + 10 correctly rejected (mis-extracted text/math fragments - piecewise/determinant/integral formulas better typeset directly, a reaction-arrow-only option already covered by an adjacent kept figure, an ink fragment, a table already typeset as text). Typeset 5 pure-math figures (a 3x3 determinant, a trig product expression, a definite integral, a max/min expression) directly in LaTeX instead of keeping as images, matching the pipeline's text-over-figure preference. Fixed 2 same-row figure-order tie-breaks (swapped figs.json order fields). Found and fixed a real cosmetic-but-visible bug caught only by visual QA (not lint): 3 option-structure crops (chem Q19 A/B/C) had their source PDF's own '(A)'/'(B)'/'(C)' label baked into the crop as vector-drawn ink, duplicating the \\opt letter already typeset - recropped each to start right of the label using pymupdf drawing geometry. Also hit the table-cell \\newline-vs-backslash-backslash pitfall, the backslash-bracket pitfall, and an unbreakable 'Chlorobenzene' overflow in a p{} table cell (fixed with a discretionary hyphen). Compiled cleanly (8 pages), 1:1 figure image correspondence confirmed programmatically, all 8 pages visually QAd against source."
+    },
+    {
+      "source_rel": "Advanced\\Moderate\\Score-II - Test 47 (30 Mar 2025).pdf",
+      "status": "done",
+      "note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20Q single-correct + Section-II 5Q numerical value = 25Q/part, 75Q grand total, verified 20/20/20+5/5/5 programmatically. Built via score2_tools.py pipeline; lint PASS. 106 candidate figures reviewed via contact sheets, 20 kept as real diagrams/structures, 86 rejected and typeset as text/math/tables (most figures were MCQ options rendered as images of single fractions/expressions in the source PDF, not diagrams). Fixed 3 anchor mis-assignments where extractor attributed a figure to the question before it due to figure-before-number page layout (chem q12_2->q13 chair conformations; phy s2 q01_3->q02 mirror wedge; phy s1 q14_6->q15 cylinder-in-tank). 2 wide tables (nuclear-reaction List-I/II, math set List-I/II) and 1 long inline formula list needed resizebox/reflow to avoid Overfull hbox. Compiled cleanly (9 pages), visually QA'd all pages against source page-by-page. KNOWN COSMETIC ISSUE (not content loss): when two consecutive questions each contain their own wide figure (chem Q12+Q13 here), score2_tools.py finalize merges their qfullbegin/qfullend spans and only the FIRST question's \\qfullsplit actually protects its head (qf@boxedfalse after the first \\qf@emit makes the second \\qfullsplit a no-op) - the second question's number can be left alone at a page/column foot with its figure carrying to the next page. All content/figures still present and in correct order; lint cannot catch this since it is pagination, not structure. Left as-is; see AGENT_LEARNINGS TOOL NOTE."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 06 (05 Jul 2022).pdf",
+      "status": "done",
+      "note": "PAPER-1+PAPER-2, each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 single-correct + Sec-I(ii) 6 one-or-more + Sec-II 6 numerical = 18Q/part. Paper2: Sec-I 6 one-or-more + Sec-II 6 numerical + Sec-III 6 single-digit-integer = 18Q/part. 108Q total, verified 18x6 programmatically. Built via score2_tools.py pipeline; lint PASS. 50 figures reviewed via contact sheets: 48 kept, 2 rejected (a data table and a text-only reagent-list typeset as text/tabular instead); 3 EDGE-INK figures recropped using true embedded-image bbox (pymupdf get_image_info) after naive grid-reading guesses failed; 1 figure reanchored q03->q04 (reaction scheme split across 2 crops); fixed a figs.json order tie-break (2 same-row option graphs within 11pt y0, swapped to match visual left-right order) that lint's source-order check needs. Fixed 2 compile issues: literal [ after \\\\ misparsed as optional-arg (wrapped \\\\relax[...]), and 4 overfull hboxes from wide inline formulas (resizebox/sloppy). Compiled cleanly (12 pages), all figures visually QA'd against source."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 08 (05 Feb 2023).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 08 (05 Feb 2023)",
+      "note": "Two-paper test (PAPER-1/PAPER-2), each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/part); Paper2: Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-III 8 single-digit-integer(0-9) (18/part). 108Q total, verified 18x6 programmatically. Reclaimed a 12h-stale in_progress whose WIP tex was already fully transcribed; remaining work was the figure-reject decision + finalize/QA. 55 candidate figures: 49 kept, 6 correctly rejected (already typeset as text/table/math, verified against .tex). Lint PASS, 0 float/twocolumn, 1:1 figure<->image correspondence, all 18 pages visually QA'd."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 09 (12 Feb 2023).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 09 (12 Feb 2023)",
+      "note": "Two-paper test, same structure as Test 08: each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/part). Paper2: Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-III 8 single-digit-integer(0-9) (18/part). 108Q total, verified 18x6 programmatically. 50 candidate figures: 43 kept, 7 correctly rejected (2 blank-table/text-duplicate crops, 2 pure-number matrices, 2 text-only reactions, 1 already-typeset piecewise fn - all verified against .tex before rejecting). 1 EDGE-INK figure (RPDF curve) fixed by reading its true bbox from the PDF's embedded-image list directly (pymupdf get_image_info) rather than eyeballing --grid. Multiple List-I/List-II tables needed narrower p{} column widths (multicol column budget ~8.65cm total incl. borders) plus 2 resizebox wraps for inherently-wide inline math (nested roots/sums) that don't linebreak inside a p{} cell - all iterated to lint PASS. Lint PASS, 0 float/twocolumn, 1:1 figure<->image correspondence, all 14 pages visually QA'd against source."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 12 (04 Feb 2024).pdf",
+      "status": "done",
+      "note": "Completed 2026-09-28: two-paper test, each PAPER-1/PAPER-2 has PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS, each part 4 sections (Sec-I(i) 4 single-correct + Sec-I(ii) 3 one-or-more + Sec-I(iii)/II(i) 4 matching-list-sets or paragraph + Sec-II 6 numerical) = 17Q/part, 102Q total, verified 17x6 programmatically. Reclaimed a 4.5h-stale in_progress whose WIP tex had Paper-1 complete (51Q) + Paper-2 Phy/Chem complete (34Q); built Paper-2 Math (17Q) from scratch. Found and fixed a real content gap in the resumed WIP: Q6 Paper-1 Chemistry was missing the reaction-scheme figure for product S (added \\qfig p1_chem_s2_q06_3). Figure review: 57 candidate figures, 46 kept + 11 correctly rejected (already-typeset reaction arrows/reagent text and one mis-extracted paragraph heading, all verified against anchor question text before rejecting). Hit and fixed a table-cell pitfall: using \\\\ for a forced line break inside a p{} tabular cell prematurely ends the row (corrupts the table) - must use \\\\newline instead; also hit the documented \\\\-followed-by-[ pitfall (5 instances, fixed with \\\\relax[). Iterated table column widths (List-I/List-II matching-list tables) and several resizebox wraps for wide inline math/reaction arrows to reach lint PASS. Compiled cleanly (15 pages), 1:1 figure<->image correspondence confirmed programmatically, all 15 pages visually QA'd against source."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 14 (06 Feb 2024).pdf",
+      "status": "done",
+      "note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-integer = 19Q/part, 57Q total, verified 4+6+6+3 per part. Figure review: 28 candidates, all 28 kept (no rejects - every candidate was a genuine diagram, matching page-by-page verification against source). Fixed one figure whose anchor was wrong (chem paragraph-5-6 reaction-tree figure was anchored to 'q04' instead of 'para5-6', causing a lint placement error) and one baked-in section heading in that same wide figure ('Paragraph for Questions 5 and 6' printed inside the crop) - recropped below the heading using pymupdf text geometry, same fix pattern as Test 22. Hit a missing \\begin{qoptions} (forgot to wrap 4 \\opt calls for a question whose options are figure-pairs with typed reaction arrows between them, chem Q9) causing a 'Lonely item' fatal error, and the backslash-bracket pitfall once. Compiled cleanly (7 pages), 1:1 figure image correspondence confirmed programmatically, all 7 pages visually QAd against source."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 16 (09 Feb 2024).pdf",
+      "status": "done",
+      "note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct (2 paragraphs) + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-integer = 19Q/part, 57Q total, verified 6+4+6+3 per part. 27 candidate figures reviewed (26 original + 1 added via addfig): 26 kept, 1 rejected (a pure-text chemical-equation paragraph mis-captured as an image, typeset directly). Two more instances of the by-now-familiar baked-in 'Paragraph for Questions X and Y' heading inside a wide reaction-scheme crop (chem para3-4 and para5-6) - same anchor-field-wrong + recrop-below-heading fix as Tests 14/22. New wrinkle: one crop (chem Q5's V-structure options) combined TWO separate small structure images with a shared bbox and a run of plain-text sub-options (a)-(f) - split it into two figures via recrop (for the first) + addfig (for the new second one), keeping the text typeset separately rather than forcing an awkward single combined image. Hit the backslash-bracket pitfall once and one more wide-inline-math overfull needing resizebox. Compiled cleanly (7 pages), 1:1 figure image correspondence confirmed programmatically, all 7 pages visually QAd against source."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 21 (14 Mar 2024).pdf",
+      "status": "done",
+      "note": "Two-paper test, each PART-1 PHY+PART-2 CHEM+PART-3 MATH, Sec-I(i)/I(ii)/II(P1) or III(P2), 6+4+8=18Q/part P1, 4+6+8=18Q/part P2, 108Q total verified 18x6. 56 candidate figures: 51 kept, 5 rejected (2 pure-text fragments, 3 data tables typeset as tabulars). Fixed 2 wrong figure anchors (q07->q08 on p1 phy) and a swapped figure-pair order (Circuit-1/2 on p2 phy). Lint PASS, all 18 pages visually QA'd."
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 23 (17 Mar 2024).pdf",
+      "status": "done",
+      "note": "Paper 1 only; PHYSICS, CHEMISTRY, MATHEMATICS each 3 sections x 6 q = 54 questions; 27 figures (maths text-only)"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 26 (20 Mar 2024).pdf",
+      "status": "done",
+      "note": "Paper 1 only; PHY/CHEM/MATH each 4 sections (I(i) 4q, I(ii) 6q, II(i) 6q, II(ii) 3q) = 57 questions; 30 figures; rejected N1/N2 label circles (typeset) and a red handwritten solution scribble under maths Q9 (source annotation, not question content)"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 28 (23 Mar 2024).pdf",
+      "status": "done",
+      "note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; output verified complete in FINAL OUTPUT (manifest write had been lost)"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 33 (01 Apr 2024).pdf",
+      "status": "done",
+      "note": "Adv Very Challenging; 2 papers: P1 (I 5, III 5, IV 5 per part x3 = 45Q) + P2 (I(i) 6, I(ii) 6, III 10 per part x3 = 66Q) = 111Q; 51 figures"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 34 (02 Feb 2025).pdf",
+      "status": "done",
+      "note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; 40 figures"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 35 (04 Feb 2025).pdf",
+      "status": "done",
+      "note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 4 + I(ii) 6 + III 8) = 54 Q; 20 figures"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 38 (12 Feb 2025).pdf",
+      "status": "done",
+      "note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 6 + II 6) = 54 Q; 32 figures"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 39 (02 Mar 2025).pdf",
+      "status": "done",
+      "note": "Adv Very Challenging; 2 papers: P1 (I(i) 6 + I(ii) 4 + II 8) x3 = 54Q + P2 (I(i) 4 + I(ii) 6 + III 8) x3 = 54Q = 108Q; 50 figures"
+    },
+    {
+      "source_rel": "Advanced\\Very Challenging\\Score-II - Test 40 (16 Mar 2025).pdf",
+      "status": "done",
+      "note": "Adv Very Challenging; 2 papers: each part I(i) 4 + I(ii) 3 + I(iii)/II(i) 4 + II 6 = 17Q x3 x2 papers = 102Q; 43 figures"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 03 (05 May 2021).pdf",
+      "status": "done",
+      "note": "Mains Foundational; 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 29 figures"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 05 (22 Mar 2022).pdf",
+      "status": "done",
+      "note": "PARTIAL BY SOURCE: source PDF is a 9-page bilingual fragment; transcribed all English questions present (Phy Q10-12, Chem Q10-11, Math Q6-17 = 17Q) + 7 figures. Lint PASS (part-checklist WARNs only)."
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 07 (10 Jul 2022).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 39 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": [
+        "Mains\\Foundational\\Score-II - Test 17 (13 Feb 2024) - part1.pdf",
+        "Mains\\Foundational\\Score-II - Test 17 (13 Feb 2024) - part2.pdf"
+      ],
+      "note": "Mains Foundational (two part-files); 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 41 figures",
+      "output_name": "Score-II - Test 17 (13 Feb 2024)",
+      "status": "done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 19 (20 Feb 2024).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 38 figures (math option/matrix crops typed); lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 24 (17 Mar 2024).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 32 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 27 (23 Mar 2024).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 34 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 30 (27 Mar 2024).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 36 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 31 (29 Mar 2024).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 44 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 41 (19 Mar 2025).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 31 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 43 (23 Mar 2025).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 32 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Foundational\\Score-II - Test 45 (26 Mar 2025).pdf",
+      "status": "done",
+      "note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 24 figures; lint PASS, QA done"
+    },
+    {
+      "source_rel": "Mains\\Moderate\\Score-II - Test 15 (09 Feb 2024).pdf",
+      "status": "done",
+      "note": "Two-paper test: 144Q (P1 90 + P2 54), 59 figs, lint PASS, QA done",
+      "finished_at": "2026-10-19T13:09:00Z"
+    },
+    {
+      "source_rel": "Mains\\Moderate\\Score-II - Test 20 (23 Feb 2024).pdf",
+      "status": "done",
+      "note": "Paper-1+2 transcribed, PASS, all pages visually QA'd; wide chem Q6/Q7/Q8 figs full-width; Q8 math Σ|xixj| kept as printed",
+      "finished_at": "2026-10-19T13:08:17Z"
+    },
+    {
+      "source_rel": "Mains\\Moderate\\Score-II - Test 25 (20 Mar 2024).pdf",
+      "status": "done",
+      "note": "Two-paper test: P1 90Q + P2 57Q, 46 figs (9 rejected/typed, 1 added), lint PASS, all 14 pages QA'd",
+      "finished_at": "2026-10-19T13:18:22Z"
+    },
+    {
+      "source_rel": "Advanced\\Challenging\\Score-II - Test 01 (21 Mar 2021).pdf",
+      "status": "done",
+      "output_name": "Score-II - Test 01 (21 Mar 2021)",
+      "note": "Fixed 2026-09-22: prior output was silently truncated (missing Paper-2 Part-2 Chem Section-II Numerical Q4-8 and all of Paper-2 Part-3 Mathematics). Completed via full source re-scan against checklist, recompiled (13 pages), visually QA-d all pages. Removed stale -figs asset folder reference (leftover WIP naming); could not physically delete leftover -figs directory on disk this session (device_bash unavailable) - a future session with device_bash should rm \"Score 2 Converted/Advanced/Challenging/Score-II - Test 01 (21 Mar 2021)-figs\". CLEANUP TODO: delete the orphaned unreferenced folder 'Score 2 Converted\\Advanced\\Challenging\\Score-II - Test 01 (21 Mar 2021)-figs' (old naming convention, .tex only uses the -img folder) next time device_bash is available."
+    }
+  ]
+}

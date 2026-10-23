@@ -1,0 +1,551 @@
+{
+  "root_source": "D:\\Aryan DOWNLOADS\\Final Output\\Batch 4\\Source",
+  "root_output": "D:\\Aryan DOWNLOADS\\Final Output\\Batch 4 Converted",
+  "tests": [
+    {
+      "source_rel": "TOAS\\Advanced\\Challenging\\TOAS - Test 01 (30 Jan 2022).pdf",
+      "status": "done",
+      "note": "Done: 2 papers, 168 Qs, 76 figs, lint PASS, visual QA all 14 pages"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Challenging\\TOAS - Test 02 (13 Feb 2022).pdf",
+      "status": "done",
+      "note": "Done: single paper, 54 Qs, 31 figs, lint PASS, visual QA all 7 pages"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 03 (27 Feb 2022).pdf",
+      "status": "done",
+      "note": "Done: 2 papers, 108 Qs, 57 figs, lint PASS, visual QA all 11 pages"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 04 (15 Mar 2022).pdf",
+      "status": "done",
+      "note": "TOAS 04 done: Very Challenging, 2 papers, 13 pages, 57 figs, lint PASS"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 05 (03 Apr 2022).pdf",
+      "status": "done",
+      "note": "17pp, 81 figs, QA ok"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 06 (17 Apr 2022).pdf",
+      "status": "done",
+      "note": "6pp, 25 figs, QA ok"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 07 (01 May 2022).pdf",
+      "status": "done",
+      "note": "12 pp, 56 figs, QA ok"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 08 (15 May 2022).pdf",
+      "status": "done",
+      "note": "14 pp, 57 figs, QA ok"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 09 (30 May 2022).pdf",
+      "status": "done",
+      "note": "16pp, 2 papers (P1 3x19 Qs, P2 3x30 Qs = 147 Qs), 82 figs, lint PASS, visual QA all 16 pages"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 10 (12 Jun 2022).pdf",
+      "status": "done",
+      "note": "6pp, 26 figs, lint PASS, QA ok"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 11 (27 Jun 2022).pdf",
+      "status": "done",
+      "note": "2 papers, 14pp, 45 figs, lint PASS, QA ok"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 12 (10 Jul 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 63 figs"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 13 (24 Jul 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 15pp, 76 figs"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 14 (07 Aug 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 7pp, 31 figs, single paper"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 15 (22 Aug 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 11pp, 80 figs"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 16 (04 Sep 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 12pp, 45 figs"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 17 (18 Sep 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 16pp, 78 figs"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 18 (30 Oct 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 69 figs"
+    },
+    {
+      "source_rel": "TOAS\\Advanced\\Very Challenging\\TOAS - Test 19 (05 Feb 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 7pp, 27 figs"
+    },
+    {
+      "source_rel": "TAAS\\Advanced\\Very Challenging\\TAAS - Test 01 (18 Jun 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 7pp, 38 figs"
+    },
+    {
+      "source_rel": "TAAS\\Advanced\\Very Challenging\\TAAS - Test 02 (30 Jul 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 53 figs"
+    },
+    {
+      "source_rel": "TOPS\\Advanced\\Very Challenging\\TOPS - Test 01 (31 Jul 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 6pp, 20 figs"
+    },
+    {
+      "source_rel": "TOPS\\Advanced\\Very Challenging\\TOPS - Test 02 (28 Aug 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 10pp, 26 figs"
+    },
+    {
+      "source_rel": "TOPS\\Advanced\\Very Challenging\\TOPS - Test 03 (20 Nov 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 12pp, 61 figs"
+    },
+    {
+      "source_rel": "TOPS\\Advanced\\Very Challenging\\TOPS - Test 04 (18 Dec 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 16pp, 70 figs"
+    },
+    {
+      "source_rel": "TOPS\\Advanced\\Very Challenging\\TOPS - Test 05 (14 Jan 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 12pp, 71 figs"
+    },
+    {
+      "source_rel": "TEAS\\Advanced\\Challenging\\TEAS - Test 01 (16 Apr 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 6pp, 31 figs"
+    },
+    {
+      "source_rel": "TMAS\\Mains\\Moderate\\TMAS - Test 01 (09 Jul 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 16pp, 97 figs"
+    },
+    {
+      "source_rel": "TMAS\\Advanced\\Very Challenging\\TMAS - Test 02 (06 Aug 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 52 figs"
+    },
+    {
+      "source_rel": "TMAS\\Advanced\\Moderate\\TMAS - Test 03 (10 Sep 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 5pp, 24 figs"
+    },
+    {
+      "source_rel": "TMAS\\Advanced\\Very Challenging\\TMAS - Test 04 (19 Nov 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 10pp, 26 figs"
+    },
+    {
+      "source_rel": "TNAS\\Mains\\Moderate\\TNAS - Test 01 (05 Feb 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 16pp, 90 figs"
+    },
+    {
+      "source_rel": "TNAS\\Advanced\\Very Challenging\\TNAS - Test 02 (07 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 12pp, 52 figs"
+    },
+    {
+      "source_rel": "TNAS\\Mains\\Moderate\\TNAS - Test 03 (28 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 17pp, 79 figs"
+    },
+    {
+      "source_rel": "TNAS\\Advanced\\Very Challenging\\TNAS - Test 04 (18 Jun 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 14pp, 62 figs"
+    },
+    {
+      "source_rel": "TNAS\\Mains\\Moderate\\TNAS - Test 05 (09 Jul 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 16pp, 49 figs"
+    },
+    {
+      "source_rel": "TNAS\\Advanced\\Very Challenging\\TNAS - Test 06 (30 Jul 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 55 figs"
+    },
+    {
+      "source_rel": "TNAS\\Mains\\Moderate\\TNAS - Test 07 (20 Aug 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 17pp, 63 figs"
+    },
+    {
+      "source_rel": "Star Review (Other)\\Advanced\\Very Challenging\\Star Review (Other) - Test 01 (12 Sep 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 38 figs"
+    },
+    {
+      "source_rel": "Star Review (Other)\\Advanced\\Very Challenging\\Star Review (Other) - Test 02 (10 Oct 2022).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 12pp, 34 figs"
+    },
+    {
+      "source_rel": "Star Review (Other)\\Advanced\\Very Challenging\\Star Review (Other) - Test 03 (04 Dec 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 11pp, 40 figs"
+    },
+    {
+      "source_rel": "Internal Test\\Advanced\\Challenging\\Internal Test - Test 01 (05 Aug 2020).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 8pp, 66 figs"
+    },
+    {
+      "source_rel": "Internal Test\\Advanced\\Moderate\\Internal Test - Test 02 (07 Jul 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 6pp, 55 figs"
+    },
+    {
+      "source_rel": "Internal Test\\Advanced\\Challenging\\Internal Test - Test 03 (08 Sep 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 7pp, 59 figs"
+    },
+    {
+      "source_rel": "Nurture SRG\\Advanced\\Moderate\\Nurture SRG - Test 01 (26 Mar 2023).pdf",
+      "status": "skipped",
+      "note": "Source PDF holds no question paper (NOT AVAILABLE placeholder + answer key only). Nothing to convert."
+    },
+    {
+      "source_rel": "Nurture SRG\\Advanced\\Challenging\\Nurture SRG - Test 02 (06 Dec 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 6pp, 21 figs"
+    },
+    {
+      "source_rel": "Nurture SRG\\Advanced\\Very Challenging\\Nurture SRG - Test 03 (04 Feb 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 12pp, 87 figs"
+    },
+    {
+      "source_rel": "Nurture (General)\\Mains\\Foundational\\Nurture (General) - Test 01 (12 Jun 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 46 figs"
+    },
+    {
+      "source_rel": "Nurture (General)\\Mains\\Foundational\\Nurture (General) - Test 02 (14 Dec 2022).pdf",
+      "status": "skipped",
+      "note": "Source PDF holds no question paper (NOT AVAILABLE placeholder + answer key only). Nothing to convert."
+    },
+    {
+      "source_rel": "Nurture (General)\\Mains\\Foundational\\Nurture (General) - Test 03 (27 Sep 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 8pp, 22 figs"
+    },
+    {
+      "source_rel": "Nurture (General)\\Advanced\\Moderate\\Nurture (General) - Test 04 (11 Feb 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 6pp, 21 figs"
+    },
+    {
+      "source_rel": "Enthusiast Pre-Score\\Advanced\\Very Challenging\\Enthusiast Pre-Score - Test 01 (04 Nov 2020).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 54 figs"
+    },
+    {
+      "source_rel": "Enthusiast Pre-Score\\Advanced\\Very Challenging\\Enthusiast Pre-Score - Test 02 (11 Nov 2020).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 15pp, 51 figs"
+    },
+    {
+      "source_rel": "Enthusiast Pre-Score\\Advanced\\Very Challenging\\Enthusiast Pre-Score - Test 03 (23 Nov 2020).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 15pp, 71 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 01 (22 Sep 2020).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 15pp, 57 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Moderate\\Score Advanced - Test 02 (13 May 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 46 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Foundational\\Score Advanced - Test 03 (27 Jun 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 55 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Foundational\\Score Advanced - Test 04 (04 Jul 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 16pp, 101 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Moderate\\Score Advanced - Test 05 (15 Jul 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 8pp, 38 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 06 (04 Sep 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 13pp, 55 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 07 (16 Apr 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 14pp, 77 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 08 (22 Apr 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-19, 12pp, 55 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 09 (29 Apr 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 15pp, 52 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 10 (06 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 52 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 11 (09 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 6pp, 25 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 12 (11 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 18 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 13 (13 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 14pp, 48 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 14 (16 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 8pp, 24 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Challenging\\Score Advanced - Test 15 (18 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 8pp, 35 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 16 (20 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 41 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 17 (25 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 39 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 18 (27 May 2023).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 62 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 19 (04 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 36 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 20 (06 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 8pp, 23 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 21 (08 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 28 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 22 (10 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 15pp, 86 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 23 (14 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 49 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 24 (17 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 10pp, 39 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Moderate\\Score Advanced - Test 25 (21 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 58 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 26 (21 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 61 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 27 (24 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 67 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 28 (27 Apr 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 14pp, 77 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Foundational\\Score Advanced - Test 29 (01 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 40 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Foundational\\Score Advanced - Test 30 (04 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 51 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 31 (04 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 50 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Foundational\\Score Advanced - Test 32 (08 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 14pp, 65 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Foundational\\Score Advanced - Test 33 (12 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 48 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 34 (12 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 48 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 35 (15 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 39 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Foundational\\Score Advanced - Test 36 (19 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 55 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 37 (19 May 2024).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 55 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 38 (13 Apr 2025).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 14pp, 62 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 39 (20 Apr 2025).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 13pp, 55 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Very Challenging\\Score Advanced - Test 40 (27 Apr 2025).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 11pp, 58 figs"
+    },
+    {
+      "source_rel": "Score Advanced\\Advanced\\Challenging\\Score Advanced - Test 41.pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 85 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 01 (25 Jul 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 5pp, 10 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 02 (01 Aug 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 8pp, 22 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 03 (08 Aug 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 24 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 04 (15 Aug 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 23 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 05 (23 Aug 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 10 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 06 (29 Aug 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 8pp, 25 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 07 (05 Sep 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 9pp, 48 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 08 (13 Sep 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 6pp, 13 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 09 (19 Sep 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 6pp, 23 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 10 (26 Sep 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 12pp, 16 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 11 (03 Oct 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 25 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 12 (10 Oct 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 13 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 13 (17 Oct 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 7pp, 17 figs"
+    },
+    {
+      "source_rel": "SRGBT\\Foundational\\SRGBT - Test 14 (24 Oct 2021).pdf",
+      "status": "done",
+      "note": "DONE 2026-10-20, 8pp, 64 figs"
+    }
+  ]
+}

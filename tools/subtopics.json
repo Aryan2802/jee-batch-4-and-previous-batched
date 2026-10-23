@@ -1,0 +1,547 @@
+{
+ "P01": [
+  "1D and 2D motion",
+  "Relative motion",
+  "Projectile motion",
+  "River-boat problems"
+ ],
+ "P02": [
+  "Newton's laws",
+  "Friction",
+  "Constraints",
+  "Pulley systems",
+  "Circular dynamics"
+ ],
+ "P03": [
+  "Work",
+  "Energy",
+  "Power",
+  "Conservative forces",
+  "Potential energy curves"
+ ],
+ "P04": [
+  "Centre of mass",
+  "Momentum",
+  "Collisions",
+  "Variable mass"
+ ],
+ "P05": [
+  "Rotational kinematics",
+  "Torque",
+  "Moment of inertia",
+  "Angular momentum",
+  "Rolling"
+ ],
+ "P06": [
+  "Kepler's laws",
+  "Field and potential",
+  "Satellites",
+  "Escape velocity"
+ ],
+ "P07": [
+  "Pressure",
+  "Buoyancy",
+  "Continuity",
+  "Bernoulli",
+  "Viscosity",
+  "Surface tension"
+ ],
+ "P08": [
+  "Coulomb's law",
+  "Electric field",
+  "Gauss's law",
+  "Electric potential",
+  "Dipoles",
+  "Conductors"
+ ],
+ "P09": [
+  "Capacitors",
+  "Dielectrics",
+  "Combinations",
+  "Energy",
+  "Charge sharing",
+  "RC circuits"
+ ],
+ "P10": [
+  "Ohm's law",
+  "Kirchhoff's laws",
+  "Meters",
+  "Potentiometer",
+  "Wheatstone bridge"
+ ],
+ "P11": [
+  "Biot-Savart",
+  "Ampere's law",
+  "Force on charges",
+  "Force on wires",
+  "Bar magnet",
+  "Magnetic materials"
+ ],
+ "P12": [
+  "Faraday and Lenz",
+  "Motional EMF",
+  "Inductance",
+  "LC oscillations",
+  "LCR circuits",
+  "Resonance",
+  "Transformers"
+ ],
+ "P13": [
+  "Expansion",
+  "Specific and latent heat",
+  "Calorimetry"
+ ],
+ "P14": [
+  "Gas laws",
+  "Kinetic theory",
+  "Degrees of freedom",
+  "Molecular speeds",
+  "Mean free path"
+ ],
+ "P15": [
+  "First law",
+  "Second law",
+  "Processes",
+  "Heat engines",
+  "Heat pumps",
+  "Entropy"
+ ],
+ "P16": [
+  "Conduction",
+  "Convection",
+  "Radiation",
+  "Newton's law of cooling",
+  "Stefan-Boltzmann law"
+ ],
+ "P17": [
+  "Spring-mass",
+  "Pendulums",
+  "Energy",
+  "Damped and forced oscillations",
+  "Resonance"
+ ],
+ "P18": [
+  "Waves on a string",
+  "Sound waves",
+  "Standing waves",
+  "Beats",
+  "Doppler effect"
+ ],
+ "P19": [
+  "Reflection",
+  "Refraction",
+  "Lenses",
+  "Prisms",
+  "Microscope and telescope"
+ ],
+ "P20": [
+  "Interference",
+  "YDSE",
+  "Diffraction",
+  "Polarization",
+  "Resolving power"
+ ],
+ "P21": [
+  "Photoelectric effect",
+  "de Broglie waves",
+  "Bohr model",
+  "X-rays",
+  "Nuclear physics",
+  "Radioactivity"
+ ],
+ "P22": [
+  "Displacement current",
+  "Spectrum",
+  "Properties"
+ ],
+ "P23": [
+  "Elasticity",
+  "Stress and strain",
+  "Young's modulus"
+ ],
+ "P24": [
+  "p-n junction",
+  "Diodes",
+  "Transistors",
+  "Logic gates"
+ ],
+ "P25": [
+  "Units and dimensions",
+  "Errors and measurement",
+  "Vernier and screw gauge",
+  "Experiments"
+ ],
+ "M01": [
+  "Quadratics",
+  "Nature of roots",
+  "Location of roots",
+  "Higher-degree equations"
+ ],
+ "M02": [
+  "Algebra",
+  "Modulus and argument",
+  "De Moivre",
+  "Roots of unity",
+  "Geometry"
+ ],
+ "M03": [
+  "AP",
+  "GP",
+  "HP",
+  "AM-GM-HM",
+  "Special series"
+ ],
+ "M04": [
+  "Counting principles",
+  "Permutations",
+  "Combinations",
+  "Distributions",
+  "Derangements"
+ ],
+ "M05": [
+  "Binomial theorem",
+  "General term",
+  "Coefficient problems",
+  "Multinomial"
+ ],
+ "M06": [
+  "Classical probability",
+  "Conditional probability",
+  "Bayes",
+  "Random variables",
+  "Binomial distribution"
+ ],
+ "M07": [
+  "Types",
+  "Operations",
+  "Adjoint and inverse",
+  "Rank",
+  "Linear systems"
+ ],
+ "M08": [
+  "Properties",
+  "Expansion",
+  "Cramer's rule"
+ ],
+ "M09": [
+  "Mean, median, mode",
+  "Variance and standard deviation"
+ ],
+ "M10": [
+  "Properties",
+  "Equations and inequalities"
+ ],
+ "M11": [
+  "Identities",
+  "Compound and multiple angles",
+  "Transformations"
+ ],
+ "M12": [
+  "Graphs",
+  "General solutions",
+  "Trig inequalities"
+ ],
+ "M13": [
+  "Sine and cosine rules",
+  "Area",
+  "Circles of a triangle"
+ ],
+ "M14": [
+  "Principal values",
+  "Identities",
+  "Equations"
+ ],
+ "M15": [
+  "Forms of lines",
+  "Angle between lines",
+  "Locus",
+  "Pair of lines"
+ ],
+ "M16": [
+  "Tangents",
+  "Chords",
+  "Radical axis",
+  "Family of circles"
+ ],
+ "M17": [
+  "Standard forms",
+  "Tangents",
+  "Normals",
+  "Chords"
+ ],
+ "M18": [
+  "Standard form",
+  "Tangents",
+  "Normals",
+  "Auxiliary circle"
+ ],
+ "M19": [
+  "Standard form",
+  "Asymptotes",
+  "Tangents",
+  "Rectangular hyperbola"
+ ],
+ "M20": [
+  "Domain",
+  "Range",
+  "Composition",
+  "Inverse",
+  "Periodicity",
+  "Sets and relations",
+  "Modulus and greatest integer"
+ ],
+ "M21": [
+  "Standard limits",
+  "L'Hopital",
+  "Expansions"
+ ],
+ "M22": [
+  "Rules",
+  "Implicit and parametric",
+  "Higher derivatives"
+ ],
+ "M23": [
+  "Types of discontinuity",
+  "Differentiability of modulus and greatest-integer functions"
+ ],
+ "M24": [
+  "Tangents and normals",
+  "Rate of change",
+  "Mean value theorems"
+ ],
+ "M25": [
+  "Increasing and decreasing functions",
+  "Extrema",
+  "Optimisation"
+ ],
+ "M26": [
+  "Standard forms",
+  "Substitution",
+  "By parts",
+  "Partial fractions"
+ ],
+ "M27": [
+  "Properties",
+  "Leibniz rule",
+  "Estimation"
+ ],
+ "M28": [
+  "Area between curves",
+  "Parametric regions"
+ ],
+ "M29": [
+  "Order and degree",
+  "Variables separable",
+  "Linear",
+  "Homogeneous"
+ ],
+ "M30": [
+  "Representation",
+  "Direction cosines",
+  "Position vectors"
+ ],
+ "M31": [
+  "Dot product",
+  "Cross product",
+  "Scalar triple product",
+  "Vector triple product"
+ ],
+ "M32": [
+  "Lines",
+  "Planes",
+  "Shortest distance",
+  "Angles"
+ ],
+ "C01": [
+  "Stoichiometry",
+  "Limiting reagent",
+  "Concentration terms"
+ ],
+ "C02": [
+  "Bohr model",
+  "Quantum numbers",
+  "Orbitals",
+  "Electronic configuration"
+ ],
+ "C03": [
+  "Gas laws",
+  "Kinetic theory",
+  "Real gases"
+ ],
+ "C04": [
+  "Laws",
+  "Enthalpy",
+  "Entropy",
+  "Gibbs energy"
+ ],
+ "C05": [
+  "Enthalpies",
+  "Hess's law",
+  "Bond energies"
+ ],
+ "C06": [
+  "Kc and Kp",
+  "Le Chatelier"
+ ],
+ "C07": [
+  "pH",
+  "Buffers",
+  "Solubility product",
+  "Hydrolysis"
+ ],
+ "C08": [
+  "Oxidation numbers",
+  "Balancing",
+  "Equivalents"
+ ],
+ "C09": [
+  "Rate laws",
+  "Order",
+  "Arrhenius equation",
+  "Nuclear chemistry"
+ ],
+ "C10": [
+  "Cells",
+  "Nernst equation",
+  "Conductance",
+  "Electrolysis"
+ ],
+ "C11": [
+  "Colligative properties",
+  "Raoult's law",
+  "Van't Hoff factor"
+ ],
+ "C12": [
+  "Unit cells",
+  "Packing",
+  "Defects"
+ ],
+ "C13": [
+  "Adsorption",
+  "Catalysis",
+  "Colloids"
+ ],
+ "C14": [
+  "Electronic effects",
+  "Acidity and basicity",
+  "Reactive intermediates"
+ ],
+ "C15": [
+  "Structural",
+  "Geometrical",
+  "Optical"
+ ],
+ "C16": [
+  "Grignard and organometallic reagents",
+  "Name reactions"
+ ],
+ "C17": [
+  "Alkanes",
+  "Alkenes",
+  "Alkynes",
+  "Mechanisms"
+ ],
+ "C18": [
+  "SN1",
+  "SN2",
+  "E1",
+  "E2"
+ ],
+ "C19": [
+  "Preparation",
+  "Properties"
+ ],
+ "C20": [
+  "Nucleophilic addition",
+  "Aldol",
+  "Cannizzaro"
+ ],
+ "C21": [
+  "Acidity",
+  "Derivatives"
+ ],
+ "C22": [
+  "Basicity",
+  "Diazonium salts",
+  "Tests"
+ ],
+ "C23": [
+  "Electrophilic substitution",
+  "Directing effects"
+ ],
+ "C24": [
+  "Practical organic chemistry",
+  "Qualitative tests"
+ ],
+ "C25": [
+  "Carbohydrates",
+  "Amino acids",
+  "Proteins",
+  "Nucleic acids"
+ ],
+ "C26": [
+  "Nomenclature rules"
+ ],
+ "C27": [
+  "Types",
+  "Mechanisms",
+  "Examples"
+ ],
+ "C28": [
+  "Drugs",
+  "Soaps and detergents",
+  "Food chemicals"
+ ],
+ "C29": [
+  "Trends",
+  "Periodic properties"
+ ],
+ "C30": [
+  "VSEPR",
+  "Hybridisation",
+  "MOT",
+  "Bond properties"
+ ],
+ "C31": [
+  "Nomenclature",
+  "Isomerism",
+  "CFT",
+  "VBT"
+ ],
+ "C32": [
+  "Extraction",
+  "Ores",
+  "Refining"
+ ],
+ "C33": [
+  "Cation tests",
+  "Anion tests"
+ ],
+ "C34": [
+  "Pollutants",
+  "Ozone",
+  "Greenhouse effect"
+ ],
+ "C35": [
+  "Alkali metals",
+  "Alkaline earth metals"
+ ],
+ "C36": [
+  "Group 13",
+  "Group 14",
+  "Group 15",
+  "Group 16",
+  "Group 17",
+  "Group 18"
+ ],
+ "C37": [
+  "Transition elements",
+  "Lanthanoids",
+  "Actinoids"
+ ],
+ "C38": [
+  "Hydrides",
+  "Water",
+  "H2O2"
+ ]
+}

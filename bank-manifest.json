@@ -1,0 +1,2148 @@
+{
+ "root": "repository root",
+ "tests": [
+  {
+   "name": "Score-I - Test 12 (09 Mar 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 12 (09 Mar 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 12 (09 Mar 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 12 (09 Mar 2022).pdf"
+   ],
+   "status": "done",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
+   "fix_note": "add difficulty",
+   "note": "reference sample 19 Oct 2026: 114 questions, 105 key, 9 solved; packed before difficulty scoring"
+  },
+  {
+   "name": "TOAS - Test 01 (30 Jan 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Challenging/TOAS - Test 01 (30 Jan 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Challenging/TOAS - Test 01 (30 Jan 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Challenging/TOAS - Test 01 (30 Jan 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Done: 2 papers, 168 Qs, 76 figs, lint PASS, visual QA all 14 pages"
+  },
+  {
+   "name": "TOAS - Test 02 (13 Feb 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Challenging/TOAS - Test 02 (13 Feb 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Challenging/TOAS - Test 02 (13 Feb 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Challenging/TOAS - Test 02 (13 Feb 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Done: single paper, 54 Qs, 31 figs, lint PASS, visual QA all 7 pages"
+  },
+  {
+   "name": "TOAS - Test 03 (27 Feb 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 03 (27 Feb 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 03 (27 Feb 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 03 (27 Feb 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Done: 2 papers, 108 Qs, 57 figs, lint PASS, visual QA all 11 pages"
+  },
+  {
+   "name": "TOAS - Test 04 (15 Mar 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 04 (15 Mar 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 04 (15 Mar 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 04 (15 Mar 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "TOAS 04 done: Very Challenging, 2 papers, 13 pages, 57 figs, lint PASS"
+  },
+  {
+   "name": "TOAS - Test 05 (03 Apr 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 05 (03 Apr 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 05 (03 Apr 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 05 (03 Apr 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "17pp, 81 figs, QA ok"
+  },
+  {
+   "name": "TOAS - Test 06 (17 Apr 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 06 (17 Apr 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 06 (17 Apr 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 06 (17 Apr 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "6pp, 25 figs, QA ok"
+  },
+  {
+   "name": "TOAS - Test 07 (01 May 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 07 (01 May 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 07 (01 May 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 07 (01 May 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "12 pp, 56 figs, QA ok"
+  },
+  {
+   "name": "TOAS - Test 08 (15 May 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 08 (15 May 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 08 (15 May 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 08 (15 May 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "14 pp, 57 figs, QA ok"
+  },
+  {
+   "name": "TOAS - Test 09 (30 May 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 09 (30 May 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 09 (30 May 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 09 (30 May 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "16pp, 2 papers (P1 3x19 Qs, P2 3x30 Qs = 147 Qs), 82 figs, lint PASS, visual QA all 16 pages"
+  },
+  {
+   "name": "TOAS - Test 10 (12 Jun 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 10 (12 Jun 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 10 (12 Jun 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 10 (12 Jun 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "6pp, 26 figs, lint PASS, QA ok"
+  },
+  {
+   "name": "TOAS - Test 11 (27 Jun 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 11 (27 Jun 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 11 (27 Jun 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 11 (27 Jun 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 14pp, 45 figs, lint PASS, QA ok"
+  },
+  {
+   "name": "TOAS - Test 12 (10 Jul 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 12 (10 Jul 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 12 (10 Jul 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 12 (10 Jul 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 63 figs"
+  },
+  {
+   "name": "TOAS - Test 13 (24 Jul 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 13 (24 Jul 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 13 (24 Jul 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 13 (24 Jul 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 15pp, 76 figs"
+  },
+  {
+   "name": "TOAS - Test 14 (07 Aug 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 14 (07 Aug 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 14 (07 Aug 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 14 (07 Aug 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 7pp, 31 figs, single paper"
+  },
+  {
+   "name": "TOAS - Test 15 (22 Aug 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 15 (22 Aug 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 15 (22 Aug 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 15 (22 Aug 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 11pp, 80 figs"
+  },
+  {
+   "name": "TOAS - Test 16 (04 Sep 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 16 (04 Sep 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 16 (04 Sep 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 16 (04 Sep 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 12pp, 45 figs"
+  },
+  {
+   "name": "TOAS - Test 17 (18 Sep 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 17 (18 Sep 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 17 (18 Sep 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 17 (18 Sep 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 16pp, 78 figs"
+  },
+  {
+   "name": "TOAS - Test 18 (30 Oct 2022)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 18 (30 Oct 2022).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 18 (30 Oct 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 18 (30 Oct 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 69 figs"
+  },
+  {
+   "name": "TOAS - Test 19 (05 Feb 2023)",
+   "tex_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 19 (05 Feb 2023).tex",
+   "img_rel": "Batch 4 Converted/TOAS/Advanced/Very Challenging/TOAS - Test 19 (05 Feb 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 19 (05 Feb 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 7pp, 27 figs"
+  },
+  {
+   "name": "TAAS - Test 01 (18 Jun 2023)",
+   "tex_rel": "Batch 4 Converted/TAAS/Advanced/Very Challenging/TAAS - Test 01 (18 Jun 2023).tex",
+   "img_rel": "Batch 4 Converted/TAAS/Advanced/Very Challenging/TAAS - Test 01 (18 Jun 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TAAS/Advanced/Very Challenging/TAAS - Test 01 (18 Jun 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 7pp, 38 figs"
+  },
+  {
+   "name": "TAAS - Test 02 (30 Jul 2023)",
+   "tex_rel": "Batch 4 Converted/TAAS/Advanced/Very Challenging/TAAS - Test 02 (30 Jul 2023).tex",
+   "img_rel": "Batch 4 Converted/TAAS/Advanced/Very Challenging/TAAS - Test 02 (30 Jul 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TAAS/Advanced/Very Challenging/TAAS - Test 02 (30 Jul 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 53 figs"
+  },
+  {
+   "name": "TOPS - Test 01 (31 Jul 2022)",
+   "tex_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 01 (31 Jul 2022).tex",
+   "img_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 01 (31 Jul 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 01 (31 Jul 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 6pp, 20 figs"
+  },
+  {
+   "name": "TOPS - Test 02 (28 Aug 2022)",
+   "tex_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 02 (28 Aug 2022).tex",
+   "img_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 02 (28 Aug 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 02 (28 Aug 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 10pp, 26 figs"
+  },
+  {
+   "name": "TOPS - Test 03 (20 Nov 2022)",
+   "tex_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 03 (20 Nov 2022).tex",
+   "img_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 03 (20 Nov 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 03 (20 Nov 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 12pp, 61 figs"
+  },
+  {
+   "name": "TOPS - Test 04 (18 Dec 2022)",
+   "tex_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 04 (18 Dec 2022).tex",
+   "img_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 04 (18 Dec 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 04 (18 Dec 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 16pp, 70 figs"
+  },
+  {
+   "name": "TOPS - Test 05 (14 Jan 2023)",
+   "tex_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 05 (14 Jan 2023).tex",
+   "img_rel": "Batch 4 Converted/TOPS/Advanced/Very Challenging/TOPS - Test 05 (14 Jan 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 05 (14 Jan 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 12pp, 71 figs"
+  },
+  {
+   "name": "TEAS - Test 01 (16 Apr 2023)",
+   "tex_rel": "Batch 4 Converted/TEAS/Advanced/Challenging/TEAS - Test 01 (16 Apr 2023).tex",
+   "img_rel": "Batch 4 Converted/TEAS/Advanced/Challenging/TEAS - Test 01 (16 Apr 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TEAS/Advanced/Challenging/TEAS - Test 01 (16 Apr 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 6pp, 31 figs"
+  },
+  {
+   "name": "TMAS - Test 01 (09 Jul 2023)",
+   "tex_rel": "Batch 4 Converted/TMAS/Mains/Moderate/TMAS - Test 01 (09 Jul 2023).tex",
+   "img_rel": "Batch 4 Converted/TMAS/Mains/Moderate/TMAS - Test 01 (09 Jul 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TMAS/Mains/Moderate/TMAS - Test 01 (09 Jul 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 16pp, 97 figs"
+  },
+  {
+   "name": "TMAS - Test 02 (06 Aug 2023)",
+   "tex_rel": "Batch 4 Converted/TMAS/Advanced/Very Challenging/TMAS - Test 02 (06 Aug 2023).tex",
+   "img_rel": "Batch 4 Converted/TMAS/Advanced/Very Challenging/TMAS - Test 02 (06 Aug 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TMAS/Advanced/Very Challenging/TMAS - Test 02 (06 Aug 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 52 figs"
+  },
+  {
+   "name": "TMAS - Test 03 (10 Sep 2023)",
+   "tex_rel": "Batch 4 Converted/TMAS/Advanced/Moderate/TMAS - Test 03 (10 Sep 2023).tex",
+   "img_rel": "Batch 4 Converted/TMAS/Advanced/Moderate/TMAS - Test 03 (10 Sep 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TMAS/Advanced/Moderate/TMAS - Test 03 (10 Sep 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 5pp, 24 figs"
+  },
+  {
+   "name": "TMAS - Test 04 (19 Nov 2023)",
+   "tex_rel": "Batch 4 Converted/TMAS/Advanced/Very Challenging/TMAS - Test 04 (19 Nov 2023).tex",
+   "img_rel": "Batch 4 Converted/TMAS/Advanced/Very Challenging/TMAS - Test 04 (19 Nov 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TMAS/Advanced/Very Challenging/TMAS - Test 04 (19 Nov 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 10pp, 26 figs"
+  },
+  {
+   "name": "TNAS - Test 01 (05 Feb 2023)",
+   "tex_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 01 (05 Feb 2023).tex",
+   "img_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 01 (05 Feb 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 01 (05 Feb 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 16pp, 90 figs"
+  },
+  {
+   "name": "TNAS - Test 02 (07 May 2023)",
+   "tex_rel": "Batch 4 Converted/TNAS/Advanced/Very Challenging/TNAS - Test 02 (07 May 2023).tex",
+   "img_rel": "Batch 4 Converted/TNAS/Advanced/Very Challenging/TNAS - Test 02 (07 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TNAS/Advanced/Very Challenging/TNAS - Test 02 (07 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 12pp, 52 figs"
+  },
+  {
+   "name": "TNAS - Test 03 (28 May 2023)",
+   "tex_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 03 (28 May 2023).tex",
+   "img_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 03 (28 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 03 (28 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 17pp, 79 figs"
+  },
+  {
+   "name": "TNAS - Test 04 (18 Jun 2023)",
+   "tex_rel": "Batch 4 Converted/TNAS/Advanced/Very Challenging/TNAS - Test 04 (18 Jun 2023).tex",
+   "img_rel": "Batch 4 Converted/TNAS/Advanced/Very Challenging/TNAS - Test 04 (18 Jun 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TNAS/Advanced/Very Challenging/TNAS - Test 04 (18 Jun 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 14pp, 62 figs"
+  },
+  {
+   "name": "TNAS - Test 05 (09 Jul 2023)",
+   "tex_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 05 (09 Jul 2023).tex",
+   "img_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 05 (09 Jul 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 05 (09 Jul 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 16pp, 49 figs"
+  },
+  {
+   "name": "TNAS - Test 06 (30 Jul 2023)",
+   "tex_rel": "Batch 4 Converted/TNAS/Advanced/Very Challenging/TNAS - Test 06 (30 Jul 2023).tex",
+   "img_rel": "Batch 4 Converted/TNAS/Advanced/Very Challenging/TNAS - Test 06 (30 Jul 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TNAS/Advanced/Very Challenging/TNAS - Test 06 (30 Jul 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 55 figs"
+  },
+  {
+   "name": "TNAS - Test 07 (20 Aug 2023)",
+   "tex_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 07 (20 Aug 2023).tex",
+   "img_rel": "Batch 4 Converted/TNAS/Mains/Moderate/TNAS - Test 07 (20 Aug 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 07 (20 Aug 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 17pp, 63 figs"
+  },
+  {
+   "name": "Star Review (Other) - Test 01 (12 Sep 2022)",
+   "tex_rel": "Batch 4 Converted/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 01 (12 Sep 2022).tex",
+   "img_rel": "Batch 4 Converted/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 01 (12 Sep 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 01 (12 Sep 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 38 figs"
+  },
+  {
+   "name": "Star Review (Other) - Test 02 (10 Oct 2022)",
+   "tex_rel": "Batch 4 Converted/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 02 (10 Oct 2022).tex",
+   "img_rel": "Batch 4 Converted/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 02 (10 Oct 2022)-img",
+   "src_rel": [
+    "Batch 4/Source/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 02 (10 Oct 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 12pp, 34 figs"
+  },
+  {
+   "name": "Star Review (Other) - Test 03 (04 Dec 2023)",
+   "tex_rel": "Batch 4 Converted/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 03 (04 Dec 2023).tex",
+   "img_rel": "Batch 4 Converted/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 03 (04 Dec 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 03 (04 Dec 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 11pp, 40 figs"
+  },
+  {
+   "name": "Internal Test - Test 01 (05 Aug 2020)",
+   "tex_rel": "Batch 4 Converted/Internal Test/Advanced/Challenging/Internal Test - Test 01 (05 Aug 2020).tex",
+   "img_rel": "Batch 4 Converted/Internal Test/Advanced/Challenging/Internal Test - Test 01 (05 Aug 2020)-img",
+   "src_rel": [
+    "Batch 4/Source/Internal Test/Advanced/Challenging/Internal Test - Test 01 (05 Aug 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 8pp, 66 figs"
+  },
+  {
+   "name": "Internal Test - Test 02 (07 Jul 2021)",
+   "tex_rel": "Batch 4 Converted/Internal Test/Advanced/Moderate/Internal Test - Test 02 (07 Jul 2021).tex",
+   "img_rel": "Batch 4 Converted/Internal Test/Advanced/Moderate/Internal Test - Test 02 (07 Jul 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Internal Test/Advanced/Moderate/Internal Test - Test 02 (07 Jul 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 6pp, 55 figs"
+  },
+  {
+   "name": "Internal Test - Test 03 (08 Sep 2021)",
+   "tex_rel": "Batch 4 Converted/Internal Test/Advanced/Challenging/Internal Test - Test 03 (08 Sep 2021).tex",
+   "img_rel": "Batch 4 Converted/Internal Test/Advanced/Challenging/Internal Test - Test 03 (08 Sep 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Internal Test/Advanced/Challenging/Internal Test - Test 03 (08 Sep 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 7pp, 59 figs"
+  },
+  {
+   "name": "Nurture SRG - Test 02 (06 Dec 2023)",
+   "tex_rel": "Batch 4 Converted/Nurture SRG/Advanced/Challenging/Nurture SRG - Test 02 (06 Dec 2023).tex",
+   "img_rel": "Batch 4 Converted/Nurture SRG/Advanced/Challenging/Nurture SRG - Test 02 (06 Dec 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Nurture SRG/Advanced/Challenging/Nurture SRG - Test 02 (06 Dec 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 6pp, 21 figs"
+  },
+  {
+   "name": "Nurture SRG - Test 03 (04 Feb 2024)",
+   "tex_rel": "Batch 4 Converted/Nurture SRG/Advanced/Very Challenging/Nurture SRG - Test 03 (04 Feb 2024).tex",
+   "img_rel": "Batch 4 Converted/Nurture SRG/Advanced/Very Challenging/Nurture SRG - Test 03 (04 Feb 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Nurture SRG/Advanced/Very Challenging/Nurture SRG - Test 03 (04 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 12pp, 87 figs"
+  },
+  {
+   "name": "Nurture (General) - Test 01 (12 Jun 2021)",
+   "tex_rel": "Batch 4 Converted/Nurture (General)/Mains/Foundational/Nurture (General) - Test 01 (12 Jun 2021).tex",
+   "img_rel": "Batch 4 Converted/Nurture (General)/Mains/Foundational/Nurture (General) - Test 01 (12 Jun 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Nurture (General)/Mains/Foundational/Nurture (General) - Test 01 (12 Jun 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 46 figs"
+  },
+  {
+   "name": "Nurture (General) - Test 03 (27 Sep 2023)",
+   "tex_rel": "Batch 4 Converted/Nurture (General)/Mains/Foundational/Nurture (General) - Test 03 (27 Sep 2023).tex",
+   "img_rel": "Batch 4 Converted/Nurture (General)/Mains/Foundational/Nurture (General) - Test 03 (27 Sep 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Nurture (General)/Mains/Foundational/Nurture (General) - Test 03 (27 Sep 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 8pp, 22 figs"
+  },
+  {
+   "name": "Nurture (General) - Test 04 (11 Feb 2024)",
+   "tex_rel": "Batch 4 Converted/Nurture (General)/Advanced/Moderate/Nurture (General) - Test 04 (11 Feb 2024).tex",
+   "img_rel": "Batch 4 Converted/Nurture (General)/Advanced/Moderate/Nurture (General) - Test 04 (11 Feb 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Nurture (General)/Advanced/Moderate/Nurture (General) - Test 04 (11 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 6pp, 21 figs"
+  },
+  {
+   "name": "Enthusiast Pre-Score - Test 01 (04 Nov 2020)",
+   "tex_rel": "Batch 4 Converted/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 01 (04 Nov 2020).tex",
+   "img_rel": "Batch 4 Converted/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 01 (04 Nov 2020)-img",
+   "src_rel": [
+    "Batch 4/Source/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 01 (04 Nov 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 54 figs"
+  },
+  {
+   "name": "Enthusiast Pre-Score - Test 02 (11 Nov 2020)",
+   "tex_rel": "Batch 4 Converted/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 02 (11 Nov 2020).tex",
+   "img_rel": "Batch 4 Converted/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 02 (11 Nov 2020)-img",
+   "src_rel": [
+    "Batch 4/Source/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 02 (11 Nov 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 15pp, 51 figs"
+  },
+  {
+   "name": "Enthusiast Pre-Score - Test 03 (23 Nov 2020)",
+   "tex_rel": "Batch 4 Converted/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 03 (23 Nov 2020).tex",
+   "img_rel": "Batch 4 Converted/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 03 (23 Nov 2020)-img",
+   "src_rel": [
+    "Batch 4/Source/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 03 (23 Nov 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 15pp, 71 figs"
+  },
+  {
+   "name": "Score Advanced - Test 01 (22 Sep 2020)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 01 (22 Sep 2020).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 01 (22 Sep 2020)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 01 (22 Sep 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 15pp, 57 figs"
+  },
+  {
+   "name": "Score Advanced - Test 02 (13 May 2021)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Moderate/Score Advanced - Test 02 (13 May 2021).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Moderate/Score Advanced - Test 02 (13 May 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Moderate/Score Advanced - Test 02 (13 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 46 figs"
+  },
+  {
+   "name": "Score Advanced - Test 03 (27 Jun 2021)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 03 (27 Jun 2021).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 03 (27 Jun 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 03 (27 Jun 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 55 figs"
+  },
+  {
+   "name": "Score Advanced - Test 04 (04 Jul 2021)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 04 (04 Jul 2021).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 04 (04 Jul 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 04 (04 Jul 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 16pp, 101 figs"
+  },
+  {
+   "name": "Score Advanced - Test 05 (15 Jul 2021)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Moderate/Score Advanced - Test 05 (15 Jul 2021).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Moderate/Score Advanced - Test 05 (15 Jul 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Moderate/Score Advanced - Test 05 (15 Jul 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 8pp, 38 figs"
+  },
+  {
+   "name": "Score Advanced - Test 06 (04 Sep 2021)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 06 (04 Sep 2021).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 06 (04 Sep 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 06 (04 Sep 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 13pp, 55 figs"
+  },
+  {
+   "name": "Score Advanced - Test 07 (16 Apr 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 07 (16 Apr 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 07 (16 Apr 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 07 (16 Apr 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 14pp, 77 figs"
+  },
+  {
+   "name": "Score Advanced - Test 08 (22 Apr 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 08 (22 Apr 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 08 (22 Apr 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 08 (22 Apr 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-19, 12pp, 55 figs"
+  },
+  {
+   "name": "Score Advanced - Test 09 (29 Apr 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 09 (29 Apr 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 09 (29 Apr 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 09 (29 Apr 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 15pp, 52 figs"
+  },
+  {
+   "name": "Score Advanced - Test 10 (06 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 10 (06 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 10 (06 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 10 (06 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 52 figs"
+  },
+  {
+   "name": "Score Advanced - Test 11 (09 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 11 (09 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 11 (09 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 11 (09 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 6pp, 25 figs"
+  },
+  {
+   "name": "Score Advanced - Test 12 (11 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 12 (11 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 12 (11 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 12 (11 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 18 figs"
+  },
+  {
+   "name": "Score Advanced - Test 13 (13 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 13 (13 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 13 (13 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 13 (13 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 14pp, 48 figs"
+  },
+  {
+   "name": "Score Advanced - Test 14 (16 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 14 (16 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 14 (16 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 14 (16 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 8pp, 24 figs"
+  },
+  {
+   "name": "Score Advanced - Test 15 (18 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Challenging/Score Advanced - Test 15 (18 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Challenging/Score Advanced - Test 15 (18 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Challenging/Score Advanced - Test 15 (18 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 8pp, 35 figs"
+  },
+  {
+   "name": "Score Advanced - Test 16 (20 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 16 (20 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 16 (20 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 16 (20 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 41 figs"
+  },
+  {
+   "name": "Score Advanced - Test 17 (25 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 17 (25 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 17 (25 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 17 (25 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 39 figs"
+  },
+  {
+   "name": "Score Advanced - Test 18 (27 May 2023)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 18 (27 May 2023).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 18 (27 May 2023)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 18 (27 May 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 62 figs"
+  },
+  {
+   "name": "Score Advanced - Test 19 (04 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 19 (04 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 19 (04 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 19 (04 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 36 figs"
+  },
+  {
+   "name": "Score Advanced - Test 20 (06 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 20 (06 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 20 (06 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 20 (06 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 8pp, 23 figs"
+  },
+  {
+   "name": "Score Advanced - Test 21 (08 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 21 (08 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 21 (08 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 21 (08 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 28 figs"
+  },
+  {
+   "name": "Score Advanced - Test 22 (10 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 22 (10 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 22 (10 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 22 (10 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 15pp, 86 figs"
+  },
+  {
+   "name": "Score Advanced - Test 23 (14 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 23 (14 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 23 (14 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 23 (14 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 49 figs"
+  },
+  {
+   "name": "Score Advanced - Test 24 (17 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 24 (17 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 24 (17 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 24 (17 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 10pp, 39 figs"
+  },
+  {
+   "name": "Score Advanced - Test 25 (21 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Moderate/Score Advanced - Test 25 (21 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Moderate/Score Advanced - Test 25 (21 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Moderate/Score Advanced - Test 25 (21 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 58 figs"
+  },
+  {
+   "name": "Score Advanced - Test 26 (21 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 26 (21 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 26 (21 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 26 (21 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 61 figs"
+  },
+  {
+   "name": "Score Advanced - Test 27 (24 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 27 (24 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 27 (24 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 27 (24 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 67 figs"
+  },
+  {
+   "name": "Score Advanced - Test 28 (27 Apr 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 28 (27 Apr 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 28 (27 Apr 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 28 (27 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 14pp, 77 figs"
+  },
+  {
+   "name": "Score Advanced - Test 29 (01 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 29 (01 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 29 (01 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 29 (01 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 40 figs"
+  },
+  {
+   "name": "Score Advanced - Test 30 (04 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 30 (04 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 30 (04 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 30 (04 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 51 figs"
+  },
+  {
+   "name": "Score Advanced - Test 31 (04 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 31 (04 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 31 (04 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 31 (04 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 50 figs"
+  },
+  {
+   "name": "Score Advanced - Test 32 (08 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 32 (08 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 32 (08 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 32 (08 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 14pp, 65 figs"
+  },
+  {
+   "name": "Score Advanced - Test 33 (12 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 33 (12 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 33 (12 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 33 (12 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 48 figs"
+  },
+  {
+   "name": "Score Advanced - Test 34 (12 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 34 (12 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 34 (12 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 34 (12 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 48 figs"
+  },
+  {
+   "name": "Score Advanced - Test 35 (15 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 35 (15 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 35 (15 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 35 (15 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 39 figs"
+  },
+  {
+   "name": "Score Advanced - Test 36 (19 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 36 (19 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Foundational/Score Advanced - Test 36 (19 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 36 (19 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 55 figs"
+  },
+  {
+   "name": "Score Advanced - Test 37 (19 May 2024)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 37 (19 May 2024).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 37 (19 May 2024)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 37 (19 May 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 55 figs"
+  },
+  {
+   "name": "Score Advanced - Test 38 (13 Apr 2025)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 38 (13 Apr 2025).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 38 (13 Apr 2025)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 38 (13 Apr 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 14pp, 62 figs"
+  },
+  {
+   "name": "Score Advanced - Test 39 (20 Apr 2025)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 39 (20 Apr 2025).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 39 (20 Apr 2025)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 39 (20 Apr 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 13pp, 55 figs"
+  },
+  {
+   "name": "Score Advanced - Test 40 (27 Apr 2025)",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 40 (27 Apr 2025).tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 40 (27 Apr 2025)-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 40 (27 Apr 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 11pp, 58 figs"
+  },
+  {
+   "name": "Score Advanced - Test 41",
+   "tex_rel": "Batch 4 Converted/Score Advanced/Advanced/Challenging/Score Advanced - Test 41.tex",
+   "img_rel": "Batch 4 Converted/Score Advanced/Advanced/Challenging/Score Advanced - Test 41-img",
+   "src_rel": [
+    "Batch 4/Source/Score Advanced/Advanced/Challenging/Score Advanced - Test 41.pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 85 figs"
+  },
+  {
+   "name": "SRGBT - Test 01 (25 Jul 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 01 (25 Jul 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 01 (25 Jul 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 01 (25 Jul 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 5pp, 10 figs"
+  },
+  {
+   "name": "SRGBT - Test 02 (01 Aug 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 02 (01 Aug 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 02 (01 Aug 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 02 (01 Aug 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 8pp, 22 figs"
+  },
+  {
+   "name": "SRGBT - Test 03 (08 Aug 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 03 (08 Aug 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 03 (08 Aug 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 03 (08 Aug 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 24 figs"
+  },
+  {
+   "name": "SRGBT - Test 04 (15 Aug 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 04 (15 Aug 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 04 (15 Aug 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 04 (15 Aug 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 23 figs"
+  },
+  {
+   "name": "SRGBT - Test 05 (23 Aug 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 05 (23 Aug 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 05 (23 Aug 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 05 (23 Aug 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 10 figs"
+  },
+  {
+   "name": "SRGBT - Test 06 (29 Aug 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 06 (29 Aug 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 06 (29 Aug 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 06 (29 Aug 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 8pp, 25 figs"
+  },
+  {
+   "name": "SRGBT - Test 07 (05 Sep 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 07 (05 Sep 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 07 (05 Sep 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 07 (05 Sep 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 9pp, 48 figs"
+  },
+  {
+   "name": "SRGBT - Test 08 (13 Sep 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 08 (13 Sep 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 08 (13 Sep 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 08 (13 Sep 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 6pp, 13 figs"
+  },
+  {
+   "name": "SRGBT - Test 09 (19 Sep 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 09 (19 Sep 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 09 (19 Sep 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 09 (19 Sep 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 6pp, 23 figs"
+  },
+  {
+   "name": "SRGBT - Test 10 (26 Sep 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 10 (26 Sep 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 10 (26 Sep 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 10 (26 Sep 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 12pp, 16 figs"
+  },
+  {
+   "name": "SRGBT - Test 11 (03 Oct 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 11 (03 Oct 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 11 (03 Oct 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 11 (03 Oct 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 25 figs"
+  },
+  {
+   "name": "SRGBT - Test 12 (10 Oct 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 12 (10 Oct 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 12 (10 Oct 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 12 (10 Oct 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 13 figs"
+  },
+  {
+   "name": "SRGBT - Test 13 (17 Oct 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 13 (17 Oct 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 13 (17 Oct 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 13 (17 Oct 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 7pp, 17 figs"
+  },
+  {
+   "name": "SRGBT - Test 14 (24 Oct 2021)",
+   "tex_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 14 (24 Oct 2021).tex",
+   "img_rel": "Batch 4 Converted/SRGBT/Foundational/SRGBT - Test 14 (24 Oct 2021)-img",
+   "src_rel": [
+    "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 14 (24 Oct 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "DONE 2026-10-20, 8pp, 64 figs"
+  },
+  {
+   "name": "Score-II - Test 02 (28 Mar 2021)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 02 (28 Mar 2021).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 02 (28 Mar 2021)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 02 (28 Mar 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "Score-II - Test 04 (07 May 2021)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 04 (07 May 2021).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 04 (07 May 2021)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 04 (07 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "Score-II - Test 18 (13 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 18 (13 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 18 (13 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 18 (13 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "Score-II - Test 29 (26 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 29 (26 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 29 (26 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 29 (26 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "Score-II - Test 32 (29 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 32 (29 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 32 (29 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 32 (29 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "Score-II - Test 36 (07 Feb 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 36 (07 Feb 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 36 (07 Feb 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 36 (07 Feb 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-23: single paper, no Paper-1/Paper-2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 3 stems x2 = "
+  },
+  {
+   "name": "Score-II - Test 37 (10 Feb 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 37 (10 Feb 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 37 (10 Feb 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 37 (10 Feb 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct(2 paragraphs) + Sec-II(i) 3 ste"
+  },
+  {
+   "name": "Score-II - Test 42 (19 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 42 (19 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 42 (19 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 42 (19 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 6Q one-or-more + Section-II 6Q numerical value + Section-III 6Q single-di"
+  },
+  {
+   "name": "Score-II - Test 44 (23 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 44 (23 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 44 (23 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 44 (23 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I(i) 4Q single-correct + Section-I(ii) 3Q one-or-more + Section-I(iii) 4 Ma"
+  },
+  {
+   "name": "Score-II - Test 46 (26 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 46 (26 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 46 (26 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 46 (26 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each plain Section-I 10Q one-or-more-correct + Section-II 8Q numerical value = 18Q/part,"
+  },
+  {
+   "name": "Score-II - Test 13 (06 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Foundational/Score-II - Test 13 (06 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Foundational/Score-II - Test 13 (06 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Foundational/Score-II - Test 13 (06 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-an"
+  },
+  {
+   "name": "Score-II - Test 22 (14 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Foundational/Score-II - Test 22 (14 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Foundational/Score-II - Test 22 (14 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Foundational/Score-II - Test 22 (14 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-an"
+  },
+  {
+   "name": "Score-II - Test 47 (30 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Moderate/Score-II - Test 47 (30 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Moderate/Score-II - Test 47 (30 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Moderate/Score-II - Test 47 (30 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20Q single-correct + Section-II 5Q numerical value = 25Q/part, 75Q grand "
+  },
+  {
+   "name": "Score-II - Test 06 (05 Jul 2022)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 06 (05 Jul 2022).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 06 (05 Jul 2022)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 06 (05 Jul 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "PAPER-1+PAPER-2, each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 single-correct + Sec-I(ii) 6 one-or-more + Sec-II 6 numerical = 18Q/part. Paper2: Sec-I 6 one-or-more + Sec"
+  },
+  {
+   "name": "Score-II - Test 08 (05 Feb 2023)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 08 (05 Feb 2023).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 08 (05 Feb 2023)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 08 (05 Feb 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two-paper test (PAPER-1/PAPER-2), each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/part); Pap"
+  },
+  {
+   "name": "Score-II - Test 09 (12 Feb 2023)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 09 (12 Feb 2023).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 09 (12 Feb 2023)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 09 (12 Feb 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two-paper test, same structure as Test 08: each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/p"
+  },
+  {
+   "name": "Score-II - Test 12 (04 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 12 (04 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 12 (04 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 12 (04 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-28: two-paper test, each PAPER-1/PAPER-2 has PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS, each part 4 sections (Sec-I(i) 4 single-correct + Sec-I(ii) 3 one-or-more + Sec-I(iii"
+  },
+  {
+   "name": "Score-II - Test 14 (06 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 14 (06 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 14 (06 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 14 (06 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-integer = 19Q/part, 5"
+  },
+  {
+   "name": "Score-II - Test 16 (09 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 16 (09 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 16 (09 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 16 (09 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct (2 paragraphs) + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-intege"
+  },
+  {
+   "name": "Score-II - Test 21 (14 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 21 (14 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 21 (14 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 21 (14 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two-paper test, each PART-1 PHY+PART-2 CHEM+PART-3 MATH, Sec-I(i)/I(ii)/II(P1) or III(P2), 6+4+8=18Q/part P1, 4+6+8=18Q/part P2, 108Q total verified 18x6. 56 candidate figures: 51 kept, 5 rejected (2 "
+  },
+  {
+   "name": "Score-II - Test 23 (17 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 23 (17 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 23 (17 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 23 (17 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Paper 1 only; PHYSICS, CHEMISTRY, MATHEMATICS each 3 sections x 6 q = 54 questions; 27 figures (maths text-only)"
+  },
+  {
+   "name": "Score-II - Test 26 (20 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 26 (20 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 26 (20 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 26 (20 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Paper 1 only; PHY/CHEM/MATH each 4 sections (I(i) 4q, I(ii) 6q, II(i) 6q, II(ii) 3q) = 57 questions; 30 figures; rejected N1/N2 label circles (typeset) and a red handwritten solution scribble under ma"
+  },
+  {
+   "name": "Score-II - Test 28 (23 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 28 (23 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 28 (23 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 28 (23 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; output verified complete in FINAL OUTPUT (manifest write had been lost)"
+  },
+  {
+   "name": "Score-II - Test 33 (01 Apr 2024)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 33 (01 Apr 2024).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 33 (01 Apr 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 33 (01 Apr 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Adv Very Challenging; 2 papers: P1 (I 5, III 5, IV 5 per part x3 = 45Q) + P2 (I(i) 6, I(ii) 6, III 10 per part x3 = 66Q) = 111Q; 51 figures"
+  },
+  {
+   "name": "Score-II - Test 34 (02 Feb 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 34 (02 Feb 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 34 (02 Feb 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 34 (02 Feb 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; 40 figures"
+  },
+  {
+   "name": "Score-II - Test 35 (04 Feb 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 35 (04 Feb 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 35 (04 Feb 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 35 (04 Feb 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 4 + I(ii) 6 + III 8) = 54 Q; 20 figures"
+  },
+  {
+   "name": "Score-II - Test 38 (12 Feb 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 38 (12 Feb 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 38 (12 Feb 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 38 (12 Feb 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 6 + II 6) = 54 Q; 32 figures"
+  },
+  {
+   "name": "Score-II - Test 39 (02 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 39 (02 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 39 (02 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 39 (02 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Adv Very Challenging; 2 papers: P1 (I(i) 6 + I(ii) 4 + II 8) x3 = 54Q + P2 (I(i) 4 + I(ii) 6 + III 8) x3 = 54Q = 108Q; 50 figures"
+  },
+  {
+   "name": "Score-II - Test 40 (16 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 40 (16 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Advanced/Very Challenging/Score-II - Test 40 (16 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Very Challenging/Score-II - Test 40 (16 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Adv Very Challenging; 2 papers: each part I(i) 4 + I(ii) 3 + I(iii)/II(i) 4 + II 6 = 17Q x3 x2 papers = 102Q; 43 figures"
+  },
+  {
+   "name": "Score-II - Test 03 (05 May 2021)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 03 (05 May 2021).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 03 (05 May 2021)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 03 (05 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Mains Foundational; 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 29 figures"
+  },
+  {
+   "name": "Score-II - Test 05 (22 Mar 2022)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 05 (22 Mar 2022).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 05 (22 Mar 2022)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 05 (22 Mar 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "PARTIAL BY SOURCE: source PDF is a 9-page bilingual fragment; transcribed all English questions present (Phy Q10-12, Chem Q10-11, Math Q6-17 = 17Q) + 7 figures. Lint PASS (part-checklist WARNs only)."
+  },
+  {
+   "name": "Score-II - Test 07 (10 Jul 2022)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 07 (10 Jul 2022).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 07 (10 Jul 2022)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 07 (10 Jul 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 39 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 17 (13 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 17 (13 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 17 (13 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 17 (13 Feb 2024) - part1.pdf",
+    "Score 2/Source/Mains/Foundational/Score-II - Test 17 (13 Feb 2024) - part2.pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Mains Foundational (two part-files); 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 41 figures"
+  },
+  {
+   "name": "Score-II - Test 19 (20 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 19 (20 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 19 (20 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 19 (20 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 38 figures (math option/matrix crops typed); lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 24 (17 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 24 (17 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 24 (17 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 24 (17 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 32 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 27 (23 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 27 (23 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 27 (23 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 27 (23 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 34 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 30 (27 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 30 (27 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 30 (27 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 30 (27 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 36 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 31 (29 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 31 (29 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 31 (29 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 31 (29 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 44 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 41 (19 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 41 (19 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 41 (19 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 41 (19 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 31 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 43 (23 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 43 (23 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 43 (23 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 43 (23 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 32 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 45 (26 Mar 2025)",
+   "tex_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 45 (26 Mar 2025).tex",
+   "img_rel": "Score 2 Converted/Mains/Foundational/Score-II - Test 45 (26 Mar 2025)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Foundational/Score-II - Test 45 (26 Mar 2025).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 24 figures; lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 15 (09 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Moderate/Score-II - Test 15 (09 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Moderate/Score-II - Test 15 (09 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Moderate/Score-II - Test 15 (09 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two-paper test: 144Q (P1 90 + P2 54), 59 figs, lint PASS, QA done"
+  },
+  {
+   "name": "Score-II - Test 20 (23 Feb 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Moderate/Score-II - Test 20 (23 Feb 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Moderate/Score-II - Test 20 (23 Feb 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Moderate/Score-II - Test 20 (23 Feb 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Paper-1+2 transcribed, PASS, all pages visually QA'd; wide chem Q6/Q7/Q8 figs full-width; Q8 math Σ|xixj| kept as printed"
+  },
+  {
+   "name": "Score-II - Test 25 (20 Mar 2024)",
+   "tex_rel": "Score 2 Converted/Mains/Moderate/Score-II - Test 25 (20 Mar 2024).tex",
+   "img_rel": "Score 2 Converted/Mains/Moderate/Score-II - Test 25 (20 Mar 2024)-img",
+   "src_rel": [
+    "Score 2/Source/Mains/Moderate/Score-II - Test 25 (20 Mar 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two-paper test: P1 90Q + P2 57Q, 46 figs (9 rejected/typed, 1 added), lint PASS, all 14 pages QA'd"
+  },
+  {
+   "name": "Score-II - Test 01 (21 Mar 2021)",
+   "tex_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 01 (21 Mar 2021).tex",
+   "img_rel": "Score 2 Converted/Advanced/Challenging/Score-II - Test 01 (21 Mar 2021)-img",
+   "src_rel": [
+    "Score 2/Source/Advanced/Challenging/Score-II - Test 01 (21 Mar 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Fixed 2026-09-22: prior output was silently truncated (missing Paper-2 Part-2 Chem Section-II Numerical Q4-8 and all of Paper-2 Part-3 Mathematics). Completed via full source re-scan against checklist"
+  },
+  {
+   "name": "Score-I - Test 01 (16 Jun 2021)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 01 (16 Jun 2021).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 01 (16 Jun 2021)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 01 (16 Jun 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (P1: I(i) 5 + I(ii) 8 + IV 5 per subject; P2: I(i) 6 + I(ii) 8 + I(iii) 4 per subject) = 108 questions; 58 figures; lint PASS, visual QA done"
+  },
+  {
+   "name": "Score-I - Test 02 (31 Dec 2021)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 02 (31 Dec 2021).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 02 (31 Dec 2021)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 02 (31 Dec 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "14 pages, 52 figs, lint PASS, visual QA done"
+  },
+  {
+   "name": "Score-I - Test 03 (07 Jan 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 03 (07 Jan 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 03 (07 Jan 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 03 (07 Jan 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "18 pages, 79 figs, lint PASS, visual QA done"
+  },
+  {
+   "name": "Score-I - Test 04 (14 Jan 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Challenging/Score-I - Test 04 (14 Jan 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Challenging/Score-I - Test 04 (14 Jan 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Challenging/Score-I - Test 04 (14 Jan 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Score-I 04: 15 pages, 72 figs; lint PASS, visual QA done"
+  },
+  {
+   "name": "Score-I - Test 05 (22 Jan 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 05 (22 Jan 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 05 (22 Jan 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 05 (22 Jan 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Paper-1 only; 8 pages; 33 figs; lint PASS, all pages QA'd"
+  },
+  {
+   "name": "Score-I - Test 06 (28 Jan 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 06 (28 Jan 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 06 (28 Jan 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 06 (28 Jan 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Paper-1 only; 8 pages; 26 figs; lint PASS, all pages QA'd"
+  },
+  {
+   "name": "Score-I - Test 07 (04 Feb 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 07 (04 Feb 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 07 (04 Feb 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 07 (04 Feb 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Paper-1 only; 6 pages; 34 figs; lint PASS, all pages QA'd"
+  },
+  {
+   "name": "Score-I - Test 08 (09 Feb 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 08 (09 Feb 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 08 (09 Feb 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 08 (09 Feb 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (I(i) 4+I(ii) 6+II(i) 6+II(ii) 3 for P1; 6+4+6+3 for P2) = 114 questions; 49 figures; 13 pages; lint PASS, visual QA done"
+  },
+  {
+   "name": "Score-I - Test 09 (16 Feb 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 09 (16 Feb 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 09 (16 Feb 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 09 (16 Feb 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers; P1 and P2 each 19 q x3 subjects (114 q); 51 figures; pdf 13 pp; lint PASS"
+  },
+  {
+   "name": "Score-I - Test 10 (24 Feb 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 10 (24 Feb 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 10 (24 Feb 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 10 (24 Feb 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages"
+  },
+  {
+   "name": "Score-I - Test 11 (27 Feb 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 11 (27 Feb 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 11 (27 Feb 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 11 (27 Feb 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+  },
+  {
+   "name": "Score-I - Test 17 (17 Apr 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 17 (17 Apr 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 17 (17 Apr 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 17 (17 Apr 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+  },
+  {
+   "name": "Score-I - Test 18 (24 Apr 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 18 (24 Apr 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 18 (24 Apr 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 18 (24 Apr 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+  },
+  {
+   "name": "Score-I - Test 19 (20 Nov 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Moderate/Score-I - Test 19 (20 Nov 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Moderate/Score-I - Test 19 (20 Nov 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 19 (20 Nov 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "54 q, 6 pages, 24 images, lint PASS"
+  },
+  {
+   "name": "Score-I - Test 22 (04 Dec 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Moderate/Score-I - Test 22 (04 Dec 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Moderate/Score-I - Test 22 (04 Dec 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 22 (04 Dec 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "54 q, 8 pages, 53 images, lint PASS"
+  },
+  {
+   "name": "Score-I - Test 24 (11 Dec 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 24 (11 Dec 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 24 (11 Dec 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 24 (11 Dec 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "54 q, 6 pages, 18 images, lint PASS"
+  },
+  {
+   "name": "Score-I - Test 26 (18 Dec 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Moderate/Score-I - Test 26 (18 Dec 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Moderate/Score-I - Test 26 (18 Dec 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 26 (18 Dec 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS"
+  },
+  {
+   "name": "Score-I - Test 31 (29 Dec 2022)",
+   "tex_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 31 (29 Dec 2022).tex",
+   "img_rel": "Batch 3 Converted/Score-I/Advanced/Very Challenging/Score-I - Test 31 (29 Dec 2022)-img",
+   "src_rel": [
+    "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 31 (29 Dec 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 01 (24 Jan 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 01 (24 Jan 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 01 (24 Jan 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 01 (24 Jan 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 02 (04 Feb 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 02 (04 Feb 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections (P1 Sec I split I(i)/I(ii)) = 108 questions; 70 figures; lint PASS, visual QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 03 (01 Mar 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 03 (01 Mar 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 04 (04 Apr 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 04 (04 Apr 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 04 (04 Apr 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 04 (04 Apr 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 05 (11 Apr 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 05 (11 Apr 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 05 (11 Apr 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 05 (11 Apr 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 60 figs, lint PASS, QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 06 (22 Apr 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 06 (22 Apr 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 06 (22 Apr 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 06 (22 Apr 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 58 figs, lint PASS, QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 07 (25 Apr 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 07 (25 Apr 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 07 (25 Apr 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 07 (25 Apr 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 66 figs, lint PASS, QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 08 (01 May 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 08 (01 May 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 08 (01 May 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 08 (01 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 56 figs, lint PASS, QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 09 (07 May 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 09 (07 May 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 09 (07 May 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 09 (07 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 59 figs, lint PASS, QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 10 (13 May 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 10 (13 May 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 10 (13 May 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 10 (13 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 46 figs, lint PASS, QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 11 (20 May 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 11 (20 May 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 11 (20 May 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 11 (20 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 12 (25 May 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 12 (25 May 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 12 (25 May 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 12 (25 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 13 (31 May 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 13 (31 May 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 13 (31 May 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 13 (31 May 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers; P1 18+18+18, P2 23+23+23 questions (SEC-1..5 in P2); 48 figures; lint PASS"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 14 (06 Jun 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 14 (06 Jun 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Done: 2 papers x 3 parts, 70 figs (5 rejected/typeset), lint PASS, QA viewed 13 pages"
+  },
+  {
+   "name": "JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)",
+   "tex_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 15 (12 Jun 2021).tex",
+   "img_rel": "Batch 2 Converted/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 15 (12 Jun 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 01 (08 Oct 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 01 (08 Oct 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 01 (08 Oct 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 01 (08 Oct 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 02 (15 Oct 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 02 (15 Oct 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 02 (15 Oct 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 02 (15 Oct 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 03 (22 Oct 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 03 (22 Oct 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 03 (22 Oct 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 03 (22 Oct 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "18 pp, 138 imgs; recropped s3 q02/q04 rows, anchors fixed q10->q11,q11->q12 list-match"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 04 (29 Oct 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 04 (29 Oct 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 04 (29 Oct 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 04 (29 Oct 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "13pp, 38 figs, 6 parts; lint PASS"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 05 (05 Nov 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 05 (05 Nov 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 05 (05 Nov 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 05 (05 Nov 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 06 (20 Nov 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Challenging/Pre-Score (2023-24) - Test 06 (20 Nov 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Challenging/Pre-Score (2023-24) - Test 06 (20 Nov 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Challenging/Pre-Score (2023-24) - Test 06 (20 Nov 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "13pp, 2 papers x 3 parts, 102 q (17/part), 24 sections, 50 figs; complete output found in FINAL OUTPUT (prior session died before marking); counts verified vs checklist"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 07 (29 Nov 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 07 (29 Nov 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 07 (29 Nov 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 07 (29 Nov 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done"
+  },
+  {
+   "name": "Pre-Score (2023-24) - Test 08 (03 Dec 2023)",
+   "tex_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 08 (03 Dec 2023).tex",
+   "img_rel": "Batch 2 Converted/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 08 (03 Dec 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 08 (03 Dec 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Paper 1+2, 17 q/subject each, 54 figs; lint PASS"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 01 (20 Sep 2020)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 01 (20 Sep 2020).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 01 (20 Sep 2020)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 01 (20 Sep 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "single paper 18q/subject, 24 figs, 7pp; lint PASS"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 02 (04 Oct 2020)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 02 (04 Oct 2020).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 02 (04 Oct 2020)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 02 (04 Oct 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 03 (18 Nov 2020)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 03 (18 Nov 2020).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 03 (18 Nov 2020)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 03 (18 Nov 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 04 (29 Nov 2020)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 04 (29 Nov 2020).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 04 (29 Nov 2020)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 04 (29 Nov 2020).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 07 (27 Jun 2021)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 07 (27 Jun 2021).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 07 (27 Jun 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 07 (27 Jun 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 11 (29 Aug 2021)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 11 (29 Aug 2021).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 11 (29 Aug 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 11 (29 Aug 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 12 (19 Sep 2021)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 12 (19 Sep 2021).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 12 (19 Sep 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 12 (19 Sep 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 13 (10 Oct 2021)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 13 (10 Oct 2021).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 13 (10 Oct 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 13 (10 Oct 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 14 (21 Nov 2021)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 14 (21 Nov 2021).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 14 (21 Nov 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 14 (21 Nov 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": ""
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 15 (19 Dec 2021)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 15 (19 Dec 2021).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 15 (19 Dec 2021)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 15 (19 Dec 2021).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "single paper P1: phy 6+6+6, chem 6+6+6, math 6+6+6 = 54 q, 6 pp, 15 figs (physics only; chem/math all text)"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 16 (12 Jan 2022)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 16 (12 Jan 2022).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 16 (12 Jan 2022)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 16 (12 Jan 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 22 (18 Sep 2022)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 22 (18 Sep 2022).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 22 (18 Sep 2022)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 22 (18 Sep 2022).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "single paper 60 q, 84 figs, 8 pages, lint PASS, visual QA done"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 27 (13 Aug 2023)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 27 (13 Aug 2023).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 27 (13 Aug 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 27 (13 Aug 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "two papers, 141 q, 78 figs, 16 pages, lint PASS, visual QA done"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 28 (20 Aug 2023)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 28 (20 Aug 2023).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 28 (20 Aug 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 28 (20 Aug 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 29 (01 Oct 2023)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 29 (01 Oct 2023).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 29 (01 Oct 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 29 (01 Oct 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "54 q, 12 figs, 6 pp"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 30 (22 Oct 2023)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 30 (22 Oct 2023).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 30 (22 Oct 2023)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 30 (22 Oct 2023).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "114 q (two papers), 29 figs, 12 pp"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 36 (25 Aug 2024)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 36 (25 Aug 2024).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 36 (25 Aug 2024)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 36 (25 Aug 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "51 q, 29 figs, 6 pp"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 37 (11 Sep 2024)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 37 (11 Sep 2024).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 37 (11 Sep 2024)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 37 (11 Sep 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "54 q, 18 figs, 6 pp"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 38 (15 Sep 2024)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 38 (15 Sep 2024).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 38 (15 Sep 2024)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 38 (15 Sep 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper, 60 q (10+10 per subject), 25 figs; 2 rejected (formula crops)"
+  },
+  {
+   "name": "SRG (Enthusiast) - Test 39 (15 Sep 2024)",
+   "tex_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 39 (15 Sep 2024).tex",
+   "img_rel": "Batch 2 Converted/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 39 (15 Sep 2024)-img",
+   "src_rel": [
+    "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 39 (15 Sep 2024).pdf"
+   ],
+   "status": "pending",
+   "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected"
+  }
+ ]
+}

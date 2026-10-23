@@ -1,0 +1,216 @@
+{
+  "root_source": "D:\\Aryan DOWNLOADS\\Final Output\\Batch 2\\Source",
+  "root_output": "D:\\Aryan DOWNLOADS\\Final Output\\Batch 2 Converted",
+  "tests": [
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 01 (24 Jan 2021).pdf",
+      "status": "done",
+      "note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 02 (04 Feb 2021).pdf",
+      "status": "done",
+      "note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections (P1 Sec I split I(i)/I(ii)) = 108 questions; 70 figures; lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 03 (01 Mar 2021).pdf",
+      "status": "done",
+      "note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 04 (04 Apr 2021).pdf",
+      "status": "done",
+      "note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 05 (11 Apr 2021).pdf",
+      "status": "done",
+      "note": "2 papers, 60 figs, lint PASS, QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 06 (22 Apr 2021).pdf",
+      "status": "done",
+      "note": "2 papers, 58 figs, lint PASS, QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 07 (25 Apr 2021).pdf",
+      "status": "done",
+      "note": "2 papers, 66 figs, lint PASS, QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 08 (01 May 2021).pdf",
+      "status": "done",
+      "note": "2 papers, 56 figs, lint PASS, QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 09 (07 May 2021).pdf",
+      "status": "done",
+      "note": "2 papers, 59 figs, lint PASS, QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 10 (13 May 2021).pdf",
+      "status": "done",
+      "note": "2 papers, 46 figs, lint PASS, QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 11 (20 May 2021).pdf",
+      "status": "done",
+      "note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 12 (25 May 2021).pdf",
+      "status": "done",
+      "note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 13 (31 May 2021).pdf",
+      "status": "done",
+      "note": "2 papers; P1 18+18+18, P2 23+23+23 questions (SEC-1..5 in P2); 48 figures; lint PASS"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 14 (06 Jun 2021).pdf",
+      "status": "done",
+      "note": "Done: 2 papers x 3 parts, 70 figs (5 rejected/typeset), lint PASS, QA viewed 13 pages"
+    },
+    {
+      "source_rel": "JEE Advanced (2021 Series)\\Advanced\\Very Challenging\\JEE Advanced (2021 Series) - Test 15 (12 Jun 2021).pdf",
+      "status": "done",
+      "note": "Done: transcribed, lint PASS, visual QA complete"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Very Challenging\\Pre-Score (2023-24) - Test 01 (08 Oct 2023).pdf",
+      "status": "done",
+      "note": "Done: transcribed, lint PASS, visual QA complete"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Very Challenging\\Pre-Score (2023-24) - Test 02 (15 Oct 2023).pdf",
+      "status": "done",
+      "note": "Done: transcribed, lint PASS, visual QA complete"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Very Challenging\\Pre-Score (2023-24) - Test 03 (22 Oct 2023).pdf",
+      "status": "done",
+      "note": "18 pp, 138 imgs; recropped s3 q02/q04 rows, anchors fixed q10->q11,q11->q12 list-match"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Very Challenging\\Pre-Score (2023-24) - Test 04 (29 Oct 2023).pdf",
+      "status": "done",
+      "note": "13pp, 38 figs, 6 parts; lint PASS"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Very Challenging\\Pre-Score (2023-24) - Test 05 (05 Nov 2023).pdf",
+      "status": "done",
+      "note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Challenging\\Pre-Score (2023-24) - Test 06 (20 Nov 2023).pdf",
+      "status": "done",
+      "note": "13pp, 2 papers x 3 parts, 102 q (17/part), 24 sections, 50 figs; complete output found in FINAL OUTPUT (prior session died before marking); counts verified vs checklist"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Very Challenging\\Pre-Score (2023-24) - Test 07 (29 Nov 2023).pdf",
+      "status": "done",
+      "note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done"
+    },
+    {
+      "source_rel": "Pre-Score (2023-24)\\Advanced\\Very Challenging\\Pre-Score (2023-24) - Test 08 (03 Dec 2023).pdf",
+      "status": "done",
+      "note": "Paper 1+2, 17 q/subject each, 54 figs; lint PASS"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 01 (20 Sep 2020).pdf",
+      "status": "done",
+      "note": "single paper 18q/subject, 24 figs, 7pp; lint PASS"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 02 (04 Oct 2020).pdf",
+      "status": "done",
+      "finished_at": "2026-10-03T21:35:39Z"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Moderate\\SRG (Enthusiast) - Test 03 (18 Nov 2020).pdf",
+      "status": "done",
+      "finished_at": "2026-10-03T21:41:30Z"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 04 (29 Nov 2020).pdf",
+      "status": "done",
+      "finished_at": "2026-10-03T21:47:25Z"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 07 (27 Jun 2021).pdf",
+      "status": "done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 11 (29 Aug 2021).pdf",
+      "status": "done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 12 (19 Sep 2021).pdf",
+      "status": "done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Very Challenging\\SRG (Enthusiast) - Test 13 (10 Oct 2021).pdf",
+      "status": "done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 14 (21 Nov 2021).pdf",
+      "status": "done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Moderate\\SRG (Enthusiast) - Test 15 (19 Dec 2021).pdf",
+      "status": "done",
+      "note": "single paper P1: phy 6+6+6, chem 6+6+6, math 6+6+6 = 54 q, 6 pp, 15 figs (physics only; chem/math all text)"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 16 (12 Jan 2022).pdf",
+      "status": "done",
+      "note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 22 (18 Sep 2022).pdf",
+      "status": "done",
+      "note": "single paper 60 q, 84 figs, 8 pages, lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 27 (13 Aug 2023).pdf",
+      "status": "done",
+      "note": "two papers, 141 q, 78 figs, 16 pages, lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 28 (20 Aug 2023).pdf",
+      "status": "done",
+      "note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 29 (01 Oct 2023).pdf",
+      "status": "done",
+      "note": "54 q, 12 figs, 6 pp"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Very Challenging\\SRG (Enthusiast) - Test 30 (22 Oct 2023).pdf",
+      "status": "done",
+      "note": "114 q (two papers), 29 figs, 12 pp"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 36 (25 Aug 2024).pdf",
+      "status": "done",
+      "note": "51 q, 29 figs, 6 pp"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 37 (11 Sep 2024).pdf",
+      "status": "done",
+      "note": "54 q, 18 figs, 6 pp"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 38 (15 Sep 2024).pdf",
+      "status": "done",
+      "note": "Single paper, 60 q (10+10 per subject), 25 figs; 2 rejected (formula crops)"
+    },
+    {
+      "source_rel": "SRG (Enthusiast)\\Challenging\\SRG (Enthusiast) - Test 39 (15 Sep 2024).pdf",
+      "status": "done",
+      "note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected"
+    }
+  ]
+}
