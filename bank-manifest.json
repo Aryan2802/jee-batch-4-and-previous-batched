@@ -1251,8 +1251,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 36 (07 Feb 2025).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Completed 2026-09-23: single paper, no Paper-1/Paper-2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 3 stems x2 = "
+   "status": "in_progress",
+   "conv_note": "Completed 2026-09-23: single paper, no Paper-1/Paper-2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 3 stems x2 = ",
+   "started_at": "2026-10-23T23:46:48Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 37 (10 Feb 2025)",
