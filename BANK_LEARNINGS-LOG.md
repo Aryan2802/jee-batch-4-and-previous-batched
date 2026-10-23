@@ -49,3 +49,11 @@ ANCHOR Mathematics D7: TOAS - Test 02 p1_math_s1_q01: 2 4 1 1 F0: rectangular hy
 ANCHOR Physics D3: TOAS - Test 03 p1_phy_s1_q02: 1 2 1 0 F0: SHM PE proportional to displacement squared so sqrt(E)=sqrt(E1)+sqrt(E2)
 ANCHOR Chemistry D4: TOAS - Test 03 p1_chem_s2_q12: 1 3 0 0 F1: Fajans' rules applied to four solubility / thermal stability statements
 ANCHOR Mathematics D3: TOAS - Test 03 p1_math_s1_q02: 1 2 1 0 F0: |tan^-1 x|+|cot^-1 x|=pi/2 holds only for x>=0
+
+## 2026-10-23 TOAS - Test 04 (15 Mar 2022)
+- 114 questions (19 per subject per paper, 24 passage groups, sections up to s4 = SECTION-II(ii)). 110 from key, 4 solved. Difficulty: Easy 8, Medium 27, Hard 71, Very hard 8.
+- Key page complete except Chemistry P2 s3 Q1, Q2, Q5, Q6 (solved: 3, 8, 1, 2). Stray letters in numeric rows (Physics none; Mathematics P1 "Q3 C, Q4 B"; Mathematics P2 "Q2 B,C,D / Q3 A,C / Q4 A,C,D / Q5 A,C") were ignored; the MCQ entries printed in the main MCQ row were re-derived and match.
+- Conversion typos worth knowing: p1_math_s1_q02 prints sqrt(x - sqrt(lambda)) where the source has sqrt(x)-sqrt(lambda) (key B with lambda=2 matches the source form); p2_chem_s4_q08 prints "0.4 meV" but the key (13) needs 0.4 MeV.
+- Judgement calls: p2_chem_s3_q06 treats benzyl alcohol as reacting immediately with Lucas reagent (statement (i) false), so answer 2.
+ANCHOR Physics D9: TOAS - Test 04 p2_phy_s4_q07: 3 3 2 1 F1: particle leaves the circle at B, projectile returns to string-taut point C diametrically opposite; speed condition at A
+ANCHOR Chemistry D8: TOAS - Test 04 p1_chem_s2_q07: 2 4 1 1 F1: three gases with equal masses and movable pistons: mole ratios, final pressures and piston positions, four statements
