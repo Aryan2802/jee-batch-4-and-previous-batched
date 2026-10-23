@@ -82,3 +82,5 @@ ANCHOR Mathematics D9: TOAS - Test 06 p1_math_s2_q07: 2 4 2 1 F1: two pairs of l
 - Difficulty was assigned with section defaults plus manual overrides; reasons are generic, recheck if rescoring.
 ## 2026-10-23 23:20 AUDIT - difficulty re-score
 - Independent audit (TOAS 04, 07, 08): chapters, subtopics, answers OK; difficulty inflated ~2 points and defaulting to S3/S4, I1. All ANCHOR lines above this entry are VOID. Read BANK_LEARNINGS.md CALIBRATION. bank_tools apply now requires reasons "concepts: ... | steps: ..." and checks K and S against them. Every test banked so far has fix_note "rescore difficulty". New anchors: ANCHOR [v2] ...
+## 2026-10-23 build notes
+- Build compile failures seen: unescaped % in diff_note (comments out the closing brace; write "percent"), bare x^2 outside $ in a working, and `\[\begin{aligned}&` (use `\begin{aligned}{}&` or inline math). Check these before pack.
