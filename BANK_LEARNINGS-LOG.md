@@ -247,3 +247,4 @@ T38 (Score Advanced 38): key partial for P2 (phys s1 q01-04, s2 q05, chem s2 q07
 T39 (Score Advanced 39): key page is fragmentary (P1 only; P2 absent except stray). Used key for P1 chem/math and a few phys; solved easy ones; unsolved/figure-dependent banked Bonus (revisit). Key math s2 has 7 entries for 6 q (extra stray B,C,D).
 T40 (Score Advanced 40): key page is a 1-page jumbled table (rows fragmentary, order by section type: multi, numeric, matching codes). Matching codes banked P->a;Q->b.. Missing key items solved (p1 phy s1q01 A,D; s2q05 4; chem s1q04 A,B; p2 chem s2q04 4); figure ones Bonus.
 T41 (Score Advanced 41, 'Mock Test - Undated'): clean 1-page key; P2 math key row has a stray duplicate 'Q4 B' (ignore); ranges banked as midpoint (7.04, 0.195).
+SRGBT-1: single 54-q section, key page is last PDF page (14) image table, clean. text extraction of PDF empty (image-only); use page image.
