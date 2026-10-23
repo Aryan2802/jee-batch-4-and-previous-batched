@@ -96,13 +96,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 08 (15 May 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "14 pp, 57 figs, QA ok",
-   "note": "108 questions; 103 from key, 5 solved (p1 chem q06,q07; p1 math s3 q02-q06 partly); difficulty single-pass",
-   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay",
-   "started_at": "2026-10-23T18:11:53Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
+   "note": "108 questions; difficulty rescored per 23 Oct audit: Easy 59/Medium 46/Hard 3/Very hard 0 (chapters, subtopics, answers unchanged)"
   },
   {
    "name": "TOAS - Test 09 (30 May 2022)",
