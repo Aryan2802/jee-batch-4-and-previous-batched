@@ -239,11 +239,9 @@
    "src_rel": [
     "Batch 4/Source/TAAS/Advanced/Very Challenging/TAAS - Test 02 (30 Jul 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 53 figs",
-   "started_at": "2026-10-23T19:23:49Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 32/Medium 49/Hard 21/Very hard 0; chapters C01 C04 C05 C07 C08 C09 C11 C12 C16 C17 C18 C19 C20 C21 C24 C25 C31 C32 C33 C37 M14 M16 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 P06 P08 P09 P10 P11 P12 P15 P16 P23"
   },
   {
    "name": "TOPS - Test 01 (31 Jul 2022)",
