@@ -51,7 +51,18 @@ def git(*args, check=True, quiet=False):
     return r
 
 
+# Cloud sessions may only push to claude/* branches, and each session starts on its own branch. All sessions
+# therefore share ONE claude/* branch: every pull rebases onto it and every push goes to it, whatever branch the
+# session itself is on. (env REPO_SYNC_BRANCH overrides it, e.g. for tests.)
+SHARED = os.environ.get("REPO_SYNC_BRANCH", "claude/qbank-shared")
+_FALLBACK = []
+
+
 def branch():
+    return SHARED
+
+
+def own_branch():
     return git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
 
 
@@ -73,7 +84,15 @@ def pull():
 
 
 def push():
-    r = git("push", "origin", f"HEAD:{branch()}", check=False)
+    if _FALLBACK:
+        return git("push", "origin", f"HEAD:refs/heads/{own_branch()}", check=False).returncode == 0
+    r = git("push", "origin", f"HEAD:refs/heads/{SHARED}", check=False)
+    if r.returncode != 0 and ("403" in r.stderr or "forbidden" in r.stderr.lower() or "not allowed" in r.stderr.lower()):
+        sys.stderr.write(f"WARNING: pushing to the shared branch {SHARED} is not allowed in this session; saving to "
+                         f"this session's own branch instead. Other sessions cannot see these claims: run ONLY ONE "
+                         f"session at a time until this is fixed.\n")
+        _FALLBACK.append(1)
+        return push()
     return r.returncode == 0
 
 
