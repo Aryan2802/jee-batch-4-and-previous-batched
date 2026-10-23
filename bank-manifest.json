@@ -668,11 +668,9 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 08 (22 Apr 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 55 figs",
-   "started_at": "2026-10-23T22:20:10Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 99 from key, 9 solved; bands Easy 1/Medium 20/Hard 28/Very hard 59; chapters C03 C04 C09 C10 C11 C12 C14 C15 C17 C20 C21 C24 C25 C29 C30 C31 C32 C36 C37 M01 M02 M03 M04 M05 M06 M08 M10 M11 M12 M14 M17 M20 M21 M23 M25 M26 M27 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P12 P13 P16 P17 P18 P19 P20 P21 P22 P25"
   },
   {
    "name": "Score Advanced - Test 09 (29 Apr 2023)",
