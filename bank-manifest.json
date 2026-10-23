@@ -96,11 +96,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 08 (15 May 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "14 pp, 57 figs, QA ok",
-   "started_at": "2026-10-23T17:33:13Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 103 from key, 5 solved (p1 chem q06,q07; p1 math s3 q02-q06 partly); difficulty single-pass"
   },
   {
    "name": "TOAS - Test 09 (30 May 2022)",
