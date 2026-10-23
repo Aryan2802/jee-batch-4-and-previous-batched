@@ -305,8 +305,11 @@
    "src_rel": [
     "Batch 4/Source/TEAS/Advanced/Challenging/TEAS - Test 01 (16 Apr 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 6pp, 31 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 6pp, 31 figs",
+   "started_at": "2026-10-23T19:42:11Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TMAS - Test 01 (09 Jul 2023)",
