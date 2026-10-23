@@ -16,3 +16,16 @@ ANCHOR Chemistry D3: Score-I - Test 12 p2_chem_s2_q01: 1 2 0 0 F1: recall count 
 ANCHOR Chemistry D7: Score-I - Test 12 p1_chem_s1_q06: 2 4 0 1 F1: AgCl solubility in water, AgNO3, NH3 (Ksp*Kf), four options each worked
 ANCHOR Mathematics D4: Score-I - Test 12 p1_math_s3_q10: 1 2 1 0 F1: area of [x][y]=2 as four unit squares
 ANCHOR Mathematics D8: Score-I - Test 12 p1_math_s3_q09: 2 4 1 1 F1: differentiability of piecewise function with [x^2] and tan(pi[x^2]); continuity and derivative match at x=1
+
+## 2026-10-23 TOAS - Test 01 (30 Jan 2022)
+- 147 questions (the conversion note says 168; the .tex has 147: P1 19+19+19, P2 30+30+30). 126 from key, 21 solved. Difficulty: Easy 53, Medium 64, Hard 27, Very hard 3.
+- Key layout (one page, 2 papers): MCQ rows Q1-Q10 (P1) / Q1-Q20 (P2) and a numeric row per subject. P1 numeric rows list section-II passage questions and section-II(ii) questions together; Physics P1 omits passage Q1, Q3, Q5, and the P2 Chemistry numerics list only Q2 and Q5, P2 Mathematics numerics are missing altogether, so those were solved. One stray letter ("Q4 A") sits in the P1 Mathematics numeric row: ignore it.
+- Key vs paper: p2_math_s1_q03 prints "<0" but the key (D, sum 8) needs "<=0" (conversion lost the equal sign); p1_chem_s2_q05 option A prints PQ3S4R3 but R4S3 is what counts (key A kept); the printed key value "205.00 to 210..." of p1_phy_s3_q02 is truncated (computed 207).
+- Subtopic labels used as-is; no new ones. Passage groups need ONE chapter in chapters.tsv (apply refuses mixed chapters in a group).
+- Spot checks done: all P1 MCQ and numeric key entries re-derived, P2 physics and chemistry MCQs re-derived; no disagreement.
+ANCHOR Physics D1: TOAS - Test 01 p1_phy_s1_q02: 1 1 0 0 F0: PE of SHM oscillates at twice the frequency
+ANCHOR Physics D6: TOAS - Test 01 p1_phy_s2_q10: 2 3 1 0 F1: ball in accelerated liquid, effective gravity and relative acceleration 3 g_eff, geometry gives a and t
+ANCHOR Chemistry D2: TOAS - Test 01 p1_chem_s4_q08: 1 1 0 0 F1: radius ratio 0.837 gives coordination number 8
+ANCHOR Chemistry D5: TOAS - Test 01 p1_chem_s2_q07: 2 3 0 0 F1: four B2 configurations judged against aufbau, Hund, Pauli and s-p mixing
+ANCHOR Mathematics D2: TOAS - Test 01 p2_math_s1_q08: 1 2 0 0 F0: a1 and a2 of (1-x^2+x^3)(1+x)^n substituted into a1^2-a1-2a2
+ANCHOR Mathematics D6: TOAS - Test 01 p1_math_s2_q07: 1 3 1 1 F1: sum r C(100,r)^2 by r C(n,r)=n C(n-1,r-1) and Vandermonde, option A rewritten
