@@ -481,11 +481,9 @@
    "src_rel": [
     "Batch 4/Source/Internal Test/Advanced/Moderate/Internal Test - Test 02 (07 Jul 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 55 figs",
-   "started_at": "2026-10-23T20:40:35Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 7/Medium 29/Hard 17/Very hard 1; chapters C14 C15 C17 C18 C26 M14 M20 M21 M22 M23 P06 P08 P09 P10 P13"
   },
   {
    "name": "Internal Test - Test 03 (08 Sep 2021)",
