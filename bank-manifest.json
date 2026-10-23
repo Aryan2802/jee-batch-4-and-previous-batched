@@ -866,8 +866,11 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 26 (21 Apr 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-20, 13pp, 61 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-20, 13pp, 61 figs",
+   "started_at": "2026-10-23T23:02:53Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score Advanced - Test 27 (24 Apr 2024)",
