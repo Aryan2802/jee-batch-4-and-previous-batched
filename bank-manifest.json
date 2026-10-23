@@ -1284,11 +1284,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 44 (23 Mar 2025).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I(i) 4Q single-correct + Section-I(ii) 3Q one-or-more + Section-I(iii) 4 Ma",
-   "started_at": "2026-10-23T23:48:33Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "51 questions; 17 from key, 34 solved; bands Easy 0/Medium 8/Hard 16/Very hard 27; chapters C03 C06 C07 C12 C13 C16 C25 C31 C32 C33 C36 C37 M01 M03 M04 M06 M07 M08 M12 M16 M19 M20 M22 M23 M28 P02 P04 P07 P09 P10 P12 P15 P18 P19 P20 P21 P25"
   },
   {
    "name": "Score-II - Test 46 (26 Mar 2025)",
