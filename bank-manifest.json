@@ -503,11 +503,9 @@
    "src_rel": [
     "Batch 4/Source/Nurture SRG/Advanced/Challenging/Nurture SRG - Test 02 (06 Dec 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 21 figs",
-   "started_at": "2026-10-23T20:43:23Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 18 from key, 36 solved; bands Easy 3/Medium 12/Hard 31/Very hard 8; chapters C07 C26 M03 M04 M05 M09 P04 P07 P17 P23"
   },
   {
    "name": "Nurture SRG - Test 03 (04 Feb 2024)",
