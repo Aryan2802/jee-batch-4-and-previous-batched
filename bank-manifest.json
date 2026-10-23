@@ -1328,8 +1328,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Moderate/Score-II - Test 47 (30 Mar 2025).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20Q single-correct + Section-II 5Q numerical value = 25Q/part, 75Q grand "
+   "status": "in_progress",
+   "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20Q single-correct + Section-II 5Q numerical value = 25Q/part, 75Q grand ",
+   "started_at": "2026-10-23T23:56:29Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 06 (05 Jul 2022)",
