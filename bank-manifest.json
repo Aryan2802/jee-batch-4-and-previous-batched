@@ -371,8 +371,11 @@
    "src_rel": [
     "Batch 4/Source/TNAS/Advanced/Very Challenging/TNAS - Test 02 (07 May 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 12pp, 52 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 12pp, 52 figs",
+   "started_at": "2026-10-23T20:06:42Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TNAS - Test 03 (28 May 2023)",
