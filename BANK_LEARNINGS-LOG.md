@@ -117,3 +117,5 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## 23 Oct 2026 correction (TOAS - Test 14 anchors)
 - The anchor line "ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1" is VOID: the stored factors are 2 2 2 1 (four steps listed) = D7. Use instead: ANCHOR [v2] Mathematics D7: TOAS - Test 14 p1_math_s2_q04: 2 2 2 1 F1: concepts: symmetry of a composition, property of definite integrals | steps: f(1-x) = 1 - f(x); f(f(1-x)) = 1 - f(f(x)); pairs sum to 1 over a symmetric interval; half the length
 - Lesson: copy anchor factors from the applied work/questions.json (diff_kSIC, difficulty), not from the diff file, because mk.py recomputes S from the step count.
+## 23 Oct 2026 correction (TOAS - Test 13 anchor)
+- The anchor line "ANCHOR [v2] Chemistry D6: TOAS - Test 13 p2_chem_s2_q02: 2 3 1 0 F1" is VOID: stored factors are 2 2 1 0 (four steps) = D5. Use instead: ANCHOR [v2] Chemistry D5: TOAS - Test 13 p2_chem_s2_q02: 2 2 1 0 F1: concepts: depression of freezing point, relative lowering of vapour pressure | steps: molality; moles of sugar; remaining water from 700 torr; ice moles and grams
