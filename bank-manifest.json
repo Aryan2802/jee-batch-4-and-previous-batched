@@ -547,8 +547,11 @@
    "src_rel": [
     "Batch 4/Source/Nurture (General)/Advanced/Moderate/Nurture (General) - Test 04 (11 Feb 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 6pp, 21 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 6pp, 21 figs",
+   "started_at": "2026-10-23T21:13:14Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Enthusiast Pre-Score - Test 01 (04 Nov 2020)",
