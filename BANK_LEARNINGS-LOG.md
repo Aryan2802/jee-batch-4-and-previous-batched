@@ -146,3 +146,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Key page did not auto-match; answers entered by hand from the key (52 key, 2 solved: maths S3 q5 answer 1 by AM-GM equality, q6 = 44/9 = 4.89).
 - Mostly constraint and friction mechanics, bonding and sequence/log maths. Passage groups need one chapter each (P02, P01, C30, M01, M03).
 - Pitfall: finish.sh ran after a failed `apply` (wrong tools path) and marked the test done without a zip. Always run apply from the repo root with tools/bank_tools.py and check "difficulty missing 0" before finish.sh.
+## TOPS - Test 02 (28 Aug 2022)
+- Two papers (108 q). The key prints Paper-2 numerics with Section III before Section II; matched by solving (air time 3.60 and Section II values 12/286 on the maths side). Verify the section order against a worked numeric before banking.
+- Missing numeric keys solved: p1 phys s3 q4 (1.20), q6 (7.07), p2 phys s2 q2 (16.67), p2 math s2 q5 (1.80).
+- mk.py writes nothing if any KMISMATCH appears: fix K in the diff file to the concept count and rerun, then confirm work/difficulty.tsv exists before apply.
