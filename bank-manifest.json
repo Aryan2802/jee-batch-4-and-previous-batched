@@ -283,11 +283,9 @@
    "src_rel": [
     "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 04 (18 Dec 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 70 figs",
-   "started_at": "2026-10-23T19:36:02Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "147 questions; 130 from key, 17 solved; bands Easy 11/Medium 47/Hard 56/Very hard 33; chapters C01 C03 C08 C10 C14 C15 C26 C29 C30 M01 M03 M08 M10 M11 M12 M13 M15 M16 M17 M18 M19 M20 P01 P02 P03 P04 P05 P07 P13 P23"
   },
   {
    "name": "TOPS - Test 05 (14 Jan 2023)",
