@@ -29,3 +29,14 @@ ANCHOR Chemistry D2: TOAS - Test 01 p1_chem_s4_q08: 1 1 0 0 F1: radius ratio 0.8
 ANCHOR Chemistry D5: TOAS - Test 01 p1_chem_s2_q07: 2 3 0 0 F1: four B2 configurations judged against aufbau, Hund, Pauli and s-p mixing
 ANCHOR Mathematics D2: TOAS - Test 01 p2_math_s1_q08: 1 2 0 0 F0: a1 and a2 of (1-x^2+x^3)(1+x)^n substituted into a1^2-a1-2a2
 ANCHOR Mathematics D6: TOAS - Test 01 p1_math_s2_q07: 1 3 1 1 F1: sum r C(100,r)^2 by r C(n,r)=n C(n-1,r-1) and Vandermonde, option A rewritten
+
+## 2026-10-23 TOAS - Test 02 (13 Feb 2022)
+- 54 questions (one paper, 18 per subject: s1 6 single, s2 6 multiple, s3 6 numerical). 37 from key, 17 solved. Difficulty: Easy 5, Medium 21, Hard 26, Very hard 2.
+- Key (one page): Physics complete. Chemistry lists only s1 Q1-Q6 and numeric Q2 (53.25): the 6 multiple-correct and 5 numericals were solved. Mathematics: s1 Q1-Q6 and s2 Q7-Q12 usable (re-derived several), but the numeric block prints letters (C A B D B) instead of numbers: ignored, all six numericals solved.
+- Ambiguities settled and noted in working: chemistry s3 q01 reads "face centres not opposite to each other" as three mutually adjacent faces (density 40); phy s2 q07 P is the pole of the curved face in (i) and the flat face in (ii) (only A true).
+ANCHOR Physics D4: TOAS - Test 02 p1_phy_s1_q04: 2 3 0 0 F0: Snell at top face then TIR condition at vertical face
+ANCHOR Physics D7: TOAS - Test 02 p1_phy_s3_q03: 2 3 1 1 F1: prism with delta=i=2 alpha gives e=alpha, two Snell relations eliminated to cos^2 alpha=(mu^2-1)/8
+ANCHOR Chemistry D1: TOAS - Test 02 p1_chem_s1_q02: 1 1 0 0 F0: pure silicon is an intrinsic semiconductor
+ANCHOR Chemistry D6: TOAS - Test 02 p1_chem_s1_q06: 2 4 1 0 F0: count stereoisomers (incl. linkage isomers) of four octahedral complexes
+ANCHOR Mathematics D5: TOAS - Test 02 p1_math_s1_q02: 2 3 1 0 F0: range [-4,3) of (3x^2+ax+b)/(x^2+1) via discriminant, a=0 forced because 3 is excluded
+ANCHOR Mathematics D7: TOAS - Test 02 p1_math_s1_q01: 2 4 1 1 F0: rectangular hyperbola, tangents of slope 2, asymptote intersections, quadrilateral area
