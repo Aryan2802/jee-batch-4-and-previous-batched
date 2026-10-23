@@ -1350,8 +1350,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 08 (05 Feb 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two-paper test (PAPER-1/PAPER-2), each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/part); Pap"
+   "status": "in_progress",
+   "conv_note": "Two-paper test (PAPER-1/PAPER-2), each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/part); Pap",
+   "started_at": "2026-10-23T23:58:19Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 09 (12 Feb 2023)",
