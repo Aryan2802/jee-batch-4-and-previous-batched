@@ -1306,8 +1306,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Foundational/Score-II - Test 13 (06 Feb 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-an"
+   "status": "in_progress",
+   "conv_note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-an",
+   "started_at": "2026-10-23T23:49:52Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 22 (14 Mar 2024)",
