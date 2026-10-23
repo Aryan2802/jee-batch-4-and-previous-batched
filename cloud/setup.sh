@@ -16,4 +16,4 @@ echo "--- check"
 python3 -c "import pymupdf, scipy; print('python packages ok')"
 for t in pdflatex pdftoppm git; do command -v $t >/dev/null && echo "$t ok" || echo "$t MISSING"; done
 python3 tools/bank_tools.py difficulty >/dev/null && echo "bank_tools ok (difficulty rubric present)"
-python3 cloud/repo_sync.py show | head -1
+python3 -c "import json,collections; print(dict(collections.Counter(t[\"status\"] for t in json.load(open(\"bank-manifest.json\"))[\"tests\"])))"
