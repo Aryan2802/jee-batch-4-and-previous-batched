@@ -174,3 +174,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - p2_chem_s3_q04 (figure sequence) is a best-effort reading (3) and should be treated as lower confidence.
 ## Build note (30 tests)
 - LaTeX build failure: a stem with `\begin{aligned}&\sqrt{...}` or `&\underbrace{...}` (an `&` directly after `\begin{aligned}`) fails with "Missing control sequence inserted". Fixed in data/TOPS - Test 01 by removing that leading `&`. If a chapter fails, extract its zip from the build output, compile it, and look at the line named in the error.
+## TMAS - Test 03 (10 Sep 2023)
+- Physics-only test with 35 questions and no answer key at all: every answer solved with working. Subtopics must come from the chapter list (`new:<label>` only when none fits); P18 uses 'Waves on a string', 'Standing waves' etc.
+- p1_phy_s3_q06 depends on the figure (block directions assumed as drawn, same direction); p2_phy_s2_q10 and p2_phy_s4 answers rely on reading the figures.
