@@ -162,3 +162,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Maths Paper 1 Section II key printed letters in numeric slots (Q3-Q6); those four were solved (15, 0.25, 1.5, 1.58). Matching-type questions are banked as single option letters from the key.
 - p1_phy_s3_q08 key 4.22 mm does not fit the stated alpha (11e-6 gives 3.96 mm); banked solved.
 - Difficulty tip: I is 0-2, not 3; keep I=2 for genuinely hard insight steps only (this paper's I values were rated generously).
+## TEAS - Test 01 (16 Apr 2023)
+- Key page holds two papers (Paper 1 main style, Paper 2 advanced style); the converted test is the advanced-style Paper 2 (6 MCQ + 4 passage + 8 numeric per subject): use the second block.
+- Missing chem numerics solved (X/Y = 2; isomers of Pt complex = 14; froth flotation = 3 with CuSO4 as the only activator; reactions matched = 5).
