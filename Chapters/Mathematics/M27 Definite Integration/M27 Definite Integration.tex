@@ -274,7 +274,7 @@ Given $f(x)-2\displaystyle\int_0^{\pi/4}\left(\frac{\sin^2x}{\cos^5x}\right)f(t)
 \opt{D}{$f\left(\dfrac\pi3\right)=72$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS16-P2-MATH-S1-Q03, source={TOAS - Test 16 (04 Sep 2022)}, paper=2, qno=3, type=multi, subtopic={Properties}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integral of the modulus of sine, extrema | steps: f'(x); critical points; values at the ends and critical points}]
+\begin{bankq}[id=TOAS16-P2-MATH-S1-Q03, source={TOAS - Test 16 (04 Sep 2022)}, paper=2, qno=3, type=multi, subtopic={Properties}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integral of the modulus of sine, extrema | steps: f'(x); critical points; values at the ends and critical points}, also_in={TAAS - Test 02 (30 Jul 2023) P1 Q5}]
 Let $f(x)=\displaystyle\int_x^{x+\pi/3}|\sin\theta|\,d\theta$; where $x\in[0,\pi]$, which of the following is/are true
 \begin{qoptions}
 \opt{A}{maximum value of $f(x)$ is 1}
@@ -376,5 +376,45 @@ Let $I(n)=\displaystyle\int_1^n\dfrac{\sin x}{x^2}\,dx$ where $n$ is a natural n
 \end{bankq}
 \begin{bankq}[id=TOAS18-P2-MATH-S3-Q08, source={TOAS - Test 18 (30 Oct 2022)}, paper=2, qno=8, type=numerical, subtopic={Properties}, answer={1}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral with a trigonometric product | steps: product to sum; integrate; evaluate the coefficient}]
 The absolute value of $2019\displaystyle\int_0^{\pi/2}(\cos x)^{2018}\cdot\sin(2020x)\,dx$
+\end{bankq}
+
+\section*{TAAS papers}
+\begin{bankq}[id=TAAS02-P1-MATH-S1-Q04, source={TAAS - Test 02 (30 Jul 2023)}, paper=1, qno=4, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I2 C0 F0}, diff_note={concepts: integral of a function and its inverse | steps: area interpretation; change of variables; match the identities}]
+Let a real valued differentiable function $f(x)$ be strictly monotonic on $[a,b]$, then
+\begin{qoptions}
+\opt{A}{$\displaystyle\int_a^b\left[(f(x))^2-(f(b))^2\right]dx=$\par\noindent$\displaystyle\int_{f(a)}^{f(b)}2x\left(b-f^{-1}(x)\right)dx$}
+\opt{B}{$\displaystyle\int_a^b\left[(f(x))^2-(f(a))^2\right]dx=$\par\noindent$\displaystyle\int_{f(a)}^{f(b)}2x\left(b-f^{-1}(x)\right)dx$}
+\opt{C}{$\displaystyle\int_a^b[f(x)-f(a)]^2dx=\int_{f(a)}^{f(b)}x\left(b-f^{-1}(x)\right)^2dx$}
+\opt{D}{None of these}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TAAS02-P1-MATH-S3-Q10, source={TAAS - Test 02 (30 Jul 2023)}, paper=1, qno=10, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: definite integrals and limits | steps: four separate evaluations; match}]
+Match List-I with List-II and select the correct answer using the code given below the list.
+\begin{center}\footnotesize\setlength{\tabcolsep}{2pt}
+\begin{tabular}{|L{0.6cm}L{3.9cm}|L{0.7cm}L{0.6cm}|}\hline
+\multicolumn{2}{|c|}{List-I}&\multicolumn{2}{c|}{List-II}\\\hline
+(P)&Value of $\dfrac8{\pi^2}\displaystyle\int_0^\pi\sin^{-1}(\sin x)\,dx$ is equal to&(1)&0\\\hline
+(Q)&Value of $\displaystyle\int_0^\pi\cos mx\,\sin nx\,dx$ is equal to (Here $m$ and $n\in I$ \& $(m-n)$ is a non-zero even integer)&(2)&1\\\hline
+(R)&Value of $\displaystyle\lim_{x\to0^+}\sin\cos^{-1}\cot^{-1}\left(\dfrac1x\right)$ is equal to&(3)&2\\\hline
+(S)&$\displaystyle\lim_{x\to2^+}\left(\dfrac{2\{x\}-4}{[x]-3}\right)$ is equal to (Here $[.]$ \& $\{.\}$ denote greatest integer \& fractional part function)&(4)&4\\\hline
+&&(5)&3\\\hline
+\end{tabular}\end{center}
+\begin{qoptions}
+\opt{A}{P $\to$ 3;Q $\to$ 2;R $\to$ 1;S $\to$ 4}
+\opt{B}{P $\to$ 2;Q $\to$ 3;R $\to$ 5;S $\to$ 1}
+\opt{C}{P $\to$ 3;Q $\to$ 1;R $\to$ 2;S $\to$ 4}
+\opt{D}{P $\to$ 5;Q $\to$ 2;R $\to$ 4;S $\to$ 1}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TAAS02-P1-MATH-S4-Q01, source={TAAS - Test 02 (30 Jul 2023)}, paper=1, qno=1, type=numerical, subtopic={Properties}, answer={8}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: series, integral relation | steps: expand 1/(1-x\^{}2); integrate term by term; use the zeta sum; lambda}]
+Given $\displaystyle\sum_{n=1}^\infty\dfrac1{n^2}=\dfrac{\pi^2}6$ and $\displaystyle\int_0^1\dfrac{\log_ex}{1-x^2}dx=-\dfrac{\pi^2}\lambda$, then the value of $\lambda$ equals
+\end{bankq}
+\begin{bankq}[id=TAAS02-P1-MATH-S4-Q02, source={TAAS - Test 02 (30 Jul 2023)}, paper=1, qno=2, type=numerical, subtopic={Properties}, answer={0}, answer_src=key, difficulty=5, diff_parts={K1 S1 I2 C1 F1}, diff_note={concepts: limit of a Riemann sum | steps: convert both terms to integrals; evaluate}]
+The value of $\displaystyle\lim_{n\to\infty}\dfrac1n\sum_{k=1}^n\left[e^{(1+k/n)^2}-\dfrac{3e^{\left(1+\frac{3k}n\right)}}{2\sqrt{1+\frac{3k}n}}\right]$ equals
+\end{bankq}
+\begin{bankq}[id=TAAS02-P2-MATH-S4-Q05, source={TAAS - Test 02 (30 Jul 2023)}, paper=2, qno=5, type=numerical, subtopic={Properties}, answer={17}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: integral of a function, its inverse | steps: substitution; inverse function trick; second integral; sum}]
+Let $\lambda=\displaystyle\int_1^9\left(\dfrac12+\sqrt{\dfrac14+\log_3x}\right)dx+\int_1^2\dfrac{3^{x^2-[x]}}{3^{\{x\}}}dx$ then $\lambda$ equals
+
+(where $[.]$ denotes greatest integer function and $\{.\}$ denotes fractional part function)
 \end{bankq}
 \end{document}

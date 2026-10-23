@@ -51,7 +51,7 @@
 {\small Mathematics chapter M26. Questions from all converted test papers, grouped by source series. Answers: printed key where it matches the paper, otherwise solved (answer\_src=solved, with working). Exact repeats across papers appear once, with also\_in listing the other copies.}\par\medskip\hrule
 
 \section*{TOAS papers}
-\begin{bankq}[id=TOAS09-P1-MATH-S1-Q01, source={TOAS - Test 09 (30 May 2022)}, paper=1, qno=1, type=single, subtopic={By parts}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: integration by recognising a derivative | steps: simplify e\^{}(ln x) factor; guess x\^{}2 e\^{}(tan\^{}-1 x + x\^{}2); verify by differentiation | I: integrand is the derivative of a product}]
+\begin{bankq}[id=TOAS09-P1-MATH-S1-Q01, source={TOAS - Test 09 (30 May 2022)}, paper=1, qno=1, type=single, subtopic={By parts}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: integration by recognising a derivative | steps: simplify e\^{}(ln x) factor; guess x\^{}2 e\^{}(tan\^{}-1 x + x\^{}2); verify by differentiation | I: integrand is the derivative of a product}, also_in={TMAS - Test 02 (06 Aug 2023) P1 Q1}]
 {\small\[\begin{aligned}\int\Big(&2e^{\tan^{-1}x+x^2+\ln x}\\&+\frac{2x^3+2x+1}{x+\frac1x}\,e^{\tan^{-1}x+x^2+\ln x}\Big)dx\end{aligned}\]}
 is equal to (where C is constant of integration)
 \begin{qoptions}
@@ -261,6 +261,67 @@ $\displaystyle\int\dfrac{x^3-x^2+x-1}{x^5+1}\,dx=f(x)$ and $f(0)=0$, then $f(x)$
 \opt{B}{$\dfrac15\ell n\left(\dfrac{1+x^5}{1+x^3}\right)$}
 \opt{C}{$\dfrac15\ell n\left(\dfrac{1+x^5}{1+x}\right)$}
 \opt{D}{$\dfrac15\ell n\left(\dfrac{1+x^5}{(1+x)^5}\right)$}
+\end{qoptions}
+\end{bankq}
+
+\section*{TAAS papers}
+\begin{bankq}[id=TAAS01-P1-MATH-S1-Q03, source={TAAS - Test 01 (18 Jun 2023)}, paper=1, qno=3, type=single, subtopic={Substitution}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: integral of the form e\^{}f times a polynomial | steps: write as a derivative; recognise the product rule; integrate; compare}]
+\par\noindent\hfill$\displaystyle\begin{aligned}\int\Bigl(2e^{\tan^{-1}x+x^2+\ln x}&+\dfrac{(2x^3+2x+1)}{\left(x+\frac1x\right)}\\&\times e^{\tan^{-1}x+x^2+\ln x}\Bigr)dx\end{aligned}$\hfill\null\par\noindent is equal to
+\begin{qoptions}
+\opt{A}{$\dfrac{x^3}3e^{\tan^{-1}x+x^2+\ln x}+C$}
+\opt{B}{$\dfrac{x^2}2e^{\tan^{-1}x+x^2+\ln x}+C$}
+\opt{C}{$xe^{\tan^{-1}x+x^3+\ln x}+C$}
+\opt{D}{$x^2e^{\tan^{-1}x+x^2}+C$ (where $C$ is constant of integration)}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TAAS02-P1-MATH-S1-Q02, source={TAAS - Test 02 (30 Jul 2023)}, paper=1, qno=2, type=single, subtopic={Substitution}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: trigonometric integral by factorisation | steps: sum-to-product in numerator and denominator; ratio; integrate}]
+$\displaystyle\int\dfrac{\sin2x+\sin4x-\sin6x}{1+\cos2x+\cos4x+\cos6x}dx$ is equal to (where $C$ is constant of integration)
+\begin{qoptions}
+\opt{A}{$\dfrac13\ell n|\sec3x|+\dfrac12\ell n|\sec2x|+\ell n|\sec x|+C$}
+\opt{B}{$\dfrac13\ell n|\sec3x|-\dfrac12\ell n|\sec2x|-\ell n|\sec x|+C$}
+\opt{C}{$\dfrac13\ell n|\sec3x|-\dfrac12\ell n|\sec2x|+\ell n|\sec x|+C$}
+\opt{D}{$\dfrac13\ell n|\sec3x|+\dfrac12\ell n|\sec2x|-\ell n|\sec x|+C$}
+\end{qoptions}
+\end{bankq}
+
+\section*{TMAS papers}
+\begin{bankq}[id=TMAS02-P1-MATH-S2-Q06, source={TMAS - Test 02 (06 Aug 2023)}, paper=1, qno=6, type=multi, subtopic={Substitution}, answer={A,B,C}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integration with inverse trigonometric | steps: simplify the argument; cotangent of double angle; integrate; match p and q}]
+If $\displaystyle\int\cot\left(2\tan^{-1}\sqrt{\dfrac{\sqrt{1+\sqrt x}-x^{1/4}}{\sqrt{1+\sqrt x}+x^{1/4}}}\right)dx=\dfrac{qx^{p/q}}{p}+C$; (where $p$ and $q$ are relatively prime and $C$ is constant of integration), then
+\begin{qoptions}
+\opt{A}{$p=5$}
+\opt{B}{$p+2q=13$}
+\opt{C}{$p-q=1$}
+\opt{D}{$q=5$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TMAS02-P1-MATH-S2-Q09, source={TMAS - Test 02 (06 Aug 2023)}, paper=1, qno=9, type=multi, subtopic={Substitution}, answer={B,C,D}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integration by substitution | steps: substitute x as a sixth power; partial fractions; integrate; match}]
+If $\displaystyle\int\dfrac{x+\sqrt[3]{x^2}+\sqrt[6]{x}}{x\left(1+\sqrt[3]{x}\right)}dx=A.x^B+C\tan^{-1}\left(x^D\right)+E$, then which of the following is/are true (where `$E$' is constant of integration) ?
+\begin{qoptions}
+\opt{A}{$A=\dfrac23$}
+\opt{B}{$AB=1$}
+\opt{C}{$(AB+C)$ is a prime number}
+\opt{D}{Sum of all coefficients of even power of $x$ in the expansion of $\left(AB+\dfrac xD\right)^C$ is equal to $\dfrac{(C+1)^C+(C-1)^C}{2}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TMAS02-P1-MATH-S4-Q09, source={TMAS - Test 02 (06 Aug 2023)}, paper=1, qno=9, type=numerical, subtopic={Substitution}, answer={1}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integration by substitution | steps: substitution; integrate; use f of 1; limit}]
+Let $\displaystyle\int\dfrac{(x^2-1)\,dx}{x^3\sqrt{3x^4+2x^2-1}}=f(x)+c$, (where $c$ is constant of integration) and $f(1)=-1$. If $\lambda=\displaystyle\lim_{x\to\infty}f(x)$, then the absolute value of $\dfrac{2\lambda}{\sqrt3}$ is
+\end{bankq}
+\begin{bankq}[id=TMAS02-P2-MATH-S1-Q02, source={TMAS - Test 02 (06 Aug 2023)}, paper=2, qno=2, type=multi, subtopic={Standard forms}, answer={A,D}, answer_src=solved, working={With $t=\tan(x/2)$: $\lambda_2=0$ gives option A; $\lambda_2<0$ gives $\dfrac{1}{\sqrt{-\lambda_1\lambda_2}}\ln|\cdots|$, option D}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of a over b plus cos | steps: half angle substitution; the three cases; check each}]
+Let $I=\displaystyle\int\dfrac{dx}{a+b\cos x}$ where $a,b>0$ and $a+b=\lambda_1$ and $a-b=\lambda_2$ then (where $c$ is the constant of integration)
+\begin{qoptions}
+\opt{A}{If $\lambda_2=0$ then $I=\dfrac{2}{\lambda_1}\tan\dfrac x2+c$}
+\opt{B}{If $\lambda_2>0$ then $I=\dfrac{1}{\sqrt{\lambda_1\lambda_2}}\tan^{-1}\left(\sqrt{\dfrac{\lambda_2}{\lambda_1}}\tan\dfrac x2\right)+c$}
+\opt{C}{If $\lambda_2<0$ then\par\noindent\hfill{\footnotesize$I=\dfrac{2}{\sqrt{-\lambda_1\lambda_2}}\log_e\left|\dfrac{\sqrt{\lambda_1}+\sqrt{-\lambda_2}\tan\frac x2}{\sqrt{\lambda_1}-\sqrt{-\lambda_2}\tan\frac x2}\right|+c$}\hfill\null\par}
+\opt{D}{If $\lambda_2<0$ then\par\noindent\hfill{\footnotesize$I=\dfrac{1}{\sqrt{-\lambda_1\lambda_2}}\log_e\left|\dfrac{\sqrt{\lambda_1}+\sqrt{-\lambda_2}\tan\frac x2}{\sqrt{\lambda_1}-\sqrt{-\lambda_2}\tan\frac x2}\right|+c$}\hfill\null\par}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TMAS02-P2-MATH-S1-Q06, source={TMAS - Test 02 (06 Aug 2023)}, paper=2, qno=6, type=multi, subtopic={Substitution}, answer={C,D}, answer_src=solved, working={With $t=x+1/x^2$ the integral is $\sqrt{t^2+3}$; $f(1)=\sqrt7>f(-1)=\sqrt3$ and $f(2)<f(3)$}, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: integration by a clever substitution | steps: rewrite with t; simplify the denominator; integrate; compare values}]
+If $\displaystyle\int\dfrac{x^6-x^3-2}{x^3\sqrt{(x^3+1)^2+3x^4}}\,dx=f(x)+C$, then -
+\begin{qoptions}
+\opt{A}{$f(1)<f(-1)$}
+\opt{B}{$f(2)>f(3)$}
+\opt{C}{$f(1)>f(-1)$}
+\opt{D}{$f(2)<f(3)$}
 \end{qoptions}
 \end{bankq}
 \end{document}
