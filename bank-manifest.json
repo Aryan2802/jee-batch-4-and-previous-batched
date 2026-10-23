@@ -52,11 +52,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 04 (15 Mar 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "TOAS 04 done: Very Challenging, 2 papers, 13 pages, 57 figs, lint PASS",
-   "started_at": "2026-10-23T17:17:55Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "114 questions; 110 from key, 4 solved; difficulty Easy 8/Medium 27/Hard 71/Very hard 8; chapters P02 P03 P04 P05 P08 P17 P19 C02 C03 C09 C11 C12 C16 C17 C18 C19 C20 C21 C30 C31 C36 M03 M11 M12 M14 M20 M21 M25"
   },
   {
    "name": "TOAS - Test 05 (03 Apr 2022)",
