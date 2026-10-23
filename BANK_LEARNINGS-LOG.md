@@ -136,3 +136,5 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## 23 Oct 2026 TOAS - Test 19 (05 Feb 2023)
 - The key page lists two papers and only the PAPER-2 block belongs to this converted test (one paper of 54 questions: 8 multi + 4 matching + 6 numeric per subject); the PAPER-1 block is a different paper (20 MCQ per subject). Identified by structure and by the numerics (chem 5.35, 173.20, 34.04, 21.95; phys 2.25, 0, 6, 10) matching solved values. Maths numerics Q5-Q6 and the trailing letters in that row are junk: solved 5 and 50.
 - Disagreements: phys Q12 (key C, banked solved D after recomputing: a = 6, T1 = 12, T2 = 8); chem Q4 key A,C kept as printed (my hydrolysis count gives D as incorrect too).
+## 23 Oct 2026 build of 20 tests
+- Build failed on 7 chapters with "Missing $ inserted": working and diff_note are written raw into the .tex, so a bare _ or ^ outside $...$ breaks the compile. Fixed by escaping _ and ^ outside math in questions.json of every data zip (done once for all 19 affected tests). When writing working text, put every formula in $...$ or avoid _ and ^ entirely; mk.py does not escape them.
