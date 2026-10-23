@@ -1372,8 +1372,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 12 (04 Feb 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Completed 2026-09-28: two-paper test, each PAPER-1/PAPER-2 has PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS, each part 4 sections (Sec-I(i) 4 single-correct + Sec-I(ii) 3 one-or-more + Sec-I(iii"
+   "status": "in_progress",
+   "conv_note": "Completed 2026-09-28: two-paper test, each PAPER-1/PAPER-2 has PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS, each part 4 sections (Sec-I(i) 4 single-correct + Sec-I(ii) 3 one-or-more + Sec-I(iii",
+   "started_at": "2026-10-23T23:59:47Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 14 (06 Feb 2024)",
