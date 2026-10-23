@@ -65,9 +65,44 @@ If $f(x)=\begin{vmatrix}(x-1)^2&(x-2)^3&x+1\\(x-1)^3&x^2&(x+1)^2\\x+2&x+1&x^5\en
 \opt{D}{25}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS07-P2-MATH-S4-Q08, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=8, type=numerical, subtopic={Properties}, answer={64}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: determinant identity, Vieta's relations | steps: sum of roots is 4; row operations give (alpha + beta + gamma)^3; evaluate | I: determinant equals the cube of the sum}]
+\begin{bankq}[id=TOAS07-P2-MATH-S4-Q08, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=8, type=numerical, subtopic={Properties}, answer={64}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: determinant identity, Vieta's relations | steps: sum of roots is 4; row operations give (alpha + beta + gamma)\^{}3; evaluate | I: determinant equals the cube of the sum}]
 If $\alpha,\beta,\gamma$ are the roots of $4x^3-16x^2+19x-6=0$, then the value of the determinant
 \[ \begin{vmatrix}\alpha-\beta-\gamma&2\alpha&2\alpha\\2\beta&\beta-\gamma-\alpha&2\beta\\2\gamma&2\gamma&\gamma-\alpha-\beta\end{vmatrix} \]
 is
+\end{bankq}
+\begin{bankq}[id=TOAS15-P1-MATH-S3-Q02, source={TOAS - Test 15 (22 Aug 2022)}, paper=1, qno=2, type=numerical, subtopic={Properties}, answer={6.00}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: determinant of a product of scalar multiples | steps: determinant of a scalar multiple of a 2 by 2 matrix; powers; exponent}]
+Consider the matrix $A,B,C,D$ with order $2\times3$, $3\times4$, $4\times4$, $4\times2$ respectively.\par
+Let $x=(\alpha AB\gamma C^2D)^3$, where $\alpha$ \& $\gamma$ are scalars. Let $|x|=k|ABC^2D|^3$ \& if $k=(\alpha\gamma)^\lambda$, then $\lambda$ is (where $|P|$ denotes determinant value of matrix $P$)
+\end{bankq}
+\begin{bankq}[id=TOAS15-P1-MATH-S3-Q06, source={TOAS - Test 15 (22 Aug 2022)}, paper=1, qno=6, type=numerical, subtopic={Properties}, answer={0}, answer_src=solved, working={$|B|=3^{\sum i-\sum j}|A|=|A|$ and likewise $|C|=|B|$, so $|B|-|C|=0$}, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: determinant under row and column scaling | steps: factors cancel in the determinant; both determinants equal that of A}]
+Let $A=[a_{ij}]_{3\times3}$, $B=[b_{ij}]_{3\times3}$ where $b_{ij}=3^{i-j}a_{ij}$, $C=[c_{ij}]_{3\times3}$, where $c_{ij}=4^{i-j}b_{ij}$ be any three matrices. If $|A|=4$, then $|B|-|C|$ ($|X|$ denotes determinant of matrix $X$)
+\end{bankq}
+\begin{bankq}[id=TOAS17-P2-MATH-S1-Q05, source={TOAS - Test 17 (18 Sep 2022)}, paper=2, qno=5, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: determinant condition for non-trivial solution | steps: determinant equal to zero; solve for f(x); monotonicity}]
+Consider the three linear equations with respect to $X$, $Y$ and $Z$ as
+\par\noindent$x.X+Y+2Z=0$\par\noindent$f(x).X+3Y+x^2Z=0$\par\noindent$5xX+6y+Z=0$ having
+\par\noindent non-trivial solution for $X$, $Y$ and $Z$ then curve $f(x)$
+\begin{qoptions}
+\opt{A}{is always increasing}
+\opt{B}{is always decreasing}
+\opt{C}{has exactly one critical point}
+\opt{D}{has three critical points}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS18-P1-MATH-S2-Q07, source={TOAS - Test 18 (30 Oct 2022)}, paper=1, qno=7, type=single, subtopic={Properties}, answer={C}, answer_src=solved, working={I: $BA$ gives $5x=1$, $x=1/5$ (Q); II: $(\alpha^2-4)^3=125$, $\alpha=3$ (P); III: $\Delta=a^2b^2c^2\times4$ (S); IV: $f(\theta)=1$ (R)}, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: determinants and inverse matrices | steps: find x from the product; alpha from the determinant of the cube; determinant with sum of squares zero; trigonometric determinant}]
+\begin{center}\footnotesize\setlength{\tabcolsep}{1pt}
+\begin{tabular}{|L{0.6cm}L{4.9cm}|L{0.6cm}L{0.7cm}|}\hline
+&List-I&&List-II\\\hline
+(I)&$A=\begin{bmatrix}2&0&7\\0&1&0\\1&-2&1\end{bmatrix}$ is inverse of $B=\begin{bmatrix}-x&14x&7x\\0&1&0\\1&-4x&-2x\end{bmatrix}$, then the value of $x$ is ?&(P)&3\\\hline
+(II)&If $A=\begin{bmatrix}\alpha&2\\2&\alpha\end{bmatrix}$ and $|A^3|=125$ then $\alpha$ is equal to ($\alpha>0$)&(Q)&$\dfrac15$\\\hline
+(III)&If $a,b,c$ are three complex numbers such that $a^2+b^2+c^2=0$ and $\Delta=\begin{vmatrix}b^2+c^2&ab&ac\\ab&c^2+a^2&bc\\ac&bc&a^2+b^2\end{vmatrix}=ka^2b^2c^2$&(R)&1\\\hline
+(IV)&If $f(\theta)=\begin{vmatrix}\cos^2\theta&\cos\theta\sin\theta&-\sin\theta\\\cos\theta\sin\theta&\sin^2\theta&\cos\theta\\\sin\theta&-\cos\theta&0\end{vmatrix}$ then $f\left(\dfrac{2\pi}3\right)$ is&(S)&4\\\hline
+&&(T)&2\\\hline
+\end{tabular}\end{center}
+\begin{qoptions}
+\opt{A}{I $\to$ R;II $\to$ R;III $\to$ T;IV $\to$ T}
+\opt{B}{I $\to$ R;II $\to$ P;III $\to$ T;IV $\to$ R}
+\opt{C}{I $\to$ Q;II $\to$ P;III $\to$ S;IV $\to$ R}
+\opt{D}{I $\to$ Q;II $\to$ P;III $\to$ S;IV $\to$ T}
+\end{qoptions}
 \end{bankq}
 \end{document}

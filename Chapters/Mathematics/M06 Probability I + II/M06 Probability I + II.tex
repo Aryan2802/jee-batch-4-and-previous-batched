@@ -51,7 +51,7 @@
 {\small Mathematics chapter M06. Questions from all converted test papers, grouped by source series. Answers: printed key where it matches the paper, otherwise solved (answer\_src=solved, with working). Exact repeats across papers appear once, with also\_in listing the other copies.}\par\medskip\hrule
 
 \section*{Score-I papers}
-\begin{bankq}[id=SI12-P1-MATH-S2-Q04, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=4, type=numerical, subtopic={Classical probability}, answer={20.00}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: arrangements with parity constraints, stars and bars | steps: girls at the ends; odd boys in each of 4 gaps b_i = 2c_i + 1; sum c_i = 3 gives 20; total C(15,5) = 3003 | I: transform the odd condition}]
+\begin{bankq}[id=SI12-P1-MATH-S2-Q04, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=4, type=numerical, subtopic={Classical probability}, answer={20.00}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: arrangements with parity constraints, stars and bars | steps: girls at the ends; odd boys in each of 4 gaps b\_i = 2c\_i + 1; sum c\_i = 3 gives 20; total C(15,5) = 3003 | I: transform the odd condition}]
 5 girls and 10 boys sit at random in a row having 15 chairs numbered as 1 to 15. If the probability that the end seats are occupied by the girls and between any two girls odd number of boys take seat is $\dfrac n{3003}$, then find the value of $n$
 \end{bankq}
 \begin{bankq}[id=SI12-P1-MATH-S2-Q05, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=5, type=numerical, subtopic={Bayes}, answer={48.78}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: Bayes' theorem | steps: probability of white for each discard case; total probability; Bayes}]
@@ -91,6 +91,49 @@ Identify the correct combination ?
 \opt{B}{(II) (ii) (R)}
 \opt{C}{(III) (iii) (P)}
 \opt{D}{(IV) (iv) (P)}
+\end{qoptions}
+\end{bankq}
+
+\section*{TOAS papers}
+\begin{bankq}[id=TOAS18-P1-MATH-S1-Q04, source={TOAS - Test 18 (30 Oct 2022)}, paper=1, qno=4, type=multi, subtopic={Classical probability}, answer={C,D}, answer_src=solved, working={$P(E_1)=9/25$, $P(E_2)=9/100$; $E_2\subset E_1$ so $P(E_2/E_1)=1/4$ and $P(E_1/E_2)=1$}, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: probability of unit digits in products | steps: probability of E1; probability of E2; conditional probabilities}]
+Two whole numbers are randomly selected and multiplied. Consider two events $E_1$ and $E_2$ defined as
+\par\noindent$E_1$ : Their product is divisible by 5\par\noindent$E_2$ : Unit's place in their product is 5.\par
+Which of the following statement(s) is/are correct ?
+\begin{qoptions}
+\opt{A}{$E_1$ is twice as likely to occur as $E_2$}
+\opt{B}{$E_1$ and $E_2$ are disjoint}
+\opt{C}{$P(E_2/E_1)=1/4$}
+\opt{D}{$P(E_1/E_2)=1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS18-P1-MATH-S2-Q09, source={TOAS - Test 18 (30 Oct 2022)}, paper=1, qno=9, type=single, subtopic={Classical probability}, answer={D}, answer_src=solved, working={Total $\binom{20}{4}=4845$: no pair $3360/4845=\tfrac{14\times16}{19\times17}$; at least one pair $=\tfrac{\binom{20}4-\binom{10}42^4}{\binom{20}4}$; exactly one pair $\tfrac{96}{19\times17}$; two pairs $\tfrac{3}{19\times17}$}, difficulty=2, diff_parts={K1 S2 I0 C0 F0}, diff_note={concepts: probability of matching shoes | steps: total ways; counts for no pair, one pair, two pairs; match the fractions}]
+A showroom has 10 different pairs of expensive shoes. A thief steals 4 shoes randomly from the showroom. Match the following :
+\begin{center}\footnotesize\setlength{\tabcolsep}{1pt}
+\begin{tabular}{|L{0.6cm}L{3.4cm}|L{0.6cm}L{2.4cm}|}\hline
+&List-I&&List-II\\\hline
+(I)&The probability that there is no matching pair among the 4 shoes stolen is&(P)&$\dfrac3{19\times17}$\\\hline
+(II)&The probability that there is atleast one matching pair among the 4 shoes stolen is&(Q)&$\dfrac{96}{19\times17}$\\\hline
+(III)&The probability that there is exactly one matching pair among the 4 shoes stolen is&(R)&$\dfrac{{}^{20}C_4-{}^{10}C_4\cdot2^4}{{}^{20}C_4}$\\\hline
+(IV)&The probability that there are two matching pair among the 4 shoes stolen is&(S)&$\dfrac{14\times16}{19\times17}$\\\hline
+&&(T)&$\dfrac{16}{19\times17}$\\\hline
+\end{tabular}\end{center}
+\begin{qoptions}
+\opt{A}{I $\to$ R;II $\to$ S;III $\to$ P;IV $\to$ T}
+\opt{B}{I $\to$ S;II $\to$ R;III $\to$ T;IV $\to$ Q}
+\opt{C}{I $\to$ R;II $\to$ S;III $\to$ Q;IV $\to$ P}
+\opt{D}{I $\to$ S;II $\to$ R;III $\to$ Q;IV $\to$ P}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS18-P1-MATH-S3-Q07, source={TOAS - Test 18 (30 Oct 2022)}, paper=1, qno=7, type=numerical, subtopic={Classical probability}, answer={6}, answer_src=solved, working={15 equally likely non-empty answer sets, success chance $1/15$ per attempt: $1-(14/15)^n\ge1/3$ gives $n\ge5.88$, so 6}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: probability of a correct subset | steps: number of non-empty subsets; probability per attempt; inequality for the number of chances}]
+In a multiple choice question there are four alternative answers of which one or more than one is correct. A candidate will get marks on the question only if he ticks all the correct answer. The candidate ticks the answers at random. The least number of chances he should be given if the probability of getting marks is greater than or equal to $\dfrac13$ is -
+\end{bankq}
+\begin{bankq}[id=TOAS18-P2-MATH-S2-Q08, source={TOAS - Test 18 (30 Oct 2022)}, paper=2, qno=8, type=multi, subtopic={Conditional probability}, answer={A,B,C,D}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: independent events | steps: probabilities of unions and intersections}]
+$A$ and $B$ are two independent events of an experiment, such that $P(A)=\dfrac13$, $P(B)=\dfrac14$, then
+\begin{qoptions}
+\opt{A}{$P(A\cup B)=\dfrac12$}
+\opt{B}{$P(A\cup\bar B)=\dfrac56$}
+\opt{C}{$P(B\cup\bar A)=\dfrac34$}
+\opt{D}{$P(A\cap B)=\dfrac1{12}$}
 \end{qoptions}
 \end{bankq}
 \end{document}

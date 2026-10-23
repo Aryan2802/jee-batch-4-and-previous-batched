@@ -60,7 +60,7 @@ If $I_n=\displaystyle\int_0^1\dfrac{dx}{(1+x^2)^n}$, $n\in N$, then which of the
 \opt{D}{$I_3=\dfrac\pi{16}-\dfrac5{48}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SI12-P1-MATH-S1-Q05, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=5, type=multi, subtopic={Leibniz rule}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C0 F1}, diff_note={concepts: differentiating an integral equation, first order linear ODE | steps: differentiate; rewrite as d/dx[(x^2+2)F] = 4x^2; integrate with F(4) = 0; F'(4); F(8); compare the options | I: spot the exact derivative}]
+\begin{bankq}[id=SI12-P1-MATH-S1-Q05, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=5, type=multi, subtopic={Leibniz rule}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C0 F1}, diff_note={concepts: differentiating an integral equation, first order linear ODE | steps: differentiate; rewrite as d/dx[(x\^{}2+2)F] = 4x\^{}2; integrate with F(4) = 0; F'(4); F(8); compare the options | I: spot the exact derivative}]
 If $F(x)=\dfrac1{x^2}\displaystyle\int_4^x\left(4t^2-2F'(t)\right)dt$, then $F'(4)$ equals --
 \begin{qoptions}
 \opt{A}{$\dfrac{32}9$}
@@ -69,10 +69,312 @@ If $F(x)=\dfrac1{x^2}\displaystyle\int_4^x\left(4t^2-2F'(t)\right)dt$, then $F'(
 \opt{D}{$\dfrac{11F(8)}{28}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SI12-P2-MATH-S2-Q01, source={Score-I - Test 12 (09 Mar 2022)}, paper=2, qno=1, type=single, subtopic={Properties}, answer={3.00}, answer_src=key, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={concepts: definite integral recurrence, trigonometric identities | steps: f(n+1) - f(n) = pi/2 from sin^2 identity; so f(n) = n pi/2; evaluate the ratio | I: difference of consecutive terms}]
+\begin{bankq}[id=SI12-P2-MATH-S2-Q01, source={Score-I - Test 12 (09 Mar 2022)}, paper=2, qno=1, type=single, subtopic={Properties}, answer={3.00}, answer_src=key, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={concepts: definite integral recurrence, trigonometric identities | steps: f(n+1) - f(n) = pi/2 from sin\^{}2 identity; so f(n) = n pi/2; evaluate the ratio | I: difference of consecutive terms}]
 If $f(n)=\displaystyle\int_0^{\pi/2}\dfrac{\sin^2n\theta}{\sin^2\theta}\,d\theta$, $(n\in N)$, then the value of $\dfrac{f(15)+f(3)}{f(15)-f(9)}$ is
 \end{bankq}
 \begin{bankq}[id=SI12-P2-MATH-S2-Q02, source={Score-I - Test 12 (09 Mar 2022)}, paper=2, qno=2, type=single, subtopic={Properties}, answer={2022.00}, answer_src=key, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={concepts: odd and even integrands, limits | steps: the odd part integrates to zero; the even part is 2*2022 int 0 to 1/n of x cos x dx; replace cos x by 1 on the small interval and take the limit | x}]
 The value of $\displaystyle\lim_{n\to\infty}n^2\int_{-1/n}^{1/n}(2021\tan x+2022\cos x)\,|x|\,dx$
+\end{bankq}
+
+\section*{TOAS papers}
+\begin{bankq}[id=TOAS11-P1-MATH-S1-Q02, source={TOAS - Test 11 (27 Jun 2022)}, paper=1, qno=2, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={concepts: definite integral, inverse trigonometric identities | steps: sin\^{}-1 e\^{}x + sec\^{}-1 e\^{}-x = pi/2; substitution u = tan\^{}-1 e\^{}x; integrate pi/2 du/(A + u) | I: constant numerator}]
+The value of the definite integral $\displaystyle\int_{-\infty}^{a}\dfrac{(\sin^{-1}e^x+\sec^{-1}e^{-x})\,dx}{(\tan^{-1}e^a+\tan^{-1}e^x)(e^x+e^{-x})}$ ($a\in R$) is :
+\begin{qoptions}
+\opt{A}{$\ln3$}
+\opt{B}{dependent on $a$}
+\opt{C}{$\dfrac\pi2\ln2$}
+\opt{D}{$\dfrac\pi2\ln(2\tan^{-1}e^a)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS11-P1-MATH-S2-Q06, source={TOAS - Test 11 (27 Jun 2022)}, paper=1, qno=6, type=multi, subtopic={Properties}, answer={A,B}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: definite integral with symmetric limits | steps: I(x) + I(-x) trick; remaining integral is elementary | I: symmetric property}]
+If $I=\displaystyle\int_{-\pi/4}^{\pi/4}\dfrac{e^{\sec x}\,|\sin x|\sec^2x}{\left(1+e^{\sin x}\right)}\,dx$, then
+\begin{qoptions}
+\opt{A}{$I$ is an irrational number}
+\opt{B}{$I=e^{\sqrt2}-e$}
+\opt{C}{$I=3.72$}
+\opt{D}{$I$ is a rational number}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS11-P1-MATH-S2-Q07, source={TOAS - Test 11 (27 Jun 2022)}, paper=1, qno=7, type=multi, subtopic={Leibniz rule}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: limit with an integral | steps: apply L'Hopital to the integral; differentiate the upper limit; evaluate}]
+If $f(x)$ is differentiable at $x=5$ and $f(5)=1$, $f'(5)=\dfrac{1}{12e}$, then value of $\displaystyle\lim_{x\to5}(x-5)\int_1^{f^2(x)}\dfrac{(x+t)e^t\,dt}{(x-5)^2}$ is
+\begin{qoptions}
+\opt{A}{0}
+\opt{B}{1}
+\opt{C}{$\dfrac54$}
+\opt{D}{$\dfrac56$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS11-P2-MATH-S3-Q02, source={TOAS - Test 11 (27 Jun 2022)}, paper=2, qno=2, type=numerical, subtopic={Properties}, answer={2.00}, answer_src=key, difficulty=4, diff_parts={K1 S1 I2 C0 F1}, diff_note={concepts: definite integral with a reciprocal symmetry | steps: simplify the inverse cosine to tan\^{}-1 x; use x -> 1/x symmetry to add the integrals | I: reciprocal substitution}]
+If the value of the integral $\displaystyle\int_{1/2}^{2}\dfrac{\cos^{-1}\left(\frac{1}{\sqrt{1+x^2}}\right)}{x}\,dx$ is equal to $\pi\ln\sqrt k$ then `$k$' is
+\end{bankq}
+\begin{bankq}[id=TOAS11-P2-MATH-S3-Q04, source={TOAS - Test 11 (27 Jun 2022)}, paper=2, qno=4, type=numerical, subtopic={Properties}, answer={3.00}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: Jensen equation, least squares | steps: f is linear; minimise the integral over the slope; evaluate f at the given point | I: Jensen equation means f is linear}]
+Let $f(x)$ be a differentiable function satisfying $f\left(\dfrac{x+y}{2}\right)=\dfrac{f(x)+f(y)}{2}$ $\forall\ x,y\in R$ and $f(0)=0$. If $\displaystyle\int_0^{2\pi}(f(x)-\sin x)^2\,dx$ is minimized, then find the value of $f(-4\pi^2)$ ?
+\end{bankq}
+\begin{bankq}[id=TOAS12-P1-MATH-S1-Q02, source={TOAS - Test 12 (10 Jul 2022)}, paper=1, qno=2, type=multi, subtopic={Properties}, answer={B,C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: beta-type integral recurrence | steps: integrate by parts for the recurrence; ratio of consecutive terms; product form; bound for large n | I: recurrence by parts}]
+Given $I_n=\displaystyle\int_0^1(1-x^2)^n\,dx$ $(n=0,1,2,\dots)$, then which of the following is/are true?
+\begin{qoptions}
+\opt{A}{$\dfrac{I_{n+1}}{I_n}$ is independent of $n$}
+\opt{B}{$\dfrac{I_{n+1}}{I_n}=\dfrac{2n+2}{2n+3}$}
+\opt{C}{$I_k=\displaystyle\prod_{r=1}^{k}\left(\frac{2r}{2r+1}\right)$, $(k\in\mathbb{N})$}
+\opt{D}{there exist some $n$ $(n\in\mathbb{N})$ for which $I_n\ge1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS12-P1-MATH-S1-Q04, source={TOAS - Test 12 (10 Jul 2022)}, paper=1, qno=4, type=multi, subtopic={Estimation}, answer={A,C,D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of a sum as an integral and comparison | steps: identify A\_n and B\_n as Riemann sums; compare terms; bounds with pi/3 and pi/9 | I: compare terms of the two sums}]
+Let $A_n=\displaystyle\sum_{k=0}^{n-1}\frac{n}{k^2+n^2+(n+2)k+n+1}$ and $B_n=\displaystyle\sum_{k=0}^{n-1}\frac{n}{n^2+kn+k^2}$ for $n=1,2,3,\dots$, then which of the following is/are true?
+\begin{qoptions}
+\opt{A}{$A_n<B_n$}
+\opt{B}{$A_n>B_n$}
+\opt{C}{$A_n<\dfrac{\pi}{3}$}
+\opt{D}{$B_n>\dfrac{\pi}{9}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS12-P1-MATH-S2-Q01, source={TOAS - Test 12 (10 Jul 2022)}, paper=1, qno=1, type=numerical, subtopic={Properties}, answer={4.00}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: integral with substitution and symmetry | steps: substitute x = sin t in A; integral of the exponential of the modulus of sin x over 0 to pi; use symmetry; compare | I: reflection symmetry about pi/2}]
+If $\displaystyle\int_0^1\frac{e^x\,dx}{\sqrt{1-x^2}}=A$ and $\displaystyle\int_0^\pi\left(e^{|\sin x|}+e^{|\cos x|}\right)dx$ is equal to $\lambda A$, then the value of $\lambda$ is -
+\end{bankq}
+\begin{bankq}[id=TOAS12-P1-MATH-S2-Q02, source={TOAS - Test 12 (10 Jul 2022)}, paper=1, qno=2, type=numerical, subtopic={Properties}, answer={0.00}, answer_src=key, difficulty=4, diff_parts={K1 S1 I2 C0 F1}, diff_note={concepts: definite integral with a symmetry | steps: check the substitution x -> 1 - x gives the negative of the integrand; integral is zero | I: odd about 1/2}]
+The value of $\displaystyle\int_0^1\sqrt[3]{2x^3-3x^2-x+1}\;dx$ is -
+\end{bankq}
+\begin{bankq}[id=TOAS12-P1-MATH-S2-Q05, source={TOAS - Test 12 (10 Jul 2022)}, paper=1, qno=5, type=numerical, subtopic={Estimation}, answer={0.00}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: estimate of an integral using monotonicity | steps: f = e\^{}(2x) g; bound g by its values at the ends; integrate; integer part | I: monotonic bounds}]
+Let $g:\left[\tfrac12,1\right]\to(0,\infty)$, $g(x)=e^{-2x}f(x)$, where $g(x)$ is non constant decreasing and differentiable function and $g\!\left(\tfrac12\right)=\dfrac1e$. Then the value of $\left[\displaystyle\int_{1/2}^{1}f(x)\,dx\right]$ is\par
+[where $[x]$ denotes the greatest integer less than or equal to real number $x$]
+\end{bankq}
+\begin{bankq}[id=TOAS12-P2-MATH-S3-Q05, source={TOAS - Test 12 (10 Jul 2022)}, paper=2, qno=5, type=numerical, subtopic={Properties}, answer={2}, answer_src=solved, working={I1 = 2 int\_0\^{}(pi/2) f(cos x) dx and int\_0\^{}(pi/2) f(cos x) dx = int\_0\^{}(pi/2) f(sin x) dx = I2, so the ratio is 2}, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: definite integrals with symmetric limits | steps: f(cos x) over 0 to pi doubles the 0 to pi/2 integral; int f(cos x) = int f(sin x) on 0 to pi/2 | I: reflection x -> pi/2 - x}]
+For $f(x)=x^4+|x|$, Let $I_1=\displaystyle\int_0^\pi f(\cos x)\,dx$, $I_2=\int_0^{\pi/2}f(\sin x)\,dx$, then the value of $\dfrac{I_1}{I_2}$ is
+\end{bankq}
+\begin{bankq}[id=TOAS13-P1-MATH-S3-Q03, source={TOAS - Test 13 (24 Jul 2022)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={0.95}, answer_src=solved, working={$f(x)+f(1-x)$ symmetry: $\sin^{-1}\sqrt x+\sin^{-1}\sqrt{1-x}=\pi/2$ and $x^2-x+1$ is unchanged by $x\to1-x$, so $I=\dfrac\pi4\int_0^1\dfrac{dx}{x^2-x+1}=\dfrac\pi4\cdot\dfrac{2}{\sqrt3}\left[\tan^{-1}\dfrac{2x-1}{\sqrt3}\right]_0^1=\dfrac{\pi^2}{6\sqrt3}\approx0.95$}, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: King property, inverse sine identity | steps: sin\^{}-1 sqrt x + sin\^{}-1 sqrt(1-x) = pi/2 with symmetric denominator; reduce to a standard arctan integral; evaluate}]
+The value of the integral $\displaystyle\int_0^1\dfrac{\sin^{-1}\sqrt x}{x^2-x+1}\,dx$ is equal to \underline{\hspace{1.5cm}}.
+\end{bankq}
+\begin{bankq}[id=TOAS13-P2-MATH-S1-Q10, source={TOAS - Test 13 (24 Jul 2022)}, paper=2, qno=10, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=2, diff_parts={K1 S2 I0 C0 F0}, diff_note={concepts: greatest integer function in a definite integral | steps: cosec x in (1, sqrt 2] gives 1; sin + cos + 1 is in [2, 2.41] so the integrand is 2; integral 2 times pi/4}]
+$\displaystyle\int_{\pi/4}^{\pi/2}\left[|\sin x|+|\cos x|+[\operatorname{cosec}x]\right]dx$ is equal to\par
+(where $[.]$ denotes greatest integer function)
+\begin{qoptions}
+\opt{A}{$\dfrac\pi4$}
+\opt{B}{$\dfrac\pi2$}
+\opt{C}{$\pi$}
+\opt{D}{$\dfrac{3\pi}{2}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS13-P2-MATH-S1-Q15, source={TOAS - Test 13 (24 Jul 2022)}, paper=2, qno=15, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: splitting a modulus in a definite integral, logarithmic integration | steps: for x >= 0 the integrand is 1 giving 3 pi/4; for x < 0 rewrite the denominator; integrate the ratio to a logarithm and a constant; add}]
+$\displaystyle\int_{-\pi/4}^{3\pi/4}\dfrac{\left(1+\sin\left(x-\frac\pi4\right)\right)\sqrt2}{\sqrt2-\cos|x|+\sin|x|}\,dx$ is equal to
+\begin{qoptions}
+\opt{A}{$\ln\left(\dfrac{\sqrt2-1}{\sqrt2}\right)+\sqrt2$}
+\opt{B}{$\ln\left(\dfrac{\sqrt2-1}{\sqrt2}\right)+\sqrt2+\dfrac{3\pi}{4}$}
+\opt{C}{$\ln\left(\dfrac{\sqrt2}{\sqrt2-1}\right)+\sqrt3+\dfrac{3\pi}{4}$}
+\opt{D}{$\ln\left(\dfrac{\sqrt2}{\sqrt2-1}\right)+\sqrt3$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS13-P2-MATH-S1-Q16, source={TOAS - Test 13 (24 Jul 2022)}, paper=2, qno=16, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: solving a trigonometric linear system, integration by parts | steps: solve for a and b in terms of theta; a\^{}2 + b\^{}2 + b\^{}(4/3) - b\^{}(2/3) = 1 so k = 1; by parts gives beta = k e\^{}(-k\^{}2); beta + k}]
+If $a\sin\theta+b\cos\theta=a\operatorname{cosec}\theta-b\sec\theta=1$, the value of $a^2+b^2+b^{4/3}-b^{2/3}=k$ and $\beta+2\displaystyle\int_0^kx^2e^{-x^2}dx=\int_0^ke^{-x^2}dx$, then the value of $\beta+k$ is equal to
+\begin{qoptions}
+\opt{A}{$\dfrac{1+e}{e}$}
+\opt{B}{$\dfrac{1-e}{e}$}
+\opt{C}{0}
+\opt{D}{$1+e$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS13-P2-MATH-S2-Q08, source={TOAS - Test 13 (24 Jul 2022)}, paper=2, qno=8, type=numerical, subtopic={Properties}, answer={3}, answer_src=solved, working={$f$ even gives $f(3-x)=f(x-3)$; with $D=x^2-3x+1$ symmetric under $x\to3-x$, $I=\int_0^3\dfrac f D$ satisfies $2I=\int_0^3\dfrac{f(x)+f(x-3)}{D}dx=\int_0^3 1\,dx=3$, so $2I=3$}, difficulty=5, diff_parts={K1 S2 I2 C0 F1}, diff_note={concepts: property of definite integrals with an even function | steps: f(3 - x) = f(x - 3); add the integral to its reflected form; denominator is symmetric so the sum is 3}]
+Let $f(x)$ is an even function such that $f(x)+f(x-3)=x(x-3)+1$ then $2\displaystyle\int_0^3\dfrac{f(x)}{x^2-3x+1}\,dx$ is
+\end{bankq}
+\begin{bankq}[id=TOAS14-P1-MATH-S1-Q05, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=5, type=multi, subtopic={Estimation}, answer={A,B}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: bounding a definite integral | steps: 1/(1 + x\^{}4) >= 1/(1 + x\^{}2) gives A > pi/2; 1/(1 + x\^{}4) > 1/(1 + x) gives A > 2 ln 2}]
+Let $A$ be the area bounded by the curve $f(x)=\dfrac{2}{1+x^4}$, x-axis, y-axis and ordinate $x=1$, then -
+\begin{qoptions}
+\opt{A}{$A>\dfrac\pi2$}
+\opt{B}{$A>2\ln2$}
+\opt{C}{$0<A<\dfrac\pi2$}
+\opt{D}{$\dfrac\pi2<A<2\ln2$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=TOAS14-P1-MATH-S2-G3-4, source={TOAS - Test 14 (07 Aug 2022)}, questions={3-4}]
+Consider a function $f(x)=\dfrac{x^3}{3}-\dfrac{x^2}{2}+x+\dfrac1{12}$.
+\end{bankpassage}
+\begin{bankq}[id=TOAS14-P1-MATH-S2-Q03, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={49.50}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: symmetry sum of a cubic | steps: f(x) + f(1 - x) = 1; pair the terms r and 100 - r; sum is 99/2}, group=TOAS14-P1-MATH-S2-G3-4]
+The value of $\displaystyle\sum_{r=1}^{99}f\left(\dfrac r{100}\right)$ is -
+\end{bankq}
+\begin{bankq}[id=TOAS14-P1-MATH-S2-Q04, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=4, type=numerical, subtopic={Properties}, answer={0.35 or 0.36}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: symmetry of a composition, property of definite integrals | steps: f(1 - x) = 1 - f(x); so f(f(1 - x)) = 1 - f(f(x)); integrand pairs sum to 1 over an interval symmetric about 1/2; integral is half the length}, group=TOAS14-P1-MATH-S2-G3-4]
+The value of integral $\displaystyle\int_{1/7}^{6/7}f(f(x))\,dx$ is -
+\end{bankq}
+\begin{bankpassage}[id=TOAS14-P1-MATH-S2-G5-6, source={TOAS - Test 14 (07 Aug 2022)}, questions={5-6}]
+Let $f:R\to R$ and $g:R\to R$ such that\par
+$f(x)=\max\{|x|,\ |x-1|,|x-2|\ .....|x-2018|\}$\par
+$g(x)=\min\{|x|,|x-1|,|x-2|\ ....|x-2018|\}$\ \ then :
+\end{bankpassage}
+\begin{bankq}[id=TOAS14-P1-MATH-S2-Q05, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=5, type=numerical, subtopic={Properties}, answer={1009.00}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C0 F1}, diff_note={concepts: maximum of modulus functions, definite integral | steps: the maximum over k is max( | x}, group=TOAS14-P1-MATH-S2-G5-6]
+The value of $\displaystyle\int_0^{2018}f(x)\,dx$ is $3(a)^2$ then value of $a$ is :
+\end{bankq}
+\begin{bankq}[id=TOAS14-P1-MATH-S2-Q06, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=6, type=numerical, subtopic={Properties}, answer={6054.00}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: minimum of modulus functions, definite integral | steps: g is the distance to the nearest integer so its average is 1/4; integral of g is 504.5; ratio with the integral of f}, group=TOAS14-P1-MATH-S2-G5-6]
+The value of $\dfrac{\displaystyle\int_0^{2018}f(x)\,dx}{\displaystyle\int_0^{2018}g(x)\,dx}$ is
+\end{bankq}
+\begin{bankq}[id=TOAS14-P1-MATH-S3-Q01, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=1, type=numerical, subtopic={Estimation}, answer={1}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: Jensen inequality for concave powers, equality case | steps: integral of f\^{}(1/n) <= (integral of f)\^{}(1/n) = 1; each factor <= 1; equality at f = 1}]
+Let $f:[0,1]\to(0,\infty)$ be a continuous function such that $\displaystyle\int_0^1f(x)\,dx=1$, then maximum value of $\left(\displaystyle\int_0^1\sqrt[3]{f(x)}\,dx\right)\left(\displaystyle\int_0^1\sqrt[5]{f(x)}\,dx\right)\left(\displaystyle\int_0^1\sqrt[7]{f(x)}\,dx\right)$, is
+\end{bankq}
+\begin{bankq}[id=TOAS14-P1-MATH-S3-Q02, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=2, type=numerical, subtopic={Properties}, answer={2}, answer_src=key, difficulty=6, diff_parts={K2 S3 I0 C1 F1}, diff_note={concepts: shifting a limit variable, standard integrals of the square root form | steps: u = x - 1; numerator is 2(u\^{}2 + 1) + 2u - 1; integrals of the three pieces; logs cancel; add root 2}]
+The value of $\sqrt2+\displaystyle\int_0^1\dfrac{2x^2-2x+1}{\sqrt{x^2-2x+2}}\,dx$ is -
+\end{bankq}
+\begin{bankq}[id=TOAS14-P1-MATH-S3-Q03, source={TOAS - Test 14 (07 Aug 2022)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={6}, answer_src=key, difficulty=6, diff_parts={K2 S2 I2 C0 F1}, diff_note={concepts: inverse function integral identity, definite integral | steps: second integrand is the inverse of the first in the shifted variable; sum of integral of f and f\^{}-1 is a rectangle minus the corner; subtract the extra constant}]
+The value of $\displaystyle\int_1^3\left(\sqrt{1+(x-1)^3}+(x^2-1)^{1/3}\right)dx$, is
+\end{bankq}
+\begin{bankq}[id=TOAS15-P1-MATH-S2-Q08, source={TOAS - Test 15 (22 Aug 2022)}, paper=1, qno=8, type=multi, subtopic={Properties}, answer={C,D}, answer_src=key, difficulty=4, diff_parts={K2 S2 I0 C0 F1}, diff_note={concepts: evaluating an integral with a parameter, extrema of a trigonometric function | steps: expand cos(x - t); integrate to (pi/2) cos x; maximum, minimum and critical point}]
+A function $f$ is defined by $f(x)=\displaystyle\int_0^\pi\cos t\,\cos(x-t)\,dt$, $0\le x\le2\pi$ then which of the following hold(s) good?
+\begin{qoptions}
+\opt{A}{$f(x)$ is continuous but not differentiable in $(0,2\pi)$}
+\opt{B}{Maximum value of $f(x)$ is $\pi$}
+\opt{C}{There exists atleast one $c\in(0,2\pi)$ such that $f'(c)=0$}
+\opt{D}{Minimum value of $f(x)$ is $-\dfrac\pi2$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS15-P1-MATH-S3-Q04, source={TOAS - Test 15 (22 Aug 2022)}, paper=1, qno=4, type=numerical, subtopic={Properties}, answer={0.74}, answer_src=solved, working={$\sin\theta\,d\theta/\cos^3\theta=\tfrac12d(\tan^2\theta)$ so $I_2=\tfrac12\int_0^1\frac{e^t}{2-t}dt=\tfrac12e^2\int_1^2\frac{e^{-u}}{u}du$; $I_1=e\int_1^2\frac{e^{-w}}{w}dw$; $I_1/I_2=2/e\approx0.74$}, difficulty=6, diff_parts={K2 S2 I2 C0 F1}, diff_note={concepts: substitution, comparison of integrals | steps: t = tan\^{}2 theta reduces I2; shift the variable in I1; both equal the same integral up to constants}]
+If $I_1=\displaystyle\int_0^1\dfrac{dx}{e^x(1+x)}$ and $I_2=\displaystyle\int_0^{\pi/4}\dfrac{e^{\tan^2\theta}}{(2-\tan^2\theta)}\,\dfrac{\sin\theta\,d\theta}{\cos^3\theta}$, then $\dfrac{I_1}{I_2}$ is \underline{\hspace{2cm}}.
+\end{bankq}
+\begin{bankq}[id=TOAS15-P2-MATH-S1-Q03, source={TOAS - Test 15 (22 Aug 2022)}, paper=2, qno=3, type=multi, subtopic={Properties}, answer={A,B}, answer_src=key, difficulty=5, diff_parts={K2 S2 I0 C1 F1}, diff_note={concepts: integral equation with a constant, monotonicity | steps: set the integral as a constant c; solve for c; sign of f and its derivative}]
+Let $f$ be a continuous function on $R$ and satisfies $f(x)=e^x+\displaystyle\int_0^1e^xf(t)\,dt$, then which of the following is(are) correct?
+\begin{qoptions}
+\opt{A}{$f(0)<0$}
+\opt{B}{$f(x)$ is decreasing function on $R$}
+\opt{C}{$f(x)$ is an increasing function on $R$}
+\opt{D}{$\displaystyle\int_0^1f(x)\,dx>0$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS15-P2-MATH-S1-Q05, source={TOAS - Test 15 (22 Aug 2022)}, paper=2, qno=5, type=multi, subtopic={Properties}, answer={A,B,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I2 C0 F1}, diff_note={concepts: even and odd parts, bounding an integral | steps: simplify the two integrands; estimate each; find the interval}]
+The value of the definite integral $\displaystyle\int_{-1}^0\left(\sqrt[3]{x^4-2x^2}-\sqrt{1-\sqrt{x^3+1}}\right)dx$ lies in the interval
+\begin{qoptions}
+\opt{A}{$\left(\dfrac{-\pi}2,\dfrac\pi2\right)$}
+\opt{B}{$(-\pi,\pi)$}
+\opt{C}{$\left(\dfrac\pi4,\dfrac\pi2\right)$}
+\opt{D}{$\left(\dfrac{-\pi}3,\dfrac\pi3\right)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS15-P2-MATH-S2-Q05, source={TOAS - Test 15 (22 Aug 2022)}, paper=2, qno=5, type=numerical, subtopic={Properties}, answer={3.00}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: solving f' = f\^{}2, integral of a rational function with fourth powers | steps: f = -1/(1 + x); integrand simplifies to (x\^{}2 + 1)/(x\^{}4 + 1); standard integral; value}]
+Let $f$ be a differentiable function satisfying $f'(x)=f^2(x)$ and $f(0)=-1$.\par
+If $\dfrac{\sqrt2}{\pi}\displaystyle\int_0^1\left(\dfrac{(1-x)}{f(x)(x^4+1)}+\dfrac{2}{x^4+1}\right)dx=\dfrac pq$ where $p,q\in N$ then find least value of $(p+q)$.
+\end{bankq}
+\begin{bankq}[id=TOAS16-P1-MATH-S1-Q01, source={TOAS - Test 16 (04 Sep 2022)}, paper=1, qno=1, type=single, subtopic={Leibniz rule}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={concepts: integral equation, area between curves | steps: multiply by x and differentiate; f = 2x - 3x\^{}2; check the point and the range; area}]
+Let $f:[1,\infty)\to(-\infty,-1]$ be a continuous and differentiable function such that $f(x)=x-2x^2+\displaystyle\int_1^x\frac{f(t)}{x}\,dt$ for all $x\in[1,\infty)$. Then, which of the following statement(s) is(are) True ?
+\begin{qoptions}
+\opt{A}{The curve $y=f(x)$ passes through the point $(3,-24)$}
+\opt{B}{Function $f(x)$ is an onto function}
+\opt{C}{Function $f(x)$ is an into function}
+\opt{D}{The area of the region $\{(x,y)\in[1,2]\times R:f(x)<y<-x\}$ is $\dfrac72$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS16-P1-MATH-S1-Q04, source={TOAS - Test 16 (04 Sep 2022)}, paper=1, qno=4, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: integral equation with a constant, extrema | steps: f = (pi + 1) sin x + K; K from the integral of t f; maximum and minimum}]
+Consider a real valued continuous function $f$ such that $f(x)=\sin x+\displaystyle\int_{-\pi/2}^{\pi/2}(\sin x+tf(t))\,dx$. If $M$ and $m$ are maximum and minimum value of the function $f$, then
+\begin{qoptions}
+\opt{A}{$\dfrac Mm=4$}
+\opt{B}{$M-m=2\pi+1$}
+\opt{C}{$M+m=4(\pi+1)$}
+\opt{D}{$Mm=2(\pi^2+1)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS16-P1-MATH-S2-Q10, source={TOAS - Test 16 (04 Sep 2022)}, paper=1, qno=10, type=multi, subtopic={Properties}, answer={C,D}, answer_src=key, difficulty=7, diff_parts={K2 S3 I2 C0 F1}, diff_note={concepts: integral equation, periodicity and value | steps: constant from the integral; form of f; period; one-one and onto; value at pi/3}]
+Given $f(x)-2\displaystyle\int_0^{\pi/4}\left(\frac{\sin^2x}{\cos^5x}\right)f(t)\cos t\,dt=\frac{\sin^2x}{\cos^5x}$.
+\begin{qoptions}
+\opt{A}{If $f:R-\left\{(2n+1)\dfrac\pi2\right\}\to R$, then $f$ is one-one ; $n\in Z$}
+\opt{B}{$f(x)$ is periodic function with fundamental period $\pi$}
+\opt{C}{If $f:R-\left\{(2n+1)\dfrac\pi2\right\}\to R$, then $f$ is onto ; $n\in Z$}
+\opt{D}{$f\left(\dfrac\pi3\right)=72$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS16-P2-MATH-S1-Q03, source={TOAS - Test 16 (04 Sep 2022)}, paper=2, qno=3, type=multi, subtopic={Properties}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integral of the modulus of sine, extrema | steps: f'(x); critical points; values at the ends and critical points}]
+Let $f(x)=\displaystyle\int_x^{x+\pi/3}|\sin\theta|\,d\theta$; where $x\in[0,\pi]$, which of the following is/are true
+\begin{qoptions}
+\opt{A}{maximum value of $f(x)$ is 1}
+\opt{B}{minimum value of $f(x)$ is $\dfrac32$}
+\opt{C}{maximum value of $f(x)$ is $\dfrac12$}
+\opt{D}{minimum value of $f(x)$ is $2-\sqrt3$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=TOAS16-P2-MATH-S3-G3-4, source={TOAS - Test 16 (04 Sep 2022)}, questions={3-4}]
+Let $f(x)=4^x$ and $g(x)=\sin(\cos(\cos\pi x)+\cos(\sin\pi x))$, then
+\end{bankpassage}
+\begin{bankq}[id=TOAS16-P2-MATH-S3-Q03, source={TOAS - Test 16 (04 Sep 2022)}, paper=2, qno=3, type=numerical, subtopic={Properties}, answer={0.00}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: limit of a bounded over an exponential | steps: bounded numerator gives zero}, group=TOAS16-P2-MATH-S3-G3-4]
+The value of $\displaystyle\lim_{x\to\infty}\frac{g(x)}{f(x)}$ is equal to
+\end{bankq}
+\begin{bankq}[id=TOAS16-P2-MATH-S3-Q04, source={TOAS - Test 16 (04 Sep 2022)}, paper=2, qno=4, type=numerical, subtopic={Properties}, answer={255.00}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: periodicity of a function inside an integral | steps: g has period 1/2; split the interval; geometric sum}, group=TOAS16-P2-MATH-S3-G3-4]
+$\displaystyle\int_0^4f(x)\cdot g(x)\,dx=\lambda\int_0^{1/2}f(x)\,g(x)\,dx$, then $\lambda$ is -
+\end{bankq}
+\begin{bankpassage}[id=TOAS17-P1-MATH-S2-G11-13, source={TOAS - Test 17 (18 Sep 2022)}, questions={11-13}]
+Answer Q.11, Q.12 and Q.13 by appropriately matching the information given in the three columns of the following table\par
+\begin{center}\footnotesize\setlength{\tabcolsep}{1pt}
+\begin{tabular}{|L{3.5cm}|L{2.8cm}|L{1.2cm}|}
+\hline
+\multicolumn{1}{|c|}{Column 1}&\multicolumn{1}{c|}{Column 2}&\multicolumn{1}{c|}{Column 3}\\\hline
+(I) $\displaystyle\int_0^{\pi/2}\sin^8x\,dx=\dfrac{A\pi}{2^B}$ (where $A$ and $2^B$ are co-prime numbers), then $\dfrac{A}{B-1}$ is&(i) If slope of tangent to the curve $y=x+\sin x\cos x$ at $x=\dfrac\pi2$ is $m$, then $(m+7)$ is&(P) odd\\\hline
+(II) $\dfrac{\displaystyle\int_0^8[x]\,dx}{\displaystyle\int_0^8\{x\}\,dx}$ is (where $[.]$ is greatest integer function and $\{.\}$ fractional part function respectively)&(ii) If $y$-intercept of perpendicular bisector of $P(2,5)$ and $Q(k,2)$ is $\dfrac32$, then $k(k>0)$ can be&(Q) even\\\hline
+(III) If $\ell=\displaystyle\lim_{t\to0}\frac1{t^4}\int_0^t\frac{x^2\ell n(1+x)}{x^7+3}\,dx$ then $\dfrac3{4\ell}$ is&(iii) Area of polygon formed by $x^2+x-2=0$ and $y^2-5y+4=0$ is&(R) prime\\\hline
+(IV) $\displaystyle\lim_{n\to\infty}\Bigl(\dfrac1{\sqrt n}+\dfrac1{\sqrt{2n}}+\dfrac1{\sqrt{3n}}+\dots+\dfrac1{2n}\Bigr)$ is&(iv) Rate of change of area of an equilateral triangle w.r.t. its side when side is $\dfrac{10}{\sqrt3}$ is&(S) composite\\\hline
+\end{tabular}\end{center}
+\end{bankpassage}
+\begin{bankq}[id=TOAS17-P1-MATH-S2-Q11, source={TOAS - Test 17 (18 Sep 2022)}, paper=1, qno=11, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: evaluating integrals, slopes and areas | steps: value of the Wallis integral; slope at pi/2; parity and primality of the results}, group=TOAS17-P1-MATH-S2-G11-13]
+Which of the following options is the only \textbf{CORRECT} combination ?
+\begin{qoptions}
+\opt{A}{(I) (iii) (Q,R)}
+\opt{B}{(I) (i) (P,R)}
+\opt{C}{(I) (iv) (P,R)}
+\opt{D}{(I) (ii) (Q,R)}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS17-P1-MATH-S2-Q12, source={TOAS - Test 17 (18 Sep 2022)}, paper=1, qno=12, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: integrals of the greatest integer function, perpendicular bisector | steps: integral of the floor and fractional parts; value of k; area of the polygon; properties}, group=TOAS17-P1-MATH-S2-G11-13]
+Which of the following options is the only \textbf{CORRECT} combination ?
+\begin{qoptions}
+\opt{A}{(II) (i) (P,R)}
+\opt{B}{(II) (ii) (P,R)}
+\opt{C}{(II) (iii) (Q,S)}
+\opt{D}{(II) (iv) (Q,S)}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS17-P1-MATH-S2-Q13, source={TOAS - Test 17 (18 Sep 2022)}, paper=1, qno=13, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: limit of an integral, Riemann sum | steps: series reduced to an integral; integral of the log expression by l'Hopital; rate of change of area}, group=TOAS17-P1-MATH-S2-G11-13]
+Which of the following options is the only \textbf{CORRECT} combination ?
+\begin{qoptions}
+\opt{A}{(III) (ii) (P,S)}
+\opt{B}{(III) (i) (Q,S}
+\opt{C}{(IV) (ii) (Q,S)}
+\opt{D}{(IV) (iii) (P,S)}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS17-P2-MATH-S1-Q06, source={TOAS - Test 17 (18 Sep 2022)}, paper=2, qno=6, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I2 C0 F0}, diff_note={concepts: integral of a product of cosines | steps: product identity to a sum; integrate over the period; zero}]
+The value of definite integral
+\par\noindent\hfill$\displaystyle\begin{aligned}\int_{-\pi}^{\pi}\bigl(&\cos2x\cdot\cos2^2x\cdot\cos2^3x\\&\cdot\cos2^4x\cdot\cos2^5x\bigr)dx\end{aligned}$\hfill\null\par
+is
+\begin{qoptions}
+\opt{A}{1}
+\opt{B}{$-1$}
+\opt{C}{2}
+\opt{D}{0}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS17-P2-MATH-S2-Q07, source={TOAS - Test 17 (18 Sep 2022)}, paper=2, qno=7, type=numerical, subtopic={Properties}, answer={12}, answer_src=solved, working={Put $t=x-1$: $u=t^3+t$, integrand $=(3t^2+1)\cos u+3t\cos u$; the odd part vanishes and $\int(3t^2+1)\cos(t^3+t)dt=[\sin u]_{-1}^{1}=2\sin2$; $p=2,q=2$, $p^2+q^3=12$}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: substitution with an odd part, definite integral | steps: shift the variable; split the integrand; odd part vanishes; evaluate}]
+$I=\displaystyle\int_0^2(3x^2-3x+1)\cos\left(x^3-3x^2+4x-2\right)dx=p(\sin q)$ where $p,q\in N$, then find $(p^2+q^3)$.
+\end{bankq}
+\begin{bankq}[id=TOAS18-P1-MATH-S2-Q10, source={TOAS - Test 18 (30 Oct 2022)}, paper=1, qno=10, type=single, subtopic={Properties}, answer={B}, answer_src=solved, working={I $=-\tfrac\pi2\ln2$ (R); II $=-\tfrac\pi2$ (Q) by parts; III $=2$ (P); IV: $f=\tfrac{x^5}{x^5+x+1}+1$, $f(-1)=2$ (P)}, difficulty=6, diff_parts={K2 S2 I2 C1 F0}, diff_note={concepts: definite integrals by symmetry, parts | steps: log sine integral; parts with exponential; periodic functional equation; antiderivative as a derivative}]
+\begin{center}\footnotesize\setlength{\tabcolsep}{1pt}
+\begin{tabular}{|L{0.6cm}L{4.6cm}|L{0.6cm}L{1.0cm}|}\hline
+&List-I&&List-II\\\hline
+(I)&$\displaystyle\int_0^{\pi/4}\ell n\left(\sin^22x\right)dx$&(P)&2\\\hline
+(II)&$\displaystyle\int_0^{\pi/2}(x\sin2x-1)\,e^{\cos^2x}\,dx$&(Q)&$-\dfrac\pi2$\\\hline
+(III)&If $f\!\left(x+\dfrac\pi{24}\right)+f\!\left(x+\dfrac{5\pi}{24}\right)=f\!\left(x+\dfrac{3\pi}{24}\right)$ and $\displaystyle\int_{\pi/4}^{7\pi/4}f(x)\,dx=3$ then $\displaystyle\int_0^\pi f(x)\,dx$ is equal to&(R)&$-\dfrac\pi2\ell n\,2$\\\hline
+(IV)&If $f(x)=\displaystyle\int\dfrac{5x^4+4x^5}{(x^5+x+1)^2}dx$ \& $f(0)=1$ then $f(-1)=$&(S)&$\dfrac\pi2$\\\hline
+&&(T)&1\\\hline
+\end{tabular}\end{center}
+\begin{qoptions}
+\opt{A}{I $\to$ Q;II $\to$ Q;III $\to$ T;IV $\to$ T}
+\opt{B}{I $\to$ R;II $\to$ Q;III $\to$ P;IV $\to$ P}
+\opt{C}{I $\to$ R;II $\to$ S;III $\to$ T;IV $\to$ P}
+\opt{D}{I $\to$ Q;II $\to$ S;III $\to$ P;IV $\to$ T}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS18-P1-MATH-S3-Q01, source={TOAS - Test 18 (30 Oct 2022)}, paper=1, qno=1, type=numerical, subtopic={Properties}, answer={9}, answer_src=solved, working={$\int_0^\infty x^{2k}e^{-x^2}dx=\tfrac12\Gamma(k+\tfrac12)$, so the ratio is $\tfrac47\times\tfrac92\cdot\tfrac72=9$}, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: gamma function integrals | steps: reduce to gamma function ratio; evaluate}]
+The value of $\dfrac{4\displaystyle\int_0^\infty x^{10}e^{-x^2}dx}{7\displaystyle\int_0^\infty x^{6}e^{-x^2}dx}$ is
+\end{bankq}
+\begin{bankq}[id=TOAS18-P2-MATH-S2-Q05, source={TOAS - Test 18 (30 Oct 2022)}, paper=2, qno=5, type=multi, subtopic={Estimation}, answer={A,B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: estimating an integral by parts | steps: integrate by parts; bounds for each term; compare with the options}]
+Let $I(n)=\displaystyle\int_1^n\dfrac{\sin x}{x^2}\,dx$ where $n$ is a natural number, then which of the following options are correct -
+\begin{qoptions}
+\opt{A}{$I(2)<\ell n2$}
+\opt{B}{$I(2)>\ell n2-\dfrac14$}
+\opt{C}{$I(2)>\dfrac1{2\sqrt2}$}
+\opt{D}{$I(3)<\ell n3$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=TOAS18-P2-MATH-S3-Q08, source={TOAS - Test 18 (30 Oct 2022)}, paper=2, qno=8, type=numerical, subtopic={Properties}, answer={1}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral with a trigonometric product | steps: product to sum; integrate; evaluate the coefficient}]
+The absolute value of $2019\displaystyle\int_0^{\pi/2}(\cos x)^{2018}\cdot\sin(2020x)\,dx$
 \end{bankq}
 \end{document}
