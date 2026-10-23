@@ -17,6 +17,7 @@ are relative to "D:\\Aryan DOWNLOADS\\Final Output" (copy each to the same place
   Question Bank/BANK_LEARNINGS-A.md             the PC half-A log + an "IMPORTED FROM CLOUD REPO" section holding
                                                the repo log (dated entries and ANCHOR lines); re-running replaces
                                                that section instead of duplicating it
+  Question Bank/tools/bank_tools.py, subtopics.json, BANK_LEARNINGS.md   the repo's current tool and standing notes
   Question Bank/BUILD_STATUS.txt                "tests in build: 0" so the PC half-A task rebuilds the chapters
   commit-list.txt                              every file above, one per line
 It also prints a summary and warns about other claude/* branches holding commits that are not on the shared branch
@@ -76,7 +77,8 @@ def main():
     tip = git("rev-parse", "--short", ref).stdout.decode().strip()
     snap = os.path.join(a.out, "_snapshot")
     shutil.rmtree(snap, ignore_errors=True); os.makedirs(snap)
-    paths = [p for p in ("bank-manifest.json", "BANK_LEARNINGS-LOG.md", "BUILD_STATUS.txt", "data", "WIP")
+    paths = [p for p in ("bank-manifest.json", "BANK_LEARNINGS-LOG.md", "BUILD_STATUS.txt", "data", "WIP",
+                       "tools", "BANK_LEARNINGS.md")
              if git("cat-file", "-e", f"{ref}:{p}", check=False).returncode == 0]
     tarfile.open(fileobj=io.BytesIO(git("archive", "--format=tar", ref, *paths).stdout)).extractall(snap, filter="data")
 
@@ -131,6 +133,12 @@ def main():
                                          "Dated entries and ANCHOR lines written by the cloud sessions (they count as "
                                          "anchors for both halves).\n\n## " + body.rstrip("\n") + "\n")
     files.append(p)
+    # the tool and the standing notes evolve in the repo (e.g. the 23 Oct difficulty audit): the PC gets the same
+    os.makedirs(os.path.join(qb, "tools"), exist_ok=True)
+    for f in ("bank_tools.py", "subtopics.json"):
+        shutil.copy(os.path.join(snap, "tools", f), os.path.join(qb, "tools", f)); files.append(os.path.join(qb, "tools", f))
+    shutil.copy(os.path.join(snap, "BANK_LEARNINGS.md"), os.path.join(qb, "BANK_LEARNINGS.md"))
+    files.append(os.path.join(qb, "BANK_LEARNINGS.md"))
     p = os.path.join(qb, "BUILD_STATUS.txt")
     open(p, "w").write("last build: none on the PC since the cloud import (the half-A task rebuilds)\n"
                        "tests in build: 0\nquestions: 0\nduplicates merged: 0\ndone-since-build: 0\n")
