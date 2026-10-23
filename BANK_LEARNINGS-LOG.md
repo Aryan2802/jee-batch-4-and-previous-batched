@@ -119,3 +119,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Lesson: copy anchor factors from the applied work/questions.json (diff_kSIC, difficulty), not from the diff file, because mk.py recomputes S from the step count.
 ## 23 Oct 2026 correction (TOAS - Test 13 anchor)
 - The anchor line "ANCHOR [v2] Chemistry D6: TOAS - Test 13 p2_chem_s2_q02: 2 3 1 0 F1" is VOID: stored factors are 2 2 1 0 (four steps) = D5. Use instead: ANCHOR [v2] Chemistry D5: TOAS - Test 13 p2_chem_s2_q02: 2 2 1 0 F1: concepts: depression of freezing point, relative lowering of vapour pressure | steps: molality; moles of sugar; remaining water from 700 torr; ice moles and grams
+## 23 Oct 2026 TOAS - Test 15 (22 Aug 2022)
+- Key page for both papers is incomplete: P2 physics section I lists only Q1-Q2 (Q3-Q6 solved: A,B,D / A,B,D / A,B / B,C); P2 chemistry section I MCQ are missing entirely (all six solved) and section II Q3 is missing (solved 7). Numeric blocks of P2 are printed in the order section III then II (e.g. phys 1,5,1,3,2,1 then 0.37,...), mapped by solving. P1 maths numeric Q3-Q6 are letters (junk): solved 5, 0.74 (2/e), 0.74 (2/e), 0.
+- P1 chemistry Q5 ("which set is correct", key B) reads as an INCORRECT-type question (Hall-Heroult is electrolysis); key kept as printed.
+- P2 chemistry S1 Q1 (HVZ) taken as multi-correct (B,C) since both acids have an alpha hydrogen.
