@@ -96,3 +96,14 @@ ANCHOR Mathematics D9: TOAS - Test 06 p1_math_s2_q07: 2 4 2 1 F1: two pairs of l
 ## 2026-10-23 TOAS - Test 12 (10 Jul 2022)
 - Two papers, key one page. Paper 1 phys numeric Q8 missing from the key (solved: 0.48). Paper 2 math numeric Q2-Q6 print junk letters (B A D C D plus repeated MCQ rows): solved 5, 6, 0.41, 2, 2.11; numeric Q1 1.00 is printed.
 - p1_phy_s2_q05 (rotating charged disc, 5 m on the axis, R = sqrt39 m): printed key 17.66 pT, but the standard on-axis formula gives 10.6 pT (stored as solved).
+## 23 Oct 2026 TOAS - Test 13 (24 Jul 2022)
+- Key is one page for both papers. P1 maths numeric row prints letters for Q3-Q6 (junk) - those four solved (0.95, 8, 1, 0). P2 maths numeric block keeps only Q1-Q3 (1600, 1, 10.00) and then letters; Q3 10.00 is wrong (A+B = 1/3), so Q3-Q10 were solved. P2 chemistry numeric row is labelled Q1-Q7 and Q10 only: Q8 and Q9 solved. Key values 3, 13 and 6 are nearest-integer roundings of 3.1, 12.5 and 6.3.
+- Spot checks (phys P1 Q5 and numeric Q5, chem P2 Q1, maths P1 numeric Q2) all agreed with the key.
+- New subtopic label: P17 "Superposition of SHMs" (used for p2_phy_s1_q13).
+- Placements: Rosenmund + Cannizzaro, Grignard + nitrile, Dieckmann sequences go to the chapter of the main reaction type (C20, C16, C21).
+ANCHOR [v2] Physics D1: TOAS - Test 13 p2_phy_s1_q06: 1 1 0 0 F0: concepts: SHM energy | steps: displacement at T/6 is A/2; KE:PE = 3:1
+ANCHOR [v2] Chemistry D2: TOAS - Test 13 p2_chem_s1_q01: 1 2 0 0 F0: concepts: Hess law | steps: reverse and halve the first equation; double the second; add
+ANCHOR [v2] Mathematics D2: TOAS - Test 13 p2_math_s1_q03: 1 1 1 0 F0: concepts: second derivative of the inverse function | steps: d2x/dy2 = -y''/y'^3; evaluate at x = 1
+ANCHOR [v2] Physics D5: TOAS - Test 13 p1_phy_s2_q08: 2 2 1 0 F1: concepts: work-energy with friction, motion under a magnetic force | steps: path length from the energy; time; spiral not circle; stopping displacement depends on B
+ANCHOR [v2] Chemistry D6: TOAS - Test 13 p2_chem_s2_q02: 2 3 1 0 F1: concepts: depression of freezing point, relative lowering of vapour pressure | steps: molality; moles of sugar; remaining water from 700 torr; ice moles and grams
+ANCHOR [v2] Mathematics D6: TOAS - Test 13 p1_math_s3_q01: 2 2 1 1 F1: concepts: pencil of conics through four points, parabola condition | steps: family from two line pairs; h^2 = ab; perfect-square quadratic part; axis slope
