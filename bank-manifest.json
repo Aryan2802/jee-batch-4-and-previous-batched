@@ -470,11 +470,9 @@
    "src_rel": [
     "Batch 4/Source/Internal Test/Advanced/Challenging/Internal Test - Test 01 (05 Aug 2020).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 8pp, 66 figs",
-   "started_at": "2026-10-23T20:38:49Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 2/Medium 19/Hard 31/Very hard 2; chapters C16 C17 C18 C19 C20 C23 M21 M22 M23 P06 P07 P08 P10"
   },
   {
    "name": "Internal Test - Test 02 (07 Jul 2021)",
