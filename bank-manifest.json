@@ -85,11 +85,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 07 (01 May 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "12 pp, 56 figs, QA ok",
-   "started_at": "2026-10-23T17:31:19Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "114 questions, all from key; difficulty Easy 6/Medium 39/Hard 55/Very hard 14"
   },
   {
    "name": "TOAS - Test 08 (15 May 2022)",
