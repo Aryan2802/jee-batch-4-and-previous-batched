@@ -448,11 +448,9 @@
    "src_rel": [
     "Batch 4/Source/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 02 (10 Oct 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 34 figs",
-   "started_at": "2026-10-23T20:30:44Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 105 from key, 3 solved; bands Easy 7/Medium 32/Hard 49/Very hard 20; chapters C01 C26 C29 C30 C36 M01 M03 M07 M08 M10 M11 M12 M13 M15 P01 P02 P03 P04 P05"
   },
   {
    "name": "Star Review (Other) - Test 03 (04 Dec 2023)",
