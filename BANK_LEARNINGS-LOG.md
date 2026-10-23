@@ -251,3 +251,4 @@ SRGBT-1: single 54-q section, key page is last PDF page (14) image table, clean.
 SRGBT-2: key is the last PDF page (16), clean image table; text extraction empty.
 SRGBT-4/5.. series: key = last PDF page image table; use /tmp/qb nxt.sh style workflow (setup, last-page key).
 Score-II (Leader/Enthusiast) PDFs: answers sit in a solutions section; extract with pdftotext -layout per page and regex '(\d+)\. Ans\.? (..)'; column order is jumbled so key by number within SECTION blocks. SRGBT PDFs: key table is the last page image. Use mkt.sh-style assertion chains; never run finish.sh after a failed build step.
+Score-II Test 18 (13 Feb 2024): 1-page key-only PDF, key partial/misaligned (several sections missing items, a stray letter in math numeric). Unsure items banked Bonus; revisit if time.
