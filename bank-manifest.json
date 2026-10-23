@@ -316,8 +316,11 @@
    "src_rel": [
     "Batch 4/Source/TMAS/Mains/Moderate/TMAS - Test 01 (09 Jul 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 16pp, 97 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 16pp, 97 figs",
+   "started_at": "2026-10-23T19:44:17Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TMAS - Test 02 (06 Aug 2023)",
