@@ -158,3 +158,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - 147 questions, 15 passage groups; Paper 2 is 20 single-correct plus 10 numerics per subject. The key lists only some numerics (and prints letters in a numeric row): solved the missing ones (phys 6, chem 5, maths 4).
 - p1_chem_s4_q09 key prints 0 but the list has at least 8 non-existent species; banked solved 8. Repeats of TOPS 03 question (determinant T n) exist: duplicates merge in the build.
 - I must be 0-2 in the diff file; mk.py silently writes nothing on a K mismatch, and apply reports 'difficulty missing' for I=3 rows.
+## TOPS - Test 05 (14 Jan 2023)
+- Maths Paper 1 Section II key printed letters in numeric slots (Q3-Q6); those four were solved (15, 0.25, 1.5, 1.58). Matching-type questions are banked as single option letters from the key.
+- p1_phy_s3_q08 key 4.22 mm does not fit the stated alpha (11e-6 gives 3.96 mm); banked solved.
+- Difficulty tip: I is 0-2, not 3; keep I=2 for genuinely hard insight steps only (this paper's I values were rated generously).
