@@ -1229,11 +1229,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 29 (26 Mar 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "",
-   "started_at": "2026-10-23T23:45:29Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "51 questions; 51 from key, 0 solved; bands Easy 0/Medium 25/Hard 0/Very hard 26; chapters C02 C04 C07 C09 C11 C12 C15 C16 C17 C19 C29 C31 C35 C36 C37 M01 M03 M04 M05 M06 M07 M09 M13 M14 M15 M20 M21 M24 M25 M27 P03 P04 P07 P08 P09 P10 P11 P12 P15 P17 P19 P20 P21 P23"
   },
   {
    "name": "Score-II - Test 32 (29 Mar 2024)",
