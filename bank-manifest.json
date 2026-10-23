@@ -525,8 +525,11 @@
    "src_rel": [
     "Batch 4/Source/Nurture (General)/Mains/Foundational/Nurture (General) - Test 01 (12 Jun 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 13pp, 46 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 13pp, 46 figs",
+   "started_at": "2026-10-23T20:58:25Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Nurture (General) - Test 03 (27 Sep 2023)",
