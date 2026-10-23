@@ -180,3 +180,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## TMAS - Test 04 (19 Nov 2023)
 - Two-paper layout (Paper 2: 6 MCQ + 6 + 6 numerics per subject) with key rows listing only some numerics; missing numerics solved (phys 4, chem 2, p2 phys 5).
 - Process fix: `apply` prints "ERROR ... subtopic not in list" for labels outside tools/subtopics.json yet still writes them; always read ALL output lines of apply before packing. 39 earlier questions with off-list labels were remapped (e.g. C20 Aldehydes to Nucleophilic addition, M24 Tangents to Tangents and normals, M23 Rolle's theorem moved to M24 Mean value theorems).
+## TNAS - Test 01 (05 Feb 2023)
+- 144 questions (JEE Main style Paper 1: 20 single-correct + 10 numeric per subject; Paper 2: advanced style with matching tables). Several numeric keys missing (chem Paper 1: 7); solved with working. A few stray letter entries after the numeric rows of the maths key (Q14, Q15, Q17, Q20) do not match the MCQ answers and were ignored after verifying Q14 by direct count.
+- p1_chem_s2_q05 key 72 means the maximum pressure (vdW with a=2, V free); p2_math_s3_q05 key row had two stray letter groups; solved.
