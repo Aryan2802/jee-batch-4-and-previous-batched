@@ -129,8 +129,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 11 (27 Jun 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 14pp, 45 figs, lint PASS, QA ok"
+   "status": "in_progress",
+   "conv_note": "2 papers, 14pp, 45 figs, lint PASS, QA ok",
+   "started_at": "2026-10-23T18:25:33Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TOAS - Test 12 (10 Jul 2022)",
