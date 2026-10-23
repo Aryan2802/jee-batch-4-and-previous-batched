@@ -624,8 +624,11 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Foundational/Score Advanced - Test 04 (04 Jul 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 16pp, 101 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 16pp, 101 figs",
+   "started_at": "2026-10-23T21:45:27Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score Advanced - Test 05 (15 Jul 2021)",
