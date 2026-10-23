@@ -107,3 +107,10 @@ ANCHOR [v2] Mathematics D2: TOAS - Test 13 p2_math_s1_q03: 1 1 1 0 F0: concepts:
 ANCHOR [v2] Physics D5: TOAS - Test 13 p1_phy_s2_q08: 2 2 1 0 F1: concepts: work-energy with friction, motion under a magnetic force | steps: path length from the energy; time; spiral not circle; stopping displacement depends on B
 ANCHOR [v2] Chemistry D6: TOAS - Test 13 p2_chem_s2_q02: 2 3 1 0 F1: concepts: depression of freezing point, relative lowering of vapour pressure | steps: molality; moles of sugar; remaining water from 700 torr; ice moles and grams
 ANCHOR [v2] Mathematics D6: TOAS - Test 13 p1_math_s3_q01: 2 2 1 1 F1: concepts: pencil of conics through four points, parabola condition | steps: family from two line pairs; h^2 = ab; perfect-square quadratic part; axis slope
+## 23 Oct 2026 TOAS - Test 14 (07 Aug 2022)
+- Single paper (60 questions: 20 per subject), key one page. Math key blocks are printed out of order (the section-III values 1,2,6,5,3,1 come before the section-II values 0.50, 4.00, 49.50, 0.35 or 0.36, 1009.00, 6054.00) and a stray "Q8 A,B,D" row sits between them; all twelve numerics and the eight MCQ were re-solved and matched the key by content, the stray row ignored (math Q8 is A,B).
+- Chemistry Q8 (MnO4- + Mn2+): key prints A,B,C but option A calls it disproportionation, which it is not (comproportionation); banked as solved B,C with the reason.
+- Chem section III Q3 (HBr entropy, digit sum): delta U = delta H - delta n RT = 104490 J gives 348, digit sum 15 -> 6, matching the key.
+ANCHOR [v2] Physics D3: TOAS - Test 14 p1_phy_s3_q06: 1 1 1 0 F1: concepts: motional emf in the field of a straight current | steps: v cross B along z is perpendicular to the wire so no emf
+ANCHOR [v2] Chemistry D4: TOAS - Test 14 p1_chem_s2_q02: 1 2 0 1 F1: concepts: buffer pH from the Henderson equation | steps: moles of acid and acetate after reaction; pKa from Ka; log ratio
+ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts: symmetry of a composition, property of definite integrals | steps: f(1-x) = 1 - f(x); f(f(1-x)) = 1 - f(f(x)); pairs sum to 1 over a symmetric interval; half the length
