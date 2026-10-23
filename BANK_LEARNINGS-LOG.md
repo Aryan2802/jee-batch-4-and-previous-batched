@@ -40,3 +40,12 @@ ANCHOR Chemistry D1: TOAS - Test 02 p1_chem_s1_q02: 1 1 0 0 F0: pure silicon is 
 ANCHOR Chemistry D6: TOAS - Test 02 p1_chem_s1_q06: 2 4 1 0 F0: count stereoisomers (incl. linkage isomers) of four octahedral complexes
 ANCHOR Mathematics D5: TOAS - Test 02 p1_math_s1_q02: 2 3 1 0 F0: range [-4,3) of (3x^2+ax+b)/(x^2+1) via discriminant, a=0 forced because 3 is excluded
 ANCHOR Mathematics D7: TOAS - Test 02 p1_math_s1_q01: 2 4 1 1 F0: rectangular hyperbola, tangents of slope 2, asymptote intersections, quadrilateral area
+
+## 2026-10-23 TOAS - Test 03 (27 Feb 2022)
+- 108 questions (P1 and P2, 18 per subject each). 100 from key, 8 solved. Difficulty: Easy 16, Medium 56, Hard 34, Very hard 2.
+- Key (one page) is complete except Physics P1 s3 Q4, Q5 (solved: 2 and g/3=3.33) and Chemistry P2 s2 (only Q3 keyed; Q1, Q2, Q4, Q5, Q6 solved). In Paper 2 the key prints the SECTION-III integer block BEFORE the SECTION-II decimal block (Physics: 6 9 3 7 3 9 then 2.40 ...; Mathematics: 0.50 ... then 8 1 2 ...): mapped by content, not position.
+- Key disagreement: p1_math_s3_q06 prints 2.00 but with real a, b, c the constraint b <= -3/2 gives 2.25 (key ignores the realness condition); stored 2.25 as solved with working. p1_math_s3_q02 prints no value for k (domain question), key 4.00 kept unverified.
+- Spot checks done on all P1 and P2 mathematics, P1 physics and chemistry numericals and many MCQs; only the item above disagreed.
+ANCHOR Physics D3: TOAS - Test 03 p1_phy_s1_q02: 1 2 1 0 F0: SHM PE proportional to displacement squared so sqrt(E)=sqrt(E1)+sqrt(E2)
+ANCHOR Chemistry D4: TOAS - Test 03 p1_chem_s2_q12: 1 3 0 0 F1: Fajans' rules applied to four solubility / thermal stability statements
+ANCHOR Mathematics D3: TOAS - Test 03 p1_math_s1_q02: 1 2 1 0 F0: |tan^-1 x|+|cot^-1 x|=pi/2 holds only for x>=0
