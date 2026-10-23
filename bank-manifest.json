@@ -338,11 +338,9 @@
    "src_rel": [
     "Batch 4/Source/TMAS/Advanced/Moderate/TMAS - Test 03 (10 Sep 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 5pp, 24 figs",
-   "started_at": "2026-10-23T19:51:56Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "35 questions; 0 from key, 35 solved; bands Easy 3/Medium 15/Hard 15/Very hard 2; chapters P12 P13 P16 P17 P18 P23"
   },
   {
    "name": "TMAS - Test 04 (19 Nov 2023)",
