@@ -459,11 +459,9 @@
    "src_rel": [
     "Batch 4/Source/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 03 (04 Dec 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 11pp, 40 figs",
-   "started_at": "2026-10-23T20:36:33Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "114 questions; 112 from key, 2 solved; bands Easy 8/Medium 38/Hard 46/Very hard 22; chapters C04 C05 C07 C09 C10 C11 C12 C15 C19 C22 C23 C24 C25 C27 C28 C30 C31 C33 C35 C36 C37 M02 M05 M06 M07 M09 M16 M20 M22 M23 M24 M25 M27 M29 M31 M32 P06 P08 P09 P11 P12 P17 P18 P19 P20 P21 P22"
   },
   {
    "name": "Internal Test - Test 01 (05 Aug 2020)",
