@@ -127,8 +127,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 09 (30 May 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "16pp, 2 papers (P1 3x19 Qs, P2 3x30 Qs = 147 Qs), 82 figs, lint PASS, visual QA all 16 pages"
+   "status": "in_progress",
+   "conv_note": "16pp, 2 papers (P1 3x19 Qs, P2 3x30 Qs = 147 Qs), 82 figs, lint PASS, visual QA all 16 pages",
+   "started_at": "2026-10-23T16:44:09Z",
+   "claimed_by": "s3",
+   "progress_note": "starting"
   },
   {
    "name": "TOAS - Test 10 (12 Jun 2022)",
