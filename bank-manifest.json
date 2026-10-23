@@ -1174,11 +1174,9 @@
    "src_rel": [
     "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 13 (17 Oct 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 17 figs",
-   "started_at": "2026-10-23T23:41:32Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 13/Hard 0/Very hard 41; chapters C33 C35 C36 M04 P13 P14 P15"
   },
   {
    "name": "SRGBT - Test 14 (24 Oct 2021)",
