@@ -1240,8 +1240,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 32 (29 Mar 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "in_progress",
+   "conv_note": "",
+   "started_at": "2026-10-23T23:45:59Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 36 (07 Feb 2025)",
