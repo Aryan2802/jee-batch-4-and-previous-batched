@@ -327,11 +327,9 @@
    "src_rel": [
     "Batch 4/Source/TMAS/Advanced/Very Challenging/TMAS - Test 02 (06 Aug 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 52 figs",
-   "started_at": "2026-10-23T19:46:47Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "114 questions; 57 from key, 57 solved; bands Easy 9/Medium 39/Hard 59/Very hard 7; chapters C03 C04 C05 C09 C11 C12 C14 C15 C17 C19 C20 C21 C30 C31 C32 C36 M01 M03 M14 M15 M20 M21 M22 M23 M24 M25 M26 P03 P04 P05 P09 P11"
   },
   {
    "name": "TMAS - Test 03 (10 Sep 2023)",
