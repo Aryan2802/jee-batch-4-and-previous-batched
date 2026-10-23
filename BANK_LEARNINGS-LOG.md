@@ -249,3 +249,4 @@ T40 (Score Advanced 40): key page is a 1-page jumbled table (rows fragmentary, o
 T41 (Score Advanced 41, 'Mock Test - Undated'): clean 1-page key; P2 math key row has a stray duplicate 'Q4 B' (ignore); ranges banked as midpoint (7.04, 0.195).
 SRGBT-1: single 54-q section, key page is last PDF page (14) image table, clean. text extraction of PDF empty (image-only); use page image.
 SRGBT-2: key is the last PDF page (16), clean image table; text extraction empty.
+SRGBT-4/5.. series: key = last PDF page image table; use /tmp/qb nxt.sh style workflow (setup, last-page key).
