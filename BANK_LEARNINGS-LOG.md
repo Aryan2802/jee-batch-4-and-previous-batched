@@ -127,3 +127,6 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Passage test with sections I(i), I(ii), II(i), II(ii) in each paper. Key is one page; the numeric blocks skip entries (P1 phys Q5 of the third block, P1 chem S3 Q1-Q3 and Q5, P2 phys S3 Q1/Q3/Q5, P2 chem S3 Q3): all solved. Stray letter entries inside the maths numeric rows (P1 "Q3 D Q4 A", P2 "Q2 A,C,D Q4 B,C Q5 A,D Q6 B,C,D") are junk and were ignored; the numeric values were re-solved and match.
 - P1 physics Q4 (solenoid tensile limit): derived I_max = sqrt(2F0/(mu0 n R)) (option D) from p = mu0 n^2 I^2 / 2; the printed key A lacks the factor 2; banked as solved D.
 - P1 chem S3 Q2 (nitroprusside linkage isomers) banked as 1 from two linkage isomers of NOS; no key printed.
+## 23 Oct 2026 TOAS - Test 17 (18 Sep 2022)
+- Key page fully usable for MCQ (matching-type questions are keyed as letters). Maths P2 section II numerics Q5-Q8 and Q10 print letters (junk): solved 15, 9 (P1 not affected), 12, 120, 1; P2 chemistry section II key skips Q2, Q7, Q9, Q10 (CO2 count 4 and the three abc matches 321, 213, 321 solved). The stray row "Q11 D Q12 C ..." after the maths numerics is junk.
+- P1 maths numerics: key prints a sixth entry "Q6 A,C,D" for a five-question section: ignored.
