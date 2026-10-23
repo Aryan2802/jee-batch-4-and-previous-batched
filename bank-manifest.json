@@ -382,8 +382,11 @@
    "src_rel": [
     "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 03 (28 May 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 17pp, 79 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 17pp, 79 figs",
+   "started_at": "2026-10-23T20:09:14Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TNAS - Test 04 (18 Jun 2023)",
