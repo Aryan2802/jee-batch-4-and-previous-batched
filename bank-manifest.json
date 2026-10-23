@@ -217,8 +217,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 19 (05 Feb 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 7pp, 27 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 7pp, 27 figs",
+   "started_at": "2026-10-23T19:11:48Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "TAAS - Test 01 (18 Jun 2023)",
