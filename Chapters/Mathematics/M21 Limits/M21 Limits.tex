@@ -134,6 +134,59 @@ $\displaystyle\lim_{x\to0}\frac{\ln\left(\sec(e^x)\sec(e^2x)\ldots\sec(e^{50}x)\
 \opt{D}{$\frac{e^{50}-1}{2e(e^2-1)}$}
 \end{qoptions}
 \end{bankq}
+\begin{bankq}[id=SA18-P2-MATH-S2-Q07, source={Score Advanced - Test 18 (27 May 2023)}, paper=2, qno=7, type=multi, subtopic={Standard limits}, answer={A,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: limit of an integral expression, standard limits, substitute and expand to leading order | steps: substitute and expand to leading order}]
+$\displaystyle\lim_{x\to0}\left(\frac{1}{x^{2022}}\int_{x^{2023}}^{x^{2022}}\left(\frac{(1+t)^{\frac1{2021}}-1}{t}\right)dt\right)=\frac1P$\par
+Then
+\begin{qoptions}
+\opt{A}{Number of positive divisors of $P$ is 4}
+\opt{B}{$\ell n\,x=Px$ has exactly two real solutions}
+\opt{C}{$2018^x+2019^x+2020^x=P^x$ has exactly one real root}
+\opt{D}{Unit digit of $P^P$ is 1}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SA19-P1-MATH-S1-Q03, source={Score Advanced - Test 19 (04 Apr 2024)}, paper=1, qno=3, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: limit of a scaled integral, standard limits, substitute u=ax | steps: substitute u=ax; expansion near 0}]
+$\displaystyle\lim_{a\to\infty}a^2\int_0^{1/a^2}\dfrac{\cos^{-1}ax}{\sec^{-1}(ax+2)}dx$ is equal to
+\begin{qoptions}
+\opt{A}{3}
+\opt{B}{$\dfrac32$}
+\opt{C}{$\dfrac23$}
+\opt{D}{2}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SA19-P1-MATH-S3-Q04, source={Score Advanced - Test 19 (04 Apr 2024)}, paper=1, qno=4, type=numerical, subtopic={Expansions}, answer={5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: limit using logarithmic expansion, expansions, take the logarithm | steps: take the logarithm; expand to fourth order}]
+If the value of $\displaystyle\lim_{x\to\infty}x^4\left(\left(\dfrac{x^2+1}{x^2-1}\right)^{x^2}-e^2\right)$ is equal to $\dfrac{ae^2}{b}$ (where $a$ and $b$ are co - prime) then the value of $\left|a^2-b^2\right|$ is
+\end{bankq}
+\begin{bankpassage}[id=SA21-P1-MATH-S3-G1-2, source={Score Advanced - Test 21 (08 Apr 2024)}, questions={1-2}]
+$A_n$ and $B_n$ be square matrices of order 3 which are defined as $A_n=[a_{ij}]$ and $B_n=[b_{ij}]$ where $a_{ij}=\dfrac{2i+j}{3^{2n}}$ and $b_{ij}=\dfrac{3i-j}{2^{2n}}$ $\forall\,i,j,1\le i,\ j\le3$. If $L=\displaystyle\lim_{n\to\infty}\mathrm{Tr}\left(3A_1+3^2A_2+3^3.A_3+\ldots..+3^n.A_n\right)$,\par
+$M=\displaystyle\lim_{n\to\infty}\mathrm{Tr}\left(2B_1+2^2B_2+2^3.B_3+\ldots..+2^n.B_n\right)$\par
+(Where Tr (P) = Trace of matrix P). Let $p,n\in N$,\par
+$f(x)=1-x^p$ and\par $g_n(x)=\dfrac{n}{\dfrac{1}{f(x)}+\dfrac{1}{f(2x)}+\ldots\ldots+\dfrac{1}{f(nx)}}$ and\par $R=\displaystyle\lim_{x\to0}\dfrac{1-g_n(x)}{x^p}$\par
+at $n=5$ and $p=3$
+\end{bankpassage}
+\begin{bankq}[id=SA21-P1-MATH-S3-Q01, source={Score Advanced - Test 21 (08 Apr 2024)}, paper=1, qno=1, type=numerical, subtopic={Standard limits}, answer={55}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: limit of a harmonic type expression, standard limits, expand 1/(1-k x\^{}p) | steps: expand 1/(1-k x\^{}p); limit}, group=SA21-P1-MATH-S3-G1-2]
+The value of $100-R$ is equal to \underline{\hspace{1.5cm}}
+\end{bankq}
+\begin{bankq}[id=SA21-P1-MATH-S3-Q02, source={Score Advanced - Test 21 (08 Apr 2024)}, paper=1, qno=2, type=numerical, subtopic={Standard limits}, answer={66}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: sum of limits of traces and a limit, standard limits, geometric series of traces | steps: geometric series of traces; R}, group=SA21-P1-MATH-S3-G1-2]
+The value of $L+M+R$ is equal to
+\end{bankq}
+\begin{bankq}[id=SA25-P2-MATH-S2-Q06, source={Score Advanced - Test 25 (21 Apr 2024)}, paper=2, qno=6, type=multi, subtopic={Standard limits}, answer={B,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: limit of an infinite product of fractions, standard limits, telescoping product | steps: telescoping product}, also_in={Score Advanced - Test 26 (21 Apr 2024) P2 Q6}]
+Consider f : $\left[0,\dfrac\pi2\right]-\left\{\dfrac\pi4\right\}\rightarrow$ R. Let $f(x)=\displaystyle\lim_{n\to\infty}\prod_{k=0}^n\dfrac{\left((\cot x)^{2^k}+1\right)^2}{\left((\cot x)^{2^{k+1}}+1\right)}$, $\forall x\in\left(0,\dfrac\pi2\right]-\left\{\dfrac\pi4\right\}$ and f$\left(\dfrac\pi4\right)$ = 2 and f(0) = 0, Then which of the following is true?
+\begin{qoptions}
+\opt{A}{f(x) is increasing in $\left(0,\dfrac\pi4\right)$ \& $\left(\dfrac\pi4,\dfrac\pi2\right)$}
+\opt{B}{f(x) is decreasing in $\left(\dfrac\pi4,\dfrac\pi2\right)$}
+\opt{C}{f(x) has one local maxima}
+\opt{D}{f(x) has three local minima}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SA27-P1-MATH-S2-Q07, source={Score Advanced - Test 27 (24 Apr 2024)}, paper=1, qno=7, type=multi, subtopic={Standard limits}, answer={A,B}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: limit of a function with a given ratio, standard limits, series expansion | steps: series expansion}]
+f(x) is the function such that $\displaystyle\lim_{x\to0}\dfrac{\mathrm f(\mathrm x)}{\mathrm x}=1$ if $\displaystyle\lim_{x\to0}\dfrac{\mathrm x(1+\mathrm a\cos\mathrm x)-\mathrm b\sin\mathrm x}{(\mathrm f(\mathrm x))^3}=1$ then
+\begin{qoptions}
+\opt{A}{a = $\dfrac{-5}{2}$}
+\opt{B}{b = $\dfrac{-3}{2}$}
+\opt{C}{a = $\dfrac{-7}{2}$}
+\opt{D}{b = $\dfrac{-5}{2}$}
+\end{qoptions}
+\end{bankq}
 
 \section*{TOAS papers}
 \begin{bankq}[id=TOAS04-P1-MATH-S1-Q01, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=1, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S2 I0 C1 F0}, diff_note={concepts: standard limits, expansions | steps: log(1 + x) - log 2 near x = 1; the exponential and sine factors; the denominator radicals; combine}]
