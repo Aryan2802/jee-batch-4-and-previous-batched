@@ -51,13 +51,13 @@
 {\small Mathematics chapter M21. Questions from all converted test papers, grouped by source series. Answers: printed key where it matches the paper, otherwise solved (answer\_src=solved, with working). Exact repeats across papers appear once, with also\_in listing the other copies.}\par\medskip\hrule
 
 \section*{Score-I papers}
-\begin{bankq}[id=SI12-P1-MATH-S3-Q08, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=8, type=numerical, subtopic={Standard limits}, answer={3}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C0 F1}, diff_note={[f]=1 and {f}~x^2/3 so 1^infinity form gives e^3}]
+\begin{bankq}[id=SI12-P1-MATH-S3-Q08, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=8, type=numerical, subtopic={Standard limits}, answer={3}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C0 F1}, diff_note={concepts: limits with [.] and {.}, 1^infinity form | steps: [f] = 1 and {f} = tan x/x - 1 ~ x^2/3; evaluate the limit of the 1^inf form | I: expand tan x}]
 Let $f(x)=\dfrac{\tan x}x$ and $\displaystyle\lim_{x\to0}\left([f(x)]+x^2\right)^{\frac1{\{f(x)\}}}=e^\lambda$, then find $\lambda$\\
 {(where $[.]$ and $\{.\}$ denotes greatest integer and fractional part function respectively)}
 \end{bankq}
 
 \section*{TOAS papers}
-\begin{bankq}[id=TOAS04-P1-MATH-S1-Q01, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=1, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C1 F0}, diff_note={Expand each factor near x=1 and take the ratio of (x-1)^2 coefficients}]
+\begin{bankq}[id=TOAS04-P1-MATH-S1-Q01, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=1, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S2 I0 C1 F0}, diff_note={concepts: standard limits, expansions | steps: log(1 + x) - log 2 near x = 1; the exponential and sine factors; the denominator radicals; combine}]
 Value of $\displaystyle\lim_{x\to1}\dfrac{(\log(1+x)-\log2)(3\cdot4^{x-1}-3x)}{\left((7+x)^{1/3}-(1+3x)^{1/2}\right)\sin\pi x}$ is equal to
 \begin{qoptions}
 \opt{A}{$\dfrac9\pi(2\log2-1)$}
@@ -66,7 +66,7 @@ Value of $\displaystyle\lim_{x\to1}\dfrac{(\log(1+x)-\log2)(3\cdot4^{x-1}-3x)}{\
 \opt{D}{$\dfrac2{3\pi}[2\log2-1]$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS04-P1-MATH-S1-Q02, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=2, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=7, diff_parts={K2 S3 I2 C1 F0}, diff_note={Complex exponentials: sum of z_k = 2 prod z_k gives e2=2 so lambda=2, then the limit}]
+\begin{bankq}[id=TOAS04-P1-MATH-S1-Q02, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=2, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: complex numbers, sums of trigonometric functions | steps: sum of the unit vectors equals 2 times a unit vector; pairwise cosine sum lambda; evaluate the limit with radicals | I: complex numbers}]
 If $\theta_1,\theta_2,\theta_3$ are three distinct real values such that \[\dfrac{\sin\theta_1+\sin\theta_2+\sin\theta_3}{\sin(\theta_1+\theta_2+\theta_3)}=\dfrac{\cos\theta_1+\cos\theta_2+\cos\theta_3}{\cos(\theta_1+\theta_2+\theta_3)}=2\] and $\cos(\theta_1+\theta_2)+\cos(\theta_2+\theta_3)+\cos(\theta_3+\theta_1)=\lambda$, then value of \[\lim_{x\to\lambda}\dfrac{\sqrt{x^2-\lambda^2}}{\sqrt{x-\lambda}+\sqrt{x-\sqrt\lambda}}\] is
 \begin{qoptions}
 \opt{A}{1}
@@ -75,7 +75,7 @@ If $\theta_1,\theta_2,\theta_3$ are three distinct real values such that \[\dfra
 \opt{D}{5}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS04-P1-MATH-S1-Q03, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=3, type=single, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=7, diff_parts={K2 S3 I2 C1 F0}, diff_note={Solve the two-equation system for f(sin x), f(cos x) and take the limit as x to 1}]
+\begin{bankq}[id=TOAS04-P1-MATH-S1-Q03, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=3, type=single, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: functional equation by substitution | steps: replace x by pi/2 - x; solve for f(sin x); take the limit as sin x tends to 1 | I: swap sin and cos}]
 If $2f(\sin x)+\sqrt2f(\cos x)=\tan x$, then $\displaystyle\lim_{x\to1^-}(\sqrt{1-x})f((x))$ is - (Where $x\in\mathbb R-\left\{(2n+1)\dfrac\pi2;\ n\in I\right\}$)
 \begin{qoptions}
 \opt{A}{$\dfrac1{2\sqrt2}$}
@@ -84,7 +84,7 @@ If $2f(\sin x)+\sqrt2f(\cos x)=\tan x$, then $\displaystyle\lim_{x\to1^-}(\sqrt{
 \opt{D}{$\dfrac{\sqrt2}3$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS04-P1-MATH-S2-Q05, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=5, type=multi, subtopic={Standard limits}, answer={A,B}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={ell=e^{-1} from (tan x/x)^(...); compare with limit at infinity and fixed point 3}]
+\begin{bankq}[id=TOAS04-P1-MATH-S2-Q05, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=5, type=multi, subtopic={Standard limits}, answer={A,B}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: limits of the form 1^infinity, fixed points | steps: l = e^(-1) from tan expansion; limit of the rational power is 0; limit of f_n is 3 | I: fixed point of f_1}]
 If $\displaystyle\lim_{x\to0}\left(\dfrac{\tan x}x\right)^{\frac{\tan x}{x-\tan x}}$ exists and equal to $\ell$, then which of the following is (are) correct ?
 \begin{qoptions}
 \opt{A}{$\displaystyle\lim_{x\to\infty}\left(\dfrac{2x^2+1}{4x^2-1}\right)^{\frac{x^2}{2+x}}$ is less than $\ell$}
@@ -93,7 +93,7 @@ If $\displaystyle\lim_{x\to0}\left(\dfrac{\tan x}x\right)^{\frac{\tan x}{x-\tan 
 \opt{D}{If $f_1(x)=\dfrac x3+2\ \forall\ x\in\mathbb R$ and $f_n(x)$ is defined by $f_n(x)=f_1(f_{n-1}(x))\ \forall\ n\geq2$ and $n\in\mathbb N$ then $\displaystyle\lim_{n\to\infty}f_n(x)$ is less than $\ell$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS04-P1-MATH-S2-Q08, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=8, type=multi, subtopic={Standard limits}, answer={A,B,C,D}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={y=sec theta, x=tan theta: y-x = (1-sin)/cos and limits as theta to pi/2}]
+\begin{bankq}[id=TOAS04-P1-MATH-S2-Q08, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=8, type=multi, subtopic={Standard limits}, answer={A,B,C,D}, answer_src=key, difficulty=4, diff_parts={K2 S2 I0 C0 F1}, diff_note={concepts: right triangle trigonometry, limits | steps: express y and x with theta; identity for y^n - x^n; limits of y - x, y^2 - x^2, y^3 - x^3}]
 A right angled triangle has one leg of length 1, another of length `$x$' \& hypotenuse of length `$y$'. The angle oppsoite to the side $x$ is $\theta$ then -
 \begin{qoptions}
 \opt{A}{$y^n-x^n=\dfrac{1-\sin^n\theta}{\cos^n\theta}$}
@@ -105,19 +105,19 @@ A right angled triangle has one leg of length 1, another of length `$x$' \& hypo
 \begin{bankpassage}[id=TOAS04-P1-MATH-S3-G5-6, source={TOAS - Test 04 (15 Mar 2022)}, questions={5-6}]
 Let $a_1=1$ and $a_n=\sin(a_{n-1})$, $n>1$ \& $n\in\mathbb N$. If \[\lim_{n\to\infty}\dfrac{2^{2a_n}-2^{1+a_n}\cdot3^{a_n}+3^{2a_n}}{\cos a_n+1-e^{a_n}-e^{-a_n}}=-\dfrac\alpha3\,\ell n^{\beta}\left(\dfrac23\right),\] (where $\alpha$ and $\beta$ are prime numbers).
 \end{bankpassage}
-\begin{bankq}[id=TOAS04-P1-MATH-S3-Q05, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=5, type=numerical, subtopic={Expansions}, answer={6.00}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={Expand numerator and denominator for a_n to 0: ratio -(2/3) ln^2(2/3), alpha=2}, group=TOAS04-P1-MATH-S3-G5-6]
+\begin{bankq}[id=TOAS04-P1-MATH-S3-Q05, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=5, type=numerical, subtopic={Expansions}, answer={6.00}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: expansion coefficients | steps: expand the given function; match the coefficient | I: series matching}, group=TOAS04-P1-MATH-S3-G5-6]
 The value of $3\alpha$ is
 \end{bankq}
-\begin{bankq}[id=TOAS04-P1-MATH-S3-Q06, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=6, type=numerical, subtopic={Expansions}, answer={4.00}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={Same limit gives beta=2}, group=TOAS04-P1-MATH-S3-G5-6]
+\begin{bankq}[id=TOAS04-P1-MATH-S3-Q06, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=6, type=numerical, subtopic={Expansions}, answer={4.00}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: expansion coefficients | steps: expand the given function; match the coefficient}, group=TOAS04-P1-MATH-S3-G5-6]
 The value of $2\beta$ is
 \end{bankq}
-\begin{bankq}[id=TOAS04-P1-MATH-S4-Q07, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=7, type=numerical, subtopic={Standard limits}, answer={1}, answer_src=key, difficulty=6, diff_parts={K1 S3 I2 C0 F1}, diff_note={a_n/n! tends to e, product telescopes to a_{n+1}/(n+1)!}]
+\begin{bankq}[id=TOAS04-P1-MATH-S4-Q07, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=7, type=numerical, subtopic={Standard limits}, answer={1}, answer_src=key, difficulty=6, diff_parts={K2 S2 I2 C0 F1}, diff_note={concepts: recurrence and telescoping product, e as a limit | steps: 1 + 1/a_k = a_(k+1)/((k+1) a_k); product telescopes; a_n/n! tends to e; take the logarithm | I: telescoping product}]
 If a sequence is such that $a_1=1$ and $a_n=n(1+a_{n-1})\ \forall\ n\geq2$ and $n\in\mathbb N$, then \[\lim_{n\to\infty}\ell n\left(\left(1+\dfrac1{a_1}\right)\left(1+\dfrac1{a_2}\right)\ldots\left(1+\dfrac1{a_n}\right)\right)\] is \underline{\hspace{2.5em}}.
 \end{bankq}
-\begin{bankq}[id=TOAS04-P1-MATH-S4-Q09, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=9, type=numerical, subtopic={Expansions}, answer={3}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={Expansion to second order: a=0, b=-1, ell=-1/2}]
+\begin{bankq}[id=TOAS04-P1-MATH-S4-Q09, source={TOAS - Test 04 (15 Mar 2022)}, paper=1, qno=9, type=numerical, subtopic={Expansions}, answer={3}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: finite limit forces coefficients | steps: expand log(1 + x) and sin x; a = 0; b = -1; l = -1/2}]
 If $\displaystyle\lim_{x\to0}\dfrac{a+\log_e(1+x)+b\sin x}{x^2}=\ell$ (finite) then $|a+b+4\ell|$ (where $a,b,\ell\in\mathbb R$)
 \end{bankq}
-\begin{bankq}[id=TOAS04-P2-MATH-S1-Q01, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=1, type=multi, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C0 F1}, diff_note={A_n/B_n tends to sqrt2; compare with four limits}]
+\begin{bankq}[id=TOAS04-P2-MATH-S1-Q01, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=1, type=multi, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: ratio of conjugate terms, standard limits | steps: A_n/B_n tends to sqrt2; evaluate each option; identify the matching limit | I: ratio of conjugate powers}]
 Let $(1+\sqrt2)^n=A_n+B_n\sqrt2$, where $A_n$ and $B_n$ are rational numbers and $n\in N$, then the value of $\displaystyle\lim_{n\to\infty}\dfrac{A_n}{B_n}$ is equal to -\\
 (where $[.]$ denotes greatest integer function)
 \begin{qoptions}
@@ -127,7 +127,7 @@ Let $(1+\sqrt2)^n=A_n+B_n\sqrt2$, where $A_n$ and $B_n$ are rational numbers and
 \opt{D}{$\left[\displaystyle\lim_{x\to0}\dfrac{\sin\sqrt2\,x}{x}\right]$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS04-P2-MATH-S1-Q02, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=2, type=multi, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={Rationalise sqrt(x^2-4x/3)+x as x to -infinity}]
+\begin{bankq}[id=TOAS04-P2-MATH-S1-Q02, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=2, type=multi, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: limit at minus infinity with a radical | steps: factor  | x}]
 $\displaystyle\lim_{x\to-\infty}\left(\sqrt{x^2-\dfrac{4x}{3}}+x+2\right)$ is equal to-
 \begin{qoptions}
 \opt{A}{$\dfrac43$}
@@ -136,7 +136,7 @@ $\displaystyle\lim_{x\to-\infty}\left(\sqrt{x^2-\dfrac{4x}{3}}+x+2\right)$ is eq
 \opt{D}{$-\dfrac83$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS04-P2-MATH-S1-Q03, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=3, type=multi, subtopic={Standard limits}, answer={A,B}, answer_src=key, difficulty=7, diff_parts={K2 S4 I1 C0 F1}, diff_note={Left and right behaviour of sin([x^3]-[x]^3) near each integer alpha}, also_in={TOAS - Test 07 (01 May 2022) P1 Q5}]
+\begin{bankq}[id=TOAS04-P2-MATH-S1-Q03, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=3, type=multi, subtopic={Standard limits}, answer={A,B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limits with greatest integer functions | steps: [x^3] - [x]^3 near each integer; one-sided behaviour; condition for a finite limit | I: case analysis at integers}, also_in={TOAS - Test 07 (01 May 2022) P1 Q5}]
 Given $\displaystyle\lim_{x\to\alpha}\dfrac{\sin\left(\left[x^3\right]-[x]^3\right)}{(x-\alpha)^3}$ exists finitely, then the value of $\alpha$ can be (where $\alpha\in I$ \& $[.]$ denotes greatest integer function)-
 \begin{qoptions}
 \opt{A}{0}
@@ -145,10 +145,10 @@ Given $\displaystyle\lim_{x\to\alpha}\dfrac{\sin\left(\left[x^3\right]-[x]^3\rig
 \opt{D}{2}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS04-P2-MATH-S4-Q08, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=8, type=numerical, subtopic={Expansions}, answer={8}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C0 F1}, diff_note={Limit e^4 forces coefficients a0,a1,a2,a3 and a4=6}]
+\begin{bankq}[id=TOAS04-P2-MATH-S4-Q08, source={TOAS - Test 04 (15 Mar 2022)}, paper=2, qno=8, type=numerical, subtopic={Expansions}, answer={8}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of the form 1^infinity with expansion | steps: base tends to 1 so coefficients up to x^3 are fixed; a4 from the exponent 2/x; sum of coefficients | I: match the base to 1 + a4 x/3}]
 Let $f(x)=a_0+a_1x+a_2x^2+a_3x^3+a_4x^4$ where $a_i\in R$ and $\displaystyle\lim_{x\to0}\left(\dfrac{f(x)-x+2x^2}{3x^3}\right)^{2/x}=e^4$, then $\displaystyle\sum_{i=0}^{4}a_i$ is equal to
 \end{bankq}
-\begin{bankq}[id=TOAS05-P1-MATH-S1-Q04, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=4, type=multi, subtopic={Standard limits}, answer={A}, answer_src=key, difficulty=6, diff_parts={K1 S3 I2 C0 F1}, diff_note={Riemann-sum limit: epsilon times sum of e^{-eps r}/(1+e^{-eps r}) tends to ln 2}]
+\begin{bankq}[id=TOAS05-P1-MATH-S1-Q04, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=4, type=multi, subtopic={Standard limits}, answer={A}, answer_src=key, difficulty=6, diff_parts={K2 S2 I2 C0 F1}, diff_note={concepts: Riemann sums, definite integral | steps: substitute t = e^(-h); the sum becomes a Riemann sum; integral of 1/(e^x + 1) equals ln 2 | I: sum as an integral}]
 The value of $\displaystyle\lim_{t\to1^-}(1-t)\sum_{r=1}^{\infty}\dfrac{t^r}{1+t^r}$ is
 \begin{qoptions}
 \opt{A}{$\ln2$}
@@ -157,17 +157,17 @@ The value of $\displaystyle\lim_{t\to1^-}(1-t)\sum_{r=1}^{\infty}\dfrac{t^r}{1+t
 \opt{D}{$\dfrac12$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS05-P1-MATH-S3-Q03, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=3, type=numerical, subtopic={Expansions}, answer={2.00}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={Series expansions give c=0 and b=2 from the limit -pi^2/12}]
+\begin{bankq}[id=TOAS05-P1-MATH-S3-Q03, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=3, type=numerical, subtopic={Expansions}, answer={2.00}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: finite limit forces coefficients | steps: [x/pi] = 0 gives the first limit pi^2; expansion of sin(sin x) - sin x; c = 0; solve b | I: finite limit means c = 0}]
 If $\displaystyle\lim_{x\to0^+}\left(\dfrac{\sin^2x}{\left[\frac x\pi\right]+\frac{x^2}{\pi^2}}\right)\times\dfrac{\sin(\sin x)-\sin x}{ax^5+bx^3+c}=\dfrac{-\pi^2}{12}$. Then value of $b+c$ is\
 (Where $[.]$ denotes greatest integer function)
 \end{bankq}
-\begin{bankq}[id=TOAS05-P1-MATH-S3-Q04, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=4, type=numerical, subtopic={Standard limits}, answer={0.25}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={ln sqrt(cos(pi/x)) ~ -pi^2/(4x^2) so limit -pi^2/4}]
+\begin{bankq}[id=TOAS05-P1-MATH-S3-Q04, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=4, type=numerical, subtopic={Standard limits}, answer={0.25}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: standard limits | steps: expand cos(pi/x) and the logarithm; tan of a small argument; limit gives -pi^2/4}]
 If the value of $\displaystyle\lim_{x\to\infty}x^2\tan\left(\ln\left(\sqrt{\cos\dfrac\pi x}\right)\right)$ is equal to $-k\pi^2$, then $k$ is equal to
 \end{bankq}
-\begin{bankq}[id=TOAS05-P1-MATH-S3-Q05, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=5, type=numerical, subtopic={Standard limits}, answer={2100.00}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={Expand (k+t)^10: coefficient of t^9 gives 10 times sum k=2100}]
+\begin{bankq}[id=TOAS05-P1-MATH-S3-Q05, source={TOAS - Test 05 (03 Apr 2022)}, paper=1, qno=5, type=numerical, subtopic={Standard limits}, answer={2100.00}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of a polynomial in tan | steps: set t = tan theta; expand each term; cancel 20 t; sum 10 k | I: leading terms cancel}]
 Let \[\begin{aligned}f(\theta)=\dfrac1{\tan^9\theta}\Big(&(1+\tan\theta)^{10}+(2+\tan\theta)^{10}\\&+\ldots.(20+\tan\theta)^{10}\Big)-20\tan\theta.\end{aligned}\] The value of $\displaystyle\lim_{\theta\to\frac\pi2^-}f(\theta)$ is
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S1-Q08, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=8, type=single, subtopic={Standard limits}, answer={D}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C1 F0}, diff_note={Series expansions with [tan x/x]=1 near 0}]
+\begin{bankq}[id=TOAS05-P2-MATH-S1-Q08, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=8, type=single, subtopic={Standard limits}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: limit with a greatest integer function | steps: [tan x/x] = 1 near 0; expansions of ln(1 + 3x^2), sin(tan^-1 x); (3^x - 1) and (1 - cos 2x) | I: greatest integer equals 1}]
 Value of $\displaystyle\lim_{x\to0}\dfrac{\ln\left(1+3x^2\right)\sin\left(\tan^{-1}x\right)}{(3^x-1)(1-\cos2x)}\left[\dfrac{\tan x}{x}\right]$ is (where $[.]$ represents greatest integer function) -
 \begin{qoptions}
 \opt{A}{$\dfrac32$}
@@ -176,7 +176,7 @@ Value of $\displaystyle\lim_{x\to0}\dfrac{\ln\left(1+3x^2\right)\sin\left(\tan^{
 \opt{D}{$\dfrac3{2\ln3}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S1-Q09, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=9, type=single, subtopic={Expansions}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={Expand numerator and denominator to x^3 and match to 1}]
+\begin{bankq}[id=TOAS05-P2-MATH-S1-Q09, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=9, type=single, subtopic={Expansions}, answer={D}, answer_src=key, difficulty=2, diff_parts={K1 S2 I0 C0 F0}, diff_note={concepts: finite limit forces constants | steps: expand numerator and denominator; kill x term; x^3 coefficient; solve}]
 If $\displaystyle\lim_{x\to0}\dfrac{\alpha\sin x-\beta x\cos x}{\tan x-\sin x}=1$, then $(\alpha+\beta)$ is equal to-
 \begin{qoptions}
 \opt{A}{1}
@@ -185,7 +185,7 @@ If $\displaystyle\lim_{x\to0}\dfrac{\alpha\sin x-\beta x\cos x}{\tan x-\sin x}=1
 \opt{D}{3}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S1-Q10, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=10, type=single, subtopic={Expansions}, answer={A}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C1 F0}, diff_note={Expand tan x - tan^-1 x, e^{cos3x}-e and ln cos x}]
+\begin{bankq}[id=TOAS05-P2-MATH-S1-Q10, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=10, type=single, subtopic={Expansions}, answer={A}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C1 F0}, diff_note={concepts: limit by expansions | steps: sin 2x and tan x - tan^-1 x; e^(cos 3x) - e; ln cos x; combine}]
 Value of $\displaystyle\lim_{x\to0}\dfrac{(\sin2x)\left(\tan x-\tan^{-1}x\right)}{\left(e^{\cos3x}-e\right)(\ln\cos x)}$ is equal to-
 \begin{qoptions}
 \opt{A}{$\dfrac{16}{27e}$}
@@ -194,7 +194,7 @@ Value of $\displaystyle\lim_{x\to0}\dfrac{(\sin2x)\left(\tan x-\tan^{-1}x\right)
 \opt{D}{$\dfrac49$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S1-Q11, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=11, type=single, subtopic={Expansions}, answer={B}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={Rationalise and expand to second order}]
+\begin{bankq}[id=TOAS05-P2-MATH-S1-Q11, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=11, type=single, subtopic={Expansions}, answer={B}, answer_src=key, difficulty=2, diff_parts={K1 S2 I0 C0 F0}, diff_note={concepts: limit by expansions | steps: expand sqrt(cos 2x); expand sqrt(1 + x sin x); denominator; ratio}]
 Value of $\displaystyle\lim_{x\to0}\dfrac{\sqrt{\cos2x}-\sqrt{1+x\sin x}}{x\tan\frac x2}$ is -
 \begin{qoptions}
 \opt{A}{3}
@@ -203,7 +203,7 @@ Value of $\displaystyle\lim_{x\to0}\dfrac{\sqrt{\cos2x}-\sqrt{1+x\sin x}}{x\tan\
 \opt{D}{$-6$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S1-Q12, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=12, type=single, subtopic={Standard limits}, answer={A}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={Factor x-1 in numerator and denominator}]
+\begin{bankq}[id=TOAS05-P2-MATH-S1-Q12, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=12, type=single, subtopic={Standard limits}, answer={A}, answer_src=key, difficulty=2, diff_parts={K1 S1 I1 C0 F0}, diff_note={concepts: limit with a common factor | steps: factor x - 1 from the denominator; cancel and evaluate | I: factor out x - 1}]
 The value of $\displaystyle\lim_{x\to1}\dfrac{x^3-1}{(x^2-3x+2)-\sin(x-1)}$ is-
 \begin{qoptions}
 \opt{A}{$-\dfrac32$}
@@ -212,7 +212,7 @@ The value of $\displaystyle\lim_{x\to1}\dfrac{x^3-1}{(x^2-3x+2)-\sin(x-1)}$ is-
 \opt{D}{3}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S1-Q13, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=13, type=single, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={sin(2 pi sec x) with sec x=1+x^2/2}]
+\begin{bankq}[id=TOAS05-P2-MATH-S1-Q13, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=13, type=single, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=2, diff_parts={K1 S1 I1 C0 F0}, diff_note={concepts: limit with a periodic function | steps: sec x = 1 + x^2/2; sin(2 pi + pi x^2) ~ pi x^2 | I: reduce modulo 2 pi}]
 Value of $\displaystyle\lim_{x\to0}\dfrac{\sin(2\pi\sec x)}{x^2}$ is-
 \begin{qoptions}
 \opt{A}{$\dfrac\pi4$}
@@ -221,13 +221,13 @@ Value of $\displaystyle\lim_{x\to0}\dfrac{\sin(2\pi\sec x)}{x^2}$ is-
 \opt{D}{$2\pi$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S2-Q06, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=6, type=numerical, subtopic={Expansions}, answer={6}, answer_src=solved, working={$x-\tan x\approx-x^3/3$, $x-\sin x\approx x^3/6$, $x^2-(\sin^{-1}x)^2\approx-x^4/3$: limit $=(-2)\cdot x^2\cdot x^2/(-x^4/3)=6$}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={Series for x-tan x, x-sin x and x^2-(arcsin x)^2}]
+\begin{bankq}[id=TOAS05-P2-MATH-S2-Q06, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=6, type=numerical, subtopic={Expansions}, answer={6}, answer_src=solved, working={$x-\tan x\approx-x^3/3$, $x-\sin x\approx x^3/6$, $x^2-(\sin^{-1}x)^2\approx-x^4/3$: limit $=(-2)\cdot x^2\cdot x^2/(-x^4/3)=6$}, difficulty=4, diff_parts={K1 S2 I0 C1 F1}, diff_note={concepts: limit by expansions | steps: x - tan x and x - sin x; (sin^-1 x)^2 and x^2 - (sin^-1 x)^2; combine}]
 Value of $\displaystyle\lim_{x\to0}\dfrac{x^2(x-\tan x)}{(x-\sin x)}\cdot\dfrac{\left(\sin^{-1}x\right)^2}{x^2-\left(\sin^{-1}x\right)^2}$ is
 \end{bankq}
-\begin{bankq}[id=TOAS05-P2-MATH-S2-Q07, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=7, type=numerical, subtopic={Standard limits}, answer={8}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={Two 1^infinity-type limits each equal e^-1}]
+\begin{bankq}[id=TOAS05-P2-MATH-S2-Q07, source={TOAS - Test 05 (03 Apr 2022)}, paper=2, qno=7, type=numerical, subtopic={Standard limits}, answer={8}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: limits of the form 1^infinity | steps: first limit equals 1/e; second limit equals 1/e; combine}]
 The value of $4e\left(\displaystyle\lim_{x\to0}\left(\dfrac{\sin x}{x}\right)^{\frac{\sin x}{x-\sin x}}+\lim_{x\to1}(x)^{\frac1{1-x}}\right)$ is
 \end{bankq}
-\begin{bankq}[id=TOAS06-P1-MATH-S1-Q02, source={TOAS - Test 06 (17 Apr 2022)}, paper=1, qno=2, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=6, diff_parts={K1 S3 I2 C1 F0}, diff_note={Each term behaves as 1/h+(n-1)/2 near x=1: difference -1/2}]
+\begin{bankq}[id=TOAS06-P1-MATH-S1-Q02, source={TOAS - Test 06 (17 Apr 2022)}, paper=1, qno=2, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: limit of a difference of fractions | steps: substitute x = 1 + h; expand each term; combine to -1/2 | I: expand around 1}]
 The value of $\displaystyle\lim_{x\to1}\left(\frac{2018}{1-x^{2018}}-\frac{2019}{1-x^{2019}}\right)$ is
 \begin{qoptions}
 \opt{A}{0}
@@ -236,7 +236,7 @@ The value of $\displaystyle\lim_{x\to1}\left(\frac{2018}{1-x^{2018}}-\frac{2019}
 \opt{D}{does not exist}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS06-P1-MATH-S2-Q10, source={TOAS - Test 06 (17 Apr 2022)}, paper=1, qno=10, type=multi, subtopic={Standard limits}, answer={B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={Limit of x^(1/{x}) as 2013^x tends to 1 from either side}]
+\begin{bankq}[id=TOAS06-P1-MATH-S2-Q10, source={TOAS - Test 06 (17 Apr 2022)}, paper=1, qno=10, type=multi, subtopic={Standard limits}, answer={B,C,D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limits with fractional part | steps: 2013^x near 0 from the right; from the left; evaluate x^(1/{x}) in each case | I: 1^infinity and fractional part}]
 Let $f(x)=x^{\frac{1}{\{x\}}}$ (where $\{x\}$ denotes fractional part of $x$) then
 \begin{qoptions}
 \opt{A}{$\displaystyle\lim_{x\to0^+}f(2013^x)=2013$}
@@ -249,13 +249,13 @@ Let $f(x)=x^{\frac{1}{\{x\}}}$ (where $\{x\}$ denotes fractional part of $x$) th
 Given $g(x)=\sin\dfrac1x$, $h(x)=x^2+2x+(\lambda+1)$ and $u(x)=\dfrac1x+\cos\dfrac1{x^2}$\\
 Let $f(x)=\displaystyle\lim_{n\to\infty}\dfrac{x^{2n+1}g(x)+h(x)}{x^{2n}+3x.\,u(x)}$
 \end{bankpassage}
-\begin{bankq}[id=TOAS07-P1-MATH-S3-Q01, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=1, type=numerical, subtopic={Standard limits}, answer={5.00}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={Evaluate the limit at 0 for the rational form with n to infinity}, group=TOAS07-P1-MATH-S3-G1-2]
+\begin{bankq}[id=TOAS07-P1-MATH-S3-Q01, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=1, type=numerical, subtopic={Standard limits}, answer={5.00}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: limit problem from the passage | steps: identify f; expansions near 0; value of lambda}, group=TOAS07-P1-MATH-S3-G1-2]
 If $\displaystyle\lim_{x\to0}f(x)=2$, then the value of $\lambda$ is -
 \end{bankq}
-\begin{bankq}[id=TOAS07-P1-MATH-S3-Q02, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=2, type=numerical, subtopic={Standard limits}, answer={1.00}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={Limit at infinity of the piecewise limit function}, group=TOAS07-P1-MATH-S3-G1-2]
+\begin{bankq}[id=TOAS07-P1-MATH-S3-Q02, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=2, type=numerical, subtopic={Standard limits}, answer={1.00}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: limit at infinity from the passage | steps: leading terms of f; limit}, group=TOAS07-P1-MATH-S3-G1-2]
 $\displaystyle\lim_{x\to\infty}f(x)$ is equal to -
 \end{bankq}
-\begin{bankq}[id=TOAS07-P2-MATH-S1-Q05, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=5, type=multi, subtopic={Standard limits}, answer={A,B,D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={Limit of sin^-1 sin(1+1/(x^2+1)) approaching pi-1... compare to options}]
+\begin{bankq}[id=TOAS07-P2-MATH-S1-Q05, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=5, type=multi, subtopic={Standard limits}, answer={A,B,D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of sin^-1 sin | steps: argument tends to 1 from above; reduce by the principal branch; compare with the options | I: principal branch of sin^-1 sin}]
 $\displaystyle\lim_{x\to\infty}\sin^{-1}\sin\left(\dfrac{x^2+2}{x^2+1}\right)$ is equal to (where $[.]$ and $\{.\}$ denote greatest integer and fractional part function respectively)
 \begin{qoptions}
 \opt{A}{$\displaystyle\lim_{x\to\infty}\left[\dfrac{x^2+2}{x^2+1}\right]$}
@@ -271,13 +271,13 @@ Consider $f(x)=x^4-3x^3+2$ and let $h(x)=\dfrac{f(x)}{g(x)}$ be a rational funct
 (iii) As $x$ approaches infinity, $h(x)$ also approaches infinity.\\
 (iv) $\displaystyle\lim_{x\to1}h(x)=\dfrac12$
 \end{bankpassage}
-\begin{bankq}[id=TOAS07-P2-MATH-S3-Q05, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=5, type=numerical, subtopic={Standard limits}, answer={5.00}, answer_src=key, difficulty=9, diff_parts={K2 S4 I2 C1 F1}, diff_note={Rational function conditions determine g(x); its maximum value}, group=TOAS07-P2-MATH-S3-G5-6]
+\begin{bankq}[id=TOAS07-P2-MATH-S3-Q05, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=5, type=numerical, subtopic={Standard limits}, answer={5.00}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: range of a function from the passage | steps: express g; maximum value}, group=TOAS07-P2-MATH-S3-G5-6]
 Range of $g(x)$ is $(-\infty,k]$ then $k$ is equal to
 \end{bankq}
-\begin{bankq}[id=TOAS07-P2-MATH-S3-Q06, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=6, type=numerical, subtopic={Standard limits}, answer={1.00}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={Limit using g(cos x) near x=0}, group=TOAS07-P2-MATH-S3-G5-6]
+\begin{bankq}[id=TOAS07-P2-MATH-S3-Q06, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=6, type=numerical, subtopic={Standard limits}, answer={1.00}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: limit from the passage | steps: substitute g(cos x); expand near 0; ratio}, group=TOAS07-P2-MATH-S3-G5-6]
 $\displaystyle\lim_{x\to0}\dfrac{g(\cos x)}{5\ln\left(\sec^2x\right)}$ is equal to -
 \end{bankq}
-\begin{bankq}[id=TOAS08-P1-MATH-S1-Q03, source={TOAS - Test 08 (15 May 2022)}, paper=1, qno=3, type=multi, subtopic={Expansions}, answer={A,D}, answer_src=key, difficulty=8, diff_parts={K2 S3 I2 C1 F1}, diff_note={Limit with secant roots gives f(x,y) and properties of the curve}]
+\begin{bankq}[id=TOAS08-P1-MATH-S1-Q03, source={TOAS - Test 08 (15 May 2022)}, paper=1, qno=3, type=multi, subtopic={Expansions}, answer={A,D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of (sec a)^(1/x) differences | steps: expand (sec a)^(1/x) near a = 0; limit gives f(x,y) = 2xy/(y - x); examine the curve f = 12 | I: expand to a^2}]
 Let $f(x,y)=\dfrac{1}{\displaystyle\lim_{\alpha\to0}\left(\dfrac{\sqrt[x]{\sec\alpha}-\sqrt[y]{\sec\alpha}}{\alpha^2}\right)}$, then
 \begin{qoptions}
 \opt{A}{$f(2,3)=12$}
@@ -286,13 +286,13 @@ Let $f(x,y)=\dfrac{1}{\displaystyle\lim_{\alpha\to0}\left(\dfrac{\sqrt[x]{\sec\a
 \opt{D}{$f(x,y)=12$ has no horizontal tangent}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS08-P1-MATH-S3-Q04, source={TOAS - Test 08 (15 May 2022)}, paper=1, qno=4, type=numerical, subtopic={Expansions}, answer={8}, answer_src=solved, working={$\sqrt{x^2+\sqrt{1+x^4}}=\sqrt2x(1+\frac1{8x^4}+\dots)$ so the limit is $\sqrt2/8$, $\lambda=8$}, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={Expand the double radical at infinity}]
+\begin{bankq}[id=TOAS08-P1-MATH-S3-Q04, source={TOAS - Test 08 (15 May 2022)}, paper=1, qno=4, type=numerical, subtopic={Expansions}, answer={8}, answer_src=solved, working={$\sqrt{x^2+\sqrt{1+x^4}}=\sqrt2x(1+\frac1{8x^4}+\dots)$ so the limit is $\sqrt2/8$, $\lambda=8$}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: limit at infinity with nested radicals | steps: factor sqrt2 x; expand sqrt(1 + 1/x^4); expand the outer radical; leading term | I: factor out the dominant term}]
 $\displaystyle\lim_{x\to\infty}x^3\left(\sqrt{x^2+\sqrt{1+x^4}}-\sqrt2x\right)=\dfrac{\sqrt2}{\lambda}$ find value of $\lambda$
 \end{bankq}
-\begin{bankq}[id=TOAS08-P1-MATH-S3-Q05, source={TOAS - Test 08 (15 May 2022)}, paper=1, qno=5, type=numerical, subtopic={Standard limits}, answer={0.40}, answer_src=solved, working={$\left(f(3+3/x)/f(3)\right)^x\to e^{3f'(3)/f(3)}=e$, $[L]=2$, $[L]/5=0.4$}, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={Limit of (f(3+3/x)/f(3))^x equals e^{3f'(3)/f(3)}}]
+\begin{bankq}[id=TOAS08-P1-MATH-S3-Q05, source={TOAS - Test 08 (15 May 2022)}, paper=1, qno=5, type=numerical, subtopic={Standard limits}, answer={0.40}, answer_src=solved, working={$\left(f(3+3/x)/f(3)\right)^x\to e^{3f'(3)/f(3)}=e$, $[L]=2$, $[L]/5=0.4$}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of the form 1^infinity | steps: exponent x times the change in ln f; equals 3 f'(3)/f(3) = 1; L = e | I: log derivative}]
 Let $f:(0,\infty)\to(0,\infty)$ be a function differentiable at 3 and satisfying $f(3)=3f'(3)$. If the value of $\displaystyle\lim_{x\to\infty}\left(\dfrac{f\left(3+\frac3x\right)}{f(3)}\right)^x$ is $L$ then $\dfrac{[L]}{5}$ is (where $[.]$ is greatest integer function)
 \end{bankq}
-\begin{bankq}[id=TOAS08-P2-MATH-S2-Q08, source={TOAS - Test 08 (15 May 2022)}, paper=2, qno=8, type=single, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=8, diff_parts={K2 S4 I2 C1 F0}, diff_note={Four limits and a discontinuity count}]
+\begin{bankq}[id=TOAS08-P2-MATH-S2-Q08, source={TOAS - Test 08 (15 May 2022)}, paper=2, qno=8, type=single, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C1 F0}, diff_note={concepts: limits matching | steps: evaluate the four limits; match with List-II}]
 Match List-I with List-II and select the correct answer using the code given below the list.
 \begin{center}\footnotesize\renewcommand{\arraystretch}{1.1}\setlength{\extrarowheight}{3.5pt}\setlength{\tabcolsep}{2pt}
 \begin{tabular}{|c|l|c|c|}
@@ -315,10 +315,10 @@ Match List-I with List-II and select the correct answer using the code given bel
 \opt{D}{$P\to1;Q\to3;R\to2;S\to4$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS08-P2-MATH-S3-Q04, source={TOAS - Test 08 (15 May 2022)}, paper=2, qno=4, type=numerical, subtopic={Standard limits}, answer={0.50}, answer_src=key, difficulty=6, diff_parts={K1 S3 I2 C0 F1}, diff_note={Telescoping product (1-1/k^2)}]
+\begin{bankq}[id=TOAS08-P2-MATH-S3-Q04, source={TOAS - Test 08 (15 May 2022)}, paper=2, qno=4, type=numerical, subtopic={Standard limits}, answer={0.50}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: telescoping infinite product | steps: 1 - 1/k^2 = (k - 1)(k + 1)/k^2; product telescopes to (n + 1)/(2n) | I: factor each term}]
 The value of\[\lim_{n\to\infty}\left(1-\dfrac1{2^2}\right)\left(1-\dfrac1{3^2}\right)\left(1-\dfrac1{4^2}\right)\ldots\left(1-\dfrac1{n^2}\right)\]is
 \end{bankq}
-\begin{bankq}[id=TOAS09-P2-MATH-S1-Q08, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=8, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={Standard limits: standard approach for this subtopic; 1 concept(s), 1 step(s)}]
+\begin{bankq}[id=TOAS09-P2-MATH-S1-Q08, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=8, type=single, subtopic={Standard limits}, answer={B}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: limit with small-angle approximations | steps: numerator ~ 6x, denominator ~ 2x}]
 $\displaystyle\lim_{x\to0}\dfrac{5\sin x+x\cos x}{2\tan x-x^2}$ is
 \begin{qoptions}
 \opt{A}{$\dfrac52$}
@@ -327,7 +327,7 @@ $\displaystyle\lim_{x\to0}\dfrac{5\sin x+x\cos x}{2\tan x-x^2}$ is
 \opt{D}{does not exist}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS09-P2-MATH-S1-Q15, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=15, type=single, subtopic={Standard limits}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={Standard limits: standard approach for this subtopic; 2 concept(s), 2 step(s), needs a non-obvious insight}]
+\begin{bankq}[id=TOAS09-P2-MATH-S1-Q15, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=15, type=single, subtopic={Standard limits}, answer={A}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: limit with binomial expansion | steps: factor x^(2/3) out; binomial expansion of (1 + 1/x)^(2/3) - (1 - 1/x)^(2/3); limit 4/3 | I: binomial expansion at infinity}]
 The value of $\displaystyle\lim_{x\to\infty}x^{\frac13}\left((x+1)^{\frac23}-(x-1)^{\frac23}\right)$ is
 \begin{qoptions}
 \opt{A}{$\dfrac43$}
@@ -336,12 +336,12 @@ The value of $\displaystyle\lim_{x\to\infty}x^{\frac13}\left((x+1)^{\frac23}-(x-
 \opt{D}{$\dfrac{-2}{3}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TOAS09-P2-MATH-S2-Q03, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=3, type=numerical, subtopic={Standard limits}, answer={4}, answer_src=solved, working={Both arguments tend to 1 and 2 where $f=8$, 12: ratio $=\frac{f'(1)\cdot4}{f'(2)\cdot3}=\frac{6\cdot4}{2\cdot3}=4$}, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={Standard limits: standard approach for this subtopic; 2 concept(s), 3 step(s), needs a non-obvious insight, heavier computation}]
+\begin{bankq}[id=TOAS09-P2-MATH-S2-Q03, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=3, type=numerical, subtopic={Standard limits}, answer={4}, answer_src=solved, working={Both arguments tend to 1 and 2 where $f=8$, 12: ratio $=\frac{f'(1)\cdot4}{f'(2)\cdot3}=\frac{6\cdot4}{2\cdot3}=4$}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit as a ratio of derivatives | steps: arguments tend to 1 and 2; f(1) = 8 and f(2) = 12; use derivatives of the arguments | I: values at limit points}]
 If $f(x)=10x-2x^2$, then
 \[\lim_{h\to0}\frac{f(3\cosh h+4\sinh h-2)-8}{f(3e^h-5\sec h+4)-12}\]
 is equal to
 \end{bankq}
-\begin{bankq}[id=TOAS09-P2-MATH-S2-Q04, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=4, type=numerical, subtopic={Expansions}, answer={512}, answer_src=solved, working={Continuity needs $b=-1$, $a=-4$ (the $x$ and $x^2$ terms vanish); $L=a^3/6+64/3=32/3$; $12abL=512$}, difficulty=8, diff_parts={K3 S3 I1 C1 F1}, diff_note={Expansions: standard approach for this subtopic; 3 concept(s), 3 step(s), needs a non-obvious insight, heavier computation}]
+\begin{bankq}[id=TOAS09-P2-MATH-S2-Q04, source={TOAS - Test 09 (30 May 2022)}, paper=2, qno=4, type=numerical, subtopic={Expansions}, answer={512}, answer_src=solved, working={Continuity needs $b=-1$, $a=-4$ (the $x$ and $x^2$ terms vanish); $L=a^3/6+64/3=32/3$; $12abL=512$}, difficulty=5, diff_parts={K1 S3 I0 C1 F1}, diff_note={concepts: continuity and series expansion | steps: expand e^(ax) and ln(1 + 4x); kill the x term; kill the x^2 term; L from x^3; 12abL}]
 If $f(x)=\begin{cases}\dfrac{e^{ax}+\ell n(1+4x)+b}{x^3} & x\neq0\\ L & x=0\end{cases}$ is continuous at $x=0$, then $12abL$ is equal to
 \end{bankq}
 \end{document}

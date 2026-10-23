@@ -1,4 +1,4 @@
-last build: 2026-10-23
+last build: 2026-10-23 (rebuilt after difficulty rescoring)
 tests in build: 10
 questions: 1104
 duplicates merged: 8
