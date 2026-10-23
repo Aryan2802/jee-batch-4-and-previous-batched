@@ -150,3 +150,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Two papers (108 q). The key prints Paper-2 numerics with Section III before Section II; matched by solving (air time 3.60 and Section II values 12/286 on the maths side). Verify the section order against a worked numeric before banking.
 - Missing numeric keys solved: p1 phys s3 q4 (1.20), q6 (7.07), p2 phys s2 q2 (16.67), p2 math s2 q5 (1.80).
 - mk.py writes nothing if any KMISMATCH appears: fix K in the diff file to the concept count and rerun, then confirm work/difficulty.tsv exists before apply.
+## TOPS - Test 03 (20 Nov 2022)
+- Key rows for Paper 2 numerics again list Section III before Section II: confirmed by solving (math s2 q1 = 0.50 via telescoping; phys s2 q6 work = 0.50 J). Paper 1 key has no entries for physics s3 passage numerics and math s3 q1, q2: solved (physics: plate k, bicycle chain, wedge blocks; maths: 3 and 3).
+- Chem p1 s3 q3 key 70.32 is degrees and minutes (70 deg 32 min = 70.53 degrees).
+- Passage group ids go in chapters.tsv alongside the question ids.
