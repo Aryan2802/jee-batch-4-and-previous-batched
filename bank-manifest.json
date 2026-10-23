@@ -459,8 +459,11 @@
    "src_rel": [
     "Batch 4/Source/Star Review (Other)/Advanced/Very Challenging/Star Review (Other) - Test 03 (04 Dec 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 11pp, 40 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 11pp, 40 figs",
+   "started_at": "2026-10-23T20:36:33Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Internal Test - Test 01 (05 Aug 2020)",
