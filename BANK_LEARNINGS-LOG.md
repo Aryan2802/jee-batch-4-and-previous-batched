@@ -77,3 +77,6 @@ ANCHOR Mathematics D9: TOAS - Test 06 p1_math_s2_q07: 2 4 2 1 F1: two pairs of l
 ## 2026-10-23 TOAS - Test 08 (15 May 2022)
 - 108 questions (18 per subject per paper: 6 multiple, 4 passage-based single, 8 numeric). 98 from key, 10 solved (chem P1 q06/q07, math P1 s3 q02-q06 (the key prints letters there), math Paper 1 q05... see data zip). Difficulty scores are single-pass estimates from the statements; many questions are multi-statement and score S4.
 - Judgement calls: chem p1 s3 q06 counts only aldehydes giving a racemic alcohol from an achiral carbonyl (3); math p1 s3 q02 lower bound 11 roots gives 11/3 = 3.67 (key letter row unusable).
+## 2026-10-23 TOAS - Test 09 (30 May 2022)
+- Key: one page for both papers; P2 numeric rows had junk letters and several omitted items (solved 30 numerics). P2 chem s2 q09 key says 1 but solving gives 0.50 (stored solved value).
+- Difficulty was assigned with section defaults plus manual overrides; reasons are generic, recheck if rescoring.
