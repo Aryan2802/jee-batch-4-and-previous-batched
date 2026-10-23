@@ -10,7 +10,8 @@
    ],
    "status": "done",
    "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
-   "note": "114 questions; 105 from key, 9 solved; difficulty added: Easy 20/Medium 40/Hard 50/Very hard 4; all chapters of Papers 1-2"
+   "note": "114 questions; 105 from key, 9 solved; difficulty added: Easy 20/Medium 40/Hard 50/Very hard 4; all chapters of Papers 1-2",
+   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
   },
   {
    "name": "TOAS - Test 01 (30 Jan 2022)",
