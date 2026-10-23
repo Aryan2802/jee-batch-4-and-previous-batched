@@ -62,8 +62,11 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 04 (15 Mar 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "TOAS 04 done: Very Challenging, 2 papers, 13 pages, 57 figs, lint PASS"
+   "status": "in_progress",
+   "conv_note": "TOAS 04 done: Very Challenging, 2 papers, 13 pages, 57 figs, lint PASS",
+   "started_at": "2026-10-23T16:43:45Z",
+   "claimed_by": "s4",
+   "progress_note": "starting"
   },
   {
    "name": "TOAS - Test 05 (03 Apr 2022)",
