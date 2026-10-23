@@ -165,3 +165,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 ## TEAS - Test 01 (16 Apr 2023)
 - Key page holds two papers (Paper 1 main style, Paper 2 advanced style); the converted test is the advanced-style Paper 2 (6 MCQ + 4 passage + 8 numeric per subject): use the second block.
 - Missing chem numerics solved (X/Y = 2; isomers of Pt complex = 14; froth flotation = 3 with CuSO4 as the only activator; reactions matched = 5).
+## TMAS - Test 01 (09 Jul 2023)
+- Single-correct Paper 1 (20 MCQ + 10 numeric per subject) plus a Paper 2 with matching passages (3-column tables, three questions per passage). Key lists all MCQ letters and some numerics; solved the missing physics (4) and chemistry (7) numerics.
+- Chem p1 s2 q10 (identify A from the picture only): the picture shows just a chloroketone; banked 132.5 as solved and unverified. p1_chem_s2_q07 key 8 implies the cell volume unit 1e-28 m3, not 1e-27 as printed.
+- Reading budget: this test cost far more than earlier ones (144 questions); keep each diff entry short.
