@@ -195,11 +195,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 17 (18 Sep 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 78 figs",
-   "started_at": "2026-10-23T19:01:42Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "144 questions; 135 from key, 9 solved; bands Easy 77/Medium 52/Hard 15/Very hard 0; chapters C04 C05 C06 C07 C09 C11 C12 C13 C14 C17 C19 C20 C21 C22 C24 C29 C31 C32 C33 C35 C36 C37 C38 M04 M05 M07 M08 M14 M20 M21 M22 M24 M25 M26 M27 M28 M29 M30 M31 M32 P03 P06 P08 P10 P11 P12 P17 P18 P19 P20 P22"
   },
   {
    "name": "TOAS - Test 18 (30 Oct 2022)",
