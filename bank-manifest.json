@@ -30,10 +30,13 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Challenging/TOAS - Test 02 (13 Feb 2022).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "Done: single paper, 54 Qs, 31 figs, lint PASS, visual QA all 7 pages",
    "note": "54 questions; 37 from key, 17 solved; difficulty Easy 5/Medium 21/Hard 26/Very hard 2; chapters P01 P04 P17 P19 C01 C12 C15 C17 C18 C19 C31 C35 C36 M01 M03 M04 M10 M17 M18 M19 M20 M28",
-   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
+   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay",
+   "started_at": "2026-10-23T17:57:05Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
   },
   {
    "name": "TOAS - Test 03 (27 Feb 2022)",
