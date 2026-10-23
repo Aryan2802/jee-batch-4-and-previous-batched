@@ -558,11 +558,9 @@
    "src_rel": [
     "Batch 4/Source/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 01 (04 Nov 2020).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 54 figs",
-   "started_at": "2026-10-23T21:16:25Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 107 from key, 1 solved; bands Easy 16/Medium 7/Hard 36/Very hard 49; chapters C04 C05 C06 C10 C14 C16 C22 C23 C24 C25 C27 C30 C32 C35 C36 C38 M01 M03 M10 M11 M20 P01 P02 P03 P04 P05"
   },
   {
    "name": "Enthusiast Pre-Score - Test 02 (11 Nov 2020)",
