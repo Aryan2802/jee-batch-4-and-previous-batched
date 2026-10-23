@@ -1152,8 +1152,11 @@
    "src_rel": [
     "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 11 (03 Oct 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-20, 7pp, 25 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-20, 7pp, 25 figs",
+   "started_at": "2026-10-23T23:40:00Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "SRGBT - Test 12 (10 Oct 2021)",
