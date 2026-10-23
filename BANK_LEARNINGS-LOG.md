@@ -123,3 +123,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Key page for both papers is incomplete: P2 physics section I lists only Q1-Q2 (Q3-Q6 solved: A,B,D / A,B,D / A,B / B,C); P2 chemistry section I MCQ are missing entirely (all six solved) and section II Q3 is missing (solved 7). Numeric blocks of P2 are printed in the order section III then II (e.g. phys 1,5,1,3,2,1 then 0.37,...), mapped by solving. P1 maths numeric Q3-Q6 are letters (junk): solved 5, 0.74 (2/e), 0.74 (2/e), 0.
 - P1 chemistry Q5 ("which set is correct", key B) reads as an INCORRECT-type question (Hall-Heroult is electrolysis); key kept as printed.
 - P2 chemistry S1 Q1 (HVZ) taken as multi-correct (B,C) since both acids have an alpha hydrogen.
+## 23 Oct 2026 TOAS - Test 16 (04 Sep 2022)
+- Passage test with sections I(i), I(ii), II(i), II(ii) in each paper. Key is one page; the numeric blocks skip entries (P1 phys Q5 of the third block, P1 chem S3 Q1-Q3 and Q5, P2 phys S3 Q1/Q3/Q5, P2 chem S3 Q3): all solved. Stray letter entries inside the maths numeric rows (P1 "Q3 D Q4 A", P2 "Q2 A,C,D Q4 B,C Q5 A,D Q6 B,C,D") are junk and were ignored; the numeric values were re-solved and match.
+- P1 physics Q4 (solenoid tensile limit): derived I_max = sqrt(2F0/(mu0 n R)) (option D) from p = mu0 n^2 I^2 / 2; the printed key A lacks the factor 2; banked as solved D.
+- P1 chem S3 Q2 (nitroprusside linkage isomers) banked as 1 from two linkage isomers of NOS; no key printed.
