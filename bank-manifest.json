@@ -63,10 +63,13 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Very Challenging/TOAS - Test 05 (03 Apr 2022).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "17pp, 81 figs, QA ok",
    "note": "144 questions; 133 from key, 11 solved; difficulty Easy 26/Medium 60/Hard 51/Very hard 7",
-   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
+   "fix_note": "rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay",
+   "started_at": "2026-10-23T18:04:43Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty (audit 23 Oct, see BANK_LEARNINGS.md CALIBRATION): redo difficulty.tsv in the concepts/steps format; chapters, subtopics and answers stay"
   },
   {
    "name": "TOAS - Test 06 (17 Apr 2022)",
