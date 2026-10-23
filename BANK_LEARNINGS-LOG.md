@@ -154,3 +154,7 @@ ANCHOR [v2] Mathematics D8: TOAS - Test 14 p1_math_s2_q04: 2 3 2 1 F1: concepts:
 - Key rows for Paper 2 numerics again list Section III before Section II: confirmed by solving (math s2 q1 = 0.50 via telescoping; phys s2 q6 work = 0.50 J). Paper 1 key has no entries for physics s3 passage numerics and math s3 q1, q2: solved (physics: plate k, bicycle chain, wedge blocks; maths: 3 and 3).
 - Chem p1 s3 q3 key 70.32 is degrees and minutes (70 deg 32 min = 70.53 degrees).
 - Passage group ids go in chapters.tsv alongside the question ids.
+## TOPS - Test 04 (18 Dec 2022)
+- 147 questions, 15 passage groups; Paper 2 is 20 single-correct plus 10 numerics per subject. The key lists only some numerics (and prints letters in a numeric row): solved the missing ones (phys 6, chem 5, maths 4).
+- p1_chem_s4_q09 key prints 0 but the list has at least 8 non-existent species; banked solved 8. Repeats of TOPS 03 question (determinant T n) exist: duplicates merge in the build.
+- I must be 0-2 in the diff file; mk.py silently writes nothing on a K mismatch, and apply reports 'difficulty missing' for I=3 rows.
