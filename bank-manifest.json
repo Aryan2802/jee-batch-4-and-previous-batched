@@ -569,8 +569,11 @@
    "src_rel": [
     "Batch 4/Source/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 02 (11 Nov 2020).pdf"
    ],
-   "status": "pending",
-   "conv_note": "DONE 2026-10-19, 15pp, 51 figs"
+   "status": "in_progress",
+   "conv_note": "DONE 2026-10-19, 15pp, 51 figs",
+   "started_at": "2026-10-23T21:24:03Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Enthusiast Pre-Score - Test 03 (23 Nov 2020)",
