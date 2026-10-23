@@ -127,7 +127,7 @@ A showroom has 10 different pairs of expensive shoes. A thief steals 4 shoes ran
 \begin{bankq}[id=TOAS18-P1-MATH-S3-Q07, source={TOAS - Test 18 (30 Oct 2022)}, paper=1, qno=7, type=numerical, subtopic={Classical probability}, answer={6}, answer_src=solved, working={15 equally likely non-empty answer sets, success chance $1/15$ per attempt: $1-(14/15)^n\ge1/3$ gives $n\ge5.88$, so 6}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: probability of a correct subset | steps: number of non-empty subsets; probability per attempt; inequality for the number of chances}]
 In a multiple choice question there are four alternative answers of which one or more than one is correct. A candidate will get marks on the question only if he ticks all the correct answer. The candidate ticks the answers at random. The least number of chances he should be given if the probability of getting marks is greater than or equal to $\dfrac13$ is -
 \end{bankq}
-\begin{bankq}[id=TOAS18-P2-MATH-S2-Q08, source={TOAS - Test 18 (30 Oct 2022)}, paper=2, qno=8, type=multi, subtopic={Conditional probability}, answer={A,B,C,D}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: independent events | steps: probabilities of unions and intersections}]
+\begin{bankq}[id=TOAS18-P2-MATH-S2-Q08, source={TOAS - Test 18 (30 Oct 2022)}, paper=2, qno=8, type=multi, subtopic={Conditional probability}, answer={A,B,C,D}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: independent events | steps: probabilities of unions and intersections}, also_in={Star Review (Other) - Test 03 (04 Dec 2023) P2 Q1}]
 $A$ and $B$ are two independent events of an experiment, such that $P(A)=\dfrac13$, $P(B)=\dfrac14$, then
 \begin{qoptions}
 \opt{A}{$P(A\cup B)=\dfrac12$}
@@ -156,5 +156,54 @@ Three numbers are chosen at random one after another with replacement, from the 
 A number is chosen at random from the set $\{1,2,3,\ldots,1000\}$. Let $P$ be the probability that the chosen number is a multiple of $3$ or a multiple of $7$. Then the value of $[5P]$ is \underline{\hspace{0.8cm}}
 
 (Where $[.]$ denotes greatest integer function)
+\end{bankq}
+
+\section*{Star Review (Other) papers}
+\begin{bankq}[id=STAR03-P1-MATH-S1-Q01, source={Star Review (Other) - Test 03 (04 Dec 2023)}, paper=1, qno=1, type=single, subtopic={Binomial distribution}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: probability of alternating colours with replacement | steps: two possible patterns; probability of each; add}]
+A bag contains $5$ white and $3$ black balls. $4$ balls are drawn one by one, their color noted and replaced in the bag. Probability that white and black balls are drawn alternately is
+\begin{qoptions}
+\opt{A}{$\dfrac{15^2}{2^{10}}$}
+\opt{B}{$\dfrac{15^2}{2^{11}}$}
+\opt{C}{$\dfrac{15^2}{2^{12}}$}
+\opt{D}{$\dfrac{15^2}{2^{13}}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=STAR03-P1-MATH-S3-G1-2, source={Star Review (Other) - Test 03 (04 Dec 2023)}, questions={1-2}]
+Let $A,B,C$ be $3$ exhaustive events of an experimental performance such that $P(A\cap B\cap C)=0$ and $P(A\cap B)=P(B\cap C)=P(C\cap A)=d\neq0$. If $P\left(A\bar B\cup\bar AB\right)=\dfrac{17}{24}$, $P\left(C\bar A\bar B\right)=\dfrac5{24}$ and $P\left(A\bar B\bar C\right)=\dfrac8{24}$. On the basis of above information, answer the following questions :
+\end{bankpassage}
+\begin{bankq}[id=STAR03-P1-MATH-S3-Q01, source={Star Review (Other) - Test 03 (04 Dec 2023)}, paper=1, qno=1, type=numerical, subtopic={Conditional probability}, answer={0.285}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: probabilities from union of events | steps: inclusion exclusion relations; find the common probabilities; conditional probability}, group=STAR03-P1-MATH-S3-G1-2]
+The probability of occurence of event $A$ given that $B$ has occured and $C$ has not occured , is-
+\end{bankq}
+\begin{bankq}[id=STAR03-P1-MATH-S3-Q02, source={Star Review (Other) - Test 03 (04 Dec 2023)}, paper=1, qno=2, type=numerical, subtopic={Conditional probability}, answer={0.135}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: conditional probability with complementary event | steps: common probabilities; probability of the event not occurring; ratio}, group=STAR03-P1-MATH-S3-G1-2]
+The probability of occurence of event $A$ \& $B$ given that $C$ has not occured, is-
+\end{bankq}
+
+\section*{Nurture (General) papers}
+\begin{bankq}[id=NUR01-P1-MATH-S1-Q04, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=1, qno=4, type=multi, subtopic={Classical probability}, answer={D}, answer_src=solved, working={All row and column sums odd: 16 matrices out of 512 gives 1/32}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: binary matrix with odd row and column sums, classical probability | steps: parity conditions; count matrices; probability}]
+Let $A=[a_{ij}]_{3\times3}$ be a matrix where $a_{ij}\in\{0,1\}\ \forall\ 1\le i,j\le3$. Let $s_i=\sum\limits_{k=1}^{3}a_{ik}$ and $t_j=\sum\limits_{k=1}^{3}a_{kj}$ then the probability that the product $(s_1s_2s_3t_1t_2t_3)$ is an odd integer, is
+\begin{qoptions}
+\opt{A}{$\dfrac12$}
+\opt{B}{$\dfrac18$}
+\opt{C}{$\dfrac1{16}$}
+\opt{D}{$\dfrac1{32}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=NUR01-P2-MATH-S3-Q03, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=2, qno=3, type=single, subtopic={Classical probability}, answer={A}, answer_src=solved, working={20 points; pairs of equal parity classes 42 over C(20,2)=190: 21/95}, difficulty=6, diff_parts={K2 S2 I2 C1 F0}, diff_note={concepts: midpoint of two lattice points, classical probability | steps: parity classes; same class pairs; probability}]
+The probability that mid point of the line segment of two points chosen belongs to $S$ is
+\begin{qoptions}
+\opt{A}{$\dfrac{21}{95}$}
+\opt{B}{$\dfrac{42}{95}$}
+\opt{C}{$\dfrac{36}{95}$}
+\opt{D}{None of these}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=NUR01-P2-MATH-S3-Q04, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=2, qno=4, type=single, subtopic={Classical probability}, answer={B}, answer_src=solved, working={16 favourable of 40 pairs on a vertical line: 2/5}, difficulty=6, diff_parts={K2 S2 I2 C1 F0}, diff_note={concepts: midpoint on a vertical line, classical probability | steps: count the pairs; parity of y; probability}]
+If two points $(x_1,y_1)$ and $(x_2,y_2)$ are chosen such that $x_1=x_2$ and $y_1\neq y_2$ then probability that mid point of these two points belongs to $S$, is
+\begin{qoptions}
+\opt{A}{$\dfrac15$}
+\opt{B}{$\dfrac25$}
+\opt{C}{$\dfrac8{15}$}
+\opt{D}{$\dfrac8{95}$}
+\end{qoptions}
 \end{bankq}
 \end{document}
