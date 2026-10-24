@@ -1993,8 +1993,11 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 04 (04 Apr 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done"
+   "status": "in_progress",
+   "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done",
+   "started_at": "2026-10-24T07:49:54Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 05 (11 Apr 2021)",
