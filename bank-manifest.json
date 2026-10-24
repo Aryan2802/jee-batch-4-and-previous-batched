@@ -1549,8 +1549,11 @@
     "Score 2/Source/Mains/Foundational/Score-II - Test 17 (13 Feb 2024) - part1.pdf",
     "Score 2/Source/Mains/Foundational/Score-II - Test 17 (13 Feb 2024) - part2.pdf"
    ],
-   "status": "pending",
-   "conv_note": "Mains Foundational (two part-files); 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 41 figures"
+   "status": "in_progress",
+   "conv_note": "Mains Foundational (two part-files); 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 41 figures",
+   "started_at": "2026-10-24T00:09:44Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 19 (20 Feb 2024)",
