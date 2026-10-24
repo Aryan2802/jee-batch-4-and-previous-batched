@@ -1758,8 +1758,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 07 (04 Feb 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Paper-1 only; 6 pages; 34 figs; lint PASS, all pages QA'd"
+   "status": "in_progress",
+   "conv_note": "Paper-1 only; 6 pages; 34 figs; lint PASS, all pages QA'd",
+   "started_at": "2026-10-24T00:38:15Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 08 (09 Feb 2022)",
