@@ -1449,13 +1449,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 14 (06 Feb 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-integer = 19Q/part, 5",
-   "note": "57 questions; 55 from key, 2 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C03 C07 C09 C10 C11 C15 C16 C20 C25 C33 C36 C37 M03 M04 M06 M07 M13 M16 M17 M21 M23 M25 M26 M27 M28 M29 P04 P05 P08 P10 P15 P17 P18 P19 P20 P21 P22",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T05:10:32Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "v4 rescore; key ranges restored"
   },
   {
    "name": "Score-II - Test 16 (09 Feb 2024)",
