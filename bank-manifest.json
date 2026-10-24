@@ -1394,8 +1394,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 16 (09 Feb 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct (2 paragraphs) + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-intege"
+   "status": "in_progress",
+   "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct (2 paragraphs) + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-intege",
+   "started_at": "2026-10-24T00:01:13Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 21 (14 Mar 2024)",
