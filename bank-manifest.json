@@ -21,7 +21,8 @@
    ],
    "status": "done",
    "conv_note": "Done: 2 papers, 168 Qs, 76 figs, lint PASS, visual QA all 14 pages",
-   "note": "147 questions; 126 from key, 21 solved; difficulty rescored per 23 Oct audit: Easy 116/Medium 26/Hard 5/Very hard 0; chapters P07 P17 C01 C12 C14 C15 C18 C19 C29 C30 C35 M01 M03 M04 M05 M10 M11 M13 M15 M20"
+   "note": "147 questions; 126 from key, 21 solved; difficulty rescored per 23 Oct audit: Easy 116/Medium 26/Hard 5/Very hard 0; chapters P07 P17 C01 C12 C14 C15 C18 C19 C29 C30 C35 M01 M03 M04 M05 M10 M11 M13 M15 M20",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "TOAS - Test 02 (13 Feb 2022)",
@@ -87,7 +88,8 @@
    ],
    "status": "done",
    "conv_note": "12 pp, 56 figs, QA ok",
-   "note": "114 questions; difficulty rescored per 23 Oct audit: Easy 82/Medium 30/Hard 2/Very hard 0 (chapters, subtopics, answers unchanged)"
+   "note": "114 questions; difficulty rescored per 23 Oct audit: Easy 82/Medium 30/Hard 2/Very hard 0 (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "TOAS - Test 08 (15 May 2022)",
@@ -318,7 +320,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 97 figs",
-   "note": "144 questions; 133 from key, 11 solved; bands Easy 27/Medium 58/Hard 47/Very hard 12; chapters C03 C04 C06 C09 C11 C12 C14 C15 C16 C17 C19 C20 C21 C30 C31 C36 M11 M12 M13 M14 M20 M21 M22 M23 M24 M25 P06 P08 P10"
+   "note": "144 questions; 133 from key, 11 solved; bands Easy 27/Medium 58/Hard 47/Very hard 12; chapters C03 C04 C06 C09 C11 C12 C14 C15 C16 C17 C19 C20 C21 C30 C31 C36 M11 M12 M13 M14 M20 M21 M22 M23 M24 M25 P06 P08 P10",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "TMAS - Test 02 (06 Aug 2023)",
@@ -362,7 +365,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 90 figs",
-   "note": "144 questions; 135 from key, 9 solved; bands Easy 29/Medium 66/Hard 48/Very hard 1; chapters C01 C02 C03 C06 C07 C08 C14 C15 C17 C18 C24 C30 C36 M01 M03 M04 M05 M10 M12 M13 M15 M16 M17 M18 M19 M20 M24 P02 P03 P04 P05 P07 P13 P14 P15 P16 P17 P19 P23"
+   "note": "144 questions; 135 from key, 9 solved; bands Easy 29/Medium 66/Hard 48/Very hard 1; chapters C01 C02 C03 C06 C07 C08 C14 C15 C17 C18 C24 C30 C36 M01 M03 M04 M05 M10 M12 M13 M15 M16 M17 M18 M19 M20 M24 P02 P03 P04 P05 P07 P13 P14 P15 P16 P17 P19 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "TNAS - Test 02 (07 May 2023)",
@@ -406,7 +410,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 49 figs",
-   "note": "144 questions; 133 from key, 11 solved; bands Easy 32/Medium 58/Hard 32/Very hard 22; chapters C02 C04 C05 C06 C09 C11 C15 C16 C17 C18 C19 C21 C24 C25 C30 C31 C36 M01 M05 M14 M15 M20 M21 M22 M23 M24 M25 M26 M27 M29 P06 P08 P09 P10 P11 P12 P14 P15 P17 P18 P20"
+   "note": "144 questions; 133 from key, 11 solved; bands Easy 32/Medium 58/Hard 32/Very hard 22; chapters C02 C04 C05 C06 C09 C11 C15 C16 C17 C18 C19 C21 C24 C25 C30 C31 C36 M01 M05 M14 M15 M20 M21 M22 M23 M24 M25 M26 M27 M29 P06 P08 P09 P10 P11 P12 P14 P15 P17 P18 P20",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "TNAS - Test 06 (30 Jul 2023)",
@@ -483,7 +488,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 55 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 7/Medium 29/Hard 17/Very hard 1; chapters C14 C15 C17 C18 C26 M14 M20 M21 M22 M23 P06 P08 P09 P10 P13"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 7/Medium 29/Hard 17/Very hard 1; chapters C14 C15 C17 C18 C26 M14 M20 M21 M22 M23 P06 P08 P09 P10 P13",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Internal Test - Test 03 (08 Sep 2021)",
@@ -516,7 +522,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 87 figs",
-   "note": "108 questions; 23 from key, 85 solved; bands Easy 2/Medium 37/Hard 55/Very hard 14; chapters C14 C15 C16 C17 C18 C19 C22 C23 C30 C34 M02 M04 M09 M17 M18 M19 M25 P03 P07 P13 P14 P17 P18 P23"
+   "note": "108 questions; 23 from key, 85 solved; bands Easy 2/Medium 37/Hard 55/Very hard 14; chapters C14 C15 C16 C17 C18 C19 C22 C23 C30 C34 M02 M04 M09 M17 M18 M19 M25 P03 P07 P13 P14 P17 P18 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Nurture (General) - Test 01 (12 Jun 2021)",
@@ -527,7 +534,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 46 figs",
-   "note": "108 questions; 7 from key, 101 solved; bands Easy 21/Medium 20/Hard 50/Very hard 17; chapters C02 C03 C04 C06 C07 C09 C10 C11 C13 C15 C16 C18 C20 C21 C23 C25 C27 C29 C31 C32 C33 C35 C36 C37 C38 M01 M04 M05 M06 M07 M13 M14 M16 M17 M18 M19 M20 M22 M23 M25 M26 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21"
+   "note": "108 questions; 7 from key, 101 solved; bands Easy 21/Medium 20/Hard 50/Very hard 17; chapters C02 C03 C04 C06 C07 C09 C10 C11 C13 C15 C16 C18 C20 C21 C23 C25 C27 C29 C31 C32 C33 C35 C36 C37 C38 M01 M04 M05 M06 M07 M13 M14 M16 M17 M18 M19 M20 M22 M23 M25 M26 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Nurture (General) - Test 03 (27 Sep 2023)",
@@ -560,7 +568,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 54 figs",
-   "note": "108 questions; 107 from key, 1 solved; bands Easy 16/Medium 7/Hard 36/Very hard 49; chapters C04 C05 C06 C10 C14 C16 C22 C23 C24 C25 C27 C30 C32 C35 C36 C38 M01 M03 M10 M11 M20 P01 P02 P03 P04 P05"
+   "note": "108 questions; 107 from key, 1 solved; bands Easy 16/Medium 7/Hard 36/Very hard 49; chapters C04 C05 C06 C10 C14 C16 C22 C23 C24 C25 C27 C30 C32 C35 C36 C38 M01 M03 M10 M11 M20 P01 P02 P03 P04 P05",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Enthusiast Pre-Score - Test 02 (11 Nov 2020)",
@@ -571,7 +580,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 15pp, 51 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 7/Medium 14/Hard 51/Very hard 36; chapters C07 C08 C10 C15 C16 C17 C20 C22 C24 C31 C33 C37 M10 M11 M12 M13 M14 P06 P08 P09 P10 P25"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 7/Medium 14/Hard 51/Very hard 36; chapters C07 C08 C10 C15 C16 C17 C20 C22 C24 C31 C33 C37 M10 M11 M12 M13 M14 P06 P08 P09 P10 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Enthusiast Pre-Score - Test 03 (23 Nov 2020)",
@@ -582,7 +592,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 15pp, 71 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 3/Medium 11/Hard 52/Very hard 42; chapters C01 C03 C09 C11 C14 C16 C17 C18 C19 C31 C37 M04 M07 M08 M13 M15 M16 P04 P07 P09 P11 P12 P17 P18"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 3/Medium 11/Hard 52/Very hard 42; chapters C01 C03 C09 C11 C14 C16 C17 C18 C19 C31 C37 M04 M07 M08 M13 M15 M16 P04 P07 P09 P11 P12 P17 P18",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 01 (22 Sep 2020)",
@@ -593,7 +604,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 15pp, 57 figs",
-   "note": "120 questions; 120 from key, 0 solved; bands Easy 14/Medium 10/Hard 62/Very hard 34; chapters C01 C02 C03 C04 C05 C06 C08 C10 C11 C15 C16 C17 C18 C20 C22 C24 C25 C30 C31 C32 C33 C36 C38 M01 M02 M03 M04 M06 M07 M12 M13 M16 M17 M18 M19 M20 M22 M25 M27 M29 M30 M31 M32 P01 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P17 P18 P19 P20 P21 P25"
+   "note": "120 questions; 120 from key, 0 solved; bands Easy 14/Medium 10/Hard 62/Very hard 34; chapters C01 C02 C03 C04 C05 C06 C08 C10 C11 C15 C16 C17 C18 C20 C22 C24 C25 C30 C31 C32 C33 C36 C38 M01 M02 M03 M04 M06 M07 M12 M13 M16 M17 M18 M19 M20 M22 M25 M27 M29 M30 M31 M32 P01 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P17 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 02 (13 May 2021)",
@@ -615,7 +627,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 55 figs",
-   "note": "144 questions; 0 from key, 144 solved; bands Easy 64/Medium 29/Hard 45/Very hard 6; chapters C03 C04 C05 C08 C16 C17 C23 C24 C25 C26 C27 C28 C35 C37 C38 M07 M08 M24 M25 M26 M27 M28 M29 P01 P02 P03 P04 P05 P17 P21"
+   "note": "144 questions; 0 from key, 144 solved; bands Easy 64/Medium 29/Hard 45/Very hard 6; chapters C03 C04 C05 C08 C16 C17 C23 C24 C25 C26 C27 C28 C35 C37 C38 M07 M08 M24 M25 M26 M27 M28 M29 P01 P02 P03 P04 P05 P17 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 04 (04 Jul 2021)",
@@ -648,7 +661,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 55 figs",
-   "note": "108 questions; 100 from key, 8 solved; bands Easy 3/Medium 27/Hard 37/Very hard 41; chapters C02 C03 C04 C07 C09 C10 C11 C12 C15 C16 C17 C20 C21 C22 C23 C27 C29 C30 C32 C33 C35 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M13 M14 M15 M17 M19 M20 M23 M24 M27 M29 M32 P01 P02 P03 P04 P05 P07 P08 P09 P10 P11 P12 P14 P17 P18 P19 P20 P21 P23 P25"
+   "note": "108 questions; 100 from key, 8 solved; bands Easy 3/Medium 27/Hard 37/Very hard 41; chapters C02 C03 C04 C07 C09 C10 C11 C12 C15 C16 C17 C20 C21 C22 C23 C27 C29 C30 C32 C33 C35 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M13 M14 M15 M17 M19 M20 M23 M24 M27 M29 M32 P01 P02 P03 P04 P05 P07 P08 P09 P10 P11 P12 P14 P17 P18 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 07 (16 Apr 2023)",
@@ -659,7 +673,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 14pp, 77 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 15/Hard 34/Very hard 59; chapters C01 C04 C06 C07 C10 C11 C12 C13 C14 C17 C18 C20 C21 C22 C23 C25 C30 C31 C32 C33 C35 C36 M01 M03 M04 M05 M06 M07 M08 M14 M15 M16 M17 M18 M20 M21 M23 M24 M26 M27 M29 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P15 P18 P19 P20 P21 P23 P25"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 15/Hard 34/Very hard 59; chapters C01 C04 C06 C07 C10 C11 C12 C13 C14 C17 C18 C20 C21 C22 C23 C25 C30 C31 C32 C33 C35 C36 M01 M03 M04 M05 M06 M07 M08 M14 M15 M16 M17 M18 M20 M21 M23 M24 M26 M27 M29 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P15 P18 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 08 (22 Apr 2023)",
@@ -670,7 +685,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 55 figs",
-   "note": "108 questions; 99 from key, 9 solved; bands Easy 1/Medium 20/Hard 28/Very hard 59; chapters C03 C04 C09 C10 C11 C12 C14 C15 C17 C20 C21 C24 C25 C29 C30 C31 C32 C36 C37 M01 M02 M03 M04 M05 M06 M08 M10 M11 M12 M14 M17 M20 M21 M23 M25 M26 M27 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P12 P13 P16 P17 P18 P19 P20 P21 P22 P25"
+   "note": "108 questions; 99 from key, 9 solved; bands Easy 1/Medium 20/Hard 28/Very hard 59; chapters C03 C04 C09 C10 C11 C12 C14 C15 C17 C20 C21 C24 C25 C29 C30 C31 C32 C36 C37 M01 M02 M03 M04 M05 M06 M08 M10 M11 M12 M14 M17 M20 M21 M23 M25 M26 M27 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P12 P13 P16 P17 P18 P19 P20 P21 P22 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 09 (29 Apr 2023)",
@@ -692,7 +708,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 52 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 1/Medium 18/Hard 19/Very hard 70; chapters C02 C03 C04 C06 C07 C08 C09 C10 C11 C12 C17 C18 C19 C20 C21 C22 C24 C26 C27 C30 C31 C32 C33 C35 C36 C37 M01 M02 M04 M05 M06 M07 M08 M12 M15 M16 M18 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21 P23 P25"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 1/Medium 18/Hard 19/Very hard 70; chapters C02 C03 C04 C06 C07 C08 C09 C10 C11 C12 C17 C18 C19 C20 C21 C22 C24 C26 C27 C30 C31 C32 C33 C35 C36 C37 M01 M02 M04 M05 M06 M07 M08 M12 M15 M16 M18 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 11 (09 May 2023)",
@@ -703,7 +720,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 6pp, 25 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 4/Hard 13/Very hard 37; chapters C02 C03 C08 C09 C10 C12 C14 C17 C18 C20 C24 C31 C32 C35 C36 M02 M03 M05 M07 M08 M11 M12 M13 M14 M15 M18 M19 M27 M28 M32 P01 P02 P04 P05 P07 P08 P11 P15 P17 P18 P19 P20 P21 P23"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 4/Hard 13/Very hard 37; chapters C02 C03 C08 C09 C10 C12 C14 C17 C18 C20 C24 C31 C32 C35 C36 M02 M03 M05 M07 M08 M11 M12 M13 M14 M15 M18 M19 M27 M28 M32 P01 P02 P04 P05 P07 P08 P11 P15 P17 P18 P19 P20 P21 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 12 (11 May 2023)",
@@ -714,7 +732,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 18 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 9/Hard 11/Very hard 34; chapters C02 C03 C07 C08 C12 C13 C14 C15 C17 C20 C22 C23 C30 C33 C36 C37 M01 M02 M03 M06 M17 M19 M20 M22 M24 M25 M27 M29 M30 M31 M32 P01 P02 P04 P08 P12 P14 P16 P18 P19 P21 P23 P25"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 9/Hard 11/Very hard 34; chapters C02 C03 C07 C08 C12 C13 C14 C15 C17 C20 C22 C23 C30 C33 C36 C37 M01 M02 M03 M06 M17 M19 M20 M22 M24 M25 M27 M29 M30 M31 M32 P01 P02 P04 P08 P12 P14 P16 P18 P19 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 13 (13 May 2023)",
@@ -725,7 +744,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 48 figs",
-   "note": "114 questions; 105 from key, 9 solved; bands Easy 0/Medium 6/Hard 37/Very hard 71; chapters C01 C02 C03 C07 C10 C11 C12 C13 C15 C17 C18 C19 C20 C23 C25 C30 C31 C32 C33 C37 C38 M01 M02 M03 M05 M06 M07 M11 M12 M17 M18 M20 M21 M23 M24 M25 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P21 P22"
+   "note": "114 questions; 105 from key, 9 solved; bands Easy 0/Medium 6/Hard 37/Very hard 71; chapters C01 C02 C03 C07 C10 C11 C12 C13 C15 C17 C18 C19 C20 C23 C25 C30 C31 C32 C33 C37 C38 M01 M02 M03 M05 M06 M07 M11 M12 M17 M18 M20 M21 M23 M24 M25 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 14 (16 May 2023)",
@@ -736,7 +756,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 24 figs",
-   "note": "54 questions; 48 from key, 6 solved; bands Easy 0/Medium 3/Hard 12/Very hard 39; chapters C04 C08 C09 C11 C12 C20 C21 C22 C24 C25 C30 C31 C35 C36 M02 M03 M04 M05 M07 M13 M14 M18 M20 M23 M24 M28 M30 M32 P02 P03 P04 P05 P06 P07 P08 P10 P12 P15 P17 P18 P19 P20 P21 P25"
+   "note": "54 questions; 48 from key, 6 solved; bands Easy 0/Medium 3/Hard 12/Very hard 39; chapters C04 C08 C09 C11 C12 C20 C21 C22 C24 C25 C30 C31 C35 C36 M02 M03 M04 M05 M07 M13 M14 M18 M20 M23 M24 M28 M30 M32 P02 P03 P04 P05 P06 P07 P08 P10 P12 P15 P17 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 15 (18 May 2023)",
@@ -747,7 +768,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 35 figs",
-   "note": "54 questions; 23 from key, 31 solved; bands Easy 0/Medium 3/Hard 17/Very hard 34; chapters C03 C04 C07 C11 C12 C14 C15 C17 C20 C30 C31 C32 C33 C36 M01 M02 M04 M06 M07 M11 M17 M18 M20 M21 M22 M25 M26 M27 M32 P03 P04 P05 P07 P08 P10 P11 P14 P15 P17 P18 P19 P21"
+   "note": "54 questions; 23 from key, 31 solved; bands Easy 0/Medium 3/Hard 17/Very hard 34; chapters C03 C04 C07 C11 C12 C14 C15 C17 C20 C30 C31 C32 C33 C36 M01 M02 M04 M06 M07 M11 M17 M18 M20 M21 M22 M25 M26 M27 M32 P03 P04 P05 P07 P08 P10 P11 P14 P15 P17 P18 P19 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 16 (20 May 2023)",
@@ -780,7 +802,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 62 figs",
-   "note": "108 questions; 102 from key, 6 solved; bands Easy 0/Medium 5/Hard 22/Very hard 81; chapters C03 C04 C08 C09 C10 C11 C12 C14 C15 C16 C18 C19 C20 C22 C24 C25 C30 C31 C32 C35 C36 M01 M02 M03 M04 M05 M06 M07 M10 M11 M14 M16 M17 M18 M20 M21 M24 M27 M29 M31 M32 P02 P04 P05 P06 P07 P08 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22 P25"
+   "note": "108 questions; 102 from key, 6 solved; bands Easy 0/Medium 5/Hard 22/Very hard 81; chapters C03 C04 C08 C09 C10 C11 C12 C14 C15 C16 C18 C19 C20 C22 C24 C25 C30 C31 C32 C35 C36 M01 M02 M03 M04 M05 M06 M07 M10 M11 M14 M16 M17 M18 M20 M21 M24 M27 M29 M31 M32 P02 P04 P05 P06 P07 P08 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 19 (04 Apr 2024)",
@@ -791,7 +814,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 36 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 1/Hard 12/Very hard 41; chapters C02 C06 C07 C08 C09 C10 C12 C13 C15 C17 C18 C23 C25 C31 C33 C35 C36 M01 M04 M06 M07 M11 M12 M16 M21 M25 M28 M29 M31 M32 P01 P05 P06 P07 P08 P11 P12 P15 P16 P18 P19 P21 P25"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 1/Hard 12/Very hard 41; chapters C02 C06 C07 C08 C09 C10 C12 C13 C15 C17 C18 C23 C25 C31 C33 C35 C36 M01 M04 M06 M07 M11 M12 M16 M21 M25 M28 M29 M31 M32 P01 P05 P06 P07 P08 P11 P12 P15 P16 P18 P19 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 20 (06 Apr 2024)",
@@ -802,7 +826,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 23 figs",
-   "note": "54 questions; 51 from key, 3 solved; bands Easy 0/Medium 0/Hard 8/Very hard 46; chapters C04 C08 C09 C11 C12 C20 C21 C24 C25 C30 C35 C36 C37 M02 M03 M04 M05 M07 M13 M14 M17 M18 M20 M23 M24 M28 M30 M32 P02 P03 P04 P05 P06 P07 P08 P10 P12 P15 P17 P18 P19 P20 P21 P25"
+   "note": "54 questions; 51 from key, 3 solved; bands Easy 0/Medium 0/Hard 8/Very hard 46; chapters C04 C08 C09 C11 C12 C20 C21 C24 C25 C30 C35 C36 C37 M02 M03 M04 M05 M07 M13 M14 M17 M18 M20 M23 M24 M28 M30 M32 P02 P03 P04 P05 P06 P07 P08 P10 P12 P15 P17 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 21 (08 Apr 2024)",
@@ -813,7 +838,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 28 figs",
-   "note": "57 questions; 54 from key, 3 solved; bands Easy 0/Medium 2/Hard 12/Very hard 43; chapters C02 C03 C04 C06 C10 C11 C17 C19 C22 C30 C33 C36 C37 M01 M02 M03 M06 M11 M20 M21 M26 M27 M28 M31 M32 P02 P04 P05 P08 P09 P10 P11 P12 P13 P14 P19 P20 P21"
+   "note": "57 questions; 54 from key, 3 solved; bands Easy 0/Medium 2/Hard 12/Very hard 43; chapters C02 C03 C04 C06 C10 C11 C17 C19 C22 C30 C33 C36 C37 M01 M02 M03 M06 M11 M20 M21 M26 M27 M28 M31 M32 P02 P04 P05 P08 P09 P10 P11 P12 P13 P14 P19 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 22 (10 Apr 2024)",
@@ -824,7 +850,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 15pp, 86 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 5/Hard 45/Very hard 58; chapters C08 C14 C15 C16 C17 C18 C19 C20 C21 C23 C25 C27 C30 C31 C33 C35 C36 C37 C38 M01 M02 M03 M05 M07 M10 M15 M17 M18 M20 M23 M24 M25 M27 M28 M29 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P17 P18 P25"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 5/Hard 45/Very hard 58; chapters C08 C14 C15 C16 C17 C18 C19 C20 C21 C23 C25 C27 C30 C31 C33 C35 C36 C37 C38 M01 M02 M03 M05 M07 M10 M15 M17 M18 M20 M23 M24 M25 M27 M28 M29 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P17 P18 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 23 (14 Apr 2024)",
@@ -835,7 +862,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 49 figs",
-   "note": "114 questions; 95 from key, 19 solved; bands Easy 0/Medium 5/Hard 30/Very hard 79; chapters C02 C03 C04 C07 C08 C09 C10 C11 C12 C13 C15 C16 C17 C23 C24 C25 C27 C29 C30 C31 C33 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M11 M12 M15 M16 M17 M18 M20 M23 M25 M26 M27 M29 M31 M32 P01 P02 P04 P07 P08 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21 P22 P23"
+   "note": "114 questions; 95 from key, 19 solved; bands Easy 0/Medium 5/Hard 30/Very hard 79; chapters C02 C03 C04 C07 C08 C09 C10 C11 C12 C13 C15 C16 C17 C23 C24 C25 C27 C29 C30 C31 C33 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M11 M12 M15 M16 M17 M18 M20 M23 M25 M26 M27 M29 M31 M32 P01 P02 P04 P07 P08 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21 P22 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 24 (17 Apr 2024)",
@@ -846,7 +874,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 10pp, 39 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 5/Hard 23/Very hard 80; chapters C01 C02 C03 C06 C08 C09 C10 C12 C14 C15 C16 C17 C18 C19 C21 C29 C30 C31 C37 M01 M03 M04 M05 M06 M07 M08 M13 M14 M15 M16 M17 M20 M22 M25 M26 M27 M28 M30 M31 M32 P01 P02 P03 P05 P07 P08 P09 P10 P12 P14 P15 P16 P17 P18 P19 P20 P21 P23 P25"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 5/Hard 23/Very hard 80; chapters C01 C02 C03 C06 C08 C09 C10 C12 C14 C15 C16 C17 C18 C19 C21 C29 C30 C31 C37 M01 M03 M04 M05 M06 M07 M08 M13 M14 M15 M16 M17 M20 M22 M25 M26 M27 M28 M30 M31 M32 P01 P02 P03 P05 P07 P08 P09 P10 P12 P14 P15 P16 P17 P18 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 25 (21 Apr 2024)",
@@ -857,7 +886,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 58 figs",
-   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 0/Hard 47/Very hard 55; chapters C01 C02 C03 C04 C07 C09 C10 C11 C15 C16 C17 C18 C20 C22 C25 C29 C30 C31 C32 C33 C36 C37 M01 M02 M04 M05 M06 M07 M08 M12 M16 M17 M19 M20 M21 M22 M27 M28 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 0/Hard 47/Very hard 55; chapters C01 C02 C03 C04 C07 C09 C10 C11 C15 C16 C17 C18 C20 C22 C25 C29 C30 C31 C32 C33 C36 C37 M01 M02 M04 M05 M06 M07 M08 M12 M16 M17 M19 M20 M21 M22 M27 M28 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 26 (21 Apr 2024)",
@@ -868,7 +898,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 61 figs",
-   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 0/Hard 47/Very hard 55; chapters C01 C02 C03 C04 C07 C09 C10 C11 C15 C16 C17 C18 C20 C22 C25 C29 C30 C31 C32 C33 C36 C37 M01 M02 M04 M05 M06 M07 M08 M12 M16 M17 M19 M20 M21 M22 M27 M28 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 0/Hard 47/Very hard 55; chapters C01 C02 C03 C04 C07 C09 C10 C11 C15 C16 C17 C18 C20 C22 C25 C29 C30 C31 C32 C33 C36 C37 M01 M02 M04 M05 M06 M07 M08 M12 M16 M17 M19 M20 M21 M22 M27 M28 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 27 (24 Apr 2024)",
@@ -879,7 +910,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 67 figs",
-   "note": "108 questions; 54 from key, 54 solved; bands Easy 0/Medium 3/Hard 36/Very hard 69; chapters C02 C03 C04 C06 C07 C08 C11 C12 C13 C15 C16 C17 C18 C20 C24 C30 C31 C32 C33 C36 C37 M02 M03 M06 M07 M08 M10 M11 M12 M14 M15 M16 M17 M18 M19 M20 M21 M23 M25 M27 M29 M31 M32 P02 P03 P04 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P21 P23"
+   "note": "108 questions; 54 from key, 54 solved; bands Easy 0/Medium 3/Hard 36/Very hard 69; chapters C02 C03 C04 C06 C07 C08 C11 C12 C13 C15 C16 C17 C18 C20 C24 C30 C31 C32 C33 C36 C37 M02 M03 M06 M07 M08 M10 M11 M12 M14 M15 M16 M17 M18 M19 M20 M21 M23 M25 M27 M29 M31 M32 P02 P03 P04 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P21 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 28 (27 Apr 2024)",
@@ -890,7 +922,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 77 figs",
-   "note": "108 questions; 91 from key, 17 solved; bands Easy 0/Medium 0/Hard 25/Very hard 83; chapters C02 C03 C04 C07 C09 C10 C11 C12 C15 C16 C17 C18 C19 C22 C24 C25 C27 C31 C32 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M14 M18 M20 M21 M22 M23 M24 M28 M29 M32 P01 P02 P03 P04 P06 P07 P08 P09 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P25"
+   "note": "108 questions; 91 from key, 17 solved; bands Easy 0/Medium 0/Hard 25/Very hard 83; chapters C02 C03 C04 C07 C09 C10 C11 C12 C15 C16 C17 C18 C19 C22 C24 C25 C27 C31 C32 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M14 M18 M20 M21 M22 M23 M24 M28 M29 M32 P01 P02 P03 P04 P06 P07 P08 P09 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 29 (01 May 2024)",
@@ -901,7 +934,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 40 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 0/Hard 24/Very hard 84; chapters C02 C03 C07 C08 C09 C10 C12 C13 C14 C15 C17 C18 C20 C22 C23 C24 C30 C31 C32 C33 C35 C36 C37 M01 M02 M03 M06 M07 M08 M11 M12 M13 M14 M17 M18 M19 M20 M21 M22 M23 M24 M25 M27 M28 M29 M30 M31 M32 P01 P02 P04 P05 P07 P08 P11 P12 P14 P15 P16 P17 P18 P19 P20 P21 P23 P25"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 0/Hard 24/Very hard 84; chapters C02 C03 C07 C08 C09 C10 C12 C13 C14 C15 C17 C18 C20 C22 C23 C24 C30 C31 C32 C33 C35 C36 C37 M01 M02 M03 M06 M07 M08 M11 M12 M13 M14 M17 M18 M19 M20 M21 M22 M23 M24 M25 M27 M28 M29 M30 M31 M32 P01 P02 P04 P05 P07 P08 P11 P12 P14 P15 P16 P17 P18 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 30 (04 May 2024)",
@@ -912,7 +946,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 51 figs",
-   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 29/Hard 0/Very hard 73; chapters C02 C03 C04 C07 C08 C10 C11 C12 C15 C16 C17 C18 C19 C20 C22 C23 C25 C29 C30 C31 C33 C37 M01 M02 M03 M04 M05 M06 M07 M09 M14 M16 M17 M19 M20 M21 M27 M28 M29 M30 P01 P02 P04 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 29/Hard 0/Very hard 73; chapters C02 C03 C04 C07 C08 C10 C11 C12 C15 C16 C17 C18 C19 C20 C22 C23 C25 C29 C30 C31 C33 C37 M01 M02 M03 M04 M05 M06 M07 M09 M14 M16 M17 M19 M20 M21 M27 M28 M29 M30 P01 P02 P04 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 31 (04 May 2024)",
@@ -923,7 +958,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 50 figs",
-   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 29/Hard 0/Very hard 73; chapters C02 C03 C04 C07 C08 C10 C11 C12 C15 C16 C17 C18 C19 C20 C22 C23 C25 C29 C30 C31 C33 C37 M01 M02 M03 M04 M05 M06 M07 M09 M14 M16 M17 M19 M20 M21 M27 M28 M29 M30 P01 P02 P04 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 29/Hard 0/Very hard 73; chapters C02 C03 C04 C07 C08 C10 C11 C12 C15 C16 C17 C18 C19 C20 C22 C23 C25 C29 C30 C31 C33 C37 M01 M02 M03 M04 M05 M06 M07 M09 M14 M16 M17 M19 M20 M21 M27 M28 M29 M30 P01 P02 P04 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 32 (08 May 2024)",
@@ -934,7 +970,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 65 figs",
-   "note": "111 questions; 110 from key, 1 solved; bands Easy 0/Medium 31/Hard 3/Very hard 77; chapters C02 C03 C04 C07 C11 C12 C14 C15 C16 C17 C20 C21 C23 C24 C25 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M06 M07 M11 M16 M17 M18 M19 M20 M21 M22 M25 M26 M27 M28 M32 P01 P03 P04 P05 P06 P07 P08 P10 P11 P12 P14 P15 P16 P17 P18 P19 P21"
+   "note": "111 questions; 110 from key, 1 solved; bands Easy 0/Medium 31/Hard 3/Very hard 77; chapters C02 C03 C04 C07 C11 C12 C14 C15 C16 C17 C20 C21 C23 C24 C25 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M06 M07 M11 M16 M17 M18 M19 M20 M21 M22 M25 M26 M27 M28 M32 P01 P03 P04 P05 P06 P07 P08 P10 P11 P12 P14 P15 P16 P17 P18 P19 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 33 (12 May 2024)",
@@ -945,7 +982,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 48 figs",
-   "note": "105 questions; 105 from key, 0 solved; bands Easy 0/Medium 37/Hard 8/Very hard 60; chapters C01 C02 C03 C04 C07 C09 C10 C15 C16 C17 C19 C21 C23 C25 C29 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M11 M13 M14 M15 M16 M17 M20 M24 M25 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25"
+   "note": "105 questions; 105 from key, 0 solved; bands Easy 0/Medium 37/Hard 8/Very hard 60; chapters C01 C02 C03 C04 C07 C09 C10 C15 C16 C17 C19 C21 C23 C25 C29 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M11 M13 M14 M15 M16 M17 M20 M24 M25 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 34 (12 May 2024)",
@@ -956,7 +994,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 48 figs",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 26/Hard 16/Very hard 66; chapters C02 C03 C04 C07 C08 C09 C10 C11 C12 C15 C16 C17 C19 C21 C22 C23 C29 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M14 M16 M17 M18 M19 M20 M22 M23 M27 M29 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P19 P20 P21 P23 P25"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 26/Hard 16/Very hard 66; chapters C02 C03 C04 C07 C08 C09 C10 C11 C12 C15 C16 C17 C19 C21 C22 C23 C29 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M14 M16 M17 M18 M19 M20 M22 M23 M27 M29 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 35 (15 May 2024)",
@@ -978,7 +1017,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 55 figs",
-   "note": "105 questions; 105 from key, 0 solved; bands Easy 0/Medium 25/Hard 8/Very hard 72; chapters C02 C03 C04 C08 C10 C11 C12 C15 C16 C17 C19 C21 C22 C23 C24 C25 C27 C30 C31 C33 C36 M01 M02 M03 M04 M05 M06 M07 M10 M18 M19 M20 M22 M23 M25 M26 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P18 P19 P20 P21 P23"
+   "note": "105 questions; 105 from key, 0 solved; bands Easy 0/Medium 25/Hard 8/Very hard 72; chapters C02 C03 C04 C08 C10 C11 C12 C15 C16 C17 C19 C21 C22 C23 C24 C25 C27 C30 C31 C33 C36 M01 M02 M03 M04 M05 M06 M07 M10 M18 M19 M20 M22 M23 M25 M26 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P18 P19 P20 P21 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 37 (19 May 2024)",
@@ -989,7 +1029,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 55 figs",
-   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 36/Hard 0/Very hard 66; chapters C01 C03 C04 C07 C09 C10 C12 C15 C16 C17 C19 C21 C23 C24 C25 C27 C30 C31 C32 C33 C36 C37 M01 M02 M04 M05 M06 M07 M08 M10 M11 M13 M15 M16 M18 M22 M24 M25 M26 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 36/Hard 0/Very hard 66; chapters C01 C03 C04 C07 C09 C10 C12 C15 C16 C17 C19 C21 C23 C24 C25 C27 C30 C31 C32 C33 C36 C37 M01 M02 M04 M05 M06 M07 M08 M10 M11 M13 M15 M16 M18 M22 M24 M25 M26 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 38 (13 Apr 2025)",
@@ -1000,7 +1041,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 62 figs",
-   "note": "102 questions; 94 from key, 8 solved; bands Easy 0/Medium 36/Hard 0/Very hard 66; chapters C02 C03 C04 C09 C10 C11 C12 C13 C16 C17 C19 C20 C23 C24 C25 C27 C30 C31 C33 C36 M01 M04 M06 M07 M11 M14 M16 M17 M18 M20 M21 M22 M23 M27 M28 M31 M32 P01 P03 P04 P05 P06 P07 P08 P09 P11 P12 P13 P15 P18 P19 P20 P21 P25"
+   "note": "102 questions; 94 from key, 8 solved; bands Easy 0/Medium 36/Hard 0/Very hard 66; chapters C02 C03 C04 C09 C10 C11 C12 C13 C16 C17 C19 C20 C23 C24 C25 C27 C30 C31 C33 C36 M01 M04 M06 M07 M11 M14 M16 M17 M18 M20 M21 M22 M23 M27 M28 M31 M32 P01 P03 P04 P05 P06 P07 P08 P09 P11 P12 P13 P15 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 39 (20 Apr 2025)",
@@ -1011,7 +1053,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 55 figs",
-   "note": "114 questions; 39 from key, 75 solved; bands Easy 0/Medium 71/Hard 0/Very hard 43; chapters C01 C02 C05 C07 C10 C11 C12 C13 C15 C16 C17 C20 C25 C27 C31 C32 C33 C36 C37 M02 M03 M05 M06 M07 M08 M09 M10 M15 M19 M20 M21 M22 M23 M25 M26 M28 M32 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P21 P22 P23"
+   "note": "114 questions; 39 from key, 75 solved; bands Easy 0/Medium 71/Hard 0/Very hard 43; chapters C01 C02 C05 C07 C10 C11 C12 C13 C15 C16 C17 C20 C25 C27 C31 C32 C33 C36 C37 M02 M03 M05 M06 M07 M08 M09 M10 M15 M19 M20 M21 M22 M23 M25 M26 M28 M32 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P21 P22 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 40 (27 Apr 2025)",
@@ -1022,7 +1065,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 11pp, 58 figs",
-   "note": "108 questions; 100 from key, 8 solved; bands Easy 0/Medium 4/Hard 6/Very hard 98; chapters C01 C02 C03 C05 C07 C09 C10 C13 C15 C16 C17 C20 C21 C25 C27 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M13 M17 M18 M20 M21 M22 M23 M24 M25 M27 M28 M31 P02 P03 P05 P07 P08 P09 P10 P11 P12 P13 P14 P15 P18 P19 P20 P21 P22 P25"
+   "note": "108 questions; 100 from key, 8 solved; bands Easy 0/Medium 4/Hard 6/Very hard 98; chapters C01 C02 C03 C05 C07 C09 C10 C13 C15 C16 C17 C20 C21 C25 C27 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M13 M17 M18 M20 M21 M22 M23 M24 M25 M27 M28 M31 P02 P03 P05 P07 P08 P09 P10 P11 P12 P13 P14 P15 P18 P19 P20 P21 P22 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 41",
@@ -1033,7 +1077,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 85 figs",
-   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 36/Hard 6/Very hard 60; chapters C06 C07 C08 C09 C10 C11 C12 C16 C17 C18 C19 C20 C21 C22 C23 C25 C30 C31 C32 C33 C35 C36 C37 M01 M02 M04 M05 M06 M07 M09 M16 M19 M20 M21 M22 M24 M25 M29 M31 M32 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P24"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 36/Hard 6/Very hard 60; chapters C06 C07 C08 C09 C10 C11 C12 C16 C17 C18 C19 C20 C21 C22 C23 C25 C30 C31 C32 C33 C35 C36 C37 M01 M02 M04 M05 M06 M07 M09 M16 M19 M20 M21 M22 M24 M25 M29 M31 M32 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P24",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 01 (25 Jul 2021)",
@@ -1044,7 +1089,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 5pp, 10 figs",
-   "note": "54 questions; 54 from key, 0 solved; chapters P01 C01 C03 C08 M01 M10"
+   "note": "54 questions; 54 from key, 0 solved; chapters P01 C01 C03 C08 M01 M10",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 02 (01 Aug 2021)",
@@ -1055,7 +1101,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 22 figs",
-   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 33/Hard 0/Very hard 27; chapters C02 C03 M01 M03 P02"
+   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 33/Hard 0/Very hard 27; chapters C02 C03 M01 M03 P02",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 03 (08 Aug 2021)",
@@ -1066,7 +1113,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 24 figs",
-   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 1/Hard 0/Very hard 59; chapters C02 C29 C30 M05 M11 M12 M13 P01 P02 P03 P04"
+   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 1/Hard 0/Very hard 59; chapters C02 C29 C30 M05 M11 M12 M13 P01 P02 P03 P04",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 04 (15 Aug 2021)",
@@ -1077,7 +1125,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 23 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 15/Hard 0/Very hard 39; chapters C04 C05 M15 M16 P02 P04 P05"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 15/Hard 0/Very hard 39; chapters C04 C05 M15 M16 P02 P04 P05",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 05 (23 Aug 2021)",
@@ -1088,7 +1137,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 10 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 30/Hard 0/Very hard 24; chapters C06 C07 M02 M05 P02 P07 P17 P18"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 30/Hard 0/Very hard 24; chapters C06 C07 M02 M05 P02 P07 P17 P18",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 06 (29 Aug 2021)",
@@ -1099,7 +1149,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 25 figs",
-   "note": "66 questions; 66 from key, 0 solved; bands Easy 0/Medium 43/Hard 0/Very hard 23; chapters C07 C35 C36 M04 P14 P15"
+   "note": "66 questions; 66 from key, 0 solved; bands Easy 0/Medium 43/Hard 0/Very hard 23; chapters C07 C35 C36 M04 P14 P15",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 07 (05 Sep 2021)",
@@ -1110,7 +1161,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 9pp, 48 figs",
-   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 36/Hard 0/Very hard 24; chapters C14 C15 C17 C23 M17 M18 M19 P07 P23"
+   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 36/Hard 0/Very hard 24; chapters C14 C15 C17 C23 M17 M18 M19 P07 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 08 (13 Sep 2021)",
@@ -1121,7 +1173,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 6pp, 13 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C08 M01 M03 M04 M10 P01 P25"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C08 M01 M03 M04 M10 P01 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 09 (19 Sep 2021)",
@@ -1132,7 +1185,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 6pp, 23 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C02 C03 M01 M03 P02"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C02 C03 M01 M03 P02",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 10 (26 Sep 2021)",
@@ -1143,7 +1197,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 16 figs",
-   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 3/Hard 0/Very hard 57; chapters C29 C30 M01 M11 M12 M13 P02 P03 P04 P05"
+   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 3/Hard 0/Very hard 57; chapters C29 C30 M01 M11 M12 M13 P02 P03 P04 P05",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 11 (03 Oct 2021)",
@@ -1154,7 +1209,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 25 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 15/Hard 0/Very hard 39; chapters C03 C04 C05 M15 M16 P04 P05"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 15/Hard 0/Very hard 39; chapters C03 C04 C05 M15 M16 P04 P05",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 12 (10 Oct 2021)",
@@ -1165,7 +1221,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 13 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 30/Hard 0/Very hard 24; chapters C06 C07 C09 M01 M02 M03 M05 P12 P17 P18"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 30/Hard 0/Very hard 24; chapters C06 C07 C09 M01 M02 M03 M05 P12 P17 P18",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 13 (17 Oct 2021)",
@@ -1176,7 +1233,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 17 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 13/Hard 0/Very hard 41; chapters C33 C35 C36 M04 P13 P14 P15"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 13/Hard 0/Very hard 41; chapters C33 C35 C36 M04 P13 P14 P15",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 14 (24 Oct 2021)",
@@ -1187,7 +1245,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 64 figs",
-   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 36/Hard 0/Very hard 24; chapters C14 C15 C16 C21 C23 C26 M17 M18 M19 P07 P23"
+   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 36/Hard 0/Very hard 24; chapters C14 C15 C16 C21 C23 C26 M17 M18 M19 P07 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 02 (28 Mar 2021)",
@@ -1198,7 +1257,8 @@
    ],
    "status": "done",
    "conv_note": "",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 26/Hard 0/Very hard 82; chapters C02 C03 C04 C05 C06 C07 C09 C10 C12 C15 C16 C18 C19 C20 C21 C22 C23 C25 C29 C30 C31 C33 C35 C37 C38 M01 M02 M03 M04 M06 M07 M12 M13 M16 M18 M19 M20 M21 M22 M23 M24 M25 M26 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P12 P16 P18 P19 P20 P21"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 26/Hard 0/Very hard 82; chapters C02 C03 C04 C05 C06 C07 C09 C10 C12 C15 C16 C18 C19 C20 C21 C22 C23 C25 C29 C30 C31 C33 C35 C37 C38 M01 M02 M03 M04 M06 M07 M12 M13 M16 M18 M19 M20 M21 M22 M23 M24 M25 M26 M27 M29 M31 M32 P02 P03 P04 P05 P06 P07 P08 P09 P10 P12 P16 P18 P19 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 04 (07 May 2021)",
@@ -1209,7 +1269,8 @@
    ],
    "status": "done",
    "conv_note": "",
-   "note": "120 questions; 117 from key, 3 solved; bands Easy 0/Medium 48/Hard 0/Very hard 72; chapters C03 C04 C05 C06 C07 C08 C09 C10 C11 C12 C13 C15 C16 C18 C19 C20 C22 C25 C30 C31 C32 C33 C35 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M13 M14 M15 M16 M18 M19 M20 M21 M24 M25 M26 M27 M29 M30 M32 P01 P02 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P23 P25"
+   "note": "120 questions; 117 from key, 3 solved; bands Easy 0/Medium 48/Hard 0/Very hard 72; chapters C03 C04 C05 C06 C07 C08 C09 C10 C11 C12 C13 C15 C16 C18 C19 C20 C22 C25 C30 C31 C32 C33 C35 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M13 M14 M15 M16 M18 M19 M20 M21 M24 M25 M26 M27 M29 M30 M32 P01 P02 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 18 (13 Feb 2024)",
@@ -1220,7 +1281,8 @@
    ],
    "status": "done",
    "conv_note": "",
-   "note": "54 questions; 37 from key, 17 solved; bands Easy 0/Medium 16/Hard 2/Very hard 36; chapters C02 C04 C07 C08 C11 C14 C16 C17 C19 C25 C30 C31 C33 C36 M01 M02 M03 M04 M05 M06 M08 M11 M12 M17 M18 M20 M23 M24 M27 M31 P02 P04 P05 P07 P08 P09 P10 P11 P12 P17 P18 P20 P21"
+   "note": "54 questions; 37 from key, 17 solved; bands Easy 0/Medium 16/Hard 2/Very hard 36; chapters C02 C04 C07 C08 C11 C14 C16 C17 C19 C25 C30 C31 C33 C36 M01 M02 M03 M04 M05 M06 M08 M11 M12 M17 M18 M20 M23 M24 M27 M31 P02 P04 P05 P07 P08 P09 P10 P11 P12 P17 P18 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 29 (26 Mar 2024)",
@@ -1231,7 +1293,8 @@
    ],
    "status": "done",
    "conv_note": "",
-   "note": "51 questions; 51 from key, 0 solved; bands Easy 0/Medium 25/Hard 0/Very hard 26; chapters C02 C04 C07 C09 C11 C12 C15 C16 C17 C19 C29 C31 C35 C36 C37 M01 M03 M04 M05 M06 M07 M09 M13 M14 M15 M20 M21 M24 M25 M27 P03 P04 P07 P08 P09 P10 P11 P12 P15 P17 P19 P20 P21 P23"
+   "note": "51 questions; 51 from key, 0 solved; bands Easy 0/Medium 25/Hard 0/Very hard 26; chapters C02 C04 C07 C09 C11 C12 C15 C16 C17 C19 C29 C31 C35 C36 C37 M01 M03 M04 M05 M06 M07 M09 M13 M14 M15 M20 M21 M24 M25 M27 P03 P04 P07 P08 P09 P10 P11 P12 P15 P17 P19 P20 P21 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 32 (29 Mar 2024)",
@@ -1242,7 +1305,8 @@
    ],
    "status": "done",
    "conv_note": "",
-   "note": "51 questions; 51 from key, 0 solved; bands Easy 0/Medium 14/Hard 0/Very hard 37; chapters C03 C08 C09 C10 C11 C17 C25 C32 C33 C36 C37 M01 M03 M04 M06 M07 M16 M17 M18 M19 M22 M25 M26 M31 P05 P07 P08 P09 P11 P12 P15 P16 P17 P18 P19 P21"
+   "note": "51 questions; 51 from key, 0 solved; bands Easy 0/Medium 14/Hard 0/Very hard 37; chapters C03 C08 C09 C10 C11 C17 C25 C32 C33 C36 C37 M01 M03 M04 M06 M07 M16 M17 M18 M19 M22 M25 M26 M31 P05 P07 P08 P09 P11 P12 P15 P16 P17 P18 P19 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 36 (07 Feb 2025)",
@@ -1253,7 +1317,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-23: single paper, no Paper-1/Paper-2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 3 stems x2 = ",
-   "note": "57 questions; 45 from key, 12 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C07 C08 C10 C12 C16 C17 C18 C21 C28 C31 C36 C37 M01 M02 M03 M04 M06 M11 M14 M20 M24 M26 M27 M32 P02 P04 P05 P07 P08 P09 P11 P12 P16 P19 P20 P21"
+   "note": "57 questions; 45 from key, 12 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C07 C08 C10 C12 C16 C17 C18 C21 C28 C31 C36 C37 M01 M02 M03 M04 M06 M11 M14 M20 M24 M26 M27 M32 P02 P04 P05 P07 P08 P09 P11 P12 P16 P19 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 37 (10 Feb 2025)",
@@ -1264,7 +1329,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct(2 paragraphs) + Sec-II(i) 3 ste",
-   "note": "57 questions; 43 from key, 14 solved; bands Easy 0/Medium 10/Hard 3/Very hard 44; chapters C04 C10 C11 C13 C15 C16 C17 C18 C30 C31 C32 C36 M01 M02 M03 M06 M07 M09 M17 M20 M27 M29 M32 P01 P04 P05 P07 P08 P10 P11 P12 P15 P17 P19 P21 P22"
+   "note": "57 questions; 43 from key, 14 solved; bands Easy 0/Medium 10/Hard 3/Very hard 44; chapters C04 C10 C11 C13 C15 C16 C17 C18 C30 C31 C32 C36 M01 M02 M03 M06 M07 M09 M17 M20 M27 M29 M32 P01 P04 P05 P07 P08 P10 P11 P12 P15 P17 P19 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 42 (19 Mar 2025)",
@@ -1275,7 +1341,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 6Q one-or-more + Section-II 6Q numerical value + Section-III 6Q single-di",
-   "note": "54 questions; 48 from key, 6 solved; bands Easy 0/Medium 1/Hard 0/Very hard 53; chapters C02 C04 C07 C14 C15 C16 C25 C30 C31 C36 M01 M02 M03 M04 M06 M10 M12 M16 M17 M18 M21 M22 M26 M27 P01 P02 P04 P06 P07 P08 P09 P10 P11 P12 P13 P15 P20 P21"
+   "note": "54 questions; 48 from key, 6 solved; bands Easy 0/Medium 1/Hard 0/Very hard 53; chapters C02 C04 C07 C14 C15 C16 C25 C30 C31 C36 M01 M02 M03 M04 M06 M10 M12 M16 M17 M18 M21 M22 M26 M27 P01 P02 P04 P06 P07 P08 P09 P10 P11 P12 P13 P15 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 44 (23 Mar 2025)",
@@ -1286,7 +1353,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I(i) 4Q single-correct + Section-I(ii) 3Q one-or-more + Section-I(iii) 4 Ma",
-   "note": "51 questions; 17 from key, 34 solved; bands Easy 0/Medium 8/Hard 16/Very hard 27; chapters C03 C06 C07 C12 C13 C16 C25 C31 C32 C33 C36 C37 M01 M03 M04 M06 M07 M08 M12 M16 M19 M20 M22 M23 M28 P02 P04 P07 P09 P10 P12 P15 P18 P19 P20 P21 P25"
+   "note": "51 questions; 17 from key, 34 solved; bands Easy 0/Medium 8/Hard 16/Very hard 27; chapters C03 C06 C07 C12 C13 C16 C25 C31 C32 C33 C36 C37 M01 M03 M04 M06 M07 M08 M12 M16 M19 M20 M22 M23 M28 P02 P04 P07 P09 P10 P12 P15 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 46 (26 Mar 2025)",
@@ -1297,7 +1365,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each plain Section-I 10Q one-or-more-correct + Section-II 8Q numerical value = 18Q/part,",
-   "note": "54 questions; 38 from key, 16 solved; bands Easy 0/Medium 1/Hard 0/Very hard 53; chapters C03 C04 C09 C12 C14 C16 C21 C23 C25 C30 C32 C33 C36 C37 M01 M02 M03 M04 M05 M07 M14 M18 M20 M23 M24 M26 M32 P02 P05 P06 P07 P08 P10 P12 P14 P16 P17 P18 P21"
+   "note": "54 questions; 38 from key, 16 solved; bands Easy 0/Medium 1/Hard 0/Very hard 53; chapters C03 C04 C09 C12 C14 C16 C21 C23 C25 C30 C32 C33 C36 C37 M01 M02 M03 M04 M05 M07 M14 M18 M20 M23 M24 M26 M32 P02 P05 P06 P07 P08 P10 P12 P14 P16 P17 P18 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 13 (06 Feb 2024)",
@@ -1308,7 +1377,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-an",
-   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C04 C05 C06 C07 C09 C10 C11 C15 C16 C17 C20 C23 C25 C29 C30 C31 C36 C37 M01 M02 M03 M04 M05 M06 M08 M09 M11 M15 M16 M17 M18 M20 M23 M25 M26 M27 M28 M29 M31 M32 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P18 P20 P21 P23 P24"
+   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C04 C05 C06 C07 C09 C10 C11 C15 C16 C17 C20 C23 C25 C29 C30 C31 C36 C37 M01 M02 M03 M04 M05 M06 M08 M09 M11 M15 M16 M17 M18 M20 M23 M25 M26 M27 M28 M29 M31 M32 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P18 P20 P21 P23 P24",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 22 (14 Mar 2024)",
@@ -1319,7 +1389,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-28: single paper (outline-text/vector-drawn-glyph PDF), PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20 single-correct + Section-II 10 numerical (attempt-an",
-   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C05 C06 C07 C08 C09 C10 C11 C14 C15 C16 C20 C25 C29 C30 C31 C37 M01 M02 M03 M04 M05 M06 M07 M08 M09 M11 M14 M15 M16 M17 M19 M20 M21 M23 M25 M26 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P17 P18 P19 P20 P21 P22 P24 P25"
+   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C05 C06 C07 C08 C09 C10 C11 C14 C15 C16 C20 C25 C29 C30 C31 C37 M01 M02 M03 M04 M05 M06 M07 M08 M09 M11 M14 M15 M16 M17 M19 M20 M21 M23 M25 M26 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P17 P18 P19 P20 P21 P22 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 47 (30 Mar 2025)",
@@ -1330,7 +1401,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 20Q single-correct + Section-II 5Q numerical value = 25Q/part, 75Q grand ",
-   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C01 C04 C06 C07 C09 C10 C11 C14 C15 C16 C17 C20 C25 C30 C31 C36 M01 M02 M03 M04 M05 M06 M08 M09 M11 M14 M15 M16 M17 M18 M19 M20 M21 M26 M27 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P12 P16 P17 P19 P20 P21 P23 P24"
+   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C01 C04 C06 C07 C09 C10 C11 C14 C15 C16 C17 C20 C25 C30 C31 C36 M01 M02 M03 M04 M05 M06 M08 M09 M11 M14 M15 M16 M17 M18 M19 M20 M21 M26 M27 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P12 P16 P17 P19 P20 P21 P23 P24",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 06 (05 Jul 2022)",
@@ -1341,7 +1413,8 @@
    ],
    "status": "done",
    "conv_note": "PAPER-1+PAPER-2, each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 single-correct + Sec-I(ii) 6 one-or-more + Sec-II 6 numerical = 18Q/part. Paper2: Sec-I 6 one-or-more + Sec",
-   "note": "108 questions; 106 from key, 2 solved; bands Easy 0/Medium 20/Hard 0/Very hard 88; chapters C01 C02 C04 C05 C07 C09 C10 C11 C12 C13 C15 C16 C17 C21 C23 C25 C30 C31 C32 C33 C35 C36 C37 M01 M02 M03 M04 M05 M07 M08 M10 M13 M14 M16 M17 M18 M20 M25 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P15 P17 P18 P19 P20 P21 P25"
+   "note": "108 questions; 106 from key, 2 solved; bands Easy 0/Medium 20/Hard 0/Very hard 88; chapters C01 C02 C04 C05 C07 C09 C10 C11 C12 C13 C15 C16 C17 C21 C23 C25 C30 C31 C32 C33 C35 C36 C37 M01 M02 M03 M04 M05 M07 M08 M10 M13 M14 M16 M17 M18 M20 M25 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P15 P17 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 08 (05 Feb 2023)",
@@ -1352,7 +1425,8 @@
    ],
    "status": "done",
    "conv_note": "Two-paper test (PAPER-1/PAPER-2), each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/part); Pap",
-   "note": "108 questions; 102 from key, 6 solved; bands Easy 0/Medium 30/Hard 0/Very hard 78; chapters C01 C04 C05 C07 C09 C10 C11 C12 C13 C16 C17 C25 C27 C30 C32 C33 C36 C37 M02 M03 M04 M06 M07 M08 M10 M11 M13 M14 M16 M17 M18 M19 M20 M21 M26 M27 M28 M29 M31 M32 P01 P03 P05 P06 P07 P08 P09 P10 P11 P12 P15 P19 P20 P21 P25"
+   "note": "108 questions; 102 from key, 6 solved; bands Easy 0/Medium 30/Hard 0/Very hard 78; chapters C01 C04 C05 C07 C09 C10 C11 C12 C13 C16 C17 C25 C27 C30 C32 C33 C36 C37 M02 M03 M04 M06 M07 M08 M10 M11 M13 M14 M16 M17 M18 M19 M20 M21 M26 M27 M28 M29 M31 M32 P01 P03 P05 P06 P07 P08 P09 P10 P11 P12 P15 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 09 (12 Feb 2023)",
@@ -1363,7 +1437,8 @@
    ],
    "status": "done",
    "conv_note": "Two-paper test, same structure as Test 08: each PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS. Paper1: Sec-I(i) 6 one-or-more + Sec-I(ii) 4 matching-list-single-correct + Sec-II 8 numerical (18/p",
-   "note": "108 questions; 103 from key, 5 solved; bands Easy 0/Medium 24/Hard 0/Very hard 84; chapters C02 C03 C04 C05 C06 C07 C08 C11 C12 C13 C16 C17 C23 C24 C25 C26 C27 C29 C30 C31 C33 C35 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M08 M09 M12 M13 M14 M16 M17 M19 M20 M21 M24 M25 M26 M27 M29 M32 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P15 P17 P18 P19 P20 P21 P22 P25"
+   "note": "108 questions; 103 from key, 5 solved; bands Easy 0/Medium 24/Hard 0/Very hard 84; chapters C02 C03 C04 C05 C06 C07 C08 C11 C12 C13 C16 C17 C23 C24 C25 C26 C27 C29 C30 C31 C33 C35 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M08 M09 M12 M13 M14 M16 M17 M19 M20 M21 M24 M25 M26 M27 M29 M32 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P15 P17 P18 P19 P20 P21 P22 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 12 (04 Feb 2024)",
@@ -1374,7 +1449,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-28: two-paper test, each PAPER-1/PAPER-2 has PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS, each part 4 sections (Sec-I(i) 4 single-correct + Sec-I(ii) 3 one-or-more + Sec-I(iii",
-   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 37/Hard 0/Very hard 65; chapters C02 C03 C04 C06 C07 C08 C09 C10 C11 C12 C13 C16 C17 C25 C30 C31 C32 C36 M01 M02 M04 M05 M06 M07 M09 M12 M13 M14 M16 M17 M18 M20 M21 M24 M26 M27 M28 M29 M31 M32 P01 P03 P04 P05 P06 P07 P08 P09 P12 P14 P15 P16 P18 P19 P21 P22 P25"
+   "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 37/Hard 0/Very hard 65; chapters C02 C03 C04 C06 C07 C08 C09 C10 C11 C12 C13 C16 C17 C25 C30 C31 C32 C36 M01 M02 M04 M05 M06 M07 M09 M12 M13 M14 M16 M17 M18 M20 M21 M24 M26 M27 M28 M29 M31 M32 P01 P03 P04 P05 P06 P07 P08 P09 P12 P14 P15 P16 P18 P19 P21 P22 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 14 (06 Feb 2024)",
@@ -1385,7 +1461,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-integer = 19Q/part, 5",
-   "note": "57 questions; 55 from key, 2 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C03 C07 C09 C10 C11 C15 C16 C20 C25 C33 C36 C37 M03 M04 M06 M07 M13 M16 M17 M21 M23 M25 M26 M27 M28 M29 P04 P05 P08 P10 P15 P17 P18 P19 P20 P21 P22"
+   "note": "57 questions; 55 from key, 2 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C03 C07 C09 C10 C11 C15 C16 C20 C25 C33 C36 C37 M03 M04 M06 M07 M13 M16 M17 M21 M23 M25 M26 M27 M28 M29 P04 P05 P08 P10 P15 P17 P18 P19 P20 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 16 (09 Feb 2024)",
@@ -1396,7 +1473,8 @@
    ],
    "status": "done",
    "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct (2 paragraphs) + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-intege",
-   "note": "57 questions; 57 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C04 C11 C14 C16 C18 C31 C33 C36 C37 M02 M04 M07 M16 M17 M19 M20 M22 M23 M25 M27 M32 P05 P07 P08 P09 P10 P11 P15 P19 P20 P21 P23"
+   "note": "57 questions; 57 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C04 C11 C14 C16 C18 C31 C33 C36 C37 M02 M04 M07 M16 M17 M19 M20 M22 M23 M25 M27 M32 P05 P07 P08 P09 P10 P11 P15 P19 P20 P21 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 21 (14 Mar 2024)",
@@ -1407,7 +1485,8 @@
    ],
    "status": "done",
    "conv_note": "Two-paper test, each PART-1 PHY+PART-2 CHEM+PART-3 MATH, Sec-I(i)/I(ii)/II(P1) or III(P2), 6+4+8=18Q/part P1, 4+6+8=18Q/part P2, 108Q total verified 18x6. 56 candidate figures: 51 kept, 5 rejected (2 ",
-   "note": "108 questions; 87 from key, 21 solved; bands Easy 0/Medium 25/Hard 0/Very hard 83; chapters C01 C04 C05 C07 C09 C10 C11 C12 C13 C16 C17 C25 C27 C30 C32 C33 C36 C37 M02 M03 M04 M06 M07 M08 M10 M11 M13 M14 M16 M17 M18 M19 M20 M21 M26 M27 M28 M29 M31 M32 P01 P03 P05 P06 P07 P08 P09 P10 P11 P12 P15 P19 P20 P21 P25"
+   "note": "108 questions; 87 from key, 21 solved; bands Easy 0/Medium 25/Hard 0/Very hard 83; chapters C01 C04 C05 C07 C09 C10 C11 C12 C13 C16 C17 C25 C27 C30 C32 C33 C36 C37 M02 M03 M04 M06 M07 M08 M10 M11 M13 M14 M16 M17 M18 M19 M20 M21 M26 M27 M28 M29 M31 M32 P01 P03 P05 P06 P07 P08 P09 P10 P11 P12 P15 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 23 (17 Mar 2024)",
@@ -1418,7 +1497,8 @@
    ],
    "status": "done",
    "conv_note": "Paper 1 only; PHYSICS, CHEMISTRY, MATHEMATICS each 3 sections x 6 q = 54 questions; 27 figures (maths text-only)",
-   "note": "54 questions; 51 from key, 3 solved; bands Easy 0/Medium 0/Hard 0/Very hard 54; chapters C07 C08 C09 C10 C11 C16 C20 C25 C27 C31 C36 C37 M01 M02 M03 M04 M06 M07 M08 M14 M17 M19 M20 M26 M27 M29 M32 P03 P04 P05 P07 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21 P22"
+   "note": "54 questions; 51 from key, 3 solved; bands Easy 0/Medium 0/Hard 0/Very hard 54; chapters C07 C08 C09 C10 C11 C16 C20 C25 C27 C31 C36 C37 M01 M02 M03 M04 M06 M07 M08 M14 M17 M19 M20 M26 M27 M29 M32 P03 P04 P05 P07 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 26 (20 Mar 2024)",
@@ -1429,7 +1509,8 @@
    ],
    "status": "done",
    "conv_note": "Paper 1 only; PHY/CHEM/MATH each 4 sections (I(i) 4q, I(ii) 6q, II(i) 6q, II(ii) 3q) = 57 questions; 30 figures; rejected N1/N2 label circles (typeset) and a red handwritten solution scribble under ma",
-   "note": "57 questions; 57 from key, 0 solved; bands Easy 0/Medium 13/Hard 0/Very hard 44; chapters C04 C07 C09 C10 C14 C15 C18 C29 C33 C36 C37 M01 M02 M03 M04 M06 M08 M14 M15 M17 M20 M23 M27 M29 M31 M32 P01 P02 P03 P05 P09 P10 P11 P12 P14 P15 P16 P20 P21 P22"
+   "note": "57 questions; 57 from key, 0 solved; bands Easy 0/Medium 13/Hard 0/Very hard 44; chapters C04 C07 C09 C10 C14 C15 C18 C29 C33 C36 C37 M01 M02 M03 M04 M06 M08 M14 M15 M17 M20 M23 M27 M29 M31 M32 P01 P02 P03 P05 P09 P10 P11 P12 P14 P15 P16 P20 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 28 (23 Mar 2024)",
@@ -1440,7 +1521,8 @@
    ],
    "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; output verified complete in FINAL OUTPUT (manifest write had been lost)",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C02 C07 C08 C09 C10 C12 C16 C36 C37 M02 M05 M06 M07 M09 M14 M16 M20 M23 M25 M26 M29 M31 M32 P02 P04 P05 P07 P08 P10 P11 P15 P16 P18 P19 P20 P21 P23"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C02 C07 C08 C09 C10 C12 C16 C36 C37 M02 M05 M06 M07 M09 M14 M16 M20 M23 M25 M26 M29 M31 M32 P02 P04 P05 P07 P08 P10 P11 P15 P16 P18 P19 P20 P21 P23",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 33 (01 Apr 2024)",
@@ -1451,7 +1533,8 @@
    ],
    "status": "done",
    "conv_note": "Adv Very Challenging; 2 papers: P1 (I 5, III 5, IV 5 per part x3 = 45Q) + P2 (I(i) 6, I(ii) 6, III 10 per part x3 = 66Q) = 111Q; 51 figures",
-   "note": "111 questions; 67 from key, 44 solved; bands Easy 0/Medium 10/Hard 25/Very hard 76; chapters C01 C02 C03 C04 C07 C08 C11 C12 C13 C14 C15 C16 C30 C33 C36 C37 M01 M03 M04 M05 M06 M07 M10 M13 M14 M15 M16 M20 M21 M22 M26 M27 M31 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P18 P19 P20 P21 P25"
+   "note": "111 questions; 67 from key, 44 solved; bands Easy 0/Medium 10/Hard 25/Very hard 76; chapters C01 C02 C03 C04 C07 C08 C11 C12 C13 C14 C15 C16 C30 C33 C36 C37 M01 M03 M04 M05 M06 M07 M10 M13 M14 M15 M16 M20 M21 M22 M26 M27 M31 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 34 (02 Feb 2025)",
@@ -1462,7 +1545,8 @@
    ],
    "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; 40 figures",
-   "note": "54 questions; 47 from key, 7 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C04 C08 C09 C16 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M16 M18 M20 M23 M27 M32 P04 P07 P08 P09 P10 P11 P15 P17 P19 P20 P21 P25"
+   "note": "54 questions; 47 from key, 7 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C04 C08 C09 C16 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M16 M18 M20 M23 M27 M32 P04 P07 P08 P09 P10 P11 P15 P17 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 35 (04 Feb 2025)",
@@ -1473,7 +1557,8 @@
    ],
    "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 4 + I(ii) 6 + III 8) = 54 Q; 20 figures",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C02 C03 C04 C07 C08 C10 C11 C15 C17 C21 C25 C29 C31 M02 M04 M06 M07 M08 M09 M11 M16 M17 M19 M21 M23 M26 M27 M29 M31 P05 P06 P07 P08 P10 P11 P12 P18 P19 P20 P22"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C02 C03 C04 C07 C08 C10 C11 C15 C17 C21 C25 C29 C31 M02 M04 M06 M07 M08 M09 M11 M16 M17 M19 M21 M23 M26 M27 M29 M31 P05 P06 P07 P08 P10 P11 P12 P18 P19 P20 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 38 (12 Feb 2025)",
@@ -1484,7 +1569,8 @@
    ],
    "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 6 + II 6) = 54 Q; 32 figures",
-   "note": "54 questions; 52 from key, 2 solved; bands Easy 0/Medium 19/Hard 6/Very hard 29; chapters C01 C04 C07 C10 C11 C13 C14 C15 C16 C29 C31 C32 C36 M02 M03 M04 M05 M06 M11 M17 M20 M22 M23 M24 M27 M31 M32 P02 P03 P04 P05 P09 P10 P12 P15 P17 P18 P20 P21 P25"
+   "note": "54 questions; 52 from key, 2 solved; bands Easy 0/Medium 19/Hard 6/Very hard 29; chapters C01 C04 C07 C10 C11 C13 C14 C15 C16 C29 C31 C32 C36 M02 M03 M04 M05 M06 M11 M17 M20 M22 M23 M24 M27 M31 M32 P02 P03 P04 P05 P09 P10 P12 P15 P17 P18 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 39 (02 Mar 2025)",
@@ -1495,7 +1581,8 @@
    ],
    "status": "done",
    "conv_note": "Adv Very Challenging; 2 papers: P1 (I(i) 6 + I(ii) 4 + II 8) x3 = 54Q + P2 (I(i) 4 + I(ii) 6 + III 8) x3 = 54Q = 108Q; 50 figures",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 26/Hard 8/Very hard 74; chapters C02 C04 C06 C07 C10 C11 C15 C16 C22 C25 C31 C32 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M10 M12 M14 M17 M20 M21 M24 M25 M26 M27 M28 M29 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 26/Hard 8/Very hard 74; chapters C02 C04 C06 C07 C10 C11 C15 C16 C22 C25 C31 C32 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M10 M12 M14 M17 M20 M21 M24 M25 M26 M27 M28 M29 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 40 (16 Mar 2025)",
@@ -1506,7 +1593,8 @@
    ],
    "status": "done",
    "conv_note": "Adv Very Challenging; 2 papers: each part I(i) 4 + I(ii) 3 + I(iii)/II(i) 4 + II 6 = 17Q x3 x2 papers = 102Q; 43 figures",
-   "note": "102 questions; 97 from key, 5 solved; bands Easy 0/Medium 36/Hard 1/Very hard 65; chapters C02 C03 C04 C05 C06 C07 C08 C09 C10 C11 C12 C13 C16 C17 C25 C30 C31 C32 C36 M02 M04 M05 M06 M07 M09 M12 M13 M14 M16 M17 M18 M20 M21 M24 M27 M28 M29 M31 M32 P01 P03 P04 P05 P06 P07 P08 P09 P12 P14 P15 P16 P18 P19 P21 P22 P25"
+   "note": "102 questions; 97 from key, 5 solved; bands Easy 0/Medium 36/Hard 1/Very hard 65; chapters C02 C03 C04 C05 C06 C07 C08 C09 C10 C11 C12 C13 C16 C17 C25 C30 C31 C32 C36 M02 M04 M05 M06 M07 M09 M12 M13 M14 M16 M17 M18 M20 M21 M24 M27 M28 M29 M31 M32 P01 P03 P04 P05 P06 P07 P08 P09 P12 P14 P15 P16 P18 P19 P21 P22 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 03 (05 May 2021)",
@@ -1517,7 +1605,8 @@
    ],
    "status": "done",
    "conv_note": "Mains Foundational; 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 29 figures",
-   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 10/Very hard 20; chapters C01 C02 C03 C04 C06 C10 C11 C13 C15 C16 C25 C30 C31 C32 C33 C35 C36 C37 C38 M01 M02 M05 M07 M08 M09 M10 M12 M14 M15 M17 M18 M20 M21 M24 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P10 P11 P13 P14 P17 P19 P20 P25"
+   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 10/Very hard 20; chapters C01 C02 C03 C04 C06 C10 C11 C13 C15 C16 C25 C30 C31 C32 C33 C35 C36 C37 C38 M01 M02 M05 M07 M08 M09 M10 M12 M14 M15 M17 M18 M20 M21 M24 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P10 P11 P13 P14 P17 P19 P20 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 05 (22 Mar 2022)",
@@ -1528,7 +1617,8 @@
    ],
    "status": "done",
    "conv_note": "PARTIAL BY SOURCE: source PDF is a 9-page bilingual fragment; transcribed all English questions present (Phy Q10-12, Chem Q10-11, Math Q6-17 = 17Q) + 7 figures. Lint PASS (part-checklist WARNs only).",
-   "note": "17 questions; 17 from key, 0 solved; bands Easy 0/Medium 17/Hard 0/Very hard 0; chapters C14 C16 M01 M03 M05 M08 M09 M12 M20 M27 M28 M29 M31 P08 P21 P24"
+   "note": "17 questions; 17 from key, 0 solved; bands Easy 0/Medium 17/Hard 0/Very hard 0; chapters C14 C16 M01 M03 M05 M08 M09 M12 M20 M27 M28 M29 M31 P08 P21 P24",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 07 (10 Jul 2022)",
@@ -1539,7 +1629,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 39 figures; lint PASS, QA done",
-   "note": "90 questions; 83 from key, 7 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C03 C07 C09 C10 C11 C12 C13 C15 C16 C18 C22 C25 C27 C29 C31 C32 C34 C36 C37 M01 M02 M04 M06 M07 M10 M12 M13 M14 M15 M20 M21 M23 M24 M26 M27 M28 M29 P01 P02 P03 P05 P06 P07 P08 P09 P10 P11 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25"
+   "note": "90 questions; 83 from key, 7 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C03 C07 C09 C10 C11 C12 C13 C15 C16 C18 C22 C25 C27 C29 C31 C32 C34 C36 C37 M01 M02 M04 M06 M07 M10 M12 M13 M14 M15 M20 M21 M23 M24 M26 M27 M28 M29 P01 P02 P03 P05 P06 P07 P08 P09 P10 P11 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 17 (13 Feb 2024)",
@@ -1551,7 +1642,8 @@
    ],
    "status": "done",
    "conv_note": "Mains Foundational (two part-files); 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 41 figures",
-   "note": "90 questions; 0 from key, 90 solved; bands Easy 0/Medium 46/Hard 14/Very hard 30; chapters C01 C04 C05 C06 C07 C09 C10 C11 C16 C18 C20 C22 C25 C29 C30 C31 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M09 M11 M12 M13 M14 M15 M16 M17 M19 M20 M21 M26 M27 M28 M29 M30 M31 M32 P01 P02 P03 P05 P06 P08 P10 P11 P12 P14 P15 P16 P18 P19 P20 P21 P22 P23 P24 P25"
+   "note": "90 questions; 0 from key, 90 solved; bands Easy 0/Medium 46/Hard 14/Very hard 30; chapters C01 C04 C05 C06 C07 C09 C10 C11 C16 C18 C20 C22 C25 C29 C30 C31 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M09 M11 M12 M13 M14 M15 M16 M17 M19 M20 M21 M26 M27 M28 M29 M30 M31 M32 P01 P02 P03 P05 P06 P08 P10 P11 P12 P14 P15 P16 P18 P19 P20 P21 P22 P23 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 19 (20 Feb 2024)",
@@ -1562,7 +1654,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 38 figures (math option/matrix crops typed); lint PASS, QA done",
-   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C04 C06 C07 C09 C10 C11 C14 C15 C16 C22 C28 C29 C30 C31 C36 M01 M02 M03 M05 M06 M07 M09 M11 M12 M14 M15 M17 M20 M21 M25 M26 M27 M28 M29 M30 M31 M32 P01 P02 P04 P05 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22 P24 P25"
+   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C04 C06 C07 C09 C10 C11 C14 C15 C16 C22 C28 C29 C30 C31 C36 M01 M02 M03 M05 M06 M07 M09 M11 M12 M14 M15 M17 M20 M21 M25 M26 M27 M28 M29 M30 M31 M32 P01 P02 P04 P05 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 P21 P22 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 24 (17 Mar 2024)",
@@ -1573,7 +1666,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 32 figures; lint PASS, QA done",
-   "note": "90 questions; 78 from key, 12 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C02 C04 C05 C06 C07 C08 C09 C10 C11 C15 C16 C17 C24 C25 C26 C29 C30 C31 C32 C33 C36 C37 M02 M03 M04 M05 M06 M07 M09 M15 M17 M18 M19 M20 M21 M22 M23 M24 M26 M27 M28 M31 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P18 P19 P21 P24 P25"
+   "note": "90 questions; 78 from key, 12 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C02 C04 C05 C06 C07 C08 C09 C10 C11 C15 C16 C17 C24 C25 C26 C29 C30 C31 C32 C33 C36 C37 M02 M03 M04 M05 M06 M07 M09 M15 M17 M18 M19 M20 M21 M22 M23 M24 M26 M27 M28 M31 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P18 P19 P21 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 27 (23 Mar 2024)",
@@ -1584,7 +1678,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 34 figures; lint PASS, QA done",
-   "note": "90 questions; 79 from key, 11 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C02 C03 C04 C05 C07 C08 C10 C14 C16 C19 C20 C22 C24 C25 C29 C30 C31 C36 C37 M01 M02 M04 M05 M06 M07 M12 M14 M16 M17 M18 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 M31 M32 P04 P05 P08 P09 P10 P11 P12 P13 P14 P19 P20 P21 P22 P23 P24 P25"
+   "note": "90 questions; 79 from key, 11 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C02 C03 C04 C05 C07 C08 C10 C14 C16 C19 C20 C22 C24 C25 C29 C30 C31 C36 C37 M01 M02 M04 M05 M06 M07 M12 M14 M16 M17 M18 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 M31 M32 P04 P05 P08 P09 P10 P11 P12 P13 P14 P19 P20 P21 P22 P23 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 30 (27 Mar 2024)",
@@ -1595,7 +1690,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 36 figures; lint PASS, QA done",
-   "note": "90 questions; 82 from key, 8 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C04 C06 C07 C09 C10 C11 C14 C15 C16 C20 C22 C23 C25 C29 C30 C31 C34 C36 C37 M01 M02 M03 M04 M05 M06 M07 M09 M10 M12 M15 M16 M19 M20 M21 M23 M24 M25 M27 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P16 P17 P18 P19 P20 P21 P22 P23 P24 P25"
+   "note": "90 questions; 82 from key, 8 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C04 C06 C07 C09 C10 C11 C14 C15 C16 C20 C22 C23 C25 C29 C30 C31 C34 C36 C37 M01 M02 M03 M04 M05 M06 M07 M09 M10 M12 M15 M16 M19 M20 M21 M23 M24 M25 M27 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P16 P17 P18 P19 P20 P21 P22 P23 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 31 (29 Mar 2024)",
@@ -1606,7 +1702,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 44 figures; lint PASS, QA done",
-   "note": "90 questions; 81 from key, 9 solved; bands Easy 0/Medium 60/Hard 10/Very hard 20; chapters C01 C02 C04 C05 C06 C07 C09 C10 C11 C14 C15 C16 C19 C22 C29 C30 C31 C33 C36 C37 M01 M02 M03 M04 M05 M07 M10 M14 M15 M17 M18 M20 M21 M23 M24 M25 M26 M27 M29 M30 P01 P02 P03 P07 P08 P10 P11 P12 P14 P15 P17 P18 P19 P20 P21 P23 P24 P25"
+   "note": "90 questions; 81 from key, 9 solved; bands Easy 0/Medium 60/Hard 10/Very hard 20; chapters C01 C02 C04 C05 C06 C07 C09 C10 C11 C14 C15 C16 C19 C22 C29 C30 C31 C33 C36 C37 M01 M02 M03 M04 M05 M07 M10 M14 M15 M17 M18 M20 M21 M23 M24 M25 M26 M27 M29 M30 P01 P02 P03 P07 P08 P10 P11 P12 P14 P15 P17 P18 P19 P20 P21 P23 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 41 (19 Mar 2025)",
@@ -1617,7 +1714,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 31 figures; lint PASS, QA done",
-   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C03 C04 C05 C06 C07 C09 C10 C14 C16 C18 C20 C22 C24 C25 C26 C30 C31 C33 C36 C37 M01 M03 M04 M06 M09 M10 M12 M14 M15 M16 M17 M18 M20 M21 M24 M26 M27 M31 P02 P04 P05 P07 P08 P11 P12 P14 P15 P17 P19 P20 P21 P22 P23 P24"
+   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C03 C04 C05 C06 C07 C09 C10 C14 C16 C18 C20 C22 C24 C25 C26 C30 C31 C33 C36 C37 M01 M03 M04 M06 M09 M10 M12 M14 M15 M16 M17 M18 M20 M21 M24 M26 M27 M31 P02 P04 P05 P07 P08 P11 P12 P14 P15 P17 P19 P20 P21 P22 P23 P24",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 43 (23 Mar 2025)",
@@ -1628,7 +1726,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 32 figures; lint PASS, QA done",
-   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C02 C03 C04 C05 C06 C07 C09 C10 C15 C16 C22 C29 C30 C31 C32 C33 C37 M01 M02 M03 M04 M05 M06 M07 M09 M10 M12 M14 M16 M17 M20 M23 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P07 P08 P09 P10 P11 P17 P18 P20 P21"
+   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C02 C03 C04 C05 C06 C07 C09 C10 C15 C16 C22 C29 C30 C31 C32 C33 C37 M01 M02 M03 M04 M05 M06 M07 M09 M10 M12 M14 M16 M17 M20 M23 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P07 P08 P09 P10 P11 P17 P18 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 45 (26 Mar 2025)",
@@ -1639,7 +1738,8 @@
    ],
    "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 24 figures; lint PASS, QA done",
-   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C01 C02 C04 C05 C07 C09 C10 C11 C14 C15 C16 C17 C18 C20 C30 C31 C32 C36 C37 M01 M02 M03 M05 M06 M07 M12 M13 M14 M16 M18 M20 M23 M24 M25 M26 M27 M28 M31 M32 P02 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21 P22 P23 P24 P25"
+   "note": "75 questions; 75 from key, 0 solved; bands Easy 0/Medium 60/Hard 0/Very hard 15; chapters C01 C02 C04 C05 C07 C09 C10 C11 C14 C15 C16 C17 C18 C20 C30 C31 C32 C36 C37 M01 M02 M03 M05 M06 M07 M12 M13 M14 M16 M18 M20 M23 M24 M25 M26 M27 M28 M31 M32 P02 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21 P22 P23 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 15 (09 Feb 2024)",
@@ -1650,7 +1750,8 @@
    ],
    "status": "done",
    "conv_note": "Two-paper test: 144Q (P1 90 + P2 54), 59 figs, lint PASS, QA done",
-   "note": "144 questions; 132 from key, 12 solved; bands Easy 0/Medium 73/Hard 0/Very hard 71; chapters C01 C03 C11 C13 C14 C16 C18 C24 C25 C27 C29 C30 C36 M01 M02 M03 M07 M08 M10 M11 M13 M15 M16 M20 M30 P07 P08 P11 P13 P14 P15 P16 P21 P22"
+   "note": "144 questions; 132 from key, 12 solved; bands Easy 0/Medium 73/Hard 0/Very hard 71; chapters C01 C03 C11 C13 C14 C16 C18 C24 C25 C27 C29 C30 C36 M01 M02 M03 M07 M08 M10 M11 M13 M15 M16 M20 M30 P07 P08 P11 P13 P14 P15 P16 P21 P22",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 20 (23 Feb 2024)",
@@ -1661,7 +1762,8 @@
    ],
    "status": "done",
    "conv_note": "Paper-1+2 transcribed, PASS, all pages visually QA'd; wide chem Q6/Q7/Q8 figs full-width; Q8 math Σ|xixj| kept as printed",
-   "note": "141 questions; 123 from key, 18 solved; bands Easy 0/Medium 72/Hard 0/Very hard 69; chapters C10 C12 C16 C17 C20 C25 C30 C31 C32 M01 M04 M05 M06 M07 M09 M10 M12 M20 P01 P09 P10 P11 P12 P17"
+   "note": "141 questions; 123 from key, 18 solved; bands Easy 0/Medium 72/Hard 0/Very hard 69; chapters C10 C12 C16 C17 C20 C25 C30 C31 C32 M01 M04 M05 M06 M07 M09 M10 M12 M20 P01 P09 P10 P11 P12 P17",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 25 (20 Mar 2024)",
@@ -1672,7 +1774,8 @@
    ],
    "status": "done",
    "conv_note": "Two-paper test: P1 90Q + P2 57Q, 46 figs (9 rejected/typed, 1 added), lint PASS, all 14 pages QA'd",
-   "note": "147 questions; 134 from key, 13 solved; bands Easy 0/Medium 72/Hard 0/Very hard 75; chapters C02 C04 C05 C07 C09 C10 C11 C13 C14 C15 C16 C25 C30 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M09 M10 M12 M14 M15 M16 M17 M18 M19 M20 M23 M24 M25 M26 M27 M28 M29 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P17 P18 P19 P20 P21 P22 P24 P25"
+   "note": "147 questions; 134 from key, 13 solved; bands Easy 0/Medium 72/Hard 0/Very hard 75; chapters C02 C04 C05 C07 C09 C10 C11 C13 C14 C15 C16 C25 C30 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M09 M10 M12 M14 M15 M16 M17 M18 M19 M20 M23 M24 M25 M26 M27 M28 M29 M32 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P17 P18 P19 P20 P21 P22 P24 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 01 (21 Mar 2021)",
@@ -1683,7 +1786,8 @@
    ],
    "status": "done",
    "conv_note": "Fixed 2026-09-22: prior output was silently truncated (missing Paper-2 Part-2 Chem Section-II Numerical Q4-8 and all of Paper-2 Part-3 Mathematics). Completed via full source re-scan against checklist",
-   "note": "107 questions; 107 from key, 0 solved; bands Easy 0/Medium 24/Hard 0/Very hard 83; chapters C02 C03 C06 C07 C09 C10 C13 C15 C16 C20 C22 C23 C25 C27 C30 C31 C33 C35 C36 C37 C38 M02 M03 M04 M05 M06 M07 M13 M14 M16 M17 M21 M23 M25 M27 M29 M31 M32 P02 P03 P04 P05 P07 P08 P09 P10 P11 P13 P15 P18 P19 P20 P21 P25"
+   "note": "107 questions; 107 from key, 0 solved; bands Easy 0/Medium 24/Hard 0/Very hard 83; chapters C02 C03 C06 C07 C09 C10 C13 C15 C16 C20 C22 C23 C25 C27 C30 C31 C33 C35 C36 C37 C38 M02 M03 M04 M05 M06 M07 M13 M14 M16 M17 M21 M23 M25 M27 M29 M31 M32 P02 P03 P04 P05 P07 P08 P09 P10 P11 P13 P15 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 01 (16 Jun 2021)",
@@ -1694,7 +1798,8 @@
    ],
    "status": "done",
    "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (P1: I(i) 5 + I(ii) 8 + IV 5 per subject; P2: I(i) 6 + I(ii) 8 + I(iii) 4 per subject) = 108 questions; 58 figures; lint PASS, visual QA done",
-   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 46/Hard 0/Very hard 62; chapters C03 C04 C09 C10 C11 C15 C16 C17 C18 C20 C25 C29 C30 C31 C32 C34 C36 M01 M02 M03 M04 M05 M06 M07 M19 M20 M21 M27 M29 M31 M32 P02 P03 P05 P06 P07 P08 P09 P11 P12 P15 P16 P17 P18 P19 P20 P21"
+   "note": "108 questions; 108 from key, 0 solved; bands Easy 0/Medium 46/Hard 0/Very hard 62; chapters C03 C04 C09 C10 C11 C15 C16 C17 C18 C20 C25 C29 C30 C31 C32 C34 C36 M01 M02 M03 M04 M05 M06 M07 M19 M20 M21 M27 M29 M31 M32 P02 P03 P05 P06 P07 P08 P09 P11 P12 P15 P16 P17 P18 P19 P20 P21",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 02 (31 Dec 2021)",
@@ -1705,7 +1810,8 @@
    ],
    "status": "done",
    "conv_note": "14 pages, 52 figs, lint PASS, visual QA done",
-   "note": "144 questions; 144 from key, 0 solved; bands Easy 0/Medium 74/Hard 6/Very hard 64; chapters C11 C13 C17 C21 C22 C23 C24 C25 C30 C36 C38 M01 M02 M03 M07 M08 P07 P13 P14 P15 P16 P21 P22 P23 P24"
+   "note": "144 questions; 144 from key, 0 solved; bands Easy 0/Medium 74/Hard 6/Very hard 64; chapters C11 C13 C17 C21 C22 C23 C24 C25 C30 C36 C38 M01 M02 M03 M07 M08 P07 P13 P14 P15 P16 P21 P22 P23 P24",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 03 (07 Jan 2022)",
@@ -1716,7 +1822,8 @@
    ],
    "status": "done",
    "conv_note": "18 pages, 79 figs, lint PASS, visual QA done",
-   "note": "144 questions; 134 from key, 10 solved; bands Easy 0/Medium 74/Hard 0/Very hard 70; chapters C04 C05 C06 C16 C17 C19 C20 C21 C22 C24 C29 C36 M04 M05 M06 M15 M16 P01 P02 P03 P04 P06 P08"
+   "note": "144 questions; 134 from key, 10 solved; bands Easy 0/Medium 74/Hard 0/Very hard 70; chapters C04 C05 C06 C16 C17 C19 C20 C21 C22 C24 C29 C36 M04 M05 M06 M15 M16 P01 P02 P03 P04 P06 P08",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 04 (14 Jan 2022)",
@@ -1727,7 +1834,8 @@
    ],
    "status": "done",
    "conv_note": "Score-I 04: 15 pages, 72 figs; lint PASS, visual QA done",
-   "note": "144 questions; 125 from key, 19 solved; bands Easy 0/Medium 73/Hard 0/Very hard 71; chapters C01 C08 C10 C16 C17 C18 C19 C20 C21 C26 C31 C32 C38 M10 M11 M12 M13 M15 M17 M18 M19 M20 M25 P10 P11 P12"
+   "note": "144 questions; 125 from key, 19 solved; bands Easy 0/Medium 73/Hard 0/Very hard 71; chapters C01 C08 C10 C16 C17 C18 C19 C20 C21 C26 C31 C32 C38 M10 M11 M12 M13 M15 M17 M18 M19 M20 M25 P10 P11 P12",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 05 (22 Jan 2022)",
@@ -1738,7 +1846,8 @@
    ],
    "status": "done",
    "conv_note": "Paper-1 only; 8 pages; 33 figs; lint PASS, all pages QA'd",
-   "note": "54 questions; 53 from key, 1 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C03 C11 C12 C15 C16 C18 C33 C36 M05 M14 M21 M22 M23 M24 M29 M30 M31 M32 P05 P19"
+   "note": "54 questions; 53 from key, 1 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C03 C11 C12 C15 C16 C18 C33 C36 M05 M14 M21 M22 M23 M24 M29 M30 M31 M32 P05 P19",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 06 (28 Jan 2022)",
@@ -1749,7 +1858,8 @@
    ],
    "status": "done",
    "conv_note": "Paper-1 only; 8 pages; 26 figs; lint PASS, all pages QA'd",
-   "note": "54 questions; 53 from key, 1 solved; bands Easy 0/Medium 21/Hard 0/Very hard 33; chapters C06 C07 C14 C15 C29 C34 C38 M12 M13 M14 M18 M20 M21 M22 M24 M25 M26 P07 P09 P10 P25"
+   "note": "54 questions; 53 from key, 1 solved; bands Easy 0/Medium 21/Hard 0/Very hard 33; chapters C06 C07 C14 C15 C29 C34 C38 M12 M13 M14 M18 M20 M21 M22 M24 M25 M26 P07 P09 P10 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 07 (04 Feb 2022)",
@@ -1760,7 +1870,8 @@
    ],
    "status": "done",
    "conv_note": "Paper-1 only; 6 pages; 34 figs; lint PASS, all pages QA'd",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 0/Hard 0/Very hard 54; chapters C02 C09 C10 C14 C17 C26 C33 C35 C37 M13 M26 M27 M28 M29 P17 P18 P19 P20"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 0/Hard 0/Very hard 54; chapters C02 C09 C10 C14 C17 C26 C33 C35 C37 M13 M26 M27 M28 M29 P17 P18 P19 P20",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 08 (09 Feb 2022)",
@@ -1771,7 +1882,8 @@
    ],
    "status": "done",
    "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (I(i) 4+I(ii) 6+II(i) 6+II(ii) 3 for P1; 6+4+6+3 for P2) = 114 questions; 49 figures; 13 pages; lint PASS, visual QA done",
-   "note": "114 questions; 111 from key, 3 solved; bands Easy 0/Medium 25/Hard 0/Very hard 89; chapters C02 C03 C04 C05 C06 C07 C11 C12 C13 C14 C17 C18 C21 C25 C29 C30 C31 C32 C35 C36 C37 M01 M02 M03 M04 M06 M07 M11 M13 M16 M17 M18 M20 M24 M25 M27 M29 M31 M32 P03 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P25"
+   "note": "114 questions; 111 from key, 3 solved; bands Easy 0/Medium 25/Hard 0/Very hard 89; chapters C02 C03 C04 C05 C06 C07 C11 C12 C13 C14 C17 C18 C21 C25 C29 C30 C31 C32 C35 C36 C37 M01 M02 M03 M04 M06 M07 M11 M13 M16 M17 M18 M20 M24 M25 M27 M29 M31 M32 P03 P05 P06 P07 P08 P09 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 09 (16 Feb 2022)",
@@ -1782,7 +1894,8 @@
    ],
    "status": "done",
    "conv_note": "2 papers; P1 and P2 each 19 q x3 subjects (114 q); 51 figures; pdf 13 pp; lint PASS",
-   "note": "114 questions; 112 from key, 2 solved; bands Easy 0/Medium 24/Hard 0/Very hard 90; chapters C01 C02 C04 C05 C08 C09 C10 C11 C12 C13 C15 C17 C18 C22 C23 C31 C32 C33 C36 M01 M02 M03 M04 M06 M07 M08 M13 M14 M15 M16 M17 M18 M25 M27 M28 M29 M30 M31 P01 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P18 P19 P21 P25"
+   "note": "114 questions; 112 from key, 2 solved; bands Easy 0/Medium 24/Hard 0/Very hard 90; chapters C01 C02 C04 C05 C08 C09 C10 C11 C12 C13 C15 C17 C18 C22 C23 C31 C32 C33 C36 M01 M02 M03 M04 M06 M07 M08 M13 M14 M15 M16 M17 M18 M25 M27 M28 M29 M30 M31 P01 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P16 P18 P19 P21 P25",
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 10 (24 Feb 2022)",
@@ -1791,9 +1904,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 10 (24 Feb 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages"
   },
   {
    "name": "Score-I - Test 11 (27 Feb 2022)",
@@ -1802,9 +1914,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 11 (27 Feb 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
   },
   {
    "name": "Score-I - Test 17 (17 Apr 2022)",
@@ -1813,9 +1924,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 17 (17 Apr 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
   },
   {
    "name": "Score-I - Test 18 (24 Apr 2022)",
@@ -1824,9 +1934,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 18 (24 Apr 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
   },
   {
    "name": "Score-I - Test 19 (20 Nov 2022)",
@@ -1835,9 +1944,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 19 (20 Nov 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "54 q, 6 pages, 24 images, lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "54 q, 6 pages, 24 images, lint PASS"
   },
   {
    "name": "Score-I - Test 22 (04 Dec 2022)",
@@ -1846,9 +1954,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 22 (04 Dec 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "54 q, 8 pages, 53 images, lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "54 q, 8 pages, 53 images, lint PASS"
   },
   {
    "name": "Score-I - Test 24 (11 Dec 2022)",
@@ -1857,9 +1964,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 24 (11 Dec 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "54 q, 6 pages, 18 images, lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "54 q, 6 pages, 18 images, lint PASS"
   },
   {
    "name": "Score-I - Test 26 (18 Dec 2022)",
@@ -1868,9 +1974,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 26 (18 Dec 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS"
   },
   {
    "name": "Score-I - Test 31 (29 Dec 2022)",
@@ -1879,9 +1984,8 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 31 (29 Dec 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 01 (24 Jan 2021)",
@@ -1890,9 +1994,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 01 (24 Jan 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)",
@@ -1901,9 +2004,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 02 (04 Feb 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections (P1 Sec I split I(i)/I(ii)) = 108 questions; 70 figures; lint PASS, visual QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections (P1 Sec I split I(i)/I(ii)) = 108 questions; 70 figures; lint PASS, visual QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)",
@@ -1912,9 +2014,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 03 (01 Mar 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 04 (04 Apr 2021)",
@@ -1923,9 +2024,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 04 (04 Apr 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 05 (11 Apr 2021)",
@@ -1934,9 +2034,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 05 (11 Apr 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers, 60 figs, lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers, 60 figs, lint PASS, QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 06 (22 Apr 2021)",
@@ -1945,9 +2044,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 06 (22 Apr 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers, 58 figs, lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers, 58 figs, lint PASS, QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 07 (25 Apr 2021)",
@@ -1956,9 +2054,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 07 (25 Apr 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers, 66 figs, lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers, 66 figs, lint PASS, QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 08 (01 May 2021)",
@@ -1967,9 +2064,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 08 (01 May 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers, 56 figs, lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers, 56 figs, lint PASS, QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 09 (07 May 2021)",
@@ -1978,9 +2074,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 09 (07 May 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers, 59 figs, lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers, 59 figs, lint PASS, QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 10 (13 May 2021)",
@@ -1989,9 +2084,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 10 (13 May 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers, 46 figs, lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers, 46 figs, lint PASS, QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 11 (20 May 2021)",
@@ -2000,9 +2094,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 11 (20 May 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 12 (25 May 2021)",
@@ -2011,9 +2104,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 12 (25 May 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 13 (31 May 2021)",
@@ -2022,9 +2114,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 13 (31 May 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers; P1 18+18+18, P2 23+23+23 questions (SEC-1..5 in P2); 48 figures; lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers; P1 18+18+18, P2 23+23+23 questions (SEC-1..5 in P2); 48 figures; lint PASS"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)",
@@ -2033,9 +2124,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 14 (06 Jun 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Done: 2 papers x 3 parts, 70 figs (5 rejected/typeset), lint PASS, QA viewed 13 pages",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Done: 2 papers x 3 parts, 70 figs (5 rejected/typeset), lint PASS, QA viewed 13 pages"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)",
@@ -2044,9 +2134,8 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 15 (12 Jun 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Done: transcribed, lint PASS, visual QA complete",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
   },
   {
    "name": "Pre-Score (2023-24) - Test 01 (08 Oct 2023)",
@@ -2055,9 +2144,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 01 (08 Oct 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Done: transcribed, lint PASS, visual QA complete",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
   },
   {
    "name": "Pre-Score (2023-24) - Test 02 (15 Oct 2023)",
@@ -2066,9 +2154,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 02 (15 Oct 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Done: transcribed, lint PASS, visual QA complete",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
   },
   {
    "name": "Pre-Score (2023-24) - Test 03 (22 Oct 2023)",
@@ -2077,9 +2164,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 03 (22 Oct 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "18 pp, 138 imgs; recropped s3 q02/q04 rows, anchors fixed q10->q11,q11->q12 list-match",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "18 pp, 138 imgs; recropped s3 q02/q04 rows, anchors fixed q10->q11,q11->q12 list-match"
   },
   {
    "name": "Pre-Score (2023-24) - Test 04 (29 Oct 2023)",
@@ -2088,9 +2174,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 04 (29 Oct 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "13pp, 38 figs, 6 parts; lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "13pp, 38 figs, 6 parts; lint PASS"
   },
   {
    "name": "Pre-Score (2023-24) - Test 05 (05 Nov 2023)",
@@ -2099,9 +2184,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 05 (05 Nov 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS"
   },
   {
    "name": "Pre-Score (2023-24) - Test 06 (20 Nov 2023)",
@@ -2110,9 +2194,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Challenging/Pre-Score (2023-24) - Test 06 (20 Nov 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "13pp, 2 papers x 3 parts, 102 q (17/part), 24 sections, 50 figs; complete output found in FINAL OUTPUT (prior session died before marking); counts verified vs checklist",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "13pp, 2 papers x 3 parts, 102 q (17/part), 24 sections, 50 figs; complete output found in FINAL OUTPUT (prior session died before marking); counts verified vs checklist"
   },
   {
    "name": "Pre-Score (2023-24) - Test 07 (29 Nov 2023)",
@@ -2121,9 +2204,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 07 (29 Nov 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done"
   },
   {
    "name": "Pre-Score (2023-24) - Test 08 (03 Dec 2023)",
@@ -2132,9 +2214,8 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 08 (03 Dec 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Paper 1+2, 17 q/subject each, 54 figs; lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Paper 1+2, 17 q/subject each, 54 figs; lint PASS"
   },
   {
    "name": "SRG (Enthusiast) - Test 01 (20 Sep 2020)",
@@ -2143,9 +2224,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 01 (20 Sep 2020).pdf"
    ],
-   "status": "hold",
-   "conv_note": "single paper 18q/subject, 24 figs, 7pp; lint PASS",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "single paper 18q/subject, 24 figs, 7pp; lint PASS"
   },
   {
    "name": "SRG (Enthusiast) - Test 02 (04 Oct 2020)",
@@ -2154,9 +2234,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 02 (04 Oct 2020).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 03 (18 Nov 2020)",
@@ -2165,9 +2244,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 03 (18 Nov 2020).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 04 (29 Nov 2020)",
@@ -2176,9 +2254,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 04 (29 Nov 2020).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 07 (27 Jun 2021)",
@@ -2187,9 +2264,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 07 (27 Jun 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 11 (29 Aug 2021)",
@@ -2198,9 +2274,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 11 (29 Aug 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 12 (19 Sep 2021)",
@@ -2209,9 +2284,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 12 (19 Sep 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 13 (10 Oct 2021)",
@@ -2220,9 +2294,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 13 (10 Oct 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 14 (21 Nov 2021)",
@@ -2231,9 +2304,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 14 (21 Nov 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": ""
   },
   {
    "name": "SRG (Enthusiast) - Test 15 (19 Dec 2021)",
@@ -2242,9 +2314,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 15 (19 Dec 2021).pdf"
    ],
-   "status": "hold",
-   "conv_note": "single paper P1: phy 6+6+6, chem 6+6+6, math 6+6+6 = 54 q, 6 pp, 15 figs (physics only; chem/math all text)",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "single paper P1: phy 6+6+6, chem 6+6+6, math 6+6+6 = 54 q, 6 pp, 15 figs (physics only; chem/math all text)"
   },
   {
    "name": "SRG (Enthusiast) - Test 16 (12 Jan 2022)",
@@ -2253,9 +2324,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 16 (12 Jan 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs"
   },
   {
    "name": "SRG (Enthusiast) - Test 22 (18 Sep 2022)",
@@ -2264,9 +2334,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 22 (18 Sep 2022).pdf"
    ],
-   "status": "hold",
-   "conv_note": "single paper 60 q, 84 figs, 8 pages, lint PASS, visual QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "single paper 60 q, 84 figs, 8 pages, lint PASS, visual QA done"
   },
   {
    "name": "SRG (Enthusiast) - Test 27 (13 Aug 2023)",
@@ -2275,9 +2344,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 27 (13 Aug 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "two papers, 141 q, 78 figs, 16 pages, lint PASS, visual QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "two papers, 141 q, 78 figs, 16 pages, lint PASS, visual QA done"
   },
   {
    "name": "SRG (Enthusiast) - Test 28 (20 Aug 2023)",
@@ -2286,9 +2354,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 28 (20 Aug 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done"
   },
   {
    "name": "SRG (Enthusiast) - Test 29 (01 Oct 2023)",
@@ -2297,9 +2364,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 29 (01 Oct 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "54 q, 12 figs, 6 pp",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "54 q, 12 figs, 6 pp"
   },
   {
    "name": "SRG (Enthusiast) - Test 30 (22 Oct 2023)",
@@ -2308,9 +2374,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 30 (22 Oct 2023).pdf"
    ],
-   "status": "hold",
-   "conv_note": "114 q (two papers), 29 figs, 12 pp",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "114 q (two papers), 29 figs, 12 pp"
   },
   {
    "name": "SRG (Enthusiast) - Test 36 (25 Aug 2024)",
@@ -2319,9 +2384,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 36 (25 Aug 2024).pdf"
    ],
-   "status": "hold",
-   "conv_note": "51 q, 29 figs, 6 pp",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "51 q, 29 figs, 6 pp"
   },
   {
    "name": "SRG (Enthusiast) - Test 37 (11 Sep 2024)",
@@ -2330,9 +2394,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 37 (11 Sep 2024).pdf"
    ],
-   "status": "hold",
-   "conv_note": "54 q, 18 figs, 6 pp",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "54 q, 18 figs, 6 pp"
   },
   {
    "name": "SRG (Enthusiast) - Test 38 (15 Sep 2024)",
@@ -2341,9 +2404,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 38 (15 Sep 2024).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Single paper, 60 q (10+10 per subject), 25 figs; 2 rejected (formula crops)",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Single paper, 60 q (10+10 per subject), 25 figs; 2 rejected (formula crops)"
   },
   {
    "name": "SRG (Enthusiast) - Test 39 (15 Sep 2024)",
@@ -2352,9 +2414,8 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 39 (15 Sep 2024).pdf"
    ],
-   "status": "hold",
-   "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected",
-   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
+   "status": "pending",
+   "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected"
   }
  ]
 }
