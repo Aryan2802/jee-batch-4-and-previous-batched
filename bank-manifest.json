@@ -1438,11 +1438,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 28 (23 Mar 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; output verified complete in FINAL OUTPUT (manifest write had been lost)",
-   "started_at": "2026-10-24T00:03:16Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C02 C07 C08 C09 C10 C12 C16 C36 C37 M02 M05 M06 M07 M09 M14 M16 M20 M23 M25 M26 M29 M31 M32 P02 P04 P05 P07 P08 P10 P11 P15 P16 P18 P19 P20 P21 P23"
   },
   {
    "name": "Score-II - Test 33 (01 Apr 2024)",
