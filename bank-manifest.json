@@ -1703,8 +1703,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 02 (31 Dec 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "14 pages, 52 figs, lint PASS, visual QA done"
+   "status": "in_progress",
+   "conv_note": "14 pages, 52 figs, lint PASS, visual QA done",
+   "started_at": "2026-10-24T00:29:24Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 03 (07 Jan 2022)",
