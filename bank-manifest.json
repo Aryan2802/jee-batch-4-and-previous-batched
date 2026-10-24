@@ -1526,11 +1526,9 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 05 (22 Mar 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "PARTIAL BY SOURCE: source PDF is a 9-page bilingual fragment; transcribed all English questions present (Phy Q10-12, Chem Q10-11, Math Q6-17 = 17Q) + 7 figures. Lint PASS (part-checklist WARNs only).",
-   "started_at": "2026-10-24T00:08:34Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "17 questions; 17 from key, 0 solved; bands Easy 0/Medium 17/Hard 0/Very hard 0; chapters C14 C16 M01 M03 M05 M08 M09 M12 M20 M27 M28 M29 M31 P08 P21 P24"
   },
   {
    "name": "Score-II - Test 07 (10 Jul 2022)",
