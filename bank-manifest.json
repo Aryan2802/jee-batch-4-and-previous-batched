@@ -1009,14 +1009,10 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 35 (15 May 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 39 figs",
-   "note": "108 questions; 103 from key, 5 solved; bands Easy 0/Medium 14/Hard 31/Very hard 63; chapters C01 C02 C03 C04 C07 C08 C09 C10 C11 C12 C13 C17 C21 C22 C23 C24 C25 C28 C29 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M12 M15 M16 M17 M20 M21 M22 M24 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21 P22 P23",
-   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)",
-   "fix_note": "rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T06:04:33Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "v4 rescore; restored key ranges",
+   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)"
   },
   {
    "name": "Score Advanced - Test 36 (19 May 2024)",
