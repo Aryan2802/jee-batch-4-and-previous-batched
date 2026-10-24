@@ -122,3 +122,18 @@ each test is marked done; consolidate into STANDING LESSONS when the file passes
   its own solution. Matching sets (Q8-Q10 on one table) still need each question's own steps.
 - NUMERICAL KEY RANGES: write a printed range as printed ("6.28 to 6.30"), never its midpoint (6.29). The rescore pass
   restores ranges from the key pages (answers.tsv; everything else unchanged).
+
+## THIRD AUDIT (24 Oct 2026, 09:45 IST) - INFLATION - READ BEFORE SCORING
+- The v3 rescores began well (TOAS etc.: C2 ~0%, K3 ~1%, I2 ~5-15%), then drifted UP: later tests had C2 on 40%+ of
+  questions, K3 on 25%+, Very hard on 30-74% - even the Foundational SRGBT papers. Concept lists were padded to reach
+  K3 and C2/I2 were given freely. Examples of the inflation (correct factors in brackets):
+  - SRGBT 11 p1_chem_s1_q24 real gas A->B->C, W, dU, q: scored K3 S3 I1 C2 D9 [first law is ONE concept, W at constant
+    p + dU from data + q per option: K1 S2 I0 C1 F1 -> D4]
+  - SRGBT 11 p1_math_s1_q48 circle of radius 3 touching a pair of lines: scored D10 [angle between the lines, centre on
+    the bisector, tangent length: K2 S2 I1 C1 F1 -> D6]
+  - SRGBT 11 p1_phy_s1_q11 bobbin pulled by a string, rolling: scored D10 [torque about contact point: K2 S2 I1 C1 F1 -> D6]
+- New rules in bank_tools apply: an I or C of 2 must carry "| I: <the non-standard idea>" / "| C: <what is heavy>" in
+  the reason; and a test is rejected (all its scores cleared) if more than 25% of its questions get C2, 20% K3 or 30% I2.
+- K counts DISTINCT laws or methods, not the quantities they produce. Typical JEE Advanced papers land mostly in
+  D3-D6; D8-D10 is for the few questions that combine a non-standard idea with a long solution.
+- Tests whose finished scores break these limits carry fix_note "rescore difficulty v4".

@@ -676,7 +676,33 @@ def apply(work, chapters=None, answers=None, difficulty=None):
                     for i in ids:
                         for k in ("diff_kSIC", "diff_note"):
                             byid[i].pop(k, None)
+        # a 2 for I or C must say why (I: the non-standard idea / C: what makes the computation heavy)
+        for q in data["questions"]:
+            k, note = q.get("diff_kSIC"), q.get("diff_note") or ""
+            if not k:
+                continue
+            miss = [f for f in ("I", "C") if k[f] == 2 and not re.search(rf"\|\s*{f}\s*:", note)]
+            if miss:
+                errs.append(f"{q['qid']}: {' and '.join(f + '=2' for f in miss)} needs '| {miss[0]}: <why>' in the reason "
+                            "(non-standard idea / genuinely heavy computation); otherwise use 1")
+                for kk in ("diff_kSIC", "diff_note"):
+                    q.pop(kk, None)
         scored = [q for q in data["questions"] if q.get("diff_kSIC")]
+        # calibration guard-rails (audit 24 Oct 09:45): inflated tests had C2 on 40%+, K3 on 25%+ and Very hard on 30%+
+        if len(scored) >= 20:
+            n = len(scored)
+            share = lambda f, v: sum(1 for q in scored if q["diff_kSIC"][f] == v) / n
+            over = [f"{lab} {share(f, v):.0%} (max {mx:.0%})" for f, v, mx, lab in
+                    (("C", 2, 0.25, "C2"), ("K", 3, 0.20, "K3"), ("I", 2, 0.30, "I2")) if share(f, v) > mx]
+            if over:
+                errs.append("difficulty looks inflated: " + ", ".join(over) + " - K counts distinct laws/methods "
+                            "(the first law is ONE concept even if work, dU and heat all appear), C2 is for genuinely "
+                            "long or messy calculation, I2 for a truly non-standard idea; compare with BANK_LEARNINGS.md "
+                            "CALIBRATION and rescore the whole test")
+                for q in scored:
+                    for kk in ("diff_kSIC", "diff_note"):
+                        q.pop(kk, None)
+                scored = []
         if len(scored) >= 20:
             sc = collections.Counter(q["diff_kSIC"]["S"] for q in scored)
             ic = collections.Counter(q["diff_kSIC"]["I"] for q in scored)
