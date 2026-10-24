@@ -2081,8 +2081,11 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 12 (25 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages"
+   "status": "in_progress",
+   "conv_note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages",
+   "started_at": "2026-10-24T08:42:29Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 13 (31 May 2021)",
