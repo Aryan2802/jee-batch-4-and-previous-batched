@@ -1982,8 +1982,11 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 03 (01 Mar 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done"
+   "status": "in_progress",
+   "conv_note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done",
+   "started_at": "2026-10-24T07:47:46Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 04 (04 Apr 2021)",
