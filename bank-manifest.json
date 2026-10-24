@@ -2088,11 +2088,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 13 (31 May 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "2 papers; P1 18+18+18, P2 23+23+23 questions (SEC-1..5 in P2); 48 figures; lint PASS",
-   "started_at": "2026-10-24T08:50:29Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "123 questions; 69 from key, 54 solved; Easy 49, Medium 54, Hard 16, Very hard 4; chapters assigned"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)",
