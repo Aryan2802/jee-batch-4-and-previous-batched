@@ -1,4 +1,4 @@
-last build: 2026-10-24 (214 tests)
+last build: 2026-10-24 (214 tests, group C difficulty shifted by -1.04 per user 19:38 IST)
 tests in build: 214
 questions: 19604 (1528 duplicates merged)
 done-since-build: 0
