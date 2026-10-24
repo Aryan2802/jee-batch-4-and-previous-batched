@@ -2363,11 +2363,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 29 (01 Oct 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "54 q, 12 figs, 6 pp",
-   "started_at": "2026-10-24T11:24:54Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "working"
+   "note": "key covers physics only (verified phy q1, q3, s3 q1, q5, q6); chemistry and maths solved by hand; phy s3 q3 printed key 64 disagrees with computed 640; chem s3 q4 solved 0.049"
   },
   {
    "name": "SRG (Enthusiast) - Test 30 (22 Oct 2023)",
