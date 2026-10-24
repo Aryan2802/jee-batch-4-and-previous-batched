@@ -1604,11 +1604,9 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 31 (29 Mar 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 44 figures; lint PASS, QA done",
-   "started_at": "2026-10-24T00:14:59Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "90 questions; 81 from key, 9 solved; bands Easy 0/Medium 60/Hard 10/Very hard 20; chapters C01 C02 C04 C05 C06 C07 C09 C10 C11 C14 C15 C16 C19 C22 C29 C30 C31 C33 C36 C37 M01 M02 M03 M04 M05 M07 M10 M14 M15 M17 M18 M20 M21 M23 M24 M25 M26 M27 M29 M30 P01 P02 P03 P07 P08 P10 P11 P12 P14 P15 P17 P18 P19 P20 P21 P23 P24 P25"
   },
   {
    "name": "Score-II - Test 41 (19 Mar 2025)",
