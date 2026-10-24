@@ -2354,9 +2354,9 @@
    ],
    "status": "in_progress",
    "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done",
-   "started_at": "2026-10-24T11:18:38Z",
+   "started_at": "2026-10-24T11:21:06Z",
    "claimed_by": "vm-f3fb8f30",
-   "progress_note": "queued"
+   "progress_note": "working"
   },
   {
    "name": "SRG (Enthusiast) - Test 29 (01 Oct 2023)",
