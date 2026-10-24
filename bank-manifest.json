@@ -2422,11 +2422,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 39 (15 Sep 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected",
-   "started_at": "2026-10-24T11:53:12Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "key covers physics only (spot-checked 10 items against own solutions); chemistry and maths solved by hand; chem s1 q04 (graphite conductivity) and s3 q05 (primary carbon count) depend on convention"
   }
  ]
 }
