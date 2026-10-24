@@ -1185,13 +1185,9 @@
    "src_rel": [
     "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 14 (24 Oct 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 64 figs",
-   "note": "60 questions; 60 from key, 0 solved; bands Easy 0/Medium 36/Hard 0/Very hard 24; chapters C14 C15 C16 C21 C23 C26 M17 M18 M19 P07 P23",
-   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)",
-   "started_at": "2026-10-24T04:12:04Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty: templated reasons (audit 24 Oct)"
+   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
   },
   {
    "name": "Score-II - Test 02 (28 Mar 2021)",
