@@ -298,3 +298,9 @@ ANCHOR [v2] Chemistry D3: Pre-Score (2023-24) - Test 08 (03 Dec 2023) p1_chem_s1
 ANCHOR [v2] Chemistry D5: Pre-Score (2023-24) - Test 08 (03 Dec 2023) p1_chem_s1_q01: 1 3 1 1 F0: concepts: coulometric titration of arsenious acid with generated iodine | steps: electrolysis generates I2 from iodide at the anode; I2 oxidises arsenite; equivalents of I2 from charge; relate charge to moles of arsenic; compare statements
 ANCHOR [v2] Mathematics D3: Pre-Score (2023-24) - Test 08 (03 Dec 2023) p1_math_s1_q04: 1 1 1 1 F0: concepts: reflection of a point in a line and the locus it lies on | steps: reflect (3,5) in x - y + 1 = 0 using the reflection formula; test the coordinates in each circle
 ANCHOR [v2] Mathematics D5: Pre-Score (2023-24) - Test 08 (03 Dec 2023) p1_math_s2_q07: 1 2 1 1 F0: concepts: continuity and derivability of a minimum of two functions | steps: f = min(abs(3 - x), 3 - x^3) with crossing points; points where graphs meet and kinks; count non derivable points
+## 2026-10-24 14:20 UTC - group C difficulty shift (user decision 19:38 IST)
+- Final grouping of all 214 tests: A 165 (honest reasons, mean <= 5.8, D>=8 <= 15%), B 13 (honest but mean > 5.8 or
+  D>=8 > 15%), C 36 (more than 15% padded one-word concepts). Question-weighted mean difficulty A 4.567, C 5.603.
+- Every scored question of the 36 group C tests got diff_adjust = round(D - 1.036) - D (= -1; 29 questions already at
+  D1 stay 1). build applies it (difficulty + diff_adjust, diff_parts gains "adj-1"); apply removes it, so a test that
+  is rescored later loses the shift. Group B is unchanged.
