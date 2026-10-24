@@ -2334,11 +2334,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 22 (18 Sep 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "single paper 60 q, 84 figs, 8 pages, lint PASS, visual QA done",
-   "started_at": "2026-10-24T11:06:37Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "key from printed Ans lines in solutions; spot-checked phy s3 q03, chem s3 q02, math s3 q01 and q03"
   },
   {
    "name": "SRG (Enthusiast) - Test 27 (13 Aug 2023)",
