@@ -498,6 +498,38 @@ Let $v_{av}$, $v_{rms}$ and $v_p$ respectively denote mean speed, root mean squa
 \begin{bankq}[id=JA03-P1-PHY-S3-Q05, source={JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)}, paper=1, qno=5, type=numerical, subtopic={Degrees of freedom}, answer={41.50}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: internal energy from the ratio of translational to rotational energy | steps: equipartition: translational energy = 3/2 RT; ratio 3:2 gives rotational RT so two rotational degrees of freedom; U = 5/2 R T = 4150 J}]
 The ratio of translational and rotational kinetic energies for $1$ mole gas at $200$ K temperature is $3:2$. The internal energy of one mole gas at that temperature is $x\times10^2$ J. Then value of $x$ is $[R=8.3$ J/mol-K$]$
 \end{bankq}
+\begin{bankq}[id=JA05-P1-PHY-S3-Q06, source={JEE Advanced (2021 Series) - Test 05 (11 Apr 2021)}, paper=1, qno=6, type=numerical, subtopic={Gas laws}, answer={55.00}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: pressure balance with isothermal trapped gas in a tube | steps: horizontal state P0 = 10^5 with gas length 25 cm; vertical open end down gas pressure + liquid head = P0; P1 x 25 = (P0 - rho g h) x (25 + x) where x liquid lost; solve the quadratic for the remaining column}]
+A $1$ m long tube is open at one end and closed at the other end. Initially it contains a liquid column of $55$ cm which traps $25$ cm column of air when held horizontal. Now the tube is held vertical with open end at bottom. Now what will be the equilibrium height of liquid column (in cm), after fall of some liquid, if some liquid falls? (Neglect surface tension, assume temperature of the gas remains constant). $P_{\text{atm}}=10^5$ Pa, $\rho_{\text{liquid}}=10^2$ kg/m$^3$, $g=10$ m/s$^2$.
+\bfig{142.3}{JA05_p1_phy_s3_q06_1.png}
+\end{bankq}
+\begin{bankpassage}[id=JA13-P2-PHY-S3-G1-2, source={JEE Advanced (2021 Series) - Test 13 (31 May 2021)}, questions={1-2}]
+Let us consider a diatomic gas whose molecules have the shape of a dumbbell. In this model, the center of mass of the molecule can translate in the $x$, $y$, and $z$ directions. In addition, the molecule can rotate about three mutually perpendicular axes. We can neglect the rotation about the $y$-axis because the moment of inertia $I_y$ and the rotational energy $\frac12I_y\omega^2$ about this axis are negligible compared with those associated with the $x$ and $z$ axes. (If the two atoms are taken to be point masses, then $I_y$ is identically zero). Thus, there are five degrees of freedom: three associated with the translational motion and two associated with the rotational motion. Because each degree of freedom contributes, on the average, $\frac12k_BT$ of energy per molecule, the total internal energy for a system of $N$ molecules is:
+\begin{gather*}E_{int}=3N\left(\tfrac12k_BT\right)+2N\left(\tfrac12k_BT\right)\\=\tfrac52Nk_BT=\tfrac52nRT\ \ldots\text{(i)}\end{gather*}
+We can use this result to find the molar specific heat at constant volume:
+\bfig{60.1}{JA13_p2_phy_s3_para1_2_1.png}
+\[C_V=\frac1n\frac{dE_{int}}{dT}=\frac1n\frac d{dT}\left(\tfrac52nRT\right)=\tfrac52R\ \ldots\text{(ii)}\]
+From equation (i) and (ii), we find that
+\[C_P=C_V+R=\tfrac72R,\qquad \gamma=\frac{C_P}{C_V}=\frac{7/2R}{5/2R}=\frac75=1.40\]
+In the vibratory model, the two atoms are joined by an imaginary spring. The vibrational motion adds two degrees of freedom, which correspond to the kinetic energy and the potential energy associated with vibrations along the length of the molecule about its centre of mass.
+\end{bankpassage}
+\begin{bankq}[id=JA13-P2-PHY-S3-Q01, source={JEE Advanced (2021 Series) - Test 13 (31 May 2021)}, paper=2, qno=1, type=single, subtopic={Degrees of freedom}, answer={A}, answer_src=key, working={Printed key.}, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: equipartition for rotational energy of a diatomic molecule | steps: two rotational degrees of freedom give mean rotational energy k T = (1/2) I w^2 for the two axes together; moment of inertia of the dumbbell about a perpendicular axis through the centre is m a^2/2; solve to get w_rms = sqrt(4 k T/(m a^2)) | I: the moment of inertia of the dumbbell about a perpendicular axis through the centre is m a^2/2}, group=JA13-P2-PHY-S3-G1-2]
+The root mean square angular velocity of a diatomic molecule (with each atom of mass $m$ and interatomic distance $a$) is given by:-
+\begin{qoptions}
+\opt{A}{$\sqrt{\dfrac{4k_BT}{ma^2}}$}
+\opt{B}{$\sqrt{\dfrac{2k_BT}{ma^2}}$}
+\opt{C}{$\sqrt{\dfrac{k_BT}{ma^2}}$}
+\opt{D}{$\sqrt{\dfrac{k_BT}{2ma^2}}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA13-P2-PHY-S3-Q02, source={JEE Advanced (2021 Series) - Test 13 (31 May 2021)}, paper=2, qno=2, type=single, subtopic={Degrees of freedom}, answer={B}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={concepts: elastic collision of a diatomic molecule with a wall, energy shared into vibration | steps: front atom strikes the wall first and rebounds while the rear atom keeps moving; the spring is compressed and the molecule leaves moving backward with energy shared between centre of mass motion and vibration; no rotation | I: only one atom hits the wall so internal vibration is excited}, group=JA13-P2-PHY-S3-G1-2]
+A diatomic molecule is moving without rotation or vibration with velocity $v_{rms}$ such that it is oriented along $x$-axis. It strikes a wall in $yz$-plane while moving in $+$ve $x$ direction. The spring constant can be assumed to be $K$ and time of collision is negligible. After all (elastic) collision are over:-
+\begin{qoptions}
+\opt{A}{The molecule is moving along $-$ve $x$-direction and oscillating about its centre of mass}
+\opt{B}{The molecule is moving along $-$ve $x$-direction, but not oscillating about its centre of mass}
+\opt{C}{The molecule is oscillating about it centre of mass but not moving at all.}
+\opt{D}{The molecule is neither rotating nor moving at all.}
+\end{qoptions}
+\end{bankq}
 
 \section*{TOAS papers}
 \begin{bankq}[id=TOAS13-P1-PHY-S1-Q04, source={TOAS - Test 13 (24 Jul 2022)}, paper=1, qno=4, type=multi, subtopic={Kinetic theory}, answer={A,B,C,D}, answer_src=key, difficulty=3, diff_parts={K2 S1 I0 C0 F1}, diff_note={concepts: partial pressure and moles, kinetic theory | steps: mole ratio from masses and molar masses; compare pressure, number, KE per molecule and rms speed}]

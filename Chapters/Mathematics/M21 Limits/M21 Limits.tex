@@ -425,7 +425,7 @@ The value of $\displaystyle\lim_{x\to2}\dfrac{2^x+2^{3-x}-6}{2^{-\frac{x}{2}}-2^
 \end{bankq}
 
 \section*{Score Advanced papers}
-\begin{bankq}[id=SA02-P1-MATH-S3-Q04, source={Score Advanced - Test 02 (13 May 2021)}, paper=1, qno=4, type=numerical, subtopic={Standard limits}, answer={0.40}, answer_src=solved, working={$\left(f(3+3/x)/f(3)\right)^x\to e^{3f'(3)/f(3)}=e$, $[L]=2$, $[L]/5=0.4$}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of the form 1\^{}infinity | steps: exponent x times the change in ln f; equals 3 f'(3)/f(3) = 1; L = e | I: log derivative}, also_in={TOAS - Test 08 (15 May 2022) P1 Q5; TNAS - Test 04 (18 Jun 2023) P2 Q5}]
+\begin{bankq}[id=SA02-P1-MATH-S3-Q04, source={Score Advanced - Test 02 (13 May 2021)}, paper=1, qno=4, type=numerical, subtopic={Standard limits}, answer={0.40}, answer_src=solved, working={$\left(f(3+3/x)/f(3)\right)^x\to e^{3f'(3)/f(3)}=e$, $[L]=2$, $[L]/5=0.4$}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit of the form 1\^{}infinity | steps: exponent x times the change in ln f; equals 3 f'(3)/f(3) = 1; L = e | I: log derivative}, also_in={JEE Advanced (2021 Series) - Test 10 (13 May 2021) P1 Q4; TOAS - Test 08 (15 May 2022) P1 Q5; TNAS - Test 04 (18 Jun 2023) P2 Q5}]
 Let $f : (0, \infty) \to (0, \infty)$ be a function differentiable at 3 and satisfying $f(3) = 3f'(3)$. If the value of $\displaystyle\lim_{x \to \infty}\left(\dfrac{f\left(3 + \frac{3}{x}\right)}{f(3)}\right)^x$ is L then $\dfrac{[L]}{5}$ is (where [.] is greatest integer function)
 \end{bankq}
 \begin{bankq}[id=SA02-P2-MATH-S3-Q04, source={Score Advanced - Test 02 (13 May 2021)}, paper=2, qno=4, type=single, subtopic={Standard limits}, answer={1}, answer_src=solved, working={S\_n is the mean of the shifts: L=1/2, M=pi/6, L+M=1.02}, difficulty=7, diff_parts={K2 S2 I2 C2 F0}, diff_note={concepts: limit of a product raised to a power, standard limits | steps: reduce to an average; evaluate each limit; sum}]
@@ -617,13 +617,93 @@ Let $e$ denote the base of the natural logarithm. The value of the real number $
 \[\lim_{x\to0^+}\frac{(1-x)^{\frac1x}-e^{-1}}{x^a}\]
 is equal to a nonzero real number, is \underline{\hspace{1.5cm}}.
 \end{bankq}
-\begin{bankq}[id=JA02-P2-MATH-S3-Q06, source={JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)}, paper=2, qno=6, type=numerical, subtopic={Expansions}, answer={8}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: limit at pi/2, a ratio of trigonometric expressions | steps: numerator and denominator vanish; use product to sum identities or substitute x = pi/2 + h; expand; ratio of leading terms}]
+\begin{bankq}[id=JA02-P2-MATH-S3-Q06, source={JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)}, paper=2, qno=6, type=numerical, subtopic={Expansions}, answer={8}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: limit at pi/2 by trigonometric factorisation | steps: numerator sin 3x + sin x = 2 sin 2x cos x; denominator simplified by product to sum formulas to a form with common factor cos x or cos 2x; cancel the vanishing factor; evaluate the remaining expression at pi/2 giving 8 | I: use product to sum to extract the same vanishing factor from numerator and denominator}]
 The value of the limit
 \[\lim_{x\to\frac\pi2}\frac{4\sqrt2(\sin3x+\sin x)}{\begin{gathered}\left(2\sin2x\sin\tfrac{3x}2+\cos\tfrac{5x}2\right)\\-\left(\sqrt2+\sqrt2\cos2x+\cos\tfrac{3x}2\right)\end{gathered}}\]
 is \underline{\hspace{2cm}}.
 \end{bankq}
 \begin{bankq}[id=JA03-P2-MATH-S3-Q05, source={JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)}, paper=2, qno=5, type=numerical, subtopic={Standard limits}, answer={0.00}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: limit at infinity of a geometric series times a logarithm | steps: sum of series with ratio x e^-x = x e^-x/(1 - x e^-x); multiply by ln(1 + x); exponential decay beats logarithmic growth so limit is 0}]
 The value of $\displaystyle\lim_{x\to\infty}\dfrac{\left(xe^{-x}+x^2e^{-2x}+x^3e^{-3x}+\dots\infty\right)}{\left(\ln(1+x)\right)^{-1}}$ is equal to
+\end{bankq}
+\begin{bankq}[id=JA04-P1-MATH-S1-Q05, source={JEE Advanced (2021 Series) - Test 04 (04 Apr 2021)}, paper=1, qno=5, type=single, subtopic={Standard limits}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: limit of one to the power infinity form using the derivative | steps: limit equals exp(lim (f(1+x)/f(1) - 1)/x) = exp(f'(1)/f(1)); f'(1)/f(1) = 2 sqrt2/sqrt2 = 2; e^2}]
+Let $f:R\to R$ be such that $f(1)=\sqrt2$ and $f'(1)=2\sqrt2$, then the value of $\displaystyle\lim_{x\to0}\left(\dfrac{f(1+x)}{f(1)}\right)^{\frac1x}$ equals
+\begin{qoptions}
+\opt{A}{$1$}
+\opt{B}{$e^{\frac12}$}
+\opt{C}{$e^2$}
+\opt{D}{$e^3$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA06-P1-MATH-S3-Q07, source={JEE Advanced (2021 Series) - Test 06 (22 Apr 2021)}, paper=1, qno=7, type=numerical, subtopic={Standard limits}, answer={-0.50}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: limit of a difference of reciprocals of logarithms | steps: expand ln(x + sqrt(x^2 + 1)) = x - x^3/6 + ... and ln(1 + x) = x - x^2/2 + x^3/3; take common denominator; leading terms combine to give limit -1/2 | I: the two logarithms must be expanded to second order because first order terms cancel}]
+Evaluate the value of the limit $L=\displaystyle\lim_{x\to0}\left(\dfrac{1}{\ln\left(x+\sqrt{x^2+1}\right)}-\dfrac{1}{\ln(x+1)}\right)$
+\end{bankq}
+\begin{bankq}[id=JA06-P2-MATH-S2-Q07, source={JEE Advanced (2021 Series) - Test 06 (22 Apr 2021)}, paper=2, qno=7, type=single, subtopic={Standard limits}, answer={D}, answer_src=key, difficulty=7, diff_parts={K3 S3 I1 C1 F0}, diff_note={concepts: limits involving products, divisibility of factorials, power sums of roots | steps: first limit via Riemann sum of sum k ln k; (7!)!/(6!)! divisibility count by factorial powers; limit of x^(x^x - 1) as x to 0; recurrence for power sums from x^3 = 2x^2 + 1; evaluate each of four and match to the list}]
+Match the following.
+\par\noindent\textbf{List-I}
+\begin{qoptions}
+\opt{P}{$\displaystyle\lim_{n\to\infty}\left(n^{-\frac12\left(1+\frac1n\right)}\left(1^1\,2^2\,3^3\cdots n^n\right)^{1/n^2}\right)=e^{-p/q}$, then $p/q$ is greater than}
+\opt{Q}{$(7!)!$ is divisible by $(7!)^{k!}\cdot(6!)!$, then maximum value of $k$ is}
+\opt{R}{$\displaystyle\lim_{x\to0^+}x^{(x^x-1)}\ \le$}
+\opt{S}{If $\alpha,\beta,\gamma$ are roots of $x^3-2x^2-1=0$ and $T_n=\alpha^n+\beta^n+\gamma^n$, then $\dfrac{T_{11}-T_8}{T_{10}}$ is greater than}
+\end{qoptions}
+\par\noindent\textbf{List-II}
+\begin{qoptions}
+\opt{1}{$5$}
+\opt{2}{$6$}
+\opt{3}{$\dfrac15$}
+\opt{4}{$\dfrac16$}
+\opt{5}{$\dfrac14$}
+\end{qoptions}
+\par\noindent Codes:
+\begin{qoptions}
+\opt{A}{P$\to$3,4; Q$\to$2,4; R$\to$1; S$\to$4,5}
+\opt{B}{P$\to$1,4; Q$\to$2; R$\to$1; S$\to$3,4}
+\opt{C}{P$\to$3; Q$\to$2,4; R$\to$4; S$\to$1,5}
+\opt{D}{P$\to$3,4; Q$\to$2; R$\to$1,2; S$\to$3,4,5}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA08-P2-MATH-S2-Q01, source={JEE Advanced (2021 Series) - Test 08 (01 May 2021)}, paper=2, qno=1, type=multi, subtopic={Standard limits}, answer={A,B}, answer_src=solved, working={$\ln$ of the root $=\tfrac1{n^2}\sum\ln k!\approx\tfrac12\ln n-\tfrac34$, so $\alpha=\tfrac12$ and $\beta=e^{-3/4}$.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: limit of an n squared root of a product of factorials | steps: take logarithm: (1/n^2) sum of ln k! with Stirling; sum of k ln k about n^2 ln n/2 - n^2/4 gives (1/2) ln n - 3/4; so alpha = 1/2 and beta = e^(-3/4) | I: log of the product is a double sum approximated by an integral}]
+If $\alpha,\beta\in R$, $\beta\neq0$, $n\in N$ and $\displaystyle\lim_{n\to\infty}\dfrac{\sqrt[n^2]{(1!)(2!)(3!)\dots(n!)}}{n^\alpha}=\beta$, then
+\begin{qoptions}
+\opt{A}{$\alpha=\dfrac12$}
+\opt{B}{$\beta=e^{-\frac34}$}
+\opt{C}{$\alpha=1$}
+\opt{D}{$\beta=\dfrac1{\sqrt e}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA08-P2-MATH-S2-Q07, source={JEE Advanced (2021 Series) - Test 08 (01 May 2021)}, paper=2, qno=7, type=multi, subtopic={Expansions}, answer={A,B}, answer_src=solved, working={need $\alpha=1$ so denominator $\sim x^3/2$, numerator $\beta x^3$: $2\beta=4$, $\beta=2$.}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: limit using series expansions of tan and sin | steps: numerator beta x^3; denominator (alpha - 1)x + (alpha^3/3 + 1/6)x^3; finite limit needs alpha = 1; then denominator x^3/2; limit 2 beta = 4}]
+$\displaystyle\lim_{x\to0}\dfrac{x^2\sin\beta x}{\tan\alpha x-\sin x}=4$ where $\alpha,\beta\in R$, then which of the following is/are correct -
+\begin{qoptions}
+\opt{A}{$\alpha=1$}
+\opt{B}{$\beta=2$}
+\opt{C}{$\alpha=2$}
+\opt{D}{$\beta=1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA09-P1-MATH-S3-Q01, source={JEE Advanced (2021 Series) - Test 09 (07 May 2021)}, paper=1, qno=1, type=numerical, subtopic={Standard limits}, answer={1.00}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: behaviour of (1+x)^(1/x) near zero, greatest integer function | steps: expand ln(1+x)/x = 1 - x/2 + x^2/3 so (1+x)^(1/x) = e (1 - x/2 + ...); for x slightly negative the ratio exceeds 1 and stays below 2; the floor of the ratio is 1 | I: compare with e through the series to see the sign of the correction}]
+The value of $\displaystyle\lim_{x\to0^-}\left[\dfrac{(1+x)^{1/x}}{e}\right]$ is : (Where $[.]$ represent greatest integer function)
+\end{bankq}
+\begin{bankq}[id=JA10-P2-MATH-S3-Q04, source={JEE Advanced (2021 Series) - Test 10 (13 May 2021)}, paper=2, qno=4, type=single, subtopic={Standard limits}, answer={1}, answer_src=solved, working={n S\_n = sum of 1/sqrt(4n\^{}2 - k\^{}alpha); for alpha = 1 this tends to 1/2 and for alpha = 2 it tends to the integral of dx/sqrt(4 - x\^{}2) = pi/6; L + M = 1.02 so the floor is 1.}, difficulty=7, diff_parts={K2 S3 I2 C1 F0}, diff_note={concepts: limit of a product at infinity by first order expansion, Riemann sum of an inverse sine integral with floor | steps: write P^(1/n) = x times the product of (1 + a_k/x)^(1/n) and expand to first order in 1/x to get S_n = mean of the a_k; n S_n = sum of 1/sqrt(4n^2 - k^alpha); for alpha = 1 each term is about 1/(2n) so the limit is 1/2; for alpha = 2 convert to a Riemann sum with limit the integral of dx/sqrt(4 - x^2) = pi/6; add 0.5 + 0.5236 and take the floor 1 | I: reduce the infinite product limit to the average of the shifts by a first order expansion | C: the double limit with two values of alpha handled separately}]
+{\small\begin{gather*}
+S_n=\lim_{x\to\infty}\left(P^{1/n}-x\right),\ n\in\mathbb N,\ \text{where}\\
+P=\left(x+\tfrac1{\sqrt{4n^2}}\right)\left(x+\tfrac1{\sqrt{4n^2-1^\alpha}}\right)\left(x+\tfrac1{\sqrt{4n^2-2^\alpha}}\right)\\
+\cdots\left(x+\tfrac1{\sqrt{4n^2-(n-1)^\alpha}}\right)
+\end{gather*}}
+and for $\alpha=1$, $L=\displaystyle\lim_{n\to\infty}(n.S_n)$ and for $\alpha=2$, $M=\displaystyle\lim_{n\to\infty}(n.S_n)$ then value of $[L+M]$ is equal to
+
+[Note : $[y]$ denotes the greatest integer function of $y$.]
+\end{bankq}
+\begin{bankq}[id=JA12-P2-MATH-S1-Q04, source={JEE Advanced (2021 Series) - Test 12 (25 May 2021)}, paper=2, qno=4, type=single, subtopic={Standard limits}, answer={A}, answer_src=solved, working={All pairs except sin(1/x) with cos(1/x) have a limit: 5/6.}, difficulty=3, diff_parts={K1 S3 I0 C0 F0}, diff_note={concepts: limit of the product of a power of x with an oscillating bounded function | steps: choose pairs from the four functions; x and x^2 times the bounded oscillating functions tend to 0; x times x^2 tends to 0; sin(1/x) cos(1/x) = (1/2) sin(2/x) has no limit; five of six pairs work}]
+Two distinct function $f(x)$ and $g(x)$ are chosen randomly from a set of functions $\left\{x,\,x^2,\,\sin\left(\dfrac1x\right),\,\cos\left(\dfrac1x\right)\right\}$. Then the probability that $\displaystyle\lim_{x\to0}f(x)\,g(x)$ exist, is
+\begin{qoptions}
+\opt{A}{$\dfrac56$}
+\opt{B}{$\dfrac1{12}$}
+\opt{C}{$\dfrac13$}
+\opt{D}{$\dfrac16$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA13-P1-MATH-S3-Q05, source={JEE Advanced (2021 Series) - Test 13 (31 May 2021)}, paper=1, qno=5, type=numerical, subtopic={Expansions}, answer={3}, answer_src=solved, working={Expansion exp(2 + 2/(3x\^{}2)) gives L = 2e\^{}2/3 so 9L/(2e\^{}2) = 3.}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: expansion of an exponential form limit | steps: ((x+1)/(x-1))^x = exp(x ln((1 + 1/x)/(1 - 1/x))) = exp(2 + 2/(3x^2) + ...); subtract e^2 and multiply by x^2 to get 2e^2/3; 9L/(2e^2) = 3 | I: expand the logarithm to second order in 1/x}]
+Let $L=\displaystyle\lim_{x\to\infty}\left(\left(\dfrac{x+1}{x-1}\right)^x-e^2\right)x^2$, then the value of $\dfrac{9L}{2e^2}$ is equal to
 \end{bankq}
 
 \section*{TOAS papers}
