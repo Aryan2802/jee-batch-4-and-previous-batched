@@ -2242,11 +2242,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 04 (29 Nov 2020).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "",
-   "started_at": "2026-10-24T10:33:02Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "no key; solved all 60 by hand"
   },
   {
    "name": "SRG (Enthusiast) - Test 07 (27 Jun 2021)",
