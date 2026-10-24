@@ -1648,8 +1648,11 @@
    "src_rel": [
     "Score 2/Source/Mains/Moderate/Score-II - Test 15 (09 Feb 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two-paper test: 144Q (P1 90 + P2 54), 59 figs, lint PASS, QA done"
+   "status": "in_progress",
+   "conv_note": "Two-paper test: 144Q (P1 90 + P2 54), 59 figs, lint PASS, QA done",
+   "started_at": "2026-10-24T00:17:00Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 20 (23 Feb 2024)",
