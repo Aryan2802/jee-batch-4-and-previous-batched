@@ -1416,11 +1416,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 23 (17 Mar 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Paper 1 only; PHYSICS, CHEMISTRY, MATHEMATICS each 3 sections x 6 q = 54 questions; 27 figures (maths text-only)",
-   "started_at": "2026-10-24T00:02:18Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 51 from key, 3 solved; bands Easy 0/Medium 0/Hard 0/Very hard 54; chapters C07 C08 C09 C10 C11 C16 C20 C25 C27 C31 C36 C37 M01 M02 M03 M04 M06 M07 M08 M14 M17 M19 M20 M26 M27 M29 M32 P03 P04 P05 P07 P09 P10 P11 P12 P13 P15 P17 P18 P19 P20 P21 P22"
   },
   {
    "name": "Score-II - Test 26 (20 Mar 2024)",
