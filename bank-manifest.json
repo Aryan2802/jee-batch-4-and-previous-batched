@@ -1449,8 +1449,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 33 (01 Apr 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Adv Very Challenging; 2 papers: P1 (I 5, III 5, IV 5 per part x3 = 45Q) + P2 (I(i) 6, I(ii) 6, III 10 per part x3 = 66Q) = 111Q; 51 figures"
+   "status": "in_progress",
+   "conv_note": "Adv Very Challenging; 2 papers: P1 (I 5, III 5, IV 5 per part x3 = 45Q) + P2 (I(i) 6, I(ii) 6, III 10 per part x3 = 66Q) = 111Q; 51 figures",
+   "started_at": "2026-10-24T00:03:43Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 34 (02 Feb 2025)",
