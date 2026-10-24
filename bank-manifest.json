@@ -1909,8 +1909,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 10 (24 Feb 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages"
+   "status": "in_progress",
+   "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages",
+   "started_at": "2026-10-24T04:18:49Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 11 (27 Feb 2022)",
