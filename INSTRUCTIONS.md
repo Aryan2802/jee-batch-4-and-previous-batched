@@ -52,8 +52,9 @@ after every step, manifest note after every step). Do not create or modify sched
 
 ## PIPELINE FOR ONE TEST
 1. CLAIM (above). If the entry already has `data/<Test Name>.zip` complete in the repo and no fix_note, the file is
-   the truth: mark it done and claim the next. Fix_note "rescore difficulty" (tests banked before the 23 Oct audit,
-   see BANK_LEARNINGS.md CALIBRATION) and fix_note "add difficulty" (e.g. Score-I 12, packed before 20 Oct
+   the truth: mark it done and claim the next. Fix_note "rescore difficulty v3" (tests whose difficulty failed the 24 Oct
+   audit, see BANK_LEARNINGS.md SECOND AUDIT: redo difficulty.tsv question by question and restore printed numerical
+   key ranges in answers.tsv), fix_note "rescore difficulty" (see BANK_LEARNINGS.md CALIBRATION) and fix_note "add difficulty" (e.g. Score-I 12, packed before 20 Oct
    2026): unzip its data zip into an empty `/tmp/qb/work` (it holds questions.json + img/), do step 5b only, then `apply --difficulty`, `pack`, save the zip and
    mark done with `-fix_note` - chapters, subtopics and answers stay as they are.
 2. RESUME: if `WIP/<Test Name>-work.zip` exists, unzip it into `/tmp/qb` (`python3 -m zipfile -e "WIP/<Test Name>-work.zip" /tmp/qb`; it holds a `work/` folder) and continue from where it stopped. Otherwise start from an empty `/tmp/qb/work` (`rm -rf /tmp/qb/work /tmp/qb/key`).

@@ -107,3 +107,18 @@ each test is marked done; consolidate into STANDING LESSONS when the file passes
 - Very hard (8-10) needs a genuinely non-standard idea (I2) on top of a long solution (S3-S4) or three concepts; it
   should be a handful of questions per paper at most, not a tenth of it.
 - New ANCHOR lines: write them as `ANCHOR [v2] <Subject> D<n>: <test> <qid>: <K S I C F>: concepts: ... | steps: ...`.
+
+## SECOND AUDIT (24 Oct 2026, 08:30 IST) - READ BEFORE SCORING
+- From about 00:00 to 00:45 UTC a session banked ~120 tests at ~2 minutes each and wrote TEMPLATE difficulty reasons
+  ("concepts: standard problem in this chapter, <subtopic>, apply the relevant results | steps: apply the relevant
+  results; compute"), every question S1 and the bands only Medium / Very hard. Some earlier tests also had copied
+  reasons or near-uniform S/I. Chapters, subtopics and answers were re-checked (258 keyed answers against the printed
+  keys incl. a scanned key, 18 chapter placements, solved working): all correct.
+- bank_tools apply now ALSO rejects: generic phrases (apply the relevant results, standard problem, ...), steps that
+  are only generic verbs (compute / solve / simplify ...), the same reason or the same step list for more than two
+  questions, and a test whose S or I is (almost) the same for every question. A rejected line leaves the question
+  without difficulty, so pack refuses. Every banked test that fails these checks has fix_note "rescore difficulty v3".
+- Never generate difficulty.tsv (or chapters.tsv / answers.tsv) with a script or a template: score each question from
+  its own solution. Matching sets (Q8-Q10 on one table) still need each question's own steps.
+- NUMERICAL KEY RANGES: write a printed range as printed ("6.28 to 6.30"), never its midpoint (6.29). The rescore pass
+  restores ranges from the key pages (answers.tsv; everything else unchanged).

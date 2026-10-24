@@ -550,6 +550,12 @@ K must equal the number of concepts listed (3 = three or more) and S must match 
     about centre gives v=u/2 at grazing; energy equation at surface; solve for u | I: grazing => velocity tangential
 Calibrated examples: BANK_LEARNINGS.md, section CALIBRATION."""
 DIFF_RANGES = dict(K=(1, 3), S=(1, 4), I=(0, 2), C=(0, 2))
+# reasons that describe no particular question (templates seen in the 24 Oct audit)
+GENERIC_RE = re.compile(r"apply(ing)? (the )?relevant (results?|formulae?|concepts?|laws?)|standard (problem|question|result)s?"
+                        r"( in this chapter)?|relevant results?|as per (the )?(standard )?(method|formula)|"
+                        r"use (the )?(standard|given) (formula|method)|straightforward application", re.I)
+GENERIC_STEP_RE = re.compile(r"^(compute|calculate|solve|simplify|substitute|evaluate|apply( the)? formula|find (the )?answer|"
+                             r"get (the )?answer|check options?|conclude|answer|result)\.?$", re.I)
 
 
 def diff_band(d):
@@ -622,6 +628,7 @@ def apply(work, chapters=None, answers=None, difficulty=None):
         for q in data["questions"]:
             for k in ("diff_kSIC", "diff_note", "difficulty", "diff_parts", "diff_band"):
                 q.pop(k, None)
+        seen_reasons, seen_steps = collections.defaultdict(list), collections.defaultdict(list)
         for r in read_tsv(difficulty):
             qid = r[0]
             if qid not in byid:
@@ -648,8 +655,37 @@ def apply(work, chapters=None, answers=None, difficulty=None):
                 errs.append(f"{qid}: K={parts['K']} but {nc} concept(s) listed"); continue
             if want_s != parts["S"]:
                 errs.append(f"{qid}: S={parts['S']} but {ns} step(s) listed (1-2 -> 1, 3-4 -> 2, 5-7 -> 3, 8+ -> 4)"); continue
+            bad_txt = GENERIC_RE.search(r[2])
+            if bad_txt:
+                errs.append(f"{qid}: reason contains the generic phrase {bad_txt.group(0)!r} - name this question's own "
+                            "concepts and the actual steps of its solution"); continue
+            steps = [st.strip() for st in m_s.group(1).split(";") if st.strip()]
+            if all(GENERIC_STEP_RE.match(st) for st in steps):
+                errs.append(f"{qid}: the steps {steps[:3]} say nothing about this question - state what is set up, "
+                            "found or checked in each step"); continue
+            seen_reasons[re.sub(r"\s+", " ", r[2].strip().lower())].append(qid)
+            seen_steps[re.sub(r"\s+", " ", m_s.group(1).strip().lower())].append(qid)
             byid[qid]["diff_kSIC"] = parts
             byid[qid]["diff_note"] = r[2]
+        # copied reasons: the same reason or the same step list for several questions means they were not worked out
+        for dct, what in ((seen_reasons, "reason"), (seen_steps, "step list")):
+            for txt, ids in dct.items():
+                if len(ids) > 2:
+                    errs.append(f"the same {what} is used for {len(ids)} questions ({', '.join(ids[:4])}...): write each "
+                                "question's own concepts and steps")
+                    for i in ids:
+                        for k in ("diff_kSIC", "diff_note"):
+                            byid[i].pop(k, None)
+        scored = [q for q in data["questions"] if q.get("diff_kSIC")]
+        if len(scored) >= 20:
+            sc = collections.Counter(q["diff_kSIC"]["S"] for q in scored)
+            ic = collections.Counter(q["diff_kSIC"]["I"] for q in scored)
+            if max(sc.values()) > 0.85 * len(scored) or max(ic.values()) > 0.9 * len(scored):
+                errs.append(f"difficulty is uniform across the test (S {dict(sorted(sc.items()))}, I {dict(sorted(ic.items()))}): "
+                            "real papers spread over S1-S3 and I0-I2 - work the questions out and score each one")
+                for q in scored:
+                    for k in ("diff_kSIC", "diff_note"):
+                        q.pop(k, None)
     finish_difficulty(data)
     # a paragraph group keeps one chapter
     for g in data["groups"]:
