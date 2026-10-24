@@ -404,13 +404,9 @@
    "src_rel": [
     "Batch 4/Source/TNAS/Mains/Moderate/TNAS - Test 05 (09 Jul 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 49 figs",
-   "note": "144 questions; 133 from key, 11 solved; bands Easy 32/Medium 58/Hard 32/Very hard 22; chapters C02 C04 C05 C06 C09 C11 C15 C16 C17 C18 C19 C21 C24 C25 C30 C31 C36 M01 M05 M14 M15 M20 M21 M22 M23 M24 M25 M26 M27 M29 P06 P08 P09 P10 P11 P12 P14 P15 P17 P18 P20",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T03:07:42Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "144 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
   },
   {
    "name": "TNAS - Test 06 (30 Jul 2023)",
