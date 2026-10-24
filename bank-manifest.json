@@ -1438,8 +1438,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 28 (23 Mar 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; output verified complete in FINAL OUTPUT (manifest write had been lost)"
+   "status": "in_progress",
+   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; output verified complete in FINAL OUTPUT (manifest write had been lost)",
+   "started_at": "2026-10-24T00:03:16Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 33 (01 Apr 2024)",
