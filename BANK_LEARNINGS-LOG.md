@@ -267,3 +267,9 @@ Score-II T17 (13 Feb 2024): PDF truncated to 13 of 17 pages, no key -> hand-solv
   them exactly like the template rescoring - redo difficulty.tsv question by question within the limits, nothing else.
 - The other 22 group B tests (TMAS, TNAS, Star Review, Internal Test, Nurture, TEAS, TOPS 02/04, Score Advanced
   02/04/05) are acceptable and stay as they are.
+## 2026-10-24 06:45 UTC - SRGBT re-queued again (fix_note v5); new apply checks
+- The v4 rescores of the Score Advanced/TOPS tests reached the good level (mean D5.3-6.2), but SRGBT 01-12 stayed
+  inflated: mean D6.2-6.9, D7 on 33-65% of questions, almost no Easy (SRGBT 11 real gas q24 still D9, audit says D4).
+  K2 + S3 + I1 + C1 + F1 = D7 had become the default. SRGBT 01-12 now carry fix_note "rescore difficulty v5".
+- bank_tools apply now also rejects a test whose mean D is above 6.3 or that gives one D value to more than 50% of
+  its questions (no good-group or Advanced v4 rescore exceeds either).
