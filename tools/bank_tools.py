@@ -1006,8 +1006,10 @@ def build(zdir, out, only=None, compile_check=True):
             if q.get("diff_kSIC"):
                 q["difficulty"], q["diff_parts"] = diff_score(q["diff_kSIC"], q["type"])
                 if q.get("diff_adjust"):
-                    # user 24 Oct 19:38: tests with padded reasons (group C) are shifted down by the gap between the
-                    # group C and group A mean difficulty (1.04 -> 1 point per question), stored as diff_adjust
+                    # user 24 Oct 20:15: group B and C tests (inflated / padded reasons) are recalibrated to group A with
+                    # a proportional penalty, new D = round(0.8*D + 0.2) (D1-3 kept, D4-8 -1, D9-10 -2). The 0.2 rate
+                    # was fitted by minimising the Wasserstein (optimal-transport) distance to group A, both per
+                    # subject x question type and on same-question duplicate pairs. Stored as diff_adjust
                     q["difficulty"] = max(1, min(10, q["difficulty"] + q["diff_adjust"]))
                     q["diff_parts"] += f" adj{q['diff_adjust']:+d}"
                 keys.append(f"difficulty={q['difficulty']}")
