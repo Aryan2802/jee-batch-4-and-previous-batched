@@ -304,3 +304,11 @@ ANCHOR [v2] Mathematics D5: Pre-Score (2023-24) - Test 08 (03 Dec 2023) p1_math_
 - Every scored question of the 36 group C tests got diff_adjust = round(D - 1.036) - D (= -1; 29 questions already at
   D1 stay 1). build applies it (difficulty + diff_adjust, diff_parts gains "adj-1"); apply removes it, so a test that
   is rescored later loses the shift. Group B is unchanged.
+
+## 2026-10-24 20:15 IST - groups B and C recalibrated (replaces the flat -1 shift on C)
+User asked for an adaptive correction (punish high outliers more, low ratings less) for groups B and C.
+Rule: new D = round(0.8*D + 0.2), stored per question as diff_adjust (D1-3 unchanged, D4-8 -1, D9-10 -2).
+Fit: proportional penalty b*(D-1), b chosen by minimising Wasserstein-2 (optimal transport) distance to group A,
+(a) per subject x question type over all questions and (b) on 478 same-question duplicate pairs (B/C copy vs A copy).
+Both agree on b = 0.2 for C; for B the joint fit is also 0.2. Result: mean A 4.57 | B 5.83 -> 4.86 | C 5.60 -> 4.68;
+D8+ share B 15.1% -> 0.4%, C 7.9% -> 0.4%. Any rescore through `apply` clears diff_adjust for that test.
