@@ -1637,8 +1637,11 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 45 (26 Mar 2025).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 24 figures; lint PASS, QA done"
+   "status": "in_progress",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 5 = 75 Q; 24 figures; lint PASS, QA done",
+   "started_at": "2026-10-24T00:16:31Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 15 (09 Feb 2024)",
