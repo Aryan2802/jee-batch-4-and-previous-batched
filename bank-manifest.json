@@ -2323,8 +2323,11 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 16 (12 Jan 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs"
+   "status": "in_progress",
+   "conv_note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs",
+   "started_at": "2026-10-24T10:51:55Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "SRG (Enthusiast) - Test 22 (18 Sep 2022)",
