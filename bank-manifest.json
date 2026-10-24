@@ -1537,10 +1537,13 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 35 (04 Feb 2025).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 4 + I(ii) 6 + III 8) = 54 Q; 20 figures",
    "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C02 C03 C04 C07 C08 C10 C11 C15 C17 C21 C25 C29 C31 M02 M04 M06 M07 M08 M09 M11 M16 M17 M19 M21 M23 M26 M27 M29 M31 P05 P06 P07 P08 P10 P11 P12 P18 P19 P20 P22",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T05:23:42Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 38 (12 Feb 2025)",
