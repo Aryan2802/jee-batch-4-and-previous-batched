@@ -437,6 +437,35 @@ The value of ($|$x$|$ + 10) is \underline{\hspace{1.2cm}}
 The value of D is \underline{\hspace{1.2cm}}
 \end{bankq}
 
+\section*{SRG (Enthusiast) papers}
+\begin{bankq}[id=SRG04-P1-MATH-S4-Q14, source={SRG (Enthusiast) - Test 04 (29 Nov 2020)}, paper=1, qno=14, type=numerical, subtopic={Properties}, answer={3}, answer_src=solved, working={Roots are 3 and 1 so the determinant (product of eigenvalues) is 3.}, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: determinant and eigenvalues of a matrix | steps: roots sum 4 and differ by 2 are 3 and 1; determinant is the product | I: equating determinant with product of characteristic roots}]
+If sum and the difference of the roots of the characteristic equation of a square matrix of order $2\times2$ are 4 and 2 respectively then the determinant of the matrix will be
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S2-Q06, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=6, type=multi, subtopic={Cramer's rule}, answer={A,B,C,D}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: Cramer rule on a system with distinct constants, partial fractions | steps: system in x, y, z with denominators a - p, a - q etc; treat as partial fractions of a rational function; determine x, y, z by evaluating residues; test statements | I: treating the system as residues of a rational function | C: evaluating each unknown}]
+Let $a,b,c,p,q$ be five different non-zero real numbers and $x,y,z$ be three numbers satisfying the system of equations
+\[\dfrac xa+\dfrac y{a-p}+\dfrac z{a-q}=1\]
+\[\dfrac xb+\dfrac y{b-p}+\dfrac z{b-q}=1\]
+\[\dfrac xc+\dfrac y{c-p}+\dfrac z{c-q}=1\]
+then
+\begin{qoptions}
+\opt{A}{$x+y+z=a+b+c-p-q$}
+\opt{B}{$x=\dfrac{abc}{pq}$}
+\opt{C}{$y=\dfrac{(a-p)(b-p)(c-p)}{p(p-q)}$}
+\opt{D}{$z=\dfrac{(a-q)(b-q)(c-q)}{q(q-p)}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P2-MATH-S2-Q09, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=2, qno=9, type=multi, subtopic={Properties}, answer={C,D}, answer_src=solved, working={D = 2 (tanA tanB tanC) (sum of tangents) cubed = 2 p to the 4 with p at least 3 sqrt3, so D is at least 1458 and D/1000 can be 2 or 3.}, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: determinant in tangents, angles of a triangle | steps: use tan A + tan B + tan C = tan A tan B tan C; row and column operations to factor the determinant; D = 2 (tan A tan B tan C)^3 type; acute triangle bounds minimum value; check values}]
+If A, B, C are the angles of an acute angled triangle ABC and
+{\footnotesize\[D=\begin{vmatrix}(\tan B+\tan C)^2&\tan^2A&\tan^2A\\ \tan^2B&(\tan A+\tan C)^2&\tan^2B\\ \tan^2C&\tan^2C&(\tan A+\tan B)^2\end{vmatrix},\]}
+then the value of $\dfrac{D}{1000}$ can be
+\begin{qoptions}
+\opt{A}{$-1$}
+\opt{B}{0}
+\opt{C}{2}
+\opt{D}{3}
+\end{qoptions}
+\end{bankq}
+
 \section*{Pre-Score (2023-24) papers}
 \begin{bankq}[id=PS05-P1-MATH-S1-Q01, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=1, type=single, subtopic={Expansion}, answer={D}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C2 F0}, diff_note={concepts: tridiagonal determinant and an infinite sum | steps: expand along the first row to get D_n = 10 D_{n-1} - 9 D_{n-2}; solve to find D_n = (9^{n+1} - 1)/8 type; compute the sum with 18 D_n+1 telescoping | I: recurrence of tridiagonal determinants | C: solving the recurrence and summing}]
 Let $M_n$ be the $n\times n$ matrix with entries as follow for $1\le i\le n$, $m_{i,i}=10$; for $1\le i\le n-1$, $m_{i+1,i}=m_{i,i+1}=3$ all other entries in $M_n$ are zero. Let $D_n$ be the determinant of matrix $M_n$, then $\displaystyle\sum_{n=1}^{\infty}\dfrac{1}{8D_n+1}$

@@ -2066,6 +2066,66 @@ Let `R' be a relation over the set of natural numbers defined by (p, q) R(r, s) 
 \end{qoptions}
 \end{bankq}
 
+\section*{SRG (Enthusiast) papers}
+\begin{bankq}[id=SRG04-P1-MATH-S2-Q08, source={SRG (Enthusiast) - Test 04 (29 Nov 2020)}, paper=1, qno=8, type=multi, subtopic={Modulus and greatest integer}, answer={D}, answer_src=solved, working={Write x = n + f; 3n + 3f = 100 f gives f = 3n/97 in [0,1) so n = 0 to 32: 33 solutions.}, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: fractional part equation, greatest integer | steps: write x = n + f; 3n + 3f = 100 f; f = 3n/97 in [0, 1); n from 0 to 32 | I: bounding f to get the range of n | C: counting the solutions}]
+The number of solutions of the equation $3x=100\{x\}$ is
+\begin{qoptions}
+\opt{A}{34}
+\opt{B}{31}
+\opt{C}{32}
+\opt{D}{33}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG04-P1-MATH-S2-Q09, source={SRG (Enthusiast) - Test 04 (29 Nov 2020)}, paper=1, qno=9, type=multi, subtopic={Range}, answer={B,D}, answer_src=solved, working={Maximum 16 at x = -2, f(-3) = 9 and f(1) = -11 so range is [-11,16] (onto) but values between 9 and 16 repeat (many one).}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: range and one one nature of a cubic on an interval | steps: derivative zero at x = -2; f(-3) = 9; f(1) = -11; maximum 16; range [-11, 16]; many one | I: locating the turning point in the interval | C: evaluating the endpoint values}]
+Consider a function $f:[-3,1]\to[-11,16]$ such that $f(x)=x^3-12x$. The function $f$ can be classified as
+\begin{qoptions}
+\opt{A}{One-one}
+\opt{B}{Onto}
+\opt{C}{Into}
+\opt{D}{Many-one}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S3-Q18, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=18, type=numerical, subtopic={Modulus and greatest integer}, answer={49}, answer_src=key, difficulty=7, diff_parts={K2 S1 I2 C2 F1}, diff_note={concepts: modulus function equation, counting solutions on an interval | steps: piecewise graph of | x-1 | + | x squared - 4 | + | x+1 | on [-3, 4]; find values of k giving exactly two intersections; sum integers | I: sketching the piecewise graph | C: finding k ranges with two intersections}]
+Sum of all integral value(s) of $k$ for which $|x-1|+\left|x^2-4\right|+|x+1|=k$ has 2 distinct real solutions in the interval $x\in[-3,4]$ is
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-MATH-S1-Q01, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=1, type=multi, subtopic={Modulus and greatest integer}, answer={A,B,C,D}, answer_src=key, difficulty=6, diff_parts={K2 S1 I1 C2 F1}, diff_note={concepts: sum of absolute values with a parameter, piecewise linear function | steps: f(x) = (1/m) sum | x - k/m | ; evaluate at 0, 1, -1, 2 using arithmetic series | I: evaluating a sum of absolute values for several x | C: arithmetic series sums}]
+If $f(x)=\displaystyle\lim_{m\to\infty}\dfrac1m\sum_{k=0}^{m}\left|x-\dfrac km\right|$; then
+\begin{qoptions}
+\opt{A}{$f(0)=\dfrac12$}
+\opt{B}{$f(1)=\dfrac12$}
+\opt{C}{$f(-1)=\dfrac32$}
+\opt{D}{$f(2)=\dfrac32$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG15-P1-MATH-S1-Q04, source={SRG (Enthusiast) - Test 15 (19 Dec 2021)}, paper=1, qno=4, type=single, subtopic={Modulus and greatest integer}, answer={B}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C2 F0}, diff_note={concepts: equation with greatest integer and fractional part, number of divisors | steps: write x = n + f; floor of 2x depends on f in two halves; solve equation case by case for smallest x; compute 24N and count divisors | I: splitting by the fractional part range | C: testing integer values and counting divisors}]
+The least value of $x$ satisfying $\dfrac{1}{[x]}+\dfrac{1}{[2x]}=\{x\}+\dfrac13$ is $N$, then number of positive divisors of $24N$ is\\
+(where $[\cdot]$ is the greatest integer function and $\{x\}$ is fractional part of $x$)
+\begin{qoptions}
+\opt{A}{2}
+\opt{B}{4}
+\opt{C}{6}
+\opt{D}{8}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P1-MATH-S1-Q03, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=1, qno=3, type=single, subtopic={Composition}, answer={B}, answer_src=solved, working={f(x) - f(x/2 to the n) = sum of x/2 to the k = x(1 - 2 to the minus n), whose limit is x.}, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: functional equation f(2x) - f(x) = x, telescoping | steps: write f(x) - f(x/2 to the n) as telescoping sum of x/2 to the k; sum the geometric series; take the limit | I: telescoping the functional equation | C: summing the geometric series}]
+If $f:R\to R$ is a continuous function satisfying $f(0)=1$ and $f(2x)-f(x)=x\ \forall x\in R$ and $\displaystyle\lim_{n\to\infty}\left(f(x)-f\!\left(\dfrac{x}{2^n}\right)\right)=p(x)$ then $p(x)$ is
+\begin{qoptions}
+\opt{A}{Constant function}
+\opt{B}{A linear polynomial in $x$}
+\opt{C}{A quadratic polynomial in $x$}
+\opt{D}{A cubic polynomial in $x$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P1-MATH-S2-Q08, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=1, qno=8, type=multi, subtopic={Inverse}, answer={A,B,C,D}, answer_src=solved, working={h(x) = x(1 + ln x) is increasing and onto [1, infinity), f is its inverse; f ln(lambda)/lambda tends to 1.}, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: inverse of x(1 + ln x), monotonic function and limits | steps: h' = 2 + ln x positive; h is bijective on [1, infinity); f is the inverse; limit using asymptotics of h | I: showing h is a bijection from [1,infinity) to itself | C: evaluating the limit}]
+For any real number $\lambda\ge1$. Let $f(\lambda)$ denote the real solution of the equation $x(1+\ln x)=\lambda$ then
+\begin{qoptions}
+\opt{A}{$f(\lambda)$ is strictly increasing function in its domain}
+\opt{B}{$\displaystyle\lim_{\lambda\to\infty}f(\lambda)\to\infty$}
+\opt{C}{If $h(x)=x(1+\ln x)$, $h:[1,\infty)\to[1,\infty)$ then $f(\lambda)$ is inverse function of $h(x)$}
+\opt{D}{$\displaystyle\lim_{\lambda\to\infty}\dfrac{f(\lambda)\ln\lambda}{\lambda}=1$}
+\end{qoptions}
+\end{bankq}
+
 \section*{Pre-Score (2023-24) papers}
 \begin{bankq}[id=PS02-P1-MATH-S3-Q08, source={Pre-Score (2023-24) - Test 02 (15 Oct 2023)}, paper=1, qno=8, type=numerical, subtopic={Modulus and greatest integer}, answer={8.50}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: solve an equation with greatest integer of a shifted quantity | steps: set the bracket as integer n; quadratic in x; solve for real roots consistent with n; sum roots over valid n; take ten times | I: introduce integer n for the floor term | C: checking each n for consistency}]
 Sum of all the real solutions of the equation $x^2-3\Bigl[\sin\Bigl(x-\dfrac\pi6\Bigr)\Bigr]=3$ is $m$. Then $\dfrac{[10m]}2$ is (where $[.]$ denotes the greatest integer function)

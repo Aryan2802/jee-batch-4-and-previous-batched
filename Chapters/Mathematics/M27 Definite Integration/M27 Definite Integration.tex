@@ -1647,6 +1647,349 @@ $\dfrac{I(81)}{I(3)}$ is :
 $I(3)-I(-3)$ is :
 \end{bankq}
 
+\section*{SRG (Enthusiast) papers}
+\begin{bankq}[id=SRG01-P1-MATH-S1-Q01, source={SRG (Enthusiast) - Test 01 (20 Sep 2020)}, paper=1, qno=1, type=single, subtopic={Properties}, answer={A}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: reduction formula for the integral of x sin to the power n | steps: integrate by parts to relate U_n and U_{n-2}; U_n = (n-1)/n U_{n-2} - 1/n^2 related; apply for n = 10; compute the ratio | I: derive the recursion by parts | C: evaluating the requested combination}]
+Let $U_{10}=\displaystyle\int_0^{\pi/2}x\cdot\sin^{10}x\,dx$, then the value of $\left(\dfrac{100U_{10}-1}{U_8}\right)$ is
+\begin{qoptions}
+\opt{A}{90}
+\opt{B}{100}
+\opt{C}{110}
+\opt{D}{80}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG01-P1-MATH-S1-Q02, source={SRG (Enthusiast) - Test 01 (20 Sep 2020)}, paper=1, qno=2, type=single, subtopic={Properties}, answer={B}, answer_src=key, working={Printed key.}, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: integral of f of x minus reciprocal x for an even function | steps: use the substitution x - 1/x = t with its companion to show the integral equals the integral of f(t) from 0 to infinity; result pi/2 | I: symmetrising substitution for f(x - 1/x) | C: two substitutions}]
+Let $f(x)$ be an even function such that $\displaystyle\int_0^\infty f(x)\,dx=\dfrac{\pi}{2}$, then the value of definite integral $\displaystyle\int_0^\infty f\left(x-\dfrac1x\right)dx$ is
+\begin{qoptions}
+\opt{A}{$\pi$}
+\opt{B}{$\dfrac{\pi}{2}$}
+\opt{C}{$\dfrac{3\pi}{2}$}
+\opt{D}{$2\pi$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG01-P1-MATH-S1-Q04, source={SRG (Enthusiast) - Test 01 (20 Sep 2020)}, paper=1, qno=4, type=single, subtopic={Properties}, answer={D}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C2 F0}, diff_note={concepts: definite integral over a symmetric interval with a polynomial in the exponent | steps: the exponent is (x - 1)^5 + 11 + 4 ln abs(x - 1) after completing; so the integrand is e^11 e^((x-1)^5) (x - 1)^4; substitute t = (x - 1)^5; evaluate between -32 and 0 | I: complete the fifth power in the exponent | C: bounds and constants}]
+If $\displaystyle\int_{-1}^{1}e^{\left(x^5-5x^4+10x^3-10x^2+5x+10+4\ln|x-1|\right)}dx=\dfrac{e^p-1}{5e^q}$ ; then p + q equals:
+\begin{qoptions}
+\opt{A}{23}
+\opt{B}{32}
+\opt{C}{45}
+\opt{D}{55}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG01-P1-MATH-S2-Q05, source={SRG (Enthusiast) - Test 01 (20 Sep 2020)}, paper=1, qno=5, type=multi, subtopic={Properties}, answer={A,D}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: function with f(f(x)) = 1 - x and statements about its integral | steps: f is a bijection symmetric about the line; integral J = 1/2 by symmetry; evaluate each integral by substitution; check f(1/4) + f(3/4) | I: f f x = 1 - x gives a symmetry so J = 1/2 | C: four integrals}]
+The function `f ' is continuous and has the property $f\{f(x)\}=1-x\ \forall\ x\in[0,1]$ and $J=\displaystyle\int_0^1f(x)\,dx$, then
+\begin{qoptions}
+\opt{A}{$f\left(\dfrac14\right)+f\left(\dfrac34\right)=1$}
+\opt{B}{$\displaystyle\int_0^1\dfrac{48x^6-32x^3}{\left(3x^3+1\right)^3}dx=J$}
+\opt{C}{$\dfrac12\displaystyle\int_0^\pi\left|\dfrac{1}{\sqrt3}\sin x+\dfrac{1}{\sqrt6}\cos x\right|dx=J$}
+\opt{D}{$\displaystyle\int_0^\pi\dfrac{\sin x\,dx}{\left(\sin x+\cos x\right)^3}=J$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG01-P1-MATH-S3-Q16, source={SRG (Enthusiast) - Test 01 (20 Sep 2020)}, paper=1, qno=16, type=numerical, subtopic={Properties}, answer={3.00}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: integral of f plus second derivative times sine by parts | steps: integrate f'' sin x by parts twice to get a boundary term and the integral of f sin x cancels; result f(pi) + f(0) = 5 | I: by parts twice cancels the integral | C: boundary terms}]
+If $f(\pi)=2$ and $\displaystyle\int_0^\pi\left(f(x)+f''(x)\right)\sin x\,dx=5$ , then f(0) is
+\end{bankq}
+\begin{bankq}[id=SRG01-P1-MATH-S3-Q17, source={SRG (Enthusiast) - Test 01 (20 Sep 2020)}, paper=1, qno=17, type=numerical, subtopic={Properties}, answer={0.00}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: functional relation with f(-x) and integral over a reciprocal interval | steps: solve for f(x) using the relation with x replaced by -x; integral from 1/e to e with symmetric x -> 1/x property; evaluate | I: eliminate f(-x) by the two equations | C: integral from 1/e to e using substitution}]
+If $2f(x)+f(-x)=\dfrac1x\sin\left(x-\dfrac1x\right)$ then $\displaystyle\int_{1/e}^{e}f(x)\,dx=$ \underline{\hspace{1cm}}
+\end{bankq}
+\begin{bankq}[id=SRG01-P1-MATH-S3-Q18, source={SRG (Enthusiast) - Test 01 (20 Sep 2020)}, paper=1, qno=18, type=numerical, subtopic={Properties}, answer={0.00}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of a determinant function plus its second derivative | steps: the determinant is an odd function type; f(x) + f''(x) is odd, so integral with even weight x^2+1 over symmetric limits is zero; check structure of each term | I: determine parity of the determinant | C: verifying parity of each row combination}]
+If $f(x)=\begin{vmatrix}\cos x&e^{x^2}&2x\cos^2\dfrac x2\\x^2&\sec x&\sin x+x^3\\1&2&x+\tan x\end{vmatrix}$ then the value of $\displaystyle\int_{-\pi/2}^{\pi/2}\left(x^2+1\right)\left\{f(x)+f''(x)\right\}dx$ is \underline{\hspace{1cm}}
+\end{bankq}
+\begin{bankq}[id=SRG02-P1-MATH-S1-Q03, source={SRG (Enthusiast) - Test 02 (04 Oct 2020)}, paper=1, qno=3, type=multi, subtopic={Leibniz rule}, answer={A,C}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: function defined by an integral equation | steps: differentiate the equation to get a first order equation for f; solve the equation using integrating factor; apply f(1) = 1 | I: differentiate the integral relation twice | C: solving the resulting equation}]
+If $f(x)$ is a function such that $x\displaystyle\int_0^x(1-t)f(t)\,dt=\int_0^x tf(t)\,dt$ and $f(1)=1$ then find $f(x)$
+\begin{qoptions}
+\opt{A}{$e^{-\frac1x-3\log x-1}$}
+\opt{B}{$e^{\frac{-1}{x}}-3\log x+1$}
+\opt{C}{$\dfrac1{x^3}e^{-\frac1x-1}$}
+\opt{D}{None of these}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG02-P1-MATH-S2-Q11, source={SRG (Enthusiast) - Test 02 (04 Oct 2020)}, paper=1, qno=11, type=numerical, subtopic={Leibniz rule}, answer={2}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: function defined by an integral with exponential limit and an area | steps: differentiate with the upper limit e^x; solve f from the derivative; area between f and y = 4; compute m/n and m - 10 n | I: variable limit with exponential gives f in terms of t | C: area integral and reduction}]
+Let $\displaystyle\int_0^{e^x}\left(t^2-1\right)f(t)\,dt=\dfrac1{15}\left[3e^{5x}-5e^{3x}+15\right]$. Then the area bounded by $y=f(x)$ and $y=4$ is $m/n$ where $m$ and $n$ are coprime positive integers then find $m-10n$
+\end{bankq}
+\begin{bankq}[id=SRG04-P1-MATH-S1-Q02, source={SRG (Enthusiast) - Test 04 (29 Nov 2020)}, paper=1, qno=2, type=single, subtopic={Properties}, answer={A}, answer_src=solved, working={Shift t = x - 3: the integrand is an odd function over a symmetric interval so the integral is 0.}, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: odd function over a symmetric interval | steps: shift t = x - 3; integrand is odd; integral is zero | I: shifting to reveal the odd function}]
+$\displaystyle\int_1^5(x-1)(x-2)(x-3)(x-4)(x-5)\,dx$ lies in
+\begin{qoptions}
+\opt{A}{$[0,5]$}
+\opt{B}{$[4,9]$}
+\opt{C}{$[10,15]$}
+\opt{D}{$[-5,0)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG04-P1-MATH-S2-Q05, source={SRG (Enthusiast) - Test 04 (29 Nov 2020)}, paper=1, qno=5, type=multi, subtopic={Properties}, answer={D}, answer_src=solved, working={The integrand is twice the larger of abs sin and abs cos; over a quarter period it integrates to root 2; total 4 root 2.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integral of modulus of trigonometric functions | steps: integrand equals twice the larger of abs sin and abs cos; integrate over a quarter period; multiply by four | I: simplifying the sum of modulus terms | C: piecewise integration}]
+$\displaystyle\int_0^\pi\left(|\sin x|+|\cos x|+\big||\sin x|-|\cos x|\big|\right)dx$ equals to
+\begin{qoptions}
+\opt{A}{$\sqrt2$}
+\opt{B}{$2\sqrt2$}
+\opt{C}{$3\sqrt2$}
+\opt{D}{$4\sqrt2$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG04-P1-MATH-S2-Q10, source={SRG (Enthusiast) - Test 04 (29 Nov 2020)}, paper=1, qno=10, type=multi, subtopic={Properties}, answer={B}, answer_src=solved, working={Inverse function integrals: integral of f from 0 to a plus integral of the inverse from 0 to f(a) equals a f(a) = 10 ln(10 to the 7 + 1).}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of a function plus integral of its inverse | steps: integral of f from 0 to a plus integral of inverse from 0 to f(a) equals a f(a); identify a; evaluate | I: recognising the inverse function integral identity | C: evaluating at the upper limit}]
+Compute {\small\[\int_0^{10}\ell\mathrm n\left(x^7+1\right)dx+\int_0^{\ell\mathrm n(10000001)}\sqrt[7]{e^x-1}\,dx.\]}
+\begin{qoptions}
+\opt{A}{$\ell\mathrm n\left(10^7+1\right)$}
+\opt{B}{$10\,\ell\mathrm n\left(10^7+1\right)$}
+\opt{C}{$10^7\,\ell\mathrm n\left(10^7+1\right)$}
+\opt{D}{$100\,\ell\mathrm n\left(10^7+1\right)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG04-P1-MATH-S4-Q15, source={SRG (Enthusiast) - Test 04 (29 Nov 2020)}, paper=1, qno=15, type=numerical, subtopic={Properties}, answer={4038}, answer_src=solved, working={f(n) = 2 x to the n over n factorial so the sum is 2 e to the x = 4038 at x = ln 2019.}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: series summation, exponential series | steps: f(n) = 2 x to the n over n factorial; sum n from 0 to infinity gives 2 e to the x; evaluate at ln 2019 gives 4038 | I: identifying the general term and its sum as exponential | C: evaluating at ln 2019}]
+Define functions $f_0,f_1,\ldots..,f_n,\ldots.$ to satisfy the following relations : $f_0=2$, $\dfrac{d}{dx}f_n=f_{n-1}$. If for $n\ge1$, $f_n(0)=0$, compute $\displaystyle\sum_{n=0}^{\infty}f_n(\ell\mathrm n(2019))$.
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S1-Q03, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=3, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: integration by parts reduction formula, logarithmic integrals | steps: I(n) by parts gives 4 I(n) + n I(n-1) = e^4; take n = 5; compute ln of e^4 | I: deriving the reduction relation | C: substituting n = 5}]
+Let $I(n)=\displaystyle\int_1^e x^3\cdot(\ell nx)^n\,dx$, where $n\in N$. Find the value of $\ell n\left(4I(5)+5I(4)\right)$.
+\begin{qoptions}
+\opt{A}{3}
+\opt{B}{4}
+\opt{C}{5}
+\opt{D}{6}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S1-Q04, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=4, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C1 F0}, diff_note={concepts: definite integral properties of even functions and trigonometric symmetry | steps: f is even so f(cos x) integrates symmetrically over 0 to pi; I1 = 2 times integral to pi/2; relate cos to sin by x to pi/2 - x; ratio is 2 | C: relating I1 and I2}]
+Let $f(x)=x^4+|x|$ and $I_1=\displaystyle\int_0^{\pi}f(\cos x)\,dx$ and $I_2=\displaystyle\int_0^{\pi/2}f(\sin x)\,dx$, then the value of $\dfrac{I_1}{I_2}$ is :
+\begin{qoptions}
+\opt{A}{1}
+\opt{B}{$\dfrac12$}
+\opt{C}{2}
+\opt{D}{$\dfrac14$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S1-Q05, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=5, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: property of definite integrals with a symmetric integrand | steps: substitute x to 1 - x; the integral of ln x/ln(x - x squared) added to ln(1-x)/ln(x(1-x)) gives 1; limits symmetric about 1/2 so I = half of the interval length | I: using the x to 1 - x symmetry to sum two integrals | C: evaluating the resulting length}]
+The value of definite integral $\displaystyle\int_{1/3}^{2/3}\dfrac{\ln x}{\ln(x-x^2)}\,dx$ is equal to :
+\begin{qoptions}
+\opt{A}{$\dfrac13$}
+\opt{B}{$\dfrac16$}
+\opt{C}{$\dfrac19$}
+\opt{D}{$\dfrac1{18}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S2-Q07, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=7, type=multi, subtopic={Properties}, answer={A,B,C,D}, answer_src=key, difficulty=9, diff_parts={K2 S3 I2 C2 F1}, diff_note={concepts: differentiation under the integral sign, monotonicity | steps: f'(x) = 2x(cos(1/x) + 1) non negative so increasing; f'' limit gives 4; concavity comparison; f'(x+3) - f'(x) from mean value theorem exceeds 12 somewhere; check four options | I: differentiating the integral with variable upper limit | C: evaluating limits and differences for four options}]
+For the function $f(x)=\displaystyle\int_0^{x^2}\left(\cos\dfrac1{\sqrt t}+1\right)dt,\ x\ge1$
+\begin{qoptions}
+\opt{A}{$f(x)$ is an increasing function in the interval $[1,\infty)$}
+\opt{B}{$\displaystyle\lim_{x\to\infty}f''(x)=4$}
+\opt{C}{$f(4)+f(6)>2f(5)$}
+\opt{D}{For at least one $x$ in $[1,\infty)$, $f'(x+3)-f'(x)>12$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S2-Q08, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=8, type=multi, subtopic={Properties}, answer={B,D}, answer_src=key, difficulty=8, diff_parts={K2 S3 I1 C2 F1}, diff_note={concepts: trigonometric integral with product to sum conversion, King property | steps: write tan^3 x cos^5 x as sin^3 x cos^2 x; product formulas to express with multiple angles; use substitution x to pi/2 - x; combine with cos 7x; evaluate the resulting integral | I: simplifying to sin cubed cos squared and applying the king property | C: expanding products of trigonometric functions}]
+$\displaystyle\int_0^{\pi/2}\tan^3x\cos^5x\cos7x\,dx$ is equal to
+\begin{qoptions}
+\opt{A}{$\dfrac18\displaystyle\int_\pi^0\sin^2x\sin3x\,dx$}
+\opt{B}{$\dfrac18\displaystyle\int_{\pi/2}^0\sin^2x\sin3x\,dx$}
+\opt{C}{$\dfrac1{30}$}
+\opt{D}{$\dfrac1{60}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S2-Q09, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=9, type=multi, subtopic={Properties}, answer={B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: Riemann sum as a definite integral, bounds from monotonic sequences | steps: sum tends to integral of x^4 + x^3 + x^2 + 2 from 0 to 1 = 167/60; S_n is a right Riemann sum and T_n a left Riemann sum for an increasing integrand; compare | I: converting the sums to integrals and deciding the monotonic bounds | C: evaluating the integral 167/60}]
+$S_n=\displaystyle\sum_{r=1}^{n}\left(\dfrac{r^4+r^3n+r^2n^2+2n^4}{n^5}\right)$ and $T_n=\displaystyle\sum_{r=0}^{n-1}\left(\dfrac{r^4+r^3n+r^2n^2+2n^4}{n^5}\right),\ n=1,2,3,\ldots$ then
+\begin{qoptions}
+\opt{A}{$T_n>\dfrac{167}{60}$}
+\opt{B}{$T_n<\dfrac{167}{60}$}
+\opt{C}{$S_n>\dfrac{167}{60}$}
+\opt{D}{$S_n<\dfrac{167}{60}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S2-Q10, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=10, type=multi, subtopic={Properties}, answer={C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: estimation of definite integrals using monotonicity | steps: f is increasing then decreasing with max at x = 3; bound the integral by the extreme values over the interval; compare with the options | I: analysing the shape of f from its derivative | C: bounding the integral by values at endpoints}]
+Let $f(x)$ be a function given by $f(x)=x^{3/2}e^{-1/2}$. Then --
+\begin{qoptions}
+\opt{A}{$f$ is non-monotonic in $(4,\infty)$}
+\opt{B}{$\dfrac{9\sqrt3}{e\sqrt e}<\displaystyle\int_0^3f(x)\,dx<\dfrac{9\sqrt3}{\sqrt e}$}
+\opt{C}{$\displaystyle\int_0^3f(x)\,dx<\dfrac{9\sqrt3}{e\sqrt e}$}
+\opt{D}{$f$ is monotonic in $(4,\infty)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S2-Q11, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=11, type=multi, subtopic={Properties}, answer={A,B,C,D}, answer_src=key, difficulty=9, diff_parts={K3 S2 I2 C2 F1}, diff_note={concepts: Leibniz rule for a variable upper limit, critical points, number of roots of derivatives | steps: H'(x) = -2x (u+2)(u+5)(u+10) with u = -1 - x squared; roots by checking each factor; count critical points; derivatives of higher order and their positive roots | I: applying the Leibniz rule with the chain factor | C: counting distinct roots of several derivatives}]
+Consider a real valued function $H(x)=\displaystyle\int_{-1}^{-1-x^2}(z+2)(z+5)(z+10)\,dz$, then
+\begin{qoptions}
+\opt{A}{$H(x)$ has 7 critical points}
+\opt{B}{$H''(x)=0$ has exactly 3 positive roots}
+\opt{C}{$H'''(x)=0$ has exactly 2 positive roots}
+\opt{D}{$H'(x)H''(x)=0$ has 13 distinct real roots}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S3-Q15, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=15, type=numerical, subtopic={Properties}, answer={6}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: definite integral of a quadratic, maximisation under constraint | steps: integral of 7x squared - 9 gives (7/3)(b cubed - a cubed) - 9(b - a) = 0; factor out b - a; get a relation b squared + ab + a squared = 27/7; maximise 3a + 2b by Lagrange or tangent line | I: factoring the integral condition into a conic constraint | C: maximising a linear function on an ellipse}]
+If $\displaystyle\int_a^b\left(7x^2-9\right)dx=0,\ (a,b>0,\ a\ne b)$ then the maximum possible value of $(3a+2b)$ is
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-MATH-S3-Q18, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=18, type=numerical, subtopic={Properties}, answer={0}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: substitution in definite integrals with symmetric functions | steps: substitute x = 2/t in the second term and combine; integrand pairs cancel; result is zero | I: choosing the reciprocal substitution | C: matching terms after substitution}]
+The value of the definite integral $\displaystyle\int_1^2\left(\dfrac{e^x-e^{2/x}}{x}\right)dx$ is
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S1-Q03, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=3, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: definite integral of a derivative of a product, substitution | steps: numerator is derivative of (x+a)^(x+a)(x+b)^(x+b) divided type form; substitute; evaluate at limits 0 and 1 | I: recognising the integrand as a logarithmic derivative | C: evaluating at both limits}]
+For $a,b>0$, the value of {\small\[\int_0^1\dfrac{\log\left(\dfrac{(x+a)^{(x+a)}}{(x+b)^{(x+b)}}\right)}{(x+a)(x+b)\log(x+a)\log(x+b)}\,dx\]} is equal to
+\begin{qoptions}
+\opt{A}{$\log\!\left(\dfrac{1+a}{1+b}\right)\dfrac{\log a}{\log b}$}
+\opt{B}{$\dfrac{\log(1+a)\log a}{\log(1+b)\log b}$}
+\opt{C}{$\log\!\left(\dfrac{\log(1+a)\log a}{\log(1+b)\log b}\right)$}
+\opt{D}{$\log\!\left(\dfrac{\log(1+b)\log a}{\log(1+a)\log b}\right)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S2-Q08, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=8, type=multi, subtopic={Properties}, answer={A,B,C,D}, answer_src=key, difficulty=8, diff_parts={K2 S2 I2 C2 F1}, diff_note={concepts: telescoping sum of integrals, definite integration | steps: b_k = integral of 1/((k + ln x)(k + 1 + ln x)) dx/x with u = ln x; partial fractions; telescoping a_n; limit | I: substituting u = ln x and splitting into partial fractions | C: telescoping and the limit}]
+For $k\in N$, let $b_k=\displaystyle\int_1^e\dfrac{1}{(k+\log x)(k+1+\log x)}\dfrac{dx}{x}$ and $a_n=\displaystyle\sum_{k=1}^{n}b_k$. Then
+\begin{qoptions}
+\opt{A}{$b_k=\log\!\left(\dfrac{(k+1)^2}{k(k+2)}\right)$}
+\opt{B}{$a_n=\log\!\left(\dfrac{2n+2}{n+2}\right)$}
+\opt{C}{$\displaystyle\lim_{n\to\infty}a_n=\log2$}
+\opt{D}{$\displaystyle\lim_{n\to\infty}a_n<1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S2-Q09, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=9, type=multi, subtopic={Properties}, answer={A,B,C,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: differentiation of an integral with variable limits, symmetric integrals | steps: I(a) and its derivative by Leibniz; symmetry x to a - x; evaluate I(alpha) + I(pi/alpha); check each option | I: using the Leibniz rule with a parameter in the integrand | C: evaluating several related values}]
+For $a>0$, let $I(a)=\displaystyle\int_0^a\dfrac{dx}{1+e^{a^2-2ax}}$ and let $0<\theta<\dfrac\pi2$, then
+\begin{qoptions}
+\opt{A}{$I'(a)=\ln\sqrt e$}
+\opt{B}{$I(\sin\theta)+I(\cos\theta)\le\sin(\pi/4)$}
+\opt{C}{$I(\sin^2\theta)+I(\cos^2\theta)=\dfrac12$}
+\opt{D}{$I(2a-a^2)\le\dfrac12$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S2-Q11, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=11, type=multi, subtopic={Leibniz rule}, answer={C,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integral equation, Leibniz differentiation | steps: differentiate both sides; obtain a differential equation for f; solve with f(0) = 1; check the options | I: differentiating the integral equation | C: solving the resulting ODE}]
+Let $f$ be a nonnegative function defined on the interval $[0,\pi/2]$. If $\displaystyle\int_0^x\left(f'(t)-\sin2t\right)dt=\int_x^0f(t)\tan t\,dt$ and $f(0)=1$, then
+\begin{qoptions}
+\opt{A}{$f(0)=1$ is the absolute maximum value of $f$}
+\opt{B}{$f(0)=1$ is the minimum value of $f$}
+\opt{C}{$\displaystyle\int_0^{\pi/2}y\,dx=3-\dfrac\pi2$}
+\opt{D}{$f(\pi/3)=1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S2-Q13, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=13, type=multi, subtopic={Properties}, answer={A,B,C}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: functional inequality, evaluating integrals | steps: use symmetric values of x and y to bound f; integrate over [0,1]; obtain equality conditions; check options | I: choosing substitutions to bound f | C: integrating the bounding inequality}]
+Let $f:[0,1]\to R$ be continuous and differentiable function such that for any $x,y\in[0,1]$ $xf(y)+yf(x)\le1$, then which of the following options is/are correct?
+\begin{qoptions}
+\opt{A}{$\displaystyle\int_0^1f(x)\,dx\le\dfrac\pi4$}
+\opt{B}{$\displaystyle\int_0^1x^2f'(x)\,dx\ge f(1)-1$}
+\opt{C}{$\displaystyle\int_0^1xf'(x)\,dx\ge f(1)-\dfrac\pi4$}
+\opt{D}{$\displaystyle\int_0^1f(x)\,dx\le\dfrac\pi8$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S3-Q16, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=16, type=numerical, subtopic={Leibniz rule}, answer={16}, answer_src=key, difficulty=8, diff_parts={K2 S2 I2 C2 F1}, diff_note={concepts: integral with greatest integer, counting solutions | steps: reduce the integral by region; piecewise evaluation; equate to x squared; count values of x in [0,100] | I: splitting the integral across integer parts | C: solving and counting over many intervals}]
+Find the number of values of $x$ satisfying $\displaystyle\int_0^xt^2\sin(x-t)\,dt=x^2$ in $[0,100]$.
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-MATH-S3-Q17, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=17, type=numerical, subtopic={Properties}, answer={12}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: polynomial functional equation, definite integral of inverse function | steps: solve for P(x) from the recurrence with P(1) = 3; use the property of inverse function integrals; evaluate combined integral | I: finding P from the functional equation | C: evaluating the integral combination}]
+Let $P(x)$ be a polynomial with real coefficients such that $\left(x^2+x+1\right)P(x-1)=\left(x^2-x+1\right)P(x)\ \forall x\in R$ and $P(1)=3$.
+
+If $\displaystyle\int_0^1\tan^{-1}\!\left(\dfrac{2x}{1+P\left(x^2\right)}\right)dx+\int_0^1\tan^{-1}(x+1)\,dx=\dfrac{k}{16}(\pi-\ln4)$, then find the value of $k$.
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-MATH-S3-Q13, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=13, type=numerical, subtopic={Properties}, answer={5}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: definite integral using symmetric substitution | steps: substitute to map the intervals into each other; integrand a perfect square of a rational function; evaluate | I: mapping the three intervals by substitution | C: evaluating the sum of integrals}]
+If {\small\[\begin{aligned}&\int_{-5}^{-2}\left(\dfrac{x^2-x}{x^3-3x+1}\right)^2dx+\int_{1/6}^{1/3}\left(\dfrac{x^2-x}{x^3-3x+1}\right)^2dx\\&+\int_{6/5}^{3/2}\left(\dfrac{x^2-x}{x^3-3x+1}\right)^2dx=\dfrac pq\end{aligned}\]} where $p$ and $q$ are co--primes, then $\dfrac{(6q-p)}{6}$ is
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-MATH-S3-Q16, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=16, type=numerical, subtopic={Properties}, answer={8}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integral with inverse trigonometric function and greatest integer | steps: piecewise intervals of the greatest integer; integrate x sin inverse x pieces; sum | I: splitting the integral by integer parts | C: integrating each piece}]
+$\displaystyle\int_0^{2\pi}\max\left\{\sin x,\sin^{-1}(\sin x)\right\}dx=\dfrac{\pi^b}{a}-c$, then $(a+b+c)$ is $(a,b,c\in N)$
+\end{bankq}
+\begin{bankq}[id=SRG16-P1-MATH-S1-Q01, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=1, qno=1, type=single, subtopic={Estimation}, answer={B}, answer_src=solved, working={With f concave, f prime of x is at least f prime of 1, so the integral is less than arctan(f(1))/f prime of 1, which is less than f(1)/f prime of 1.}, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: inequality for integral using concavity | steps: f' decreasing so f' at x at least f' at 1; substitute u = f; integral compared with arctan(f(1))/f'(1); compare with options | I: changing variable to f and bounding f' | C: comparing arctan with the argument}]
+If $f:[0,1]\to[0,\infty)$ is a differentiable function with decreasing first derivative, such that $f(0)=0$ \& $f'(x)>0$ then
+\begin{qoptions}
+\opt{A}{$\displaystyle\int_0^1\dfrac{dx}{\left(f(x)\right)^2+1}>\dfrac{f(1)}{f'(1)}$}
+\opt{B}{$\displaystyle\int_0^1\dfrac{dx}{\left(f(x)\right)^2+1}<\dfrac{f(1)}{f'(1)}$}
+\opt{C}{$\displaystyle\int_0^1\dfrac{dx}{\left(f(x)\right)^2+1}>\dfrac{\tan^{-1}\left(f(1)\right)}{f'(1)}$}
+\opt{D}{$\displaystyle\int_0^1\dfrac{dx}{\left(f(x)\right)^2+1}=\dfrac{f(1)}{f'(1)}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P1-MATH-S3-Q13, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=1, qno=13, type=single, subtopic={Estimation}, answer={3}, answer_src=solved, working={Near x = pi/2 the integrals behave as (pi/2) to the r times pi/(2r) and (pi/(2r)) squared, ratio 2r/pi, so C = -1 and L = 2/pi; pi L - C = 3.}, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: asymptotic behaviour of integrals of x to the r times trigonometric functions | steps: substitute x = pi/2 - t; Laplace type approximation for large r; ratio of the two integrals behaves as 2r/pi; find C and L | I: using the endpoint dominance for large r | C: evaluating the two leading integrals}]
+If $\displaystyle\lim_{r\to\infty}\dfrac{r^C\displaystyle\int_0^{\pi/2}x^r\sin x\,dx}{\displaystyle\int_0^{\pi/2}x^r\cos x\,dx}=L$, then value of $\pi L-C$ is equal to \dotfill $(C\in R,\ L>0)$
+\end{bankq}
+\begin{bankq}[id=SRG16-P2-MATH-S1-Q01, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=2, qno=1, type=single, subtopic={Properties}, answer={D}, answer_src=solved, working={The sum is dominated by the r to the 6 term: sum of r to the 6 from 1 to 7n is (7n) to the 7/7 = 7 to the 6 n to the 7, divided by 7 n to the 7 gives 7 to the 5.}, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: limit of a sum as a Riemann sum with a polynomial numerator | steps: only the highest power r to the 6 matters in the limit; sum of r to the 6 from 1 to 7n equals (7n) to the 7/7; divide by 7 n to the 7 | I: identifying the dominant term of the numerator sum | C: evaluating the limit}]
+\vspace{-4pt}{\small\[\lim_{n\to\infty}\sum_{r=1}^{7n}\left(\frac{r^6+6r^5+5r^4+4r^3+3r^2+2r+1}{7n^7+6n^6+5n^5+4n^4+3n^3+2n^2+7n+1}\right),\]}$k\in R$, $n\in N$ is
+\begin{qoptions}
+\opt{A}{$6^7$}
+\opt{B}{$6^5$}
+\opt{C}{$5^7$}
+\opt{D}{$7^5$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P2-MATH-S2-Q08, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=2, qno=8, type=multi, subtopic={Properties}, answer={B,D}, answer_src=solved, working={I + J = 4 and I - J = pi, so J = (4 - pi)/2.}, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integrals of reciprocal root expressions, substitution | steps: substitute t = sqrt x; add and subtract I and J; combine radicals to 1/sqrt(1 - t squared); evaluate integrals; solve for I and J | I: forming I + J and I - J | C: evaluating the resulting integrals}, also_in={SRG (Enthusiast) - Test 22 (18 Sep 2022) P1 Q14}]
+Let $I=\displaystyle\int_0^1\sqrt{\dfrac{1+\sqrt x}{1-\sqrt x}}\,dx$ and $J=\displaystyle\int_0^1\sqrt{\dfrac{1-\sqrt x}{1+\sqrt x}}\,dx$ then which statement(s) are correct
+\begin{qoptions}
+\opt{A}{$I+J=2$}
+\opt{B}{$I-J=\pi$}
+\opt{C}{$J=\dfrac{2+\pi}{2}$}
+\opt{D}{$J=\dfrac{4-\pi}{2}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P2-MATH-S3-Q13, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=2, qno=13, type=numerical, subtopic={Leibniz rule}, answer={4}, answer_src=solved, working={Let G = integral of g; (xg) squared - 4 (xg) G + 2 G squared = 0 gives G proportional to x to the (2 + sqrt2) for continuity at 0, g(4) = 4 to the (1 + sqrt2), so the required power is 4.}, difficulty=9, diff_parts={K2 S3 I2 C2 F1}, diff_note={concepts: integral equation involving integral of g and of g squared, differential equation | steps: let G be integral of g; differentiate; combine with original relation; quadratic in xg/G; power law solution; continuity at 0; evaluate power | I: eliminating the integral of g squared to get a relation between g and G | C: solving and evaluating the power}]
+Let the function $g(x)$ where $g:R\to R$, be continuous in $[0,\infty)$ and positive in $(0,\infty)$ satisfying the condition $g(1)=1$ and $\dfrac12\displaystyle\int_0^xg^2(t)\,dt=\dfrac1x\left(\displaystyle\int_0^xg(t)\,dt\right)^2$ then the value of $\left(g(4)\right)^{\sqrt2-1}$ is
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S1-Q01, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=1, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: integral of a square root of a product, area of a semicircle | steps: (x - 2)(3 - x) forms a circle of radius 1/2; integral is area of a semicircle | I: recognising the integral as a semicircle area | C: evaluating the area}]
+The value of the integral $I=\displaystyle\int_2^3\sqrt{(x-2)(3-x)}\,dx$ is equal to
+\begin{qoptions}
+\opt{A}{$\dfrac{\pi}{4}$}
+\opt{B}{$\dfrac{\pi}{2}$}
+\opt{C}{$\dfrac{\pi}{8}$}
+\opt{D}{$2\pi$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S1-Q02, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=2, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integral with modulus and exponential | steps: split the integral at t = x; integrate e^{-t}(x - t) and e^{-t}(t - x) by parts; add | I: splitting at the modulus point | C: integration by parts on both parts}]
+Let $x>0$ be a fixed real number. Then the integral $\displaystyle\int_0^\infty e^{-t}\,|x-t|\,dt$ is equal to
+\begin{qoptions}
+\opt{A}{$x+2e^{-x}-1$}
+\opt{B}{$x-2e^{-x}+1$}
+\opt{C}{$x+2e^{-x}+1$}
+\opt{D}{$-x-2e^{-x}+1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S2-Q07, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=7, type=multi, subtopic={Properties}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K2 S2 I2 C2 F1}, diff_note={concepts: piecewise constant plus minus one functions, optimisation of integral with constraint | steps: f takes values plus or minus 1 with two jumps and zero integral; enumerate sign patterns; maximise integral of x f(x) over breakpoints; count functions | I: enumerating the sign patterns with two discontinuities | C: optimising and counting functions}]
+$f:[0,1]\to\mathbb R$ be a function such that $f^2(x)=1$ and $f(x)$ is discontinuous at exactly two point and $\displaystyle\int_0^1 f(x)\,dx=0$. Let $I=\displaystyle\int_0^1 xf(x)\,dx$, choose the incorrect option(s)
+\begin{qoptions}
+\opt{A}{Maximum value of $I$ is $\dfrac14$}
+\opt{B}{Minimum value of $I$ is $-\dfrac34$}
+\opt{C}{When $I$ is maximum then number of such function $f(x)$ is 8}
+\opt{D}{When $I$ is minimum then number of such function $f(x)$ is 4}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S2-Q08, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=8, type=multi, subtopic={Properties}, answer={A,B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integral over symmetric interval with odd and even parts | steps: odd part integrates to zero; integral of e^x is e^alpha - e^{-alpha}; solve inequality | I: using odd function symmetry | C: solving the inequality for alpha}]
+If $\displaystyle\int_{-\alpha}^{\alpha}\Bigl\{e^x+(\cos x)\bigl(\ln\bigl(x+\sqrt{1+x^2}\bigr)\bigr)\Bigr\}dx>\dfrac32$, then $\alpha$ can be
+\begin{qoptions}
+\opt{A}{1}
+\opt{B}{2}
+\opt{C}{3}
+\opt{D}{4}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S2-Q09, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=9, type=multi, subtopic={Estimation}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: comparison of integrals of inverse functions | steps: the two functions are inverses of each other on [0,1]; the integral of f minus its inverse relates to areas; evaluate sign and bounds of J | I: identifying the two integrands as inverse functions | C: bounding the difference of integrals}]
+If $\displaystyle\int_0^1\left\{\left(1-x^{2018}\right)^{\frac1{2020}}-\left(1-x^{2020}\right)^{\frac1{2018}}\right\}dx=J$, then
+\begin{qoptions}
+\opt{A}{$J<\dfrac{2018}{2020}$}
+\opt{B}{$J>\dfrac{2018}{2020}$}
+\opt{C}{$J>\dfrac{2020}{2018}$}
+\opt{D}{$J<\dfrac{2020}{2018}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S2-Q11, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=11, type=multi, subtopic={Properties}, answer={A,C,D}, answer_src=key, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: even and odd integrands with a variable upper limit | steps: an integral from 0 to x of an odd function is even; test each integrand for parity | I: using the parity of the integrand | C: checking four functions}]
+Which of the following function(s) is/are even\,?
+\begin{qoptions}
+\opt{A}{$f(x)=\displaystyle\int_0^x\ln\left(t+\sqrt{1+t^2}\right)dt$}
+\opt{B}{$g(x)=\displaystyle\int_0^x\dfrac{\left(2^t+1\right)t}{2^t-1}\,dt$}
+\opt{C}{$h(x)=\displaystyle\int_0^x\left(\sqrt{1+t+t^2}-\sqrt{1-t+t^2}\right)dt$}
+\opt{D}{$\ell(x)=\displaystyle\int_0^x\ln\left(\dfrac{1-t}{1+t}\right)dt$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S2-Q12, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=12, type=multi, subtopic={Leibniz rule}, answer={A,C,D}, answer_src=key, difficulty=8, diff_parts={K2 S2 I2 C2 F1}, diff_note={concepts: antiderivative recognised as a derivative of a quotient, then limits and integrals of the result | steps: 3(x sin^2 x cos x - sin^3 x)/x^4 = derivative of (sin^3 x)/x^3; f = sin^3 x/x^3 with limit 1 at 0; evaluate limits by Taylor series; integrals using the form h = sin x | I: recognising the derivative of sin cubed over x cubed | C: evaluating four follow up expressions}]
+If $\displaystyle\int\dfrac{3x\sin^2x\cos x-3\sin^3x}{x^4}\,dx=f(x)+c$, $\displaystyle\lim_{x\to0}f(x)=1$, then which of the following is/are true.
+\begin{qoptions}
+\opt{A}{$\displaystyle\lim_{x\to0}\dfrac{\int_0^x tf(t)\,dt-2x^2}{1-\cos x}=-3$}
+\opt{B}{$\displaystyle\lim_{x\to0}\dfrac{\left(f(x)\right)^{\frac13}-x^2}{x^2}=-\dfrac16$}
+\opt{C}{If $h(x)=x\cdot\sqrt[3]{f(x)}$, then $\displaystyle\int_0^\pi h^4(x)\,dx=\dfrac{3\pi}{8}$}
+\opt{D}{If $h(x)=x\cdot\sqrt[3]{f(x)}$, then {\footnotesize$\displaystyle\int_0^{\pi/2}e^{h(x)}\left(\cos^2x-\sin x\right)dx=-1$}}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S2-Q13, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=13, type=multi, subtopic={Properties}, answer={B,D}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: infinite series of functions, telescoping and inverse function | steps: sum of x^(2^n)/(1 - x^(2^(n+1))) telescopes to x/(1 - x); inverse function; integrals over ranges | I: recognising the telescoping structure | C: integrals and comparison with a series}]
+If $f:(0,1)\to\mathbb R$ is defined by $f(x)=\displaystyle\sum_{n=0}^{\infty}\dfrac{x^{2^n}}{1-x^{2^{n+1}}}$, then --
+\begin{qoptions}
+\opt{A}{$f^{-1}(x)=\dfrac{x}{x+1}$}
+\opt{B}{$\displaystyle\int_0^{1/2}f(x)\,dx=\dfrac{2\ln2-1}{2}$}
+\opt{C}{$\displaystyle\int_0^1f(x)\,dx=\ln2-1$}
+\opt{D}{$\displaystyle\int_0^1f(x)\,dx=\dfrac12+\dfrac13+\dfrac14+\dots\infty$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S3-Q01, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=1, type=numerical, subtopic={Properties}, answer={4.5}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: coupled functions with a differential relation, integral evaluation | steps: add the relations to get h = f + g satisfies h = -x squared h'; h = 9 e^{1/x}; integrate h/x squared from 1 to 4 | I: summing the two equations to eliminate the pair | C: evaluating the integral and constant k}]
+Let $f(1)+g(1)=9e$; $f(x)=-x^2g'(x)$ and $g(x)=-x^2f'(x)$. If $\displaystyle\int_1^4\left(\dfrac{f(x)+g(x)}{x^2}\right)dx=k\left(e-e^{\frac14}\right)$, then $\left|\dfrac k2\right|$ is
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S3-Q02, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=2, type=numerical, subtopic={Properties}, answer={0.25}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: functional equation and ratio of integrals of a periodic function | steps: derive f is zero or constant? with f(0)... (0,2) on the curve gives f(0)=2; the relation shows f is periodic or odd extension; reduce both integrals | I: the equation forces f to be periodic with a given period | C: relating the two integrals}, also_in={Pre-Score (2023-24) - Test 07 (29 Nov 2023) P1 Q1}]
+If $f\bigl(x+f(y)\bigr)+f\bigl(x-f(y)\bigr)=f(x)\ \forall\, x,y\in\mathbb R$ and $(0,2)$ lies on $y=f(x)$, then $\displaystyle\int_0^{12}f(x)\,dx=\lambda\int_{-24}^{24}f(x-36)\,dx$ where $\lambda$ equals
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S3-Q03, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={4045.50}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: definite integral recognised as derivative of cot times power of cosecant | steps: show the integrand is derivative of cot x csc^2022 x; evaluate at the limits; express as -2^p (3^q - 1)/3^r; sum exponents | I: recognising the integrand as an exact derivative | C: evaluating at pi/6 and pi/3 and matching exponents}]
+$\displaystyle\int_{\pi/6}^{\pi/3}\dfrac{2022-2023\csc^2x}{\sin^{2022}x}\,dx$ equals $-\dfrac{2^p\left(3^q-1\right)}{3^r}$, then $p+q+r$ is equal to
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-MATH-S3-Q05, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=5, type=numerical, subtopic={Properties}, answer={10}, answer_src=key, difficulty=8, diff_parts={K2 S3 I2 C1 F1}, diff_note={concepts: integral with factors of 1000, symmetry | steps: a_i come in pairs a and 1000/a; sum a^x and a^{-x} relationship; reflect x to -x to add integrals; evaluate x ln(...) ; find k | I: using the reciprocal pairing of divisors | C: simplifying the integral to find k}]
+If $A=\{a_1,a_2,\dots,a_n\}$ be set of all possible natural factors of 1000 and $P=\displaystyle\int_{-2}^{2}x\ln\left(a_1^x+a_2^x+\dots+a_n^x\right)dx$, then value of $\dfrac{2P}{n}$ equals $\ln k$, find $k$.
+\end{bankq}
+
 \section*{Pre-Score (2023-24) papers}
 \begin{bankq}[id=PS06-P2-MATH-S4-Q09, source={Pre-Score (2023-24) - Test 06 (20 Nov 2023)}, paper=2, qno=9, type=numerical, subtopic={Properties}, answer={8}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: discontinuity and non differentiability of a piecewise floor function | steps: evaluate f on each unit interval; check endpoint values; number of discontinuities and non differentiable points | I: piecewise definition depends on parity of the floor | C: checking each integer point}]
 For any real number $x$, let $[x]$ denote the largest integer less than or equal to $x$. Let $f$ be a real valued function defined on the interval $[-3,3]$ by $f(x)=\begin{cases}-x-[-x] & \text{if }[x]\text{ is even}\\ x-[x] & \text{if }[x]\text{ is odd}\end{cases}$.
@@ -1695,9 +2038,6 @@ A function $F$ is defined by $F(x)=\displaystyle\int_1^x\frac{e^t}{t}\,dt\ \fora
 \opt{C}{I $\to$ R; II $\to$ S; III $\to$ Q; IV $\to$ P}
 \opt{D}{I $\to$ P; II $\to$ Q; III $\to$ R; IV $\to$ S}
 \end{qoptions}
-\end{bankq}
-\begin{bankq}[id=PS07-P1-MATH-S3-Q01, source={Pre-Score (2023-24) - Test 07 (29 Nov 2023)}, paper=1, qno=1, type=numerical, subtopic={Properties}, answer={0.25}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: functional equation and ratio of integrals of a periodic function | steps: derive f is zero or constant? with f(0)... (0,2) on the curve gives f(0)=2; the relation shows f is periodic or odd extension; reduce both integrals | I: the equation forces f to be periodic with a given period | C: relating the two integrals}]
-If $f(x+f(y))+f(x-f(y))=f(x)\ \forall\ x,y\in\mathbb R$ and $(0,2)$ lies on $y=f(x)$, then $\displaystyle\int_0^{12}f(x)\,dx=\lambda\int_{-24}^{24}f(x-36)\,dx$ where $\lambda$ equals
 \end{bankq}
 \begin{bankq}[id=PS07-P1-MATH-S3-Q08, source={Pre-Score (2023-24) - Test 07 (29 Nov 2023)}, paper=1, qno=8, type=numerical, subtopic={Leibniz rule}, answer={4.00}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: second derivative of an integral with modulus kernel | steps: p(x) = integral of f(t) times abs(x - t); p double prime = 2 f(x); divide by f(x); integrate over 0 to 2 | I: derivative of a modulus kernel gives a delta term | C: applying the formula and integral}]
 Let $f$ be a continuous function that $p(x)=\displaystyle\int_{-2}^2 f(t)\,|x-t|\,dt$ where $x\in(-2,2)$, then the value of $\displaystyle\int_0^2\frac{p''(x)}{f(x)}\,dx$ is equal to

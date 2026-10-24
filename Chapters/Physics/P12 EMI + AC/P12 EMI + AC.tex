@@ -2102,6 +2102,305 @@ Switch S of the circuit shown in figure is closed at t = 0. If e denotes the ind
 \end{qoptions}
 \end{bankq}
 
+\section*{SRG (Enthusiast) papers}
+\begin{bankq}[id=SRG12-P1-PHY-S1-Q02, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=2, type=single, subtopic={LC oscillations}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S2 I0 C1 F0}, diff_note={concepts: discharge of a capacitor through a solenoid, field of a solenoid | steps: charge lost is C E (1 - 1/eta); average current is charge over time; field of solenoid mu0 n I | C: substitution into the solenoid formula}]
+A capacitor of capacitance $C$ is connected to a battery of EMF $E$ for a long time and then disconnected. The charged capacitor is then connected across a long solenoid having $n$ turns per meter in its closely packed winding on its core. After connections it is found that the voltage across the capacitor drops to $E/\eta$ in a time $\Delta t$. In this period estimate the average magnetic induction at the centre of solenoid.
+\begin{qoptions}
+\opt{A}{$\dfrac{\mu_0 nCE}{\Delta t}\left(1-\dfrac1\eta\right)$}
+\opt{B}{$\dfrac{\mu_0 nCE}{\Delta t\,\eta}$}
+\opt{C}{$\dfrac{\mu_0 CE}{n\Delta t}\left(1-\dfrac1\eta\right)$}
+\opt{D}{$\dfrac{CE}{\mu_0 n\Delta t}\left(1-\dfrac1\eta\right)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-PHY-S2-Q12, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=12, type=multi, subtopic={Inductance}, answer={A,B,C,D}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: RC circuit with two capacitors and resistors, charging transients | steps: capacitors act as short immediately after closing so z = V/R; at infinite time capacitors are open giving V/(3R); time constant from equivalent resistance; z(t) from exponential form; zero crossing time | I: finding initial and final currents from capacitor limits | C: solving for the transient and the zero crossing time}]
+In the circuit shown in the figure, the switch `S' is closed at time $t=0$. The current in branch $AB$ is represented by $z$ and is taken to be positive when it is from $A$ to $B$.
+\begin{qoptions}
+\opt{A}{The value of $z$ immediately after the switch is closed is $\dfrac VR$}
+\opt{B}{The value of $z$ infinite time after the switch is closed is $\dfrac V{3R}$}
+\opt{C}{$z$ as a function of time $t$ is $z=\dfrac{4V}{3R}\left(e^{\frac{-3t}{CR}}-\dfrac14\right)$}
+\opt{D}{At a time $t_0=\dfrac{2CR}{3}\,\ell n(2)$ the current $z$ becomes zero}
+\end{qoptions}
+\bfig{151.8}{SRG12_p1_phy_s2_q12_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S1-Q03, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=3, type=single, subtopic={LCR circuits}, answer={B}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: AC circuit phasors, series RLC with a voltmeter across resistor | steps: impedance sqrt(36 + 64) = 10 ohm; phase angle 37 degrees lag; current amplitude 1 A; voltage across 8 ohm resistor | I: finding the phase of the current relative to the source | C: impedance and amplitude}]
+The instantaneous potential difference between points $A$ and $B$ is :
+\bfig{141.4}{SRG13_p1_phy_s1_q03_1.png}
+\begin{qoptions}
+\opt{A}{$8\sin\!\left(50\pi t+37\dfrac{\pi}{180}\right)$}
+\opt{B}{$8\sin\!\left(50\pi t-37\dfrac{\pi}{180}\right)$}
+\opt{C}{$10\sin(50\pi t)$}
+\opt{D}{$10\cos(50\pi t)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S1-Q04, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=4, type=single, subtopic={Faraday and Lenz}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: Faraday law with a non uniform time dependent field | steps: flux is integral of c y cubed t squared times a dy; integrate over 0 to a; differentiate with time | I: setting the strip element for the non uniform field | C: integration and differentiation}]
+A square loop of side `$a$' is placed in $x$-$y$ plane as shown in figure. In this region there is non-uniform time dependent magnetic field $\vec B=\left(cy^3t^2\right)\hat k$. [where $t$ is time and $c$ is constant] then magnitude of emf induced in loop is
+\bfig{141.6}{SRG13_p1_phy_s1_q04_1.png}
+\begin{qoptions}
+\opt{A}{Zero}
+\opt{B}{$\dfrac{ca^4t^2}{5}$}
+\opt{C}{$\dfrac{ca^5t}{2}$}
+\opt{D}{Data is insufficient}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S2-Q07, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=7, type=multi, subtopic={Motional EMF}, answer={B,C}, answer_src=key, difficulty=8, diff_parts={K1 S3 I2 C2 F1}, diff_note={concepts: motional EMF of a rotating semicircular wire in series RLC at resonance | steps: flux = B pi a squared cos(omega t)/2; emf amplitude; omega = 1/sqrt(LC) makes resonance so z = R; rms current; capacitor energy from voltage amplitude; power from emf times current | I: recognising the circuit is at resonance | C: evaluating energy and power expressions}]
+A wire shaped as a semicircle of radius $a$, is rotating about an axis $PQ$ with a constant angular velocity $\omega=\dfrac{1}{\sqrt{LC}}$, with the help of an external agent. A uniform magnetic field $B$ exists in space and is directed into the plane of the figure. (circuit part remains at rest) (left part is at rest)
+\bfig{140.5}{SRG13_p1_phy_s2_q07_1.png}
+\begin{qoptions}
+\opt{A}{The rms value of current in the circuit is $\dfrac{\pi Ba^2}{R\sqrt{2LC}}$}
+\opt{B}{The rms value of current in the circuit is $\dfrac{\pi Ba^2}{2R\sqrt{2LC}}$}
+\opt{C}{The maximum energy stored in the capacitor is $\dfrac{\pi^2B^2a^4}{8R^2C}$}
+\opt{D}{The maximum power delivered by the external agent is $\dfrac{\pi^2B^2a^4}{4LCR}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S2-Q08, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=8, type=multi, subtopic={Inductance}, answer={B,C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C0 F1}, diff_note={concepts: inductors in parallel, energy ratio | steps: voltage same so L1 I1 = L2 I2 as dI/dt equal; energy ratio = (L1 I1 squared)/(L2 I2 squared) = L2/L1 = I1/I2 | I: using equal voltage across parallel inductors}]
+In the figure shown the key is switched on at $t=0$. Let $I_1$ and $I_2$ be the currents through inductors having self inductances $L_1$ \& $L_2$ at any time $t$ respectively. The magnetic energy stored in the inductors 1 and 2 be $U_1$ and $U_2$. Then $\dfrac{U_1}{U_2}$ at any instant of time is :
+\bfig{124.2}{SRG13_p1_phy_s2_q08_1.png}
+\begin{qoptions}
+\opt{A}{$\dfrac{L_1}{L_2}$}
+\opt{B}{$\dfrac{L_2}{L_1}$}
+\opt{C}{$\dfrac{I_1}{I_2}$}
+\opt{D}{$\dfrac{I_2}{I_1}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S2-Q09, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=9, type=multi, subtopic={Motional EMF}, answer={B,C}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: motional EMF of a slider on a parabolic rail, power and current | steps: y squared = 4x with x = v0 t gives y = 2 sqrt(v0 t); emf = B v0 (2y); current from resistance per length; force and power; check graphs | I: finding the length between the rails as a function of time | C: forming e, i and p as functions of t}]
+A long straight slider is moved with constant velocity $\vec v=v_0\hat i$ parallel to earth surface in the $x$-$y$ plane in a uniform magnetic field $\vec B=B_0\hat k$ on a resistanceless rails in the form of curve $y^2=4x$. Here emf induced in the loop, current, power, resistance of slider per unit length and time are represented by $e,i,p,\lambda_0$ and $t$ respectively. If at $t=0$ slider starts from $x=0$. Then which of the following option(s) is / are correct.
+\begin{qoptions}
+\opt{A}{\bfigi{81.2}{SRG13_p1_phy_s2_q09_A.png}}
+\opt{B}{\bfigi{94.0}{SRG13_p1_phy_s2_q09_2.png}}
+\opt{C}{\bfigi{75.1}{SRG13_p1_phy_s2_q09_C.png}}
+\opt{D}{\bfigi{82.0}{SRG13_p1_phy_s2_q09_D.png}}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S2-Q10, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=10, type=multi, subtopic={LCR circuits}, answer={A,C,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: series RLC with equal readings of reactance voltmeters, resonance | steps: V1 = V2 means X_L = X_C so f = 1/(2 pi sqrt(LC)) = 125 Hz; current 2 A; V = I X_L = 1000 V | I: equal voltmeter readings imply resonance | C: evaluating frequency and voltage}]
+In the figure shows $R=100\,\Omega$, $L=\dfrac2\pi$ H and $C=\dfrac8\pi\,\mu$F are connected in series with an a.c source of 200 volt and frequency $f$. $V_1$ and $V_2$ are two hot-wire voltmeters. If the reading of $V_1$ and $V_2$ are same, then
+\bfig{171.5}{SRG13_p1_phy_s2_q10_1.png}
+\begin{qoptions}
+\opt{A}{$f=125$ Hz}
+\opt{B}{$f=250\pi$ Hz}
+\opt{C}{Current through $R$ is 2A}
+\opt{D}{$V_1=V_2=1000$ volt}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S2-Q12, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=12, type=multi, subtopic={Faraday and Lenz}, answer={A,B,C,D}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: induced electric field outside a cylindrical region, work along a line | steps: outside the cylinder E = R^2 (dB/dt)/(2r) tangential; work by agent = -q times line integral of E along the straight path to infinity; line integral over the infinite line equals the emf of the flux swept by the line and the two radial extremes, independent of d; sign from Lenz direction | I: the line integral of the induced field equals the rate of flux through half of the field region}]
+In the cylindrical region of radius $R=2$ m, there exists a time varying magnetic field $B$ such that $\dfrac{dB}{dt}=2$ Tesla/sec. A charged particle having charge $q=2$ C is placed at the point $P$ at a distance $d$ from its center $O$. Now, the particle is moved in the direction perpendicular to line $OP$ by an external agent up to infinity so that there is no gain in kinetic energy of charged particle. Then
+\bfig{87.7}{SRG13_p1_phy_s2_q12_1.png}
+\begin{qoptions}
+\opt{A}{Work done by external agent is $4\pi$ Joule when $d=4$ m}
+\opt{B}{Work done by external agent is $4\pi$ Joule when $d=8$ m}
+\opt{C}{Work done by external agent is independent of $d$}
+\opt{D}{Work done by external agent is positive}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S2-Q13, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=13, type=multi, subtopic={Faraday and Lenz}, answer={A,D}, answer_src=key, difficulty=9, diff_parts={K2 S3 I2 C2 F1}, diff_note={concepts: induced current in a conducting ring, toppling torque | steps: flux = B A with vertical field component t; emf = pi r squared; current e/R; torque of magnetic moment times horizontal field equals weight torque; time 1 s; heat = integral of i squared R dt | I: setting the toppling condition on the torque balance | C: integrating power to find heat}]
+A uniform conducting ring of mass $m=2$ kg, radius $r=2$ m and resistance $8\,\Omega$ is kept on smooth, horizontal surface. A time varying magnetic field $\vec B=\left(\hat i+t^2\hat j\right)$ Tesla is present in the region, where $t$ is time in second and take vertical as $y$-axis. (Take $\pi^2=10$). Then
+\begin{qoptions}
+\opt{A}{Time when ring starts toppling is 1 sec}
+\opt{B}{Time when ring starts toppling is 3/4 sec}
+\opt{C}{Heat generated through the ring till the instant when the ring start toppling is 40/3 Joule}
+\opt{D}{Heat generated through the ring till the instant when the ring start toppling is 80/3 Joule}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S3-Q15, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=15, type=numerical, subtopic={Inductance}, answer={2}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: RL and RC branches after closing a key, transient currents | steps: two parallel loops: RL loop current (40/20)(1 - exp(-t/tau)); RC loop current decays; evaluate each at t = 1e-3 ln 2 s; add currents | I: recognising the two loops are independent after the key closes | C: evaluating both transient exponentials}]
+In the circuit the key $(K)$ is closed at $t=0$. Find the current in ampere through the key $(K)$ at the instant $t=10^{-3}\ln2$ sec
+\bfig{211.6}{SRG13_p1_phy_s3_q15_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S3-Q16, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=16, type=numerical, subtopic={LCR circuits}, answer={5}, answer_src=key, difficulty=7, diff_parts={K1 S3 I1 C2 F1}, diff_note={concepts: complex impedance of parallel branches in AC network | steps: each parallel branch impedance; combine reciprocals using complex numbers; add series elements; magnitude of the total impedance; current = V/Z | I: using complex impedances for the parallel parts | C: complex arithmetic of three branches}]
+Consider a network shown in figure. The current supplied by the AC voltage source is $n$ amperes. What is the value of $n$.
+\bfig{206.6}{SRG13_p1_phy_s3_q16_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG13-P1-PHY-S3-Q17, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=1, qno=17, type=numerical, subtopic={Motional EMF}, answer={3}, answer_src=key, difficulty=8, diff_parts={K2 S3 I2 C1 F1}, diff_note={concepts: rod on rails with an inductor, harmonic motion of a conducting rod | steps: L di/dt = B l v; m dv/dt = -B l i; differentiate to get v = v0 cos(omega t); omega = B l/sqrt(m L); amplitude of position v0/omega; twice that | I: forming the coupled equations for rod and current | C: solving for omega and amplitude}]
+A conducting rod of mass $m=0.3$ kg and length $l=4$ m can slide without friction on two parallel conducting rails. The conducting rails are connected via an inductance $L=3$ mH. This system is placed in a region containing uniform magnetic field $B=1$ T pointing into the plane. If the rod is given an initial velocity $v_0=2$ m/s, its oscillates with an amplitude $A$ cm. Find the value of $2A$.
+\bfig{108.5}{SRG13_p1_phy_s3_q17_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S1-Q01, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=1, type=multi, subtopic={Faraday and Lenz}, answer={A,B}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: induced electric field in a solenoid, voltmeters across a diameter | steps: non conservative field; each voltmeter measures a different path integral; readings differ with the connection resistance | I: reasoning with Kirchhoff and induced emf in two loops | C: evaluating the readings}]
+The current in a long solenoid is increasing linearly with time, so the flux is proportional to $t:\Phi=\alpha t$. Two voltmeters are connected to diametrically opposite points ($A$ and $B$), together with resistors $\left(R_1\text{ and }R_2\right)$, as shown in fig. Assume that these are ideal voltmeters that draw negligible current (they have huge internal resistance), and that a voltmeter registers $-\displaystyle\int_a^bE\cdot d\ell$ between the terminals and through the meter.
+\bfig{178.0}{SRG13_p2_phy_s1_q01_1.png}
+\begin{qoptions}
+\opt{A}{$V_1=\dfrac{\alpha R_1}{\left(R_1+R_2\right)}$}
+\opt{B}{$V_2=-\dfrac{\alpha R_2}{\left(R_1+R_2\right)}$}
+\opt{C}{$V_1=V_2=\alpha$}
+\opt{D}{$V_1=V_2=\dfrac{\alpha R_1R_2}{R_1+R_2}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S1-Q02, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=2, type=multi, subtopic={Faraday and Lenz}, answer={B,D}, answer_src=key, difficulty=7, diff_parts={K3 S2 I1 C1 F1}, diff_note={concepts: loop in a changing field, induced current, charge and heat | steps: emf = A dB/dt; current e/R; charge and heat; check each option | I: using Faraday law for a loop | C: evaluating four options}]
+A circular wire loop (radius $r$, resistance $R$) encloses a region of uniform magnetic field, $B$, perpendicular to its plane. The field increases linearly with time $(B=\alpha t)$. An ideal voltmeter (infinite internal resistance) is connected between points $P$ and $Q$.
+\bfig{68.7}{SRG13_p2_phy_s1_q02_1.png}
+\begin{qoptions}
+\opt{A}{The current in the loop is $\dfrac{\pi\alpha r^2}{2R}$}
+\opt{B}{The reading of voltmeter is $\dfrac{\alpha r^2}{2}$}
+\opt{C}{The reading of voltmeter is $\alpha r^2$}
+\opt{D}{The current in loop is $\dfrac{\pi\alpha r^2}{R}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S1-Q03, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=3, type=multi, subtopic={Motional EMF}, answer={A,C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: motional EMF of a rod sliding between perpendicular surfaces | steps: velocity components; effective length perpendicular to velocity; emf = B v_perp l; evaluate | I: finding the velocity component perpendicular to the rod | C: trigonometric relations}]
+A conducting rod of length $\ell$ slides in a vertical plane against two insulated perpendicular surfaces as shown. Find the induced emf across the rod if its end $A$ is pulled with $\vec v=v_0\hat i$. Outward uniform magnetic field of induction $B$ is applied.
+\bfig{116.7}{SRG13_p2_phy_s1_q03_1.png}
+\begin{qoptions}
+\opt{A}{$\varepsilon=\dfrac{B\ell V_0}{2}$ when $\theta=30^\circ$}
+\opt{B}{$\varepsilon=B\ell V_0$ when $\theta=30^\circ$}
+\opt{C}{$\varepsilon=0$ when $\theta=45^\circ$}
+\opt{D}{$\varepsilon=\dfrac{B\ell V_0}{\sqrt2}$ when $\theta=45^\circ$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S1-Q04, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=4, type=multi, subtopic={Motional EMF}, answer={A,C}, answer_src=key, difficulty=9, diff_parts={K3 S2 I2 C2 F1}, diff_note={concepts: rail gun, force on a sliding bar, motional emf and kinetic energy | steps: current from emf and resistance; force B i l; equation of motion; solve for speed and energy | I: forming the electromechanical equation of motion | C: integrating to find speed and energy}]
+Given figure is a device to fire (project) a body (sliding bar) with a great speed in the order of km/s by an Ampere's force on the conducting sliding bar offered by an impulsive current sent by the charged capacitor after closing the key in the inward magnetic field.
+
+If $Q_0$ is the initial charge of the capacitor $C$, $M=$ mass of the sliding bar and $B=$ magnetic field (produced by the closely spaced parallel rails assumed to be uniform), answer the following questions: (at $t=0$, $K$ is closed)
+\bfig{130.7}{SRG13_p2_phy_s1_q04_1.png}
+\begin{qoptions}
+\opt{A}{The final charge on capacitor $\dfrac{B^2\ell^2CQ_0}{M+CB^2\ell^2}$}
+\opt{B}{The maximum (muzzle) speed of the projectile is $\dfrac{2B\ell Q_0}{M+CB^2\ell^2}$}
+\opt{C}{The maximum (muzzle) speed of the projectile is $\dfrac{B\ell Q_0}{M+CB^2\ell^2}$}
+\opt{D}{The final charge on capacitor $\dfrac{2B^2\ell^2CQ_0}{M+CB^2\ell^2}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S1-Q05, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=5, type=multi, subtopic={Inductance}, answer={A,B}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: mutual inductance between coaxial loops, emf and force | steps: field of larger loop on the axis; flux through small loop; emf = M di/dt; check options | I: using small loop approximation | C: evaluating mutual inductance}]
+A small loop of radius $r(\ll R)$, where $R=$ radius of the larger loop that carries a current $i$ is placed on the axis of the bigger loop. If the smaller loop is rotated through $90^\circ$, then the (the resistance of the small loop is $R_0$). [$\omega=$ Angular velocity of loop along the diametrical axis]
+\bfig{175.2}{SRG13_p2_phy_s1_q05_1.png}
+\begin{qoptions}
+\opt{A}{Change in flux is $\dfrac{\pi\mu_0r^2i}{4\sqrt2R}$}
+\opt{B}{Average current flowing through smaller loop is $\dfrac{\mu_0r^2\omega i}{2\sqrt2R_0R}$}
+\opt{C}{Change in flux is $\dfrac{\pi\mu_0r^2i}{2\sqrt2R}$}
+\opt{D}{Average current flowing through smaller loop is $\dfrac{\mu_0r^2\omega i}{\sqrt2R_0R}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S1-Q06, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=6, type=multi, subtopic={LCR circuits}, answer={B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: series RLC circuit, phase relations among voltages | steps: reactances and impedance; phase angle; relations among V_R, V_L, V_C; check options | I: finding phase relations of voltages | C: evaluating reactances and impedance}]
+\bfigi{122.8}{SRG13_p2_phy_s1_q05_2.png}
+
+$R=100\,\Omega,\ L=\dfrac2\pi$ H, $C=\dfrac{1}{10\pi}$ mF
+
+In above given AC circuit, $V_R,V_L$ and $V_C$ are potential drop across resistance, inductor and capacitor at an instant $t$. Then
+\begin{qoptions}
+\opt{A}{$V_C=220\sin(100\pi t-\pi/4)$}
+\opt{B}{$V_L=440\sin(100\pi t+\pi/4)$}
+\opt{C}{$V_C=220\sin(100\pi t-3\pi/4)$}
+\opt{D}{$V_L=220\sin(100\pi t-\pi/4)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S2-Q09, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=9, type=matching, subtopic={Faraday and Lenz}, answer={A$\to$R, B$\to$S, C$\to$Q, D$\to$P}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: induced electric field in a time varying magnetic field region | steps: E inside = (r/2) dB/dt; outside = R squared/(2 r) dB/dt; emf = area times dB/dt; match each case | I: using inside and outside forms of the field | C: evaluating four cases}]
+In column -- I time varying magnetic field is available in circular region of radius $R$. $R=1$ m, $\dfrac{dB}{dt}=2$ T/s
+
+In column -- II induced emf or $\oint\vec E\cdot d\vec\ell$ value is given. Match $\varepsilon$ value in column -- II with different situations in column -- I $(\omega=2$ rad/sec and $B=1$ T$)$.\par\nobreak
+\begin{center}\begin{tabular}{|L{0.6cm}|L{6.8cm}|L{0.8cm}|L{4.2cm}|}\hline
+\multicolumn{2}{|c|}{\textbf{Column I} (Conductor in a time varying magnetic field)} & \multicolumn{2}{c|}{\textbf{Column II} (Induced emf)}\\\hline
+(A) & \bfigi{50.8}{SRG13_p2_phy_s2_q09_A.png}
+
+$\varepsilon=$ P.D. between points 1 and 2 & (P) & $\varepsilon=3.14$ volt\\\hline
+(B) & \bfigi{70.3}{SRG13_p2_phy_s2_q09_B.png}
+
+$\varepsilon=$ P.D. between points 1 and 2 & (Q) & $\varepsilon=0.57$ volt\\\hline
+(C) & \bfigi{74.0}{SRG13_p2_phy_s2_q09_3.png} & (R) & $\varepsilon=3/4$ volt\\\hline
+(D) & \bfigi{93.9}{SRG13_p2_phy_s2_q09_D.png}
+
+$\varepsilon=\displaystyle\int\vec E\cdot d\vec\ell$ in circular path 132 of radius $2R$ & (S) & $\varepsilon=1$ volt\\\hline
+\end{tabular}\end{center}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S2-Q10, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=10, type=matching, subtopic={LCR circuits}, answer={A$\to$S, B$\to$R, C$\to$P, D$\to$Q}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: current versus frequency in AC circuits, resonance behaviour | steps: impedance versus frequency for each combination; sketch the variation of current; match | I: relating circuit to its current frequency curve | C: matching four circuits}]
+In column -- I AC circuits are given and in column -- II variation of $i$ with respect to $\omega$ is give. Match the following. Value of $R,L$ and $C$ is constant and only $\omega$ of source is varied.\par\nobreak
+\begin{center}\begin{tabular}{|L{0.6cm}|L{5.2cm}|L{0.8cm}|L{5.2cm}|}\hline
+\multicolumn{2}{|c|}{\textbf{Column I} (A.C. Circuit)} & \multicolumn{2}{c|}{\textbf{Column II} $i=f(\omega)$}\\\hline
+(A) & \bfigi{80.8}{SRG13_p2_phy_s2_q10_A.png} & (P) & \bfigi{112.4}{SRG13_p2_phy_s2_q10_2.png}\\\hline
+(B) & \bfigi{80.8}{SRG13_p2_phy_s2_q10_B.png} & (Q) & \bfigi{112.4}{SRG13_p2_phy_s2_q10_3.png}\\\hline
+(C) & \bfigi{80.8}{SRG13_p2_phy_s2_q10_C.png} & (R) & \bfigi{112.4}{SRG13_p2_phy_s2_q10_5.png}\\\hline
+(D) & \bfigi{80.8}{SRG13_p2_phy_s2_q10_D.png} & (S) & \bfigi{112.4}{SRG13_p2_phy_s2_q10_7.png}\\\hline
+ & & (T) & \bfigi{111.8}{SRG13_p2_phy_s2_q10_9.png}\\\hline
+\end{tabular}\end{center}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S3-Q11, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=11, type=numerical, subtopic={Motional EMF}, answer={3}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: motional EMF in a non uniform magnetic field | steps: field decreasing with x; emf = difference of fields at two edges times l v; evaluate | I: using the difference between two sides of the loop | C: numerical evaluation}]
+A square loop of side $\ell=10$ cm with its sides parallel to $x$ and $y$ axes moves with velocity $\vec v=-7\hat i$ m/s. An outward magentic field is present which decreases along negative $x$--axis with a gradient $\dfrac{\partial B}{\partial x}=0.1$ T/m and increases with time at a rate of $\dfrac{\partial B}{\partial t}=0.1$ T/s. If the resistance of the loop is $2\times10^{-3}$ ohms, then find the magnitude and direction of induced current in the loop. (in Ampere)
+\bfig{98.4}{SRG13_p2_phy_s3_q11_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S3-Q13, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=13, type=numerical, subtopic={LCR circuits}, answer={1}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: series RL coil with resistor in AC, phasor analysis | steps: voltage across the coil and resistor; resistance and inductance of the coil; use measured voltages | I: separating resistance and inductance of the coil | C: algebra of the phasor triangles}]
+A resistor $R$ is connected in series with a coil (Resistance not negligible). The system is subjected to an A.C. Supply of peak voltage $V_0$. If the peak voltages across the resistor $R$ and the coils are $V_1$ and $V_2$ respectively, find the power (in watt) dissipated in the coil. (assume $V_1=5$V, $V_2=7$V, $V_0=10$V, $R=13\,\Omega$)
+\end{bankq}
+\begin{bankq}[id=SRG13-P2-PHY-S3-Q14, source={SRG (Enthusiast) - Test 13 (10 Oct 2021)}, paper=2, qno=14, type=numerical, subtopic={Resonance}, answer={6}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: RLC series equal current at two angular frequencies | steps: equal current implies same impedance; omega1 omega2 = omega0 squared; omega0 = 6 | I: using the relation omega0 squared = omega1 omega2}]
+In $R$--$L$--$C$ series circuit, we have same current at angular frequencies $\omega_1$ and $\omega_2$. Find the resonant frequency. (Take $\omega_1=4$ units, $\omega_2=9$ units)
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S1-Q03, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=3, type=multi, subtopic={LCR circuits}, answer={A,B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: parallel RLC branch rms values, phasor addition | steps: currents in the resistor and inductor are 90 degrees apart; total current by phasors; capacitive reactance from voltage and current; range of V_rms | I: combining currents with different phases | C: evaluating reactance and total current}]
+In shown circuit rms voltage across inductor and resistor is 100 V
+\bfig{174.7}{SRG14_p1_phy_s1_q03_1.png}
+\begin{qoptions}
+\opt{A}{$V_{rms}$ can be any value between 0 to $100\sqrt2$ V}
+\opt{B}{If $V_{rms}=100$ V and $I_R=\dfrac{5\sqrt3}{2}$ A then $I=5$ A}
+\opt{C}{If $V_{rms}=100$ V and $I_R=\dfrac{5\sqrt3}{2}$ A then capacitive reactance is $40\,\Omega$}
+\opt{D}{$V_{rms}$ can be any value between 0 to 200 V}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S1-Q04, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=4, type=multi, subtopic={Inductance}, answer={A,B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: LR circuit with two resistors, inductor voltage at a given fraction of maximum | steps: initial inductor voltage is the maximum; at half of it current in each branch from loop equations; check each option | I: setting up the branch currents at the instant | C: evaluating currents and voltages}]
+A circuit shown in figure contains ideal inductor and battery. Initially current through inductor is zero and the switch is closed at $t=0$. When potential difference across inductor is 50\% of maximum potential difference across it then select correct alternative/s:
+\bfig{196.8}{SRG14_p1_phy_s1_q04_1.png}
+\begin{qoptions}
+\opt{A}{Current through battery is $7E/12R$}
+\opt{B}{Current through resistance $R_2$ is $5E/12R$}
+\opt{C}{Current through inductor is $E/6R$}
+\opt{D}{Potential difference across $R_1$ is $E/2$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S3-Q11, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=11, type=numerical, subtopic={LCR circuits}, answer={1}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: series RLC from d.c. and a.c. measurements, resonance | steps: d.c. gives R = 250 ohm; peak at 4500 rad/s gives omega0 squared = 1/(LC); at 2250 rad/s current gives impedance 200 ohm; solve L and C; compute 2R sqrt(CL) | I: using resonance and the a.c. current to find L and C | C: solving for L and C}]
+A box containing an inductor of inductance $L$, a capacitor of capacitance $C$ and a resistor of resistance $R$. When 250 V d.c. is applied to the terminals of the box, a current of 1.0 A plus an oscillating current flows in the current. When an a.c. source of 250 V (r.m.s) at 2250 rad/sec is connected, an rms current of 1.25 A is produced. This current rises with frequency and becomes maximum at 4500 rad/sec. If $2R\sqrt{CL}$ is $x$ SI unit then $9x$ is \underline{\hspace{1.5cm}}
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S3-Q12, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=12, type=numerical, subtopic={LC oscillations}, answer={4}, answer_src=key, difficulty=5, diff_parts={K2 S1 I1 C1 F1}, diff_note={concepts: LC oscillation, energy conservation | steps: energy at t = 0 from i0 and q; maximum current from total energy L i max squared/2 | I: using the energy of the LC circuit at the initial instant}]
+In $L$-$C$ circuit shown in the figure, the value of current at $t=0$ is $i_0$ and charge on the capacitor at the same moment is $i_0\sqrt{3LC}$. The value of the maximum current through the inductor is $\dfrac n2 i_0$, then $n$ is
+\bfig{121.3}{SRG14_p1_phy_s3_q12_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S3-Q13, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=13, type=numerical, subtopic={LCR circuits}, answer={5}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: series RC circuit with given power factor | steps: power factor R/Z; Z squared = R squared + Xc squared; Xc = 2R; find C from the frequency | I: relating power factor to the ratio of reactance and resistance | C: numerical evaluation of C}]
+A series $R$-$C$ circuit is connected to an AC supply as shown in the figure. If power factor of the circuit is $\dfrac1{\sqrt5}$, then the value of the capacitance $C$ (in $\mu$F) is $\dfrac{1000}{n}$ then $n$ is
+\bfig{99.5}{SRG14_p1_phy_s3_q13_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S3-Q14, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=14, type=numerical, subtopic={Faraday and Lenz}, answer={5}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: induced electric field between coaxial solenoids, circular motion of a charge | steps: E = (r/2) dB/dt inside field region; between the solenoids flux only from the inner and outer; E at radius r; particle at rest starts moving along circle of radius where field satisfies; solve for r | I: finding the induced field outside the inner solenoid but inside the outer | C: computing the radius}]
+Two long solenoids are arranged coaxially, there radii are $R$ and $2R$, there coils have same number of turns per unit length. Current starts from 0 and increase at the rate $3k$ and $2k$ (in both coils in same sense) inner and outer coils respectively. As a result of increasing currents charged particle initially at rest between the solenoids it starts moving along a circular trajectory of radius $\sqrt{a/b}$ then find $(a+b)$.
+\bfig{92.1}{SRG14_p1_phy_s3_q14_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S3-Q15, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=15, type=numerical, subtopic={Faraday and Lenz}, answer={2}, answer_src=key, difficulty=10, diff_parts={K3 S3 I2 C2 F1}, diff_note={concepts: eddy current damping of a disc in a magnetic field, effective mass, SHM | steps: induced emf in the disc moving through the field; charge on the disc as a capacitor; current gives force opposing motion; effective mass m + B squared V epsilon0; period and maximum velocity | I: treating the disc as a capacitor and getting an added effective mass | C: setting up the equation of motion with the induced charge}]
+A conducting disc of mass `$m$' and volume `$V$' is suspended with the help of a light spring of force constant `$k$' from a fixed support. Thickness of the disc is much smaller than its radius. A uniform magnetic field of induction `$B$' parallel to the plane of the disc is established. The disc is pulled down by very small distance $b$ from equilibrium position and then released. $\left(B^2V\varepsilon_0=3M\right)$. Then maximum velocity of the disc is $\dfrac bn\sqrt{\dfrac km}$. Find $n$.
+\bfig{71.8}{SRG14_p1_phy_s3_q15_2.png}
+\end{bankq}
+\begin{bankq}[id=SRG14-P1-PHY-S3-Q16, source={SRG (Enthusiast) - Test 14 (21 Nov 2021)}, paper=1, qno=16, type=numerical, subtopic={Inductance}, answer={8}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: work done by batteries in coupled LR circuits, energy stored | steps: steady currents from V/R; energy stored in L1, L2 and mutual inductance M i1 i2; work against induced emf equals energy stored | I: including mutual energy in the stored energy | C: numerical evaluation}]
+The inductors of two $LR$ circuits are placed next to each other, as shown in the figure. The values of self-inductance of the inductors, resistances, mutual-inductance and applied voltages are specified in the given circuit. After both the switches are closed simultaneously, the total work done by the batteries against the induced EMF in the inductors by the time the currents reach their steady values is $x$ mJ then $\dfrac x5$ is \underline{\hspace{1.5cm}}
+\bfig{271.0}{SRG14_p1_phy_s3_q16_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG16-P1-PHY-S2-Q11, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=1, qno=11, type=multi, subtopic={LCR circuits}, answer={A,B,C}, answer_src=solved, working={Xc = 2R1, XL = 2R2; net reactance equal to R1 + R2 gives R1 = 3R2; Z3 = sqrt2 (R1 + R2) = 4 sqrt2 R2; the two parallel branches add to I = V0 sin(wt)/(4R2).}, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: series LCR boxes, power factor and parallel combination | steps: Xc = 2R1 from pf; XL = 2R2; pf of series pair gives net reactance R1 + R2 so R1 = 3R2; Z of series pair and Box 3; add parallel currents with phases | I: finding resistance ratio from the three power factors | C: combining phasors for total current}]
+In the figure Box-1 contains one capacitor and one resistor in series
+\bfig{127.8}{SRG16_p1_phy_s2_q11_1.png}
+Box - 2 contains one inductor and one resistor in series\\
+$R_1$ = resistance in Box 1\\
+$R_2$ = resistance in Box 2\\
+Power factor of Box 1 $=\dfrac{1}{\sqrt5}$\\
+Power factor of Box 2 $=\dfrac{1}{\sqrt5}$\\
+Power factor of (Box 1 + Box 2) $=\dfrac{1}{\sqrt2}$
+\bfig{95.1}{SRG16_p1_phy_s2_q11_2.png}
+Power factor of Box 3 $=\dfrac{1}{\sqrt2}$\\
+Resistance of Box 3 $=R_1+R_2$\\
+Current $I=I_0\sin(\omega t+\phi)$\\
+On the basis of above mentioned information pick the correct option(s) from below :
+\begin{qoptions}
+\opt{A}{$\dfrac{R_1}{R_2}=3$}
+\opt{B}{$Z_3=4\sqrt2R_2$ (Impedance of Box 3)}
+\opt{C}{$I=\dfrac{V_0}{4R_2}\sin(\omega t)$}
+\opt{D}{$\phi=(2n+1)\pi$, where $n$ may be some integer}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P1-PHY-S2-Q12, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=1, qno=12, type=multi, subtopic={Faraday and Lenz}, answer={C}, answer_src=solved, working={Area between the two half ellipses = pi(3a)(2a)/2 - pi(2a)(a)/2 = 2 pi a squared, so emf max = 2 pi a squared B0 w.}, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: motional emf of a rotating loop of elliptical shape | steps: area between two half ellipses; emf = B A w for rotation about the straight edge | I: finding the loop area from the two ellipses}]
+In the figure ABCDEFA is a closed conducting wire loop. The part AFE is a portion of an ellipse $\dfrac{X^2}{4a^2}+\dfrac{Y^2}{a^2}=1$ and BCD is a portion of the ellipse $\dfrac{X^2}{9a^2}+\dfrac{Y^2}{4a^2}=1$. A uniform magnetic field $\vec B=B_0\hat k$ exists in this region. If the frame is rotated about the y-axis with a constant angular velocity `$\omega$'. The maximum emf induced in the loop is ,
+\bfig{98.6}{SRG16_p1_phy_s2_q12_1.png}
+\begin{qoptions}
+\opt{A}{$\dfrac{\pi\omega B_0a^2}{2}$}
+\opt{B}{$\pi\omega B_0a^2$}
+\opt{C}{$2\pi\omega B_0a^2$}
+\opt{D}{$1.5\pi\omega B_0a^2$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG16-P2-PHY-S2-Q06, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=2, qno=6, type=multi, subtopic={LCR circuits}, answer={A,C}, answer_src=solved, working={R is constant (I), XL is a straight line through the origin (III); XC is a hyperbola (II), not a straight line (IV), and the current has a resonance curve.}, difficulty=7, diff_parts={K3 S3 I0 C1 F1}, diff_note={concepts: variation of R, XL, XC and current with frequency | steps: R constant; XL proportional to w; XC inversely; current peaks at resonance; match the curves | C: matching four curves}]
+In a series LCR circuit, different physical quantities vary with frequency $\omega$. Which of the following curves represent correct frequency variation of the corresponding quantity?
+\bfig{90.7}{SRG16_p2_phy_s2_q06_1.png}
+\begin{qoptions}
+\opt{A}{Curve I for $R$}
+\opt{B}{Curve II for current $I$}
+\opt{C}{Curve III for $X_L$}
+\opt{D}{Curve IV for $X_c$}
+\end{qoptions}
+\end{bankq}
+
 \section*{SRGBT papers}
 \begin{bankq}[id=SRGBT12-P1-PHY-S1-Q10, source={SRGBT - Test 12 (10 Oct 2021)}, paper=1, qno=10, type=multi, subtopic={Motional EMF}, answer={B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: surface tension force 2T l on each wire from two film surfaces, SHM of a symmetric two-body spring system | steps: constant force 2T l pulls each wire outward; equilibrium extension of the spring 4T l/k; starting at natural length the maximum is twice that}]
 Two identical straight wires PQ and RS each of mass m and length $\ell$ can move smoothly on a fixed rectangular frame. Two thin films of a liquid of surface tension T are formed between each wire and the frame. The two wires are connected by a massless spring of stiffness k and intially in a natural length position and released then choose the correct option(s).\par

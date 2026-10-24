@@ -524,6 +524,66 @@ In the figure shown AB is a rod of length 30 cm and area of cross-section 1.0 cm
 \end{qoptions}
 \end{bankq}
 
+\section*{SRG (Enthusiast) papers}
+\begin{bankq}[id=SRG12-P1-PHY-S1-Q04, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=4, type=single, subtopic={Conduction}, answer={C}, answer_src=key, difficulty=9, diff_parts={K3 S3 I2 C2 F0}, diff_note={concepts: thermal conduction between two gas containers, heat capacities, exponential relaxation | steps: heat current k A dT/L; each gas heat capacity at constant volume gives 3nR/2 and 5nR/2; temperature difference obeys dT/dt = -lambda dT; lambda from reduced heat capacity; time for half is ln2/lambda | I: combining two different heat capacities into one decay constant | C: forming and integrating the differential equation}]
+Two adiabatic containers contain $n$ moles of He at temperature $T_1$ and $n$ moles of H$_2$ at temperature $T_2$ ($T_2<T_1$). They are joined by a conducting rod of length $L$, area $A$ and conductivity $k$. Find the time after which the temperature difference becomes half of the initial.
+\bfig{178.5}{SRG12_p1_phy_s1_q04_1.png}
+\begin{qoptions}
+\opt{A}{$\dfrac{5nRL}{8KA}\,\ell n3$}
+\opt{B}{$\dfrac{15}{8}\dfrac{RL}{nKA}\,\ell n4$}
+\opt{C}{$\dfrac{15nRL}{16KA}\,\ell n2$}
+\opt{D}{$\dfrac58\dfrac{nRL}{nKA}\,\ell n2$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-PHY-S1-Q05, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=5, type=single, subtopic={Newton's law of cooling}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: Newton law of cooling for two liquids | steps: rate of cooling proportional to excess over room temperature; find constants for A and B; mixture bounds from cooling during the common period | I: using the average temperature approximation in the cooling law | C: solving for the final mixture temperature}]
+A liquid $A$ of mass $m$ at $90^\circ$C cools to $30^\circ$C in 5 min in a room at $20^\circ$C. Another liquid $B$ starting at $50^\circ$C takes 5 min to reach $30^\circ$C. If the two liquids are mixed at $90^\circ$C and $50^\circ$C respectively, find the range of final temperature (Newton's law of cooling).
+\begin{qoptions}
+\opt{A}{$70^\circ$C}
+\opt{B}{$60^\circ$C}
+\opt{C}{$54^\circ$C}
+\opt{D}{$66^\circ$C}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-PHY-S3-Q17, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=17, type=numerical, subtopic={Conduction}, answer={17.5}, answer_src=key, difficulty=9, diff_parts={K2 S3 I2 C2 F1}, diff_note={concepts: conduction through rods in series and parallel, heat flow to melt ice | steps: first rod thermal resistance proportional to 4R; add two quarter circle conductors in parallel; resistances of arcs from length pi R/2 times radius; combine series parallel; time inversely proportional to the total heat current | I: forming the equivalent resistance of the parallel paths | C: arithmetic with arc lengths and resistances}]
+The container $A$ contains ice at $0^\circ$C. A conducting uniform rod $PQ$ of length $4R$ is used to transfer heat to the ice in the container. The end $P$ of the rod is maintained at $100^\circ$C and the other end $Q$ is kept inside container $A$. The complete ice melts in 23 minutes. In another experiment, two conductors in shape of quarter circle of radii $2R$ and $R$ are welded to the conductor $PQ$ at $M$ and $N$ respectively and their other ends are inserted inside the container $A$. All conductors are made of same material and have same cross sectional area. Once again the end $P$ is maintained at $100^\circ$C and this time the complete ice melts in $t$ minute. Find $t$. Assume no heat loss from the curved surface of the rods. [Take $\pi\simeq3.0$]
+\bfig{166.0}{SRG12_p1_phy_s3_q17_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG12-P1-PHY-S3-Q18, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=18, type=numerical, subtopic={Radiation}, answer={5}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: Wien displacement law and Stefan law with small temperature change | steps: equilibrium: P = sigma e S (T^4 - T0^4); small change gives 4 T0 cubed dT; dT = 0.1 T0; Wien gives lambda proportional to 1/T | I: linearising T^4 - T0^4 for a small change | C: numerical evaluation to get N}]
+A spherical shell is kept in an atmosphere at temperature $T_0$. The wavelength corresponding to maximum intensity of radiation for the shell is $\lambda_0$. A point source of constant power is switched on inside the shell. The power radiated by the source is $P=0.4\sigma SeT_0^4$ where $S$, $e$ and $\sigma$ are outer surface area of the shell, emissivity of the outer surface of the shell and Stefan's constant respectively. Calculate the new wavelength $(\lambda)$ corresponding to the maximum intensity of radiation from the shell. Assume that change in temperature $(\Delta T)$ of the shell is small compared to the ambient temperature $T_0$. If $\lambda=\dfrac{2N}{11}\lambda_0$, find `$N$'.
+\end{bankq}
+\begin{bankq}[id=SRG16-P2-PHY-S3-Q18, source={SRG (Enthusiast) - Test 16 (12 Jan 2022)}, paper=2, qno=18, type=numerical, subtopic={Conduction}, answer={906}, answer_src=solved, working={K0(T + T squared/2) is linear in x; at x0 it is 45300, so at 2 x0, T + T squared/2 = 90600 and (T squared + 2T)/200 = 906.}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: heat conduction with temperature dependent conductivity | steps: steady flux constant; integrate K0 (1 + T) dT; linear in x; use boundary values to find the constant; evaluate at 2 x0 | I: integrating variable conductivity | C: evaluating the constant and the final expression}]
+A plane thick wall having uniform surface temperature along planes are $0^\circ$K and $T_0^\circ$K ($T_0=300$K) at $x=0$ and $x=x_0$ respectively. Thermal conductivity varies linearly with temperature $K=K_0(1+T)$. The temperature of wall at the plane $x=2x_0$ is $T'$ kelvin then find the value of $\dfrac{T'^2+2T'}{200}$
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-PHY-S2-Q11, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=11, type=multi, subtopic={Radiation}, answer={B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: thermal radiation from a human body, Stefan law and linearisation | steps: net power 4 sigma T0 cubed times 10; check the energy radiated in a second; effect of lowering surroundings temperature; peak wavelength shift | I: linearising the difference of fourth powers | C: evaluating four statements}]
+A human body has a surface area of approximately $1\,\mathrm{m}^2$. The normal body temperature is 10 K above the surrounding room temperature $T_0$. Take the room temperature to be $T_0=300$ K. For $T_0=300$ K, the value of $\sigma T_0^4=460\ \mathrm{Wm^{-2}}$ (where $\sigma$ is the Stefan-Boltzmann constant). Which of the following options is/are correct?
+\begin{qoptions}
+\opt{A}{The amount of energy radiated by the body in 1 second is close to 60 Joules.}
+\opt{B}{If the surrounding temperature reduces by a small amount $\Delta T_0\ll T_0$, then to maintain the same body temperature the same (living) human being needs to radiate $\Delta Q=4\sigma T_0^3\Delta T_0$ more energy per unit time}
+\opt{C}{Reducing the exposed surface area of the body (e.g. by curling up) allows humans to maintain the same body temperature while reducing the energy lost by radiation.}
+\opt{D}{If the body temperature rises significantly then the peak in the spectrum of electromagnetic radiation emitted by the body would shift to longer wavelengths.}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-PHY-S2-Q12, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=12, type=multi, subtopic={Radiation}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: absorption and emission of radiation by surfaces | steps: outer surface black absorbs well; inner surface shiny has low emissivity and keeps heat | I: choosing emissivity for each surface}]
+You are a consultant for a cookware manufacturer who wishes to make a pan that will have two features:\\
+(1) Absorb thermal energy from a flame as quickly as possible, and\\
+(2) Have an inner surface that remains as hot as possible when cooking.\\
+Consider only radiation. You should recommend a pan with the
+\begin{qoptions}
+\opt{A}{Outer and inner surfaces black.}
+\opt{B}{Outer and inner surfaces shiny.}
+\opt{C}{Outer surface shiny and inner surface black.}
+\opt{D}{Outer surface black and inner surface shiny.}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-PHY-S3-Q04, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=4, type=single, subtopic={Conduction}, answer={70}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: junction temperature for three conducting rods | steps: heat flow into junction sum is zero in steady state; k times (T - T_i) summed; solve for T | I: applying zero net heat flow at the junction | C: weighted average}]
+Three rods AO, BO and CO having equal lengths and equal area of cross section are connected as shown in the figure. The temperature of ends A, B and C are $30^\circ$C, $60^\circ$C and $90^\circ$ respectively. The thermal conductivities of rods AO, BO and CO are in the ratio of $1:2:3$. What is the temperature of junction O? [in $^\circ$C]
+\bfig{111.9}{SRG22_p1_phy_s3_q04_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG22-P1-PHY-S3-Q05, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=5, type=single, subtopic={Conduction}, answer={1}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: series and parallel combination of thermal conductors | steps: thermal resistance in series doubles and in parallel halves; heat rate scales inversely with resistance; time ratio | I: relating the welded arrangements to series and parallel | C: ratio of times}]
+Two identical plates of metal are welded end to end as shown in figure (A), 20 cal of heat flows through it in 4 minutes when the ends were maintained at different temperatures. If the plates are welded as shown in figure (B) and the ends were maintain at same temperature as in first case, the same amount of heat will flow through the plates in how many minutes\,?
+\bfig{196.5}{SRG22_p1_phy_s3_q05_1.png}
+\end{bankq}
+
 \section*{Pre-Score (2023-24) papers}
 \begin{bankq}[id=PS03-P1-PHY-S1-Q01, source={Pre-Score (2023-24) - Test 03 (22 Oct 2023)}, paper=1, qno=1, type=single, subtopic={Radiation}, answer={A}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: radiation from a point source received by a conducting disc | steps: power received is the source power times the solid angle fraction of the disc; the disc radiates from both faces since highly conducting; balance received power and sigma T to the fourth over both areas | I: a conducting disc radiates from both faces so area doubles | C: solid angle and the temperature solution}]
 A black thin disc of radius 1m is kept 0.75 m away from a point source of power $56.7\,\pi$w. If the disc is highly conducting, what is its temperature in steady state? Surrounding is at 0 K.
