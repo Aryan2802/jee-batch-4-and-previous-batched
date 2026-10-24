@@ -2033,11 +2033,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 08 (01 May 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "2 papers, 56 figs, lint PASS, QA done",
-   "started_at": "2026-10-24T08:10:23Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 14 from key, 94 solved; Easy 19, Medium 60, Hard 26, Very hard 3; chapters assigned"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 09 (07 May 2021)",
