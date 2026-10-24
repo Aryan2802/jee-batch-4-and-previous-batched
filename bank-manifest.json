@@ -1773,10 +1773,13 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 02 (31 Dec 2021).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "14 pages, 52 figs, lint PASS, visual QA done",
    "note": "144 questions; 144 from key, 0 solved; bands Easy 0/Medium 74/Hard 6/Very hard 64; chapters C11 C13 C17 C21 C22 C23 C24 C25 C30 C36 C38 M01 M02 M03 M07 M08 P07 P13 P14 P15 P16 P21 P22 P23 P24",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T07:07:21Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-I - Test 03 (07 Jan 2022)",
