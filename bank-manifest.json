@@ -1405,8 +1405,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 21 (14 Mar 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two-paper test, each PART-1 PHY+PART-2 CHEM+PART-3 MATH, Sec-I(i)/I(ii)/II(P1) or III(P2), 6+4+8=18Q/part P1, 4+6+8=18Q/part P2, 108Q total verified 18x6. 56 candidate figures: 51 kept, 5 rejected (2 "
+   "status": "in_progress",
+   "conv_note": "Two-paper test, each PART-1 PHY+PART-2 CHEM+PART-3 MATH, Sec-I(i)/I(ii)/II(P1) or III(P2), 6+4+8=18Q/part P1, 4+6+8=18Q/part P2, 108Q total verified 18x6. 56 candidate figures: 51 kept, 5 rejected (2 ",
+   "started_at": "2026-10-24T00:01:41Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 23 (17 Mar 2024)",
