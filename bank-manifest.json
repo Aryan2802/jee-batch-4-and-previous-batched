@@ -2099,11 +2099,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 14 (06 Jun 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Done: 2 papers x 3 parts, 70 figs (5 rejected/typeset), lint PASS, QA viewed 13 pages",
-   "started_at": "2026-10-24T08:56:38Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "answers from official key (P2, P1 physics s1) and solved; all questions hand-scored"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)",
