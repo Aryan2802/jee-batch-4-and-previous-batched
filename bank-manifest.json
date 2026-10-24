@@ -1901,11 +1901,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 19 (20 Nov 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "54 q, 6 pages, 24 images, lint PASS",
-   "started_at": "2026-10-24T07:24:37Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key (proposed answers verified against the printed key table), 0 solved; difficulty Easy 0, Medium 10, Hard 44, Very hard 0; chapters P09 P11 P12 P17 P22 C10 C16 C20 C21 C22 C23 C24 C25 C27 C28 M03 M04 M05 M06 M09 M10 M11 M12"
   },
   {
    "name": "Score-I - Test 22 (04 Dec 2022)",
