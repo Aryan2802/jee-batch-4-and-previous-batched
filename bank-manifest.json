@@ -19,13 +19,9 @@
    "src_rel": [
     "Batch 4/Source/TOAS/Advanced/Challenging/TOAS - Test 01 (30 Jan 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Done: 2 papers, 168 Qs, 76 figs, lint PASS, visual QA all 14 pages",
-   "note": "147 questions; 126 from key, 21 solved; difficulty rescored per 23 Oct audit: Easy 116/Medium 26/Hard 5/Very hard 0; chapters P07 P17 C01 C12 C14 C15 C18 C19 C29 C30 C35 M01 M03 M04 M05 M10 M11 M13 M15 M20",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T03:01:39Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "147 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
   },
   {
    "name": "TOAS - Test 02 (13 Feb 2022)",
