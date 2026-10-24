@@ -745,10 +745,13 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Challenging/Score Advanced - Test 15 (18 May 2023).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "DONE 2026-10-20, 8pp, 35 figs",
    "note": "54 questions; 23 from key, 31 solved; bands Easy 0/Medium 3/Hard 17/Very hard 34; chapters C03 C04 C07 C11 C12 C14 C15 C17 C20 C30 C31 C32 C33 C36 M01 M02 M04 M06 M07 M11 M17 M18 M20 M21 M22 M25 M26 M27 M32 P03 P04 P05 P07 P08 P10 P11 P14 P15 P17 P18 P19 P21",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T03:29:09Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score Advanced - Test 16 (20 May 2023)",
