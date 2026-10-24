@@ -263,7 +263,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 10pp, 26 figs",
-   "note": "108 questions; 104 from key, 4 solved; bands Easy 15/Medium 24/Hard 37/Very hard 32; chapters C01 C03 C30 C36 M01 M03 M10 M11 M12 M20 P01 P02 P03 P04 P05 P07 P17 P23 P25"
+   "note": "108 questions; 104 from key, 4 solved; bands Easy 15/Medium 24/Hard 37/Very hard 32; chapters C01 C03 C30 C36 M01 M03 M10 M11 M12 M20 P01 P02 P03 P04 P05 P07 P17 P23 P25",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TOPS - Test 03 (20 Nov 2022)",
@@ -274,7 +275,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 61 figs",
-   "note": "111 questions; 102 from key, 9 solved; bands Easy 5/Medium 20/Hard 38/Very hard 48; chapters C01 C02 C03 C08 C14 C26 C29 C30 M03 M08 M11 M12 M13 M15 M16 P01 P02 P03 P04 P05"
+   "note": "111 questions; 102 from key, 9 solved; bands Easy 5/Medium 20/Hard 38/Very hard 48; chapters C01 C02 C03 C08 C14 C26 C29 C30 M03 M08 M11 M12 M13 M15 M16 P01 P02 P03 P04 P05",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TOPS - Test 04 (18 Dec 2022)",
@@ -285,7 +287,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 70 figs",
-   "note": "147 questions; 130 from key, 17 solved; bands Easy 11/Medium 47/Hard 56/Very hard 33; chapters C01 C03 C08 C10 C14 C15 C26 C29 C30 M01 M03 M08 M10 M11 M12 M13 M15 M16 M17 M18 M19 M20 P01 P02 P03 P04 P05 P07 P13 P23"
+   "note": "147 questions; 130 from key, 17 solved; bands Easy 11/Medium 47/Hard 56/Very hard 33; chapters C01 C03 C08 C10 C14 C15 C26 C29 C30 M01 M03 M08 M10 M11 M12 M13 M15 M16 M17 M18 M19 M20 P01 P02 P03 P04 P05 P07 P13 P23",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TOPS - Test 05 (14 Jan 2023)",
@@ -296,7 +299,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 71 figs",
-   "note": "108 questions; 103 from key, 5 solved; bands Easy 2/Medium 26/Hard 46/Very hard 34; chapters C01 C02 C03 C06 C08 C14 C15 C29 C30 C36 M01 M03 M04 M05 M08 M10 M11 M12 M13 M15 M16 M17 M18 M19 M20 P01 P02 P03 P04 P05 P07 P13 P14 P15 P16 P23 P25"
+   "note": "108 questions; 103 from key, 5 solved; bands Easy 2/Medium 26/Hard 46/Very hard 34; chapters C01 C02 C03 C06 C08 C14 C15 C29 C30 C36 M01 M03 M04 M05 M08 M10 M11 M12 M13 M15 M16 M17 M18 M19 M20 P01 P02 P03 P04 P05 P07 P13 P14 P15 P16 P23 P25",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TEAS - Test 01 (16 Apr 2023)",
@@ -307,7 +311,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 31 figs",
-   "note": "54 questions; 50 from key, 4 solved; bands Easy 0/Medium 16/Hard 29/Very hard 9; chapters C01 C04 C05 C09 C12 C15 C18 C30 C31 C32 C36 M01 M03 M10 M14 M20 M21 P09 P10 P11 P12 P13 P15 P16"
+   "note": "54 questions; 50 from key, 4 solved; bands Easy 0/Medium 16/Hard 29/Very hard 9; chapters C01 C04 C05 C09 C12 C15 C18 C30 C31 C32 C36 M01 M03 M10 M14 M20 M21 P09 P10 P11 P12 P13 P15 P16",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TMAS - Test 01 (09 Jul 2023)",
@@ -329,7 +334,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 52 figs",
-   "note": "114 questions; 57 from key, 57 solved; bands Easy 9/Medium 39/Hard 59/Very hard 7; chapters C03 C04 C05 C09 C11 C12 C14 C15 C17 C19 C20 C21 C30 C31 C32 C36 M01 M03 M14 M15 M20 M21 M22 M23 M24 M25 M26 P03 P04 P05 P09 P11"
+   "note": "114 questions; 57 from key, 57 solved; bands Easy 9/Medium 39/Hard 59/Very hard 7; chapters C03 C04 C05 C09 C11 C12 C14 C15 C17 C19 C20 C21 C30 C31 C32 C36 M01 M03 M14 M15 M20 M21 M22 M23 M24 M25 M26 P03 P04 P05 P09 P11",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TMAS - Test 03 (10 Sep 2023)",
@@ -340,7 +346,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 5pp, 24 figs",
-   "note": "35 questions; 0 from key, 35 solved; bands Easy 3/Medium 15/Hard 15/Very hard 2; chapters P12 P13 P16 P17 P18 P23"
+   "note": "35 questions; 0 from key, 35 solved; bands Easy 3/Medium 15/Hard 15/Very hard 2; chapters P12 P13 P16 P17 P18 P23",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TMAS - Test 04 (19 Nov 2023)",
@@ -351,7 +358,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 10pp, 26 figs",
-   "note": "108 questions; 99 from key, 9 solved; bands Easy 15/Medium 50/Hard 42/Very hard 1; chapters C04 C06 C07 C09 C11 C12 C21 C22 C23 C25 C27 C28 C30 C35 C36 C37 M01 M02 M03 M04 M06 M07 M08 M14 M16 M18 M19 M22 M24 M26 M27 M28 M29 M30 M31 M32 P18 P20 P21 P25"
+   "note": "108 questions; 99 from key, 9 solved; bands Easy 15/Medium 50/Hard 42/Very hard 1; chapters C04 C06 C07 C09 C11 C12 C21 C22 C23 C25 C27 C28 C30 C35 C36 C37 M01 M02 M03 M04 M06 M07 M08 M14 M16 M18 M19 M22 M24 M26 M27 M28 M29 M30 M31 M32 P18 P20 P21 P25",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TNAS - Test 01 (05 Feb 2023)",
@@ -373,7 +381,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 52 figs",
-   "note": "114 questions; 104 from key, 10 solved; bands Easy 4/Medium 54/Hard 55/Very hard 1; chapters C01 C08 C11 C12 C17 C18 C19 C29 C30 C31 C36 M01 M03 M04 M14 M20 M21 M22 M23 P04 P06 P08 P09 P10 P11 P19"
+   "note": "114 questions; 104 from key, 10 solved; bands Easy 4/Medium 54/Hard 55/Very hard 1; chapters C01 C08 C11 C12 C17 C18 C19 C29 C30 C31 C36 M01 M03 M04 M14 M20 M21 M22 M23 P04 P06 P08 P09 P10 P11 P19",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TNAS - Test 03 (28 May 2023)",
@@ -384,7 +393,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 17pp, 79 figs",
-   "note": "144 questions; 137 from key, 7 solved; bands Easy 18/Medium 71/Hard 53/Very hard 2; chapters C03 C09 C11 C12 C14 C15 C17 C18 C19 C20 C29 C30 C31 C32 M11 M12 M13 M14 M20 M21 M22 M23 M24 M25 P02 P03 P05 P06 P08 P09 P10 P11 P12 P17"
+   "note": "144 questions; 137 from key, 7 solved; bands Easy 18/Medium 71/Hard 53/Very hard 2; chapters C03 C09 C11 C12 C14 C15 C17 C18 C19 C20 C29 C30 C31 C32 M11 M12 M13 M14 M20 M21 M22 M23 M24 M25 P02 P03 P05 P06 P08 P09 P10 P11 P12 P17",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TNAS - Test 04 (18 Jun 2023)",
@@ -395,7 +405,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 14pp, 62 figs",
-   "note": "108 questions; 101 from key, 7 solved; bands Easy 6/Medium 54/Hard 33/Very hard 15; chapters C03 C04 C05 C09 C11 C12 C15 C16 C17 C18 C19 C20 C31 C35 C36 M01 M03 M07 M08 M12 M13 M14 M20 M21 M22 M23 M24 M25 M26 P08 P09 P10 P11 P12 P13 P16 P17 P18 P23"
+   "note": "108 questions; 101 from key, 7 solved; bands Easy 6/Medium 54/Hard 33/Very hard 15; chapters C03 C04 C05 C09 C11 C12 C15 C16 C17 C18 C19 C20 C31 C35 C36 M01 M03 M07 M08 M12 M13 M14 M20 M21 M22 M23 M24 M25 M26 P08 P09 P10 P11 P12 P13 P16 P17 P18 P23",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TNAS - Test 05 (09 Jul 2023)",
@@ -417,7 +428,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 55 figs",
-   "note": "102 questions; 85 from key, 17 solved; bands Easy 13/Medium 35/Hard 33/Very hard 21; chapters C02 C04 C05 C09 C11 C12 C16 C17 C18 C20 C21 C26 C30 C31 C32 C33 C36 M14 M16 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 P07 P09 P10 P11 P12 P17 P18 P20 P22"
+   "note": "102 questions; 85 from key, 17 solved; bands Easy 13/Medium 35/Hard 33/Very hard 21; chapters C02 C04 C05 C09 C11 C12 C16 C17 C18 C20 C21 C26 C30 C31 C32 C33 C36 M14 M16 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 P07 P09 P10 P11 P12 P17 P18 P20 P22",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "TNAS - Test 07 (20 Aug 2023)",
@@ -428,7 +440,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 17pp, 63 figs",
-   "note": "144 questions; 130 from key, 14 solved; bands Easy 24/Medium 39/Hard 60/Very hard 21; chapters C04 C05 C06 C07 C08 C09 C11 C12 C14 C16 C17 C19 C20 C21 C22 C24 C31 C32 C33 C36 C37 C38 M01 M07 M08 M10 M14 M17 M18 M19 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 P09 P11 P12 P17 P18 P19 P20 P21 P22"
+   "note": "144 questions; 130 from key, 14 solved; bands Easy 24/Medium 39/Hard 60/Very hard 21; chapters C04 C05 C06 C07 C08 C09 C11 C12 C14 C16 C17 C19 C20 C21 C22 C24 C31 C32 C33 C36 C37 C38 M01 M07 M08 M10 M14 M17 M18 M19 M20 M21 M22 M23 M24 M25 M26 M27 M28 M29 P09 P11 P12 P17 P18 P19 P20 P21 P22",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Star Review (Other) - Test 01 (12 Sep 2022)",
@@ -439,7 +452,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 38 figs",
-   "note": "147 questions; 130 from key, 17 solved; bands Easy 18/Medium 72/Hard 44/Very hard 13; chapters C01 C02 C03 C29 C30 C36 C37 C38 M01 M03 M10 M11 M12 M13 P01 P02 P03 P04 P05 P25"
+   "note": "147 questions; 130 from key, 17 solved; bands Easy 18/Medium 72/Hard 44/Very hard 13; chapters C01 C02 C03 C29 C30 C36 C37 C38 M01 M03 M10 M11 M12 M13 P01 P02 P03 P04 P05 P25",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Star Review (Other) - Test 02 (10 Oct 2022)",
@@ -450,7 +464,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 34 figs",
-   "note": "108 questions; 105 from key, 3 solved; bands Easy 7/Medium 32/Hard 49/Very hard 20; chapters C01 C26 C29 C30 C36 M01 M03 M07 M08 M10 M11 M12 M13 M15 P01 P02 P03 P04 P05"
+   "note": "108 questions; 105 from key, 3 solved; bands Easy 7/Medium 32/Hard 49/Very hard 20; chapters C01 C26 C29 C30 C36 M01 M03 M07 M08 M10 M11 M12 M13 M15 P01 P02 P03 P04 P05",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Star Review (Other) - Test 03 (04 Dec 2023)",
@@ -461,7 +476,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 11pp, 40 figs",
-   "note": "114 questions; 112 from key, 2 solved; bands Easy 8/Medium 38/Hard 46/Very hard 22; chapters C04 C05 C07 C09 C10 C11 C12 C15 C19 C22 C23 C24 C25 C27 C28 C30 C31 C33 C35 C36 C37 M02 M05 M06 M07 M09 M16 M20 M22 M23 M24 M25 M27 M29 M31 M32 P06 P08 P09 P11 P12 P17 P18 P19 P20 P21 P22"
+   "note": "114 questions; 112 from key, 2 solved; bands Easy 8/Medium 38/Hard 46/Very hard 22; chapters C04 C05 C07 C09 C10 C11 C12 C15 C19 C22 C23 C24 C25 C27 C28 C30 C31 C33 C35 C36 C37 M02 M05 M06 M07 M09 M16 M20 M22 M23 M24 M25 M27 M29 M31 M32 P06 P08 P09 P11 P12 P17 P18 P19 P20 P21 P22",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Internal Test - Test 01 (05 Aug 2020)",
@@ -472,7 +488,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 8pp, 66 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 2/Medium 19/Hard 31/Very hard 2; chapters C16 C17 C18 C19 C20 C23 M21 M22 M23 P06 P07 P08 P10"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 2/Medium 19/Hard 31/Very hard 2; chapters C16 C17 C18 C19 C20 C23 M21 M22 M23 P06 P07 P08 P10",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Internal Test - Test 02 (07 Jul 2021)",
@@ -494,7 +511,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 7pp, 59 figs",
-   "note": "54 questions; 54 from key, 0 solved; bands Easy 2/Medium 20/Hard 27/Very hard 5; chapters C14 C16 C17 C19 C20 C21 M22 M25 M26 M27 P08 P09 P11 P13 P16"
+   "note": "54 questions; 54 from key, 0 solved; bands Easy 2/Medium 20/Hard 27/Very hard 5; chapters C14 C16 C17 C19 C20 C21 M22 M25 M26 M27 P08 P09 P11 P13 P16",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Nurture SRG - Test 02 (06 Dec 2023)",
@@ -505,7 +523,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 21 figs",
-   "note": "54 questions; 18 from key, 36 solved; bands Easy 3/Medium 12/Hard 31/Very hard 8; chapters C07 C26 M03 M04 M05 M09 P04 P07 P17 P23"
+   "note": "54 questions; 18 from key, 36 solved; bands Easy 3/Medium 12/Hard 31/Very hard 8; chapters C07 C26 M03 M04 M05 M09 P04 P07 P17 P23",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Nurture SRG - Test 03 (04 Feb 2024)",
@@ -538,7 +557,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 8pp, 22 figs",
-   "note": "90 questions; 30 from key, 60 solved; bands Easy 42/Medium 17/Hard 26/Very hard 5; chapters C09 C10 M26 M27 P09 P12 P22"
+   "note": "90 questions; 30 from key, 60 solved; bands Easy 42/Medium 17/Hard 26/Very hard 5; chapters C09 C10 M26 M27 P09 P12 P22",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Nurture (General) - Test 04 (11 Feb 2024)",
@@ -549,7 +569,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 6pp, 21 figs",
-   "note": "54 questions; 1 from key, 53 solved; bands Easy 8/Medium 12/Hard 26/Very hard 8; chapters C02 C04 C06 C07 C08 C14 C17 C23 C29 C30 C36 M01 M02 M03 M04 M05 M10 M11 M13 M16 M17 M18 M19 P01 P02 P03 P04 P05 P06 P07 P15 P17 P18"
+   "note": "54 questions; 1 from key, 53 solved; bands Easy 8/Medium 12/Hard 26/Very hard 8; chapters C02 C04 C06 C07 C08 C14 C17 C23 C29 C30 C36 M01 M02 M03 M04 M05 M10 M11 M13 M16 M17 M18 M19 P01 P02 P03 P04 P05 P06 P07 P15 P17 P18",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Enthusiast Pre-Score - Test 01 (04 Nov 2020)",
@@ -604,7 +625,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 13pp, 46 figs",
-   "note": "114 questions; 5 from key, 109 solved; bands Easy 15/Medium 21/Hard 67/Very hard 11; chapters C02 C03 C04 C07 C09 C10 C11 C13 C15 C16 C17 C18 C19 C20 C21 C22 C23 C30 C31 C32 C35 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M08 M11 M13 M16 M17 M18 M19 M20 M21 M23 M25 M26 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25"
+   "note": "114 questions; 5 from key, 109 solved; bands Easy 15/Medium 21/Hard 67/Very hard 11; chapters C02 C03 C04 C07 C09 C10 C11 C13 C15 C16 C17 C18 C19 C20 C21 C22 C23 C30 C31 C32 C35 C36 C37 C38 M01 M02 M03 M04 M05 M06 M07 M08 M11 M13 M16 M17 M18 M19 M20 M21 M23 M25 M26 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P07 P08 P09 P10 P11 P12 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 03 (27 Jun 2021)",
@@ -626,7 +648,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 16pp, 101 figs",
-   "note": "144 questions; 0 from key, 144 solved; bands Easy 9/Medium 47/Hard 75/Very hard 13; chapters C01 C06 C07 C08 C11 C14 C15 C16 C17 C18 C20 C29 C30 C34 C35 C36 C38 M15 M16 M17 M18 M19 M31 M32 P01 P04 P05 P06 P07 P08 P09 P10 P17 P22 P24"
+   "note": "144 questions; 0 from key, 144 solved; bands Easy 9/Medium 47/Hard 75/Very hard 13; chapters C01 C06 C07 C08 C11 C14 C15 C16 C17 C18 C20 C29 C30 C34 C35 C36 C38 M15 M16 M17 M18 M19 M31 M32 P01 P04 P05 P06 P07 P08 P09 P10 P17 P22 P24",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 05 (15 Jul 2021)",
@@ -637,7 +660,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-19, 8pp, 38 figs",
-   "note": "90 questions; 90 from key, 0 solved; bands Easy 14/Medium 45/Hard 28/Very hard 3; chapters C01 C02 C03 C04 C05 C06 C07 C08 C09 C10 C14 C17 C21 C22 C25 C27 C28 C29 C30 C31 C32 C34 C35 C36 C38 M01 M02 M03 M04 M05 M06 M08 M09 M13 M15 M17 M18 M19 M20 M21 M22 M24 M25 M26 M27 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P15 P16 P17 P18 P19 P20 P21 P22 P24 P25"
+   "note": "90 questions; 90 from key, 0 solved; bands Easy 14/Medium 45/Hard 28/Very hard 3; chapters C01 C02 C03 C04 C05 C06 C07 C08 C09 C10 C14 C17 C21 C22 C25 C27 C28 C29 C30 C31 C32 C34 C35 C36 C38 M01 M02 M03 M04 M05 M06 M08 M09 M13 M15 M17 M18 M19 M20 M21 M22 M24 M25 M26 M27 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P14 P15 P16 P17 P18 P19 P20 P21 P22 P24 P25",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 06 (04 Sep 2021)",
@@ -681,7 +705,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 15pp, 52 figs",
-   "note": "108 questions; 107 from key, 1 solved; bands Easy 1/Medium 17/Hard 28/Very hard 62; chapters C02 C04 C06 C07 C08 C09 C10 C11 C12 C13 C14 C16 C18 C19 C20 C21 C23 C24 C25 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M08 M10 M12 M14 M15 M16 M18 M20 M23 M25 M26 M27 M30 M32 P02 P04 P05 P07 P08 P09 P10 P12 P13 P15 P16 P17 P18 P19 P20 P21"
+   "note": "108 questions; 107 from key, 1 solved; bands Easy 1/Medium 17/Hard 28/Very hard 62; chapters C02 C04 C06 C07 C08 C09 C10 C11 C12 C13 C14 C16 C18 C19 C20 C21 C23 C24 C25 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M08 M10 M12 M14 M15 M16 M18 M20 M23 M25 M26 M27 M30 M32 P02 P04 P05 P07 P08 P09 P10 P12 P13 P15 P16 P17 P18 P19 P20 P21",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 10 (06 May 2023)",
@@ -736,7 +761,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 24 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 15 (18 May 2023)",
@@ -747,7 +773,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 35 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 16 (20 May 2023)",
@@ -758,7 +785,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 41 figs",
-   "note": "114 questions; 112 from key, 2 solved; bands Easy 0/Medium 17/Hard 33/Very hard 64; chapters C01 C04 C07 C09 C10 C11 C12 C13 C15 C16 C17 C21 C23 C26 C27 C30 C31 C32 C33 C36 M01 M02 M04 M05 M06 M07 M11 M12 M16 M17 M19 M20 M22 M24 M26 M27 M28 M29 M30 P01 P02 P05 P07 P08 P09 P10 P11 P12 P14 P18 P19 P20 P21 P23 P25"
+   "note": "114 questions; 112 from key, 2 solved; bands Easy 0/Medium 17/Hard 33/Very hard 64; chapters C01 C04 C07 C09 C10 C11 C12 C13 C15 C16 C17 C21 C23 C26 C27 C30 C31 C32 C33 C36 M01 M02 M04 M05 M06 M07 M11 M12 M16 M17 M19 M20 M22 M24 M26 M27 M28 M29 M30 P01 P02 P05 P07 P08 P09 P10 P11 P12 P14 P18 P19 P20 P21 P23 P25",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 17 (25 May 2023)",
@@ -769,7 +797,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 39 figs",
-   "note": "108 questions; 103 from key, 5 solved; bands Easy 0/Medium 14/Hard 31/Very hard 63; chapters C01 C02 C03 C04 C07 C08 C09 C10 C11 C12 C13 C17 C21 C22 C23 C24 C25 C28 C29 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M12 M15 M16 M17 M20 M21 M22 M24 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21 P22 P23"
+   "note": "108 questions; 103 from key, 5 solved; bands Easy 0/Medium 14/Hard 31/Very hard 63; chapters C01 C02 C03 C04 C07 C08 C09 C10 C11 C12 C13 C17 C21 C22 C23 C24 C25 C28 C29 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M12 M15 M16 M17 M20 M21 M22 M24 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21 P22 P23",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 18 (27 May 2023)",
@@ -780,7 +809,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 62 figs",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 19 (04 Apr 2024)",
@@ -791,7 +821,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 36 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 20 (06 Apr 2024)",
@@ -802,7 +833,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 23 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 21 (08 Apr 2024)",
@@ -813,7 +845,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 28 figs",
-   "note": "57 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "57 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 22 (10 Apr 2024)",
@@ -824,7 +857,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 15pp, 86 figs",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 23 (14 Apr 2024)",
@@ -835,7 +869,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 49 figs",
-   "note": "114 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "114 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 24 (17 Apr 2024)",
@@ -846,7 +881,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 10pp, 39 figs",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 25 (21 Apr 2024)",
@@ -857,7 +893,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 58 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 26 (21 Apr 2024)",
@@ -868,7 +905,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 61 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 27 (24 Apr 2024)",
@@ -879,7 +917,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 67 figs",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 28 (27 Apr 2024)",
@@ -890,7 +929,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 77 figs",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 29 (01 May 2024)",
@@ -912,7 +952,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 51 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 31 (04 May 2024)",
@@ -923,7 +964,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 50 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 32 (08 May 2024)",
@@ -934,7 +976,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 65 figs",
-   "note": "111 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "111 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 33 (12 May 2024)",
@@ -945,7 +988,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 48 figs",
-   "note": "105 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "105 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 34 (12 May 2024)",
@@ -956,7 +1000,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 48 figs",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 35 (15 May 2024)",
@@ -967,7 +1012,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 39 figs",
-   "note": "108 questions; 103 from key, 5 solved; bands Easy 0/Medium 14/Hard 31/Very hard 63; chapters C01 C02 C03 C04 C07 C08 C09 C10 C11 C12 C13 C17 C21 C22 C23 C24 C25 C28 C29 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M12 M15 M16 M17 M20 M21 M22 M24 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21 P22 P23"
+   "note": "108 questions; 103 from key, 5 solved; bands Easy 0/Medium 14/Hard 31/Very hard 63; chapters C01 C02 C03 C04 C07 C08 C09 C10 C11 C12 C13 C17 C21 C22 C23 C24 C25 C28 C29 C30 C31 C32 C33 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M12 M15 M16 M17 M20 M21 M22 M24 M26 M27 M29 M31 M32 P01 P02 P04 P05 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21 P22 P23",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 36 (19 May 2024)",
@@ -978,7 +1024,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 55 figs",
-   "note": "105 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "105 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 37 (19 May 2024)",
@@ -989,7 +1036,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 55 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 38 (13 Apr 2025)",
@@ -1000,7 +1048,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 62 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 39 (20 Apr 2025)",
@@ -1011,7 +1060,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 55 figs",
-   "note": "114 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "114 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 40 (27 Apr 2025)",
@@ -1022,7 +1072,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 11pp, 58 figs",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score Advanced - Test 41",
@@ -1033,7 +1084,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 85 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 01 (25 Jul 2021)",
@@ -1044,7 +1096,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 5pp, 10 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 02 (01 Aug 2021)",
@@ -1055,7 +1108,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 22 figs",
-   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 03 (08 Aug 2021)",
@@ -1066,7 +1120,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 24 figs",
-   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 04 (15 Aug 2021)",
@@ -1077,7 +1132,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 23 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 05 (23 Aug 2021)",
@@ -1088,7 +1144,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 10 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 06 (29 Aug 2021)",
@@ -1099,7 +1156,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 25 figs",
-   "note": "66 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "66 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 07 (05 Sep 2021)",
@@ -1110,7 +1168,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 9pp, 48 figs",
-   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 08 (13 Sep 2021)",
@@ -1121,7 +1180,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 6pp, 13 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 09 (19 Sep 2021)",
@@ -1132,7 +1192,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 6pp, 23 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 10 (26 Sep 2021)",
@@ -1143,7 +1204,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 16 figs",
-   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 11 (03 Oct 2021)",
@@ -1154,7 +1216,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 25 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 12 (10 Oct 2021)",
@@ -1165,7 +1228,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 13 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 13 (17 Oct 2021)",
@@ -1176,7 +1240,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 7pp, 17 figs",
-   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "SRGBT - Test 14 (24 Oct 2021)",
@@ -1187,7 +1252,8 @@
    ],
    "status": "done",
    "conv_note": "DONE 2026-10-20, 8pp, 64 figs",
-   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "60 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score-II - Test 02 (28 Mar 2021)",
@@ -1198,7 +1264,8 @@
    ],
    "status": "done",
    "conv_note": "",
-   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
+   "fix_note": "rescore difficulty v4 (audit 24 Oct 09:45, see BANK_LEARNINGS.md THIRD AUDIT: scores inflated): redo difficulty.tsv question by question within the new limits; chapters, subtopics and answers stay"
   },
   {
    "name": "Score-II - Test 04 (07 May 2021)",
