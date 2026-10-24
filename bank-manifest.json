@@ -2312,11 +2312,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 15 (19 Dec 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "single paper P1: phy 6+6+6, chem 6+6+6, math 6+6+6 = 54 q, 6 pp, 15 figs (physics only; chem/math all text)",
-   "started_at": "2026-10-24T10:49:54Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "key from answer table; chem s3 q14 key 12 disagrees with solution (2 eV) so solved; spot-checked chem q01, q04, math s3 q15"
   },
   {
    "name": "SRG (Enthusiast) - Test 16 (12 Jan 2022)",
