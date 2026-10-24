@@ -2411,11 +2411,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 38 (15 Sep 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Single paper, 60 q (10+10 per subject), 25 figs; 2 rejected (formula crops)",
-   "started_at": "2026-10-24T11:45:15Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "key covers maths only (all 10 MCQ verified, numerics checked); physics and chemistry solved by hand. Maths s2 q01 unverifiable from printed text (key value used); q04 as printed has no finite limit (key 0.5 used); q09 solved 4 vs key 1; chem s2 q07 assumes 3.2e-4 uCi/mL; phy s2 q08 assumes motion along horizontal axis"
   },
   {
    "name": "SRG (Enthusiast) - Test 39 (15 Sep 2024)",
