@@ -1881,7 +1881,7 @@
    ],
    "status": "done",
    "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
-   "note": "108 questions; 90 from key, 18 solved (6 P1 math numerical rows whose key row did not fit, 6 P2 physics decimal answers missing from the key, 6 reused solved earlier?); difficulty Easy 2, Medium 31, Hard 70, Very hard 5"
+   "note": "108 questions; 96 from key, 12 solved (6 P1 math numerical answers because the printed key row did not fit, 6 P2 physics decimal answers missing from the key); difficulty Easy 2, Medium 31, Hard 70, Very hard 5"
   },
   {
    "name": "Score-I - Test 18 (24 Apr 2022)",
