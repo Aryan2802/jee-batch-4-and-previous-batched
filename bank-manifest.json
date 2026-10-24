@@ -2220,11 +2220,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 02 (04 Oct 2020).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "",
-   "started_at": "2026-10-24T10:13:54Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "answers from the printed provisional key (labelled SRG Test 3); all questions hand-scored"
   },
   {
    "name": "SRG (Enthusiast) - Test 03 (18 Nov 2020)",
