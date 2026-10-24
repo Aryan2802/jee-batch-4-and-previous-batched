@@ -1391,6 +1391,119 @@ Probability that bag C contains 3 Red balls, is -
 If it is found that bag C contains equal number of Red and Green balls, then probability that 2 Red balls were drawn from bag B, is -
 \end{bankq}
 
+\section*{Pre-Score (2023-24) papers}
+\begin{bankq}[id=PS01-P1-MATH-S1-Q01, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=1, qno=1, type=single, subtopic={Classical probability}, answer={C}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S3 I2 C1 F0}, diff_note={concepts: pairs of socks probability and counting | steps: set up probability of same colour 1/2 with r red and b blue; derive (r minus b) squared equals r plus b; total a perfect square; maximise under 2024; find the largest possible number of red socks | I: recognise the condition forces a difference of squares relation | C: searching the largest solution below 2024}]
+A drawer contains a mixture of red socks and blue socks, at most 2024 in all. It so happends that, when two socks are selected randomly without replacement, there is a probability of exactly $\dfrac12$ that both are red or both are blue. What is the largest possible number of red socks in the drawer that is consistent with this data ?
+\begin{qoptions}
+\opt{A}{1000}
+\opt{B}{1012}
+\opt{C}{990}
+\opt{D}{946}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=PS01-P1-MATH-S2-Q07, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=1, qno=7, type=multi, subtopic={Classical probability}, answer={A,B,D}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I2 C0 F1}, diff_note={concepts: pairwise independent events with union probability one | steps: if P(A or B or C) = 1 then probability bounds follow from inclusion exclusion; pairwise independence gives pair probabilities; check which statements must hold | I: pairwise independence is weaker than mutual independence so only bounds follow}]
+Let $A$,$B$ and $C$ be three pair-wise independent events such that $P(A\cup B\cup C)=1$. Then which of the following is/are must be correct ?
+\begin{qoptions}
+\opt{A}{$1\le P(A)+P(B)+P(C)\le3$}
+\opt{B}{$P(\bar A\cap\bar B\cap\bar C)=0$}
+\opt{C}{$P(A)=P(B)=P(C)=1$}
+\opt{D}{$P(A\cap B\cap C)=P(A)\cdot P(B)\cdot P(C)$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=PS01-P1-MATH-S2-Q09, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=1, qno=9, type=multi, subtopic={Conditional probability}, answer={A,B,C}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: independent events with given joint and neither probability | steps: P(A)P(B) = 1/8 and (1 minus P(A))(1 minus P(B)) = 3/8; sum of probabilities; solve quadratic; A more probable; evaluate conditional statements | I: translating the two conditions into sum and product | C: solving the quadratic and checking options}]
+If $A$ and $B$ are independent events such that the probability that they both occur simultaneously is $\dfrac18$ and the probability that neither of them will occurs is $\dfrac38$, then ($A$ is more probable then $B$)
+\begin{qoptions}
+\opt{A}{the probability that event $A$ will occur is $\dfrac12$}
+\opt{B}{the probability that event $B$ will occur is $\dfrac14$}
+\opt{C}{the probability that event $A$ will occur is less than $\dfrac34$}
+\opt{D}{the probability that event $B$ will occur is more than $\dfrac13$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=PS01-P1-MATH-S2-Q10, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=1, qno=10, type=multi, subtopic={Random variables}, answer={B,C}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: random walk from n reaching m with fair coin | steps: set up recurrence P(m,n) = (P(m,n+1) + P(m,n-1))/2; solve linear recurrence with boundary conditions; evaluate probabilities for particular m and n; check options | I: recognise gambler ruin recurrence with boundary values | C: solving and evaluating several cases}]
+Suppose you play a game by tossing a fair coin repeatedly and independently. If a head comes up, you win Rs.1 and if a tail comes up you lose Rs.1. Suppose you start with Rs. $n$. Let $P(m,n)$ be the probability that you will get to Rs. $m$ first without running out of money ($m,n\in N$, $m>n$). Which of the following is/are CORRECT ?
+\begin{qoptions}
+\opt{A}{$P(51,50)=\dfrac12$}
+\opt{B}{$P(325,52)=\dfrac4{25}$}
+\opt{C}{$P(100,50)\ge\dfrac12$}
+\opt{D}{$P(325,52)=\dfrac7{25}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=PS01-P1-MATH-S3-G5-6, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, questions={5-6}]
+Alice is in a wonderland of tunnels show below. At each intersection ($a$,$b$,$c$,$d$) he chooses a direction randomly (including possibly turning around). Once Alice reaches an exit, she will not return into the tunnels.
+\bfig{96.5}{PS01_p1_math_s3_para5_6_1.png}
+Let $P(x_y)$ = Probability of exiting at $Y$ when currently at the intersection $x$.\\
+Find
+\end{bankpassage}
+\begin{bankq}[id=PS01-P1-MATH-S3-Q05, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=1, qno=5, type=numerical, subtopic={Classical probability}, answer={7.00}, answer_src=key, working={Printed key.}, difficulty=8, diff_parts={K2 S2 I2 C2 F1}, diff_note={concepts: random walk in a tunnel graph, absorption probability | steps: define probabilities at junctions a b c d; write equations from symmetry; solve a system of linear equations; compute 15 times P of exit A starting at a | I: use symmetry to reduce the unknowns | C: solving the linear system with fractions}, group=PS01-P1-MATH-S3-G5-6]
+$15P(A_a)$ is equal to
+\end{bankq}
+\begin{bankq}[id=PS01-P1-MATH-S3-Q06, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=1, qno=6, type=numerical, subtopic={Classical probability}, answer={3.00}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I1 C2 F1}, diff_note={concepts: absorption probability from another junction | steps: use the system of equations from the previous question; solve for P(b to A); compute 15 times it | I: the same equations give a second probability | C: solving the simultaneous equations}, group=PS01-P1-MATH-S3-G5-6]
+$15P(b_A)$ is equal to
+\end{bankq}
+\begin{bankq}[id=PS01-P1-MATH-S4-Q09, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=1, qno=9, type=numerical, subtopic={Bayes}, answer={5}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: bag transfer with Bayes theorem | steps: choose 4 balls from bag A with colour split; probability 2 white drawn from B; update; next ball from B; apply Bayes over cases | I: cases by number of white balls transferred | C: combination counts and total probability}]
+From a bag $A$ containing 3 white and 5 black balls, 4 balls are transferred into an empty bag $B$. From bag $B$ 2 balls are taken and they both happen to be white. These balls are returned to the bag $B$. Now a ball is taken from bag $B$ is white; the probability of this event can be expressed as $p/q$ where $p$ and $q$ are relatively prime positive integers. Find $(q-p)$.
+\end{bankq}
+\begin{bankq}[id=PS01-P2-MATH-S1-Q01, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=2, qno=1, type=multi, subtopic={Classical probability}, answer={A,B,C,D}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: letters of UNIVERSITY arrangement probabilities | steps: ten letters with I repeated twice; probability I not together; vowels separated using gaps; vowels together | I: gap method for separating vowels | C: counting arrangements for each case}]
+Letters of the word ``UNIVERSITY'' are arranged randomly. Then
+\begin{qoptions}
+\opt{A}{Probability that both `I' do not come together is $4/5$}
+\opt{B}{Probability that all vowels are seperated is $1/6$}
+\opt{C}{Probability that all vowels are together is $1/30$}
+\opt{D}{Probability that word starts and ends with a consonant is $1/3$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=PS01-P2-MATH-S1-Q05, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=2, qno=5, type=multi, subtopic={Bayes}, answer={A,D}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I1 C2 F1}, diff_note={concepts: bag of twelve balls with equally likely compositions | steps: probability over all compositions; four balls drawn without replacement; apply symmetry and total probability; evaluate each statement | I: all compositions equally likely means a uniform prior | C: summing over compositions}]
+A bag contains some white and some black balls, all combinations being equally likely. The total number of balls in the bag is 12. Four balls are drawn from the bag without replacement.
+\begin{qoptions}
+\opt{A}{Probability that all balls are black is $1/5$}
+\opt{B}{Probability that all balls are black is $1/3$}
+\opt{C}{Probability that two balls are black and two are white is $1/4$}
+\opt{D}{Probability that two balls are black and two are white is $1/5$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=PS01-P2-MATH-S2-G7-8, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, questions={7-8}]
+Let $B_n$ denotes the event that $n$ fair dice are rolled once with $P(B_n)=\dfrac1{2^n}$; $n\in N$. Hence $B_1,B_2,B_3,\ldots,B_n$ are pairwise mutually exclusive events as $n\to\infty$. The event $E$ occurs with atleast one of the event $B_1,B_2,\ldots,B_n$ and denotes that the sum of numbers appearing on dice is $S$.
+\end{bankpassage}
+\begin{bankq}[id=PS01-P2-MATH-S2-Q07, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=2, qno=7, type=single, subtopic={Conditional probability}, answer={A}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: dice rolled with probability 1 over 2^n, greatest number 4 | steps: given three dice rolled find probability of greatest 4 by (4/6)^3 minus (3/6)^3; evaluate | I: use maximum equals 4 as at most 4 minus at most 3 | C: cubes of fractions}, group=PS01-P2-MATH-S2-G7-8]
+Probability that greatest number on dice is 4, if three dice are known to have been rolled, is :
+\begin{qoptions}
+\opt{A}{$\dfrac{37}{216}$}
+\opt{B}{$\dfrac{64}{216}$}
+\opt{C}{$\dfrac{27}{216}$}
+\opt{D}{$\dfrac{31}{216}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=PS01-P2-MATH-S2-Q08, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=2, qno=8, type=single, subtopic={Conditional probability}, answer={B}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S1 I1 C2 F0}, diff_note={concepts: conditional probability given sum of the dice | steps: given S = 3 find P(B_2 | S) by Bayes with the prior 1/2^n and number of ways to get sum 3 with n dice; sum over n | I: sum of the dice identifies which n are possible | C: counting ways and summing}, group=PS01-P2-MATH-S2-G7-8]
+If $S=3$, then $P\Bigl(\dfrac{B_2}S\Bigr)$ is equal to -
+\begin{qoptions}
+\opt{A}{$\dfrac8{169}$}
+\opt{B}{$\dfrac{24}{169}$}
+\opt{C}{$\dfrac{72}{169}$}
+\opt{D}{$\dfrac{16}{169}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=PS01-P2-MATH-S3-G1-2, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, questions={1-2}]
+On a normal standard die one of the 21 dots from any one of the six faces is removed at random with each dot equally likely to be chosen. The die is then rolled.
+\end{bankpassage}
+\begin{bankq}[id=PS01-P2-MATH-S3-Q01, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=2, qno=1, type=numerical, subtopic={Classical probability}, answer={31.00}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: die with one dot removed, probability of even number | steps: choose which face loses a dot with probability proportional to dots; parity of each face after removal; add the cases to get probability a/b; compute a plus b | I: the removed dot changes the parity of one face | C: summing over six faces}, group=PS01-P2-MATH-S3-G1-2]
+Probability of die showing even number of dots is $\dfrac ab$, where $a$ \& $b$ are co-prime, then value of $a+b$ is
+\end{bankq}
+\begin{bankq}[id=PS01-P2-MATH-S3-Q02, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=2, qno=2, type=numerical, subtopic={Classical probability}, answer={320.00}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: probability of odd number after removing a dot | steps: complement of the even probability; reduce to p over q; compute q squared minus p squared | I: odd probability is one minus the even probability | C: arithmetic with fractions}, group=PS01-P2-MATH-S3-G1-2]
+Probability of die showing odd number of dots is $\dfrac pq$, where $p$ and $q$ are co-prime, then value of $q^2-p^2$ is -
+\end{bankq}
+\begin{bankq}[id=PS01-P2-MATH-S4-Q08, source={Pre-Score (2023-24) - Test 01 (08 Oct 2023)}, paper=2, qno=8, type=numerical, subtopic={Classical probability}, answer={135}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: pairs of subsets with intersection of two elements | steps: each element lies in A only B only both or neither; choose two elements for the intersection; remaining three elements have three choices each; probability over 16 to the fifth power | I: assign each element to one of four classes | C: powers and binomial coefficients}]
+$S$ is a set containing 5 elements. Two subsets $A$ and $B$ of set $S$ are selected at random. The probability that $A\cap B$ contains 2 elements is $P$, then find value of $(512)P$
+\end{bankq}
+\begin{bankq}[id=PS05-P1-MATH-S2-Q08, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=8, type=multi, subtopic={Classical probability}, answer={A,B}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: probability that three polygon vertices form an acute triangle | steps: triangle is acute if the centre lies inside; count favourable triples depending on n parity; compute the probability formula; check options | I: acute triangle in a circle means the centre lies inside | C: counting favourable triples}]
+Let `$n$' be an integer with $n\ge3$. Let $P_1P_2P_3\ldots P_n$ be a regular $n-$sided polygon inscribed in a circle. Three points $P_i$, $P_j$ and $P_k$ are randomly chosen, where $i$, $j$ and $k$ are distinct integers from 1 to $n$. The number of triangles such that the triangle $P_iP_jP_k$ is obtuse is
+\begin{qoptions}
+\opt{A}{$\dfrac{n(n-2)(n-4)}{8}$, if $n$ is even}
+\opt{B}{$\dfrac{n(n-1)(n-3)}{8}$, if $n$ is odd}
+\opt{C}{$\dfrac{n(n-1)(n-2)}{6}$, if $n$ is even}
+\opt{D}{$\dfrac{n(n+1)(n+2)}{6}$, if $n$ is odd}
+\end{qoptions}
+\end{bankq}
+
 \section*{JEE Advanced (2021 Series) papers}
 \begin{bankq}[id=JA01-P2-MATH-S2-Q05, source={JEE Advanced (2021 Series) - Test 01 (24 Jan 2021)}, paper=2, qno=5, type=numerical, subtopic={Classical probability}, answer={0.24 or 0.25}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: probability about winning three, the next four matches with biased outcomes | steps: win probability 2/3 after winning and 1/3 after losing; Markov chain over four matches; sum over sequences with three wins; probability}]
 Two players A and B play a seires of matches. In each match it is 2 to 1 in favour of the winner of the previous match. If A wins the first match, then the probability that A will win 3 matches of the next 4 matches, is - (Assume no match ends in draw)
@@ -1454,7 +1567,7 @@ If $E_1$ and $E_2$ are two events such that $P(E_1)=\dfrac14$, $P\!\left(\dfrac{
 \begin{bankq}[id=JA09-P1-MATH-S3-Q04, source={JEE Advanced (2021 Series) - Test 09 (07 May 2021)}, paper=1, qno=4, type=numerical, subtopic={Conditional probability}, answer={7.00}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: probability that both balls are red given no white | steps: conditional on no white: draws from 5 balls; P(both red) = C(3,2)/C(5,2)}]
 A bag contains $3$ red, $2$ white and $2$ black balls. Two balls are drawn at random and none of them is found to be a white ball. The probability that both balls are red is $\dfrac ab$ (where $a,b$ are coprime) then $b-a$ is equal to
 \end{bankq}
-\begin{bankq}[id=JA11-P1-MATH-S1-Q04, source={JEE Advanced (2021 Series) - Test 11 (20 May 2021)}, paper=1, qno=4, type=multi, subtopic={Classical probability}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={concepts: parity of row and column sums of a binary matrix | steps: all six sums must be odd; choose the upper left 2 x 2 block freely in 16 ways; the last row and column are determined by odd parity and the corner entry is consistent; so 16 favourable out of 512 matrices; probability 1/32 | I: a free 2 x 2 block determines the rest of the matrix by parity}, also_in={Nurture (General) - Test 01 (12 Jun 2021) P1 Q4}]
+\begin{bankq}[id=JA11-P1-MATH-S1-Q04, source={JEE Advanced (2021 Series) - Test 11 (20 May 2021)}, paper=1, qno=4, type=multi, subtopic={Classical probability}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={concepts: parity of row and column sums of a binary matrix | steps: all six sums must be odd; choose the upper left 2 x 2 block freely in 16 ways; the last row and column are determined by odd parity and the corner entry is consistent; so 16 favourable out of 512 matrices; probability 1/32 | I: a free 2 x 2 block determines the rest of the matrix by parity}, also_in={JEE Advanced (2021 Series) - Test 15 (12 Jun 2021) P1 Q4; Nurture (General) - Test 01 (12 Jun 2021) P1 Q4}]
 Let $A=[a_{ij}]_{3\times3}$ be a matrix where $a_{ij}\in\{0,1\}\ \forall\ 1\le i,j\le3$. Let $s_i=\displaystyle\sum_{k=1}^{3}a_{ik}$ and $t_j=\displaystyle\sum_{k=1}^{3}a_{kj}$ then the probability that the product $(s_1s_2s_3t_1t_2t_3)$ is an odd integer, is
 \begin{qoptions}
 \opt{A}{$\dfrac12$}
@@ -1498,6 +1611,59 @@ $P_1,P_2,P_3,\ldots..,P_8$ are 8 players of equal strength who play with each ot
 \end{bankq}
 \begin{bankq}[id=JA13-P2-MATH-S5-Q03, source={JEE Advanced (2021 Series) - Test 13 (31 May 2021)}, paper=2, qno=3, type=numerical, subtopic={Classical probability}, answer={4}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S3 I1 C0 F1}, diff_note={concepts: probability of arrangements with together and not together conditions | steps: treat exactly four girls together as a block with the fifth girl separate; arrange the block and other persons; subtract arrangements in which B1 and B2 are together; divide by total 13!; multiply by 99 and take the integer part | I: use gap method for exactly four girls together}]
 Let the probability of arranging 8 boys ($B_1,B_2,\ldots..,B_8$) and 5 girls linearly such that $B_1$ and $B_2$ are not together and exactly four girls are together be $p$, then $[99p]$ is equal to (where $[.]$ denotes the greatest integer function)
+\end{bankq}
+\begin{bankq}[id=JA14-P1-MATH-S2-Q03, source={JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)}, paper=1, qno=3, type=multi, subtopic={Conditional probability}, answer={A,B,C}, answer_src=solved, working={P(A | exactly one) = 0.09/0.44 = 9/44 so m + n = 53.}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: conditional probability with independent events | steps: write probability of exactly one passing; probability A passes and exactly one passes is 0.09; divide; reduce fraction; sum numerator and denominator | I: the event A passing with exactly one pass means B and C both fail | C: fraction arithmetic}]
+Three students $A,B,C$ appear for IIT-JEE exam. Their respective probabilities of clearing the exams being $\dfrac3{10}$, $\dfrac12$ and $\dfrac25$. Each student clearing or not clearing the exam is independent of other. If the probability of $A$ passing the exam be $\dfrac mn$ ($m,n\in N$) given that only one of the student has cleared the exam, then the least value of $(m+n)$ is greater than
+\begin{qoptions}
+\opt{A}{10}
+\opt{B}{20}
+\opt{C}{40}
+\opt{D}{80}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=JA14-P2-MATH-S2-G1-2, source={JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)}, questions={1-2}]
+A and B are playing a badminton match with the agreement that winner of each set will get 1 point and the loser 0 point. The match ends as soon as one of them is ahead by 2 points or number of sets reaches six. It is supposed that the probabilities of A and B winning a set are $\dfrac23$ and $\dfrac13$ respectively and each set is independent.\\
+Let $X_i$ denotes the event that atleast $i$ sets are played and $Y$ and $Z$ denotes the event that match has won by A and B respectively.\\
+On the basis of above information, answer the following questions :
+\end{bankpassage}
+\begin{bankq}[id=JA14-P2-MATH-S2-Q01, source={JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)}, paper=2, qno=1, type=single, subtopic={Conditional probability}, answer={D}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: badminton sets, conditional probability of events | steps: define events X_k by who wins set k; Y and Z events of match; compute P(Y | X5) by listing cases; P(Z | X4) by inclusion; check symmetric property | I: the game structure fixes the possible winning sequences | C: probability bookkeeping over several sequences}, group=JA14-P2-MATH-S2-G1-2]
+Identify incorrect option --
+\begin{qoptions}
+\opt{A}{$P\left(\dfrac Y{X_5}\right)=\dfrac49$}
+\opt{B}{$P\left(\dfrac Z{X_4}\right)=\dfrac{13}{81}$}
+\opt{C}{$P(X_{2k-1})=P(X_{2k})\ \forall k\in\{1,2,3\}$}
+\opt{D}{$P\left(\dfrac Z{X_1}\right)=\dfrac{64}{729}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA14-P2-MATH-S2-Q02, source={JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)}, paper=2, qno=2, type=single, subtopic={Conditional probability}, answer={C}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: probability that A wins the match given A won the third set | steps: list sequences of set results consistent with A winning set 3; compute the probability that A wins the match among them; ratio by conditional rule | I: conditioning on the third set restricts the sequences | C: summing probabilities of multiple sequences}, group=JA14-P2-MATH-S2-G1-2]
+If it is known that A has won the third set then probability that A will win the match is equal to
+\begin{qoptions}
+\opt{A}{$\dfrac49$}
+\opt{B}{$\dfrac{13}{18}$}
+\opt{C}{$\dfrac{22}{27}$}
+\opt{D}{$\dfrac{76}{81}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=JA15-P2-MATH-S3-G3-4, source={JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)}, questions={3-4}]
+Let $S$ be the set of points $\{(x,y):0\le x\le3,\ 0\le y\le4$ where $x,y\in I\}$ two distinct points are randomly chosen from $S$.
+\end{bankpassage}
+\begin{bankq}[id=JA15-P2-MATH-S3-Q03, source={JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)}, paper=2, qno=3, type=single, subtopic={Classical probability}, answer={A}, answer_src=key, difficulty=5, diff_parts={K2 S3 I1 C0 F0}, diff_note={concepts: parity classes of lattice points, classical probability | steps: set S is the 20 lattice points with x from 0 to 3 and y from 0 to 4; two points have a lattice midpoint iff both coordinates have equal parity; parity classes have sizes 6, 4, 6, 4; favourable pairs 15 + 6 + 15 + 6 = 42 out of C(20,2) = 190; probability 21/95 | I: the midpoint is in S exactly when the two points lie in the same parity class}, group=JA15-P2-MATH-S3-G3-4]
+The probability that mid point of the line segment of two points chosen belongs to $S$ is
+\begin{qoptions}
+\opt{A}{$\dfrac{21}{95}$}
+\opt{B}{$\dfrac{42}{95}$}
+\opt{C}{$\dfrac{36}{95}$}
+\opt{D}{None of these}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA15-P2-MATH-S3-Q04, source={JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)}, paper=2, qno=4, type=single, subtopic={Classical probability}, answer={B}, answer_src=key, difficulty=2, diff_parts={K1 S2 I0 C0 F0}, diff_note={concepts: counting with equal parity of coordinates | steps: x1 = x2 so only y parity matters; among the five y values there are 3 even and 2 odd; same parity pairs 3 + 1 = 4 out of C(5,2) = 10; probability 2/5}, group=JA15-P2-MATH-S3-G3-4]
+If two points $(x_1,y_1)$ and $(x_2,y_2)$ are chosen such that $x_1=x_2$ and $y_1\ne y_2$ then probability that mid point of these two points belongs to $S$, is
+\begin{qoptions}
+\opt{A}{$\dfrac15$}
+\opt{B}{$\dfrac25$}
+\opt{C}{$\dfrac8{15}$}
+\opt{D}{$\dfrac8{95}$}
+\end{qoptions}
 \end{bankq}
 
 \section*{TOAS papers}

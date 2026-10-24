@@ -1413,6 +1413,92 @@ All the five digit numbers in which each successive digit exceeds its predecesso
 Let 5 letters words are formed using the letters of the word `CALCULUS' and $N$ is the rank of word CALCU among them as arranged in dictionary. Then $N$ is
 \end{bankq}
 
+\section*{Pre-Score (2023-24) papers}
+\begin{bankq}[id=PS05-P1-MATH-S2-Q05, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=5, type=multi, subtopic={Counting principles}, answer={A,B,D}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: painting an octahedron with eight different colours | steps: count distinct paintings under rotations of the octahedron; 8 factorial over 24; compare with cube vertex painting; check statements | I: rotation group of the octahedron has order 24 | C: arithmetic for the counts}]
+The number of ways to paint a regular octahedron (it has eight equilateral triangular faces, 6 vertices, 12 sides) with 8 different colors is (All colors to be used)
+\begin{qoptions}
+\opt{A}{Same as the indistinguishable number of ways to name the vertices of a cube with letters A, B, C, D, E, F, G, H}
+\opt{B}{having sum of digits 15}
+\opt{C}{having 32 positive divisors}
+\opt{D}{having four prime factors}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=PS05-P1-MATH-S2-Q09, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=9, type=multi, subtopic={Counting principles}, answer={A,C}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: placing 1 to 12 in a grid with adjacency difference condition | steps: difference not divisible by 3 means neighbours have different residues mod 3; residue classes of four each; count arrangements; count then reduce | I: reduce the condition to residues modulo 3 | C: counting proper colourings of a 2 by 6 grid}]
+Let $N$ be the number of ways to place the integers 1 through 12 in the 12 cells of a $2\times6$ grid so that for any two cells sharing a side, the difference between the numbers in those cells is not divisible by 3. One way to do this is shown below.
+\begin{center}
+\renewcommand{\arraystretch}{1.4}\setlength{\tabcolsep}{5pt}\footnotesize
+\begin{tabular}{|c|c|c|c|c|c|}\hline
+1&3&5&7&9&11\\\hline
+2&4&6&8&10&12\\\hline
+\end{tabular}
+\end{center}
+\begin{qoptions}
+\opt{A}{$N=2^{11}\cdot3^5\cdot5$}
+\opt{B}{$N=2^{11}\cdot3^5\cdot5^2$}
+\opt{C}{Total divisor of $N=144$}
+\opt{D}{Total divisor of $N=216$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=PS05-P1-MATH-S3-G5-6, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, questions={5-6}]
+A triangle is called an integral triangle if all its sides are integers. If $a$, $b$, and $c$ are sides of an integral triangle, then we an assume that $a\le b\le c$, because any other permutation of $a$, $b$, and $c$ will yield the same result. Now, answer the following question.
+\end{bankpassage}
+\begin{bankq}[id=PS05-P1-MATH-S3-Q05, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=5, type=numerical, subtopic={Counting principles}, answer={12.00}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: count integral isosceles triangles with sides at most 4 | steps: iterate over the equal sides a and the third side b; triangle inequality b < 2a; count valid pairs including equilateral | I: use the triangle inequality for each case | C: counting pairs}, group=PS05-P1-MATH-S3-G5-6]
+The number of integral isosceles or equilateral triangle's, none of whose side exceeds 4, is :
+\end{bankq}
+\begin{bankq}[id=PS05-P1-MATH-S3-Q06, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=6, type=numerical, subtopic={Counting principles}, answer={27.00}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: count integral isosceles triangles with sides at most 6 | steps: same method with larger bound; sum counts over a from 1 to 6 | I: same method with a larger bound | C: summing counts}, group=PS05-P1-MATH-S3-G5-6]
+The number of integral isosceles or equilateral triangles, none of whose side exceeds 6 is :
+\end{bankq}
+\begin{bankq}[id=PS05-P1-MATH-S4-Q07, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=7, type=single, subtopic={Distributions}, answer={7}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C2 F0}, diff_note={concepts: chain of subsets with nested or disjoint relation | steps: each pair is nested or disjoint; sizes 1 to 5 within seven elements; construct the laminar family; count choices | I: laminar family structure with given sizes | C: counting ways}]
+Ram chooses five subsets $S_1,S_2,S_3,S_4,S_5$ of $\{1,2,3,4,5,6,7\}$ such that $|S_1|=1$, $|S_2|=2$, $|S_3|=3$, $|S_4|=4$, and $|S_5|=5$. Moreover, for all $1\le i<j\le5$, either $S_i\cap S_j=S_i$ or $S_i\cap S_j=\phi$ (in other words, the intersection of $S_i$ and $S_j$ is either $S_i$ or the empty set). If Ram can achieve this in $\lambda$ ways then the $3^{rd}$ digit of $\lambda$ from begining is \underline{\hspace{1.5cm}}
+\end{bankq}
+\begin{bankq}[id=PS05-P2-MATH-S1-Q02, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=2, qno=2, type=multi, subtopic={Derangements}, answer={A,B,C}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: derangement count for hats and shirts | steps: six hats and six shirts for five men with no man wearing matching hat and shirt; inclusion exclusion; count of ways | I: modelling as derangement type restrictions | C: inclusion exclusion terms}]
+Let there are 6 hats of different colours and 6 shirts of same colours as that of hats. If the number of ways in which these can be put on by 5 men such that no man wear the shirt and the hat of the same colour is $K\times6!$. Then the value of $K$ is greater than
+\begin{qoptions}
+\opt{A}{108}
+\opt{B}{218}
+\opt{C}{258}
+\opt{D}{309}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=PS05-P2-MATH-S3-G1-2, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, questions={1-2}]
+Let $A6P+BQ4+C45=887$, where `XYZ' denotes three digits number.\par
+On the basis of above information, answer the following questions :
+\end{bankpassage}
+\begin{bankq}[id=PS05-P2-MATH-S3-Q01, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=2, qno=1, type=numerical, subtopic={Counting principles}, answer={7.50}, answer_src=key, working={Printed key.}, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: counting ordered triplets with a digit sum condition | steps: three digit numbers with digit conditions summing to 887; number of ordered triplets; divisible conditions; compute lambda over 2 | I: convert the digit equation into carry conditions | C: counting solutions}, group=PS05-P2-MATH-S3-G1-2]
+If the number of ordered triplets $(A,B,C)$ is $\lambda$ then value of $\lambda/2$ is
+\end{bankq}
+\begin{bankq}[id=PS05-P2-MATH-S3-Q02, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=2, qno=2, type=numerical, subtopic={Counting principles}, answer={1.20}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: number of solutions with product odd | steps: odd product requires all three numbers odd; count by digits; compute mu over 5 | I: odd product implies all odd | C: counting digit choices}, group=PS05-P2-MATH-S3-G1-2]
+If the number of solutions that product of $A$, $B$ and $C$ is an odd integer is $\mu$ then value of $\mu/5$ is
+\end{bankq}
+\begin{bankpassage}[id=PS05-P2-MATH-S3-G3-4, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, questions={3-4}]
+$n$ straight lines are drawn in a plane such that no 2 of them are parallel and no 3 of them are concurrent.\par
+Let $T_n$ represents the number of parts in which the $n$ lines divides the plane and let $Q_n=\displaystyle\prod_{r=1}^{n}\dfrac{T_{r+1}-1}{T_r-1}$.
+\end{bankpassage}
+\begin{bankq}[id=PS05-P2-MATH-S3-Q03, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=2, qno=3, type=numerical, subtopic={Counting principles}, answer={56.00}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: regions formed by n lines | steps: T_n = 1 + n(n+1)/2; T_10 = 56 | I: standard formula for regions}, group=PS05-P2-MATH-S3-G3-4]
+$T_{10}$ is equal to
+\end{bankq}
+\begin{bankq}[id=PS05-P2-MATH-S3-Q04, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=2, qno=4, type=numerical, subtopic={Counting principles}, answer={5.00}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: sum of Q_r in terms of regions | steps: Q_n defined with sums of T_r; compute Q_r = sum; sum over r = 1 to 10 times 6; evaluate using sums of squares and cubes | I: Q_n has a closed cubic form | C: summing polynomials}, group=PS05-P2-MATH-S3-G3-4]
+$\displaystyle\sum_{r=1}^{10}\dfrac{6}{Q_r}$ is equal to
+\end{bankq}
+\begin{bankq}[id=PS08-P1-MATH-S1-Q02, source={Pre-Score (2023-24) - Test 08 (03 Dec 2023)}, paper=1, qno=2, type=single, subtopic={Derangements}, answer={A}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: arrangements of fifteen letters with positional restrictions | steps: choose which block of five positions the A's occupy; inclusion exclusion on the forbidden blocks; count arrangements as sum over k of binomials; compare with the options | I: counting with forbidden blocks leads to a sum of cubes of binomials | C: sum evaluation}]
+How many 15-letter arrangements of 5 A's, 5 B's and 5 C's have no A's in the first 5 letters, no B's in the next 5 letters and no C's in the last 5 letters ?
+\begin{qoptions}
+\opt{A}{$\displaystyle\sum_{k=0}^{5}\binom{5}{k}^{3}$}
+\opt{B}{$3^5\cdot 2^5$}
+\opt{C}{$2^{15}$}
+\opt{D}{$\dfrac{15!}{(5!)^3}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=PS08-P2-MATH-S3-G3-4, source={Pre-Score (2023-24) - Test 08 (03 Dec 2023)}, questions={3-4}]
+10 digit numbers are formed by using all the digits 0, 1, 2, ..., 9 such that they are divisible by 11111. Then, answer the following questions.
+\end{bankpassage}
+\begin{bankq}[id=PS08-P2-MATH-S3-Q03, source={Pre-Score (2023-24) - Test 08 (03 Dec 2023)}, paper=2, qno=3, type=numerical, subtopic={Permutations}, answer={6.00}, answer_src=key, working={Printed key.}, difficulty=9, diff_parts={K1 S4 I2 C2 F1}, diff_note={concepts: ten digit pandigital numbers divisible by 11111 | steps: divisibility by 11111 means sum of the two halves forms specific pattern; digits sum to 45; deduce structure; smallest such number; tens digit; divisibility by 11111 splits digits; digit sum condition; structure of valid numbers; smallest number; its tens digit; check | I: use 99999 = 9 x 11111 type divisibility | C: constructing the smallest number}, group=PS08-P2-MATH-S3-G3-4]
+The digit in tens place, in smallest of such numbers is
+\end{bankq}
+\begin{bankq}[id=PS08-P2-MATH-S3-Q04, source={Pre-Score (2023-24) - Test 08 (03 Dec 2023)}, paper=2, qno=4, type=numerical, subtopic={Permutations}, answer={4.00}, answer_src=key, working={Printed key.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: largest pandigital number divisible by 11111 | steps: use the same structure; maximise the number; read the units digit | I: structure from the previous part | C: constructing the largest number}, group=PS08-P2-MATH-S3-G3-4]
+The digit in units place, in greatest of such numbers is
+\end{bankq}
+
 \section*{Enthusiast Pre-Score papers}
 \begin{bankq}[id=EPS03-P1-MATH-S1-Q03, source={Enthusiast Pre-Score - Test 03 (23 Nov 2020)}, paper=1, qno=3, type=multi, subtopic={Counting principles}, answer={B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: counting five digit numbers | steps: count with exactly two non repeating etc; case by case; total for each option}]
 Five digit numbers are formed using digits 1,2,3,4,5,6. The number of such numbers are -
@@ -1631,6 +1717,28 @@ The number of ways in which exactly one person is not hit is
 \end{bankq}
 \begin{bankq}[id=JA13-P2-MATH-S5-Q01, source={JEE Advanced (2021 Series) - Test 13 (31 May 2021)}, paper=2, qno=1, type=numerical, subtopic={Distributions}, answer={3}, answer_src=key, working={Printed key.}, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: number of onto functions with restrictions by inclusion exclusion | steps: count functions from four elements to three with f(i) not equal i and onto the set {2,3,4}; use inclusion exclusion on missing values; total k = 12; k/4 = 3 | I: inclusion exclusion over the target values that are missed}]
 If the number of onto functions from $\{1,2,3,4\}\to\{2,3,4\}$ such that $f(i)\ne i$ for $i=1,2,3,4$ is $k$, then $\dfrac k4$ is equal to
+\end{bankq}
+\begin{bankpassage}[id=JA15-P2-MATH-S3-G1-2, source={JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)}, questions={1-2}]
+Let $A=\{1,2,3,\ldots..n\}$ is a set containing $n$ elements.
+\end{bankpassage}
+\begin{bankq}[id=JA15-P2-MATH-S3-Q01, source={JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)}, paper=2, qno=1, type=single, subtopic={Combinations}, answer={C}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: counting subsets with a given largest element | steps: subsets with largest element k are formed by choosing any subset of the k - 1 smaller elements; count is 2^(k-1)}, group=JA15-P2-MATH-S3-G1-2]
+For any given $n$, number of subsets of $A$ having $k(k<n)$ as largest element, is
+\begin{qoptions}
+\opt{A}{$2^k$}
+\opt{B}{$n-k$}
+\opt{C}{$2^{k-1}$}
+\opt{D}{None of these}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA15-P2-MATH-S3-Q02, source={JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)}, paper=2, qno=2, type=single, subtopic={Combinations}, answer={C}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: counting subsets by complement | steps: subsets with no odd element are subsets of the even elements, [n/2] of them in number so 2^[n/2]; subtract from 2^n}, group=JA15-P2-MATH-S3-G1-2]
+The number of subsets of $A$ having at least one odd integer is\\
+{[}where [.] represents greatest integer function{]}
+\begin{qoptions}
+\opt{A}{$2^{\left[\frac n2\right]}$}
+\opt{B}{$2^{\left[\frac{n+1}2\right]}$}
+\opt{C}{$2^n-2^{\left[\frac n2\right]}$}
+\opt{D}{$2^{\left[\frac n2\right]+1}$}
+\end{qoptions}
 \end{bankq}
 
 \section*{TOAS papers}
