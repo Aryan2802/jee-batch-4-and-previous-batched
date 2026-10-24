@@ -1729,10 +1729,13 @@
    "src_rel": [
     "Score 2/Source/Mains/Moderate/Score-II - Test 20 (23 Feb 2024).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "Paper-1+2 transcribed, PASS, all pages visually QA'd; wide chem Q6/Q7/Q8 figs full-width; Q8 math Σ|xixj| kept as printed",
    "note": "141 questions; 123 from key, 18 solved; bands Easy 0/Medium 72/Hard 0/Very hard 69; chapters C10 C12 C16 C17 C20 C25 C30 C31 C32 M01 M04 M05 M06 M07 M09 M10 M12 M20 P01 P09 P10 P11 P12 P17",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T07:00:52Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 25 (20 Mar 2024)",
