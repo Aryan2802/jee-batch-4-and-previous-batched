@@ -514,13 +514,9 @@
    "src_rel": [
     "Batch 4/Source/Nurture SRG/Advanced/Very Challenging/Nurture SRG - Test 03 (04 Feb 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 87 figs",
-   "note": "108 questions; 23 from key, 85 solved; bands Easy 2/Medium 37/Hard 55/Very hard 14; chapters C14 C15 C16 C17 C18 C19 C22 C23 C30 C34 M02 M04 M09 M17 M18 M19 M25 P03 P07 P13 P14 P17 P18 P23",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T03:10:02Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
   },
   {
    "name": "Nurture (General) - Test 01 (12 Jun 2021)",
