@@ -902,14 +902,10 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 26 (21 Apr 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 13pp, 61 figs",
-   "note": "102 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
-   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)",
-   "fix_note": "rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T05:52:51Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "v4 rescore (same paper as Score Advanced 25, reused)",
+   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)"
   },
   {
    "name": "Score Advanced - Test 27 (24 Apr 2024)",
