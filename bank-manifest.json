@@ -1593,13 +1593,9 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 03 (05 May 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Mains Foundational; 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 29 figures",
-   "note": "90 questions; 90 from key, 0 solved; bands Easy 0/Medium 60/Hard 10/Very hard 20; chapters C01 C02 C03 C04 C06 C10 C11 C13 C15 C16 C25 C30 C31 C32 C33 C35 C36 C37 C38 M01 M02 M05 M07 M08 M09 M10 M12 M14 M15 M17 M18 M20 M21 M24 M27 M28 M29 M31 M32 P01 P02 P03 P04 P05 P06 P07 P08 P10 P11 P13 P14 P17 P19 P20 P25",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T06:46:16Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "v4 rescore (calibrated)"
   },
   {
    "name": "Score-II - Test 05 (22 Mar 2022)",
