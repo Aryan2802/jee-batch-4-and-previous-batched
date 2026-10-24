@@ -279,3 +279,9 @@ Score-II T17 (13 Feb 2024): PDF truncated to 13 of 17 pages, no key -> hand-solv
   Means D3.5-5.0, D>=8 on 0-2 questions per test. Audit anchors hold: SRGBT 11 chem q24 = D4, math q48 = D6, phy q11 = D6.
 - SRGBT 13 and 14 had been finished under v4 at mean 6.5 and 6.1 (before the mean/default-score checks) and were redone too.
 - Do not re-queue SRGBT tests; they are final.
+## 2026-10-24 07:40 UTC - concept-list padding (new check)
+- Score-I 11/17/18 (new) and several rescored tests list "concepts" made by splitting the question title at a comma to
+  reach K2: "vapour pressure, pure liquid B" for one Raoult's-law equation (scored D6; honest K1 S1 I0 C0 = D2),
+  "sum, lambda for local minima", "temperature rise, a monatomic gas compressed by ...". A concept is a LAW or METHOD
+  (Raoult's law, first law, sine rule, Vieta) - never a piece of the question. apply now rejects a test when more than
+  15% of its reasons contain a one-word concept item.
