@@ -2191,8 +2191,11 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 07 (29 Nov 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done"
+   "status": "in_progress",
+   "conv_note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done",
+   "started_at": "2026-10-24T10:03:02Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Pre-Score (2023-24) - Test 08 (03 Dec 2023)",
