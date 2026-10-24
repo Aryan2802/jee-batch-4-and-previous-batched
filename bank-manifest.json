@@ -1537,11 +1537,9 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 07 (10 Jul 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 39 figures; lint PASS, QA done",
-   "started_at": "2026-10-24T00:09:01Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "90 questions; 83 from key, 7 solved; bands Easy 0/Medium 60/Hard 0/Very hard 30; chapters C01 C02 C03 C07 C09 C10 C11 C12 C13 C15 C16 C18 C22 C25 C27 C29 C31 C32 C34 C36 C37 M01 M02 M04 M06 M07 M10 M12 M13 M14 M15 M20 M21 M23 M24 M26 M27 M28 M29 P01 P02 P03 P05 P06 P07 P08 P09 P10 P11 P15 P16 P17 P18 P19 P20 P21 P22 P23 P25"
   },
   {
    "name": "Score-II - Test 17 (13 Feb 2024)",
