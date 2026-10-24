@@ -1725,8 +1725,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Challenging/Score-I - Test 04 (14 Jan 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Score-I 04: 15 pages, 72 figs; lint PASS, visual QA done"
+   "status": "in_progress",
+   "conv_note": "Score-I 04: 15 pages, 72 figs; lint PASS, visual QA done",
+   "started_at": "2026-10-24T00:33:26Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 05 (22 Jan 2022)",
