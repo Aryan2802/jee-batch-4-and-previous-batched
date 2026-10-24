@@ -525,10 +525,13 @@
    "src_rel": [
     "Batch 4/Source/Nurture (General)/Mains/Foundational/Nurture (General) - Test 01 (12 Jun 2021).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "DONE 2026-10-19, 13pp, 46 figs",
    "note": "108 questions; 7 from key, 101 solved; bands Easy 21/Medium 20/Hard 50/Very hard 17; chapters C02 C03 C04 C06 C07 C09 C10 C11 C13 C15 C16 C18 C20 C21 C23 C25 C27 C29 C31 C32 C33 C35 C36 C37 C38 M01 M04 M05 M06 M07 M13 M14 M16 M17 M18 M19 M20 M22 M23 M25 M26 M28 M29 M31 M32 P01 P02 P04 P05 P06 P07 P08 P09 P10 P11 P12 P15 P17 P18 P19 P20 P21",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T03:11:04Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Nurture (General) - Test 03 (27 Sep 2023)",
