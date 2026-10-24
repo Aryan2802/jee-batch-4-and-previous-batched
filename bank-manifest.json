@@ -1872,8 +1872,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 11 (27 Feb 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+   "status": "in_progress",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
+   "started_at": "2026-10-24T07:18:03Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 17 (17 Apr 2022)",
