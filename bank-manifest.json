@@ -1909,11 +1909,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 10 (24 Feb 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages",
-   "started_at": "2026-10-24T04:18:49Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 47 from key, 7 solved (matching, one key mismatch); bands Easy 21/Medium 23/Hard 9/Very hard 1; chapters C02 C04 C07 C09 C12-C16 C21 C22 C25 C30-C32 C35 C36 M02 M05-M08 M12-M14 M17 M18 M20 M23 M25 M27 M29 M31 M32 P02-P12 P15 P16 P18-P21 P25; Column-I figures of chem s3 q01 re-attached"
   },
   {
    "name": "Score-I - Test 11 (27 Feb 2022)",
