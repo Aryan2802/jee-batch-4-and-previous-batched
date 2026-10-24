@@ -1681,8 +1681,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 01 (21 Mar 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Fixed 2026-09-22: prior output was silently truncated (missing Paper-2 Part-2 Chem Section-II Numerical Q4-8 and all of Paper-2 Part-3 Mathematics). Completed via full source re-scan against checklist"
+   "status": "in_progress",
+   "conv_note": "Fixed 2026-09-22: prior output was silently truncated (missing Paper-2 Part-2 Chem Section-II Numerical Q4-8 and all of Paper-2 Part-3 Mathematics). Completed via full source re-scan against checklist",
+   "started_at": "2026-10-24T00:19:30Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 01 (16 Jun 2021)",
