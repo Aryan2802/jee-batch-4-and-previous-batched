@@ -1938,8 +1938,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 26 (18 Dec 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS"
+   "status": "in_progress",
+   "conv_note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS",
+   "started_at": "2026-10-24T07:35:53Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 31 (29 Dec 2022)",
