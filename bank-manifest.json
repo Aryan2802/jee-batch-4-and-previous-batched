@@ -2209,11 +2209,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 01 (20 Sep 2020).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "single paper 18q/subject, 24 figs, 7pp; lint PASS",
-   "started_at": "2026-10-24T10:08:49Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "answers from the printed key (labelled SRG Test 2 on the key page); all questions hand-scored"
   },
   {
    "name": "SRG (Enthusiast) - Test 02 (04 Oct 2020)",
