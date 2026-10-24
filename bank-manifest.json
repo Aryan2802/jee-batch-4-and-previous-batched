@@ -2136,8 +2136,11 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 02 (15 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
+   "status": "in_progress",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete",
+   "started_at": "2026-10-24T09:44:33Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Pre-Score (2023-24) - Test 03 (22 Oct 2023)",
