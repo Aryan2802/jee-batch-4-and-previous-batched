@@ -1912,11 +1912,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 22 (04 Dec 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "54 q, 8 pages, 53 images, lint PASS",
-   "started_at": "2026-10-24T07:29:47Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key, 0 solved; difficulty Easy 0, Medium 19, Hard 31, Very hard 4; chapters P04 P05 P19 C14 C15 C17 C18 C19 C21 C23 M04 M14 M20 M31 M32"
   },
   {
    "name": "Score-I - Test 24 (11 Dec 2022)",
