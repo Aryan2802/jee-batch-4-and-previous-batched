@@ -51,15 +51,47 @@
 {\small Physics chapter P22. Questions from all converted test papers, grouped by source series. Answers: printed key where it matches the paper, otherwise solved (answer\_src=solved, with working). Exact repeats across papers appear once, with also\_in listing the other copies.}\par\medskip\hrule
 
 \section*{Score-I papers}
-\begin{bankq}[id=SI02-P2-PHY-S2-Q09, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=9, type=numerical, subtopic={Spectrum}, answer={21.70}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, spectrum, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI02-P2-PHY-S2-Q09, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=9, type=numerical, subtopic={Spectrum}, answer={21.70}, answer_src=key, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: modulation percent from voltage extremes | steps: m = (Vmax - Vmin)/(Vmax + Vmin) times 100}]
 If voltage of AM signal varies from 9 mV to 14 mV, then percentage of modulation will be :
 \end{bankq}
-\begin{bankq}[id=SI02-P2-PHY-S2-Q10, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=10, type=numerical, subtopic={Spectrum}, answer={2}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, spectrum, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI02-P2-PHY-S2-Q10, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=10, type=numerical, subtopic={Spectrum}, answer={2}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: minimum amplitude of an AM wave from modulation index | steps: Vmax = Ac(1 + m); Vmin = Ac(1 - m); solve}]
 In amplitude modulation, modulation index is $\dfrac23$ and maximum amplitude of modulated wave is 10 then minimum amplitude of the modulated wave is
+\end{bankq}
+\begin{bankq}[id=SI19-P1-PHY-S2-Q01, source={Score-I - Test 19 (20 Nov 2022)}, paper=1, qno=1, type=numerical, subtopic={Properties}, answer={4.08}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: maximum electric field, a microwave beam from pulse power | steps: intensity = power / area of the parallel beam with radius 6 cm; I = (1/2) eps0 c E0^2; solve E0 in 10^4 V/m | I: collimated beam area from the reflector radius}]
+A pulse source of microwave produces burst of 20 GHz radiation with each burst having a duration 1 ns. A parabolic reflector ($R=6$ cm) is used to produce a parallel beam of radiation as indicated in the diagram. The average output power of the source during each pulse is 25 kW. If microwave travel in air, maximum value of electric field $E$ is $x\times10^{4}$ V/m. Then find the value of $x$.
+\bfig{153.1}{SI19_p1_phy_s2_q01_1.png}
+\end{bankq}
+\begin{bankq}[id=SI26-P1-PHY-S1-Q01, source={Score-I - Test 26 (18 Dec 2022)}, paper=1, qno=1, type=multi, subtopic={Properties}, answer={A,C,D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: intensity peak field and energy density of microwaves from oven power | steps: I = P/A = 1770/0.2 = 8.85 kW/m2; I = (1/2) eps0 c E0^2 so E0^2 from intensity; energy density u = I/c; check each statement | I: average and peak intensity differ by a factor two}]
+A certain microwave oven projects 1.77 kW of microwaves onto a 100 cm by 20 cm area.
+\begin{qoptions}
+\opt{A}{The intensity of microwaves is $8.85\times10^{3}$ W/m$^2$}
+\opt{B}{The peak intensity of microwaves is $8.85\times10^{3}$ W/m$^2$}
+\opt{C}{The square of peak electric field strength in the waves is $6.66\times10^{6}$ N$^2$/c$^2$}
+\opt{D}{The peak value of magnetic energy density $2.95\times10^{-5}$ J/m$^3$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=SI26-P1-PHY-S3-G3-4, source={Score-I - Test 26 (18 Dec 2022)}, questions={3-4}]
+The power radiated by sun is $4.0\times10^{26}$ W. The earth orbits the sun in a nearly circular orbit of radius $1.5\times10^{11}$ m. The earth's axis is tilted by $27^\circ$ relative to the plane of the orbit, so sunlight does not strike perpendicularly. $\left[\cos27^\circ=0.9,\ \pi=\dfrac{22}{7}\right]$
+\bfig{164.6}{SI26_p1_phy_s3_para3_4_1.png}
+\end{bankpassage}
+\begin{bankq}[id=SI26-P1-PHY-S3-Q03, source={Score-I - Test 26 (18 Dec 2022)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={954.54 to 954.55}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: power striking a land patch at the equator from sunlight | steps: intensity at earth distance P/(4 pi r^2) = 1415 W/m2; point Q geometry with tilt angle of the axis; cosine factor; multiply by 0.75}, group=SI26-P1-PHY-S3-G3-4]
+Find the power (in W) that strikes a 0.75 m$^2$ patch of flat land at the equator at point Q ?
+\end{bankq}
+\begin{bankq}[id=SI26-P1-PHY-S3-Q04, source={Score-I - Test 26 (18 Dec 2022)}, paper=1, qno=4, type=numerical, subtopic={Properties}, answer={4.71}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: average energy density of radiation at a point on earth | steps: intensity at the patch with inclination; energy density equals intensity divided by c; average over time; convert to micro joules per cubic metre | I: angle of incidence reduces the effective intensity}, group=SI26-P1-PHY-S3-G3-4]
+Find the average value of total energy density `u' of the radiation incident at point Q on earth in $\mu$Jm$^{-3}$.
+\end{bankq}
+\begin{bankq}[id=SI31-P2-PHY-S1-Q06, source={Score-I - Test 31 (29 Dec 2022)}, paper=2, qno=6, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: population covered by a television tower | steps: range d = sqrt(2 R h) = 35.8 km; area pi d^2; times density 1000 per km^2; choose}]
+A TV tower has a height of 100 m. How much population is covered by TV broadcast, if the average population density around the tower is 1000 km$^{-2}$ (radius of Earth $=6.4\times10^{6}$ m) ?
+\begin{qoptions}
+\opt{A}{$10^3$}
+\opt{B}{$10^6$}
+\opt{C}{$4\times10^6$}
+\opt{D}{$4\times10^9$}
+\end{qoptions}
 \end{bankq}
 
 \section*{Score-II papers}
-\begin{bankq}[id=SII07-P1-PHY-S1-Q10, source={Score-II - Test 07 (10 Jul 2022)}, paper=1, qno=10, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII07-P1-PHY-S1-Q10, source={Score-II - Test 07 (10 Jul 2022)}, paper=1, qno=10, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: increase in tower height to double the coverage | steps: range d = sqrt(2 R h); doubling d needs four times h; increase by 3h}]
 A TV transmission tower at a particular station has a height 160 m. By how much the height of tower be increased to double its coverage range? Given radius of earth = 6400 km.
 \begin{qoptions}
 \opt{A}{320 m}
@@ -68,7 +100,7 @@ A TV transmission tower at a particular station has a height 160 m. By how much 
 \opt{D}{640 m}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII09-P2-PHY-S2-Q09, source={Score-II - Test 09 (12 Feb 2023)}, paper=2, qno=9, type=multi, subtopic={Properties}, answer={A,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII09-P2-PHY-S2-Q09, source={Score-II - Test 09 (12 Feb 2023)}, paper=2, qno=9, type=multi, subtopic={Properties}, answer={A,C,D}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: properties of an electromagnetic wave from its field expression | steps: wave vector from the coefficient of x y z; magnitude gives beta; transversality E.k = 0 fixes b; magnetic field amplitude and Poynting vector}]
 Electric field component of an electromagnetic wave is expressed as $\vec E=\left(3\hat j+b\hat k\right)\times10^{-3}\sin\left[10^7(x+2y+3z-\beta t)\right]$ in SI unit. Taking $c=3\times10^8$ m/s as speed of electromagnetic wave in vacuum. Choose correct options.
 \begin{qoptions}
 \opt{A}{$\beta=3\sqrt{14}\times10^8$}
@@ -77,7 +109,7 @@ Electric field component of an electromagnetic wave is expressed as $\vec E=\lef
 \opt{D}{Amplitude of magnetic field is $1.2\times10^{-11}$ T.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII12-P2-PHY-S2-Q07, source={Score-II - Test 12 (04 Feb 2024)}, paper=2, qno=7, type=multi, subtopic={Properties}, answer={A,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII12-P2-PHY-S2-Q07, source={Score-II - Test 12 (04 Feb 2024)}, paper=2, qno=7, type=multi, subtopic={Properties}, answer={A,C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: properties of an electromagnetic wave in a dielectric | steps: wave number and frequency give the phase speed and refractive index; direction of propagation; magnetic field amplitude; Poynting vector magnitude}]
 The electric field associated with an electromagnetic wave propagating in a dielectric medium is given by $\vec E=30(2\hat x+\hat y)\sin\left[2\pi\left(5\times10^{14}t-\dfrac{10^7}{3}z\right)\right]$ V $m^{-1}$. Which of the following option(s) is(are) correct? [Given: The speed of light in vacuum, $c=3\times10^8\,ms^{-1}$]
 \begin{qoptions}
 \opt{A}{$B_x=-2\times10^{-7}\sin\left[2\pi\left(5\times10^{14}t-\dfrac{10^7}{3}z\right)\right]$ Wb$m^{-2}$}
@@ -86,14 +118,14 @@ The electric field associated with an electromagnetic wave propagating in a diel
 \opt{D}{The refractive index of the medium is 1.5.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII14-P1-PHY-S4-Q08, source={Score-II - Test 14 (06 Feb 2024)}, paper=1, qno=8, type=numerical, subtopic={Properties}, answer={6}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII14-P1-PHY-S4-Q08, source={Score-II - Test 14 (06 Feb 2024)}, paper=1, qno=8, type=numerical, subtopic={Properties}, answer={6}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: photon momentum thrust on a spacecraft from a laser | steps: force from power over c: F = P/c; acceleration a = F/m; time from v = a t; power 0.5 mW gives 6 times 10^17}]
 Light of wavelength $\lambda$ from a small 0.5 mW He-Ne laser source, used in school laboratory, shines from a spacecraft of mass 1000 kg. The time needed for spacecraft to reach a velocity of 1 km/sec. from rest is $P\times10^{17}$ second. Find value P.
 \end{bankq}
-\begin{bankq}[id=SII15-P1-PHY-S2-Q06, source={Score-II - Test 15 (09 Feb 2024)}, paper=1, qno=6, type=numerical, subtopic={Properties}, answer={25}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII15-P1-PHY-S2-Q06, source={Score-II - Test 15 (09 Feb 2024)}, paper=1, qno=6, type=numerical, subtopic={Properties}, answer={25}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: radiation pressure force and energy delivered | steps: F = I A / c; energy incident; asked number}]
 If $2.5\times10^{-6}$ N average force is exerted by a light wave on a non-reflecting surface of 30 cm$^2$ area during 40 minutes of time span, the energy flux of light just before it falls on the surface is \underline{\hspace{2em}} W/cm$^2$.\\
 (Round off to the Nearest Integer) (Assume complete absorption and normal incidence conditions are there)
 \end{bankq}
-\begin{bankq}[id=SII15-P2-PHY-S1-Q02, source={Score-II - Test 15 (09 Feb 2024)}, paper=2, qno=2, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII15-P2-PHY-S1-Q02, source={Score-II - Test 15 (09 Feb 2024)}, paper=2, qno=2, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: force on a solar panel from absorbed and reflected light | steps: radiation pressure for absorbed and reflected parts; I/c; total force}]
 50 W/m$^2$ energy density of sunlight is normally incident on the surface of a solar panel. Some part of incident energy (25\%) is reflected from the surface and the rest is absorbed. The force exerted on 1m$^2$ surface area will be close to ($c = 3\times10^8$ m/s) :-
 \begin{qoptions}
 \opt{A}{$15\times10^{-8}$ N}
@@ -102,7 +134,7 @@ If $2.5\times10^{-6}$ N average force is exerted by a light wave on a non-reflec
 \opt{D}{$20\times10^{-8}$ N}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII17-P1-PHY-S1-Q06, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=6, type=single, subtopic={Properties}, answer={B}, answer_src=solved, working={Need E perpendicular to B with E x B along +z. (B): E=(-2,-3), B=(3,-2): E.B=0, (E x B)\_z=(-2)(-2)-(-3)(3)=13>0. Others fail.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII17-P1-PHY-S1-Q06, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=6, type=single, subtopic={Properties}, answer={B}, answer_src=solved, working={Need E perpendicular to B with E x B along +z. (B): E=(-2,-3), B=(3,-2): E.B=0, (E x B)\_z=(-2)(-2)-(-3)(3)=13>0. Others fail.}, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: directions of E and B for an electromagnetic wave | steps: E cross B points along the propagation direction +z; choose the consistent pair}]
 For a plane electromagnetic wave propagating in the $+Z$ direction, which one of the following combination gives the correct possible direction for $\vec E$ and $\vec B$ field respectively ?
 \begin{qoptions}
 \opt{A}{$\left(\hat i+2\hat j\right)$ and $\left(2\hat i-\hat j\right)$}
@@ -111,7 +143,10 @@ For a plane electromagnetic wave propagating in the $+Z$ direction, which one of
 \opt{D}{$\left(3\hat i+4\hat j\right)$ and $\left(4\hat i-3\hat j\right)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII19-P1-PHY-S1-Q13, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=13, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII18-P1-PHY-S3-Q05, source={Score-II - Test 18 (13 Feb 2024)}, paper=1, qno=5, type=numerical, subtopic={Properties}, answer={2}, answer_src=solved, working={Poynting flux through the lateral surface equals the Joule power $I^2R=4\times0.5=2$ W.}, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: Poynting vector flux through a conductor | steps: flux through the lateral surface equals the Joule heat I^2 R = 2 W}]
+A current I flows along a straight conductor with round cross-section. Find the flux of the Poynting vector across the lateral surface of the conductor's segment with resistance R [in SI units.] Given [I = 2A, R = 0.5$\Omega$]
+\end{bankq}
+\begin{bankq}[id=SII19-P1-PHY-S1-Q13, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=13, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=2, diff_parts={K1 S1 I1 C0 F0}, diff_note={concepts: radiation force on a perfectly absorbing body | steps: force = intensity times area over c; cross sectional area of the body}]
 The radiation force experienced by body exposed to radiation of intensity $I$, assuming surface of body to be perfectly absorbing is :
 \bfig{83.3}{SII19_p1_phy_s1_q13_1.png}
 \begin{qoptions}
@@ -121,7 +156,7 @@ The radiation force experienced by body exposed to radiation of intensity $I$, a
 \opt{D}{$\dfrac{IRH}{c}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII22-P1-PHY-S1-Q09, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=9, type=single, subtopic={Spectrum}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, spectrum | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII22-P1-PHY-S1-Q09, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=9, type=single, subtopic={Spectrum}, answer={A}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: electromagnetic wave speed in a medium | steps: v = c/sqrt(eps_r mu_r) = 3e6 m/s; wavelength = v/f = 3.33e-2 m}]
 A radio wave of frequency 90 MHz (FM) enters a ferrite rod. In ferrite, $\varepsilon_r=10^3$ and $\mu_r=10$, then the velocity and wavelength in ferrite are :-
 \begin{qoptions}
 \opt{A}{$3\times10^6\ ms^{-1}$, $3.33\times10^{-2}$ m}
@@ -130,7 +165,7 @@ A radio wave of frequency 90 MHz (FM) enters a ferrite rod. In ferrite, $\vareps
 \opt{D}{None of the above}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII23-P1-PHY-S1-Q02, source={Score-II - Test 23 (17 Mar 2024)}, paper=1, qno=2, type=multi, subtopic={Properties}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII23-P1-PHY-S1-Q02, source={Score-II - Test 23 (17 Mar 2024)}, paper=1, qno=2, type=multi, subtopic={Properties}, answer={B,C,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: circularly polarised plane wave Poynting vector and power through an inclined plane | steps: amplitude and wave speed give B0 = E0/c; magnetic components from E x B direction; Poynting vector from E0^2/(mu0 c); area vector of the plane with intercepts 1:2:3; power = S dot A; check four statements}]
 The electric field due to a plane electromagnetic wave in air is
 \[\vec E = \left[4\cos(10^7\pi t - kz)\hat\imath + 4\sin(10^7\pi t - kz)\hat\jmath\right]\ V/m\]
 \begin{qoptions}
@@ -140,7 +175,7 @@ The electric field due to a plane electromagnetic wave in air is
 \opt{D}{The power transmitted through 1 $m^2$ of a plane area having intercepts $1:2:3$ on the x-axis, y-axis and z-axis respectively is $\dfrac{4}{105\pi}$ W.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII25-P2-PHY-S1-Q06, source={Score-II - Test 25 (20 Mar 2024)}, paper=2, qno=6, type=multi, subtopic={Properties}, answer={A,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII25-P2-PHY-S1-Q06, source={Score-II - Test 25 (20 Mar 2024)}, paper=2, qno=6, type=multi, subtopic={Properties}, answer={A,C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: statements about Coolidge tube and x rays | steps: cutoff wavelength depends on voltage; characteristic lines depend on target; check each}]
 Which of the following statement(s) is/are CORRECT ?
 \begin{qoptions}
 \opt{A}{If the energy of bombarding electron in the Coolidge tube is increased then the cutoff wavelength decreases while the characteristic wavelength remains unaltered.}
@@ -149,13 +184,13 @@ Which of the following statement(s) is/are CORRECT ?
 \opt{D}{The characteristic wavelength is function of the energy of the bombarding electrons while the cutoff wavelength depends on the characteristic of target metal.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII26-P1-PHY-S4-Q07, source={Score-II - Test 26 (20 Mar 2024)}, paper=1, qno=7, type=numerical, subtopic={Properties}, answer={2}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII26-P1-PHY-S4-Q07, source={Score-II - Test 26 (20 Mar 2024)}, paper=1, qno=7, type=numerical, subtopic={Properties}, answer={2}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: angular frequency of oscillation around a stable equilibrium in a force field | steps: find the zeros of E; stability from the sign of the derivative of the force; stable equilibrium among the positive roots; k_eff = q E0 times derivative; omega = sqrt(k_eff/m) with qE0 = 2m}]
 Electric field in a region of space is given as E = E$_0$\,x(x$-$1)(x$-$2)(x$-$3) N/C along x-axis, where E$_0$ is a positive constant. A positive charge `q' of mass m is in stable equilibrium at some specific position x, where x $>$ 0. If this charge is displaced slightly from equilibrium position to perform periodic motion, the angular frequency in rad/s of periodic motion will be [Given qE$_0$ = 2m]
 \end{bankq}
-\begin{bankq}[id=SII26-P1-PHY-S4-Q09, source={Score-II - Test 26 (20 Mar 2024)}, paper=1, qno=9, type=numerical, subtopic={Properties}, answer={6}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII26-P1-PHY-S4-Q09, source={Score-II - Test 26 (20 Mar 2024)}, paper=1, qno=9, type=numerical, subtopic={Properties}, answer={6}, answer_src=key, difficulty=3, diff_parts={K1 S1 I0 C1 F1}, diff_note={concepts: average Poynting vector of a lamp at a distance | steps: radiated power is 5 percent of 150 W; Poynting vector = power/(4 pi r^2) times 1000}]
 A 150W light bulb emits 5\% of its energy as electro magnetic radiation. The magnitude of average poynting S vector 10 m from the bulb is $\alpha\times10^{-3}$ W/m$^2$. Find $\alpha$. (Round off to nearest integer.)
 \end{bankq}
-\begin{bankq}[id=SII27-P1-PHY-S1-Q11, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=11, type=single, subtopic={Spectrum}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, spectrum | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII27-P1-PHY-S1-Q11, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=11, type=single, subtopic={Spectrum}, answer={C}, answer_src=key, difficulty=2, diff_parts={K1 S1 I1 C0 F0}, diff_note={concepts: temperature order of stars from their spectra | steps: Wien law: hotter star has peak at shorter wavelength; compare blue and orange intensities}]
 On investigation of light from three different stars A, B and C, it was found that in the spectrum of A the intensity of orange colour is maximum, in B the intensity of indigo colour is maximum and in C the intensity of green colour is maximum. From these observations it can be concluded that :-
 \begin{qoptions}
 \opt{A}{the temperature of A is maximum, B is minimum and C is intermediate.}
@@ -164,7 +199,7 @@ On investigation of light from three different stars A, B and C, it was found th
 \opt{D}{the temperature of C is maximum, B is minimum and A is intermediate.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII27-P1-PHY-S1-Q17, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII27-P1-PHY-S1-Q17, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: amplitude of electric field from intensity | steps: I = (1/2) eps0 c E0^2; solve E0}]
 The intensity of light from a source is $\left(\dfrac{500}{\pi}\right)$ W/m$^2$. Find the amplitude of electric field in this wave.
 \begin{qoptions}
 \opt{A}{$\sqrt3\times10^2$ N/C}
@@ -173,7 +208,7 @@ The intensity of light from a source is $\left(\dfrac{500}{\pi}\right)$ W/m$^2$.
 \opt{D}{$2\sqrt3\times10^1$ N/C}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII30-P1-PHY-S1-Q03, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=3, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII30-P1-PHY-S1-Q03, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=3, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: match Maxwell equations with their names | steps: identify Ampere Maxwell, Gauss laws and Faraday law; match}]
 Match List I with List II
 \par\nobreak
 \begin{center}\small
@@ -193,7 +228,21 @@ Chose the correct answer from the options given below
 \opt{D}{A-I, B-II, C-III, D-IV}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII35-P1-PHY-S2-Q10, source={Score-II - Test 35 (04 Feb 2025)}, paper=1, qno=10, type=multi, subtopic={Properties}, answer={A,B}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII32-P1-PHY-S2-Q07, source={Score-II - Test 32 (29 Mar 2024)}, paper=1, qno=7, type=multi, subtopic={Displacement current}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C0 F1}, diff_note={concepts: RC discharge, displacement current and Ampere-Maxwell law | steps: charge decays as Q0 e^(-t/RC); total current through a coaxial ring inside the plates is the displacement current and outside it is the conduction current of the wire; total current is the same at any radius; B from Ampere law with enclosed current; check the four options}]
+As shown in figure a parallel plate capacitor is composed of two circular plates with a radius of r. The gap d between the two plates is very small. The two plates are charged $+Q_0$ and $-Q_0$ respectively. At t = 0, use a thin straight wire with resistance R to connect the centers of the plates. Assume that the resistance R is very large, so that the electric field between the two plates remains uniform at any time, and the inductance can be ignored. $\left(\dfrac{\epsilon_0\pi r^2}d=C\right)$
+
+\begin{center}
+\bfigi{184.6}{SII32_p1phy_q7_capacitor.png}
+\end{center}
+
+\begin{qoptions}
+\opt{A}{Charge on capacitor as function of time is Q$_0$e$^{-t/RC}$.}
+\opt{B}{The net current passing through a ring of radius $\rho\ (\rho<r)$ coaxial with the capacitor as a function of time is $\dfrac{Q_0}{RC}e^{-t/RC}$.}
+\opt{C}{The net current passing through a ring of radius $\rho\ (\rho>r)$ coaxial with the capacitor as a function of time is $\dfrac{Q_0}{RC}e^{-t/RC}$.}
+\opt{D}{The magnetic field at a distance $\rho\ (\rho<r)$ from the axis of the capacitor at any time t is $\dfrac{\mu_0}{2\pi\rho}\left(1-\dfrac{\rho^2}{r^2}\right)\dfrac{Q_0}{RC}e^{-t/RC}$.}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SII35-P1-PHY-S2-Q10, source={Score-II - Test 35 (04 Feb 2025)}, paper=1, qno=10, type=multi, subtopic={Properties}, answer={A,B}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: photoelectron emission rate from a distant lamp | steps: power converted to light 10 W; photon energy 12.4 eV; photon flux at 2 m on the plate area; one in 10^6 ejects; photoelectron current and statements on energy}]
 A small metal plate of area $2\ \text{cm}^2$ is placed at a distance of 2 m from a monochromatic light source of $\lambda=1000$ \AA{} and power rating of 100 W and light energy conversion efficiency of 10\%, emitting light uniformly in all directions. Light falls normally on the plate (work function, $\phi=10$eV). Assuming one out of $10^6$ photons is able to eject a photoelectron, identify correct statements
 \begin{qoptions}
 \opt{A}{KE max of photoelectron emitted is 2.4 eV}
@@ -202,7 +251,7 @@ A small metal plate of area $2\ \text{cm}^2$ is placed at a distance of 2 m from
 \opt{D}{KE max of photoelectron emitted is 3.2 eV}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII37-P1-PHY-S4-Q07, source={Score-II - Test 37 (10 Feb 2025)}, paper=1, qno=7, type=numerical, subtopic={Displacement current}, answer={1}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, displacement current, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII37-P1-PHY-S4-Q07, source={Score-II - Test 37 (10 Feb 2025)}, paper=1, qno=7, type=numerical, subtopic={Displacement current}, answer={1}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: displacement current and flux through a smaller area | steps: displacement current equals conduction current i so epsilon0 dPhi/dt over the full plate equals i; through radius R/2 the flux rate is one quarter of that; read i at 100 microseconds from the graph; compare with the given form}]
 A circular parallel plate capacitor having plate radius R is charged by means of a cell at time t = 0. The variation of the current through the connecting wires with time is shown in figure. Consider a plane circular area of radius R/2 parallel to the plates and situated symmetrically between them.
 
 \begin{center}
@@ -211,7 +260,7 @@ A circular parallel plate capacitor having plate radius R is charged by means of
 
 Assuming $i_0$ = 5A, the time rate change of electric flux through the area at t = 100 $\mu$s is $\dfrac n2\times10^{11}\dfrac{\text{N-m}^2}{\text{C-s}}$, then the integer closest to n = \_\_\_\_.
 \end{bankq}
-\begin{bankq}[id=SII40-P2-PHY-S2-Q07, source={Score-II - Test 40 (16 Mar 2025)}, paper=2, qno=7, type=multi, subtopic={Properties}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII40-P2-PHY-S2-Q07, source={Score-II - Test 40 (16 Mar 2025)}, paper=2, qno=7, type=multi, subtopic={Properties}, answer={B,C,D}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: properties of an electromagnetic wave in a dielectric | steps: wave number and frequency give the phase speed and refractive index; direction of propagation; magnetic field amplitude; Poynting vector magnitude}]
 The magnetic field associated with an electromagnetic wave propagating in a dielectric medium is given by $\vec B=10^{-7}\left(\hat x+\hat y\right)\sin\left[2\pi\left(5\times10^{14}t-\dfrac{10^7}3z\right)\right]$T. Which of the following option(s) is(are) correct? [Given: The speed of light in vacuum, $c=3\times10^8\ ms^{-1}$]
 \begin{qoptions}
 \opt{A}{$E_x=-15\sin\left[2\pi\left(5\times10^{14}t-\dfrac{10^7}3z\right)\right]$ v/m}
@@ -220,7 +269,7 @@ The magnetic field associated with an electromagnetic wave propagating in a diel
 \opt{D}{The refractive index of the medium is 2.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII41-P1-PHY-S1-Q07, source={Score-II - Test 41 (19 Mar 2025)}, paper=1, qno=7, type=single, subtopic={Displacement current}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, displacement current | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII41-P1-PHY-S1-Q07, source={Score-II - Test 41 (19 Mar 2025)}, paper=1, qno=7, type=single, subtopic={Displacement current}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: magnetic field between charging capacitor plates | steps: displacement current I_d = I; Ampere Maxwell law at radius r; compute B}]
 A parallel plate capacitor (with circular plates of radius $r$ and plate separation $d$) is being charged. Magnitude of electric field in between the plates of capacitor at any time $t$ is $E$. Magnitude of poynting vector at outer edge of capacitor plate just inside the plate is (where $\mu_0$ and $\in_0$ respectively represent magnetic permeability and electrical permittivity of free space)
 \begin{qoptions}
 \opt{A}{$\dfrac12\in_0rE\left(\dfrac{dE}{dt}\right)$}
@@ -229,7 +278,7 @@ A parallel plate capacitor (with circular plates of radius $r$ and plate separat
 \opt{D}{$\dfrac12\dfrac{\mu_0}{\in_0}rE\left(\dfrac{dE}{dt}\right)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII45-P1-PHY-S1-Q06, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=6, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII45-P1-PHY-S1-Q06, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=6, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: electric field and propagation of a plane EM wave | steps: read direction of travel from the argument; amplitude E = cB; wavelength from the wave number; the asked quantity}]
 The magnetic field of a plane electromagnetic wave is given by $\vec B=3\times10^{-8}\sin[200\pi\,(y+ct)]\hat i$ T, where $c=3\times10^8$ m/s. The corresponding electric field is :-
 \begin{qoptions}
 \opt{A}{$\vec E=9\sin[200\pi\,(y+ct)]\hat k$ V/m}
@@ -238,7 +287,7 @@ The magnetic field of a plane electromagnetic wave is given by $\vec B=3\times10
 \opt{D}{$\vec E=-9\sin[200\pi\,(y+ct)]\hat k$ V/m}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII45-P1-PHY-S1-Q14, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=14, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII45-P1-PHY-S1-Q14, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=14, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: polarised wave with no partial reflection at the Brewster angle | steps: tan i = n = sqrt3 gives angle 60 degrees; refracted angle 30; evaluate}]
 A plane polarised electromagnetic wave is incident on a medium of refractive index $\sqrt3$ from air. There is no partially reflected wave. So the angle of refraction of electromagnetic wave is :-
 \begin{qoptions}
 \opt{A}{45$^\text{o}$}
@@ -276,24 +325,24 @@ Mark the correct statement
 \opt{D}{Energy density of electromagnetic wave is given by $\dfrac{1}{4}\varepsilon_0 E_0^2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA08-P1-PHY-S3-Q03, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={5}, answer_src=key, difficulty=9, diff_parts={K3 S2 I2 C2 F1}, diff_note={concepts: radiation pressure on a sphere against a spring, properties, force of absorbed light on a sphere | steps: force of absorbed light on a sphere; resolve; equilibrium}]
+\begin{bankq}[id=SA08-P1-PHY-S3-Q03, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={5}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: sphere on a smooth surface connected to a spring | steps: equation of motion; torque and friction absent; SHM; frequency}]
 A sphere of radius R is kept on smooth horizontal surface. It is connected with ideal spring of constant k as shown in figure. A parallel light beam having intensity I is falling at an angle $\theta$ = 30$^\circ$ with vertical on the sphere, then find the compression in the spring (in SI unit) in equilibrium position, assuming that the sphere absorbs 100\% of the light incident on it. [Take $\dfrac{\text{IR}^2}{\text{KC}}$ = $\dfrac{10}{\pi}$ SI unit, where C is speed of light in vacuum]\par
 \bfig{122.4}{SA08_p1_phy_s3_q03_1.png}
 \end{bankq}
-\begin{bankq}[id=SA13-P1-PHY-S2-Q03, source={Score Advanced - Test 13 (13 May 2023)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={3}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: radiation pressure measured with a torsion balance, properties, force from the intensity on a vane | steps: force from the intensity on a vane; torque against the fibre}]
+\begin{bankq}[id=SA13-P1-PHY-S2-Q03, source={Score Advanced - Test 13 (13 May 2023)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={3}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: torsion balance and radiation pressure | steps: force from radiation pressure; torque; angle of deflection; compute}]
 The torsion balance shown in figure is used in an experiment to measure radiation pressure. The torque constant (elastic restoring torque) of the suspension fibre is 1 $\times$ 10$^{-11}$ N-m/deg, and the length of the horizontal rod is 6 cm. The beam from a 3 mW He-Ne laser is incident on the black disc and the mirror disc is completely shielded. The angle between the equilibrium positions of the horizontal bar when the beam is switched from ``off'' to ``on'' is $\alpha$ $\times$ 10$^{-2}$ degree. The value of $\alpha$ is :-\par
 \bfig{131.3}{SA13_p1_phy_s2_q03_1.png}
 \end{bankq}
 \begin{bankpassage}[id=SA13-P2-PHY-S4-G1-2, source={Score Advanced - Test 13 (13 May 2023)}, questions={1-2}]
 A dish antenna with diameter 20m receives (at normal incidence) a radio signal from a distance source. The radio signal is a continuous sinusoidal wave with amplitude E$_0$ = 0.2 $\mu$V/m. Assume that the antenna is perfectly absorbing.\par
 \end{bankpassage}
-\begin{bankq}[id=SA13-P2-PHY-S4-Q01, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=1, type=numerical, subtopic={Properties}, answer={1.67}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: power received by a dish antenna, properties, intensity E0\^{}2/(2 mu0 c) x area | steps: intensity E0\^{}2/(2 mu0 c) x area}, group=SA13-P2-PHY-S4-G1-2]
+\begin{bankq}[id=SA13-P2-PHY-S4-Q01, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=1, type=numerical, subtopic={Properties}, answer={1.67}, answer_src=key, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: power received by a dish antenna | steps: intensity of the wave; area of the dish}, group=SA13-P2-PHY-S4-G1-2]
 The power received by the antenna is x $\times$ 10$^{-14}$ W. The value of x is :-\par
 \end{bankq}
-\begin{bankq}[id=SA13-P2-PHY-S4-Q02, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=2, type=numerical, subtopic={Properties}, answer={5.56}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: force exerted by the radio waves, properties, force = power/c | steps: force = power/c}, group=SA13-P2-PHY-S4-G1-2]
+\begin{bankq}[id=SA13-P2-PHY-S4-Q02, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=2, type=numerical, subtopic={Properties}, answer={5.56}, answer_src=key, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: radiation force on a perfectly absorbing antenna | steps: momentum flux = I/c; force on the dish}, group=SA13-P2-PHY-S4-G1-2]
 The force exerted by the radio waves on the antenna is x $\times$ 10$^{-22}$ N. The value of x is :-\par
 \end{bankq}
-\begin{bankq}[id=SA17-P2-PHY-S1-Q03, source={Score Advanced - Test 17 (25 May 2023)}, paper=2, qno=3, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: incorrect statements on a plane electromagnetic wave, properties | steps: E B and k are mutually perpendicular}, also_in={Score Advanced - Test 35 (15 May 2024) P2 Q3}]
+\begin{bankq}[id=SA17-P2-PHY-S1-Q03, source={Score Advanced - Test 17 (25 May 2023)}, paper=2, qno=3, type=single, subtopic={Properties}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={concepts: properties  an electromagnetic wave along z | steps: magnetic field direction from E x B; E/B = c; Poynting vector direction; polarisation; check incorrect statements}, also_in={Score Advanced - Test 35 (15 May 2024) P2 Q3}]
 An electromagnetic wave travelling along $z$-axis is given as: $\vec E=\vec E_0\cos(kz-\omega t)$. Choose the \textbf{INCORRECT} options from the following;
 \begin{qoptions}
 \opt{A}{The associated magnetic field is given as $\vec B=\frac1c\hat k\times\vec E=\frac1\omega\left(\hat k\times\vec E\right)$}
@@ -302,10 +351,10 @@ An electromagnetic wave travelling along $z$-axis is given as: $\vec E=\vec E_0\
 \opt{D}{$\hat k\times\vec E=0,\ \hat k\times\vec B=0$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA18-P1-PHY-S3-Q05, source={Score Advanced - Test 18 (27 May 2023)}, paper=1, qno=5, type=numerical, subtopic={Displacement current}, answer={1.85}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: magnetic field outside a region of changing electric field, displacement current, Maxwell Ampere law with the displacement current | steps: Maxwell Ampere law with the displacement current}]
+\begin{bankq}[id=SA18-P1-PHY-S3-Q05, source={Score Advanced - Test 18 (27 May 2023)}, paper=1, qno=5, type=numerical, subtopic={Displacement current}, answer={1.84 to 1.86}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: magnetic field induced by a changing electric field  a circular area | steps: displacement current density eps0 dE/dt; Ampere-Maxwell law gives B at radius r; B = mu0 eps0 r/2 dE/dt inside; magnitude evaluation}]
 An electric field of 300 V/m is confined to a circular area 10 cm in diameter. If the field is increasing at the rate of 20 V/m-s and if the magnitude of magnetic field at a point 15 cm from the centre of the circle is $B\times10^{-18}$ T, find value of $B$.
 \end{bankq}
-\begin{bankq}[id=SA23-P1-PHY-S1-Q04, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=1, qno=4, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=6, diff_parts={K3 S1 I2 C1 F0}, diff_note={concepts: reflected energy fraction at normal incidence, properties, R=((n-1)/(n+1))\^{}2 | steps: R=((n-1)/(n+1))\^{}2}]
+\begin{bankq}[id=SA23-P1-PHY-S1-Q04, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=1, qno=4, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: fraction of reflected energy at normal incidence | steps: R = ((n-1)/(n+1))^2 for n = 2 gives 1/9; transmitted 8/9; intensity after two interfaces}]
 At normal incidence, a beam of light propagating in vacuum reflects off an interface with a medium of refractive index n = 2.0. The fraction of energy reflected R is given by $R=\left(\dfrac{n-1}{n+1}\right)^2$. If the percentage error in the value of n is 1\%, the percentage error in the estimation of R is :-
 \begin{qoptions}
 \opt{A}{6\%}
@@ -314,7 +363,7 @@ At normal incidence, a beam of light propagating in vacuum reflects off an inter
 \opt{D}{$\dfrac83$\%}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA23-P2-PHY-S1-Q06, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=2, qno=6, type=multi, subtopic={Displacement current}, answer={A,B,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: capacitor in an RC circuit and magnetic field between the plates, displacement current, displacement current equals conduction current | steps: displacement current equals conduction current; Ampere law}]
+\begin{bankq}[id=SA23-P2-PHY-S1-Q06, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=2, qno=6, type=multi, subtopic={Displacement current}, answer={A,B,C}, answer_src=key, difficulty=8, diff_parts={K1 S3 I2 C2 F1}, diff_note={concepts: magnetic field between plates  a charging capacitor with displacement current | steps: current in the circuit I(t); displacement current equal to conduction current; field at radius r inside the plates mu0 I r/(2 pi b^2); between the plates; time dependence; check statements | I: displacement current density equals the conduction current density | C: time dependent current from the RC circuit}]
 A circuit consists of two resistors $R_1$, $R_2$ and capacitor C as shown in figure. The capacitor consists of two circular plates with a radius b and separation d (b $\gg$ d). The key K is kept closed for a very long time. At t = 0, the key K is opened :- ($C=\dfrac{\epsilon_0\pi b^2}{d}$)\par
 \bfig{108.3}{SA23_p2_phy_s1_q06_1.png}
 \begin{qoptions}
@@ -324,7 +373,7 @@ A circuit consists of two resistors $R_1$, $R_2$ and capacitor C as shown in fig
 \opt{D}{The magnitude of Poynting vector for r $<$ b is $S=\dfrac{R_2V_0^2r}{2\pi db^2(R_1+R_2)}e^{-\frac2{R_1C}t}$.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA25-P2-PHY-S1-Q03, source={Score Advanced - Test 25 (21 Apr 2024)}, paper=2, qno=3, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: power of scattered light measured under clouds, properties, intensity transmitted and scattered | steps: intensity transmitted and scattered}, also_in={Score Advanced - Test 26 (21 Apr 2024) P2 Q3}]
+\begin{bankq}[id=SA25-P2-PHY-S1-Q03, source={Score Advanced - Test 25 (21 Apr 2024)}, paper=2, qno=3, type=single, subtopic={Properties}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: attenuation of light through clouds measured by a light meter | steps: intensity decreases exponentially with thickness I = I0 e^{-mu x}; two measurements fix mu; extrapolate to different cloud thickness or angle; compute}, also_in={Score Advanced - Test 26 (21 Apr 2024) P2 Q3}]
 In cloudy weather, measurements are taken with a light meter pointed towards the sky. We find that, due to the scattering of light by the clouds, the incident power per unit area is approximately $I_0$, regardless of the orientation of the light meter. On top of an opaque thin walled spherical shell of radius R, there is a small hole of radius r (much larger than the wavelength of visible light). The inner side of the wall of the spherical shell is coated with soot. The intensity of illumination on the inner surface of the shell, when it is placed in the open air is :-
 \begin{qoptions}
 \opt{A}{$I_0\dfrac{r^2}{R^2}$}
@@ -338,7 +387,7 @@ A large, flat sheet carries a uniformly distributed electric current with curren
 $\vec{\mathrm B}$ = $\dfrac12\mu_0\mathrm J_{\max}$ [cos(kx $-$ $\omega$t)]$\hat{\mathrm k}$\par
 \bfig{119.3}{SA30_p2_phy_s2_para8_9_1.png}
 \end{bankpassage}
-\begin{bankq}[id=SA30-P2-PHY-S2-Q08, source={Score Advanced - Test 30 (04 May 2024)}, paper=2, qno=8, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, group=SA30-P2-PHY-S2-G8-9]
+\begin{bankq}[id=SA30-P2-PHY-S2-Q08, source={Score Advanced - Test 30 (04 May 2024)}, paper=2, qno=8, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={concepts: electric field  a wave emitted by a sinusoidal current sheet | steps: current sheet J = J_max cos(omega t): radiated wave to the right has magnetic field mu0 J/2 and E = c B; plane wave amplitudes; direction; phase kx - omega t; check options}, group=SA30-P2-PHY-S2-G8-9]
 The electric field of wave to the right of the sheet is :-
 \begin{qoptions}
 \opt{A}{$\dfrac12\mu_0\mathrm{cJ}_{\max}\cos(\mathrm{kx}-\omega\mathrm t)\hat{\mathrm j}$}
@@ -347,7 +396,7 @@ The electric field of wave to the right of the sheet is :-
 \opt{D}{$-\dfrac12\dfrac{\mu_0\mathrm J_{\max}}{\mathrm c}\cos(\mathrm{kx}-\omega\mathrm t)\hat{\mathrm k}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA30-P2-PHY-S2-Q09, source={Score Advanced - Test 30 (04 May 2024)}, paper=2, qno=9, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, group=SA30-P2-PHY-S2-G8-9]
+\begin{bankq}[id=SA30-P2-PHY-S2-Q09, source={Score Advanced - Test 30 (04 May 2024)}, paper=2, qno=9, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: maximum current density from the intensity  radiation | steps: I = (1/2) c eps0 E0^2 with E0 = mu0 c J_max/2; solve for J_max given 570 W/m2 each side; evaluate}, group=SA30-P2-PHY-S2-G8-9]
 If the intensity of radiation emitted by the sheet in each direction is 570 W/m$^2$, the maximum value of sinusoidal current density is :-
 \begin{qoptions}
 \opt{A}{1.28 A/m}
@@ -361,7 +410,7 @@ A large, flat sheet carries a uniformly distributed electric current with curren
 $\vec{\mathrm B}$ = $\dfrac12\mu_0\mathrm J_{\max}$ [cos(kx $-$ $\omega$t)]$\hat{\mathrm k}$\par
 \bfig{121.5}{SA31_p2_phy_s2_para8_9_1.png}
 \end{bankpassage}
-\begin{bankq}[id=SA31-P2-PHY-S2-Q08, source={Score Advanced - Test 31 (04 May 2024)}, paper=2, qno=8, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, group=SA31-P2-PHY-S2-G8-9]
+\begin{bankq}[id=SA31-P2-PHY-S2-Q08, source={Score Advanced - Test 31 (04 May 2024)}, paper=2, qno=8, type=single, subtopic={Properties}, answer={A}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={concepts: electric field  a wave emitted by a sinusoidal current sheet | steps: current sheet J = J_max cos(omega t): radiated wave to the right has magnetic field mu0 J/2 and E = c B; plane wave amplitudes; direction; phase kx - omega t; check options}, group=SA31-P2-PHY-S2-G8-9]
 The electric field of wave to the right of the sheet is :-
 \begin{qoptions}
 \opt{A}{$\dfrac12\mu_0\mathrm{cJ}_{\max}\cos(\mathrm{kx}-\omega\mathrm t)\hat{\mathrm j}$}
@@ -370,7 +419,7 @@ The electric field of wave to the right of the sheet is :-
 \opt{D}{$-\dfrac12\dfrac{\mu_0\mathrm J_{\max}}{\mathrm c}\cos(\mathrm{kx}-\omega\mathrm t)\hat{\mathrm k}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA31-P2-PHY-S2-Q09, source={Score Advanced - Test 31 (04 May 2024)}, paper=2, qno=9, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, group=SA31-P2-PHY-S2-G8-9]
+\begin{bankq}[id=SA31-P2-PHY-S2-Q09, source={Score Advanced - Test 31 (04 May 2024)}, paper=2, qno=9, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: maximum current density from the intensity  radiation | steps: I = (1/2) c eps0 E0^2 with E0 = mu0 c J_max/2; solve for J_max given 570 W/m2 each side; evaluate}, group=SA31-P2-PHY-S2-G8-9]
 If the intensity of radiation emitted by the sheet in each direction is 570 W/m$^2$, the maximum value of sinusoidal current density is :-
 \begin{qoptions}
 \opt{A}{1.28 A/m}
@@ -379,7 +428,7 @@ If the intensity of radiation emitted by the sheet in each direction is 570 W/m$
 \opt{D}{4.92 A/m}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA33-P1-PHY-S1-Q03, source={Score Advanced - Test 33 (12 May 2024)}, paper=1, qno=3, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, also_in={Score Advanced - Test 37 (19 May 2024) P1 Q3}]
+\begin{bankq}[id=SA33-P1-PHY-S1-Q03, source={Score Advanced - Test 33 (12 May 2024)}, paper=1, qno=3, type=single, subtopic={Properties}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: EM wave entering a dielectric, relative permittivity 4 | steps: frequency unchanged across media; refractive index n = sqrt(4) = 2; wavelength = lambda0/n halves; choose option}, also_in={Score Advanced - Test 37 (19 May 2024) P1 Q3}]
 An electromagnetic wave of frequency f = 3.0 MHz passes from vacuum into a dielectric medium with permittivity e = 4.0. Then :-
 \begin{qoptions}
 \opt{A}{wavelength is doubled and the frequency remains unchanged}
@@ -397,13 +446,13 @@ Violet & Blue & Green & Yellow & Orange & Red \\ \hline
 10 & 6 & 3 & 2.5 & 2 & 1 \\ \hline
 \end{tabular}}\par
 \end{bankpassage}
-\begin{bankq}[id=SA39-P1-PHY-S3-Q03, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=5, diff_parts={K2 S1 I1 C1 F1}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, group=SA39-P1-PHY-S3-G3-4]
+\begin{bankq}[id=SA39-P1-PHY-S3-Q03, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=3, type=numerical, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: wavelength, yellow light from the spectrum or photon energy | steps: photon energy E = hc/lambda with hc = 12400 eV A; yellow light about 5900 A so alpha ~ 5.9; round to the asked integer}, group=SA39-P1-PHY-S3-G3-4]
 Wavelength of yellow light will be approximately $\alpha$ $\times$ 10$^{-7}$ m. Write $\alpha$.
 \end{bankq}
-\begin{bankq}[id=SA39-P1-PHY-S3-Q04, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=4, type=numerical, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=5, diff_parts={K2 S1 I1 C1 F1}, diff_note={concepts: standard problem in this chapter, photoelectric effect | steps: apply the relevant results; compute}, group=SA39-P1-PHY-S3-G3-4]
+\begin{bankq}[id=SA39-P1-PHY-S3-Q04, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=4, type=numerical, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: ratio, scattering of threshold wavelength to that of violet light | steps: threshold wavelength lambda = 12400/6.2 = 2000 A; Rayleigh scattering proportional to 1/lambda^4; ratio to violet of about 4000 A is (4000/2000)^4 = 16; eta | I: Rayleigh scattering varies as inverse fourth power of wavelength}, group=SA39-P1-PHY-S3-G3-4]
 Scattering of wavelength corresponding to threshold wavelength of photoelectric setup of work function 6.2 eV will be nearly $\eta$ times that violet colour. The value of $\eta$ is (Give hC = 12400 eV \AA)
 \end{bankq}
-\begin{bankq}[id=SA39-P2-PHY-S1-Q01, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=1, type=single, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA39-P2-PHY-S1-Q01, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=1, type=single, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=6, diff_parts={K2 S3 I1 C1 F0}, diff_note={concepts: standing wave from two counter propagating waves, phase difference | steps: sum of cos(kz - wt) and cos(kz + wt + phi) = 2 cos(kz + phi/2) cos(wt + phi/2); nodes and antinodes depend on phi; phi = pi/2 shifts nodes; magnetic field antinodes where electric field has nodes; check}]
 Two plane electromagnetic waves with the same amplitude E$_0$ and frequency $\omega$ travel in opposite directions along the z-axis, creating a standing wave. The electric field vectors of these waves are given by :\par
 $\vec{\mathrm E}_1$(z, t) = E$_0$ cos(kz $-$ $\omega$t)$\hat{\mathrm i}$, $\vec{\mathrm E}_2$(z, t) = E$_0$ cos(kz + $\omega$t + $\phi$)$\hat{\mathrm i}$\par
 The superposition of these two waves forms a standing wave. Select the correct statements.
@@ -417,7 +466,7 @@ The superposition of these two waves forms a standing wave. Select the correct s
 \begin{bankpassage}[id=SA39-P2-PHY-S2-G9-10, source={Score Advanced - Test 39 (20 Apr 2025)}, questions={9-10}]
 Consider a one-dimensional standing electromagnetic wave in the form of E(x) = A sin(k$_\mathrm x$x) along the x-direction confined within the space between x = 0 and x = a. The wave must vanish at these two end points.
 \end{bankpassage}
-\begin{bankq}[id=SA39-P2-PHY-S2-Q09, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=9, type=single, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, group=SA39-P2-PHY-S2-G9-10]
+\begin{bankq}[id=SA39-P2-PHY-S2-Q09, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=9, type=single, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: allowed wave numbers for a standing electromagnetic wave between plates | steps: boundary condition E = 0 at x = 0 and x = a for E ~ sin(k_x x): k_x a = n pi so k_x = n pi / a}, group=SA39-P2-PHY-S2-G9-10]
 Find the allowed values of k$_\mathrm x$, (n = 1, 2, 3\ldots\ldots)
 \begin{qoptions}
 \opt{A}{k$_\mathrm x$ = $\dfrac{\mathrm n\pi}{\mathrm a}$}
@@ -426,7 +475,7 @@ Find the allowed values of k$_\mathrm x$, (n = 1, 2, 3\ldots\ldots)
 \opt{D}{k$_\mathrm x$ = $\dfrac{4\mathrm n\pi}{\mathrm a}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA39-P2-PHY-S2-Q10, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=10, type=single, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, properties | steps: apply the relevant results; compute}, group=SA39-P2-PHY-S2-G9-10]
+\begin{bankq}[id=SA39-P2-PHY-S2-Q10, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=10, type=single, subtopic={Properties}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: allowed k_y for a wave on a thin cylinder, periodic coordinate y | steps: y is periodic with period 2 pi b so cos(k_y y) must repeat: k_y = n/b; combined with dispersion omega^2 = c^2 (k_x^2 + k_y^2); allowed values}, group=SA39-P2-PHY-S2-G9-10]
 The String Theory predicts that our space is more than three-dimension, and the additional hidden dimensions are folded up like the dimension y on the surface of a thin cylinder shown in the figure. Suppose the radius of the cylinder is b ($<<$ a), and the electromagnetic wave on the surface now takes the form E(x,y) = A sin(k$_\mathrm x$x)cos(k$_\mathrm y$y), where y is the coordinate of the folded space around the cylinder. Find the allowed values of k$_\mathrm y$. (m = 1, 2, 3\ldots\ldots..)\par
 \bfig{79.9}{SA39_p2_phy_s2_q10_1.png}
 \begin{qoptions}
@@ -436,7 +485,7 @@ The String Theory predicts that our space is more than three-dimension, and the 
 \opt{D}{k$_\mathrm y$ = $\dfrac{2\mathrm m}{\pi\mathrm b}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA40-P2-PHY-S1-Q02, source={Score Advanced - Test 40 (27 Apr 2025)}, paper=2, qno=2, type=multi, subtopic={Properties}, answer={A,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, properties, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA40-P2-PHY-S1-Q02, source={Score Advanced - Test 40 (27 Apr 2025)}, paper=2, qno=2, type=multi, subtopic={Properties}, answer={A,D}, answer_src=key, difficulty=8, diff_parts={K2 S3 I2 C1 F1}, diff_note={concepts: plane EM wave striking the paper: direction of fields, radiation pressure | steps: B is along -y with magnitude 4e-8 T; E = c B = 12 V/m perpendicular to B and to the propagation direction -z: E along x direction by right hand rule; intensity (1/2) c B^2/mu0 or c B^2/mu0 if peak; radiation force on the paper; check | I: direction of E from the direction of propagation and B}]
 A plane electromagnetic wave of the radiation field from a distant wire antenna travels toward the plane of the paper (which is in the -z direction). At time t = 0 s, the wave strikes the paper at normal incidence. The magnetic field vector at point O in the figure points in the -y direction and has a magnitude of 4.0 $\times$ 10$^{-8}$ T at that moment. This magnitude is maximum. The frequency of the wave is 1.0 $\times$ 10$^{16}$ Hz.\par
 \bfig{51.0}{SA40_p2_phy_s1_q02_1.png}
 \begin{qoptions}

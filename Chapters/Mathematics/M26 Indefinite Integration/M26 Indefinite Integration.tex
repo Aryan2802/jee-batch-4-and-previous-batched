@@ -51,7 +51,7 @@
 {\small Mathematics chapter M26. Questions from all converted test papers, grouped by source series. Answers: printed key where it matches the paper, otherwise solved (answer\_src=solved, with working). Exact repeats across papers appear once, with also\_in listing the other copies.}\par\medskip\hrule
 
 \section*{Score-I papers}
-\begin{bankq}[id=SI06-P1-MATH-S1-Q02, source={Score-I - Test 06 (28 Jan 2022)}, paper=1, qno=2, type=single, subtopic={By parts}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, by parts | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI06-P1-MATH-S1-Q02, source={Score-I - Test 06 (28 Jan 2022)}, paper=1, qno=2, type=single, subtopic={By parts}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integration by parts for second derivative product | steps: integral of u v'' by parts: u v' - integral u' v'; again by parts; w = integral of v u''}]
 If $\displaystyle\int u\dfrac{d^2v}{dx^2}dx=u\dfrac{dv}{dx}-v\dfrac{du}{dx}+w$ then w is equal to :
 \begin{qoptions}
 \opt{A}{$\displaystyle\int v\dfrac{d^2u}{dx^2}dx$}
@@ -60,7 +60,7 @@ If $\displaystyle\int u\dfrac{d^2v}{dx^2}dx=u\dfrac{dv}{dx}-v\dfrac{du}{dx}+w$ t
 \opt{D}{$\displaystyle\int u\left(\dfrac{dv}{dx}\right)^2dx$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SI07-P1-MATH-S1-Q01, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=1, type=multi, subtopic={Substitution}, answer={B,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI07-P1-MATH-S1-Q01, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=1, type=multi, subtopic={Substitution}, answer={B,C}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integral, a combination of two exponential rational functions | steps: rewrite f and g with common denominator by substitution t = e^x; f - 2g combine into a derivative of a function; h(x) as an inverse tangent; use limit to fix the constant; evaluate h(0); read a b c}]
 If $e^xf(x)=2(f(x))^2-3x$ and $g(x)=\left(\dfrac{e^x\left(2e^{2x}-8e^xf(x)+f(x)\right)+3}{\left(e^x-4f(x)\right)\left(e^{2x}-f(x)\right)^2}\right)$ where $f(x)>0\ \forall\ x\in\mathbb{R}$, then which of the following is/are true ? (Where c is constant of integration)
 \begin{qoptions}
 \opt{A}{$\displaystyle\int g(x)\,dx=\dfrac{-1}{e^x-f(x)}+c$}
@@ -69,7 +69,7 @@ If $e^xf(x)=2(f(x))^2-3x$ and $g(x)=\left(\dfrac{e^x\left(2e^{2x}-8e^xf(x)+f(x)\
 \opt{D}{$\displaystyle\int_0^1 g(x)\,dx=2\left(\dfrac{2}{e+\sqrt{e^2+24-4e^2}}+2\right)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SI07-P1-MATH-S1-Q04, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=4, type=multi, subtopic={By parts}, answer={A,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI07-P1-MATH-S1-Q04, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=4, type=multi, subtopic={By parts}, answer={A,C}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integral by substitution with root, cosine | steps: substitute t = sqrt(cos x); integrand reduces to exponential times t; integrate; apply f(0) = -2e; check}]
 Let $\displaystyle\int\sqrt{\tan x}\,e^{\sqrt{\cos x}}\sqrt{\sin x}\,dx=f(x)+C$ where $f(0)=-2e$ (where C is constant of integration), then -
 \begin{qoptions}
 \opt{A}{$f\left(\dfrac\pi4\right)=-2e^{\frac{1}{2^{1/4}}}$}
@@ -78,17 +78,42 @@ Let $\displaystyle\int\sqrt{\tan x}\,e^{\sqrt{\cos x}}\sqrt{\sin x}\,dx=f(x)+C$ 
 \opt{D}{$f(2\pi)=-2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SI07-P1-MATH-S2-Q01, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=1, type=numerical, subtopic={Partial fractions}, answer={10.00}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, partial fractions, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI07-P1-MATH-S2-Q01, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=1, type=numerical, subtopic={Partial fractions}, answer={10.00}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integral of rational function in partial fractions, a limit | steps: split into x/(x^2+1) type partial fractions; find a and b; evaluate limit using them}]
 If $\displaystyle\int\dfrac{x^4+1}{x\left(x^2+1\right)^2}dx=a\ell n|x|+\dfrac{b}{1+x^2}+C$, then $\displaystyle\lim_{x\to0}\left(\dfrac{a\sin10x+b\cos x-1}{x}\right)$ is equal to
 
 (Where C is integration constant, a, b $\in$ R)
 \end{bankq}
-\begin{bankq}[id=SI07-P1-MATH-S3-Q06, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=6, type=numerical, subtopic={Substitution}, answer={6}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI07-P1-MATH-S3-Q06, source={Score-I - Test 07 (04 Feb 2022)}, paper=1, qno=6, type=numerical, subtopic={Substitution}, answer={6}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integral with cubic denominator recognised as derivative, a quotient | steps: d/dx of 1/f^2 type; match with numerator; find A and f(x); evaluate}]
 If $\displaystyle\int\dfrac{x(x+1)\left(2x^2-x+1\right)}{\left(x^3+x^2+x-1\right)^3}dx=\dfrac{1}{\mathrm Af^2(x)}+c$ with f(1) = 2. then $[f(2)]$ is (where [ ] is greatest integer function and A is real constant and c is constant of integration)
+\end{bankq}
+\begin{bankq}[id=SI17-P2-MATH-S3-Q02, source={Score-I - Test 17 (17 Apr 2022)}, paper=2, qno=2, type=numerical, subtopic={Partial fractions}, answer={2}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: value, a rational function from an integral with partial fractions | steps: P quadratic with P(1) = -1; partial fractions with squared factors; f = ((3x-2)/(2x-3)) power; evaluate at 1}]
+Let $P(x)$ be a quadratic polynomial such that $P(1)=-1$, if $\displaystyle\int\dfrac{P(x)\,dx}{(2x-3)^2(3x-2)^2}=\dfrac15\ell n\,|f(x)|+C$ where $C$ is constant of integration and $f(x)$ is a rational function such that $\displaystyle\lim_{x\to\infty}f(x)=\dfrac43$, then value of $|f(1)|$ is
+\end{bankq}
+\begin{bankq}[id=SI26-P1-MATH-S1-Q06, source={Score-I - Test 26 (18 Dec 2022)}, paper=1, qno=6, type=multi, subtopic={Substitution}, answer={A,B}, answer_src=key, difficulty=5, diff_parts={K1 S1 I2 C1 F1}, diff_note={concepts: integral involving a cubic with a critical point of inflection | steps: conditions f(0) = 1 f(1) = 2 f'(0) = 0 f''(0) = 0 give f(x) = x^3 + 1; integral of (x^3 + 1)/sqrt(x^2 + 7) by substitution u = x^2 + 7 and standard integral | I: infer the cubic from inflection condition}]
+Let $f(x)$ be a polynomial of degree 3 such that $f(0)=1$, $f(1)=2$, $x=0$ is a critical point but $f(x)$ does not have local extremum at $x=0$, then $\displaystyle\int\dfrac{f(x)}{\sqrt{x^2+7}}dx$ is equal to
+\begin{qoptions}
+\opt{A}{$\dfrac{\sqrt{x^2+7}}{3}\left(x^2-14\right)+\ln\left(x+\sqrt{x^2+7}\right)+C$}
+\opt{B}{$\dfrac{\sqrt{x^2+7}}{3}\left(x^2-14\right)-\ln\left(\sqrt{x^2+7}-x\right)+C$}
+\opt{C}{$\ln\left(x+\sqrt{x^2+7}\right)+\sqrt{x^2+7}\left(x^2-7\right)+C$}
+\opt{D}{$\ln\left(x-\sqrt{x^2+7}\right)+\sqrt{x^2+7}\left(x^2-7\right)+C$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=SI26-P1-MATH-S3-G3-4, source={Score-I - Test 26 (18 Dec 2022)}, questions={3-4}]
+$I=\displaystyle\int f\left(x^m(ax^n+b)^{r/s}\right)dx;\ r,s\in I\ \&\ m,n\in Q.$
+
+If $\dfrac{m+1}{n}=$ integer, then we can solve by substituting $ax^n+b=t^2$ and if $\dfrac{m+1}{n}\ne$ integer but $\dfrac{m+1}{n}+\dfrac{r}{s}=$ integer; we can substitute $a+bx^{-n}=t^s$; it converts function into integrable form.
+\end{bankpassage}
+\begin{bankq}[id=SI26-P1-MATH-S3-Q03, source={Score-I - Test 26 (18 Dec 2022)}, paper=1, qno=3, type=numerical, subtopic={Substitution}, answer={2.00}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: value of an antiderivative function at a point after substitution | steps: substitute t = a^x type expression to reduce a^(5x/2) (a^2x + a^-2x)^(3/4); integrate; identify g; evaluate at the given point | I: substitution making the integrand a power}, group=SI26-P1-MATH-S3-G3-4]
+If $\displaystyle\int\dfrac{dx}{\sqrt{a^{5x}}\sqrt[4]{\left(a^{2x}+a^{-2x}\right)^3}}=\dfrac{-1}{\ln a}g(x)+C$, then $g\left(-\dfrac14\log_a15\right)$ is equals -
+\end{bankq}
+\begin{bankq}[id=SI26-P1-MATH-S3-Q04, source={Score-I - Test 26 (18 Dec 2022)}, paper=1, qno=4, type=numerical, subtopic={Substitution}, answer={8.00}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: sum of coefficients in an integral after substitution with cube roots | steps: put t = sqrt(2 + sin^(1/3) x) so that cosec factors reduce; integrate the resulting polynomial and logarithmic parts; match p q r; compute p + q - r | I: nested radical substitution making the integrand rational}, group=SI26-P1-MATH-S3-G3-4]
+$\displaystyle\int\sqrt{\operatorname{cosec}x}\left(2\sqrt[3]{\operatorname{cosec}x}+1\right)^{3/2}\cdot\cos x\,dx=pt^3+qt+r\sqrt2\ln\left|\dfrac{t-\sqrt2}{t+\sqrt2}\right|+C$ (where $t=\sqrt{2+\sin^{\frac13}x}$ )
+
+then $p+q-r$ is equal
 \end{bankq}
 
 \section*{Score-II papers}
-\begin{bankq}[id=SII02-P1-MATH-S2-Q12, source={Score-II - Test 02 (28 Mar 2021)}, paper=1, qno=12, type=multi, subtopic={By parts}, answer={A,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII02-P1-MATH-S2-Q12, source={Score-II - Test 02 (28 Mar 2021)}, paper=1, qno=12, type=multi, subtopic={By parts}, answer={A,C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: bounds of integrals involving tan | steps: tan x bounds on the interval; monotonic integrand; compare with the given constants}]
 Which of the following is/are true
 
 \begin{qoptions}
@@ -98,7 +123,7 @@ Which of the following is/are true
 \opt{D}{$\displaystyle\int_0^1 x\tan x\,dx\le\dfrac25$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII04-P2-MATH-S1-Q03, source={Score-II - Test 04 (07 May 2021)}, paper=2, qno=3, type=multi, subtopic={By parts}, answer={A,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII04-P2-MATH-S1-Q03, source={Score-II - Test 04 (07 May 2021)}, paper=2, qno=3, type=multi, subtopic={By parts}, answer={A,C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integral inequality with a positive function and sin^2 x | steps: expression is (8 sin^2 x/g - g) bring to a perfect square; equality forces g = 2 sqrt2 sin x; maximum M; check}]
 Consider $\displaystyle\int_0^\pi\left(\dfrac{8\sin^2x}{g(x)}-1\right)(g(x))^2\,dx=6\pi$, where g(x) is a continuous positive function in $(0,\pi)$. If the maximum value of g(x) in $(0,\pi)$ is M, then
 
 \begin{qoptions}
@@ -108,10 +133,10 @@ Consider $\displaystyle\int_0^\pi\left(\dfrac{8\sin^2x}{g(x)}-1\right)(g(x))^2\,
 \opt{D}{M is an odd prime number}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII04-P2-MATH-S4-Q06, source={Score-II - Test 04 (07 May 2021)}, paper=2, qno=6, type=numerical, subtopic={Substitution}, answer={3.5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII04-P2-MATH-S4-Q06, source={Score-II - Test 04 (07 May 2021)}, paper=2, qno=6, type=numerical, subtopic={Substitution}, answer={3.5}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integral, a combination of two exponential rational functions | steps: rewrite f and g with common denominator by substitution t = e^x; f - 2g combine into a derivative of a function; h(x) as an inverse tangent; use limit to fix the constant; evaluate h(0); read a b c}]
 If $\displaystyle\int4(3-2x)^{-2}\left(\dfrac{3-2x}{3+2x}\right)^{1/3}dx=\dfrac3\alpha\left(\dfrac{3+2x}{3-2x}\right)^{\beta/\gamma}+c$ (where c is constant of integration and $\beta,\gamma$ are prime numbers), then value of $(\alpha+\gamma-\beta)$ is
 \end{bankq}
-\begin{bankq}[id=SII06-P1-MATH-S1-Q04, source={Score-II - Test 06 (05 Jul 2022)}, paper=1, qno=4, type=single, subtopic={Standard forms}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII06-P1-MATH-S1-Q04, source={Score-II - Test 06 (05 Jul 2022)}, paper=1, qno=4, type=single, subtopic={Standard forms}, answer={B}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: combination of two integrals with exponentials | steps: S - 2R written over a common denominator in t = e^x; the combination becomes the derivative of an inverse tangent of a function of e^x; use the value at x = 0 to fix the constant | I: the combination S - 2R has an integrand that is the derivative of an arctan expression}]
 Let $S(x) = \displaystyle\int \dfrac{dx}{e^x+8e^{-x}+4e^{-3x}}$, $R(x) = \displaystyle\int \dfrac{dx}{e^{3x}+8e^x+4e^{-x}}$ and $M(x) = S(x) - 2R(x)$. If $M(x) = \dfrac{1}{2}\tan^{-1}\left(\dfrac{f(x)}{2}\right) + c$, (where c is arbitrary constant) and $M(0) = \dfrac{1}{2}\tan^{-1}\left(\dfrac{3}{2}\right)$, then $f(\log_e 2)$ is equal to
 \begin{qoptions}
 \opt{A}{1}
@@ -120,7 +145,7 @@ Let $S(x) = \displaystyle\int \dfrac{dx}{e^x+8e^{-x}+4e^{-3x}}$, $R(x) = \displa
 \opt{D}{7}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII07-P1-MATH-S1-Q20, source={Score-II - Test 07 (10 Jul 2022)}, paper=1, qno=20, type=single, subtopic={Standard forms}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII07-P1-MATH-S1-Q20, source={Score-II - Test 07 (10 Jul 2022)}, paper=1, qno=20, type=single, subtopic={Standard forms}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integral of cos x over sin(x - pi/4) | steps: write cos x = cos((x - pi/4) + pi/4); split into constant and cot term; integrate}]
 The value of $\sqrt2\displaystyle\int\dfrac{\cos x\,dx}{\sin\left(x-\frac{\pi}{4}\right)}$ is\\
 (Where $c$ is arbitrary constant)
 \begin{qoptions}
@@ -130,7 +155,7 @@ The value of $\sqrt2\displaystyle\int\dfrac{\cos x\,dx}{\sin\left(x-\frac{\pi}{4
 \opt{D}{$\log_e\left|\sin\left(x-\frac{\pi}{4}\right)\right|+x+c$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII08-P2-MATH-S2-Q08, source={Score-II - Test 08 (05 Feb 2023)}, paper=2, qno=8, type=multi, subtopic={Substitution}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S1 I1 C1 F1}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII08-P2-MATH-S2-Q08, source={Score-II - Test 08 (05 Feb 2023)}, paper=2, qno=8, type=multi, subtopic={Substitution}, answer={C}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: integral equation for a parameter by substitution | steps: put t = (log x)^(3/2); integral becomes a standard form in a; evaluate; solve the equation for a; classify the solutions}]
 Consider the equation
 $$\int_1^e \dfrac{(\log_e x)^{1/2}}{x\left(a-(\log_e x)^{3/2}\right)^2}\,dx = 1,\quad a\in(-\infty,0)\cup(1,\infty).$$
 Which of the following statements is/are TRUE?
@@ -141,10 +166,10 @@ Which of the following statements is/are TRUE?
 \opt{D}{Exactly one value of 'a' satisfy the above equation}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII08-P2-MATH-S3-Q02, source={Score-II - Test 08 (05 Feb 2023)}, paper=2, qno=2, type=numerical, subtopic={Standard forms}, answer={9}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, standard forms, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII08-P2-MATH-S3-Q02, source={Score-II - Test 08 (05 Feb 2023)}, paper=2, qno=2, type=numerical, subtopic={Standard forms}, answer={9}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C0 F1}, diff_note={concepts: sum of an integral and the integral of its inverse function | steps: the second integral is the inverse of the first function so the two areas form a rectangle of known sides; evaluate lambda; compute 2^(lambda+1)/9 | I: the second integral is the integral of the inverse function of the first integrand}]
 If $\lambda = \displaystyle\int_1^2\log_2(x^3+1)\,dx + \int_1^{\log_2 9}(2^x-1)^{1/3}\,dx$, then value of $\dfrac{2^{\lambda+1}}{9}$ is
 \end{bankq}
-\begin{bankq}[id=SII09-P2-MATH-S1-Q01, source={Score-II - Test 09 (12 Feb 2023)}, paper=2, qno=1, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII09-P2-MATH-S1-Q01, source={Score-II - Test 09 (12 Feb 2023)}, paper=2, qno=1, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: reduction formula for an integral of sin((n+2)x) sin^n x | steps: derivative of sin^(n+1) x cos... gives F_n as a closed form (sin x)^(n+1) sin((n+1)x)/(n+1); use F_n(pi) = 0 for the constant; evaluate at 3pi/2 | I: the integrand is the derivative of sin^(n+1)x sin((n+1)x)/(n+1)}]
 Let $F_n(x)=\displaystyle\int\sin(n+2)x\,\sin^nx\,dx$ and $F_n(\pi)=0$ where $n\in N$. If the value of $F_{16}\left(\dfrac{3\pi}{2}\right)$ is a, then determine $\left(\dfrac1a+2\right)$
 \begin{qoptions}
 \opt{A}{19}
@@ -153,17 +178,17 @@ Let $F_n(x)=\displaystyle\int\sin(n+2)x\,\sin^nx\,dx$ and $F_n(\pi)=0$ where $n\
 \opt{D}{28}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII12-P2-MATH-S4-Q05, source={Score-II - Test 12 (04 Feb 2024)}, paper=2, qno=5, type=numerical, subtopic={By parts}, answer={0}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII12-P2-MATH-S4-Q05, source={Score-II - Test 12 (04 Feb 2024)}, paper=2, qno=5, type=numerical, subtopic={By parts}, answer={0}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: minimum of an integral function by the derivative | steps: f' = integrand times derivative of x tan^-1 x; sign of f' is the sign of x tan^-1 x derivative; minimum at x = 0}]
 For $x\in\mathbb R$, let $|2\tan^{-1}x|<\pi$. Then the minimum value of the function $f:\mathbb R\to\mathbb R$ defined by $f(x)=\displaystyle\int_0^{x\tan^{-1}x}\left(\dfrac{e^{t-\cos t}}{1+t+t^2+\dots+t^{2023}}\right)dt$
 \end{bankq}
-\begin{bankq}[id=SII13-P1-MATH-S2-Q05, source={Score-II - Test 13 (06 Feb 2024)}, paper=1, qno=5, type=numerical, subtopic={By parts}, answer={64}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII13-P1-MATH-S2-Q05, source={Score-II - Test 13 (06 Feb 2024)}, paper=1, qno=5, type=numerical, subtopic={By parts}, answer={64}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integral of sqrt((x+7)/x) by substitution | steps: substitute x = 7 tan^2 theta or t = sqrt x; integrate; fix the constant from I(9); evaluate I(1) and read alpha}]
 Let $I(x)=\displaystyle\int\sqrt{\dfrac{x+7}{x}}\,dx$ and $I(9)=12+7\log_e7$. If $I(1)=\alpha+7\log_e\left(1+2\sqrt2\right)$, then $\alpha^4$ is equal to\_\_\_\_\_\_\_.
 \end{bankq}
-\begin{bankq}[id=SII14-P1-MATH-S4-Q09, source={Score-II - Test 14 (06 Feb 2024)}, paper=1, qno=9, type=numerical, subtopic={By parts}, answer={5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII14-P1-MATH-S4-Q09, source={Score-II - Test 14 (06 Feb 2024)}, paper=1, qno=9, type=numerical, subtopic={By parts}, answer={5}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: reduction formula for integrals of powers of cos 2x, 1 - tan^2 x | steps: write cos 2x (1 - tan^2 x)^n as a function of cos^2 x; derive the reduction relation by parts; apply to I(0,10) and I(1,10); match coefficients of A and B; compute B/(8A)}]
 Let $I_{(m,n)}=\displaystyle\int(\cos2x)^m(1-\tan^2x)^ndx$, such that\\
 $4I_{(0,10)}+\dfrac{I_{(1,10)}}{5}=A\sin2x(1-\tan^2x)^{10}+BI_{(0,9)}+C$ (where C is constant of integration, m, n $\in$ W), then the value of $\dfrac{B}{8A}$ is
 \end{bankq}
-\begin{bankq}[id=SII17-P1-MATH-S1-Q10, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=10, type=single, subtopic={Standard forms}, answer={B}, answer_src=solved, working={Integrand = (e\^{}x+cos x+1)/(e\^{}x+sin x+x) - 1: integral ln(e\^{}x+sin x+x)-x; f+g=e\^{}x+sin x.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII17-P1-MATH-S1-Q10, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=10, type=single, subtopic={Standard forms}, answer={B}, answer_src=solved, working={Integrand = (e\^{}x+cos x+1)/(e\^{}x+sin x+x) - 1: integral ln(e\^{}x+sin x+x)-x; f+g=e\^{}x+sin x.}, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integral with e^x + sin x + x in the denominator | steps: numerator is the derivative of the denominator minus; split; integrate to ln and a function; f + g at the stated point}]
 If $\displaystyle\int\dfrac{\cos x-\sin x+1-x}{e^x+\sin x+x}=\ln(f(x))+g(x)+C$\\
 where C is the constant of integration and $f(x)$ is positive, then $f(x)+g(x)$ has the value equal to
 \begin{qoptions}
@@ -173,7 +198,7 @@ where C is the constant of integration and $f(x)$ is positive, then $f(x)+g(x)$ 
 \opt{D}{$e^x+\sin x+x$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII19-P1-MATH-S1-Q01, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=1, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII19-P1-MATH-S1-Q01, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=1, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integral with powers of x and an inverse tangent denominator | steps: substitute t = x^3 + 1/x^3 type; numerator becomes dt; integrate dt/(t^2 + 1) arctan(t); closed form}]
 The integral $\displaystyle\int\dfrac{(x^8-x^2)dx}{(x^{12}+3x^6+1)\tan^{-1}\left(x^3+\frac1{x^3}\right)}$ is equal to :
 \begin{qoptions}
 \opt{A}{$\log_e\left(\left|\tan^{-1}\left(x^3+\dfrac1{x^3}\right)\right|\right)^{1/3}+C$}
@@ -182,7 +207,7 @@ The integral $\displaystyle\int\dfrac{(x^8-x^2)dx}{(x^{12}+3x^6+1)\tan^{-1}\left
 \opt{D}{$\log_e\left(\left|\tan^{-1}\left(x^3+\dfrac1{x^3}\right)\right|\right)^{3}+C$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII21-P1-MATH-S1-Q01, source={Score-II - Test 21 (14 Mar 2024)}, paper=1, qno=1, type=multi, subtopic={Substitution}, answer={C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII21-P1-MATH-S1-Q01, source={Score-II - Test 21 (14 Mar 2024)}, paper=1, qno=1, type=multi, subtopic={Substitution}, answer={C,D}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integral equation in k, a logarithmic substitution | steps: substitute t = (ln x)^(3/2); integral reduces to a rational form; evaluate in terms of k; equation in k; solve the quadratic and check the domain}]
 Consider the equation
 \[\int_1^e \dfrac{(\log_e x)^{1/2}}{x\left(k-(\log_e x)^{3/2}\right)^2}dx = 1,\quad k\in(-\infty,0)\cup(1,\infty).\]
 Which of the following statements is/are TRUE ?
@@ -193,12 +218,12 @@ Which of the following statements is/are TRUE ?
 \opt{D}{More than one $k$ satisfy the above equation}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII21-P2-MATH-S3-Q03, source={Score-II - Test 21 (14 Mar 2024)}, paper=2, qno=3, type=numerical, subtopic={Standard forms}, answer={5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, standard forms, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII21-P2-MATH-S3-Q03, source={Score-II - Test 21 (14 Mar 2024)}, paper=2, qno=3, type=numerical, subtopic={Standard forms}, answer={5}, answer_src=key, difficulty=8, diff_parts={K2 S3 I2 C1 F1}, diff_note={concepts: sum, two integrals of inverse functions | steps: the second integral is the integral of the inverse function of log2(x^3+1); apply the inverse function area identity: sum equals b f(b) - a f(a) type; evaluate; greatest integer; digit sum | I: the two integrals are for a function and its inverse so they combine into a rectangle area}]
 The greatest integer less than or equal to
 \[\int_1^4 \log_2(x^3+1)dx + \int_1^{\log_2 65}(2^x-1)^{1/3}dx\]
 is $\lambda$ then sum of digits of $\lambda$ is\underline{\hspace{2em}}.
 \end{bankq}
-\begin{bankq}[id=SII22-P1-MATH-S1-Q16, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=16, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII22-P1-MATH-S1-Q16, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=16, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integral of a derivative form | steps: sec^2 x - 2022 over sin^2022 x is the derivative of tan x / sin^2022 x or similar; integrate; use the condition at pi/4; compare I at pi/3 and pi/6}]
 For $I(x)=\displaystyle\int\dfrac{\sec^2x-2022}{\sin^{2022}x}dx$, if $I\left(\dfrac\pi4\right)=2^{1011}$, then
 \begin{qoptions}
 \opt{A}{$3^{1010}I\left(\dfrac\pi3\right)-I\left(\dfrac\pi6\right)=0$}
@@ -207,10 +232,10 @@ For $I(x)=\displaystyle\int\dfrac{\sec^2x-2022}{\sin^{2022}x}dx$, if $I\left(\df
 \opt{D}{$3^{1011}I\left(\dfrac\pi6\right)-I\left(\dfrac\pi3\right)=0$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII23-P1-MATH-S2-Q02, source={Score-II - Test 23 (17 Mar 2024)}, paper=1, qno=2, type=numerical, subtopic={Standard forms}, answer={2}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, standard forms, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII23-P1-MATH-S2-Q02, source={Score-II - Test 23 (17 Mar 2024)}, paper=1, qno=2, type=numerical, subtopic={Standard forms}, answer={2}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integral, a combination of two exponential rational functions | steps: rewrite f and g with common denominator by substitution t = e^x; f - 2g combine into a derivative of a function; h(x) as an inverse tangent; use limit to fix the constant; evaluate h(0); read a b c}]
 Let $f(x)=\dfrac{1}{e^x+8e^{-x}+4e^{-3x}}$, $g(x)=\dfrac{1}{e^{3x}+8e^{x}+4e^{-x}}$ and $\displaystyle\int(f(x)-2g(x))\,dx=h(x)+c$ (where `c' is constant of integration) and $\displaystyle\lim_{x\to\infty}h(x)=\dfrac{\pi}{4}$. If $h(0)=\dfrac1a\tan^{-1}\left(\dfrac bc\right)$ (where $a\in N$, $b$ and $c$ are coprime), then the value of $\left(\dfrac{a+c}{b}\right)$ is :
 \end{bankq}
-\begin{bankq}[id=SII24-P1-MATH-S1-Q02, source={Score-II - Test 24 (17 Mar 2024)}, paper=1, qno=2, type=single, subtopic={By parts}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, by parts | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII24-P1-MATH-S1-Q02, source={Score-II - Test 24 (17 Mar 2024)}, paper=1, qno=2, type=single, subtopic={By parts}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: integral of arctan x over 1 + x | steps: substitute x = tan t? use symmetry x to (1-x)/(1+x); the integral equals pi ln2/8}]
 The integral $\displaystyle\int_0^1\dfrac{\tan^{-1}x}{1+x}\,dx$ equals
 \begin{qoptions}
 \opt{A}{$\pi\log_e2$}
@@ -219,7 +244,7 @@ The integral $\displaystyle\int_0^1\dfrac{\tan^{-1}x}{1+x}\,dx$ equals
 \opt{D}{$\dfrac{\pi}{2}\log_e2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII25-P1-MATH-S2-Q05, source={Score-II - Test 25 (20 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={By parts}, answer={6}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII25-P1-MATH-S2-Q05, source={Score-II - Test 25 (20 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={By parts}, answer={6}, answer_src=key, difficulty=5, diff_parts={K1 S1 I2 C1 F1}, diff_note={concepts: ratio involving integrals with sine powers | steps: integrate by parts to get recurrence between I3 and I1; evaluate ratio | I: reduction formula connects I3 and I1}]
 If $I_n=\displaystyle\int_0^\pi e^x(\sin x)^ndx$ then $10\,\dfrac{I_3}{I_1}$ is equal to :
 \end{bankq}
 \begin{bankpassage}[id=SII25-P2-MATH-S2-G7-8, source={Score-II - Test 25 (20 Mar 2024)}, questions={7-8}]
@@ -228,7 +253,7 @@ $A=\cos^{-1}\left(\sin\left((\alpha+\beta)^{-1}+(\beta+\gamma)^{-1}+(\gamma+\alp
 $B=\cos\left(\tan^{-1}\left(\sin\left(\dfrac{\alpha+\beta+\gamma}2\right)\right)\right)$\\
 $C=\sec^{-1}\left(\mathrm{cosec}(1-\alpha)(1-\beta)(1-\gamma)\right)$
 \end{bankpassage}
-\begin{bankq}[id=SII25-P2-MATH-S2-Q07, source={Score-II - Test 25 (20 Mar 2024)}, paper=2, qno=7, type=single, subtopic={Standard forms}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}, group=SII25-P2-MATH-S2-G7-8]
+\begin{bankq}[id=SII25-P2-MATH-S2-Q07, source={Score-II - Test 25 (20 Mar 2024)}, paper=2, qno=7, type=single, subtopic={Standard forms}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: value of a combination of defined quantities | steps: compute each of A B C from the given data; evaluate 5A + B - C}, group=SII25-P2-MATH-S2-G7-8]
 The value of $5A+B-C$
 \begin{qoptions}
 \opt{A}{21}
@@ -237,7 +262,7 @@ The value of $5A+B-C$
 \opt{D}{None of these}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII25-P2-MATH-S2-Q08, source={Score-II - Test 25 (20 Mar 2024)}, paper=2, qno=8, type=single, subtopic={Standard forms}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, composition | steps: apply the relevant results; compute}, group=SII25-P2-MATH-S2-G7-8]
+\begin{bankq}[id=SII25-P2-MATH-S2-Q08, source={Score-II - Test 25 (20 Mar 2024)}, paper=2, qno=8, type=single, subtopic={Standard forms}, answer={A}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C2 F0}, diff_note={concepts: limit with series expansions of exponential, binomial terms | steps: expand e^(x^3) and (1 - x^3)^(1/3); expand sqrt(1 - x^2) - 1 times tan x; denominator x tan^2 x; collect x^3 terms; compute beta; 6 beta | C: several series expansions to the third order have to be combined}, group=SII25-P2-MATH-S2-G7-8]
 Range of the function $g(x)=\dfrac{(5A-C)x^5+6Bx^2}{x^4+(B-1)x^3+1}$
 \begin{qoptions}
 \opt{A}{$[0,3]$}
@@ -246,7 +271,7 @@ Range of the function $g(x)=\dfrac{(5A-C)x^5+6Bx^2}{x^4+(B-1)x^3+1}$
 \opt{D}{$(-\infty,\infty)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII27-P1-MATH-S1-Q17, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Standard forms}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII27-P1-MATH-S1-Q17, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Standard forms}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integral of tan over tan minus two | steps: write 5 tan = A (tan - 2) + B in terms of sin and cos; split into 1 + log; a = 2}]
 If the integral $\displaystyle\int\dfrac{5\tan x\,dx}{\tan x-2}=x+a\,\ell n|\sin x-2\cos x|+C$ then `$a$' is equal to ($C$ is constant of integration)
 \begin{qoptions}
 \opt{A}{1}
@@ -255,12 +280,12 @@ If the integral $\displaystyle\int\dfrac{5\tan x\,dx}{\tan x-2}=x+a\,\ell n|\sin
 \opt{D}{$-2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII28-P1-MATH-S3-Q08, source={Score-II - Test 28 (23 Mar 2024)}, paper=1, qno=8, type=numerical, subtopic={Substitution}, answer={7}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}, also_in={Score Advanced - Test 13 (13 May 2023) P1 Q6}]
+\begin{bankq}[id=SII28-P1-MATH-S3-Q08, source={Score-II - Test 28 (23 Mar 2024)}, paper=1, qno=8, type=numerical, subtopic={Substitution}, answer={7}, answer_src=key, difficulty=8, diff_parts={K2 S3 I1 C2 F1}, diff_note={concepts: integral of an exponential composite with polynomial, trigonometric parts | steps: guess f(x) such that derivative of f e^(g) gives the integrand; separate the product rule terms; match sin x and cos x coefficients; determine f(x) = x sin x; use f(pi/6) check; evaluate f(5pi/2) and floor | C: reverse-engineering the antiderivative from the product rule}, also_in={Score Advanced - Test 13 (13 May 2023) P1 Q6}]
 If
 \[\resizebox{\linewidth}{!}{$\displaystyle\int e^{e^x+x^3+x}\left(\left(xe^x+3x^3+x+1\right)\sin x+x\cos x\right)dx=f(x)\,e^{e^x+x^3+x}+C,$}\]
 (where $f\left(\dfrac\pi6\right)=\dfrac\pi{12}$ and C is the constant of integration and [*] denotes Greatest Integer Function) then $\left[f\left(\dfrac{5\pi}{2}\right)\right]$ is equal to
 \end{bankq}
-\begin{bankq}[id=SII31-P1-MATH-S1-Q17, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Standard forms}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII31-P1-MATH-S1-Q17, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Standard forms}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: ratio of two Gaussian type integrals | steps: substitute z - 1/z or z + 1/z to evaluate A in terms of B; the combination e^(-(z - 1/z)^2) e^-2; A/B = e^-2 times a factor | I: Cauchy-Schlomilch substitution z to 1/z}]
 Let $I(x)=\displaystyle\int\dfrac{x^2\left(x\cos\mathrm{ec}^2x-\cot x\right)}{(1-x\cot x)^2}dx$. If $I\left(\dfrac\pi2\right)=0$ then $I\left(\dfrac\pi4\right)$ is equal to
 \begin{qoptions}
 \opt{A}{$\dfrac{\pi^2}{4(\pi+4)}-2\,\ell n\left(\dfrac{4+\pi}{4\sqrt2}\right)+\dfrac{\pi^2}8$}
@@ -269,20 +294,10 @@ Let $I(x)=\displaystyle\int\dfrac{x^2\left(x\cos\mathrm{ec}^2x-\cot x\right)}{(1
 \opt{D}{$\dfrac{\pi^2}{4(\pi-4)}+2\,\ell n\left(\dfrac{4-\pi}{4\sqrt2}\right)+\dfrac{\pi^2}4$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII31-P1-MATH-S2-Q09, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=9, type=numerical, subtopic={By parts}, answer={Bonus}, answer_src=solved, working={Printed key shows letters for numeric-type items here (misaligned) and the question was not solved; banked as Bonus.}, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII31-P1-MATH-S2-Q09, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=9, type=numerical, subtopic={By parts}, answer={Bonus}, answer_src=solved, working={Printed key shows letters for numeric-type items here (misaligned) and the question was not solved; banked as Bonus.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral with parameters and evaluating g at a point | steps: differentiate under the integral; match alpha and beta from I(x) = - cot x csc; g simplifies; evaluate | I: choose alpha beta so the integrand is an exact derivative}]
 Let $I(x)=\displaystyle\int\dfrac{\sec^2x-\beta}{\sin^\alpha x}dx$ and $g(x)=I(x)-(\alpha-\beta)\displaystyle\int\sin^{-\alpha}x\,dx$. The value of $g\left(\dfrac\pi4\right)$ at $\alpha=20$.
 \end{bankq}
-\begin{bankq}[id=SII32-P1-MATH-S1-Q03, source={Score-II - Test 32 (29 Mar 2024)}, paper=1, qno=3, type=single, subtopic={Standard forms}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}]
-The value of the definite integral $\displaystyle\int_{\pi/8}^{3\pi/8}\dfrac{11+4\cos2x+\cos4x}{1-\cos4x}\,dx$ equals
-
-\begin{qoptions}
-\opt{A}{$-6-\dfrac\pi4$}
-\opt{B}{$6\sqrt2-\dfrac\pi4$}
-\opt{C}{$12-\dfrac\pi2$}
-\opt{D}{$6-\dfrac\pi4$}
-\end{qoptions}
-\end{bankq}
-\begin{bankq}[id=SII33-P2-MATH-S1-Q03, source={Score-II - Test 33 (01 Apr 2024)}, paper=2, qno=3, type=multi, subtopic={Standard forms}, answer={A,B,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, standard forms, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII33-P2-MATH-S1-Q03, source={Score-II - Test 33 (01 Apr 2024)}, paper=2, qno=3, type=multi, subtopic={Standard forms}, answer={A,B,C}, answer_src=key, difficulty=7, diff_parts={K1 S4 I1 C1 F1}, diff_note={concepts: function from a relation with its antiderivative | steps: let g' = f; substitute x to 1/x in the relation to get a second relation; eliminate g; differential equation for f; solve; f(1) = 2; evaluate f(1/2) and f(2); floors}]
 Let $f:(0,\infty)\to\mathbb R$, has an anti-derivative g such that $f(x).g\left(\dfrac1x\right)=\dfrac1x\ \forall x>0$ and $f(1)=2$ Then
 \begin{qoptions}
 \opt{A}{$\left\lfloor f\left(\dfrac12\right)\right\rfloor=0$}
@@ -291,10 +306,10 @@ Let $f:(0,\infty)\to\mathbb R$, has an anti-derivative g such that $f(x).g\left(
 \opt{D}{$\lfloor f(1)\rfloor=1$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII33-P2-MATH-S3-Q03, source={Score-II - Test 33 (01 Apr 2024)}, paper=2, qno=3, type=numerical, subtopic={By parts}, answer={3}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII33-P2-MATH-S3-Q03, source={Score-II - Test 33 (01 Apr 2024)}, paper=2, qno=3, type=numerical, subtopic={By parts}, answer={3}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: integral of x over sin x between symmetric limits | steps: substitute x to pi - x and average to get pi/2 times the integral of 1/sin x; integral of cosec over pi/3 to 2pi/3; ln tan(x/2); value ln 3; c | I: symmetry x to pi - x converts the integrand}]
 Let $F:\mathbb R\to\mathbb R$, anti derivative of the function $f:\left[\dfrac\pi3,\dfrac{2\pi}3\right]\to\mathbb R$, $f(x)=\dfrac x{\sin x}$; and $F\left(\dfrac{2\pi}3\right)-F\left(\dfrac\pi3\right)=\dfrac\pi2\ln c$. Then $c=\dots\dots\dots\dots\dots\dots$
 \end{bankq}
-\begin{bankq}[id=SII35-P1-MATH-S1-Q01, source={Score-II - Test 35 (04 Feb 2025)}, paper=1, qno=1, type=single, subtopic={Partial fractions}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, partial fractions | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII35-P1-MATH-S1-Q01, source={Score-II - Test 35 (04 Feb 2025)}, paper=1, qno=1, type=single, subtopic={Partial fractions}, answer={A}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C1 F0}, diff_note={concepts: integral reducing to an inverse secant, local minimum of its argument | steps: divide numerator and denominator by x^2; substitution t = x + 1/x or x - 1/x; integrate to sec inverse; fix the constant by f(1) = 2; f(x) = x + 1/x; local minimum value}]
 If $\displaystyle\int\dfrac{\left(\frac1x+\frac1{x^2}\right)(x-1)\,dx}{\left(\frac1{x^4}+\frac1{x^2}\right)\sqrt{(x^4-x^3+x^2)(x^4+x^3+x^2)}}=\sec^{-1}(f(x))+c$, $f(1)=2$ then local minimum value of f(x) is\\
 (Where `c' is the constant of integration)
 \begin{qoptions}
@@ -304,7 +319,7 @@ If $\displaystyle\int\dfrac{\left(\frac1x+\frac1{x^2}\right)(x-1)\,dx}{\left(\fr
 \opt{D}{8}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII36-P1-MATH-S1-Q03, source={Score-II - Test 36 (07 Feb 2025)}, paper=1, qno=3, type=single, subtopic={By parts}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, by parts | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII36-P1-MATH-S1-Q03, source={Score-II - Test 36 (07 Feb 2025)}, paper=1, qno=3, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=6, diff_parts={K2 S2 I2 C1 F0}, diff_note={concepts: implicit relation, integrand as an exact derivative | steps: x f = 3 f^2 + 2 gives a relation between x and f; differentiate it to relate f prime to x and f; show that the integrand equals the derivative of 1/(x^2-f); integrate | I: the integrand is the derivative of 1/(x^2-f(x)) after eliminating f prime from the given relation}]
 If $xf(x)=3(f(x))^2+2$, then $\displaystyle\int\dfrac{2x^2-12x\cdot f(x)+f(x)^2}{(6f(x)-x)(x^2-f(x))}\,dx$ (Where 'c' is the constant of integration)
 
 \begin{qoptions}
@@ -314,7 +329,7 @@ If $xf(x)=3(f(x))^2+2$, then $\displaystyle\int\dfrac{2x^2-12x\cdot f(x)+f(x)^2}
 \opt{D}{$\dfrac{-1}{(6f(x)-x)(x^2-f(x))}+c$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII39-P1-MATH-S1-Q02, source={Score-II - Test 39 (02 Mar 2025)}, paper=1, qno=2, type=multi, subtopic={Standard forms}, answer={B,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, standard forms, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII39-P1-MATH-S1-Q02, source={Score-II - Test 39 (02 Mar 2025)}, paper=1, qno=2, type=multi, subtopic={Standard forms}, answer={B,D}, answer_src=key, difficulty=9, diff_parts={K2 S3 I2 C2 F1}, diff_note={concepts: vector relations with triple product, an integral giving a condition | steps: express w in terms of u v and u cross v; triple product fixes the component along u cross v; w dot u = -2/3 w dot v; the integral limits determine w dot u by integral of x^3 + 1 over x^2 + 1; solve for components; magnitude | I: the integral with equal value pi/2 forces the limits | C: several relations to solve for the three components}]
 If $|\vec u|=|\vec v|=1$ and $\vec u.\vec v=0$. Also $[\vec u\ \vec v\ \vec w]=\dfrac54$, $\vec w.\vec u=-\dfrac23\vec w.\vec v$ and $\displaystyle\int_{-2\vec w.\vec u}^{-\frac43\vec w.\vec v}\dfrac{x^3+1}{x^2+1}dx=\dfrac\pi2$. Which of the following is (are) correct ?
 \begin{qoptions}
 \opt{A}{$|\vec w|=\dfrac74$}
@@ -323,7 +338,7 @@ If $|\vec u|=|\vec v|=1$ and $\vec u.\vec v=0$. Also $[\vec u\ \vec v\ \vec w]=\
 \opt{D}{$\vec w=\dfrac{\vec u}2-\dfrac{3\vec v}4+\dfrac54(\vec u\times\vec v)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII39-P1-MATH-S1-Q05, source={Score-II - Test 39 (02 Mar 2025)}, paper=1, qno=5, type=multi, subtopic={Substitution}, answer={A,B,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII39-P1-MATH-S1-Q05, source={Score-II - Test 39 (02 Mar 2025)}, paper=1, qno=5, type=multi, subtopic={Substitution}, answer={A,B,D}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: ratio of two Gaussian type integrals | steps: substitute z - 1/z or z + 1/z to evaluate A in terms of B; the combination e^(-(z - 1/z)^2) e^-2; A/B = e^-2 times a factor | I: Cauchy-Schlomilch substitution z to 1/z}]
 Let $A=\displaystyle\int_0^\infty e^{-\left(z^2+\frac1{z^2}\right)}dz$, $B=\displaystyle\int_0^\infty e^{-y^2}dy$ then $\dfrac AB$ is not equal to
 \begin{qoptions}
 \opt{A}{$2e^2$}
@@ -332,12 +347,12 @@ Let $A=\displaystyle\int_0^\infty e^{-\left(z^2+\frac1{z^2}\right)}dz$, $B=\disp
 \opt{D}{$\dfrac1{2e^2}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII39-P1-MATH-S3-Q06, source={Score-II - Test 39 (02 Mar 2025)}, paper=1, qno=6, type=numerical, subtopic={By parts}, answer={47.50}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII39-P1-MATH-S3-Q06, source={Score-II - Test 39 (02 Mar 2025)}, paper=1, qno=6, type=numerical, subtopic={By parts}, answer={47.50}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: reduction formula for the integral of x^b/(1+x^2)^a | steps: integrate by parts to find the recurrence; A = 1/(2(1-a)) type coefficient; B = (b-1)/(2(a-1)); substitute a = 50 b = 97; add | I: integration by parts on x^(b-1) times x/(1+x^2)^a}]
 Let $I(a,b)=\displaystyle\int\dfrac{x^b}{(1+x^2)^a}dx$\\
 $I(a,b)=A\dfrac{x^{b-1}}{(1+x^2)^{a-1}}+B\,I(a,b-2)$\\
 Then the value of $(A+B)$, is (where a = 50, b = 97)
 \end{bankq}
-\begin{bankq}[id=SII39-P2-MATH-S2-Q08, source={Score-II - Test 39 (02 Mar 2025)}, paper=2, qno=8, type=multi, subtopic={Substitution}, answer={A,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII39-P2-MATH-S2-Q08, source={Score-II - Test 39 (02 Mar 2025)}, paper=2, qno=8, type=multi, subtopic={Substitution}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: integral by substitution giving a radical over a polynomial | steps: substitute t = 1/x; integrand becomes (1 - t) / sqrt(2 - 2t + t^2) dt; integrate; result sqrt(2x^2 - 2x + 1)/x; identify f and g}]
 If $\displaystyle\int\dfrac{(x-1)dx}{x^2\sqrt{2x^2-2x+1}}=\dfrac{\sqrt{f(x)}}{g(x)}+c$, then
 \begin{qoptions}
 \opt{A}{$f(x)=2x^2-2x+1$}
@@ -346,7 +361,7 @@ If $\displaystyle\int\dfrac{(x-1)dx}{x^2\sqrt{2x^2-2x+1}}=\dfrac{\sqrt{f(x)}}{g(
 \opt{D}{$g(x)=x$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII41-P1-MATH-S1-Q11, source={Score-II - Test 41 (19 Mar 2025)}, paper=1, qno=11, type=single, subtopic={Substitution}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII41-P1-MATH-S1-Q11, source={Score-II - Test 41 (19 Mar 2025)}, paper=1, qno=11, type=single, subtopic={Substitution}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: find k from an integral of fractional powers | steps: substitute t = x^(k) with u = x^6 integrate; compare with the log form}]
 If $\displaystyle\int\dfrac{(\sqrt x)^5}{(\sqrt x)^7+x^6}dx=\dfrac1k\ln\left(\dfrac{x^k}{1+x^k}\right)+c$ then $k$ is equal to :\\
 (where $c$ is constant of integration)
 \begin{qoptions}
@@ -356,7 +371,7 @@ If $\displaystyle\int\dfrac{(\sqrt x)^5}{(\sqrt x)^7+x^6}dx=\dfrac1k\ln\left(\df
 \opt{D}{$\dfrac52$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII42-P1-MATH-S1-Q03, source={Score-II - Test 42 (19 Mar 2025)}, paper=1, qno=3, type=multi, subtopic={By parts}, answer={A,B,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, by parts, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII42-P1-MATH-S1-Q03, source={Score-II - Test 42 (19 Mar 2025)}, paper=1, qno=3, type=multi, subtopic={By parts}, answer={A,B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: reduction of the integral of an odd power of cosine, reduction of a rational integral | steps: put t = sin x and expand (1-t^2)^n to get the denominators a_k; sum them to get lambda; reduction formula for the integral of 1/(x^3+lambda)^2 gives A and B; test the four relations}]
 $\displaystyle\int\cos^{2n+1}x\,dx=\dfrac{\sin x}{a_1}-{}^n C_1\dfrac{\sin^3x}{a_2}+{}^nC_2\dfrac{\sin^5x}{a_3}-\ldots\ldots\ldots+(-1)^n\dfrac{\sin^{2n+1}x}{a_n}+c$ (where C is the constant of integration)
 
 If $a_1+a_2+a_3+\ldots..+a_n=\lambda(n+1)^2$ and $\displaystyle\int\dfrac{dx}{(x^3+\lambda)^2}=A\displaystyle\int\dfrac{dx}{(x^3+\lambda)}+\dfrac{Bx}{x^3+\lambda}$
@@ -368,7 +383,7 @@ If $a_1+a_2+a_3+\ldots..+a_n=\lambda(n+1)^2$ and $\displaystyle\int\dfrac{dx}{(x
 \opt{D}{A = 2B = $\dfrac\lambda3$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII45-P1-MATH-S1-Q13, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=13, type=single, subtopic={Standard forms}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, standard forms | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII45-P1-MATH-S1-Q13, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=13, type=single, subtopic={Standard forms}, answer={C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: ratio of beta integrals evaluated by gamma | steps: express integrals as beta functions; ratio in factorials; multiply by 2^2010; simplify | I: beta function ratio simplification}]
 Find the value of the definite integral\\
 $2^{2010}\dfrac{\displaystyle\int_0^1x^{1004}(1-x)^{1004}dx}{\displaystyle\int_0^1x^{1004}\left(1-x^{2010}\right)^{1004}dx}$.
 \begin{qoptions}
@@ -378,7 +393,7 @@ $2^{2010}\dfrac{\displaystyle\int_0^1x^{1004}(1-x)^{1004}dx}{\displaystyle\int_0
 \opt{D}{8040}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII46-P1-MATH-S1-Q01, source={Score-II - Test 46 (26 Mar 2025)}, paper=1, qno=1, type=multi, subtopic={Standard forms}, answer={A,B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, standard forms, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII46-P1-MATH-S1-Q01, source={Score-II - Test 46 (26 Mar 2025)}, paper=1, qno=1, type=multi, subtopic={Standard forms}, answer={A,B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integrals of sin(nx)/sin x | steps: sin(nx)/sin x is a sum of cosines of even or odd multiples; integrate term by term over the given ranges; evaluate each of the four integrals}]
 Which of the following is/are true
 \begin{qoptions}
 \opt{A}{$\displaystyle\int_0^{\pi/2}\dfrac{\sin(7x)}{\sin x}\,dx = \dfrac{\pi}{2}$}
@@ -387,7 +402,7 @@ Which of the following is/are true
 \opt{D}{$\displaystyle\int_0^{1} x^4(1-x)^4\,dx = \dfrac{1}{630}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII47-P1-MATH-S1-Q01, source={Score-II - Test 47 (30 Mar 2025)}, paper=1, qno=1, type=single, subtopic={Substitution}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII47-P1-MATH-S1-Q01, source={Score-II - Test 47 (30 Mar 2025)}, paper=1, qno=1, type=single, subtopic={Substitution}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integration by rationalising the square root | steps: multiply by 1 - sqrt(1+x^2) to simplify; separate into standard integrals; evaluate at 0 and 1}]
 Let $f(x)=\displaystyle\int \dfrac{x^2\,dx}{(1+x^2)\left(1+\sqrt{1+x^2}\right)}$ and $f(0)=0$. Then $f(1)$ is equal to
 \begin{qoptions}
 \opt{A}{$\ln\left(1+\sqrt2\right)$}
@@ -401,7 +416,7 @@ Let $f(x)=\displaystyle\int \dfrac{x^2\,dx}{(1+x^2)\left(1+\sqrt{1+x^2}\right)}$
 \begin{bankq}[id=SA02-P1-MATH-S3-Q05, source={Score Advanced - Test 02 (13 May 2021)}, paper=1, qno=5, type=numerical, subtopic={Standard forms}, answer={0.4286}, answer_src=solved, working={Integral = 2-pi/2 with the cot(pi/8)-cot(3pi/8)=2; with pi=22/7 it is 3/7}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of cosine over one minus cosine | steps: split; integrate; evaluate}]
 The value of $\displaystyle\int_{\pi/4}^{3\pi/4}\dfrac{\cos x}{1 - \cos x}\,dx$ is equal to (use $\pi = \dfrac{22}{7}$)
 \end{bankq}
-\begin{bankq}[id=SA03-P2-MATH-S1-Q10, source={Score Advanced - Test 03 (27 Jun 2021)}, paper=2, qno=10, type=single, subtopic={By parts}, answer={A}, answer_src=solved, working={f=-x cos(2 ln x)-e\^{}(pi/2)}, difficulty=6, diff_parts={K2 S2 I2 C1 F0}, diff_note={concepts: integral involving sin(2 ln x), by parts | steps: guess x times trigonometric terms; solve the constants; apply the condition}]
+\begin{bankq}[id=SA03-P2-MATH-S1-Q10, source={Score Advanced - Test 03 (27 Jun 2021)}, paper=2, qno=10, type=single, subtopic={By parts}, answer={A}, answer_src=solved, working={f=-x cos(2 ln x)-e\^{}(pi/2)}, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: integral involving ln x | steps: substitute t = ln x; integrate by parts or guess x sin; constant from the given value; evaluate | I: integrate x(a sin + b cos)}]
 If $f(x)=\displaystyle\int\left(2\sin(2\ln x)-\cos(2\ln x)\right)dx$ and $f\!\left(e^{\frac{\pi}{2}}\right)=0$. Then the value of $f(e^{\pi/4})$ is
 \begin{qoptions}
 \opt{A}{$-e^{\pi/2}$}
@@ -410,7 +425,7 @@ If $f(x)=\displaystyle\int\left(2\sin(2\ln x)-\cos(2\ln x)\right)dx$ and $f\!\le
 \opt{D}{$e^{\pi/4}\left(2e^{\pi/2}-1\right)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA03-P2-MATH-S2-Q01, source={Score Advanced - Test 03 (27 Jun 2021)}, paper=2, qno=1, type=numerical, subtopic={By parts}, answer={6}, answer_src=solved, working={f=sinx/(sinx+cosx)-1/2; 5f(5pi/8)=6.04}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: integral of e\^{}x times a combination, by parts | steps: recognise f+f'; antiderivative; evaluate}]
+\begin{bankq}[id=SA03-P2-MATH-S2-Q01, source={Score Advanced - Test 03 (27 Jun 2021)}, paper=2, qno=1, type=numerical, subtopic={By parts}, answer={6}, answer_src=solved, working={f=sinx/(sinx+cosx)-1/2; 5f(5pi/8)=6.04}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of e^x times a derivative pair | steps: combine terms into f + f'; recognise; evaluate the constant | I: e^x (f + f') form}]
 If $\displaystyle\int e^x\left(\dfrac{\tan x}{1+\tan x}+\dfrac{1}{1+\sin 2x}-\dfrac{1}{2}\right)dx=e^xf(x)+c$, where c is integration constant. Then $\left[5f\!\left(\dfrac{5\pi}{8}\right)\right]$ is (where [.] denotes greatest integer function)
 \end{bankq}
 \begin{bankq}[id=SA05-P1-MATH-S1-Q10, source={Score Advanced - Test 05 (15 Jul 2021)}, paper=1, qno=10, type=single, subtopic={Substitution}, answer={C}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: integral of a rational function with a surd, substitution, substitute x+1=t\^{}2 | steps: substitute x+1=t\^{}2; reduce to an arctangent}]
@@ -423,7 +438,7 @@ $\displaystyle\int \dfrac{x+2}{(x^2+3x+3)\sqrt{x+1}}dx$ is equal to-
 \end{qoptions}
 (where C is constant of integration)
 \end{bankq}
-\begin{bankq}[id=SA07-P2-MATH-S1-Q04, source={Score Advanced - Test 07 (16 Apr 2023)}, paper=2, qno=4, type=multi, subtopic={Substitution}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral and function g from an antiderivative, substitution, tan\^{}3 x/(2+tan\^{}2 x) integrated | steps: tan\^{}3 x/(2+tan\^{}2 x) integrated; identify g}]
+\begin{bankq}[id=SA07-P2-MATH-S1-Q04, source={Score Advanced - Test 07 (16 Apr 2023)}, paper=2, qno=4, type=multi, subtopic={Substitution}, answer={B,C,D}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of tan^3/(2+tan^2) | steps: substitute u = tan^2 or sec^2; partial fractions; integrate; compare}]
 If $f$(x) = $\displaystyle\int\dfrac{\tan^3\text{x}}{2+\tan^2\text{x}}\text{dx} = \ln\left|\dfrac{1+g(\text{x})}{\cos\text{x}}\right|$ + C, where $f$(0) = ln2 and C is the constant of integration, then\par
 [Note : [k] denotes greatest integer function less than or equal to k.]
 \begin{qoptions}
@@ -433,17 +448,17 @@ If $f$(x) = $\displaystyle\int\dfrac{\tan^3\text{x}}{2+\tan^2\text{x}}\text{dx} 
 \opt{D}{$\displaystyle\int_0^{13\pi/3}\sqrt{1-g(\text{x})}\,\text{dx} = \dfrac{17}{2}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA08-P2-MATH-S2-Q04, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=2, qno=4, type=numerical, subtopic={Substitution}, answer={1.33}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: constants from an antiderivative of rational functions of exponentials, substitution, combine f-2g to a single derivative | steps: combine f-2g to a single derivative; use the limit to fix the constant}]
+\begin{bankq}[id=SA08-P2-MATH-S2-Q04, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=2, qno=4, type=numerical, subtopic={Substitution}, answer={1.33}, answer_src=key, difficulty=8, diff_parts={K1 S4 I2 C1 F1}, diff_note={concepts: definite integral of a rational function of exponentials | steps: substitution t = e^x; partial fractions; evaluate limits; compute; partial fractions in t; integrate each; apply the limits; combine; simplify to the asked number | I: substitution to rational function}]
 Let $f$(x) = $\dfrac{1}{\text{e}^\text{x}+8\text{e}^{-\text{x}}+4\text{e}^{-3\text{x}}}$, g(x) = $\dfrac{1}{\text{e}^{3\text{x}}+8\text{e}^\text{x}+4\text{e}^{-\text{x}}}$ and $\displaystyle\int(f(\text{x})-2\text{g}(\text{x}))\,\text{dx} = \text{h}(\text{x})+\text{c}$ (where `c' is constant of integration) and $\displaystyle\lim_{\text{x}\to\infty}\text{h}(\text{x}) = \dfrac{\pi}{4}$. If h(0) = $\dfrac{1}{\text{a}}\tan^{-1}\left(\dfrac{\text{b}}{\text{c}}\right)$ (where a $\in$ N, b and c are coprime), then the value of $\left(\dfrac{\text{a}+\text{c}}{\text{b}}\right)$ is:
 \end{bankq}
-\begin{bankq}[id=SA09-P1-MATH-S3-Q03, source={Score Advanced - Test 09 (29 Apr 2023)}, paper=1, qno=3, type=numerical, subtopic={By parts}, answer={11}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral involving an inverse function, by parts, the integral of x h(x) by parts with h=d(f inverse) | steps: the integral of x h(x) by parts with h=d(f inverse)}]
+\begin{bankq}[id=SA09-P1-MATH-S3-Q03, source={Score Advanced - Test 09 (29 Apr 2023)}, paper=1, qno=3, type=numerical, subtopic={By parts}, answer={11}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral  x h(x) with h the derivative of the inverse function | steps: by parts: integral x h dx = x f^-1(x) - integral f^-1(x) dx; area of the inverse function relates to the area under f; find f(a) = 2 and f(b) = 4 at a = 0 b = 1; evaluate | I: inverse function integral turns into an integral of f}]
 f and h are two real valued continuous function and let $\displaystyle\int \text{h}(\text{x})\,\text{dx}=f^{-1}(\text{x})$ and f(x) = x$^3$ + x + sin 2$\pi$x + 2 and the value of $\displaystyle\int_2^4 \text{x}\,\text{h}(\text{x})\,\text{dx}$ is `k', then find value of 4k.
 \end{bankq}
-\begin{bankq}[id=SA10-P2-MATH-S3-Q01, source={Score Advanced - Test 10 (06 May 2023)}, paper=2, qno=1, type=numerical, subtopic={Substitution}, answer={5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral of a rational function of fractional powers, substitution, substitute t=u\^{}4 | steps: substitute t=u\^{}4}]
+\begin{bankq}[id=SA10-P2-MATH-S3-Q01, source={Score Advanced - Test 10 (06 May 2023)}, paper=2, qno=1, type=numerical, subtopic={Substitution}, answer={5}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: integral by substitution of the square root | steps: substitute t = u^2; partial fractions; integrate; evaluate; compute | I: rationalising substitution}]
 If $\displaystyle\int\dfrac{\left(\sqrt{t} - 1\right)\text{dt}}{\left(\text{t} + \text{t}^{5/4} + \text{t}^{3/4}\right)\sqrt{\text{t}^{1/4}\left(\text{t}^{1/2}+1\right)}}$ = 8tan$^{-1}$ (g(t)) + C and g(1) = $\sqrt{2}$ then the value of 2g$^2$(16) is :\par
 (where C is integration constant)
 \end{bankq}
-\begin{bankq}[id=SA15-P1-MATH-S1-Q04, source={Score Advanced - Test 15 (18 May 2023)}, paper=1, qno=4, type=single, subtopic={Substitution}, answer={A}, answer_src=solved, working={Result 2 e\^{}x sin x/(sin\^{}2 x - cos\^{}2 x) + C}, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: integral of e\^{}x times a rational trigonometric expression, substitution, recognise e\^{}x(f+f') with f=2 sin x/(sin\^{}2 x - cos\^{}2 x) | steps: recognise e\^{}x(f+f') with f=2 sin x/(sin\^{}2 x - cos\^{}2 x)}, also_in={Score Advanced - Test 32 (08 May 2024) P1 Q4}]
+\begin{bankq}[id=SA15-P1-MATH-S1-Q04, source={Score Advanced - Test 15 (18 May 2023)}, paper=1, qno=4, type=single, subtopic={Substitution}, answer={A}, answer_src=solved, working={Result 2 e\^{}x sin x/(sin\^{}2 x - cos\^{}2 x) + C}, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: integral of an exponential times a derivative form | steps: write the bracket as derivative of a function g(x): e^x (g + g'); recognise sin and cos quotient derivatives; antiderivative e^x g(x) | I: integrand has the form e^x (g + g')}, also_in={Score Advanced - Test 32 (08 May 2024) P1 Q4}]
 $\displaystyle\int e^x\left[\dfrac{2\sin x}{(\sin x+\cos x)^2}-\dfrac{2\cos x}{(\sin x-\cos x)^2}\right]dx$ where `C' is the constant of integration.
 \begin{qoptions}
 \opt{A}{$e^x\left[\dfrac{2\sin x}{\sin^2x-\cos^2x}\right]+C$}
@@ -456,16 +471,16 @@ $\displaystyle\int e^x\left[\dfrac{2\sin x}{(\sin x+\cos x)^2}-\dfrac{2\cos x}{(
 \textbf{Question Stem}\par
 Let $f(x)$ and $g(x)$ be two functions satisfying $f(x^4)+g(2-x)=3x^2$ and $g(2-x)+g(x)=0$\par
 \end{bankpassage}
-\begin{bankq}[id=SA16-P2-MATH-S3-Q05, source={Score Advanced - Test 16 (20 May 2023)}, paper=2, qno=5, type=numerical, subtopic={Substitution}, answer={0.00}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C1 F1}, diff_note={concepts: integral of a function with a symmetry, substitution, g is odd about 1 | steps: g is odd about 1}, group=SA16-P2-MATH-S3-G5-6]
+\begin{bankq}[id=SA16-P2-MATH-S3-Q05, source={Score Advanced - Test 16 (20 May 2023)}, paper=2, qno=5, type=numerical, subtopic={Substitution}, answer={0.00}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral  g with odd symmetry about x = 1 | steps: g(2 - x) = -g(x) gives point symmetry; integral of g(1+x) over symmetric interval -1 to 1 is zero; with orientation reversed zero | I: g(1+x) is odd in x}, group=SA16-P2-MATH-S3-G5-6]
 The value of $\displaystyle\int_1^{-1}g(1+x)\,dx$ is equal to
 \end{bankq}
-\begin{bankq}[id=SA16-P2-MATH-S3-Q06, source={Score Advanced - Test 16 (20 May 2023)}, paper=2, qno=6, type=numerical, subtopic={Substitution}, answer={16.00}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral of f(x\^{}4), properties, use the functional equations | steps: use the functional equations}, group=SA16-P2-MATH-S3-G5-6]
+\begin{bankq}[id=SA16-P2-MATH-S3-Q06, source={Score Advanced - Test 16 (20 May 2023)}, paper=2, qno=6, type=numerical, subtopic={Substitution}, answer={16.00}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: integral  f(x^4) using the functional relations | steps: g(2-x) + g(x) = 0 cancels g in the first relation after substitution; f(x^4) = 3x^2 - g(2-x); integral from -2 to 2; integral of g(2-x) over symmetric interval of g odd about x=1; evaluate | I: odd symmetry of g kills its integral}, group=SA16-P2-MATH-S3-G5-6]
 The value of $\displaystyle\int_{-2}^2f(x^4)\,dx$ is equal to
 \end{bankq}
-\begin{bankq}[id=SA17-P1-MATH-S3-Q01, source={Score Advanced - Test 17 (25 May 2023)}, paper=1, qno=1, type=numerical, subtopic={Substitution}, answer={3.00}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral with e\^{}tan(theta), substitution, substitute t=tan(theta) | steps: substitute t=tan(theta); by parts}]
+\begin{bankq}[id=SA17-P1-MATH-S3-Q01, source={Score Advanced - Test 17 (25 May 2023)}, paper=1, qno=1, type=numerical, subtopic={Substitution}, answer={3.00}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: integral of an exponential in tan theta with a polynomial and cos squared | steps: substitute t = tan theta; dt = sec^2 theta d theta; integrand e^t (1 - t)^2 / (1+t^2)^2 dt; write as derivative of e^t (something); find A and B | I: integrand is the derivative of e^t times a rational function}]
 $\int e^{\tan\theta}(1-\tan\theta)^2\cos^2\theta\,d\theta=A\,e^{\tan\theta}\cos^{B}\theta+K$. Find $A+B$.
 \end{bankq}
-\begin{bankq}[id=SA21-P1-MATH-S1-Q01, source={Score Advanced - Test 21 (08 Apr 2024)}, paper=1, qno=1, type=multi, subtopic={By parts}, answer={A,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral of e\^{}(x\^{}2) times a polynomial, by parts, recognise e\^{}(g)(g'+f) form | steps: recognise e\^{}(g)(g'+f) form; local minimum}]
+\begin{bankq}[id=SA21-P1-MATH-S1-Q01, source={Score Advanced - Test 21 (08 Apr 2024)}, paper=1, qno=1, type=multi, subtopic={By parts}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of e^{x^2} e^x (2x^2 + x + 1) and local minimum of a related function | steps: guess antiderivative e^{x^2+x}(x ); derivative of x e^{x^2+x} is e^{x^2+x}(1 + x(2x+1)) = (2x^2 + x + 1) e^{x^2+x}; so f(x) = x; then local minimum value of the related expression | I: recognising the integrand as the derivative of x e^{x^2+x}}]
 Let $\displaystyle\int e^{x^2}.e^x\left(2x^2+x+1\right)dx=e^{x^2}.f(x)+C$ where $f(x)$ is some non-zero constant function and $C$ is some arbitrary constant. If the local minimum value of $f(x)$ is equal to $m$, then:\par
 [[.] denotes greatest integer function]
 \begin{qoptions}
@@ -475,7 +490,7 @@ Let $\displaystyle\int e^{x^2}.e^x\left(2x^2+x+1\right)dx=e^{x^2}.f(x)+C$ where 
 \opt{D}{the value of $\left[\dfrac{-1}{m}\right]$ is equal to 2.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA23-P1-MATH-S2-Q08, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=1, qno=8, type=multi, subtopic={Substitution}, answer={A,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral with e\^{}(x-1)/(x\^{}2-5x+4), substitution, partial fractions | steps: partial fractions; exponential integral}]
+\begin{bankq}[id=SA23-P1-MATH-S2-Q08, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=1, qno=8, type=multi, subtopic={Substitution}, answer={A,D}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral reduced to the exponential integral function | steps: partial fractions of 2x/((x-1)(x-4)); e^{x-1}/(x-1) and e^{x-1}/(x-4) types; relate to f(x-1) and f(x-4) with f = integral of e^x/x; read A and B | I: partial fractions followed by shifting the variable}]
 If $\displaystyle\int\dfrac{e^{x-1}}{x^2-5x+4}2x\,dx=Af(x-1)+Bf(x-4)+C$ \& $f(x)=\displaystyle\int\dfrac{e^x}{x}dx$, then
 \begin{qoptions}
 \opt{A}{$A=-\dfrac23$}
@@ -484,7 +499,7 @@ If $\displaystyle\int\dfrac{e^{x-1}}{x^2-5x+4}2x\,dx=Af(x-1)+Bf(x-4)+C$ \& $f(x)
 \opt{D}{$B=\dfrac83e^3$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA24-P1-MATH-S1-Q04, source={Score Advanced - Test 24 (17 Apr 2024)}, paper=1, qno=4, type=multi, subtopic={Substitution}, answer={A,B,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral with nested square roots, substitution, perfect squares under the root | steps: perfect squares under the root}]
+\begin{bankq}[id=SA24-P1-MATH-S1-Q04, source={Score Advanced - Test 24 (17 Apr 2024)}, paper=1, qno=4, type=multi, subtopic={Substitution}, answer={A,B,D}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral  a symmetric sum of nested square roots | steps: simplify sqrt(x + sqrt(16x - 64)) = sqrt(x - 4 + ) using perfect squares: x + 4 sqrt(x-4) = (sqrt(x-4) + 2)^2; so integrand reduces to sums of sqrt(x-4) plus or minus 2 with absolute values; piecewise integration; check equalities | I: nested radical is a perfect square after substituting u = sqrt(x-4)}]
 $\displaystyle\int_4^8\left(\sqrt{\sqrt{16x-64}+x}+\sqrt{x-\sqrt{16x-64}}\right)dx$
 \begin{qoptions}
 \opt{A}{$2\displaystyle\int_4^6\left(\sqrt{\sqrt{16x-64}+x}+\sqrt{x-\sqrt{16x-64}}\right)dx$}
@@ -493,7 +508,7 @@ $\displaystyle\int_4^8\left(\sqrt{\sqrt{16x-64}+x}+\sqrt{x-\sqrt{16x-64}}\right)
 \opt{D}{16}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA32-P2-MATH-S2-Q07, source={Score Advanced - Test 32 (08 May 2024)}, paper=2, qno=7, type=multi, subtopic={Substitution}, answer={A,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, substitution, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA32-P2-MATH-S2-Q07, source={Score Advanced - Test 32 (08 May 2024)}, paper=2, qno=7, type=multi, subtopic={Substitution}, answer={A,D}, answer_src=key, difficulty=7, diff_parts={K1 S3 I1 C2 F1}, diff_note={concepts: solving functional equations with substitution | steps: substituting x to (x-1)/2 gives f and g relation; second relation uses the transformation x/(x-1); eliminate the unknown function h or g; solve for f and g; evaluate values at 5 and 2; check four | C: eliminating among three unknown functions via two substitutions}]
 If $\displaystyle\int\dfrac{e^{x-1}}{\left(x^2-5x+4\right)}2x\,dx=AF\,(x-1)+BF\,(x-4)+C$ and $F(x)=\displaystyle\int\dfrac{e^x}{x}dx$, then
 \begin{qoptions}
 \opt{A}{A = $-$ 2/3}
@@ -502,10 +517,10 @@ If $\displaystyle\int\dfrac{e^{x-1}}{\left(x^2-5x+4\right)}2x\,dx=AF\,(x-1)+BF\,
 \opt{D}{B = (8 / 3)e$^3$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA35-P1-MATH-S3-Q01, source={Score Advanced - Test 35 (15 May 2024)}, paper=1, qno=1, type=numerical, subtopic={Substitution}, answer={3.00}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: integral with e\^{}tan(theta), substitution, substitute t=tan(theta) | steps: substitute t=tan(theta); by parts}]
+\begin{bankq}[id=SA35-P1-MATH-S3-Q01, source={Score Advanced - Test 35 (15 May 2024)}, paper=1, qno=1, type=numerical, subtopic={Substitution}, answer={3.00}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integral, e^{tan theta}(1 - tan theta)^2 cos^2 theta | steps: substitute t = tan theta: integrand e^t (1 - t)^2/(1 + t^2)^2; write (1 - t)^2 = (1 + t^2) - 2t; integrand is the derivative of e^t/(1 + t^2); so integral = e^{tan theta} cos^2 theta; A = 1 B = 2 so A + B = 3}]
 If $\displaystyle\int e^{\tan\theta}(1-\tan\theta)^2\cos^2\theta\,d\theta=Ae^{\tan\theta}\cos^B\theta+K$, then the value of A + B is
 \end{bankq}
-\begin{bankq}[id=SA36-P2-MATH-S1-Q03, source={Score Advanced - Test 36 (19 May 2024)}, paper=2, qno=3, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}, also_in={Score Advanced - Test 37 (19 May 2024) P2 Q3}]
+\begin{bankq}[id=SA36-P2-MATH-S1-Q03, source={Score Advanced - Test 36 (19 May 2024)}, paper=2, qno=3, type=single, subtopic={Substitution}, answer={A}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C1 F0}, diff_note={concepts: integral, 1/(x + 3y) for y defined implicitly by y (x + y)^2 = x | steps: let t = x + y: y t^2 = x gives x = t^2 y y = x/t^2; t = x + x/t^2 so x = t^3/(t^2 + 1); y = t/(t^2 + 1); x + 3y = t (t^2 + 3)/(t^2 + 1); dx =; substitute to get an integral in t giving ln of (t^2 + 1)}, also_in={Score Advanced - Test 37 (19 May 2024) P2 Q3}]
 If y is implicit differentiable function of x such that y(x + y)$^2$ = x, then $\displaystyle\int\dfrac{dx}{x+3y}$ is equal to
 \begin{qoptions}
 \opt{A}{$\dfrac12\ln\left((x+y)^2+1\right)+\mathrm C$}
@@ -515,7 +530,7 @@ If y is implicit differentiable function of x such that y(x + y)$^2$ = x, then $
 \end{qoptions}
 Where C is constant of integration
 \end{bankq}
-\begin{bankq}[id=SA39-P1-MATH-S1-Q02, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=2, type=single, subtopic={Substitution}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, substitution | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA39-P1-MATH-S1-Q02, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=2, type=single, subtopic={Substitution}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: integral, (2^x + 2^{-x}) d(2^x) | steps: let u = 2^x: integral of (u + 1/u) du from 2 to 4 = [u^2/2 + ln u] = (8 - 2) + ln 2 = 6 + ln 2}]
 $\displaystyle\int_1^2(2^x+2^{-x})\mathrm d(2^x)$ =
 \begin{qoptions}
 \opt{A}{$\dfrac54+\ln2$}
@@ -524,7 +539,7 @@ $\displaystyle\int_1^2(2^x+2^{-x})\mathrm d(2^x)$ =
 \opt{D}{$\dfrac78+\ln2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA39-P1-MATH-S2-Q05, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=5, type=multi, subtopic={Partial fractions}, answer={B,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, partial fractions, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA39-P1-MATH-S2-Q05, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=1, qno=5, type=multi, subtopic={Partial fractions}, answer={B,D}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: integral, a rational function with partial fractions in x^4 | steps: write the integrand with substitution 1/x^4 and decompose: (x^4 + 32)/(x^8 (x^4 - 16)) = A/x^8 + B/x^4 + C/(x^4 - 16); integrate each term to get logarithm arctan and power terms; match lambda mu alpha | I: partial fractions in terms of x^4}]
 $\displaystyle\int\dfrac{\mathrm x^4+32}{\mathrm x^8(\mathrm x^4-16)}\mathrm{dx}=\dfrac3\lambda\ln\left|\dfrac{\mathrm x-2}{\mathrm x+2}\right|-\dfrac\mu{256}\tan^{-1}\dfrac{\mathrm x}2+\dfrac1{\alpha\mathrm x^3}+\dfrac2{7\mathrm x^7}+\mathrm c$
 \begin{qoptions}
 \opt{A}{$\lambda$ = 512}
@@ -532,6 +547,11 @@ $\displaystyle\int\dfrac{\mathrm x^4+32}{\mathrm x^8(\mathrm x^4-16)}\mathrm{dx}
 \opt{C}{$\mu$ = 3}
 \opt{D}{$\alpha$ = 15}
 \end{qoptions}
+\end{bankq}
+
+\section*{JEE Advanced (2021 Series) papers}
+\begin{bankq}[id=JA03-P2-MATH-S3-Q03, source={JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)}, paper=2, qno=3, type=numerical, subtopic={Substitution}, answer={2.00}, answer_src=key, difficulty=7, diff_parts={K2 S3 I1 C1 F1}, diff_note={concepts: integration with a substitution, completing the square | steps: divide numerator and denominator by x^2 and write the integrand as a sum of two terms; substitution to separate the arctan part and the rational part; compare with the given form to identify f(x); use f(0) = -1 to fix constant; evaluate f at root 3}]
+If $\displaystyle\int\dfrac{\left(\dfrac23+x^2\right)dx}{3-4\sqrt3x+9x^4}=\dfrac1{6\sqrt6}\tan^{-1}\left(\dfrac{\sqrt3x+1}{\sqrt2}\right)-\dfrac1{6\sqrt3}\cdot\dfrac1{f(x)}+C$, where C is constant of integration and $x\neq\dfrac1{\sqrt3}$, $f(0)=-1$, then value of $f\left(\sqrt3\right)$ is
 \end{bankq}
 
 \section*{TOAS papers}
@@ -813,7 +833,7 @@ If $\displaystyle\int\dfrac{x^6-x^3-2}{x^3\sqrt{(x^3+1)^2+3x^4}}\,dx=f(x)+C$, th
 \begin{bankq}[id=TNAS04-P2-MATH-S3-Q01, source={TNAS - Test 04 (18 Jun 2023)}, paper=2, qno=1, type=numerical, subtopic={Standard forms}, answer={5.43}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: exact differential, integration of a function of two variables | steps: integrate with respect to y; integrate with respect to x; combine to a function of y over x; use the condition and evaluate}]
 Let $J=\displaystyle\int\dfrac{x+y}{xy}dy$ and $I=\displaystyle\int\dfrac{x+y}{x^2}dx$ where $x$ and $y$ are independent variables such that $g\left(\dfrac yx\right)=J-I$ and $g(1)=1$, then value of $g(e)$ is
 \end{bankq}
-\begin{bankq}[id=TNAS05-P1-MATH-S1-Q19, source={TNAS - Test 05 (09 Jul 2023)}, paper=1, qno=19, type=single, subtopic={Substitution}, answer={D}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C2 F0}, diff_note={concepts: ratio of definite integrals by substitution | steps: rewrite the second integral; substitution; integration by parts; relate; ratio}]
+\begin{bankq}[id=TNAS05-P1-MATH-S1-Q19, source={TNAS - Test 05 (09 Jul 2023)}, paper=1, qno=19, type=single, subtopic={Substitution}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S1 I2 C1 F0}, diff_note={concepts: integral substitution relation | steps: substitute in I2 to relate to I1 form; compute ratio | I: substitution t=x^3 followed by integration by parts}]
 If $I_1=\displaystyle\int_0^1\dfrac{e^x}{1+x}dx$ and $I_2=\displaystyle\int_0^1\dfrac{x^2}{e^{x^3}(2-x^3)}dx$, then value of $\dfrac{I_1}{I_2}$ is -
 \begin{qoptions}
 \opt{A}{$e$}
@@ -822,13 +842,13 @@ If $I_1=\displaystyle\int_0^1\dfrac{e^x}{1+x}dx$ and $I_2=\displaystyle\int_0^1\
 \opt{D}{$3e$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TNAS05-P1-MATH-S2-Q03, source={TNAS - Test 05 (09 Jul 2023)}, paper=1, qno=3, type=numerical, subtopic={Substitution}, answer={5}, answer_src=key, difficulty=8, diff_parts={K1 S3 I2 C2 F1}, diff_note={concepts: definite integral with a derivative structure | steps: spot the derivative of the ratio; substitute; limits; evaluate; greatest integer}, also_in={Nurture (General) - Test 01 (12 Jun 2021) P1 Q3}]
+\begin{bankq}[id=TNAS05-P1-MATH-S2-Q03, source={TNAS - Test 05 (09 Jul 2023)}, paper=1, qno=3, type=numerical, subtopic={Substitution}, answer={5}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: definite integral with a hidden derivative | steps: simplify the integrand as derivative of (x^2-x)/(x^3-3x+1)-type; integrate; evaluate bounds | I: hidden derivative of a ratio}, also_in={Nurture (General) - Test 01 (12 Jun 2021) P1 Q3}]
 Let {\small$I=\displaystyle\int_{-3}^{-2}\left(\dfrac{x^2-x}{x^3-3x+1}\right)^2\left(1+\dfrac1{x^2}+\dfrac1{(1-x)^2}\right)dx$} then the greatest integer less than the value of $I$, is
 \end{bankq}
-\begin{bankq}[id=TNAS05-P2-MATH-S3-Q02, source={TNAS - Test 05 (09 Jul 2023)}, paper=2, qno=2, type=numerical, subtopic={Substitution}, answer={2}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral by substitution of a polynomial | steps: spot the derivative of x cubed plus x squared; complete the square; arctan form; evaluate g}]
+\begin{bankq}[id=TNAS05-P2-MATH-S3-Q02, source={TNAS - Test 05 (09 Jul 2023)}, paper=2, qno=2, type=numerical, subtopic={Substitution}, answer={2}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: integration with a hidden structure | steps: factor the denominator; recognise numerator as derivative of x^3+x^2; substitute t; integral to arctan; evaluate g | I: denominator is (x^3+x^2)^2+5}]
 If $\displaystyle\int\dfrac{(3x^2+2x)dx}{x^6+2x^5+x^4+2x^3+2x^2+5}=\dfrac12\tan^{-1}(g(x))+C$, (Where $C$ is constant of integration), then the value of $(g(1)+g(0))$ is (C is constant of integration)
 \end{bankq}
-\begin{bankq}[id=TNAS05-P2-MATH-S3-Q05, source={TNAS - Test 05 (09 Jul 2023)}, paper=2, qno=5, type=numerical, subtopic={Substitution}, answer={0}, answer_src=key, difficulty=8, diff_parts={K1 S3 I2 C2 F1}, diff_note={concepts: integrals of exponentials with the substitution of the sum | steps: rewrite both integrands; combine with a factor; substitution of the sum; antiderivative; evaluate the difference}]
+\begin{bankq}[id=TNAS05-P2-MATH-S3-Q05, source={TNAS - Test 05 (09 Jul 2023)}, paper=2, qno=5, type=numerical, subtopic={Substitution}, answer={0}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral substitution difference | steps: substitute t=e^x for S and R; combine M=S-2R; the integrand simplifies; evaluate limits | I: M has an elementary derivative}]
 $S(x)=\displaystyle\int\dfrac{dx}{e^x+8e^{-x}+4e^{-3x}}$ \& $R(x)=\displaystyle\int\dfrac{dx}{e^{3x}+8e^x+4e^{-x}}$ \& $M(x)=S(x)-2R(x)$, then $M(\ell n2)-M(\ell n1)$ is equal to
 \end{bankq}
 \begin{bankq}[id=TNAS07-P1-MATH-S2-Q04, source={TNAS - Test 07 (20 Aug 2023)}, paper=1, qno=4, type=numerical, subtopic={Substitution}, answer={2}, answer_src=key, difficulty=8, diff_parts={K1 S3 I2 C2 F1}, diff_note={concepts: integral with nested radicals | steps: substitution for the root; reduce the integrand; second substitution; arctangent form; use the condition; evaluate}]
@@ -886,7 +906,7 @@ If $I=\displaystyle\int\sin^{-1}\left(\dfrac{2x}{1+x^2}\right)dx=\sqrt n\,x\tan^
 \end{bankq}
 
 \section*{Nurture (General) papers}
-\begin{bankq}[id=NUR01-P2-MATH-S2-Q03, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=2, qno=3, type=multi, subtopic={By parts}, answer={A,B}, answer_src=solved, working={Differentiating gives m=4l; the limit at 0 gives l=1/4, m=1}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: integral with an unknown integrand, by parts | steps: differentiate; compare; limit at zero}]
+\begin{bankq}[id=NUR01-P2-MATH-S2-Q03, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=2, qno=3, type=multi, subtopic={By parts}, answer={A,B}, answer_src=solved, working={Differentiating gives m=4l; the limit at 0 gives l=1/4, m=1}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: integral equation, differentiate | steps: differentiate both sides; compare with the integrand; find l and m; check | I: differentiate under the integral}]
 Let $\displaystyle\int_0^x\dfrac{(mt\cos4t-\ell\sin4t)\,dt}{t^2}=\dfrac{\ell\sin4x}{x}-1$, where $\left(0<x<\dfrac\pi4\right)$, then
 \begin{qoptions}
 \opt{A}{$\ell+m=\dfrac54$}

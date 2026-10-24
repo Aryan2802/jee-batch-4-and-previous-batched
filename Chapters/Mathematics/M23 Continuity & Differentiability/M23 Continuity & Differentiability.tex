@@ -51,7 +51,7 @@
 {\small Mathematics chapter M23. Questions from all converted test papers, grouped by source series. Answers: printed key where it matches the paper, otherwise solved (answer\_src=solved, with working). Exact repeats across papers appear once, with also\_in listing the other copies.}\par\medskip\hrule
 
 \section*{Score-I papers}
-\begin{bankq}[id=SI05-P1-MATH-S1-Q05, source={Score-I - Test 05 (22 Jan 2022)}, paper=1, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI05-P1-MATH-S1-Q05, source={Score-I - Test 05 (22 Jan 2022)}, paper=1, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,D}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: range, a composite with floor given range of a continuous function | steps: g(x) uses greatest integer of f; f range (2, sqrt26) so floor values 2 to 5; range of g; check}]
 If $f(x)$ is a continuous function for all $x\in\mathbb{R}$ and the range of $f(x)$ is $(2,\sqrt{26})$ and $g(x)=\left[\dfrac{f(x)}{a}\right]$ is continuous for all $x\in\mathbb{R}$ ([.] denotes the greatest integer function), then which of the following cannot be a value of `a' :
 \begin{qoptions}
 \opt{A}{2}
@@ -59,6 +59,27 @@ If $f(x)$ is a continuous function for all $x\in\mathbb{R}$ and the range of $f(
 \opt{C}{6}
 \opt{D}{5}
 \end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SI10-P1-MATH-S1-Q04, source={Score-I - Test 10 (24 Feb 2022)}, paper=1, qno=4, type=multi, subtopic={Differentiability of modulus and greatest-integer functions}, answer={C,D}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: differentiability of x ln(abs x) and x{x}, differentiability of a composition | steps: f has an infinite derivative at 0 so A false; g has unequal one-sided slopes at 0 so B false; f of g at 0 inherits the corner of g; at 1 the one-sided slopes of g are 2 and 1 with f prime at 1 nonzero | and x{x}, composition}]
+Let $f(x)=\begin{cases}x\ln|x|; & x\ne0\\ 0; & x=0\end{cases}$ and $g(x)=x\{x\}+1;\ x\ge-1$. Then, choose correct statement(s) :- (where $\{.\}$ is fractional part)
+\begin{qoptions}
+\opt{A}{$f(x)$ is differentiable at $x=0$}
+\opt{B}{$g(x)$ is differentiable at $x=0$}
+\opt{C}{$f\circ g(x)$ is not differentiable at $x=0$}
+\opt{D}{$f\circ g(x)$ is not differentiable at $x=1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SI11-P1-MATH-S2-Q07, source={Score-I - Test 11 (27 Feb 2022)}, paper=1, qno=7, type=multi, subtopic={Differentiability of modulus and greatest-integer functions}, answer={A,C}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: differentiability, a product with an arbitrary function at x = 1 | steps: f has a factor (x - 1) near 1 so f(1) = 0; check derivative of product via limit; continuity of g needed; test each statement | I: f(1) = 0 and f'(1) = 0 behaviours}, also_in={JEE Advanced (2021 Series) - Test 02 (04 Feb 2021) P1 Q7}]
+Let the function $f:\mathbb R\to\mathbb R$ be defined by $f(x)=x^3-x^2+(x-1)\sin x$ and let $g:\mathbb R\to\mathbb R$ be an arbitrary function. Let $fg:\mathbb R\to\mathbb R$ be the product function defined by $(fg)(x)=f(x)g(x)$. Then which of the following statements is/are TRUE ?
+\begin{qoptions}
+\opt{A}{If $g$ is continuous at $x=1$, then $fg$ is differentiable at $x=1$}
+\opt{B}{If $fg$ is differentiable at $x=1$, then $g$ is continuous at $x=1$}
+\opt{C}{If $g$ is differentiable at $x=1$, then $fg$ is differentiable at $x=1$}
+\opt{D}{If $fg$ is differentiable at $x=1$, then $g$ is differentiable at $x=1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SI11-P2-MATH-S3-Q05, source={Score-I - Test 11 (27 Feb 2022)}, paper=2, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={4}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: number of points of discontinuity, non differentiability of a composite | steps: g(x) = x - floor x equals x for x >= 0 and x + 1 for x < 0; f is piecewise linear with kinks at plus minus 1/2; check each region for c and d; sum}]
+Let the functions $f:(-1,1)\to\mathbb R$ and $g:(-1,1)\to(-1,1)$ be defined by $f(x)=|2x-1|+|2x+1|$ and $g(x)=x-[x]$, where $[x]$ denotes the greatest integer less than or equal to $x$. Let $f\circ g:(-1,1)\to\mathbb R$ be the composite function defined by $(f\circ g)(x)=f(g(x))$. Suppose $c$ is the number of points in the interval $(-1,1)$ at which $f\circ g$ is \textbf{NOT} continuous, and suppose $d$ is the number of points in the interval $(-1,1)$ at which $f\circ g$ is \textbf{NOT} differentiable. Then the value of $c+d$ is \underline{\hspace{1cm}}
 \end{bankq}
 \begin{bankq}[id=SI12-P1-MATH-S3-Q09, source={Score-I - Test 12 (09 Mar 2022)}, paper=1, qno=9, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={180}, answer_src=key, difficulty=6, diff_parts={K2 S3 I1 C0 F1}, diff_note={concepts: differentiability of piecewise functions, greatest integer function | steps: f on (0,1) is ax\^{}3 + b; value at 1 from the left; right-hand value and continuity; derivative match; solve a and b; k1\^{}2 + k2\^{}2}]
 If $f(x)=\begin{cases}\dfrac{\tan[x^2]\pi}{ax^2}+ax^3+b, & 0<x\le1\\[6pt] 2\cos\pi x+\tan^{-1}x, & 1<x\le2\end{cases}$ is differentiable in $(0,2]$, then $a=\dfrac1{k_1}$ and $b=\dfrac\pi4-\dfrac{26}{k_2}$.\\
@@ -79,6 +100,25 @@ Find $k_1^2+k_2^2$ {where $[.]$ denotes greatest integer function}.
 \end{tabular}
 \end{center}
 \end{bankq}
+\begin{bankq}[id=SI24-P1-MATH-S1-Q04, source={Score-I - Test 24 (11 Dec 2022)}, paper=1, qno=4, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={concepts: continuity of a piecewise limit function at 0 1 | steps: for x<0 cos^{2n}x tends to 0 if abs cos < 1; at x in (0,1) the nth root tends to 1; for x>1 limit zero; evaluate values and limits at 0 and 1; decide continuity}]
+The function defined as
+\[f(x)=\lim_{n\to\infty}\begin{cases}\cos^{2n}x & \text{if } x<0\\[2pt] \sqrt[n]{1+x^n} & \text{if } 0\le x\le1\\[2pt] \dfrac{1}{1+x^n} & \text{if } x>1\end{cases}\]
+which of the following does hold good.
+\begin{qoptions}
+\opt{A}{Continuous at $x=0$, but discontinuous at $x=1$}
+\opt{B}{Continuous at $x=1$, but discontinuous at $x=0$}
+\opt{C}{Continuous at both $x=1$ and $x=0$}
+\opt{D}{Discontinuous at both $x=1$ and $x=0$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SI24-P1-MATH-S3-Q01, source={Score-I - Test 24 (11 Dec 2022)}, paper=1, qno=1, type=numerical, subtopic={Types of discontinuity}, answer={2}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: number discontinuities of a limit function in an interval | steps: for abs x less than 1/3 the power term tends to zero so f = ln [1 + 9x^2]; for abs x greater than 1/3 f tends to -cos(9x^2); breaks where the integer part jumps and at abs x = 1/3; count in (-3,3)}]
+For the function\\$f(x)=\displaystyle\lim_{n\to\infty}\dfrac{\ln([1+9x^2])-9^nx^{2n}\cos(9x^2)}{1+9^nx^{2n}}$\\number of points of discontinuity in $(-3,3)$ is: (where $[.]$ represents greatest integer function)
+\end{bankq}
+\begin{bankq}[id=SI31-P2-MATH-S2-Q10, source={Score-I - Test 31 (29 Dec 2022)}, paper=2, qno=10, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={9}, answer_src=solved, working={For x < 1 the expression equals (x-3)/(x-2) which lies in (1,2), so f = 1; continuity gives k = 1 and a + b = 0; differentiability gives 2 + a = 0 so a = -2, b = 2; a^2 + b^2 + k^2 = 9. The printed key row for this numeric section is garbled.}, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: constants for differentiability, a piecewise function with greatest integer part | steps: left part simplifies to floor of (x - 3)/(x - 2) = 1 for x less than 1; match value and derivative at 1 with the quadratic; solve a b k; sum of squares}]
+$f(x)=\begin{cases}\left[\dfrac{x^2-4x+3}{x^2-3x+2}\right], & x<1\\ k, & x=1\\ x^2+ax+b, & x>1\end{cases}$
+
+where $[x]$ denotes greatest integer function. If $f(x)$ is differentiable at $x=1$, $a^2+b^2+k^2=$?
+\end{bankq}
 
 \section*{Score-II papers}
 \begin{bankpassage}[id=SII01-P1-MATH-S2-G9-10, source={Score-II - Test 01 (21 Mar 2021)}, questions={9-10}]
@@ -87,7 +127,7 @@ Let $f:\mathbb R\to\mathbb R$ be a function defined as
 \[g(x)=f(x-1)+f(x+1),\; \forall x\in\mathbb R.\]
 Then
 \end{bankpassage}
-\begin{bankq}[id=SII01-P1-MATH-S2-Q09, source={Score-II - Test 01 (21 Mar 2021)}, paper=1, qno=9, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}, group=SII01-P1-MATH-S2-G9-10]
+\begin{bankq}[id=SII01-P1-MATH-S2-Q09, source={Score-II - Test 01 (21 Mar 2021)}, paper=1, qno=9, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: continuity of function g defined from f | steps: check continuity at the points where definition changes; domain of continuity | I: g built from f with absolute value or floor}, group=SII01-P1-MATH-S2-G9-10]
 The function $g(x)$ is continuous for, $x\in$
 \begin{qoptions}
 \opt{A}{$\mathbb R-\{0,1,2,3,4\}$}
@@ -96,7 +136,7 @@ The function $g(x)$ is continuous for, $x\in$
 \opt{D}{None of these}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII01-P1-MATH-S2-Q10, source={Score-II - Test 01 (21 Mar 2021)}, paper=1, qno=10, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}, group=SII01-P1-MATH-S2-G9-10]
+\begin{bankq}[id=SII01-P1-MATH-S2-Q10, source={Score-II - Test 01 (21 Mar 2021)}, paper=1, qno=10, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: differentiability of function g | steps: check differentiability at corners; list the points where it fails | I: corners from absolute values}, group=SII01-P1-MATH-S2-G9-10]
 The function $g(x)$ is differentiable for, $x\in$
 \begin{qoptions}
 \opt{A}{$\mathbb R$}
@@ -105,7 +145,7 @@ The function $g(x)$ is differentiable for, $x\in$
 \opt{D}{None of these}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII01-P2-MATH-S2-Q09, source={Score-II - Test 01 (21 Mar 2021)}, paper=2, qno=9, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII01-P2-MATH-S2-Q09, source={Score-II - Test 01 (21 Mar 2021)}, paper=2, qno=9, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: third match entry for a defined curve | steps: compute asked values; match}]
 Answer the following by appropriately matching the lists based on the information given in the list.
 
 \begin{center}
@@ -129,7 +169,7 @@ Correctly match among the following is:
 \opt{D}{P$\to$2,4; Q$\to$5; R$\to$3; S$\to$5}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII02-P2-MATH-S1-Q05, source={Score-II - Test 02 (28 Mar 2021)}, paper=2, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII02-P2-MATH-S1-Q05, source={Score-II - Test 02 (28 Mar 2021)}, paper=2, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: continuity of a sum of two piecewise functions | steps: continuity at x = 1 gives a; at x = 2 gives b; compute a - b; statements}]
 If $f(x)=\begin{cases}|x|-3 & x<1\\ |x-2|+a & x\ge1\end{cases}$ and $g(x)=\begin{cases}2-|x| & x<2\\ \operatorname{sgn}(x)-b & x\ge2\end{cases}$
 
 and $h(x)=f(x)+g(x)$ is continuous $\forall\, x\in\mathbb{R}$ then which of the following options is/are incorrect
@@ -141,7 +181,7 @@ and $h(x)=f(x)+g(x)$ is continuous $\forall\, x\in\mathbb{R}$ then which of the 
 \opt{D}{Value of `a $+$ b' is $-2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII07-P1-MATH-S1-Q17, source={Score-II - Test 07 (10 Jul 2022)}, paper=1, qno=17, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII07-P1-MATH-S1-Q17, source={Score-II - Test 07 (10 Jul 2022)}, paper=1, qno=17, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: points of differentiability of sin x over (1 + abs x + x^2) | steps: abs x is not differentiable at 0 but the numerator vanishes there; check the derivative at zero; function differentiable everywhere}]
 The set of points where $f(x)=\dfrac{\sin x}{1+|x|+x^2}$ is differentiable is
 \begin{qoptions}
 \opt{A}{$(-\infty,0)\cup(0,\infty)$}
@@ -150,10 +190,10 @@ The set of points where $f(x)=\dfrac{\sin x}{1+|x|+x^2}$ is differentiable is
 \opt{D}{$(-\infty,\infty)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII13-P1-MATH-S2-Q06, source={Score-II - Test 13 (06 Feb 2024)}, paper=1, qno=6, type=numerical, subtopic={Types of discontinuity}, answer={2}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII13-P1-MATH-S2-Q06, source={Score-II - Test 13 (06 Feb 2024)}, paper=1, qno=6, type=numerical, subtopic={Types of discontinuity}, answer={2}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: discontinuities of greatest integer plus fractional part function | steps: [x] jumps at the integers -1 and 0; the fractional part root is continuous; abs([x]) and sqrt of the fractional part at those points; count}]
 Let [x] be the greatest integer $\le$ x. Then the number of points in the interval $(-2,1)$, where the function $f(x)=|[x]|+\sqrt{x-[x]}$ is discontinuous, is\_\_.
 \end{bankq}
-\begin{bankq}[id=SII14-P1-MATH-S1-Q01, source={Score-II - Test 14 (06 Feb 2024)}, paper=1, qno=1, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII14-P1-MATH-S1-Q01, source={Score-II - Test 14 (06 Feb 2024)}, paper=1, qno=1, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: integral of x times the derivative of the inverse function | steps: integrate by parts to give x f^-1(x) minus the integral of f^-1; relate the integral of the inverse with the integral of f over swapped limits; find f(a)=2 f(b)=4 solves a=0 b=1; evaluate integral of f from 0 to 1}]
 Let f \& g are two real valued continuous functions and let $\displaystyle\int g(x)\,dx=f^{-1}(x)$ and $f(x)=x^3+x+\sin\pi x+2$ then the value of $\displaystyle\int_2^4xg(x)$ is
 \begin{qoptions}
 \opt{A}{$\dfrac{-11}{4}-\dfrac2\pi$}
@@ -162,7 +202,7 @@ Let f \& g are two real valued continuous functions and let $\displaystyle\int g
 \opt{D}{$\dfrac{11}{4}+\dfrac2\pi$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII16-P1-MATH-S1-Q05, source={Score-II - Test 16 (09 Feb 2024)}, paper=1, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII16-P1-MATH-S1-Q05, source={Score-II - Test 16 (09 Feb 2024)}, paper=1, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,C,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: continuity of a piecewise function with greatest integer and fractional part | steps: continuity at x=2 from left and right; continuity at x=5 from left and right with fractional part; continuity at points in the first interval where [x] jumps; solve for a b c; evaluate four expressions}]
 If $f(x)=\begin{cases}a[x]+bx^2+1, & -4\le x\le2\\x^2+a\{x\}+b, & 2<x\le5\\\dfrac{cx+4}{x-b}, & 5<x\le6\end{cases}$ is always continuous in it's domain then correct option's is/are\\
 (where [.], \{.\} represents greatest integer function \& fractional part function respectively)
 \begin{qoptions}
@@ -172,7 +212,7 @@ If $f(x)=\begin{cases}a[x]+bx^2+1, & -4\le x\le2\\x^2+a\{x\}+b, & 2<x\le5\\\dfra
 \opt{D}{$\left[\dfrac{c}{10}\right]+\left[\dfrac b2\right]+\left[\dfrac a5\right]=2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII18-P1-MATH-S2-Q07, source={Score-II - Test 18 (13 Feb 2024)}, paper=1, qno=7, type=multi, subtopic={Types of discontinuity}, answer={B,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII18-P1-MATH-S2-Q07, source={Score-II - Test 18 (13 Feb 2024)}, paper=1, qno=7, type=multi, subtopic={Types of discontinuity}, answer={B,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: discontinuity and non-differentiability of fractional part products | steps: jump behaviour of {x}{ax} sin(b pi x) at integers for general a b; case a=-2 b=1 shows no discontinuity and corner at nonzero integers; condition P empty and Q equal to I minus multiples of 3; case a=-1/5 b=-1/3 corners at multiples of 5 and 3 except 15; intersect for each option}]
 Let P, Q \& R be sets defined as following:
 P = \{x : x is point of discontinuities of f(x)\},
 Q = \{x : x is point of non-differentiabilities of f(x)\}
@@ -186,7 +226,7 @@ f(x) = \{x\}$\times$\{ax\}$\sin b\pi x$, where a \& b are real constants (\{.\} 
 \opt{D}{For a = $-\tfrac15$ \& b = $-\tfrac13$, R = \{5n : n$\in$I\} $\cup$ \{3n : n$\in$I\} -- \{15n : n$\in$I\}}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII22-P1-MATH-S1-Q12, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=12, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII22-P1-MATH-S1-Q12, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=12, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: maximum of a piecewise function at the junction | steps: left piece increasing so maximum at x=1 needs the right limit at most f(1); -2 + log2(b^2-4) at most 4; domain of the log}]
 Let $f(x)=\begin{cases}x^3-x^2+10x-7, & x\le1\\-2x+\log_2(b^2-4), & x>1\end{cases}$\\
 Then the set of all values of b, for which f(x) has maximum value at $x=1$, is :
 \begin{qoptions}
@@ -196,10 +236,10 @@ Then the set of all values of b, for which f(x) has maximum value at $x=1$, is :
 \opt{D}{$[-\sqrt6,-2)\cup(2,\sqrt6]$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII22-P1-MATH-S2-Q05, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={3}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII22-P1-MATH-S2-Q05, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={3}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: local extrema of a modulus function | steps: roots of the polynomial inside the modulus 1 and 3; sign changes; derivative of each piece; count minima and maxima in (0,4)}]
 Let $f(x)=\left|(x-1)(x^2-2x-3)\right|+x-3$, $x\in R$. If m and M are respectively the number of points of local minimum and local maximum of f in the interval $(0,4)$, then $m+M$ is equal to \_\_\_\_\_.
 \end{bankq}
-\begin{bankq}[id=SII24-P1-MATH-S1-Q13, source={Score-II - Test 24 (17 Mar 2024)}, paper=1, qno=13, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII24-P1-MATH-S1-Q13, source={Score-II - Test 24 (17 Mar 2024)}, paper=1, qno=13, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: continuity and differentiability of a piecewise function | steps: continuity at x = 1 and -1 gives a and b; check derivatives; choose}]
 If the function $f(x)=\begin{cases}2x & ;\ |x|\leqslant1\\ x^2+ax+b & ;\ |x|>1\end{cases}$ is continuous for all real $x$, then
 \begin{qoptions}
 \opt{A}{$a=2,\ b=-1$ and $f$ is differentiable for all $x$}
@@ -208,12 +248,12 @@ If the function $f(x)=\begin{cases}2x & ;\ |x|\leqslant1\\ x^2+ax+b & ;\ |x|>1\e
 \opt{D}{$a=-2,\ b=-1$ and $f$ is not differentiable at $x=-1,1$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII25-P1-MATH-S2-Q03, source={Score-II - Test 25 (20 Mar 2024)}, paper=1, qno=3, type=numerical, subtopic={Types of discontinuity}, answer={3}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII25-P1-MATH-S2-Q03, source={Score-II - Test 25 (20 Mar 2024)}, paper=1, qno=3, type=numerical, subtopic={Types of discontinuity}, answer={3}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: discontinuities of a function with greatest integer | steps: check points where floor changes in each piece; also check junction at 1; count | I: floor and absolute value both create breaks}]
 The number of points of discontinuity of $f(x)$ in $[0,2]$ where\\
 $f(x)=\begin{cases}[\cos\pi x]&x\leqslant1\\|2x-3|[x-2]&x>1\end{cases}$\\
 ( [.] denotes the greatest integer function)
 \end{bankq}
-\begin{bankq}[id=SII26-P1-MATH-S2-Q06, source={Score-II - Test 26 (20 Mar 2024)}, paper=1, qno=6, type=multi, subtopic={Types of discontinuity}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII26-P1-MATH-S2-Q06, source={Score-II - Test 26 (20 Mar 2024)}, paper=1, qno=6, type=multi, subtopic={Types of discontinuity}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K2 S3 I1 C2 F1}, diff_note={concepts: continuity, differentiability of a function with floor fractional part and sine | steps: simplify f using -[-x] = ceil(x) and fractional part relation; the absolute value term splits where {-x} equals sin x; discontinuities at integers; non-differentiable points counting in (0,7); sign of f; right limit at 5 | C: piecewise analysis with a transcendental switching condition}]
 Let $f(x)=\dfrac{-x+\sin x-[-x]+|\{-x\}-\sin x|}{2}$ then (where $\{\cdot\}$ denotes fractional part of x ; $[\cdot]$ denotes greatest integer $\le$ x)
 \begin{qoptions}
 \opt{A}{$f(x)$ is discontinuous at 7 points in $x\in(0,7)$}
@@ -222,7 +262,7 @@ Let $f(x)=\dfrac{-x+\sin x-[-x]+|\{-x\}-\sin x|}{2}$ then (where $\{\cdot\}$ den
 \opt{D}{$\displaystyle\lim_{x\to5^+}f(x)=1$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII27-P1-MATH-S1-Q08, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=8, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII27-P1-MATH-S1-Q08, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=8, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: points of discontinuity and non differentiability of a piecewise function with floor | steps: floor of x^2 - 2x on [1,2) changes value; list points; count m and n}]
 Let $f(x)=\begin{cases}\left|1-2x^2\right|, & 0\leqslant x<1\\ \left[x^2-2x\right], & 1\leqslant x<2\end{cases}$\\
 If $m,n$ are number of points of discontinuity and non-differentiability of $f(x)$ in $(0,2)$ then ($[.]$ represents greatest integer function)
 \begin{qoptions}
@@ -232,10 +272,10 @@ If $m,n$ are number of points of discontinuity and non-differentiability of $f(x
 \opt{D}{None of these}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII28-P1-MATH-S3-Q05, source={Score-II - Test 28 (23 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={2}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII28-P1-MATH-S3-Q05, source={Score-II - Test 28 (23 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={2}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: non-differentiable points of a max of absolute value functions a composite | steps: max of six shifted absolute values is piecewise linear; kinks of the max; count alpha; g(x) = abs(x^(2 alpha) - 1); points where the inside is zero at x^(2 alpha) = 1; count}]
 If $\alpha$ is the number of points where $f(x)=\max\{|x+5|,\ |x+4|,\ |x+3|,\ |x+2|,\ |x+1|,\ |x|\}$ is non differentiable in $-6<x<1$ then number of points where $g(x)=|x^{2\alpha}-1|$ is non differentiable is
 \end{bankq}
-\begin{bankq}[id=SII30-P1-MATH-S1-Q13, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=13, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII30-P1-MATH-S1-Q13, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=13, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: continuity and differentiability of a piecewise function | steps: continuity at x = 1 and -1 gives a and b; check derivatives; choose}]
 Consider the function $f:(0,2)\to R$ defined by $f(x)=\dfrac x2+\dfrac2x$ and the function $g(x)$ defined by\\
 $g(x)=\begin{cases}\min\{f(t)\}, & 0<t\leqslant x\text{ and }0<x\leqslant1\\ \dfrac32+x, & 1<x<2\end{cases}$. Then
 \begin{qoptions}
@@ -245,10 +285,10 @@ $g(x)=\begin{cases}\min\{f(t)\}, & 0<t\leqslant x\text{ and }0<x\leqslant1\\ \df
 \opt{D}{$g$ is continuous and differentiable for all $x\in(0,2)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII31-P1-MATH-S2-Q08, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=8, type=numerical, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key shows letters for numeric-type items here (misaligned) and the question was not solved; banked as Bonus.}, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII31-P1-MATH-S2-Q08, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=8, type=numerical, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key shows letters for numeric-type items here (misaligned) and the question was not solved; banked as Bonus.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: common tangent or intersection of log and exponential functions | steps: P and Q composition conditions; solve for the value of a; compute asked | I: use inverse relation between the two functions}]
 Let $a\in(0,\infty)$. Let $P:R\to R$ and $Q:(a,\infty)\to R$ be the functions defined by $P(x)=\log_{16}\left(\dfrac{ex}2\right)$ and $Q(x)=\dfrac1{2e}\dfrac{\ell n(x-a)}{\ell n\left(e^x-e^a\right)}$ then value of $100\left|\displaystyle\lim_{x\to a^+}P(Q(x))\right|$ is
 \end{bankq}
-\begin{bankq}[id=SII34-P1-MATH-S1-Q02, source={Score-II - Test 34 (02 Feb 2025)}, paper=1, qno=2, type=multi, subtopic={Types of discontinuity}, answer={A,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII34-P1-MATH-S1-Q02, source={Score-II - Test 34 (02 Feb 2025)}, paper=1, qno=2, type=multi, subtopic={Types of discontinuity}, answer={A,C,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: continuity of combinations and matrix symmetry | steps: if f - g continuous then f and g discontinuous the same way; 3f + g combination; -f + 2g; symmetric skew properties of AB - BA and AB^2 + B^2 A; transposes; check four}]
 $f(x)$ and $g(x)$ are two function discontinuous at $x=a$ and $f(x)-g(x)$ is continuous at $x=a$. Also A \& B are symmetric and skew symmetric matrices respectively of order 3, then which of the following statement is/are true
 \begin{qoptions}
 \opt{A}{$3f(x)+g(x)$ is discontinuous at $x=a$}
@@ -257,7 +297,7 @@ $f(x)$ and $g(x)$ are two function discontinuous at $x=a$ and $f(x)-g(x)$ is con
 \opt{D}{$AB^2+B^2A$ is symmetric}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII35-P1-MATH-S2-Q08, source={Score-II - Test 35 (04 Feb 2025)}, paper=1, qno=8, type=multi, subtopic={Types of discontinuity}, answer={A,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII35-P1-MATH-S2-Q08, source={Score-II - Test 35 (04 Feb 2025)}, paper=1, qno=8, type=multi, subtopic={Types of discontinuity}, answer={A,C,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: continuity and differentiability of a piecewise function with nested modulus | steps: evaluate each piece; limits at x = -1 and 1; kinks of the nested absolute value for x >= 1 at 1 2 and 3; count non-differentiable points; check four}]
 Let $g(x)=\begin{cases}2(x+1)&,\ -\infty<x\leqslant-1\\ \sqrt{1-x^2}&,\ -1<x<1\\ \big|\big||x|-1\big|-1\big|&,\ 1\leqslant x<\infty\end{cases}$, then choose the correct option(s) :
 \begin{qoptions}
 \opt{A}{$g(x)$ is non-differentiable at exactly three points}
@@ -266,7 +306,7 @@ Let $g(x)=\begin{cases}2(x+1)&,\ -\infty<x\leqslant-1\\ \sqrt{1-x^2}&,\ -1<x<1\\
 \opt{D}{$g(x)$ has discontinuity at $x=1$ but continuous at $x=-1$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII38-P1-MATH-S1-Q05, source={Score-II - Test 38 (12 Feb 2025)}, paper=1, qno=5, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII38-P1-MATH-S1-Q05, source={Score-II - Test 38 (12 Feb 2025)}, paper=1, qno=5, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: points of non differentiability of the floor of a sine function | steps: floor changes where 5 abs(n) sin x crosses integers; count the crossing points on [0,pi] including symmetric ones; 19 points condition gives equation in abs n; solve}]
 If $f(x)=[2+5|n|\sin x]$ where $n\in I$, $x\in[0,\pi]$ has exactly 19 points of non differentiability then the possible value of $|n|$ is (where $[\,*\,]$ represents G.I.F.)
 \begin{qoptions}
 \opt{A}{1}
@@ -275,7 +315,7 @@ If $f(x)=[2+5|n|\sin x]$ where $n\in I$, $x\in[0,\pi]$ has exactly 19 points of 
 \opt{D}{4}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII43-P1-MATH-S1-Q12, source={Score-II - Test 43 (23 Mar 2025)}, paper=1, qno=12, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII43-P1-MATH-S1-Q12, source={Score-II - Test 43 (23 Mar 2025)}, paper=1, qno=12, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: continuity of a function with fractional part | steps: left limit at 0 using fractional part and cot; value at 0; continuity conditions; decide}]
 Given a real valued function $f(x)$ defined as\\
 $f(x)=\begin{cases}\dfrac{\tan^2\{x\}}{\left(\{x\}\right)^2} & ;\ x>0\\ 1 & ;\ x=0\\ \sqrt{\{x\}\cot\{x\}} & ;\ x<0\end{cases}$\\
 where $\{x\}$ represent fractional part of $x$. Then which of the following is INCORRECT?
@@ -286,10 +326,10 @@ where $\{x\}$ represent fractional part of $x$. Then which of the following is I
 \opt{D}{$\displaystyle\lim_{x\to0}f(x)$ exists.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII44-P1-MATH-S4-Q06, source={Score-II - Test 44 (23 Mar 2025)}, paper=1, qno=6, type=numerical, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key covers only one subject (chemistry) and this question was not solved; banked as Bonus.}, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII44-P1-MATH-S4-Q06, source={Score-II - Test 44 (23 Mar 2025)}, paper=1, qno=6, type=numerical, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key covers only one subject (chemistry) and this question was not solved; banked as Bonus.}, difficulty=8, diff_parts={K2 S3 I2 C1 F1}, diff_note={concepts: telescoping infinite product of cosines, non-differentiability of combined functions | steps: use 1+2cos t = sin(3t/2)/sin(t/2) to telescope the product to sin x / x; x f(x) = sin x; the sum of the greatest integer and the absolute value of sin x is non-differentiable where sin x crosses 0 and 1 and at turning points; the third term has corners at x=1 and x=2; count in the interval | I: 1+2cos t = sin(3t/2)/sin(t/2) telescopes the infinite product to sin x / x}]
 $f(x)=\displaystyle\prod_{k=1}^\infty\left(\dfrac{1+2\cos\left(\dfrac{2x}{3^k}\right)}3\right)$, then number of points where $[xf(x)]+|xf(x)|+(x-1)|x^2-3x+2|$ is non-differentiable in x$\in(0,3\pi)$ is equal to (where [.] denotes greatest integer function)
 \end{bankq}
-\begin{bankq}[id=SII45-P1-MATH-S1-Q15, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=15, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII45-P1-MATH-S1-Q15, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=15, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: composition with fractional part and sine | steps: g(x) in [-1,1]; f on this range; differentiability points; check statements}]
 $f(x)=\left|\{x\}-\dfrac12\right|$ \& $g(x)=\sin x$ where $\{.\}$ is fractional part.\\
 \textbf{Statement I:} The composite function $f(g(x))$ is non-differentiable in $x\in(0,2\pi)$ at 5 points.\\
 \textbf{Statement II:} If $f(x)$ is non-differentiable \& $g(x)$ is differentiable, then $f(g(x))$ is non-differentiable function.
@@ -300,7 +340,7 @@ $f(x)=\left|\{x\}-\dfrac12\right|$ \& $g(x)=\sin x$ where $\{.\}$ is fractional 
 \opt{D}{First statement false and II statement true.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII46-P1-MATH-S2-Q05, source={Score-II - Test 46 (26 Mar 2025)}, paper=1, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII46-P1-MATH-S2-Q05, source={Score-II - Test 46 (26 Mar 2025)}, paper=1, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={5}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: continuity and differentiability of the maximum of three functions | steps: sketch the three graphs; find crossing points of x^3 - 1/2 with the circle and with the sign function; discontinuities at 0 from the sign function; corners where the maximum switches branch; count}]
 Consider the function
 \[f(x)=\max\left\{x^3-\dfrac12,\,-\sqrt{16-x^2},\,\dfrac{x}{|x|}\right\},\ x\in[-4,4]\]
 m = number of points where the function is discontinuous
@@ -312,10 +352,10 @@ find (m + n)
 \begin{bankq}[id=SA02-P2-MATH-S3-Q05, source={Score Advanced - Test 02 (13 May 2021)}, paper=2, qno=5, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={8}, answer_src=solved, working={Minimum of f is P-128, so P>=128}, difficulty=7, diff_parts={K2 S2 I2 C2 F0}, diff_note={concepts: differentiability of the modulus of a quartic, differentiability of modulus and greatest-integer functions | steps: critical values; condition for no sign change; least parameter}]
 Let a real valued function $f(x) = x^4 + 4x^3 - 8x^2 + P$, P $\in$ R . If $\lambda$ is the least value of P for which $g(x) = |f(x)|$ is differentiable $\forall$ x $\in$ R , then value of $\dfrac{\lambda}{16}$ is equal to
 \end{bankq}
-\begin{bankq}[id=SA06-P1-MATH-S3-Q06, source={Score Advanced - Test 06 (04 Sep 2021)}, paper=1, qno=6, type=numerical, subtopic={Types of discontinuity}, answer={7}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: limit from inequality conditions, types of discontinuity, f(1)=1, f'(1)=4/3 | steps: f(1)=1, f'(1)=4/3; apply L'Hopital}]
+\begin{bankq}[id=SA06-P1-MATH-S3-Q06, source={Score Advanced - Test 06 (04 Sep 2021)}, paper=1, qno=6, type=numerical, subtopic={Types of discontinuity}, answer={7}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: curve with a given normal and an inequality | steps: slope at (1,1); tangent line; the inequality implies tangency; find f(1) f'(1); compute}]
 Normal to the curve y = f(x) at (1, 1) is 3x + 4y = 7. Also $f(x)\geqslant\dfrac{4x-1}{3}$ for x $\geq$ 1 and $f(x)\leqslant\dfrac{4x-1}{3}$ for x $\leq$ 1. where f(x) is twice differentiable everywhere in its domain. Evaluate $\displaystyle\lim_{x\to1}\dfrac{3f'(x)-2f(x)-2x}{f(x)-x^2}$.
 \end{bankq}
-\begin{bankq}[id=SA06-P2-MATH-S1-Q01, source={Score Advanced - Test 06 (04 Sep 2021)}, paper=2, qno=1, type=multi, subtopic={Types of discontinuity}, answer={A,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: function defined by a running maximum, types of discontinuity, local maximum at x=2 and values at 7/2 | steps: local maximum at x=2 and values at 7/2}]
+\begin{bankq}[id=SA06-P2-MATH-S1-Q01, source={Score Advanced - Test 06 (04 Sep 2021)}, paper=2, qno=1, type=multi, subtopic={Types of discontinuity}, answer={A,C}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: running maximum of a cubic | steps: critical points; max over the interval so far; piecewise definition; continuity and differentiability; check}]
 Let f(x) = 2x$^3$ -- 15x$^2$ + 36x -- 23 and g(x) = $\begin{cases}\max\{f(t),\ 1\leqslant t\leqslant x\}, & \text{if } 1\leqslant x\leqslant\frac{7}{2}\\ 12-2x, & \text{if } \frac{7}{2}<x\leqslant 6\end{cases}$\par
 Which is correct about g(x)
 \begin{qoptions}
@@ -325,7 +365,7 @@ Which is correct about g(x)
 \opt{D}{None of these}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA06-P2-MATH-S2-Q08, source={Score Advanced - Test 06 (04 Sep 2021)}, paper=2, qno=8, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: matching counts of discontinuities and extrema, types of discontinuity, check each function separately | steps: check each function separately}]
+\begin{bankq}[id=SA06-P2-MATH-S2-Q08, source={Score Advanced - Test 06 (04 Sep 2021)}, paper=2, qno=8, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: matching with greatest integer and fractional part | steps: evaluate each expression; match}]
 Column-I with Column-II (where [.] denotes GIF and \{.\} denotes fractional part function)\par
 {\footnotesize\setlength{\tabcolsep}{2pt}\noindent\begin{tabular}{|L{.6cm}|L{4.6cm}|L{.6cm}|L{.6cm}|}
 \hline
@@ -342,7 +382,7 @@ Column-I with Column-II (where [.] denotes GIF and \{.\} denotes fractional part
 \opt{D}{P $\rightarrow$ 1;Q $\rightarrow$ 2;R $\rightarrow$ 3;S $\rightarrow$ 4}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA07-P2-MATH-S1-Q02, source={Score Advanced - Test 07 (16 Apr 2023)}, paper=2, qno=2, type=multi, subtopic={Types of discontinuity}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: piecewise function defined by an integral, types of discontinuity, f(2) from both sides | steps: f(2) from both sides; slope from the integral}]
+\begin{bankq}[id=SA07-P2-MATH-S1-Q02, source={Score Advanced - Test 07 (16 Apr 2023)}, paper=2, qno=2, type=multi, subtopic={Types of discontinuity}, answer={B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: piecewise defined integral function | steps: evaluate the integral for x > 1 and x <= 1; continuity; differentiability; check}]
 Let $f$(x) = $\begin{cases}\displaystyle\int_0^{\text{x}}(5+|1-\text{t}|)\text{dt}, & \text{x}>2\\ 5\text{x}+1, & \text{x}\leqslant2\end{cases}$, then
 \begin{qoptions}
 \opt{A}{$f$(x) is differentiable at x = 2}
@@ -351,7 +391,7 @@ Let $f$(x) = $\begin{cases}\displaystyle\int_0^{\text{x}}(5+|1-\text{t}|)\text{d
 \opt{D}{$f$(4) = 25}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA08-P1-MATH-S1-Q05, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=1, qno=5, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: discontinuities of sgn plus greatest integer function, types of discontinuity, sgn is always 1 | steps: sgn is always 1; greatest integer jumps when x\^{}2-x+1 is an integer}]
+\begin{bankq}[id=SA08-P1-MATH-S1-Q05, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=1, qno=5, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: points of discontinuity of sgn and floor | steps: x^2-x+1 range; sgn constant}]
 Number of points of discontinuity of the function $f$(x) = sgn(x$^2$ -- x + 1) + [x$^2$ -- x + 1] in x $\in$ [0, 3] ([.] denotes greatest integer function, sgn \{.\} denotes signum function) -
 \begin{qoptions}
 \opt{A}{7}
@@ -360,7 +400,7 @@ Number of points of discontinuity of the function $f$(x) = sgn(x$^2$ -- x + 1) +
 \opt{D}{8}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA08-P2-MATH-S1-Q04, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=2, qno=4, type=multi, subtopic={Types of discontinuity}, answer={A,B,C}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C1 F1}, diff_note={concepts: continuity fixing a parameter, types of discontinuity, lambda=1 from continuity at 0 | steps: lambda=1 from continuity at 0; check the range}]
+\begin{bankq}[id=SA08-P2-MATH-S1-Q04, source={Score Advanced - Test 08 (22 Apr 2023)}, paper=2, qno=4, type=multi, subtopic={Types of discontinuity}, answer={A,B,C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: continuity and differentiability of a piecewise function | steps: continuity at 0 and at 1; derivative matching; solve lambda; check}]
 Let $f$(x) = $\begin{cases}3^\text{x} & ;\ \text{x}\leq0\\ (\text{x}+\lambda) & ;\ 0<\text{x}<2\\ 3+(\text{x}-2)^2 & ;\ \text{x}\geq2\end{cases}$ is continuous for all x $\in$ R, then which of the following is true -
 \begin{qoptions}
 \opt{A}{Range of $f$(x) is (0, $\infty$)}
@@ -369,7 +409,7 @@ Let $f$(x) = $\begin{cases}3^\text{x} & ;\ \text{x}\leq0\\ (\text{x}+\lambda) & 
 \opt{D}{$f$(x) = 1 has two solutions}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA09-P2-MATH-S2-Q11, source={Score Advanced - Test 09 (29 Apr 2023)}, paper=2, qno=11, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: continuity and differentiability of composite functions, types of discontinuity, piecewise greatest integer and modulus functions | steps: piecewise greatest integer and modulus functions}]
+\begin{bankq}[id=SA09-P2-MATH-S2-Q11, source={Score Advanced - Test 09 (29 Apr 2023)}, paper=2, qno=11, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={concepts: composite of a floor function based f  cosec based g | steps: evaluate f on the intervals; g range on (0,2pi) minus pi; composition f(g(x)); discontinuities; count points; first of two parts}]
 Let $f$(x) = $\begin{cases}[2\text{x}]; & -1\leq\text{x}<1\\ |2\text{x}|; & 1\leq\text{x}\leq2\end{cases}$, g(x) = $\dfrac{\text{cosecx}}{2}$; x $\in$ (0, 2$\pi$) $-$ \{$\pi$\} (where [$\cdot$] denotes the greatest integer function).\par
 List-I : Contains information about $f$($f$(x)), $f$(g(x)), $f$(2g(x)), g($f$(x)).\par
 List-II : Contains information about the continuity and differentiability of $f$($f$(x)), $f$(g(x)), $f$(2g(x)), $f$(2g(x)), g($f$(x)).\par
@@ -391,7 +431,7 @@ Which of the following is the only CORRECT combination?
 \opt{D}{II $\longrightarrow$ P,Q}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA09-P2-MATH-S2-Q12, source={Score Advanced - Test 09 (29 Apr 2023)}, paper=2, qno=12, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: only correct combination of the second list, types of discontinuity, same functions as the previous question | steps: same functions as the previous question}]
+\begin{bankq}[id=SA09-P2-MATH-S2-Q12, source={Score Advanced - Test 09 (29 Apr 2023)}, paper=2, qno=12, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: second statement set for the same composite function | steps: range of g(f(x)) and f(g(x)); continuity and differentiability at the junction points; counts of points; check options}]
 Let $f$(x) = $\begin{cases}[2\text{x}]; & -1\leq\text{x}<1\\ |2\text{x}|; & 1\leq\text{x}\leq2\end{cases}$, g(x) = $\dfrac{\text{cosecx}}{2}$; x $\in$ (0, 2$\pi$) $-$ \{$\pi$\} (where [$\cdot$] denotes the greatest integer function).\par
 List-I : Contains information about $f$($f$(x)), $f$(g(x)), $f$(2g(x)), g($f$(x)).\par
 List-II : Contains information about the continuity and differentiability of $f$($f$(x)), $f$(g(x)), $f$(2g(x)), $f$(2g(x)), g($f$(x)).\par
@@ -413,7 +453,7 @@ Which of the following is the only CORRECT combination?
 \opt{D}{II $\longrightarrow$ R,T}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA10-P1-MATH-S1-Q05, source={Score Advanced - Test 10 (06 May 2023)}, paper=1, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,C}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C1 F1}, diff_note={concepts: piecewise function defined by an integral, types of discontinuity, continuity at 2 from the integral | steps: continuity at 2 from the integral; differentiability on each side}]
+\begin{bankq}[id=SA10-P1-MATH-S1-Q05, source={Score Advanced - Test 10 (06 May 2023)}, paper=1, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: piecewise function with an integral | steps: evaluate the integral part; continuity at 2; derivative at 2; check}]
 Let f(x) = $\begin{cases} 5\text{x} & \text{x} \leq 2 \\ \displaystyle\int_0^{\text{x}} (4 + |2 - \text{t}|)\text{dt} & \text{x} > 2 \end{cases}$, then :
 \begin{qoptions}
 \opt{A}{f(x) is continuous but not differentiable at x = 2.}
@@ -422,7 +462,7 @@ Let f(x) = $\begin{cases} 5\text{x} & \text{x} \leq 2 \\ \displaystyle\int_0^{\t
 \opt{D}{The right hand derivative of f(x) at x = 3 does not exist.}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA10-P2-MATH-S2-Q08, source={Score Advanced - Test 10 (06 May 2023)}, paper=2, qno=8, type=multi, subtopic={Types of discontinuity}, answer={B,C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: piecewise function continuity and monotonicity, types of discontinuity, check at the break points | steps: check at the break points}]
+\begin{bankq}[id=SA10-P2-MATH-S2-Q08, source={Score Advanced - Test 10 (06 May 2023)}, paper=2, qno=8, type=multi, subtopic={Types of discontinuity}, answer={B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: piecewise function differentiability | steps: continuity at the break; derivative; second derivative; check}]
 Let f : R $\longrightarrow$ R is given by\par
 f(x) = $\begin{cases} (\text{x}+1)^3 + \text{x}, & \text{x} < 0 \\ \text{x}^2 - \text{x} + 1, & 0 \leq \text{x} < 1 \\ \dfrac{1}{2}\text{x}^2 - 4\text{x} + \dfrac{9}{2}, & 1 \leq \text{x} < 3 \\ (\text{x}-2)\ell\text{n}(\text{x}-2) - \text{x}, & \text{x} \geq 3 \end{cases}$\par
 then which of the following option is/are correct?
@@ -438,7 +478,7 @@ For all x $\in$ $\left[-\dfrac{7}{2},\dfrac{7}{2}\right]$, let f (x) = $\begin{c
 (where [k] denotes greatest integer function less than or equal to k and \{k\} denotes fractional part of k)\par
 On the basis of above information, answer the following questions :\par
 \end{bankpassage}
-\begin{bankq}[id=SA13-P2-MATH-S2-Q05, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=5, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: solutions of a piecewise function equation, types of discontinuity, graph in each half unit interval | steps: graph in each half unit interval}, group=SA13-P2-MATH-S2-G5-6]
+\begin{bankq}[id=SA13-P2-MATH-S2-Q05, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=5, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: piecewise function with floor and fractional part | steps: define f on each interval; count solutions of f = 5/2}, group=SA13-P2-MATH-S2-G5-6]
 Number of solution of the equation f (x) = $\dfrac{5}{2}$ is equal to
 \begin{qoptions}
 \opt{A}{2}
@@ -447,7 +487,7 @@ Number of solution of the equation f (x) = $\dfrac{5}{2}$ is equal to
 \opt{D}{infinite}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA13-P2-MATH-S2-Q06, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=6, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: points of discontinuity and non-differentiability, types of discontinuity, count each type from the graph | steps: count each type from the graph}, group=SA13-P2-MATH-S2-G5-6]
+\begin{bankq}[id=SA13-P2-MATH-S2-Q06, source={Score Advanced - Test 13 (13 May 2023)}, paper=2, qno=6, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: discontinuity and non differentiability of f | steps: points where the definition changes; check continuity at each; differentiability; compute}, group=SA13-P2-MATH-S2-G5-6]
 If L denotes number of points of discontinuity and M is the number of points of non-differentiability of function f(x) then (L + M) is equal to
 \begin{qoptions}
 \opt{A}{18}
@@ -456,7 +496,7 @@ If L denotes number of points of discontinuity and M is the number of points of 
 \opt{D}{22}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA14-P1-MATH-S2-Q10, source={Score Advanced - Test 14 (16 May 2023)}, paper=1, qno=10, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: running maximum and minimum of a function with modulus, types of discontinuity, graph of f | steps: graph of f; g from running extremum}]
+\begin{bankq}[id=SA14-P1-MATH-S2-Q10, source={Score Advanced - Test 14 (16 May 2023)}, paper=1, qno=10, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={concepts: min  max function constructed from f(x) = x^2 - 2 abs(x) | steps: graph of f; define g as running minimum on [-2,0) and running maximum on [0,2]; piecewise formula; continuity and differentiability; area or other property}]
 Let f(x) be a real valued function defined by f(x) = x$^2$ $-$ 2 $|$x$|$ and\par
 g(x) = $\begin{cases}\text{minimum }\{\text{f(t)}:-2\leq\text{t}\leq\text{x}\} & \text{x}\in[-2,0)\\ \text{maximum }\{\text{f(t)}:0\leq\text{t}\leq\text{x}\} & \text{x}\in[0,3]\end{cases}$\par
 {\footnotesize\setlength{\tabcolsep}{1.5pt}\noindent\begin{tabular}{|c|L{4.8cm}|c|c|}
@@ -482,7 +522,7 @@ Code:
 \opt{D}{P $\rightarrow$ 2;Q $\rightarrow$ 2,4;R $\rightarrow$ 4;S $\rightarrow$ 5}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA20-P1-MATH-S2-Q10, source={Score Advanced - Test 20 (06 Apr 2024)}, paper=1, qno=10, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=8, diff_parts={K3 S2 I2 C2 F0}, diff_note={concepts: continuity and local extrema of a min max function, types of discontinuity, sketch f | steps: sketch f; build g; check each property}]
+\begin{bankq}[id=SA20-P1-MATH-S2-Q10, source={Score Advanced - Test 20 (06 Apr 2024)}, paper=1, qno=10, type=single, subtopic={Types of discontinuity}, answer={D}, answer_src=key, difficulty=5, diff_parts={K1 S3 I1 C1 F0}, diff_note={concepts: min  max function constructed from f(x) = x^2 - 2 abs(x) | steps: graph of f; define g as running minimum on [-2,0) and running maximum on [0,2]; piecewise formula; continuity and differentiability; area or other property}]
 Let $f(x)$ be a real valued function defined by $f(x)=x^2-2\,|x|$ and\par
 $g(x)=\begin{cases}\text{minimum }\{f(t):-2\le t\le x\}&x\in[-2,0)\\[2pt]\text{maximum }\{f(t):0\le t\le x\}&x\in[0,3]\end{cases}$\par
 {\footnotesize\setlength{\tabcolsep}{2pt}\noindent\begin{tabular}{|c|L{4.6cm}|c|L{1.0cm}|}
@@ -505,7 +545,7 @@ Code:
 \begin{bankpassage}[id=SA22-P2-MATH-S3-G15-16, source={Score Advanced - Test 22 (10 Apr 2024)}, questions={15-16}]
 Let $f(x)=|||x|-1|-1|$ and $g(x)=\{\max(f(t);\ x\le t\le x+1,\ x\in R)\}$ then answer the following
 \end{bankpassage}
-\begin{bankq}[id=SA22-P2-MATH-S3-Q15, source={Score Advanced - Test 22 (10 Apr 2024)}, paper=2, qno=15, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={A}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: points where a max of a modulus function is not differentiable, differentiability of modulus and greatest-integer functions, sketch f | steps: sketch f; sliding window maximum}, group=SA22-P2-MATH-S3-G15-16]
+\begin{bankq}[id=SA22-P2-MATH-S3-Q15, source={Score Advanced - Test 22 (10 Apr 2024)}, paper=2, qno=15, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={A}, answer_src=key, difficulty=6, diff_parts={K1 S3 I2 C1 F0}, diff_note={concepts: non differentiable points of the max of a function over a unit window | steps: f = abs(abs(abs x - 1) - 1) is a W-like zigzag; g(x) = max over t in [x, x+1] of f(t); piecewise linear; kinks occur at x where the max switches; count over the real line | I: g is the sliding maximum of a piecewise linear function}, group=SA22-P2-MATH-S3-G15-16]
 The number of points of non-differentiability of g(x) is \_\_\_
 \begin{qoptions}
 \opt{A}{7}
@@ -514,7 +554,7 @@ The number of points of non-differentiability of g(x) is \_\_\_
 \opt{D}{5}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA22-P2-MATH-S3-Q16, source={Score Advanced - Test 22 (10 Apr 2024)}, paper=2, qno=16, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={B}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: symmetry of the window maximum function, differentiability of modulus and greatest-integer functions, g(x) symmetric about x=-1/2 | steps: g(x) symmetric about x=-1/2}, group=SA22-P2-MATH-S3-G15-16]
+\begin{bankq}[id=SA22-P2-MATH-S3-Q16, source={Score Advanced - Test 22 (10 Apr 2024)}, paper=2, qno=16, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={B}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: symmetry axis of the sliding maximum function g | steps: f symmetric about x = 0 and periodic structure; sliding window [x, x+1] mirrored about x = -1/2; g(x) = g(-1-x); so symmetric about x = -1/2 | I: reflection of the window about its centre}, group=SA22-P2-MATH-S3-G15-16]
 The graph of g (x) is symmetric about the line
 \begin{qoptions}
 \opt{A}{$x=\dfrac12$}
@@ -527,13 +567,13 @@ The graph of g (x) is symmetric about the line
 Let \par\resizebox{\linewidth}{!}{$f(x)=\begin{cases}\displaystyle\lim_{n\to\infty}\left(\dfrac{ax}{n}\left(\sum_{K=1}^{a}\dfrac{\left[K^2-e^{-x}+K-1\right]}{K(K+1)}\right)\right)+\lambda, & x>0\\[2ex] b, & x=0\\[2ex] \displaystyle\lim_{n\to\infty}\sum_{K=1}^{a}\dfrac{\left\{K^2+K+e^{x}-1^2\right\}}{K(K+1)}, & x<0\end{cases}$}\par
 (Where [$\cdot$] and \{$\cdot$\} denotes G.I.F and F.P. F respectively) is differentiable in R then
 \end{bankpassage}
-\begin{bankq}[id=SA23-P2-MATH-S3-Q05, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=2, qno=5, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={3}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: constants for a differentiable piecewise function, differentiability of modulus and greatest-integer functions, limits give f(x)=ax+lambda for x>0 and e\^{}x for x<0 | steps: limits give f(x)=ax+lambda for x>0 and e\^{}x for x<0; match values and derivatives}, group=SA23-P2-MATH-S3-G5-6]
+\begin{bankq}[id=SA23-P2-MATH-S3-Q05, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=2, qno=5, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={3}, answer_src=key, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: piecewise function defined by limits  finding parameters | steps: evaluate the limit expression: sum of floors; Riemann like limit giving a polynomial in x; second piece with exponentials; continuity or differentiability conditions determine a b lambda; sum | I: the floor sum reduces to a closed form for large n}, group=SA23-P2-MATH-S3-G5-6]
 The value of a + b + $\lambda$ is equal to
 \end{bankq}
-\begin{bankq}[id=SA23-P2-MATH-S3-Q06, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=2, qno=6, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={4}, answer_src=solved, working={With a=1, b=1, lambda=1 the function is x+1 for x>0 and e\^{}x for x<=0, so f'(x)=1 for x>0 and e\^{}x for x<0. The first argument ln2 is positive giving 1; the others give 1/2, 3/4, 5/8, ... = (2n-1)/2\^{}n. The series sums to 2 x 2 - 1 = 3, so the total is 4.}, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: sum of derivative values at points of a sequence, rules, f'(x)=1 for x>0 and e\^{}x for x<0 | steps: f'(x)=1 for x>0 and e\^{}x for x<0; sum 1 plus the series of (2n-1)/2\^{}n}, group=SA23-P2-MATH-S3-G5-6]
+\begin{bankq}[id=SA23-P2-MATH-S3-Q06, source={Score Advanced - Test 23 (14 Apr 2024)}, paper=2, qno=6, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={4}, answer_src=solved, working={With a=1, b=1, lambda=1 the function is x+1 for x>0 and e\^{}x for x<=0, so f'(x)=1 for x>0 and e\^{}x for x<0. The first argument ln2 is positive giving 1; the others give 1/2, 3/4, 5/8, ... = (2n-1)/2\^{}n. The series sums to 2 x 2 - 1 = 3, so the total is 4.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: infinite sum  derivative values at logarithmic points | steps: f' evaluated at ln 2, ln(1/2), ln(3/4), ln(5/8); f derivative expressed via exponentials; terms form a geometric-like sequence; sum to infinity | I: derivative values form a telescoping or geometric pattern}, group=SA23-P2-MATH-S3-G5-6]
 The value of $f\,'(\log_e2)+f\,'(\log_e1/2)+f\,'(\log_e3/2^2)+\ f\,'(\log_e5/2^3)+\dots\infty$ is
 \end{bankq}
-\begin{bankq}[id=SA27-P2-MATH-S1-Q04, source={Score Advanced - Test 27 (24 Apr 2024)}, paper=2, qno=4, type=multi, subtopic={Types of discontinuity}, answer={A,B}, answer_src=solved, working={f(1-)=1-a, f(1)=2 so f is never continuous at 1. g is continuous at 2 only for c=4. With the set {1,2,3,4,5,6}: N1 = 5 x 6 = 30, h is continuous at 1 only for c=1 so N2 = 6, and N3 (c=4) = 6 so the sum is 42. Options A and B.}, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: counting functions h = f g with discontinuity conditions, types of discontinuity, jump of f at 1 never vanishes | steps: jump of f at 1 never vanishes; g continuous at 2 only if c=4}]
+\begin{bankq}[id=SA27-P2-MATH-S1-Q04, source={Score Advanced - Test 27 (24 Apr 2024)}, paper=2, qno=4, type=multi, subtopic={Types of discontinuity}, answer={A,B}, answer_src=solved, working={f(1-)=1-a, f(1)=2 so f is never continuous at 1. g is continuous at 2 only for c=4. With the set {1,2,3,4,5,6}: N1 = 5 x 6 = 30, h is continuous at 1 only for c=1 so N2 = 6, and N3 (c=4) = 6 so the sum is 42. Options A and B.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: probability that a piecewise function is continuous for randomly chosen a and c | steps: continuity condition at the breakpoint gives an equation in a and c; count pairs (a,c) from X x X satisfying; probability = favourable/25; other pieces}]
 Let X = \{1,2,3,5,6\} and a, c are natural numbers selected from set X with replacement.\par
 Let $\mathrm f(\mathrm x)=\begin{cases}\mathrm x^2+\mathrm x&\mathrm x\geqslant1\\\mathrm x^2-\mathrm{ax}&\mathrm x>1\end{cases}$, $\mathrm g(\mathrm x)=\begin{cases}\mathrm x^2-\mathrm{cx},&\mathrm x\leqslant2\\\mathrm x^2-4\mathrm x,&\mathrm x>2\end{cases}$ and h(x) = f(x).g(x), x $\in$ R\par
 N$_1$ = Number of function h(x) such that f(x) and g(x) are both discontinuous\par
@@ -546,7 +586,7 @@ N$_3$ = Number of function h(x) such that h(x) is discontinuous at x = 1 and con
 \opt{D}{N$_1$ + N$_2$ + N$_3$ = 45}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA28-P2-MATH-S1-Q01, source={Score Advanced - Test 28 (27 Apr 2024)}, paper=2, qno=1, type=multi, subtopic={Types of discontinuity}, answer={C,D}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: limit defined function with modulus and continuity statements, types of discontinuity, evaluate the limit using the modulus | steps: evaluate the limit using the modulus; check points of discontinuity}]
+\begin{bankq}[id=SA28-P2-MATH-S1-Q01, source={Score Advanced - Test 28 (27 Apr 2024)}, paper=2, qno=1, type=multi, subtopic={Types of discontinuity}, answer={C,D}, answer_src=key, difficulty=5, diff_parts={K1 S1 I2 C1 F1}, diff_note={concepts: limit of -n^3 times an expression with arctan  exponentials | steps: expand 2 arctan(e^{ | I: cancellation of lower order terms leaves a cubic term}]
 Let\par
 \resizebox{\linewidth}{!}{$\mathrm f(x)=\displaystyle\lim_{n\to\infty}(-n^3)\left(\left|2\tan^{-1}\left(\mathrm e^{|x|}-\mathrm e\right)-\dfrac1{n^3}\right|-2\left|\tan^{-1}\left(\mathrm e^{|x|}-\mathrm e\right)\right|\right),\ x\in\mathbb R$}\par
 then which of the following statement(s) is(are) correct ?
@@ -557,7 +597,7 @@ then which of the following statement(s) is(are) correct ?
 \opt{D}{Number of solution of f(x) = sgn(x) is infinite. (Where sgn(x) is the signum function of x)}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA29-P1-MATH-S2-Q09, source={Score Advanced - Test 29 (01 May 2024)}, paper=1, qno=9, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: duplicate or standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA29-P1-MATH-S2-Q09, source={Score Advanced - Test 29 (01 May 2024)}, paper=1, qno=9, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=9, diff_parts={K3 S3 I2 C2 F0}, diff_note={concepts: minimum of two functions on an interval, integer range, extrema and solutions of f equals one | steps: compare sec squared and the sine expression on the interval; the minimum function switches at the intersection; range of f; local extrema; integer values; solutions of f equals one; match counts}]
 Let $f(x)=\min\{\sec^2\pi x,\ 3-\sqrt2\sin\pi x\}$, x $\in\left(0,\dfrac12\right)$\par
 {\footnotesize\setlength{\tabcolsep}{1.5pt}\noindent\begin{tabular}{|c|L{4.6cm}|c|L{0.8cm}|}
 \hline
@@ -575,14 +615,14 @@ Let $f(x)=\min\{\sec^2\pi x,\ 3-\sqrt2\sin\pi x\}$, x $\in\left(0,\dfrac12\right
 \opt{D}{A $\rightarrow$ P;B $\rightarrow$ S;C $\rightarrow$ Q;D $\rightarrow$ R}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA34-P1-MATH-S3-Q04, source={Score Advanced - Test 34 (12 May 2024)}, paper=1, qno=4, type=numerical, subtopic={Types of discontinuity}, answer={16}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}, also_in={Score Advanced - Test 36 (19 May 2024) P1 Q4}]
+\begin{bankq}[id=SA34-P1-MATH-S3-Q04, source={Score Advanced - Test 34 (12 May 2024)}, paper=1, qno=4, type=numerical, subtopic={Types of discontinuity}, answer={16}, answer_src=key, difficulty=5, diff_parts={K2 S1 I1 C1 F1}, diff_note={concepts: number, solutions of g(g(x)) = sgn of a quadratic in x | steps: discriminant of x^2 - (k+1) x + k^2 + 1 is -3k^2 + 2k - 3 <0 so the quadratic is always positive and sgn = 1; solve g(g(x)) = 1 using the graph of g =}, also_in={Score Advanced - Test 36 (19 May 2024) P1 Q4}]
 Graph of a function y = f(x) is shown as\par
 \bfig{108.3}{SA34_p1_math_s3_q04_1.png}
 If g(x) = $|$f($|$x$|$)$|$, then find number of solution(s) of the equation\par
 g(g(x)) = sgn(x$^2-$(k + 1)x + (k$^2$ + 1)), k $\in$ R.\par
 [Note : sgn(y) denotes the signum function of y.]
 \end{bankq}
-\begin{bankq}[id=SA38-P1-MATH-S3-Q11, source={Score Advanced - Test 38 (13 Apr 2025)}, paper=1, qno=11, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA38-P1-MATH-S3-Q11, source={Score Advanced - Test 38 (13 Apr 2025)}, paper=1, qno=11, type=single, subtopic={Types of discontinuity}, answer={C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I2 C1 F0}, diff_note={concepts: properties, function h built from f g with various coefficients | steps: f(x) = x^2 sin(1/x) is differentiable with f'(0) = 0 and not one-one; g piecewise; evaluate h for each of four coefficient choices; check differentiability onto one-one and range statements | I: x^2 sin(1/x) is differentiable at zero but its derivative is discontinuous}]
 Let f : R $\to$ R \& g : R $\to$ R, be functions defined by f(x) = $\begin{cases}x^2\sin\frac1x,&x\neq0\\0,&x=0\end{cases}$ \& g(x) = $\begin{cases}1-x,&0\leqslant x<1\\0,&\text{otherwise}\end{cases}$ where a, b, c, d $\in$ R. Let h(x) be a function, h : R $\to$ R, h(x) = af(x) + b(g(x) + g(1 $-$ x)) + c(x $-$ g(x)) + dg(x), x $\in$ R\par
 Match List-I \& List-II\par
 {\footnotesize\setlength{\tabcolsep}{1.5pt}\noindent\begin{tabular}{|c|L{3.6cm}|c|L{3.0cm}|}
@@ -601,7 +641,7 @@ Match List-I \& List-II\par
 \opt{D}{P $\to$ 5;Q $\to$ 2;R $\to$ 1;S $\to$ 5}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA38-P2-MATH-S1-Q04, source={Score Advanced - Test 38 (13 Apr 2025)}, paper=2, qno=4, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA38-P2-MATH-S1-Q04, source={Score Advanced - Test 38 (13 Apr 2025)}, paper=2, qno=4, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: properties of f(x) = x^2 sin(pi/x^2): zeros, continuity | steps: f is continuous at 0 and f(x) = 0 when pi/x^2 = n pi i.e. x = 1/sqrt n; infinitely many zeros accumulating at zero; no zeros above 1 for x > 1; check intervals of the statements}]
 Let f : $\mathbb R\to\mathbb R$ be a function defined by f(x) = $\begin{cases}\mathrm x^2\sin\left(\frac\pi{\mathrm x^2}\right),&\text{if x}\neq0\\0,&\text{if x = 0}\end{cases}$. Then which of the following statements is TRUE ?
 \begin{qoptions}
 \opt{A}{f(x) = 0 has finitely many solutions in the interval $\left[\dfrac1{10^{10}},\infty\right)$}
@@ -614,7 +654,7 @@ Let f : $\mathbb R\to\mathbb R$ be a function defined by f(x) = $\begin{cases}\m
 Consider, f(x) = $\displaystyle\lim_{\mathrm n\to\infty}\dfrac{\mathrm{sgn}(\sqrt{\mathrm{ac}}-\mathrm b)\mathrm e^{\mathrm{nx}}+\mathrm x^2+\mathrm f}{2\mathrm e^{\mathrm{nx}+\mathrm x}+\mathrm x+\mathrm d}$ where a $>$ b $>$ c $>$ 0 and d, f $\in$ R\par
 [Note: sgn (y) denotes the signum function of y.]
 \end{bankpassage}
-\begin{bankq}[id=SA39-P2-MATH-S2-Q07, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=7, type=single, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}, group=SA39-P2-MATH-S2-G7-8]
+\begin{bankq}[id=SA39-P2-MATH-S2-Q07, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=7, type=single, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: continuity, a piecewise function with a b c in arithmetic progression | steps: f is defined on three intervals with parameters; continuity at the break points gives equations in a b c d; a b c in AP gives relation; solve for 2f + d + 1}, group=SA39-P2-MATH-S2-G7-8]
 If a, b and c are in A.P. and f (x) is continuous for all x $\in$ R, then the value of (2f + d + 1) is equal to :
 \begin{qoptions}
 \opt{A}{0}
@@ -623,7 +663,7 @@ If a, b and c are in A.P. and f (x) is continuous for all x $\in$ R, then the va
 \opt{D}{$\dfrac{-1}2$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA39-P2-MATH-S2-Q08, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=8, type=single, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, types of discontinuity | steps: apply the relevant results; compute}, group=SA39-P2-MATH-S2-G7-8]
+\begin{bankq}[id=SA39-P2-MATH-S2-Q08, source={Score Advanced - Test 39 (20 Apr 2025)}, paper=2, qno=8, type=single, subtopic={Types of discontinuity}, answer={Bonus}, answer_src=solved, working={Printed key for this paper is incomplete and the figure/data needed to solve it was not recoverable; banked as Bonus.}, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: number, solutions of f(x) equal to a modulus expression | steps: with a b c in GP and f continuous determine f's pieces; plot f and the graph}, group=SA39-P2-MATH-S2-G7-8]
 If a, b and c are in G.P. and f(x) is continuous for all x $\in$ R (d $<$ 0), then number of solutions of the equation f(x) = $||$x $-$ 4$|-$ 2$|-$ 1 is (are) :
 \begin{qoptions}
 \opt{A}{0}
@@ -632,7 +672,7 @@ If a, b and c are in G.P. and f(x) is continuous for all x $\in$ R (d $<$ 0), th
 \opt{D}{4}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SA40-P2-MATH-S1-Q04, source={Score Advanced - Test 40 (27 Apr 2025)}, paper=2, qno=4, type=multi, subtopic={Types of discontinuity}, answer={B,C}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, types of discontinuity, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA40-P2-MATH-S1-Q04, source={Score Advanced - Test 40 (27 Apr 2025)}, paper=2, qno=4, type=multi, subtopic={Types of discontinuity}, answer={B,C}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: roots, a cubic with a condition relating coefficients | steps: (a + 2c)/(b + 3d) = -4/3: 3a + 6c + 4b + 12d = 0; consider integral of the polynomial P(x) = a x^4/4 the antiderivative values at -1, 0, 1 give a relation; Rolle or sign argument shows a root in an interval}]
 Let a, b, c, d $\in$ R such that $\dfrac{a+2c}{b+3d}+\dfrac43=0$, then the equation $ax^3+bx^2+cx+d=0$ has
 \begin{qoptions}
 \opt{A}{at least one root in $(-1,0)$}
@@ -642,11 +682,43 @@ Let a, b, c, d $\in$ R such that $\dfrac{a+2c}{b+3d}+\dfrac43=0$, then the equat
 \end{qoptions}
 \end{bankq}
 
+\section*{JEE Advanced (2021 Series) papers}
+\begin{bankq}[id=JA01-P1-MATH-S2-Q12, source={JEE Advanced (2021 Series) - Test 01 (24 Jan 2021)}, paper=1, qno=12, type=multi, subtopic={Types of discontinuity}, answer={A,B,C,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: constants conditions for Rolle theorem on a piecewise function | steps: continuity at plus minus 1 and differentiability; derivative zero at some point; f(-3) = f(3); solve a b c from the conditions; check each}]
+If Rolle's theorem is applicable to the function $f$ defined by $f(x)=\begin{cases}ax^2+b&;\ |x|<1\\ 1&;\ |x|=1\\ \dfrac{c}{|x|}&;\ |x|>1\end{cases}$ in the interval $[-3,3]$ then which of the following alternative is/are correct.
+\begin{qoptions}
+\opt{A}{$a+b+c=2$}
+\opt{B}{$|a|+|b|+|c|=3$}
+\opt{C}{$2a+4b+3c=8$}
+\opt{D}{$4a^2+4b^2+4c^2=14$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA02-P2-MATH-S1-Q03, source={JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)}, paper=2, qno=3, type=multi, subtopic={Types of discontinuity}, answer={A,B,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: functional equation f(x + y) = f(x) + f(y) + f(x) f(y) limits | steps: g defined from f; limit definition of derivative gives f'(x) = (1 + f(x)) f'(0); so f' = f + 1; check statements}]
+Let $f:\mathbb R\to\mathbb R$ and $g:\mathbb R\to\mathbb R$ be functions satisfying $f(x+y)=f(x)+f(y)+f(x)f(y)$ and $f(x)=xg(x)$ for all $x,y\in\mathbb R$. If $\displaystyle\lim_{x\to0}g(x)=1$, then which of the following statements is/are TRUE?
+\begin{qoptions}
+\opt{A}{$f$ is differentiable at every $x\in\mathbb R$}
+\opt{B}{If $g(0)=1$, then $g$ is differentiable at every $x\in\mathbb R$}
+\opt{C}{The derivative $f'(1)$ is equal to $1$}
+\opt{D}{The derivative $f'(0)$ is equal to $1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=JA02-P2-MATH-S3-Q05, source={JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)}, paper=2, qno=5, type=numerical, subtopic={Types of discontinuity}, answer={4}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: number of points of discontinuity, non differentiability of a composite | steps: g(x) = x - floor x equals x for x >= 0 and x + 1 for x < 0; f is piecewise linear with kinks at plus minus 1/2; check each region for c and d; sum}]
+Let the functions $f:(-1,1)\to\mathbb R$ and $g:(-1,1)\to(-1,1)$ be defined by $f(x)=|2x-1|+|2x+1|$ and $g(x)=x-[x]$, where $[x]$ denotes the greatest integer less than or equal to $x$. Let $f\circ g:(-1,1)\to\mathbb R$ be the composite function defined by $(f\circ g)(x)=f(g(x))$. Suppose $c$ is the number of points in the interval $(-1,1)$ at which $f\circ g$ is NOT continuous, and suppose $d$ is the number of points in the interval $(-1,1)$ at which $f\circ g$ is NOT differentiable. Then the value of $c+d$ is \underline{\hspace{2cm}}.
+\end{bankq}
+\begin{bankq}[id=JA03-P1-MATH-S2-Q06, source={JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)}, paper=1, qno=6, type=multi, subtopic={Types of discontinuity}, answer={A,D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: continuity and differentiability of a piecewise function defined by an integral | steps: for x > 2 the integral up to 2 of 5 + abs(1 - t) equals 11 so f(2+) = 11 = f(2); left derivative 5; right derivative 5 + abs(1 - 2) = 6; derivatives differ}]
+Let $f(x)=\begin{cases}\displaystyle\int_0^x(5+|1-t|)\,dt, & \text{if } x>2\\ 5x+1, & \text{if } x\le2\end{cases}$ then the function is
+\begin{qoptions}
+\opt{A}{continuous at $x=2$}
+\opt{B}{differentiable at $x=2$}
+\opt{C}{discontinuous at $x=2$}
+\opt{D}{not differentiable at $x=2$}
+\end{qoptions}
+\end{bankq}
+
 \section*{TOAS papers}
 \begin{bankq}[id=TOAS06-P1-MATH-S3-Q01, source={TOAS - Test 06 (17 Apr 2022)}, paper=1, qno=1, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={1.00}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: non-differentiability of a modulus function | steps: zeros of the factors; multiplicity at each zero; count zeros of odd multiplicity | I: multiplicity argument}]
 Number of points where \[ f(x)=\left|(2^x-1)(3^x-3)\,x(x-1)(x-2)\right| \] is not differentiable, is
 \end{bankq}
-\begin{bankq}[id=TOAS07-P1-MATH-S2-Q09, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=9, type=multi, subtopic={Types of discontinuity}, answer={A,B,C,D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: discontinuities of a composed greatest integer function | steps: gofog = x/(1 - x); where it crosses integers; where it is undefined | I: composition reduces to a Mobius function}]
+\begin{bankq}[id=TOAS07-P1-MATH-S2-Q09, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=9, type=multi, subtopic={Types of discontinuity}, answer={A,B,C,D}, answer_src=key, difficulty=6, diff_parts={K3 S2 I1 C0 F1}, diff_note={concepts: composition, greatest integer, discontinuity | steps: compute gofog; points where it is an integer; set of discontinuities}]
 Let $f(x)=x-1$ \& $g(x)=\dfrac1x$, then the set of points, where $[(gofog)(x)]$ is discontinuous is ($[.]$ denotes greatest integer function) -
 \begin{qoptions}
 \opt{A}{$\{0\}$}
@@ -662,13 +734,13 @@ Consider $f(x)=x^4-3x^3+2$ and $h(x)=\dfrac{f(x)}{g(x)}$ be a rational function.
 (iii) $h(x)$ is continuous $\forall\ x\in R-\{1,2\}$\\
 (iv) $g(x)$ does not have any repeated factors.
 \end{bankpassage}
-\begin{bankq}[id=TOAS07-P1-MATH-S3-Q05, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=5, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={2.00}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: differentiability of the signum of a function | steps: sign changes of g; points of non-differentiability}, group=TOAS07-P1-MATH-S3-G5-6]
+\begin{bankq}[id=TOAS07-P1-MATH-S3-Q05, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=5, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={2.00}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: rational function construction, signum function | steps: find g from the four conditions; roots of g; sgn changes sign at the roots; non-differentiable points}, group=TOAS07-P1-MATH-S3-G5-6]
 Number of points where $P(x)=\mathrm{sgn}(g(x))$ is non differentiable in $R$ is (where $\mathrm{sgn}(x)$ denotes signum function of $x$)
 \end{bankq}
-\begin{bankq}[id=TOAS07-P1-MATH-S3-Q06, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=6, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={6.00}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: equation involving modulus of a function | steps: solve  | g(x)}, group=TOAS07-P1-MATH-S3-G5-6]
+\begin{bankq}[id=TOAS07-P1-MATH-S3-Q06, source={TOAS - Test 07 (01 May 2022)}, paper=1, qno=6, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={6.00}, answer_src=key, difficulty=5, diff_parts={K2 S1 I1 C1 F1}, diff_note={concepts: rational function, equations with modulus | steps: find g; graph of | g(}, group=TOAS07-P1-MATH-S3-G5-6]
 Number of solutions of equation $|g(|x|)|=\dfrac12$ is -
 \end{bankq}
-\begin{bankq}[id=TOAS07-P2-MATH-S4-Q09, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=9, type=numerical, subtopic={Types of discontinuity}, answer={2}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C0 F1}, diff_note={concepts: discontinuity of g times sgn of a cubic | steps: roots -1, -2, -3 of the cubic; g(-1), g(-2), g(-3) in terms of a; at most one can vanish | I: choose a to cancel one discontinuity}, also_in={TMAS - Test 01 (09 Jul 2023) P2 Q5; TNAS - Test 03 (28 May 2023) P2 Q8}]
+\begin{bankq}[id=TOAS07-P2-MATH-S4-Q09, source={TOAS - Test 07 (01 May 2022)}, paper=2, qno=9, type=numerical, subtopic={Types of discontinuity}, answer={2}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C0 F1}, diff_note={concepts: signum function, discontinuity | steps: factor the cubic roots -1 -2 -3; sgn changes at each; g must be zero at the roots to remove discontinuity; count}, also_in={TMAS - Test 01 (09 Jul 2023) P2 Q5; TNAS - Test 03 (28 May 2023) P2 Q8}]
 Let $f(x)=g(x).\,\mathrm{sgn}(x^3+6x^2+11x+6)$, where $\mathrm{sgn}$ denotes signum function \& $g(x)=ax^3+x^2+x+1$, then minimum number of points of discontinuity of the function $f(x)$ is
 \end{bankq}
 \begin{bankq}[id=TOAS08-P1-MATH-S1-Q05, source={TOAS - Test 08 (15 May 2022)}, paper=1, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: continuity and periodicity statements | steps: sum of periodic functions; differentiability implies continuity; closed interval; intermediate value theorem}, also_in={TMAS - Test 02 (06 Aug 2023) P1 Q8; TNAS - Test 02 (07 May 2023) P2 Q3}]
@@ -968,7 +1040,7 @@ The number of points of non-differentiability of $g(x)$ in $x\in(c,-b)$
 \end{bankq}
 
 \section*{TMAS papers}
-\begin{bankq}[id=TMAS01-P1-MATH-S1-Q14, source={TMAS - Test 01 (09 Jul 2023)}, paper=1, qno=14, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S1 I2 C1 F0}, diff_note={concepts: continuity and differentiability | steps: left and right limits at zero; derivative from each side}, also_in={TNAS - Test 03 (28 May 2023) P1 Q15}]
+\begin{bankq}[id=TMAS01-P1-MATH-S1-Q14, source={TMAS - Test 01 (09 Jul 2023)}, paper=1, qno=14, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: continuity and differentiability at 0 | steps: left limit using 3^{1/x} to 0; right limit to -inf; compare derivatives | I: one-sided limits of 3^{1/x}}, also_in={TNAS - Test 03 (28 May 2023) P1 Q15}]
 The function $f(x)=\begin{cases}\dfrac{|x|-x\left(3^{1/x}+1\right)}{3^{1/x}-1}&x\ne0\\0&x=0\end{cases}$ is
 \begin{qoptions}
 \opt{A}{discontinuous at $x=0$}
@@ -977,7 +1049,7 @@ The function $f(x)=\begin{cases}\dfrac{|x|-x\left(3^{1/x}+1\right)}{3^{1/x}-1}&x
 \opt{D}{differentiable but not continuous at $x=0$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TMAS01-P1-MATH-S1-Q19, source={TMAS - Test 01 (09 Jul 2023)}, paper=1, qno=19, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S1 I2 C1 F0}, diff_note={concepts: continuity | steps: limit of each at zero; compare with f of 0}, also_in={TNAS - Test 03 (28 May 2023) P1 Q20}]
+\begin{bankq}[id=TMAS01-P1-MATH-S1-Q19, source={TMAS - Test 01 (09 Jul 2023)}, paper=1, qno=19, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: continuity with signum and limits | steps: check each function's limit at 0; compare with 1; identify the discontinuous one}, also_in={TNAS - Test 03 (28 May 2023) P1 Q20}]
 Which of the following function is discontinuous at $x=0$, if $f(0)=1$
 \begin{qoptions}
 \opt{A}{$f(x)=\dfrac{\sin\left(\sin^2x\right)}{\left(e^{|\sin x|}-1\right)\sqrt{x^2}}$; $(x\ne0)$}
@@ -986,7 +1058,7 @@ Which of the following function is discontinuous at $x=0$, if $f(0)=1$
 \opt{D}{$f(x)=\left(1+\sin^2x\right)^{\mathrm{cosec}x}$; $(x\ne0)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=TMAS01-P2-MATH-S3-Q02, source={TMAS - Test 01 (09 Jul 2023)}, paper=2, qno=2, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={1}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: differentiability of a modulus | steps: zeros of the product; multiplicity; non differentiable points; count}, also_in={TNAS - Test 03 (28 May 2023) P2 Q3}]
+\begin{bankq}[id=TMAS01-P2-MATH-S3-Q02, source={TMAS - Test 01 (09 Jul 2023)}, paper=2, qno=2, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={1}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: differentiability of modulus of product | steps: zeros of each factor; simple zero gives a corner; repeated zero smooth; count | I: simple root of the inner function}, also_in={TNAS - Test 03 (28 May 2023) P2 Q3}]
 Number of points where $f(x)=\left|\left(2^x-1\right).\left(3^x-3\right)x.(x-1).(x-2)\right|$ is not differentiable
 \end{bankq}
 \begin{bankpassage}[id=TMAS02-P2-MATH-S3-G1-2, source={TMAS - Test 02 (06 Aug 2023)}, questions={1-2}]
@@ -1180,7 +1252,7 @@ If $f(x)=\min\left\{|x|,|x-2|,2-|x-1|\right\}$, then the number of points at whi
 \begin{bankq}[id=INT01-P1-MATH-S3-Q18, source={Internal Test - Test 01 (05 Aug 2020)}, paper=1, qno=18, type=numerical, subtopic={Types of discontinuity}, answer={2.00}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: differentiability at a join | steps: continuity; derivative equality; solve; evaluate}]
 If $f(x)=\begin{cases}ax+b & ;\ x\le-1\\ ax^3+x+2b & ;\ x>-1\end{cases}$ $f(x)$ is differentiable at $x=-1$ then $2a+3b$ is \underline{\hspace{2cm}}
 \end{bankq}
-\begin{bankq}[id=INT02-P1-MATH-S2-Q08, source={Internal Test - Test 02 (07 Jul 2021)}, paper=1, qno=8, type=multi, subtopic={Types of discontinuity}, answer={A,C}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C0 F1}, diff_note={concepts: piecewise function across a point of definition | steps: one sided limits; value at the point; check statements}]
+\begin{bankq}[id=INT02-P1-MATH-S2-Q08, source={Internal Test - Test 02 (07 Jul 2021)}, paper=1, qno=8, type=multi, subtopic={Types of discontinuity}, answer={A,C}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: continuity of a piecewise function | steps: continuity at b needs f(b)=g(b); check the options}]
 $f$ is continuous function in $[\,a,b]$, $g$ is a continuous function in $[b,c]$. A function $h(x)$ is defined as\par
 $h(x)=\begin{cases}f(x)&\text{for }x\in[a,b)\\ g(x)&\text{for }x\in(b,c]\end{cases}$, If $f(b)=g(b)$ , then
 \begin{qoptions}
@@ -1190,7 +1262,7 @@ $h(x)=\begin{cases}f(x)&\text{for }x\in[a,b)\\ g(x)&\text{for }x\in(b,c]\end{cas
 \opt{D}{$h\left(b^+\right)=g\left(b^-\right)$ and $h\left(b^-\right)=f\left(b^+\right)$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=INT02-P1-MATH-S2-Q12, source={Internal Test - Test 02 (07 Jul 2021)}, paper=1, qno=12, type=multi, subtopic={Types of discontinuity}, answer={C,D}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: limit of a quotient with exponentials and logs | steps: expansions of each factor; limit; compare with the value; type of discontinuity}]
+\begin{bankq}[id=INT02-P1-MATH-S2-Q12, source={Internal Test - Test 02 (07 Jul 2021)}, paper=1, qno=12, type=multi, subtopic={Types of discontinuity}, answer={C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: continuity and removable limit | steps: limit of (2^x-1)^2 over tan x ln(1+x); equals ln^2 2; compare with ln 4; classify}]
 Let $f(x)=\begin{cases}\dfrac{\left(2^x-1\right)^2}{\tan x\cdot\ln(1+x)}&;\ x\ne0\\[2ex] \ln4&;\ x=0\end{cases}$\par
 then $f(x)$ is
 \begin{qoptions}
@@ -1202,10 +1274,10 @@ then $f(x)$ is
 \end{bankq}
 
 \section*{Nurture (General) papers}
-\begin{bankq}[id=NUR01-P1-MATH-S3-Q05, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=1, qno=5, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={2}, answer_src=solved, working={g jumps at 0 and has a corner at 1}, difficulty=8, diff_parts={K2 S2 I2 C2 F1}, diff_note={concepts: running maximum of a function with a removable point, differentiability of modulus and greatest-integer functions | steps: describe f; running maximum; find non-differentiable points}]
+\begin{bankq}[id=NUR01-P1-MATH-S3-Q05, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=1, qno=5, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={2}, answer_src=solved, working={g jumps at 0 and has a corner at 1}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: running maximum of a piecewise function | steps: graph of f; maximum so far; points of non differentiability; count | I: running maximum has corners}]
 Let $f(x)=(x-1)\,|\mathrm{sgn}(x)|$ and $g(x)=\max.(f(t))$, $-\infty<t\le x$, $-\infty<x<\infty$, then the number of points where $g(x)$ is non-differentiable is ($\mathrm{sgn}(x)$ represents signum function of $x$)
 \end{bankq}
-\begin{bankq}[id=NUR01-P2-MATH-S2-Q05, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=2, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,C}, answer_src=solved, working={Jumps wherever tan\^{}100 x is an integer; integral = 3a4-a3-a2-pi/4}, difficulty=8, diff_parts={K2 S2 I2 C2 F1}, diff_note={concepts: greatest integer of a hundredth power of tangent, types of discontinuity | steps: discontinuity points; interval values; integral}]
+\begin{bankq}[id=NUR01-P2-MATH-S2-Q05, source={Nurture (General) - Test 01 (12 Jun 2021)}, paper=2, qno=5, type=multi, subtopic={Types of discontinuity}, answer={A,B,C}, answer_src=solved, working={Jumps wherever tan\^{}100 x is an integer; integral = 3a4-a3-a2-pi/4}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: greatest integer of tan^100 x | steps: breakpoints where tan^100 x is an integer; discontinuities; count; check}]
 $f(x)=[\tan^{100}x]$ where $[\cdot]$ greatest integer function. Then
 \begin{qoptions}
 \opt{A}{$f(x)$ is discontinuous at $x=\tan^{-1}\left(3^{\frac1{100}}\right),$ $\tan^{-1}\left(100^{\frac1{100}}\right)$}

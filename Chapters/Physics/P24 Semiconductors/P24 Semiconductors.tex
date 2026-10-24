@@ -51,7 +51,7 @@
 {\small Physics chapter P24. Questions from all converted test papers, grouped by source series. Answers: printed key where it matches the paper, otherwise solved (answer\_src=solved, with working). Exact repeats across papers appear once, with also\_in listing the other copies.}\par\medskip\hrule
 
 \section*{Score-I papers}
-\begin{bankq}[id=SI02-P2-PHY-S1-Q14, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=14, type=single, subtopic={p-n junction}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, p-n junction | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI02-P2-PHY-S1-Q14, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=14, type=single, subtopic={p-n junction}, answer={D}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: wavelength from LED band gap | steps: lambda = hc/E = 1240/1.5 nm}]
 Light emitting diode is constructed using p-n junction ($E_g=1.5$ eV). What is the wavelength of light emitted by this LED ?
 \begin{qoptions}
 \opt{A}{720 nm}
@@ -60,7 +60,7 @@ Light emitting diode is constructed using p-n junction ($E_g=1.5$ eV). What is t
 \opt{D}{827 nm}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SI02-P2-PHY-S1-Q15, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=15, type=single, subtopic={Logic gates}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, logic gates | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI02-P2-PHY-S1-Q15, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=15, type=single, subtopic={Logic gates}, answer={B}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: equivalent gate of a logic circuit | steps: write boolean expression; simplify using De Morgan; identify gate}]
 The logic circuit shown below is equivalent to:
 \bfig{148.2}{SI02_p2_phy_s1_q15_1.png}
 \begin{qoptions}
@@ -70,7 +70,7 @@ The logic circuit shown below is equivalent to:
 \opt{D}{\bfigi{105.6}{SI02_p2_phy_s1_q15_D.png}}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SI02-P2-PHY-S1-Q16, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=16, type=single, subtopic={Diodes}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, diodes | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SI02-P2-PHY-S1-Q16, source={Score-I - Test 02 (31 Dec 2021)}, paper=2, qno=16, type=single, subtopic={Diodes}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: current in a circuit with silicon diodes | steps: knee voltage drop 0.7 V for conducting diodes; check which diodes conduct; Ohm law}]
 Find $I$ ? (knee voltage of silicon diode is 0.7 volt)
 \bfig{147.2}{SI02_p2_phy_s1_q16_1.png}
 \begin{qoptions}
@@ -80,9 +80,29 @@ Find $I$ ? (knee voltage of silicon diode is 0.7 volt)
 \opt{D}{0.12 mA}
 \end{qoptions}
 \end{bankq}
+\begin{bankq}[id=SI31-P2-PHY-S1-Q15, source={Score-I - Test 31 (29 Dec 2022)}, paper=2, qno=15, type=single, subtopic={Transistors}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: bias resistor in a transistor circuit for a given collector emitter voltage | steps: V_CE = V_CC - I_C R_C gives I_C; I_B = I_C/beta; R_B = V_CC/I_B neglecting V_BE}]
+In the circuit shown here the transistor has a current gain $\beta=100$. What should be the bias resistor $R_B$ so that $V_{CE}=5$ V ? (neglect $V_{BE}$)
+\bfig{119.3}{SI31_p2_phy_s1_q15_1.png}
+\begin{qoptions}
+\opt{A}{$2\times10^3\ \Omega$}
+\opt{B}{$200\times10^3\ \Omega$}
+\opt{C}{$1\times10^6\ \Omega$}
+\opt{D}{$500\ \Omega$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SI31-P2-PHY-S1-Q19, source={Score-I - Test 31 (29 Dec 2022)}, paper=2, qno=19, type=single, subtopic={Logic gates}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: input combination giving output 1 in a logic circuit | steps: write boolean expression of the gate network; evaluate for each option; choose the combination giving 1}]
+To get output $Y=1$ from circuit of figure, the inputs must be
+\bfig{131.3}{SI31_p2_phy_s1_q19_1.png}
+\begin{qoptions}
+\opt{A}{$A=0,\ B=1,\ C=0$}
+\opt{B}{$A=1,\ B=0,\ C=0$}
+\opt{C}{$A=1,\ B=0,\ C=1$}
+\opt{D}{$A=1,\ B=1,\ C=0$}
+\end{qoptions}
+\end{bankq}
 
 \section*{Score-II papers}
-\begin{bankq}[id=SII05-P1-PHY-S1-Q11, source={Score-II - Test 05 (22 Mar 2022)}, paper=1, qno=11, type=single, subtopic={Logic gates}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, logic gates | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII05-P1-PHY-S1-Q11, source={Score-II - Test 05 (22 Mar 2022)}, paper=1, qno=11, type=single, subtopic={Logic gates}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: output of a logic gate combination | steps: write the Boolean expression for the circuit; simplify AB + A B-bar = A; select}]
 Find output Y :
 \bfig{143.8}{SII05_p1_phy_s1_q11_1.png}
 \begin{qoptions}
@@ -92,11 +112,11 @@ Find output Y :
 \opt{D}{$\overline{A+B}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII13-P1-PHY-S2-Q02, source={Score-II - Test 13 (06 Feb 2024)}, paper=1, qno=2, type=numerical, subtopic={Diodes}, answer={3}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, diodes, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII13-P1-PHY-S2-Q02, source={Score-II - Test 13 (06 Feb 2024)}, paper=1, qno=2, type=numerical, subtopic={Diodes}, answer={3}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: power dissipated in a zener diode circuit | steps: current through the series resistor from the supply and zener voltage; current in the load; zener current by subtraction; P = V I}]
 Power lost in zener diode in the given circuit is $51.2\times10^{-x}$ w, find x :
 \bfig{110.0}{SII13_p1_phy_s2_q02_1.png}
 \end{bankq}
-\begin{bankq}[id=SII17-P1-PHY-S1-Q18, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=18, type=single, subtopic={Logic gates}, answer={Bonus}, answer_src=solved, working={No answer key available (source truncated) and the figure/data needed to solve this question was not recoverable; banked as Bonus.}, difficulty=7, diff_parts={K3 S1 I2 C2 F0}, diff_note={concepts: standard problem in this chapter, logic gates, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII17-P1-PHY-S1-Q18, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=18, type=single, subtopic={Logic gates}, answer={Bonus}, answer_src=solved, working={No answer key available (source truncated) and the figure/data needed to solve this question was not recoverable; banked as Bonus.}, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: output waveform of a logic circuit | steps: write the Boolean function for the gates; truth table for each interval of the inputs; choose the output}]
 The logic circuit shown has the input waveforms `A' and `B' as shown. Pick out the \textbf{CORRECT} output waveform :-
 \bfig{154.1}{SII17_p1_phy_s1_q18_1.png}
 \begin{qoptions}
@@ -106,11 +126,11 @@ The logic circuit shown has the input waveforms `A' and `B' as shown. Pick out t
 \opt{D}{\bfigi{154.3}{SII17_p1_phy_s1_q18_4.png}}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII17-P1-PHY-S2-Q07, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=7, type=numerical, subtopic={Diodes}, answer={Bonus}, answer_src=solved, working={No answer key available (source truncated) and the figure/data needed to solve this question was not recoverable; banked as Bonus.}, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, diodes, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII17-P1-PHY-S2-Q07, source={Score-II - Test 17 (13 Feb 2024)}, paper=1, qno=7, type=numerical, subtopic={Diodes}, answer={Bonus}, answer_src=solved, working={No answer key available (source truncated) and the figure/data needed to solve this question was not recoverable; banked as Bonus.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: resistance in a diode circuit | steps: diode forward conducting with resistance 8 ohms; apply Kirchhoff law to the loop; solve R}]
 In the given circuit, the diode has a forward resistance of 8 $\Omega$ and infinite backward resistance. The value of R is :-
 \bfig{154.1}{SII17_p1_phy_s1_q07_1.png}
 \end{bankq}
-\begin{bankq}[id=SII19-P1-PHY-S1-Q11, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=11, type=single, subtopic={Diodes}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, diodes | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII19-P1-PHY-S1-Q11, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=11, type=single, subtopic={Diodes}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: current from the battery in a diode circuit | steps: decide which diodes conduct; equivalent resistance; I = V/R}]
 In a circuit ideal diodes are given, find current drawn from battery?
 \bfig{87.0}{SII19_p1_phy_s1_q11_1.png}
 \begin{qoptions}
@@ -120,12 +140,12 @@ In a circuit ideal diodes are given, find current drawn from battery?
 \opt{D}{1.71 ampere}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII19-P1-PHY-S2-Q08, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=8, type=numerical, subtopic={Diodes}, answer={44}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, diodes, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII19-P1-PHY-S2-Q08, source={Score-II - Test 19 (20 Feb 2024)}, paper=1, qno=8, type=numerical, subtopic={Diodes}, answer={44}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: resistance in a diode circuit | steps: diode forward conducting with resistance 8 ohms; apply Kirchhoff law to the loop; solve R}]
 In the given circuit, the diode has a forward resistance of 8 $\Omega$ and infinite backward resistance. The value of $R$ is :-
 \par\nobreak
 \bfig{100.0}{SII19_p1_phy_s2_q08_1.png}
 \end{bankq}
-\begin{bankq}[id=SII22-P1-PHY-S1-Q12, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=12, type=single, subtopic={Logic gates}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, logic gates | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII22-P1-PHY-S1-Q12, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=12, type=single, subtopic={Logic gates}, answer={B}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: Boolean expression of a logic circuit | steps: write the output of each gate in terms of A and B; simplify}]
 Output for the following Boolean circuit is :
 \bfig{126.7}{SII22_p1_phy_s1_q12_1.png}
 \begin{qoptions}
@@ -135,11 +155,11 @@ Output for the following Boolean circuit is :
 \opt{D}{$A+B+\overline{AB}$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII22-P1-PHY-S2-Q06, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=6, type=numerical, subtopic={Diodes}, answer={5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, diodes, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII22-P1-PHY-S2-Q06, source={Score-II - Test 22 (14 Mar 2024)}, paper=1, qno=6, type=numerical, subtopic={Diodes}, answer={5}, answer_src=key, difficulty=3, diff_parts={K1 S2 I0 C0 F1}, diff_note={concepts: current in a zener regulator | steps: current through the series resistor from the supply minus zener voltage; current in the load R = 15/R; zener current by difference}]
 A zener diode, having breakdown voltage equal to 15 V, is used in a voltage regulator circuit shown in figure. The current through the zener diode is (in mA) :
 \bfig{80.8}{SII22_p1_phy_s2_q06_1.png}
 \end{bankq}
-\begin{bankq}[id=SII24-P1-PHY-S1-Q20, source={Score-II - Test 24 (17 Mar 2024)}, paper=1, qno=20, type=single, subtopic={Logic gates}, answer={C}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, logic gates | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII24-P1-PHY-S1-Q20, source={Score-II - Test 24 (17 Mar 2024)}, paper=1, qno=20, type=single, subtopic={Logic gates}, answer={C}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: truth table of a digital circuit | steps: Boolean expression from the gate combination; evaluate for each input; match table}]
 The truth table for digital circuit shown in figure is :-
 \bfig{108.3}{SII24_p1_phy_s1_q20_1.png}
 \begin{qoptions}
@@ -149,7 +169,7 @@ The truth table for digital circuit shown in figure is :-
 \opt{D}{\begin{tabular}[t]{|c|c|c|}\hline A&B&Y\\\hline 0&0&0\\0&1&1\\1&0&1\\1&1&0\\\hline\end{tabular}}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII25-P1-PHY-S1-Q09, source={Score-II - Test 25 (20 Mar 2024)}, paper=1, qno=9, type=single, subtopic={Diodes}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, diodes | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII25-P1-PHY-S1-Q09, source={Score-II - Test 25 (20 Mar 2024)}, paper=1, qno=9, type=single, subtopic={Diodes}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: current in a circuit with two forward bias diodes | steps: diodes act as 75 ohm resistors in the conducting path; total resistance; current}]
 If each diode has a forward bias resistance of $75\Omega$ in the below circuit. Which of the following options is correct?
 \bfig{92.3}{SII25_p1_phy_s1_q09_1.png}
 \begin{qoptions}
@@ -159,7 +179,7 @@ If each diode has a forward bias resistance of $75\Omega$ in the below circuit. 
 \opt{D}{$\dfrac{I_1}{I_2}=1$}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII27-P1-PHY-S1-Q07, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=7, type=single, subtopic={p-n junction}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, p-n junction | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII27-P1-PHY-S1-Q07, source={Score-II - Test 27 (23 Mar 2024)}, paper=1, qno=7, type=single, subtopic={p-n junction}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: conductivity of germanium from mobilities | steps: sigma = n e (mu_e + mu_h); carrier density; evaluate}]
 The mobility of electrons and holes in a sample of insentric germanium at room temperature are 0.88 and 0.12 m$^2$/V-s. If electron and holes densities each are equal to $5.0\times10^{19}/\mathrm{m^3}$ then conductivity of germanium will be (in ohm meter) :-
 \begin{qoptions}
 \opt{A}{2}
@@ -168,7 +188,7 @@ The mobility of electrons and holes in a sample of insentric germanium at room t
 \opt{D}{8}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII30-P1-PHY-S1-Q08, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=8, type=single, subtopic={Diodes}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, diodes | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII30-P1-PHY-S1-Q08, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=8, type=single, subtopic={Diodes}, answer={D}, answer_src=key, difficulty=1, diff_parts={K1 S1 I0 C0 F0}, diff_note={concepts: identify reverse biased diode circuit | steps: p side at lower potential than n side; check each circuit}]
 Which of the following circuits is reverse - biased ?
 \begin{qoptions}
 \opt{A}{\bfigi{55.8}{SII30_p1_phy_s1_q08_2.png}}
@@ -177,7 +197,7 @@ Which of the following circuits is reverse - biased ?
 \opt{D}{\bfigi{77.2}{SII30_p1_phy_s1_q08_4.png}}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII30-P1-PHY-S1-Q09, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=9, type=single, subtopic={Logic gates}, answer={B}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, logic gates | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII30-P1-PHY-S1-Q09, source={Score-II - Test 30 (27 Mar 2024)}, paper=1, qno=9, type=single, subtopic={Logic gates}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: truth table of a digital circuit | steps: Boolean expression from the gate combination; evaluate for each input; match table}]
 The truth table of the given circuit diagram is:
 \bfig{108.3}{SII30_p1_phy_s1_q09_1.png}
 \begin{qoptions}
@@ -187,7 +207,7 @@ The truth table of the given circuit diagram is:
 \opt{D}{\begin{tabular}[t]{|c|c|c|}\hline A&B&Y\\\hline 0&0&1\\0&1&1\\1&0&1\\1&1&0\\\hline\end{tabular}}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII31-P1-PHY-S1-Q17, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Logic gates}, answer={A}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, logic gates | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII31-P1-PHY-S1-Q17, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=17, type=single, subtopic={Logic gates}, answer={A}, answer_src=key, difficulty=2, diff_parts={K1 S1 I1 C0 F0}, diff_note={concepts: logic gate from signals A B C | steps: read the truth table from the waveforms; match with NAND or NOR}]
 Here signals A, B, C are shown, then the logic gate is :-
 \bfig{129.4}{SII31_p1_phy_s1_q17_1.png}
 \bfig{116.3}{SII31_p1_phy_s1_q17_2.png}
@@ -198,16 +218,16 @@ Here signals A, B, C are shown, then the logic gate is :-
 \opt{D}{NAND Gate}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII31-P1-PHY-S2-Q05, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={Diodes}, answer={142}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, diodes, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII31-P1-PHY-S2-Q05, source={Score-II - Test 31 (29 Mar 2024)}, paper=1, qno=5, type=numerical, subtopic={Diodes}, answer={142}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: power dissipated in a zener diode with a bulb | steps: bulb current from rating; total current via series resistor; zener current; P = V I}]
 In given circuit, power (in W) of zener diode for which bulb brights at rated value (Nearly) is :-
 \bfig{115.9}{SII31_p1_phy_s2_q05_1.png}
 \end{bankq}
-\begin{bankq}[id=SII41-P1-PHY-S2-Q05, source={Score-II - Test 41 (19 Mar 2025)}, paper=1, qno=5, type=numerical, subtopic={Diodes}, answer={5}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, diodes, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII41-P1-PHY-S2-Q05, source={Score-II - Test 41 (19 Mar 2025)}, paper=1, qno=5, type=numerical, subtopic={Diodes}, answer={5}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: power in a zener diode within a circuit | steps: current through the series resistor; load current; zener current; P = V I}]
 The value of power dissipated across the zener diode ($V_z=15$ V) connected in the circuit as shown in the figure is $x\times10^{-1}$ watt.
 \bfig{137.3}{SII41_p1_phy_s2_q05_1.png}
 The value of $x$, to the nearest integer, is \underline{\hspace{2em}}.
 \end{bankq}
-\begin{bankq}[id=SII45-P1-PHY-S1-Q07, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=7, type=single, subtopic={Diodes}, answer={D}, answer_src=key, difficulty=4, diff_parts={K2 S1 I1 C1 F0}, diff_note={concepts: standard problem in this chapter, diodes | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII45-P1-PHY-S1-Q07, source={Score-II - Test 45 (26 Mar 2025)}, paper=1, qno=7, type=single, subtopic={Diodes}, answer={D}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: current through a battery in a circuit with ideal diodes | steps: decide which diodes conduct; remove open branches; Ohm law for the remaining circuit}]
 In the circuit with ideal diodes as shown, current (in A) through battery is :-
 \bfig{100.4}{SII45_p1_phy_s1_q07_1.png}
 \begin{qoptions}
@@ -217,11 +237,11 @@ In the circuit with ideal diodes as shown, current (in A) through battery is :-
 \opt{D}{4}
 \end{qoptions}
 \end{bankq}
-\begin{bankq}[id=SII47-P1-PHY-S2-Q04, source={Score-II - Test 47 (30 Mar 2025)}, paper=1, qno=4, type=numerical, subtopic={Logic gates}, answer={1}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, logic gates, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII47-P1-PHY-S2-Q04, source={Score-II - Test 47 (30 Mar 2025)}, paper=1, qno=4, type=numerical, subtopic={Logic gates}, answer={1}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C0 F1}, diff_note={concepts: logic gate circuit output | steps: evaluate the gates for the given inputs in the interval and read the output level}]
 For the following circuit and given inputs A and B, find output between $t_5$ to $t_6$.
 \bfig{430.5}{SII47_p1_phy_s2_q04_1.png}
 \end{bankq}
-\begin{bankq}[id=SII47-P1-PHY-S2-Q05, source={Score-II - Test 47 (30 Mar 2025)}, paper=1, qno=5, type=numerical, subtopic={Diodes}, answer={10}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, diodes, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SII47-P1-PHY-S2-Q05, source={Score-II - Test 47 (30 Mar 2025)}, paper=1, qno=5, type=numerical, subtopic={Diodes}, answer={10}, answer_src=key, difficulty=2, diff_parts={K1 S1 I0 C0 F1}, diff_note={concepts: ideal diode in a resistive circuit | steps: in the positive cycle the diode is forward biased; output voltage equals the peak of the source across R: 10 V}]
 An ideal diode is connected in a circuit with resistance R = 50$\Omega$ and V = 10 volt as shown in figure, maximum value of output voltage (in V) in the positive cycle will be :
 \bfig{272.7}{SII47_p1_phy_s2_q05_1.png}
 \end{bankq}
@@ -293,7 +313,7 @@ In the following combination of logic gates, the outputs of A, B and C are x, y 
 \bfig{104.9}{SA05_p1_phy_s2_q05_B.png}
 \bfig{103.6}{SA05_p1_phy_s2_q05_C.png}
 \end{bankq}
-\begin{bankq}[id=SA41-P1-PHY-S4-Q04, source={Score Advanced - Test 41}, paper=1, qno=4, type=numerical, subtopic={Logic gates}, answer={8}, answer_src=key, difficulty=8, diff_parts={K3 S1 I2 C2 F1}, diff_note={concepts: standard problem in this chapter, logic gates, apply the relevant results | steps: apply the relevant results; compute}]
+\begin{bankq}[id=SA41-P1-PHY-S4-Q04, source={Score Advanced - Test 41}, paper=1, qno=4, type=numerical, subtopic={Logic gates}, answer={8}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: power received after attenuation, dB along a cable | steps: total attenuation 5 x 20 = 100 dB = factor 10^-10; 100 W input; received 100 x 1e-10 = 1e-8 W; x = 8 | I: dB scale gives a power ratio of ten to the power minus total dB over ten}]
 A signal of 0.1 kW is transmitted in a cable. The attenuation of cable is $-$5 dB per km and cable length is 20 km. The power received at receiver is 10$^{-x}$ W. The value of x is \underline{\hspace{1cm}}.\par
 [Gain in dB = 10 log$_{10}\left(\dfrac{\mathrm P_0}{\mathrm P_\mathrm i}\right)$]
 \end{bankq}
