@@ -2154,11 +2154,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 04 (29 Oct 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "13pp, 38 figs, 6 parts; lint PASS",
-   "started_at": "2026-10-24T09:52:31Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "answers from the printed key; six numeric answers missing from the key page were solved by hand (two depend on partly missing figures); all questions hand-scored"
   },
   {
    "name": "Pre-Score (2023-24) - Test 05 (05 Nov 2023)",
