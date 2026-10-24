@@ -136,4 +136,5 @@ each test is marked done; consolidate into STANDING LESSONS when the file passes
   the reason; and a test is rejected (all its scores cleared) if more than 25% of its questions get C2, 20% K3 or 30% I2.
 - K counts DISTINCT laws or methods, not the quantities they produce. Typical JEE Advanced papers land mostly in
   D3-D6; D8-D10 is for the few questions that combine a non-standard idea with a long solution.
-- Tests whose finished scores break these limits carry fix_note "rescore difficulty v4".
+- User decision 24 Oct 09:47: finished tests are NOT rescored again (their difficulty stays approximate); the new
+  rules apply to every test banked from now on.
