@@ -2385,11 +2385,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 36 (25 Aug 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "51 q, 29 figs, 6 pp",
-   "started_at": "2026-10-24T11:58:20Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "working"
+   "note": "key complete; checked against own solutions for all 17 physics, most chem and all maths. Chem s2 q06 solved A,B,D (key A,B,C,D: C is true by counting), chem s4 q07 solved 5 (key 6 counts isobutyraldehyde), chem s4 q06 has no key and was solved (5)"
   },
   {
    "name": "SRG (Enthusiast) - Test 37 (11 Sep 2024)",
