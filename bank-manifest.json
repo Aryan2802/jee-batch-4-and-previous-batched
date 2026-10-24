@@ -1427,8 +1427,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 26 (20 Mar 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Paper 1 only; PHY/CHEM/MATH each 4 sections (I(i) 4q, I(ii) 6q, II(i) 6q, II(ii) 3q) = 57 questions; 30 figures; rejected N1/N2 label circles (typeset) and a red handwritten solution scribble under ma"
+   "status": "in_progress",
+   "conv_note": "Paper 1 only; PHY/CHEM/MATH each 4 sections (I(i) 4q, I(ii) 6q, II(i) 6q, II(ii) 3q) = 57 questions; 30 figures; rejected N1/N2 label circles (typeset) and a red handwritten solution scribble under ma",
+   "started_at": "2026-10-24T00:02:48Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 28 (23 Mar 2024)",
