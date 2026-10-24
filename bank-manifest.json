@@ -1201,12 +1201,10 @@
    "src_rel": [
     "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 10 (26 Sep 2021).pdf"
    ],
-   "status": "hold",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 12pp, 16 figs",
-   "note": "v4 rescore",
-   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)",
-   "fix_note": "rescore difficulty v5 (SRGBT still inflated after v4: mean D6.2-6.9, D7 on up to 65%; user 24 Oct 12:05): SRGBT papers are foundation-level - redo difficulty.tsv question by question; K = distinct laws (usually 1), C1 for ordinary algebra; anchors from BANK_LEARNINGS.md THIRD AUDIT (real gas q24 -> D4, circle q48 -> D6, bobbin q11 -> D6); expect most questions D3-D6 with some Easy; apply now rejects mean > 6.3 or one score on > 50%; nothing else changes",
-   "claimed_by": "main-chat (user 12:09: rescored by hand)"
+   "note": "difficulty rescored by hand in the main chat (user 24 Oct 12:09)",
+   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)"
   },
   {
    "name": "SRGBT - Test 11 (03 Oct 2021)",
