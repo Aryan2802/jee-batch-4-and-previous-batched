@@ -316,10 +316,13 @@
    "src_rel": [
     "Batch 4/Source/TMAS/Mains/Moderate/TMAS - Test 01 (09 Jul 2023).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "DONE 2026-10-19, 16pp, 97 figs",
    "note": "144 questions; 133 from key, 11 solved; bands Easy 27/Medium 58/Hard 47/Very hard 12; chapters C03 C04 C06 C09 C11 C12 C14 C15 C16 C17 C19 C20 C21 C30 C31 C36 M11 M12 M13 M14 M20 M21 M22 M23 M24 M25 P06 P08 P10",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T03:04:59Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "TMAS - Test 02 (06 Aug 2023)",
