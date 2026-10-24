@@ -1692,8 +1692,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 01 (16 Jun 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (P1: I(i) 5 + I(ii) 8 + IV 5 per subject; P2: I(i) 6 + I(ii) 8 + I(iii) 4 per subject) = 108 questions; 58 figures; lint PASS, visual QA done"
+   "status": "in_progress",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics (P1: I(i) 5 + I(ii) 8 + IV 5 per subject; P2: I(i) 6 + I(ii) 8 + I(iii) 4 per subject) = 108 questions; 58 figures; lint PASS, visual QA done",
+   "started_at": "2026-10-24T00:20:40Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 02 (31 Dec 2021)",
