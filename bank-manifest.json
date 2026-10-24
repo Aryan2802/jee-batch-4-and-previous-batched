@@ -2367,8 +2367,11 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 29 (01 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "54 q, 12 figs, 6 pp"
+   "status": "in_progress",
+   "conv_note": "54 q, 12 figs, 6 pp",
+   "started_at": "2026-10-24T11:18:25Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "SRG (Enthusiast) - Test 30 (22 Oct 2023)",
