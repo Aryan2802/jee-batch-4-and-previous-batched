@@ -1780,8 +1780,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 09 (16 Feb 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers; P1 and P2 each 19 q x3 subjects (114 q); 51 figures; pdf 13 pp; lint PASS"
+   "status": "in_progress",
+   "conv_note": "2 papers; P1 and P2 each 19 q x3 subjects (114 q); 51 figures; pdf 13 pp; lint PASS",
+   "started_at": "2026-10-24T00:40:12Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-I - Test 10 (24 Feb 2022)",
