@@ -275,7 +275,8 @@
    "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 61 figs",
    "note": "111 questions; 102 from key, 9 solved; bands Easy 5/Medium 20/Hard 38/Very hard 48; chapters C01 C02 C03 C08 C14 C26 C29 C30 M03 M08 M11 M12 M13 M15 M16 P01 P02 P03 P04 P05",
-   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)"
+   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)",
+   "fix_note": "rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "TOPS - Test 04 (18 Dec 2022)",
