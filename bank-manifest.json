@@ -1339,10 +1339,13 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 42 (19 Mar 2025).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "Completed 2026-09-23: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each Section-I 6Q one-or-more + Section-II 6Q numerical value + Section-III 6Q single-di",
    "note": "54 questions; 48 from key, 6 solved; bands Easy 0/Medium 1/Hard 0/Very hard 53; chapters C02 C04 C07 C14 C15 C16 C25 C30 C31 C36 M01 M02 M03 M04 M06 M10 M12 M16 M17 M18 M21 M22 M26 M27 P01 P02 P04 P06 P07 P08 P09 P10 P11 P12 P13 P15 P20 P21",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T04:49:14Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 44 (23 Mar 2025)",
