@@ -2352,11 +2352,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 28 (20 Aug 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done",
-   "started_at": "2026-10-24T11:21:06Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "working"
+   "note": "key covers physics only (verified on phy q1, q6, s3 q2, q4); chemistry and maths 36 questions solved by hand"
   },
   {
    "name": "SRG (Enthusiast) - Test 29 (01 Oct 2023)",
