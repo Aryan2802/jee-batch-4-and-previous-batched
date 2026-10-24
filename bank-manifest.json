@@ -1923,11 +1923,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 24 (11 Dec 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "54 q, 6 pages, 18 images, lint PASS",
-   "started_at": "2026-10-24T07:33:51Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 54 from key, 0 solved; difficulty Easy 0, Medium 19, Hard 35, Very hard 0; chapters P07 P09 P10 P25 C01 C04 C06 C08 C10 C11 C13 C24 C38 M01 M21 M22 M23 M24 M25"
   },
   {
    "name": "Score-I - Test 26 (18 Dec 2022)",
