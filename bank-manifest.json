@@ -2396,11 +2396,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 37 (11 Sep 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "54 q, 18 figs, 6 pp",
-   "started_at": "2026-10-24T12:04:26Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "working"
+   "note": "key covers physics only. Disagreements: phy s1 q01 solved C (key A); phy s2 q06 solved C,D (key A,B,C,D); phy s3 q05 solved 3 (key 6.75 belongs to chem s3 q05). Maths s2 q06 has no correct option as printed (recorded None). Chemistry and maths solved by hand"
   },
   {
    "name": "SRG (Enthusiast) - Test 38 (15 Sep 2024)",
