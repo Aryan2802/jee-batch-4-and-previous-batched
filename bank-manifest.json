@@ -1949,8 +1949,11 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 31 (29 Dec 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS"
+   "status": "in_progress",
+   "conv_note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS",
+   "started_at": "2026-10-24T07:37:37Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 01 (24 Jan 2021)",
