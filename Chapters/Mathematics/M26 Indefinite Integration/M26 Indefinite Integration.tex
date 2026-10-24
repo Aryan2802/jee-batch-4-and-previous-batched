@@ -631,6 +631,67 @@ $\displaystyle\int\dfrac{\left(3x^2+3x+1\right)dx}{x^6+3x^5+3x^4+x^3}=f(x)+k$. T
 \opt{D}{$-\dfrac58$}
 \end{qoptions}
 \end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S1-Q01, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=1, type=single, subtopic={By parts}, answer={A}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: integration by parts with a trigonometric rational function | steps: rewrite x^3/(1 - x cot x)^2 ; use derivative of (sin x - x cos x); integrate by parts; match the option | I: spotting the derivative structure of sin x - x cos x | C: integration by parts and matching}]
+The integral $\displaystyle\int\dfrac{x^3}{(1-x\cot x)^2}dx$ is
+\begin{qoptions}
+\opt{A}{$\dfrac{-x^3}{\tan x-x}-\dfrac{3x^2}2+3\log|\sin x-x\cos x|+c$}
+\opt{B}{$\dfrac{-x^3}{\tan x-x}+\dfrac{x^2}2+3\log|\sin x-x\cos x|+c$}
+\opt{C}{$\dfrac{x^3}{\tan x-x}-\dfrac{3x^2}2+3\log|\sin x-x\cos x|+c$}
+\opt{D}{$\dfrac{-x^3}{\tan x-x}-\dfrac{x^2}2+3\log|\sin x-x\cos x|+c$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S1-Q02, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=2, type=single, subtopic={Substitution}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: integral recognised as derivative of a product of powers | steps: differentiate x^27 (x - 1)^18 to match the integrand up to a constant; read k | I: recognising the integrand as the derivative of a product | C: differentiating and comparing coefficients}]
+If $\displaystyle\int x^{26}(x-1)^{17}(5x-3)dx=\dfrac{x^{27}(x-1)^{18}}{k}+C$, where $C$ is constant of integration, then the value of $k$ is
+\begin{qoptions}
+\opt{A}{3}
+\opt{B}{6}
+\opt{C}{9}
+\opt{D}{12}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S1-Q03, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=3, type=single, subtopic={Standard forms}, answer={B}, answer_src=key, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: reduction formula for powers of cotangent | steps: I_n + I_(n-2) = -cot^(n-1) x/(n - 1); combine the given sum into telescoping terms; express in mu | I: using the reduction formula to combine terms | C: summing the combination}]
+If $I_n=\displaystyle\int\cot^nx\,dx$, then $I_0+I_1+2(I_2+I_3+\ldots.I_8)+I_9+I_{10}$ equals;
+\begin{qoptions}
+\opt{A}{$\mu+\dfrac{\mu^2}2+\ldots+\dfrac{\mu^9}9+C$}
+\opt{B}{$-\left\{\mu+\dfrac{\mu^2}2+\ldots+\dfrac{\mu^9}9\right\}+C$}
+\opt{C}{$-\left\{\mu+\dfrac{\mu^2}{2!}+\ldots+\dfrac{\mu^9}{9!}\right\}+C$}
+\opt{D}{$\dfrac\mu2+\dfrac{2\mu^2}3+\ldots+\dfrac{9\mu^9}{10}+C$}
+\end{qoptions}
+\{where $\mu=\cot x$\}
+\end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S1-Q04, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=4, type=single, subtopic={By parts}, answer={C}, answer_src=key, difficulty=3, diff_parts={K1 S1 I1 C1 F0}, diff_note={concepts: integration of a rational trigonometric function using the quotient rule | steps: express as derivative of a quotient plus tan x; verify by differentiating | I: writing the integrand as derivative of a quotient | C: verification by differentiation}]
+Integral $\displaystyle\int\dfrac{x^2+20}{(x\sin x+5\cos x)^2}dx.$ is
+\begin{qoptions}
+\opt{A}{$\dfrac{-x\sec x}{x\sin x+5\cos x}-\tan x+C$}
+\opt{B}{$\dfrac{-x\sec x}{x\sin x+5\cos x}+\cot x+C$}
+\opt{C}{$\dfrac{-x\sec x}{x\sin x+5\cos x}+\tan x+C$}
+\opt{D}{$\dfrac{x\sec x}{x\sin x+5\cos x}-\tan x+C$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S2-Q09, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=9, type=multi, subtopic={Substitution}, answer={C,D}, answer_src=key, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: integration of rational functions with large powers by substitution | steps: dx/(x + x^2011) with substitution t = x^2010; second integral similarly; combine to h; use h(1) = 0; evaluate h(e) | I: choosing the substitution that works for both integrals | C: evaluating h(e) and comparing}]
+If $\displaystyle\int\dfrac{dx}{x+x^{2011}}=f(x)+C_1$ and $\displaystyle\int\dfrac{x^{2009}}{1+x^{2010}}dx=g(x)+C_2$ (Where $C_1$ and $C_2$ are constants of integration). Let $h(x)=f(x)+g(x)$. If $h(1)=0$, then $h(e)$ is less than,
+\begin{qoptions}
+\opt{A}{0}
+\opt{B}{1}
+\opt{C}{$e$}
+\opt{D}{2}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S2-Q11, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=11, type=multi, subtopic={Substitution}, answer={C,D}, answer_src=key, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: integration with a power of a polynomial as a derivative | steps: the integrand is the derivative of (2x^2010 + 5x^804 + 10x^402)^(a/402) divided by constant; determine a | I: recognising the derivative form | C: solving for a}]
+If {\small\[\int(x^{2010}+x^{804}+x^{402})(2x^{1608}+5x^{402}+10)^{\frac1{402}}dx\]\[=\dfrac1{10a}(2x^{2010}+5x^{804}+10x^{402})^{\frac a{402}}+C\]} then $a$ is less than
+\begin{qoptions}
+\opt{A}{401}
+\opt{B}{403}
+\opt{C}{411}
+\opt{D}{413}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S3-Q13, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=13, type=numerical, subtopic={Standard forms}, answer={499.00}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integration of a trigonometric expression using sum of angles and logarithmic terms | steps: use cot2x cot3x etc. identities with tan5x = tan(3x + 2x) and tan7x - ... ; reduce to sum of logarithmic derivatives; read a, b, c, d | I: using tangent addition to simplify the integrand | C: collecting coefficients}]
+If {\small\[\int(\cot2x\cot3x-\tan2x\tan7x)\tan5x\,dx\]\[=a\,\ell n(\tan2x)+b\,\ell n(\sin3x)\]\[\qquad+c\,\ell n(\sec5x)+d\,\ell n(\cos7x)+C\]} and $a,b,c,d\in Q$ and $C$ is constant of integration. If $a+b+c+d$ can be expressed as $\dfrac mn$ in lowest form, then $m+n$ is $(m,n\in N)$
+\end{bankq}
+\begin{bankq}[id=SRG11-P1-MATH-S3-Q17, source={SRG (Enthusiast) - Test 11 (29 Aug 2021)}, paper=1, qno=17, type=numerical, subtopic={Standard forms}, answer={2.00}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integral of the inverse secant of a greatest integer, derivative | steps: [-sin^2 x] takes values 0 or -1; sec inverse of 0 undefined except in the domain; integral reduces; differentiate twice at the given point | I: evaluating the greatest integer function on the range | C: differentiating the resulting expression}]
+Let $\displaystyle\int\sec^{-1}[-\sin^2x]\,dx=f(x)+C$ where $[.]$ denotes greater integer function, then the value of {\small$\left(f\left(\dfrac8{\pi x}\right)\right)''$} at $x=2$, is
+\end{bankq}
 \begin{bankq}[id=SRG12-P1-MATH-S1-Q06, source={SRG (Enthusiast) - Test 12 (19 Sep 2021)}, paper=1, qno=6, type=single, subtopic={Substitution}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: integration by substitution, rational functions with powers | steps: divide numerator and denominator by x^(p+q+1) or substitute t = x^q/(x^(p+q)+1); recognise derivative; integrate | I: choosing the substitution that makes the numerator a derivative | C: simplifying the powers}]
 The evaluation of $\displaystyle\int\dfrac{px^{p+2q-1}-qx^{q-1}}{x^{2p+2q}+2x^{p+q}+1}\,dx$ is :
 \begin{qoptions}
@@ -687,6 +748,71 @@ $\displaystyle\int\dfrac{x^4+1}{x^6+1}\,dx$ is
 \end{bankq}
 \begin{bankq}[id=SRG22-P1-MATH-S3-Q04, source={SRG (Enthusiast) - Test 22 (18 Sep 2022)}, paper=1, qno=4, type=numerical, subtopic={Substitution}, answer={5}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integral by substitution with powers of x | steps: rewrite with t = x^(k/2) form: numerator x^(5/2), denominator x^(7/2) + x^6; divide by x^(7/2); substitute t = x^(5/2); integrate to a log | I: choosing the substitution that gives a logarithm | C: matching the form to find k}]
 If $\displaystyle\int\dfrac{\left(\sqrt x\right)^5}{\left(\sqrt x\right)^7+x^6}\,dx=a\cdot\ln\left(\dfrac{x^{k/2}}{x^{k/2}+1}\right)+C$, then the value of $k$ is (given $a>0$)
+\end{bankq}
+\begin{bankq}[id=SRG30-P1-MATH-S1-Q07, source={SRG (Enthusiast) - Test 30 (22 Oct 2023)}, paper=1, qno=7, type=multi, subtopic={Substitution}, answer={A,B}, answer_src=solved, working={tan5=tan3(sec2-1), so integral is tan4/4-tan2/2+ln|sec x|. Hence A=1/4, B=-1/2, g=ln|sec x|.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: reduction of powers of tan | steps: write tan fifth as tan cubed times sec squared minus tan cubed; integrate; repeat for tan cubed | I: splitting the power | C: algebra}]
+If $\displaystyle\int\tan^5x\,dx=A\tan^4x+B\tan^2x+g(x)+c$, then
+\begin{qoptions}
+\opt{A}{$A=\dfrac14,\ B=-\dfrac12$}
+\opt{B}{$g(x)=\ln|\sec x|$}
+\opt{C}{$g(x)=\ln|\cos x|$}
+\opt{D}{$A=-\dfrac14,\ B=\dfrac13$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG30-P2-MATH-S1-Q01, source={SRG (Enthusiast) - Test 30 (22 Oct 2023)}, paper=2, qno=1, type=multi, subtopic={Partial fractions}, answer={A,B,C,D}, answer_src=solved, working={With x=y, f(x)=1/x. The integrand becomes (3-x to the 4)/(x(x to the 4-1)); with u=x to the 4 this is a partial fraction giving (5 ln2-3.5 ln3). So alpha=10, beta=7: alpha>beta, 7 is prime, 10<14, and 17 is prime.}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: functional equation then definite integral of rational form | steps: setting y fixed shows f(x) = 1/x; substitute in the integrand; reduce to rational function of t; partial fractions; evaluate at limits and match alpha and beta | I: the functional equation determines f(x) as 1 over x | C: partial fractions and logarithms of large powers}]
+If $f(x)+f(y)=\dfrac1x+\dfrac1y,\ \forall x,y\in R-\{0\}$ and $\displaystyle\int_2^3\dfrac{3(f(x))^5-f(x)}{1-(f(x))^4}dx=\dfrac12\log\dfrac{2^\alpha}{3^\beta}$ then
+\begin{qoptions}
+\opt{A}{$\alpha>\beta$}
+\opt{B}{$\beta$ is prime}
+\opt{C}{$\alpha<2\beta$}
+\opt{D}{$(\alpha+\beta)$ is prime}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG36-P1-MATH-S1-Q01, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=1, type=single, subtopic={By parts}, answer={C}, answer_src=key, working={With x=tan t, the sec inverse term is t and the cos inverse term is 2t, so the integral is the integral of e to the t(t squared+2t)dt=e to the t t squared.}, difficulty=4, diff_parts={K2 S2 I1 C0 F0}, diff_note={concepts: integration of e to the x times f plus f dash form, inverse trigonometric simplification | steps: substitute x equal tan t; simplify the inverse functions; apply the e to the t rule | I: reducing the inverse functions}]
+\par\smallskip\noindent\resizebox{\linewidth}{!}{$\displaystyle\int\dfrac{e^{\tan^{-1}x}}{\left(1+x^2\right)}\left[\left(\sec^{-1}\sqrt{1+x^2}\right)^2+\cos^{-1}\left(\dfrac{1-x^2}{1+x^2}\right)\right]dx,\ (x>0)$}\par\smallskip\noindent, = (where $C$ is constant of integration)
+\begin{qoptions}
+\opt{A}{$e^{\tan^{-1}x}.\tan^{-1}x+C$}
+\opt{B}{$\dfrac{e^{\tan^{-1}x}.\left(\tan^{-1}x\right)^2}{2}+C$}
+\opt{C}{$e^{\tan^{-1}x}.\left[\sec^{-1}\left(\sqrt{1+x^2}\right)\right]^2+C$}
+\opt{D}{$e^{\tan^{-1}x}.\left[\operatorname{cosec}^{-1}\left(\sqrt{1+x^2}\right)\right]^2+C$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG36-P1-MATH-S1-Q02, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=2, type=single, subtopic={Substitution}, answer={C}, answer_src=key, working={With t=2x to the 7m+7x to the 2m+14x to the m, dt=14m(x to the 7m+x to the 2m+x to the m)dx/x and the second factor is t to the 1/m over x. So the integral is t to the (m+1)/m over 14(m+1).}, difficulty=5, diff_parts={K1 S2 I2 C1 F0}, diff_note={concepts: integration by substitution of a composite expression | steps: choose t as the combined polynomial; dt in terms of the factor; rewrite the second factor; integrate | I: choosing the substitution | C: powers with m}]
+For any natural number $m$, \par\smallskip\noindent\resizebox{\linewidth}{!}{$\displaystyle\int\left(x^{7m}+x^{2m}+x^m\right)\left(2x^{6m}+7x^m+14\right)^{1/m}dx$}\par\smallskip\noindent (where $x>0$), equals: Where $C$ is constant of integration.
+\begin{qoptions}
+\opt{A}{$\dfrac{\left(7x^{7m}+2x^{2m}+x^m\right)^{\frac{m+1}m}}{14(m+1)}+C$}
+\opt{B}{$\dfrac{\left(2x^{7m}+14x^{2m}+7x^m\right)^{\frac{m+1}m}}{14(m+1)}+C$}
+\opt{C}{$\dfrac{\left(2x^{7m}+7x^{2m}+14x^m\right)^{\frac{m+1}m}}{14(m+1)}+C$}
+\opt{D}{$\dfrac{\left(2x^{7m}+7x^{2m}+x^m\right)^{\frac{m+1}m}}{14(m+1)}+C$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG36-P1-MATH-S2-Q05, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=5, type=multi, subtopic={Substitution}, answer={A,D}, answer_src=key, working={With s=sin x the integrand is root((1+s)/s) and cos x/root(s(1-s)) is the same function. It is the derivative of both 2 arcsin root(s) and arccos(1-2s).}, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: integration by substitution, inverse trigonometric forms | steps: rewrite the integrand; compare with the derivative of each option; sign check | I: matching forms | C: derivatives}]
+$\displaystyle\int\sqrt{1+\operatorname{cosec}x}\,dx$ equals: (Where $c$ is integration constant and $x\in(0,\pi/2)$)
+\begin{qoptions}
+\opt{A}{$2\sin^{-1}\sqrt{\sin x}+c$}
+\opt{B}{$\sqrt2\cos^{-1}\sqrt{\cos x}+c$}
+\opt{C}{$c-2\sin^{-1}(1-2\sin x)$}
+\opt{D}{$\cos^{-1}(1-2\sin x)+c$}
+\end{qoptions}
+\end{bankq}
+\begin{bankpassage}[id=SRG36-P1-MATH-S3-G1-2, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, questions={1-2}]
+$\displaystyle\int\dfrac{dx}{\cos^3x-\sin^3x}=A\tan^{-1}(f(x))+B\ \ln\left|\dfrac{\sqrt2+f(x)}{\sqrt2-f(x)}\right|+C$ where $f(x)=\sin x+\cos x$ and $C$ is integration constant.
+\end{bankpassage}
+\begin{bankq}[id=SRG36-P1-MATH-S3-Q01, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=1, type=numerical, subtopic={Partial fractions}, answer={2}, answer_src=key, working={With t=sin x+cos x, the integrand becomes 2dt/((2-t squared)(1+t squared))=(2/3)(1/(2-t squared)+1/(1+t squared)), so A=2/3 and 3A=2.}, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: integral of reciprocal of cos cubed minus sin cubed by substitution | steps: factor the denominator; t equals sin plus cos; partial fractions; read A | I: choosing t | C: partial fractions}, group=SRG36-P1-MATH-S3-G1-2]
+The value of $3A$ is
+\end{bankq}
+\begin{bankq}[id=SRG36-P1-MATH-S3-Q02, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=2, type=numerical, subtopic={Partial fractions}, answer={0.5}, answer_src=key, working={The same partial fractions give B=(2/3)(1/(2 root2))=1/(3 root2), so (3B) squared=1/2.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: partial fractions with an inverse hyperbolic form | steps: partial fractions; integrate the term; read B; square | I: standard form of the logarithm | C: constants}, group=SRG36-P1-MATH-S3-G1-2]
+The value of $(3B)^2$ is
+\end{bankq}
+\begin{bankq}[id=SRG36-P1-MATH-S4-Q05, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=5, type=numerical, subtopic={Partial fractions}, answer={0}, answer_src=key, working={With u=1/x cubed the integral is -(1/3) times the integral of u squared/(u+1) squared, so a=2/3, b=-1/3, c=-1/3 and a+b+c=0.}, difficulty=7, diff_parts={K1 S3 I2 C1 F1}, diff_note={concepts: integration by substitution with partial fractions | steps: u equal 1 over x cubed; rewrite; partial fractions; integrate; match a b c | I: choosing u | C: fractions}]
+If $\displaystyle\int\dfrac{dx}{x^4\left(1+x^3\right)^2}=a\ln\left|\dfrac{1+x^3}{x^3}\right|+\dfrac b{x^3}+\dfrac c{1+x^3}+d$, then $a+b+c=$\\
+(where $d$ is arbitrary constant)
+\end{bankq}
+\begin{bankq}[id=SRG36-P1-MATH-S4-Q06, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=6, type=numerical, subtopic={Standard forms}, answer={1}, answer_src=key, working={cos 9x+cos 6x=(2cos 5x-1)(cos 4x+cos x), so the integral is sin 4x/4+sin x. A+B=5/4 and its integer part is 1.}, difficulty=5, diff_parts={K1 S2 I2 C0 F1}, diff_note={concepts: product to sum identity in an integral | steps: factor the numerator; reduce to cos 4x plus cos x; integrate; floor | I: finding the factorisation}]
+$\displaystyle\int\dfrac{\cos9x+\cos6x}{2\cos5x-1}dx=A\sin4x+B\sin x+C$, then $[A+B]$ is equal to:\\
+(Where $C$ is constant of integration; $[\cdot]$ is greatest integer function)
+\end{bankq}
+\begin{bankq}[id=SRG36-P1-MATH-S4-Q07, source={SRG (Enthusiast) - Test 36 (25 Aug 2024)}, paper=1, qno=7, type=numerical, subtopic={Substitution}, answer={3}, answer_src=key, working={With t=tan x the integrand is t/((t squared+t+1)(1+t squared))=1/(1+t squared)-1/(t squared+t+1), giving x-(2/root3)arctan((2t+1)/root3), so A=3.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: integration of a rational function of tan | steps: t equal tan x; partial fractions; integrate; read A | I: partial fractions in t | C: constants}]
+The value of $\displaystyle\int\dfrac{\tan x}{\tan^2x+\tan x+1}dx=x-\dfrac2{\sqrt A}\tan^{-1}\left(\dfrac{2\tan x+1}{\sqrt A}\right)+C$ (where $C$ is integration constant). Then the value of $A$ is :
 \end{bankq}
 
 \section*{Pre-Score (2023-24) papers}

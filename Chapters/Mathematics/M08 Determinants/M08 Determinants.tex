@@ -465,6 +465,12 @@ then the value of $\dfrac{D}{1000}$ can be
 \opt{D}{3}
 \end{qoptions}
 \end{bankq}
+\begin{bankq}[id=SRG28-P1-MATH-S3-Q06, source={SRG (Enthusiast) - Test 28 (20 Aug 2023)}, paper=1, qno=6, type=numerical, subtopic={Expansion}, answer={0}, answer_src=solved, working={Expanding the determinant gives p squared plus terms of order p to the 4, so the third derivative at 0 is 0.}, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: third derivative of a determinant at zero via series | steps: expand the determinant; use series of trigonometric functions up to order p cubed; read third derivative | I: expanding the determinant and noticing the low order terms | C: series expansion}]
+Let $\Delta(p)=\begin{vmatrix}\cos p & p^3 & p^5\\ \sec^3p & \sin p & 0\\ \sin^2p & -p & p+p^3\end{vmatrix}$. The value of $\left.\dfrac{d^3(\Delta(p))}{dp^3}\right|_{p=0}$ is equal to
+\end{bankq}
+\begin{bankq}[id=SRG30-P1-MATH-S2-Q05, source={SRG (Enthusiast) - Test 30 (22 Oct 2023)}, paper=1, qno=5, type=numerical, subtopic={Properties}, answer={0}, answer_src=solved, working={Expand along the first column: f is x to the n times a constant plus cos x times a constant plus sin x times a constant. The nth derivative at 0 collects n!(8c-4s)-(8n!-2s)c+(4n!-2c)s=0.}, difficulty=7, diff_parts={K2 S2 I2 C1 F1}, diff_note={concepts: determinant expansion, higher derivatives | steps: expand along the first column; the three terms; nth derivative of each; collect and cancel | I: noticing the complete cancellation | C: expansion}]
+If $f(x)=\begin{vmatrix}x^n&n!&2\\\cos x&\cos\frac{n\pi}2&4\\\sin x&\sin\frac{n\pi}2&8\end{vmatrix}$, then the value of $\dfrac{d^n}{dx^n}[f(x)]$ at $x=0$ is
+\end{bankq}
 
 \section*{Pre-Score (2023-24) papers}
 \begin{bankq}[id=PS05-P1-MATH-S1-Q01, source={Pre-Score (2023-24) - Test 05 (05 Nov 2023)}, paper=1, qno=1, type=single, subtopic={Expansion}, answer={D}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S2 I2 C2 F0}, diff_note={concepts: tridiagonal determinant and an infinite sum | steps: expand along the first row to get D_n = 10 D_{n-1} - 9 D_{n-2}; solve to find D_n = (9^{n+1} - 1)/8 type; compute the sum with 18 D_n+1 telescoping | I: recurrence of tridiagonal determinants | C: solving the recurrence and summing}]

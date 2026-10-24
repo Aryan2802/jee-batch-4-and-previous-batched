@@ -713,6 +713,61 @@ If $L$ is the number of points of discontinuity and $M$ is the number of points 
 \opt{D}{22}
 \end{qoptions}
 \end{bankq}
+\begin{bankq}[id=SRG27-P1-MATH-S1-Q12, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=12, type=single, subtopic={Types of discontinuity}, answer={B}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C2 F0}, diff_note={concepts: limits and continuity of piecewise composite functions | steps: evaluate f and g near the join points; compute left and right limits of the composition; check statement | I: handling the composition of piecewise functions | C: evaluating limits for four statements}]
+Consider $f(x)=\begin{cases}2-|x| & -1\le x\le1\\ |x-2|-x & 1<x\le3\end{cases}$ and\\
+$g(x)=\begin{cases}\sin x-1 & 0\le x<\frac\pi2\\ [x]-\cos(x-2) & \frac\pi2\le x\le\pi\end{cases}$\\
+(where $[.]$ represents greatest integer function) then which of following is correct.
+\begin{qoptions}
+\opt{A}{$\displaystyle\lim_{x\to1^+}g\bigl(f(x)\bigr)=-1$}
+\opt{B}{$\displaystyle\lim_{x\to0^-}g\bigl(f(x)\bigr)=0$}
+\opt{C}{$\displaystyle\lim_{x\to2^+}\dfrac{f\bigl(g(x)\bigr)}{f(x)-2}=\dfrac12$}
+\opt{D}{$\displaystyle\lim_{x\to0^+}\dfrac{g\bigl(f(x)\bigr)}{\bigl(f(x)-2\bigr)^2}=\dfrac{-1}{2}$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-MATH-S2-Q03, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=3, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={6}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: non differentiability of greatest integer functions of inverse sine and rational | steps: points where [sin inverse x] changes; points where [2/(1+x squared)] jumps; count a and b; product | I: finding the jump points of each function | C: counting and multiplying}]
+If $a$ and $b$ are the number of points of non differentiability of $f(x)=[\sin^{-1}x]$, $x\in[-1,1]$ and $g(x)=\left[\dfrac{2}{1+x^2}\right]$, $x\ge0$, (where $[.]$ represents greatest integer function) respectively, then the value of $ab$ is
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-MATH-S2-Q04, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=4, type=numerical, subtopic={Types of discontinuity}, answer={3}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: discontinuity of nested greatest integer functions of tangent and cotangent | steps: determine [cot x] on subintervals; then tan x times that; integer part; list points of jumps | I: working out the nested greatest integers on subintervals | C: counting jump points}]
+Let $f(x)=[\tan x\,[\cot x]]$, $x\in\left[\dfrac\pi{12},\dfrac\pi2\right)$ (where $[.]$ denotes the greatest integer less than or equal to $x$). Then the number of points, where $f(x)$ is discontinuous is
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-MATH-S2-Q07, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=7, type=numerical, subtopic={Types of discontinuity}, answer={12}, answer_src=key, difficulty=6, diff_parts={K1 S2 I2 C1 F1}, diff_note={concepts: counting functions discontinuous only at integers | steps: domain [2,15] with 14 integer points; step functions on each unit interval with different adjacent values; count 3 times 2 to the 13 | I: counting assignments of values with adjacent difference | C: factorising the count and computing b/a}]
+Let $f:[2,15]\to\{1,2,3\}$, and the number of function $f$ can be formed on its domain such that it is discontinuous only on all integral points are $a.2^b$ (where $a,b\in N$, $a$ is prime number) then $\left[\dfrac ba\right]$ is :\\
+(where $[.]$ denotes greatest integer function)
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-MATH-S2-Q09, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=9, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={25}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: number of points of non differentiability with nested modulus | steps: analyse each term: (x cubed - 1) abs(x - 1), sin(pi x) abs(x - 2) and the nested modulus term; count points; compute last two digits of the power | I: analysing each term for differentiability | C: counting points and power modulo 100}, also_in={Star Review (Other) - Test 03 (04 Dec 2023) P2 Q7}]
+If $f(x)=\left(x^3-1\right)|x-1|+\sin(\pi x)\,|x-2|+\bigl|\,||x|-3|-5\bigr|$ and $\lambda$ be the number of points in which $f(x)$ is non-differentiable then last two digit of the number $\lambda^{32}$ is :
+\end{bankq}
+\begin{bankq}[id=SRG27-P2-MATH-S2-Q07, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=2, qno=7, type=multi, subtopic={Types of discontinuity}, answer={A,B,C,D}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: products of piecewise functions obtained by reflections | steps: determine each function on intervals; evaluate products and sums at test points; check statements | I: tracking reflections of the base function | C: evaluating four statements}]
+Functions $f_r(x)$, $r=1,2,3,4$ are defined as $f_1(x)=\begin{cases}x^2; & 0\le x<1\\ 1; & x\ge1\\ 0; & \text{otherwise}\end{cases}$ \& $f_2(x)=f_1(-x),\ f_3(x)=f_2(-x),\ f_4(x)=f_3(-x)$ then :
+\begin{qoptions}
+\opt{A}{$f_1(x)f_2(x)=f_3(x)f_4(x)$}
+\opt{B}{$f_3(x)f_4(x)=0\ \forall x\in R$}
+\opt{C}{$f_2(-1/2)+f_3(1/2)=1/2$}
+\opt{D}{$f_1(x)f_2(x)=0,\ \forall x\in R$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P2-MATH-S3-Q11, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=2, qno=11, type=single, subtopic={Differentiability of modulus and greatest-integer functions}, answer={C}, answer_src=key, difficulty=5, diff_parts={K2 S2 I1 C1 F0}, diff_note={concepts: number of points of non differentiability of modulus and fractional part functions, matching | steps: rewrite each function piecewise; list critical points of modulus and fractional part; count for each item; match | I: piecewise analysis of nested modulus functions | C: counting points for four items}]
+Match the column.
+\begin{center}\small
+\begin{tabular}{|l|p{0.55\linewidth}|c|l|}\hline
+\multicolumn{2}{|c|}{\textbf{List-I}} & \multicolumn{2}{c|}{\textbf{List-II}}\\\hline
+P. & If $f(x)=2|x|+|x+2|-\big||2+x|-2|x|\big|$ and $f(x)$ is non differentiable at $m$ points, then `$2m$' is & 1. & 6\\\hline
+Q. & If $f(x)=|x|+\{x\}+\operatorname{sgn}x+[-x]$ (where $[.]\to$ G.I.F. and $\{.\}\to$ F.P.F) and $f(x)$ is discontinuous at $n$ points in $(-3,3)$, then $n$ is : & 2. & 2\\\hline
+R. & The number of local minimum of the function $f(x)=x^2+4\cos x+5$ is : & 3. & 8\\\hline
+S. & If $f(x)=2|x|^3+3x^2-12|x|+1$ where $x\in[-1,2]$, then the greatest value of $f(x)$ in the given interval is : & 4. & 4\\\hline
+ & & 5. & 5\\\hline
+\end{tabular}
+\end{center}
+\begin{qoptions}
+\opt{A}{$P\to3;\ Q\to4;\ R\to5;\ S\to1$}
+\opt{B}{$P\to4;\ Q\to3;\ R\to2;\ S\to5$}
+\opt{C}{$P\to3;\ Q\to4;\ R\to2;\ S\to5$}
+\opt{D}{$P\to2;\ Q\to3;\ R\to4;\ S\to1$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P2-MATH-S4-Q04, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=2, qno=4, type=numerical, subtopic={Types of discontinuity}, answer={3072}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: counting functions with one sided continuity at integers | steps: on each unit interval function constant or value jumps; discontinuity at integer points with conditions of left and right continuity; count assignments | I: translating one sided continuity conditions into constraints | C: counting functions}]
+Let $f:[0,10]\to\{1,2,3\}$ the total number of function can be formed such that $f$ is discontinuous at all integral points only but right continuous at all odd integers as well as left continuous at all even integral points on its given domain are:
+\end{bankq}
 
 \section*{Pre-Score (2023-24) papers}
 \begin{bankq}[id=PS06-P1-MATH-S1-Q02, source={Pre-Score (2023-24) - Test 06 (20 Nov 2023)}, paper=1, qno=2, type=single, subtopic={Types of discontinuity}, answer={A}, answer_src=key, working={Printed key.}, difficulty=2, diff_parts={K1 S1 I0 C1 F0}, diff_note={concepts: continuity and differentiability of an inverse trigonometric function | steps: 2x/(1+x^2) is sine of 2 arctan x; arcsin gives 2 arctan x when | x | below one; beyond one it becomes pi minus 2 arctan x; check differentiability at x = 1 | C: one sided derivatives}]
@@ -1364,9 +1419,6 @@ The number of points where $g(x)$ is non differentiable are :
 \opt{C}{$4$}
 \opt{D}{$5$}
 \end{qoptions}
-\end{bankq}
-\begin{bankq}[id=STAR03-P2-MATH-S4-Q07, source={Star Review (Other) - Test 03 (04 Dec 2023)}, paper=2, qno=7, type=numerical, subtopic={Differentiability of modulus and greatest-integer functions}, answer={25}, answer_src=key, difficulty=8, diff_parts={K1 S3 I2 C2 F1}, diff_note={concepts: number of non differentiable points and the power of it | steps: each term; points of non differentiability; combine; value of lambda; last two digits}]
-If $f(x)=(x^3-1)|x-1|+\sin(\pi x)|x-2|+\left|\,||x|-3|-5\right|$ and $\lambda$ be the number of points in which $f(x)$ in non-differentiable then last two digit of the number $\lambda^{32}$ is :
 \end{bankq}
 
 \section*{Internal Test papers}

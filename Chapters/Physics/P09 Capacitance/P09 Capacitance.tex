@@ -1211,6 +1211,77 @@ A parallel plate capacitor of capacitance C (without dielectrics) is filled by d
 \opt{D}{3 C}
 \end{qoptions}
 \end{bankq}
+\begin{bankq}[id=SRG27-P1-PHY-S1-Q01, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=1, type=single, subtopic={Combinations}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: equivalent capacitance of an infinite ladder network | steps: self similar network so equivalent C satisfies Ceq = C + C Ceq/(C + Ceq) type relation; form the quadratic; take the positive root | I: using self similarity to reduce the infinite network to an equation | C: solving the quadratic}]
+Calculate the equivalent capacitance between A and B.
+\bfig{160.7}{SRG27_p1_phy_s1_q01_A.png}
+\begin{qoptions}
+\opt{A}{$\dfrac{3+\sqrt{17}}{2}C$}
+\opt{B}{$\dfrac{5+\sqrt{17}}{2}C$}
+\opt{C}{$\dfrac{1+\sqrt5}{2}C$}
+\opt{D}{$\dfrac{3+\sqrt5}{2}C$}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-PHY-S1-Q03, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=3, type=single, subtopic={Dielectrics}, answer={A}, answer_src=solved, working={The capacitor pulls the slab in at constant potential, so the external agent pushes opposite to the displacement and does negative work; A is false and R is true.}, difficulty=3, diff_parts={K1 S2 I1 C0 F0}, diff_note={concepts: work done on inserting a dielectric slab at constant potential | steps: capacitor pulls the slab in so external force opposes displacement; work by agent is negative; check assertion and reason | I: judging the sign of the external work}]
+\textbf{Assertion (A) :} A capacitor is connected to an ideal battery. A dielectric slab is slowly inserted into the gap between the plates of capacitor. Work required in the process is positive.\\
+\textbf{Reason (R) :} Force due to capacitor will try to pull dielectric into the capacitor. To slowly insert external force needs to be outward i.e. opposite to displacement.
+\begin{qoptions}
+\opt{A}{\textbf{A} is not correct but \textbf{R} is correct.}
+\opt{B}{Both \textbf{A} and \textbf{R} are correct but \textbf{R} is NOT the correct explanation of \textbf{A}.}
+\opt{C}{Both \textbf{A} and \textbf{R} are correct and \textbf{R} is the correct explanation of \textbf{A}.}
+\opt{D}{\textbf{A} is correct but \textbf{R} is not correct.}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-PHY-S1-Q10, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=10, type=single, subtopic={Dielectrics}, answer={B}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: capacitor with a small dielectric slab | steps: slab smaller than the plates; capacitance depends on whether slab is covering a small area only; approximate as parallel combination | I: treating the slab as a parallel branch of area 25 sq cm with a gap | C: numerical evaluation}]
+A parallel plate capacitor has plates of dimension $10\text{ cm}\times20$ cm. Separation between plates is 4 mm. A dielectric slab of dimension $5\text{ cm}\times5\text{ cm}\times2$ mm is inserted in capacitor so that it is fully inside. If dielectric constant of slab is 9 then the capacitance will be nearly
+\begin{qoptions}
+\opt{A}{23 pF}
+\opt{B}{49 pF}
+\opt{C}{69 pF}
+\opt{D}{It is not possible to calculate capacitance unless location of dielectric inside capacitor is known.}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-PHY-S2-Q03, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=3, type=numerical, subtopic={Charge sharing}, answer={24}, answer_src=key, difficulty=6, diff_parts={K2 S2 I1 C1 F1}, diff_note={concepts: ballistic galvanometer reading in a capacitor network, switch sequence | steps: charge flowing through the galvanometer when first switch closes; redistribution when the second closes; difference of the two readings | I: tracking charge flow in two stages | C: evaluating capacitances and charges}]
+A ballistic galvanometer, which measures charge flow through it, is connected in the circuit as shown. All capacitors are initially uncharged. First switch `s$_1$' is closed and reading is noted. Then witch `s$_2$' then is closed and again reading is noted. The difference in reading is \underline{\hspace{1cm}} $\mu$C. ($V=36$ Volt, $C=4\,\mu$F)
+\bfig{104.4}{SRG27_p1_phy_s2_q03_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-PHY-S2-Q05, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=5, type=numerical, subtopic={Dielectrics}, answer={-12}, answer_src=key, difficulty=4, diff_parts={K1 S1 I1 C1 F1}, diff_note={concepts: bound charge density in a dielectric slab | steps: free charge density 18; sigma_b = sigma_f (1 - 1/K) magnitude 12 | I: relating bound charge to free charge and dielectric constant | C: arithmetic}]
+Charge density on upper plate of capacitor 18 nC/m$^2$. What will be the bounded charge density (in nC/m$^2$) on upper surface of dielectric of dielectric constant 3\,?
+\bfig{79.4}{SRG27_p1_phy_s2_q05_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-PHY-S2-Q07, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=7, type=numerical, subtopic={Charge sharing}, answer={280}, answer_src=key, difficulty=7, diff_parts={K1 S2 I2 C2 F1}, diff_note={concepts: series capacitors with charge redistribution and dielectric insertion | steps: closing switch shares charge; steady state common voltage; inserting dielectric changes capacitance and redistributes at constant total charge; final voltage | I: tracking charge conservation through two stages | C: numerical redistribution}]
+Two identical capacitors of $2\mu$F capacitance are connected in series as shown. One of the capacitor has initial potential difference across it as shown. Now switch is closed. When circuit reaches steady state a dielectric of dielectric constant 3 inserted into right capacitor. If final potential on left capacitor is $x$ volt, then $16x=$ \underline{\hspace{1.5cm}}
+\bfig{69.3}{SRG27_p1_phy_s2_q07_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG27-P1-PHY-S2-Q08, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=1, qno=8, type=numerical, subtopic={Combinations}, answer={60}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: charge through a switch in a capacitor and resistor network | steps: steady state charges before closing; after closing nodal analysis; change of charge on the capacitor branch | I: finding final charges with the switch closed | C: network arithmetic}]
+Given circuit is in steady state. Now switch `S' is closed. Charge flowing through the switch is \underline{\hspace{1.5cm}} $\mu$C.
+\bfig{132.0}{SRG27_p1_phy_s2_q08_1.png}
+\end{bankq}
+\begin{bankq}[id=SRG27-P2-PHY-S1-Q03, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=2, qno=3, type=single, subtopic={RC circuits}, answer={A}, answer_src=key, difficulty=7, diff_parts={K2 S2 I2 C2 F0}, diff_note={concepts: RC discharge with a second switch closed later, time dependent current | steps: first stage RC discharge of one capacitor to a time; second stage with both capacitors; combined time constant and initial voltage; current at later time | I: restarting the circuit equations at the instant of the second switch | C: evaluating exponential terms}]
+Two identical capacitor of capacitance 10 $\mu$F are charged to a potential 10 V as shown. At $t=0$, switch $S_1$ is closed and at $t=\ln4$ ms switch $S_2$ is also closed. Current through resistor at $t=\ln8$ ms is nearly
+\bfig{76.2}{SRG27_p2_phy_s1_q03_1.png}
+\begin{qoptions}
+\opt{A}{44 mA}
+\opt{B}{88 mA}
+\opt{C}{53 mA}
+\opt{D}{27 mA}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P2-PHY-S1-Q04, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=2, qno=4, type=single, subtopic={Dielectrics}, answer={A}, answer_src=key, difficulty=4, diff_parts={K1 S2 I1 C1 F0}, diff_note={concepts: electric field in layered dielectric spheres from a graph | steps: field in each dielectric E = kQ/(K r squared); read values from the graph; ratio gives K2 | I: reading the field jump at the boundary to get K2 | C: arithmetic from the graph}]
+A point charge is kept at the centre of two layers of spherical dielectrics as shown. Electric field strength varies as a function of distance from point charge as shown.
+\bfig{82.0}{SRG27_p2_phy_s1_q04_1.png}
+\bfig{99.2}{SRG27_p2_phy_s1_q04_2.png}
+The dielectric constant of outer sphere is $K_2=$ \_\_\_\_\_\_\_ ($K_1=15$)
+\begin{qoptions}
+\opt{A}{25}
+\opt{B}{2.5}
+\opt{C}{12.5}
+\opt{D}{1.25}
+\end{qoptions}
+\end{bankq}
+\begin{bankq}[id=SRG27-P2-PHY-S4-Q05, source={SRG (Enthusiast) - Test 27 (13 Aug 2023)}, paper=2, qno=5, type=numerical, subtopic={Combinations}, answer={90}, answer_src=key, difficulty=5, diff_parts={K1 S2 I1 C1 F1}, diff_note={concepts: steady state charge on a capacitor in a multi battery circuit | steps: no current in steady state; potential differences around loops; find voltage across the marked capacitor using capacitor combinations | I: applying loop equations with capacitors in steady state | C: computing the charge}]
+In the given circuit, all capacitor have capacitance of 10$\mu$F and EMF of batteries is 10 V. All capacitors are initially uncharged. Calculate charge on capacitor marked P at steady state in $\mu$C.
+\bfig{114.4}{SRG27_p2_phy_s4_q05_1.png}
+\end{bankq}
 
 \section*{Pre-Score (2023-24) papers}
 \begin{bankq}[id=PS07-P1-PHY-S1-Q01, source={Pre-Score (2023-24) - Test 07 (29 Nov 2023)}, paper=1, qno=1, type=multi, subtopic={RC circuits}, answer={A,C,D}, answer_src=key, working={Printed key.}, difficulty=6, diff_parts={K1 S3 I1 C1 F1}, diff_note={concepts: steady state of a capacitor resistor circuit with several cells | steps: capacitors carry no current at steady state; find branch currents from resistors and cells; potential difference between A and B from the path; charges on the two capacitors from the voltages across them; check each option | I: capacitors are open so only the resistive paths carry current | C: summing several potential drops}]
