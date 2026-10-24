@@ -1618,7 +1618,7 @@
    "status": "done",
    "conv_note": "PARTIAL BY SOURCE: source PDF is a 9-page bilingual fragment; transcribed all English questions present (Phy Q10-12, Chem Q10-11, Math Q6-17 = 17Q) + 7 figures. Lint PASS (part-checklist WARNs only).",
    "note": "17 questions; 17 from key, 0 solved; bands Easy 0/Medium 17/Hard 0/Very hard 0; chapters C14 C16 M01 M03 M05 M08 M09 M12 M20 M27 M28 M29 M31 P08 P21 P24",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "Score-II - Test 07 (10 Jul 2022)",
