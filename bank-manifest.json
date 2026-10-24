@@ -1471,8 +1471,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 35 (04 Feb 2025).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 4 + I(ii) 6 + III 8) = 54 Q; 20 figures"
+   "status": "in_progress",
+   "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 4 + I(ii) 6 + III 8) = 54 Q; 20 figures",
+   "started_at": "2026-10-24T00:05:22Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 38 (12 Feb 2025)",
