@@ -296,14 +296,10 @@
    "src_rel": [
     "Batch 4/Source/TOPS/Advanced/Very Challenging/TOPS - Test 05 (14 Jan 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-19, 12pp, 71 figs",
-   "note": "108 questions; 103 from key, 5 solved; bands Easy 2/Medium 26/Hard 46/Very hard 34; chapters C01 C02 C03 C06 C08 C14 C15 C29 C30 C36 M01 M03 M04 M05 M08 M10 M11 M12 M13 M15 M16 M17 M18 M19 M20 P01 P02 P03 P04 P05 P07 P13 P14 P15 P16 P23 P25",
-   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)",
-   "fix_note": "rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T05:31:47Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "v4 rescore; key ranges restored",
+   "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)"
   },
   {
    "name": "TEAS - Test 01 (16 Apr 2023)",
