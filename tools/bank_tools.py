@@ -626,7 +626,7 @@ def apply(work, chapters=None, answers=None, difficulty=None):
         # a new difficulty file replaces every earlier score: a question whose line is rejected has NO difficulty
         # afterwards, so `pack` refuses until it is fixed
         for q in data["questions"]:
-            for k in ("diff_kSIC", "diff_note", "difficulty", "diff_parts", "diff_band"):
+            for k in ("diff_kSIC", "diff_note", "difficulty", "diff_parts", "diff_band", "diff_adjust"):
                 q.pop(k, None)
         seen_reasons, seen_steps = collections.defaultdict(list), collections.defaultdict(list)
         for r in read_tsv(difficulty):
@@ -1005,6 +1005,11 @@ def build(zdir, out, only=None, compile_check=True):
             if q.get("working"): keys.append(f"working={{{pct_esc(q['working'])}}}")
             if q.get("diff_kSIC"):
                 q["difficulty"], q["diff_parts"] = diff_score(q["diff_kSIC"], q["type"])
+                if q.get("diff_adjust"):
+                    # user 24 Oct 19:38: tests with padded reasons (group C) are shifted down by the gap between the
+                    # group C and group A mean difficulty (1.04 -> 1 point per question), stored as diff_adjust
+                    q["difficulty"] = max(1, min(10, q["difficulty"] + q["diff_adjust"]))
+                    q["diff_parts"] += f" adj{q['diff_adjust']:+d}"
                 keys.append(f"difficulty={q['difficulty']}")
                 keys.append(f"diff_parts={{{q['diff_parts']}}}")
                 if q.get("diff_note"): keys.append(f"diff_note={{{pct_esc(q['diff_note'])}}}")
