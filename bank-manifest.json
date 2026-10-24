@@ -1960,8 +1960,11 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 01 (24 Jan 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done"
+   "status": "in_progress",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done",
+   "started_at": "2026-10-24T07:39:27Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)",
