@@ -693,7 +693,10 @@ def apply(work, chapters=None, answers=None, difficulty=None):
             n = len(scored)
             share = lambda f, v: sum(1 for q in scored if q["diff_kSIC"][f] == v) / n
             over = [f"{lab} {share(f, v):.0%} (max {mx:.0%})" for f, v, mx, lab in
-                    (("C", 2, 0.25, "C2"), ("K", 3, 0.20, "K3"), ("I", 2, 0.30, "I2")) if share(f, v) > mx]
+                    (("C", 2, 0.15, "C2"), ("K", 3, 0.15, "K3"), ("I", 2, 0.30, "I2")) if share(f, v) > mx]
+            vh = sum(1 for q in scored if sum(q["diff_kSIC"].values()) + 1 - 1 >= 8) / n   # D>=8 even with F=0
+            if vh > 0.20:
+                over.append(f"Very hard {vh:.0%} (max 20%)")
             if over:
                 errs.append("difficulty looks inflated: " + ", ".join(over) + " - K counts distinct laws/methods "
                             "(the first law is ONE concept even if work, dU and heat all appear), C2 is for genuinely "

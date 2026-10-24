@@ -136,5 +136,10 @@ each test is marked done; consolidate into STANDING LESSONS when the file passes
   the reason; and a test is rejected (all its scores cleared) if more than 25% of its questions get C2, 20% K3 or 30% I2.
 - K counts DISTINCT laws or methods, not the quantities they produce. Typical JEE Advanced papers land mostly in
   D3-D6; D8-D10 is for the few questions that combine a non-standard idea with a long solution.
-- User decision 24 Oct 09:47: finished tests are NOT rescored again (their difficulty stays approximate); the new
-  rules apply to every test banked from now on.
+- User decision 24 Oct 09:50: the 42 good and 67 inflated finished tests stay as they are; the 52 tests with TEMPLATE
+  difficulty (Score-II, Score-I) get fix_note "rescore difficulty v4" and all not-yet-banked tests are scored under the
+  new rules. Target: every new score looks like the good group - typical paper: C2 0-10%, K3 under 15%, I2 5-25%,
+  Very hard under 15%, most questions D3-D6. Limits now enforced by apply: C2 15%, K3 15%, I2 30%, D>=8 20%.
+- What the good group did differently: it solved each question before scoring (reasons name the actual equation or
+  idea, e.g. "Graham law gives M; density gives pressure relation"), used C1 for ordinary algebra and C2 almost never,
+  and kept K at the number of distinct laws.
