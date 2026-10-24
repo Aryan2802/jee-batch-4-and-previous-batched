@@ -2070,8 +2070,11 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 11 (20 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done"
+   "status": "in_progress",
+   "conv_note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done",
+   "started_at": "2026-10-24T08:30:22Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 12 (25 May 2021)",
