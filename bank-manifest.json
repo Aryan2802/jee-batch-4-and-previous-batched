@@ -1560,8 +1560,11 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 19 (20 Feb 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 38 figures (math option/matrix crops typed); lint PASS, QA done"
+   "status": "in_progress",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 38 figures (math option/matrix crops typed); lint PASS, QA done",
+   "started_at": "2026-10-24T00:12:33Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 24 (17 Mar 2024)",
