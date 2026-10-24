@@ -2374,11 +2374,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 30 (22 Oct 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "114 q (two papers), 29 figs, 12 pp",
-   "started_at": "2026-10-24T11:29:12Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "working"
+   "note": "key covers parts only and is jumbled across subjects; P1 phy/chem s1 and P2 phy/chem checked against it, remaining solved by hand; chem s2 q02, q03 and s3 q01 depend on classification"
   },
   {
    "name": "SRG (Enthusiast) - Test 36 (25 Aug 2024)",
