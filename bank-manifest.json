@@ -2268,8 +2268,11 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 11 (29 Aug 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "in_progress",
+   "conv_note": "",
+   "started_at": "2026-10-24T10:36:15Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "SRG (Enthusiast) - Test 12 (19 Sep 2021)",
