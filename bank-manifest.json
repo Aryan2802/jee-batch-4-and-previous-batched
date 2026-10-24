@@ -2121,11 +2121,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 01 (08 Oct 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Done: transcribed, lint PASS, visual QA complete",
-   "started_at": "2026-10-24T09:16:25Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "answers from the printed key (paper 1 physics key lists two extra entries for questions absent from the converted paper; mapped by solving); all questions hand-scored"
   },
   {
    "name": "Pre-Score (2023-24) - Test 02 (15 Oct 2023)",
