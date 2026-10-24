@@ -1714,13 +1714,9 @@
    "src_rel": [
     "Score 2/Source/Mains/Moderate/Score-II - Test 15 (09 Feb 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Two-paper test: 144Q (P1 90 + P2 54), 59 figs, lint PASS, QA done",
-   "note": "144 questions; 132 from key, 12 solved; bands Easy 0/Medium 73/Hard 0/Very hard 71; chapters C01 C03 C11 C13 C14 C16 C18 C24 C25 C27 C29 C30 C36 M01 M02 M03 M07 M08 M10 M11 M13 M15 M16 M20 M30 P07 P08 P11 P13 P14 P15 P16 P21 P22",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T06:59:58Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "v4 rescore (calibrated)"
   },
   {
    "name": "Score-II - Test 20 (23 Feb 2024)",
