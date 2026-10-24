@@ -1504,8 +1504,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 40 (16 Mar 2025).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Adv Very Challenging; 2 papers: each part I(i) 4 + I(ii) 3 + I(iii)/II(i) 4 + II 6 = 17Q x3 x2 papers = 102Q; 43 figures"
+   "status": "in_progress",
+   "conv_note": "Adv Very Challenging; 2 papers: each part I(i) 4 + I(ii) 3 + I(iii)/II(i) 4 + II 6 = 17Q x3 x2 papers = 102Q; 43 figures",
+   "started_at": "2026-10-24T00:07:08Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 03 (05 May 2021)",
