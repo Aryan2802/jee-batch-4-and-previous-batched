@@ -1493,8 +1493,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 39 (02 Mar 2025).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Adv Very Challenging; 2 papers: P1 (I(i) 6 + I(ii) 4 + II 8) x3 = 54Q + P2 (I(i) 4 + I(ii) 6 + III 8) x3 = 54Q = 108Q; 50 figures"
+   "status": "in_progress",
+   "conv_note": "Adv Very Challenging; 2 papers: P1 (I(i) 6 + I(ii) 4 + II 8) x3 = 54Q + P2 (I(i) 4 + I(ii) 6 + III 8) x3 = 54Q = 108Q; 50 figures",
+   "started_at": "2026-10-24T00:06:15Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 40 (16 Mar 2025)",
