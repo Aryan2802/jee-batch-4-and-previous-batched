@@ -2169,8 +2169,11 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 05 (05 Nov 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS"
+   "status": "in_progress",
+   "conv_note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS",
+   "started_at": "2026-10-24T09:56:10Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Pre-Score (2023-24) - Test 06 (20 Nov 2023)",
