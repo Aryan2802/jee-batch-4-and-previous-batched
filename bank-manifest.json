@@ -2110,11 +2110,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 15 (12 Jun 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Done: transcribed, lint PASS, visual QA complete",
-   "started_at": "2026-10-24T09:07:09Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "same paper as Test 11: answers/chapters copied by exact text from it, key page for 14 physics items; 20 remaining hand-scored"
   },
   {
    "name": "Pre-Score (2023-24) - Test 01 (08 Oct 2023)",
