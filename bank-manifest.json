@@ -1610,10 +1610,13 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 05 (22 Mar 2022).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "PARTIAL BY SOURCE: source PDF is a 9-page bilingual fragment; transcribed all English questions present (Phy Q10-12, Chem Q10-11, Math Q6-17 = 17Q) + 7 figures. Lint PASS (part-checklist WARNs only).",
    "note": "17 questions; 17 from key, 0 solved; bands Easy 0/Medium 17/Hard 0/Very hard 0; chapters C14 C16 M01 M03 M05 M08 M09 M12 M20 M27 M28 M29 M31 P08 P21 P24",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T06:47:30Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 07 (10 Jul 2022)",
