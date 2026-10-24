@@ -569,10 +569,13 @@
    "src_rel": [
     "Batch 4/Source/Enthusiast Pre-Score/Advanced/Very Challenging/Enthusiast Pre-Score - Test 02 (11 Nov 2020).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "DONE 2026-10-19, 15pp, 51 figs",
    "note": "108 questions; 108 from key, 0 solved; bands Easy 7/Medium 14/Hard 51/Very hard 36; chapters C07 C08 C10 C15 C16 C17 C20 C22 C24 C31 C33 C37 M10 M11 M12 M13 M14 P06 P08 P09 P10 P25",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T03:13:19Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Enthusiast Pre-Score - Test 03 (23 Nov 2020)",
