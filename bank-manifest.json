@@ -2264,11 +2264,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 11 (29 Aug 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "",
-   "started_at": "2026-10-24T11:18:38Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "queued"
+   "note": "key from provision answer key; physics Q12 (key ABC) is missing from the converted tex and the source pdf holds only the key page, so only 17 physics questions are in the data; spot-checked math s3 q16 and phys s3 q13"
   },
   {
    "name": "SRG (Enthusiast) - Test 12 (19 Sep 2021)",
