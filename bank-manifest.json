@@ -1989,11 +1989,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 04 (04 Apr 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done",
-   "started_at": "2026-10-24T07:49:54Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 108 from key, 0 solved; Easy 18, Medium 64, Hard 23, Very hard 3; chapters assigned"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 05 (11 Apr 2021)",
