@@ -1537,8 +1537,11 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 07 (10 Jul 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 39 figures; lint PASS, QA done"
+   "status": "in_progress",
+   "conv_note": "Single paper P1: PHY/CHEM/MATH each Sec-I 20 + Sec-II 10 = 90 Q; 39 figures; lint PASS, QA done",
+   "started_at": "2026-10-24T00:09:01Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 17 (13 Feb 2024)",
