@@ -1515,8 +1515,11 @@
    "src_rel": [
     "Score 2/Source/Mains/Foundational/Score-II - Test 03 (05 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Mains Foundational; 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 29 figures"
+   "status": "in_progress",
+   "conv_note": "Mains Foundational; 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 29 figures",
+   "started_at": "2026-10-24T00:07:53Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 05 (22 Mar 2022)",
