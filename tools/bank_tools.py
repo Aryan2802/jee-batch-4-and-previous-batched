@@ -918,12 +918,12 @@ def build(zdir, out, only=None, compile_check=True):
             keys = [f"id={q['bid']}", f"source={{{q['test']}}}", f"paper={q['paper']}", f"qno={q['qnum']}",
                     f"type={q['type']}", f"subtopic={{{q.get('subtopic') or ''}}}", f"answer={{{tex_ans(q['answer'])}}}",
                     f"answer_src={q['answer_src']}"]
-            if q.get("working"): keys.append(f"working={{{q['working']}}}")
+            if q.get("working"): keys.append(f"working={{{pct_esc(q['working'])}}}")
             if q.get("diff_kSIC"):
                 q["difficulty"], q["diff_parts"] = diff_score(q["diff_kSIC"], q["type"])
                 keys.append(f"difficulty={q['difficulty']}")
                 keys.append(f"diff_parts={{{q['diff_parts']}}}")
-                if q.get("diff_note"): keys.append(f"diff_note={{{q['diff_note']}}}")
+                if q.get("diff_note"): keys.append(f"diff_note={{{pct_esc(q['diff_note'])}}}")
             if q["gkey"]: keys.append(f"group={groups[q['gkey']]['id']}")
             if q.get("also"): keys.append("also_in={" + "; ".join(q["also"]) + "}")
             L.append("\\begin{bankq}[" + ", ".join(keys) + "]\n" + q["text"] + "\n\\end{bankq}")
@@ -972,6 +972,10 @@ def row(q, code, title, dup=""):
             plain(q["answer"] or "", 60), q["answer_src"], int(bool(re.search(r"\\bfigi?\{", q["text"]))),
             "yes" if q["gkey"] else "", dup, "; ".join(q.get("also", [])), q.get("difficulty") or "",
             diff_band(q["difficulty"]) if q.get("difficulty") else "", q.get("diff_parts") or ""]
+
+
+def pct_esc(s):
+    return re.sub(r"(?<!\\)%", r"\\%", s)
 
 
 def tex_esc(s):
