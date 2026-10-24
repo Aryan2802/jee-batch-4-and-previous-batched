@@ -888,13 +888,9 @@
    "src_rel": [
     "Batch 4/Source/Score Advanced/Advanced/Very Challenging/Score Advanced - Test 28 (27 Apr 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "DONE 2026-10-20, 14pp, 77 figs",
-   "note": "108 questions; 91 from key, 17 solved; bands Easy 0/Medium 0/Hard 25/Very hard 83; chapters C02 C03 C04 C07 C09 C10 C11 C12 C15 C16 C17 C18 C19 C22 C24 C25 C27 C31 C32 C36 C37 M01 M02 M03 M04 M05 M06 M07 M11 M14 M18 M20 M21 M22 M23 M24 M28 M29 M32 P01 P02 P03 P04 P06 P07 P08 P09 P10 P11 P12 P13 P15 P16 P17 P18 P19 P20 P21 P25",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T03:42:00Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "108 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)"
   },
   {
    "name": "Score Advanced - Test 29 (01 May 2024)",
