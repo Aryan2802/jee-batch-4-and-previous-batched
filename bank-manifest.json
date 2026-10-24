@@ -2268,9 +2268,9 @@
    ],
    "status": "in_progress",
    "conv_note": "",
-   "started_at": "2026-10-24T10:36:15Z",
+   "started_at": "2026-10-24T11:13:44Z",
    "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "progress_note": "queued behind Test 27"
   },
   {
    "name": "SRG (Enthusiast) - Test 12 (19 Sep 2021)",
