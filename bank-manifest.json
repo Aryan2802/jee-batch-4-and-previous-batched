@@ -1736,11 +1736,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 05 (22 Jan 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Paper-1 only; 8 pages; 33 figs; lint PASS, all pages QA'd",
-   "started_at": "2026-10-24T00:36:27Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 53 from key, 1 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C03 C11 C12 C15 C16 C18 C33 C36 M05 M14 M21 M22 M23 M24 M29 M30 M31 M32 P05 P19"
   },
   {
    "name": "Score-I - Test 06 (28 Jan 2022)",
