@@ -1121,11 +1121,14 @@
    "src_rel": [
     "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 03 (08 Aug 2021).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "DONE 2026-10-20, 7pp, 24 figs",
    "note": "v4 rescore",
    "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)",
-   "fix_note": "rescore difficulty v5 (SRGBT still inflated after v4: mean D6.2-6.9, D7 on up to 65%; user 24 Oct 12:05): SRGBT papers are foundation-level - redo difficulty.tsv question by question; K = distinct laws (usually 1), C1 for ordinary algebra; anchors from BANK_LEARNINGS.md THIRD AUDIT (real gas q24 -> D4, circle q48 -> D6, bobbin q11 -> D6); expect most questions D3-D6 with some Easy; apply now rejects mean > 6.3 or one score on > 50%; nothing else changes"
+   "fix_note": "rescore difficulty v5 (SRGBT still inflated after v4: mean D6.2-6.9, D7 on up to 65%; user 24 Oct 12:05): SRGBT papers are foundation-level - redo difficulty.tsv question by question; K = distinct laws (usually 1), C1 for ordinary algebra; anchors from BANK_LEARNINGS.md THIRD AUDIT (real gas q24 -> D4, circle q48 -> D6, bobbin q11 -> D6); expect most questions D3-D6 with some Easy; apply now rejects mean > 6.3 or one score on > 50%; nothing else changes",
+   "started_at": "2026-10-24T06:39:01Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v5 (SRGBT still inflated after v4: mean D6.2-6.9, D7 on up to 65%; user 24 Oct 12:05): SRGBT papers are foundation-level - redo difficulty.tsv question by question; K = distinct laws (usually 1), C1 for ordinary algebra; anchors from BANK_LEARNINGS.md THIRD AUDIT (real gas q24 -> D4, circle q48 -> D6, bobbin q11 -> D6); expect most questions D3-D6 with some Easy; apply now rejects mean > 6.3 or one score on > 50%; nothing else changes"
   },
   {
    "name": "SRGBT - Test 04 (15 Aug 2021)",
