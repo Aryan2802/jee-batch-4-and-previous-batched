@@ -2367,9 +2367,9 @@
    ],
    "status": "in_progress",
    "conv_note": "54 q, 12 figs, 6 pp",
-   "started_at": "2026-10-24T11:18:25Z",
+   "started_at": "2026-10-24T11:21:06Z",
    "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "progress_note": "working"
   },
   {
    "name": "SRG (Enthusiast) - Test 30 (22 Oct 2023)",
