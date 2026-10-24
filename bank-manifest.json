@@ -1549,11 +1549,9 @@
     "Score 2/Source/Mains/Foundational/Score-II - Test 17 (13 Feb 2024) - part1.pdf",
     "Score 2/Source/Mains/Foundational/Score-II - Test 17 (13 Feb 2024) - part2.pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Mains Foundational (two part-files); 1 paper, 3 parts x (Sec-I 20 + Sec-II 10) = 90Q; 41 figures",
-   "started_at": "2026-10-24T00:09:44Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "90 questions; 0 from key, 90 solved; bands Easy 0/Medium 46/Hard 14/Very hard 30; chapters C01 C04 C05 C06 C07 C09 C10 C11 C16 C18 C20 C22 C25 C29 C30 C31 C36 C37 M01 M02 M03 M04 M05 M06 M07 M08 M09 M11 M12 M13 M14 M15 M16 M17 M19 M20 M21 M26 M27 M28 M29 M30 M31 M32 P01 P02 P03 P05 P06 P08 P10 P11 P12 P14 P15 P16 P18 P19 P20 P21 P22 P23 P24 P25"
   },
   {
    "name": "Score-II - Test 19 (20 Feb 2024)",
