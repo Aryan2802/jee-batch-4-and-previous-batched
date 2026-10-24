@@ -2422,8 +2422,11 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 39 (15 Sep 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected"
+   "status": "in_progress",
+   "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected",
+   "started_at": "2026-10-24T11:53:12Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   }
  ]
 }
