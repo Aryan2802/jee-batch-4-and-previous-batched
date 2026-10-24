@@ -1681,11 +1681,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 01 (21 Mar 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Fixed 2026-09-22: prior output was silently truncated (missing Paper-2 Part-2 Chem Section-II Numerical Q4-8 and all of Paper-2 Part-3 Mathematics). Completed via full source re-scan against checklist",
-   "started_at": "2026-10-24T00:19:30Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "107 questions; 107 from key, 0 solved; bands Easy 0/Medium 24/Hard 0/Very hard 83; chapters C02 C03 C06 C07 C09 C10 C13 C15 C16 C20 C22 C23 C25 C27 C30 C31 C33 C35 C36 C37 C38 M02 M03 M04 M05 M06 M07 M13 M14 M16 M17 M21 M23 M25 M27 M29 M31 M32 P02 P03 P04 P05 P07 P08 P09 P10 P11 P13 P15 P18 P19 P20 P21 P25"
   },
   {
    "name": "Score-I - Test 01 (16 Jun 2021)",
