@@ -706,6 +706,13 @@ def apply(work, chapters=None, answers=None, difficulty=None):
             md = sum(dv) / n
             if md > 6.3:
                 over.append(f"mean difficulty {md:.1f} (max 6.3)")
+            # user 24 Oct 13:05: concept lists padded by splitting one phrase at a comma ("sum, lambda for local minima",
+            # "vapour pressure, pure liquid B") to reach K2; good tests have one-word concept items on <= 14% of questions
+            frag = sum(1 for q in scored if any(len(c.split()) < 2 for c in re.split(r"[,;]", (re.search(
+                r"concepts?\s*:\s*([^|]*)", q["diff_note"], re.I) or [0, ""])[1]) if c.strip())) / n
+            if frag > 0.15:
+                over.append(f"{frag:.0%} of reasons list a one-word 'concept' (max 15%) - a concept is a law or method "
+                            "(Raoult's law, Hess's law, sine rule), never a fragment of the question split at a comma")
             top = collections.Counter(dv).most_common(1)[0]
             if top[1] / n > 0.50:
                 over.append(f"D{top[0]} on {top[1] / n:.0%} of questions (max 50%) - a default score, not a judgement")
