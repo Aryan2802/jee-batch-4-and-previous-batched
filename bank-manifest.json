@@ -1129,11 +1129,14 @@
    "src_rel": [
     "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 04 (15 Aug 2021).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "DONE 2026-10-20, 7pp, 23 figs",
    "note": "54 questions; difficulty rescored v3 question by question (chapters, subtopics, answers unchanged)",
    "difficulty_note": "difficulty kept as is (user 24 Oct 09:47: no further rescoring of finished tests)",
-   "fix_note": "rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T06:21:31Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v4 (inflated, user 24 Oct 10:57; see BANK_LEARNINGS.md THIRD AUDIT): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "SRGBT - Test 05 (23 Aug 2021)",
