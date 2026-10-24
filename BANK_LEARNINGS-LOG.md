@@ -273,3 +273,9 @@ Score-II T17 (13 Feb 2024): PDF truncated to 13 of 17 pages, no key -> hand-solv
   K2 + S3 + I1 + C1 + F1 = D7 had become the default. SRGBT 01-12 now carry fix_note "rescore difficulty v5".
 - bank_tools apply now also rejects a test whose mean D is above 6.3 or that gives one D value to more than 50% of
   its questions (no good-group or Advanced v4 rescore exceeds either).
+## 2026-10-24 08:40 UTC - SRGBT difficulty rescored by hand (user 12:09 IST)
+- All 14 SRGBT tests now have hand-worked difficulty: 04-14 rescored question by question in the main chat (each
+  question solved, reasons name the actual equations), 01-03 done by the session under fix_note v5 and checked.
+  Means D3.5-5.0, D>=8 on 0-2 questions per test. Audit anchors hold: SRGBT 11 chem q24 = D4, math q48 = D6, phy q11 = D6.
+- SRGBT 13 and 14 had been finished under v4 at mean 6.5 and 6.1 (before the mean/default-score checks) and were redone too.
+- Do not re-queue SRGBT tests; they are final.
