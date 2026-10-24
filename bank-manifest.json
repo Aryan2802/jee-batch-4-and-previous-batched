@@ -1546,7 +1546,7 @@
    "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; 40 figures",
    "note": "54 questions; 47 from key, 7 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C04 C08 C09 C16 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M16 M18 M20 M23 M27 M32 P04 P07 P08 P09 P10 P11 P15 P17 P19 P20 P21 P25",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "Score-II - Test 35 (04 Feb 2025)",
