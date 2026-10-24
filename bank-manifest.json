@@ -2198,11 +2198,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 08 (03 Dec 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Paper 1+2, 17 q/subject each, 54 figs; lint PASS",
-   "started_at": "2026-10-24T10:05:53Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "answers from the printed key tables; all questions hand-scored"
   },
   {
    "name": "SRG (Enthusiast) - Test 01 (20 Sep 2020)",
