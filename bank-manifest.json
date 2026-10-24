@@ -2253,11 +2253,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 07 (27 Jun 2021).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "",
-   "started_at": "2026-10-24T11:13:44Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "queued behind Test 27"
+   "note": "key from provision answer key; spot-checked phy s3 q16 and math s3 q15"
   },
   {
    "name": "SRG (Enthusiast) - Test 11 (29 Aug 2021)",
