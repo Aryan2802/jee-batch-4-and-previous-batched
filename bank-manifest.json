@@ -1890,11 +1890,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 18 (24 Apr 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
-   "started_at": "2026-10-24T07:19:35Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 99 from key, 9 solved (3 P1 chem and 4 P1 math numerical answers whose key cells were missing or misaligned, plus 2 truncated ranges completed); difficulty Easy 6, Medium 23, Hard 76, Very hard 3"
   },
   {
    "name": "Score-I - Test 19 (20 Nov 2022)",
