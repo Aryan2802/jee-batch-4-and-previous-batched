@@ -1526,13 +1526,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 34 (02 Feb 2025).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 4 + II 8) = 54 Q; 40 figures",
-   "note": "54 questions; 47 from key, 7 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C04 C08 C09 C16 C30 C31 C32 C33 C36 M01 M02 M03 M04 M05 M06 M07 M16 M18 M20 M23 M27 M32 P04 P07 P08 P09 P10 P11 P15 P17 P19 P20 P21 P25",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
-   "started_at": "2026-10-24T05:22:28Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "note": "v4 rescore; key ranges restored"
   },
   {
    "name": "Score-II - Test 35 (04 Feb 2025)",
