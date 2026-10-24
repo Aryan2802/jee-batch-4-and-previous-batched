@@ -2143,11 +2143,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 03 (22 Oct 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "18 pp, 138 imgs; recropped s3 q02/q04 rows, anchors fixed q10->q11,q11->q12 list-match",
-   "started_at": "2026-10-24T09:47:58Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "answers from the printed key page (extra stray entries after paper 2 math numerics ignored); all questions hand-scored"
   },
   {
    "name": "Pre-Score (2023-24) - Test 04 (29 Oct 2023)",
