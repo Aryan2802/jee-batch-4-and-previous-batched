@@ -254,3 +254,4 @@ Score-II (Leader/Enthusiast) PDFs: answers sit in a solutions section; extract w
 Score-II Test 18 (13 Feb 2024): 1-page key-only PDF, key partial/misaligned (several sections missing items, a stray letter in math numeric). Unsure items banked Bonus; revisit if time.
 Score-II T44 (23 Mar 2025): key page contained only ONE subject's answers (verified chemistry via worked item p1_chem_s4_q02=1386); phys/math banked Bonus. Always sanity-check which subject a partial key belongs to by solving one numeric item.
 Image-only PDFs (no text layer): answer key is printed on the first solutions page ('ANSWER KEY' table, pg ~17); read page image. tesseract OCR with 28 parallel procs is too slow on 4 cores; use xargs -P4 + OMP_THREAD_LIMIT=1 if OCR is ever needed.
+Score-II T17 (13 Feb 2024): PDF truncated to 13 of 17 pages, no key -> hand-solved; unsolvable/figure ones Bonus. Check page footer 'Page N/M' vs pdfinfo to detect truncated PDFs.
