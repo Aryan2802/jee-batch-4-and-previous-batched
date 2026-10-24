@@ -2356,8 +2356,11 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 28 (20 Aug 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done"
+   "status": "in_progress",
+   "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done",
+   "started_at": "2026-10-24T11:16:40Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "SRG (Enthusiast) - Test 29 (01 Oct 2023)",
