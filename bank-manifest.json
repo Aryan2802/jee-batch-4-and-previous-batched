@@ -1879,11 +1879,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 17 (17 Apr 2022).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
-   "started_at": "2026-10-24T07:19:23Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "108 questions; 90 from key, 18 solved (6 P1 math numerical rows whose key row did not fit, 6 P2 physics decimal answers missing from the key, 6 reused solved earlier?); difficulty Easy 2, Medium 31, Hard 70, Very hard 5"
   },
   {
    "name": "Score-I - Test 18 (24 Apr 2022)",
