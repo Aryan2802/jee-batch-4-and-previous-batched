@@ -1659,8 +1659,11 @@
    "src_rel": [
     "Score 2/Source/Mains/Moderate/Score-II - Test 20 (23 Feb 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Paper-1+2 transcribed, PASS, all pages visually QA'd; wide chem Q6/Q7/Q8 figs full-width; Q8 math Σ|xixj| kept as printed"
+   "status": "in_progress",
+   "conv_note": "Paper-1+2 transcribed, PASS, all pages visually QA'd; wide chem Q6/Q7/Q8 figs full-width; Q8 math Σ|xixj| kept as printed",
+   "started_at": "2026-10-24T00:17:49Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 25 (20 Mar 2024)",
