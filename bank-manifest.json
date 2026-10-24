@@ -1450,7 +1450,7 @@
    "status": "done",
    "conv_note": "Completed 2026-09-28: two-paper test, each PAPER-1/PAPER-2 has PART-1 PHYSICS+PART-2 CHEMISTRY+PART-3 MATHEMATICS, each part 4 sections (Sec-I(i) 4 single-correct + Sec-I(ii) 3 one-or-more + Sec-I(iii",
    "note": "102 questions; 102 from key, 0 solved; bands Easy 0/Medium 37/Hard 0/Very hard 65; chapters C02 C03 C04 C06 C07 C08 C09 C10 C11 C12 C13 C16 C17 C25 C30 C31 C32 C36 M01 M02 M04 M05 M06 M07 M09 M12 M13 M14 M16 M17 M18 M20 M21 M24 M26 M27 M28 M29 M31 M32 P01 P03 P04 P05 P06 P07 P08 P09 P12 P14 P15 P16 P18 P19 P21 P22 P25",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "Score-II - Test 14 (06 Feb 2024)",
