@@ -2345,11 +2345,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 27 (13 Aug 2023).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "two papers, 141 q, 78 figs, 16 pages, lint PASS, visual QA done",
-   "started_at": "2026-10-24T11:09:08Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "key from messy key page (paper 2 mapped by section); phy q3, q18, s2 q9, q10 missing from key and solved; spot-checked chem s2 q01, q03, q05, math s2 q01, phy q12 and q20"
   },
   {
    "name": "SRG (Enthusiast) - Test 28 (20 Aug 2023)",
