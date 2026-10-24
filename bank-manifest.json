@@ -1811,7 +1811,7 @@
    "status": "done",
    "conv_note": "14 pages, 52 figs, lint PASS, visual QA done",
    "note": "144 questions; 144 from key, 0 solved; bands Easy 0/Medium 74/Hard 6/Very hard 64; chapters C11 C13 C17 C21 C22 C23 C24 C25 C30 C36 C38 M01 M02 M03 M07 M08 P07 P13 P14 P15 P16 P21 P22 P23 P24",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "Score-I - Test 03 (07 Jan 2022)",
