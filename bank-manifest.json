@@ -1042,10 +1042,13 @@
    "src_rel": [
     "Batch 4/Source/SRGBT/Foundational/SRGBT - Test 01 (25 Jul 2021).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "DONE 2026-10-20, 5pp, 10 figs",
    "note": "54 questions; 54 from key, 0 solved; chapters P01 C01 C03 C08 M01 M10",
-   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)",
+   "started_at": "2026-10-24T03:59:09Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "SRGBT - Test 02 (01 Aug 2021)",
