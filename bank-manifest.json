@@ -1174,7 +1174,7 @@
    "status": "done",
    "conv_note": "DONE 2026-10-20, 6pp, 13 figs",
    "note": "54 questions; 54 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 42; chapters C01 C08 M01 M03 M04 M10 P01 P25",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "SRGBT - Test 09 (19 Sep 2021)",
