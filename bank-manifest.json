@@ -1670,8 +1670,11 @@
    "src_rel": [
     "Score 2/Source/Mains/Moderate/Score-II - Test 25 (20 Mar 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two-paper test: P1 90Q + P2 57Q, 46 figs (9 rejected/typed, 1 added), lint PASS, all 14 pages QA'd"
+   "status": "in_progress",
+   "conv_note": "Two-paper test: P1 90Q + P2 57Q, 46 figs (9 rejected/typed, 1 added), lint PASS, all 14 pages QA'd",
+   "started_at": "2026-10-24T00:18:36Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 01 (21 Mar 2021)",
