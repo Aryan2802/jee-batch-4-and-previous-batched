@@ -697,6 +697,18 @@ def apply(work, chapters=None, answers=None, difficulty=None):
             vh = sum(1 for q in scored if sum(q["diff_kSIC"].values()) + 1 - 1 >= 8) / n   # D>=8 even with F=0
             if vh > 0.20:
                 over.append(f"Very hard {vh:.0%} (max 20%)")
+            # user decision 24 Oct 12:05: rescored SRGBT still averaged D6.2-6.9 with D7 on up to 65% of questions;
+            # the good group averages D4.2 (90% of tests <= 5.8, hardest honest Advanced rescore 6.2)
+            secs = collections.defaultdict(list)
+            for q in data["questions"]:
+                secs[(q["paper"], q["subject"], q["secno"])].append(q)
+            dv = [diff_score(q["diff_kSIC"], qtype(secs[(q["paper"], q["subject"], q["secno"])]))[0] for q in scored]
+            md = sum(dv) / n
+            if md > 6.3:
+                over.append(f"mean difficulty {md:.1f} (max 6.3)")
+            top = collections.Counter(dv).most_common(1)[0]
+            if top[1] / n > 0.50:
+                over.append(f"D{top[0]} on {top[1] / n:.0%} of questions (max 50%) - a default score, not a judgement")
             if over:
                 errs.append("difficulty looks inflated: " + ", ".join(over) + " - K counts distinct laws/methods "
                             "(the first law is ONE concept even if work, dU and heat all appear), C2 is for genuinely "
