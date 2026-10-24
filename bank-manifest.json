@@ -1416,8 +1416,11 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 23 (17 Mar 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Paper 1 only; PHYSICS, CHEMISTRY, MATHEMATICS each 3 sections x 6 q = 54 questions; 27 figures (maths text-only)"
+   "status": "in_progress",
+   "conv_note": "Paper 1 only; PHYSICS, CHEMISTRY, MATHEMATICS each 3 sections x 6 q = 54 questions; 27 figures (maths text-only)",
+   "started_at": "2026-10-24T00:02:18Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "starting"
   },
   {
    "name": "Score-II - Test 26 (20 Mar 2024)",
