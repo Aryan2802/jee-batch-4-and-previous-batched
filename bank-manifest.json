@@ -1284,10 +1284,13 @@
    "src_rel": [
     "Score 2/Source/Advanced/Challenging/Score-II - Test 18 (13 Feb 2024).pdf"
    ],
-   "status": "done",
+   "status": "in_progress",
    "conv_note": "",
    "note": "54 questions; 37 from key, 17 solved; bands Easy 0/Medium 16/Hard 2/Very hard 36; chapters C02 C04 C07 C08 C11 C14 C16 C17 C19 C25 C30 C31 C33 C36 M01 M02 M03 M04 M05 M06 M08 M11 M12 M17 M18 M20 M23 M24 M27 M31 P02 P04 P05 P07 P08 P09 P10 P11 P12 P17 P18 P20 P21",
-   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay",
+   "started_at": "2026-10-24T04:26:51Z",
+   "claimed_by": "vm-f3fb8f30",
+   "progress_note": "fix: rescore difficulty v4 (template reasons; see BANK_LEARNINGS.md THIRD AUDIT + user decision 24 Oct 09:50): redo difficulty.tsv question by question, solving each, within the limits; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
   },
   {
    "name": "Score-II - Test 29 (26 Mar 2024)",
