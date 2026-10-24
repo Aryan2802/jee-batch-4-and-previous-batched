@@ -1793,8 +1793,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 10 (24 Feb 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages"
+   "status": "hold",
+   "conv_note": "Single paper P1 only; 23 figs, 5 maybe-text rejected+typeset; lint PASS; 6 pages",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 11 (27 Feb 2022)",
@@ -1803,8 +1804,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 11 (27 Feb 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+   "status": "hold",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 17 (17 Apr 2022)",
@@ -1813,8 +1815,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 17 (17 Apr 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+   "status": "hold",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 18 (24 Apr 2022)",
@@ -1823,8 +1826,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 18 (24 Apr 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)"
+   "status": "hold",
+   "conv_note": "done earlier; status restored (outputs present in Batch 3 Converted)",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 19 (20 Nov 2022)",
@@ -1833,8 +1837,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 19 (20 Nov 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "54 q, 6 pages, 24 images, lint PASS"
+   "status": "hold",
+   "conv_note": "54 q, 6 pages, 24 images, lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 22 (04 Dec 2022)",
@@ -1843,8 +1848,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 22 (04 Dec 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "54 q, 8 pages, 53 images, lint PASS"
+   "status": "hold",
+   "conv_note": "54 q, 8 pages, 53 images, lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 24 (11 Dec 2022)",
@@ -1853,8 +1859,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 24 (11 Dec 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "54 q, 6 pages, 18 images, lint PASS"
+   "status": "hold",
+   "conv_note": "54 q, 6 pages, 18 images, lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 26 (18 Dec 2022)",
@@ -1863,8 +1870,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Moderate/Score-I - Test 26 (18 Dec 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS"
+   "status": "hold",
+   "conv_note": "19 q (6+4+6+3 per subject), 6 pages, 5 images, lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Score-I - Test 31 (29 Dec 2022)",
@@ -1873,8 +1881,9 @@
    "src_rel": [
     "Batch 3/Source/Score-I/Advanced/Very Challenging/Score-I - Test 31 (29 Dec 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS"
+   "status": "hold",
+   "conv_note": "144 q (P1 18/subject + P2 30/subject), 15 pages, 52 images, lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 01 (24 Jan 2021)",
@@ -1883,8 +1892,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 01 (24 Jan 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done"
+   "status": "hold",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections x 6 = 108 questions; 36 figures; lint PASS, visual QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 02 (04 Feb 2021)",
@@ -1893,8 +1903,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 02 (04 Feb 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections (P1 Sec I split I(i)/I(ii)) = 108 questions; 70 figures; lint PASS, visual QA done"
+   "status": "hold",
+   "conv_note": "Two papers (P1+P2), each Physics/Chemistry/Mathematics with 3 sections (P1 Sec I split I(i)/I(ii)) = 108 questions; 70 figures; lint PASS, visual QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 03 (01 Mar 2021)",
@@ -1903,8 +1914,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 03 (01 Mar 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done"
+   "status": "hold",
+   "conv_note": "Both papers transcribed; 61 figures (option figs recropped, fragments rejected/typeset); lint PASS; visual QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 04 (04 Apr 2021)",
@@ -1913,8 +1925,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 04 (04 Apr 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done"
+   "status": "hold",
+   "conv_note": "Both papers transcribed; 40 figures (split/duplicate fragments merged or rejected, formulas typeset); lint PASS; visual QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 05 (11 Apr 2021)",
@@ -1923,8 +1936,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 05 (11 Apr 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 60 figs, lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers, 60 figs, lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 06 (22 Apr 2021)",
@@ -1933,8 +1947,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 06 (22 Apr 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 58 figs, lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers, 58 figs, lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 07 (25 Apr 2021)",
@@ -1943,8 +1958,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 07 (25 Apr 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 66 figs, lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers, 66 figs, lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 08 (01 May 2021)",
@@ -1953,8 +1969,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 08 (01 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 56 figs, lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers, 56 figs, lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 09 (07 May 2021)",
@@ -1963,8 +1980,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 09 (07 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 59 figs, lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers, 59 figs, lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 10 (13 May 2021)",
@@ -1973,8 +1991,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 10 (13 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 46 figs, lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers, 46 figs, lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 11 (20 May 2021)",
@@ -1983,8 +2002,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 11 (20 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers, 49 figs (1 rejected formula crop, 3 added chem rows), 14 pages, lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 12 (25 May 2021)",
@@ -1993,8 +2013,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 12 (25 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages"
+   "status": "hold",
+   "conv_note": "14 pages, 77 figs; both papers (P1 phy/chem/maths 10+10; P2 5+8+5 per subject incl. matching tables) typed, lint PASS, visual QA all pages",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 13 (31 May 2021)",
@@ -2003,8 +2024,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 13 (31 May 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers; P1 18+18+18, P2 23+23+23 questions (SEC-1..5 in P2); 48 figures; lint PASS"
+   "status": "hold",
+   "conv_note": "2 papers; P1 18+18+18, P2 23+23+23 questions (SEC-1..5 in P2); 48 figures; lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 14 (06 Jun 2021)",
@@ -2013,8 +2035,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 14 (06 Jun 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Done: 2 papers x 3 parts, 70 figs (5 rejected/typeset), lint PASS, QA viewed 13 pages"
+   "status": "hold",
+   "conv_note": "Done: 2 papers x 3 parts, 70 figs (5 rejected/typeset), lint PASS, QA viewed 13 pages",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "JEE Advanced (2021 Series) - Test 15 (12 Jun 2021)",
@@ -2023,8 +2046,9 @@
    "src_rel": [
     "Batch 2/Source/JEE Advanced (2021 Series)/Advanced/Very Challenging/JEE Advanced (2021 Series) - Test 15 (12 Jun 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
+   "status": "hold",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 01 (08 Oct 2023)",
@@ -2033,8 +2057,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 01 (08 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
+   "status": "hold",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 02 (15 Oct 2023)",
@@ -2043,8 +2068,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 02 (15 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Done: transcribed, lint PASS, visual QA complete"
+   "status": "hold",
+   "conv_note": "Done: transcribed, lint PASS, visual QA complete",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 03 (22 Oct 2023)",
@@ -2053,8 +2079,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 03 (22 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "18 pp, 138 imgs; recropped s3 q02/q04 rows, anchors fixed q10->q11,q11->q12 list-match"
+   "status": "hold",
+   "conv_note": "18 pp, 138 imgs; recropped s3 q02/q04 rows, anchors fixed q10->q11,q11->q12 list-match",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 04 (29 Oct 2023)",
@@ -2063,8 +2090,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 04 (29 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "13pp, 38 figs, 6 parts; lint PASS"
+   "status": "hold",
+   "conv_note": "13pp, 38 figs, 6 parts; lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 05 (05 Nov 2023)",
@@ -2073,8 +2101,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 05 (05 Nov 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS"
+   "status": "hold",
+   "conv_note": "13pp, 31 figs, 6 parts, 19 q/part; lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 06 (20 Nov 2023)",
@@ -2083,8 +2112,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Challenging/Pre-Score (2023-24) - Test 06 (20 Nov 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "13pp, 2 papers x 3 parts, 102 q (17/part), 24 sections, 50 figs; complete output found in FINAL OUTPUT (prior session died before marking); counts verified vs checklist"
+   "status": "hold",
+   "conv_note": "13pp, 2 papers x 3 parts, 102 q (17/part), 24 sections, 50 figs; complete output found in FINAL OUTPUT (prior session died before marking); counts verified vs checklist",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 07 (29 Nov 2023)",
@@ -2093,8 +2123,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 07 (29 Nov 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done"
+   "status": "hold",
+   "conv_note": "2 papers x 3 parts; 6x18 q (P1: 6+4+8, P2: 4+6+8 per subject); 18 sections; 35 figs (4 crops rejected+typeset: 3 tables, 1 reaction line); lint PASS, QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "Pre-Score (2023-24) - Test 08 (03 Dec 2023)",
@@ -2103,8 +2134,9 @@
    "src_rel": [
     "Batch 2/Source/Pre-Score (2023-24)/Advanced/Very Challenging/Pre-Score (2023-24) - Test 08 (03 Dec 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Paper 1+2, 17 q/subject each, 54 figs; lint PASS"
+   "status": "hold",
+   "conv_note": "Paper 1+2, 17 q/subject each, 54 figs; lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 01 (20 Sep 2020)",
@@ -2113,8 +2145,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 01 (20 Sep 2020).pdf"
    ],
-   "status": "pending",
-   "conv_note": "single paper 18q/subject, 24 figs, 7pp; lint PASS"
+   "status": "hold",
+   "conv_note": "single paper 18q/subject, 24 figs, 7pp; lint PASS",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 02 (04 Oct 2020)",
@@ -2123,8 +2156,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 02 (04 Oct 2020).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 03 (18 Nov 2020)",
@@ -2133,8 +2167,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 03 (18 Nov 2020).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 04 (29 Nov 2020)",
@@ -2143,8 +2178,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 04 (29 Nov 2020).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 07 (27 Jun 2021)",
@@ -2153,8 +2189,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 07 (27 Jun 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 11 (29 Aug 2021)",
@@ -2163,8 +2200,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 11 (29 Aug 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 12 (19 Sep 2021)",
@@ -2173,8 +2211,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 12 (19 Sep 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 13 (10 Oct 2021)",
@@ -2183,8 +2222,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 13 (10 Oct 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 14 (21 Nov 2021)",
@@ -2193,8 +2233,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 14 (21 Nov 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": ""
+   "status": "hold",
+   "conv_note": "",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 15 (19 Dec 2021)",
@@ -2203,8 +2244,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Moderate/SRG (Enthusiast) - Test 15 (19 Dec 2021).pdf"
    ],
-   "status": "pending",
-   "conv_note": "single paper P1: phy 6+6+6, chem 6+6+6, math 6+6+6 = 54 q, 6 pp, 15 figs (physics only; chem/math all text)"
+   "status": "hold",
+   "conv_note": "single paper P1: phy 6+6+6, chem 6+6+6, math 6+6+6 = 54 q, 6 pp, 15 figs (physics only; chem/math all text)",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 16 (12 Jan 2022)",
@@ -2213,8 +2255,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 16 (12 Jan 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs"
+   "status": "hold",
+   "conv_note": "two papers: P1 phy/chem/math 18+18+18 (I(i) 6, I(ii) 6, II 6); P2 phy/chem/math 18+18+18 (I(i) 4, I(ii) 8, II 6) = 108 q, 13 pp, 49 figs",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 22 (18 Sep 2022)",
@@ -2223,8 +2266,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 22 (18 Sep 2022).pdf"
    ],
-   "status": "pending",
-   "conv_note": "single paper 60 q, 84 figs, 8 pages, lint PASS, visual QA done"
+   "status": "hold",
+   "conv_note": "single paper 60 q, 84 figs, 8 pages, lint PASS, visual QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 27 (13 Aug 2023)",
@@ -2233,8 +2277,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 27 (13 Aug 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "two papers, 141 q, 78 figs, 16 pages, lint PASS, visual QA done"
+   "status": "hold",
+   "conv_note": "two papers, 141 q, 78 figs, 16 pages, lint PASS, visual QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 28 (20 Aug 2023)",
@@ -2243,8 +2288,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 28 (20 Aug 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done"
+   "status": "hold",
+   "conv_note": "single paper 54 q, 18 figs, 6 pages, lint PASS, visual QA done",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 29 (01 Oct 2023)",
@@ -2253,8 +2299,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 29 (01 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "54 q, 12 figs, 6 pp"
+   "status": "hold",
+   "conv_note": "54 q, 12 figs, 6 pp",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 30 (22 Oct 2023)",
@@ -2263,8 +2310,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Very Challenging/SRG (Enthusiast) - Test 30 (22 Oct 2023).pdf"
    ],
-   "status": "pending",
-   "conv_note": "114 q (two papers), 29 figs, 12 pp"
+   "status": "hold",
+   "conv_note": "114 q (two papers), 29 figs, 12 pp",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 36 (25 Aug 2024)",
@@ -2273,8 +2321,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 36 (25 Aug 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "51 q, 29 figs, 6 pp"
+   "status": "hold",
+   "conv_note": "51 q, 29 figs, 6 pp",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 37 (11 Sep 2024)",
@@ -2283,8 +2332,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 37 (11 Sep 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "54 q, 18 figs, 6 pp"
+   "status": "hold",
+   "conv_note": "54 q, 18 figs, 6 pp",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 38 (15 Sep 2024)",
@@ -2293,8 +2343,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 38 (15 Sep 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper, 60 q (10+10 per subject), 25 figs; 2 rejected (formula crops)"
+   "status": "hold",
+   "conv_note": "Single paper, 60 q (10+10 per subject), 25 figs; 2 rejected (formula crops)",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   },
   {
    "name": "SRG (Enthusiast) - Test 39 (15 Sep 2024)",
@@ -2303,8 +2354,9 @@
    "src_rel": [
     "Batch 2/Source/SRG (Enthusiast)/Challenging/SRG (Enthusiast) - Test 39 (15 Sep 2024).pdf"
    ],
-   "status": "pending",
-   "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected"
+   "status": "hold",
+   "conv_note": "Single paper, 54 q (6+6+6 per subject), 24 figs kept, 0 rejected",
+   "hold_note": "audit 24 Oct 06:15 IST: banking paused (templated difficulty); do not claim"
   }
  ]
 }
