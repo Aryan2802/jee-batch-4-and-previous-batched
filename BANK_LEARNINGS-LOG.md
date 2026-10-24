@@ -260,3 +260,10 @@ Score-II T17 (13 Feb 2024): PDF truncated to 13 of 17 pages, no key -> hand-solv
 - Score-II "alt" format papers (18, 29, 32): "Paragraph for Questions 1 and 2" is NOT attached to its questions and the paragraph for 3 and 4 is appended to the text of question 2 (with its figure). Fix before apply: add entries to questions.json "groups" ({id, first, last, text}), set q["group"], cut the stray paragraph out of question 2 and copy the paragraph images from the -img folder. A group needs ONE chapter and the same subtopic for all its questions.
 - The All Star Batch keys can print a wrong letter (Score-II 32 math Q3: key A, integral is 6-pi/4 = D) and letters in numerical slots (Score-II 18 math); score those from your own solution and say so in the working. Score-II 18 math s2 q06 on Score-I 10 (integral = 1, key shows 2).
 - Printed ranges (e.g. "5.81 to 5.83") are kept as printed.
+## 2026-10-24 05:35 UTC - user decision 10:57 IST: worst inflated tests re-queued
+- 45 of the 67 "inflated" finished tests (group B) were measured as terrible (mean D >= 6.5, or D>=8 on >= 30% of
+  questions, or C2 on >= 50%; the good group's medians are mean 4.2, D>=8 0%, C2 0%) plus Score-II Test 04 (rescored
+  before the limits existed: C2 80%, D>=8 42%). They now carry fix_note "rescore difficulty v4 (inflated ...)": treat
+  them exactly like the template rescoring - redo difficulty.tsv question by question within the limits, nothing else.
+- The other 22 group B tests (TMAS, TNAS, Star Review, Internal Test, Nurture, TEAS, TOPS 02/04, Score Advanced
+  02/04/05) are acceptable and stay as they are.
