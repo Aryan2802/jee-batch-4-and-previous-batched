@@ -1366,7 +1366,7 @@
    "status": "done",
    "conv_note": "Completed 2026-09-27: single paper, no Paper-1/2 split. PART-1 PHYSICS + PART-2 CHEMISTRY + PART-3 MATHEMATICS, each plain Section-I 10Q one-or-more-correct + Section-II 8Q numerical value = 18Q/part,",
    "note": "54 questions; 38 from key, 16 solved; bands Easy 0/Medium 1/Hard 0/Very hard 53; chapters C03 C04 C09 C12 C14 C16 C21 C23 C25 C30 C32 C33 C36 C37 M01 M02 M03 M04 M05 M07 M14 M18 M20 M23 M24 M26 M32 P02 P05 P06 P07 P08 P10 P12 P14 P16 P17 P18 P21",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "Score-II - Test 13 (06 Feb 2024)",
