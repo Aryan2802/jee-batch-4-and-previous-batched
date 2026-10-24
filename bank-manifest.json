@@ -1462,7 +1462,7 @@
    "status": "done",
    "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 4 single-correct + Sec-I(ii) 6 one-or-more + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-integer = 19Q/part, 5",
    "note": "57 questions; 55 from key, 2 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C03 C07 C09 C10 C11 C15 C16 C20 C25 C33 C36 C37 M03 M04 M06 M07 M13 M16 M17 M21 M23 M25 M26 M27 M28 M29 P04 P05 P08 P10 P15 P17 P18 P19 P20 P21 P22",
-   "fix_note": "rescore difficulty v3 (audit 24 Oct, see BANK_LEARNINGS.md SECOND AUDIT): redo difficulty.tsv question by question; restore printed numerical key ranges in answers.tsv; chapters, subtopics, other answers stay"
+   "fix_note": "rescore difficulty: templated reasons (audit 24 Oct)"
   },
   {
    "name": "Score-II - Test 16 (09 Feb 2024)",
