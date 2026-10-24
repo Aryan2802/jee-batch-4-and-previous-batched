@@ -1482,11 +1482,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 38 (12 Feb 2025).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Adv Very Challenging; 1 paper, 3 parts x (I(i) 6 + I(ii) 6 + II 6) = 54 Q; 32 figures",
-   "started_at": "2026-10-24T00:05:47Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "54 questions; 52 from key, 2 solved; bands Easy 0/Medium 19/Hard 6/Very hard 29; chapters C01 C04 C07 C10 C11 C13 C14 C15 C16 C29 C31 C32 C36 M02 M03 M04 M05 M06 M11 M17 M20 M22 M23 M24 M27 M31 M32 P02 P03 P04 P05 P09 P10 P12 P15 P17 P18 P20 P21 P25"
   },
   {
    "name": "Score-II - Test 39 (02 Mar 2025)",
