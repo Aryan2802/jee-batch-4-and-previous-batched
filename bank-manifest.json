@@ -1394,11 +1394,9 @@
    "src_rel": [
     "Score 2/Source/Advanced/Very Challenging/Score-II - Test 16 (09 Feb 2024).pdf"
    ],
-   "status": "in_progress",
+   "status": "done",
    "conv_note": "Completed 2026-09-28: single paper, PART-1/2/3 each Sec-I(i) 6 one-or-more + Sec-I(ii) 4 single-correct (2 paragraphs) + Sec-II(i) 6 paragraph-numerical (3 stems x2) + Sec-II(ii) 3 non-negative-intege",
-   "started_at": "2026-10-24T00:01:13Z",
-   "claimed_by": "vm-f3fb8f30",
-   "progress_note": "starting"
+   "note": "57 questions; 57 from key, 0 solved; bands Easy 0/Medium 12/Hard 0/Very hard 45; chapters C04 C11 C14 C16 C18 C31 C33 C36 C37 M02 M04 M07 M16 M17 M19 M20 M22 M23 M25 M27 M32 P05 P07 P08 P09 P10 P11 P15 P19 P20 P21 P23"
   },
   {
    "name": "Score-II - Test 21 (14 Mar 2024)",
